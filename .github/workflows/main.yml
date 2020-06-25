@@ -10,7 +10,7 @@ jobs:
       - name: Run Hugo via SSH
         uses: garygrossgarten/github-action-ssh@release
         with:
-          command: cd me30-website; git pull https://github.com/pingswept/me30-website.git; /snap/bin/hugo
+          command: cd me30-website; git pull https://github.com/pingswept/me30-website.git; /snap/bin/hugo; cp -r ./public/* /var/www/html/
           host: 23.239.11.134
           username: root
           passphrase: ${{ secrets.PASSPHRASE }}
