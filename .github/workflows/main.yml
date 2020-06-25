@@ -7,10 +7,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: ls -a via OPEN SSH Private Key
+      - name: Run Hugo via SSH
         uses: garygrossgarten/github-action-ssh@release
         with:
-          command: ls -a
+          command: cd me30-website; git pull https://github.com/pingswept/me30-website.git; hugo
           host: 23.239.11.134
           username: root
           passphrase: ${{ secrets.PASSPHRASE }}
