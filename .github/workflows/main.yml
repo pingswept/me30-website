@@ -11,8 +11,8 @@ jobs:
         uses: garygrossgarten/github-action-ssh@release
         with:
           command: ls -a
-          host: root@23.239.11.134:22
-          username: garygrossgarten
+          host: 23.239.11.134
+          username: root
           passphrase: ${{ secrets.PASSPHRASE }}
           privateKey: ${{ secrets.PRIVATE_KEY}}
 
