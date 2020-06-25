@@ -1,9 +1,18 @@
-name: SSH Execute Commands
-uses: JimCronqvist/action-ssh@0.1.1
-with:
-  hosts: 'root@23.239.11.134'
-  privateKey: ${{ secrets.PRIVATE_KEY }}
-  debug: true
-  command: |
-    ls -lah
-    echo "I am $NAME"
+name: Command via SSH
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: SSH Execute Commands
+        uses: JimCronqvist/action-ssh@0.1.1
+        with:
+          hosts: 'root@23.239.11.134'
+         privateKey: ${{ secrets.PRIVATE_KEY }}
+         debug: true
+         command: |
+           ls -lah
+           echo "I am $NAME"
