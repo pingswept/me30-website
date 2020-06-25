@@ -1,4 +1,4 @@
-name: Run Hugo via SSH
+name: Run Hugo with SSH
 
 on: push
 
