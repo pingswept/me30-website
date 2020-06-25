@@ -13,6 +13,4 @@ jobs:
           hosts: 'root@23.239.11.134'
           privateKey: ${{ secrets.PRIVATE_KEY }}
           debug: true
-          command: |
-            ls -lah
-            echo "I am $NAME"
+          command: ls -lah
