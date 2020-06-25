@@ -12,5 +12,5 @@ jobs:
         with:
           hosts: 'root@23.239.11.134:22'
           privateKey: ${{ secrets.PRIVATE_KEY }}
-          debug: true
+          debug: false
           command: ls -lah
