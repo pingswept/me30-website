@@ -11,8 +11,8 @@ jobs:
         uses: JimCronqvist/action-ssh@0.1.1
         with:
           hosts: 'root@23.239.11.134'
-         privateKey: ${{ secrets.PRIVATE_KEY }}
-         debug: true
-         command: |
-           ls -lah
-           echo "I am $NAME"
+          privateKey: ${{ secrets.PRIVATE_KEY }}
+          debug: true
+          command: |
+            ls -lah
+            echo "I am $NAME"
