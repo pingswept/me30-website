@@ -1,7 +1,7 @@
 ---
 title: "Syllabus"
 date: 2020-06-24T16:58:56-04:00
-draft: true
+draft: false
 ---
 # Electromechanical Systems and Robotics I Syllabus
 
