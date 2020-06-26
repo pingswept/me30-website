@@ -1,44 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>My New Hugo Site</title>
-    <link>http://example.org/</link>
-    <description>Recent content on My New Hugo Site</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 24 Jun 2020 16:58:56 -0400</lastBuildDate>
-    
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Syllabus</title>
-      <link>http://example.org/course/syllabus/</link>
-      <pubDate>Wed, 24 Jun 2020 16:58:56 -0400</pubDate>
-      
-      <guid>http://example.org/course/syllabus/</guid>
-      <description>Electromechanical Systems and Robotics I Syllabus#ME 30, Electromechanical Systems and Robotics I, Section 01, class number 83723
-Course description#A project-based hands-on electronics boot camp, focusing on the design and fabrication of printed circuit boards and interfacing with microcontrollers from the Arduino and Raspberry Pi families.
-Course goals#The goal of Electromechanical Systems and Robotics is to force students to gain experience with the practical challenges of building electrical hardware.</description>
-    </item>
-    
-    <item>
-      <title>I2c</title>
-      <link>http://example.org/notes/i2c/</link>
-      <pubDate>Wed, 24 Jun 2020 16:58:30 -0400</pubDate>
-      
-      <guid>http://example.org/notes/i2c/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Test</title>
-      <link>http://example.org/videos/test/</link>
-      <pubDate>Wed, 24 Jun 2020 16:57:42 -0400</pubDate>
-      
-      <guid>http://example.org/videos/test/</guid>
-      <description></description>
-    </item>
-    
-  </channel>
-</rss>
