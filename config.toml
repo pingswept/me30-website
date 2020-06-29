@@ -3,5 +3,9 @@ languageCode = "en-us"
 title = "Tufts ME-30"
 theme = "book"
 enableGitInfo = true
+[params]
+  BookSection = '*'
+  BookRepo = 'https://github.com/pingswept/me30-website'
+  BookEditPath = 'edit/master/me30-website'
 [markup.goldmark.renderer]
 unsafe= true
