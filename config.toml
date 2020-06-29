@@ -2,5 +2,6 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Tufts ME-30"
 theme = "book"
+enableGitInfo = true
 [markup.goldmark.renderer]
 unsafe= true
