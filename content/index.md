@@ -1,3 +1,8 @@
+---
+title: "ME 30: Electromechanical Systems and Robotics 1"
+date: 2020-06-29T14:48:56-04:00
+draft: false
+---
 # Electronics for Mechanical Engineers
 
 _Electronics for Mechanical Engineers_ is a class developed by Brandon Stafford, first taught in the spring of 2018 at Tufts University, now returning for a second year.
