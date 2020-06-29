@@ -1,5 +1,6 @@
 ---
 title: "H-bridge motor driver"
+type: "docs"
 date: 2020-06-28T16:58:30-04:00
 draft: false
 ---
