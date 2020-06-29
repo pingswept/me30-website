@@ -2,3 +2,5 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Tufts ME-30"
 theme = "book"
+[markup.goldmark.renderer]
+unsafe= true
