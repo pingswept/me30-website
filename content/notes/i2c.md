@@ -15,9 +15,15 @@ I<sup>2</sup>C is a digital communication protocol that uses 3 wires to talk bet
 
 ## Open drain outputs and pull-up resistors
 
-If you have a whole bunch of chips connected to the same three wires, there's a decent chance that one of them might starting to transmit at the same time as another. If one of them sends a high signal while the other is trying to send a low signal, this is like shorting power to ground, so one or both of the chips burns out. Chips that implement I<sup>2</sup>C avoid this by using special piece of hardware called an "open drain output." Instead of having two stacked transistors inside the chip to connect to emit either a high or low signal, an open drain output has only one transistor, the source of which is connected to ground. The gate is connected to control circuitry inside the chip, and the third terminal, the drain, is left open. (See, open drain?) This means that each chip can pull the clock or data lines low, but none of them can pull the lines high, so they can never burn each other out.
+If you have a whole bunch of chips connected to the same three wires, there's a decent chance that one of them might starting to transmit at the same time as another. If one of them sends a high signal while the other is trying to send a low signal, this is like shorting power to ground, so one or both of the chips burns out.
+
+Chips that implement I<sup>2</sup>C avoid this by using special piece of hardware called an "open drain output." Instead of having two stacked transistors inside the chip to connect to emit either a high or low signal, an open drain output has only one transistor, the source of which is connected to ground. The gate is connected to control circuitry inside the chip, and the third terminal, the drain, is left open. (See, open drain?) This means that each chip can pull the clock or data lines low, but none of them can pull the lines high, so they can never burn each other out.
+
+Here's a comparison of a normal push-pull output, which can go high or low, and an open drain output, which can only pull low.
 
 ![open drain output](/img/i2c-open-drain.png)
+
+If you want to know more about I<sup>2</sup>C, it's not crazy to try reading [the 64-page specification](pdf/i2c-specification-UM10204.pdf) that NXP has released. (That *is* crazy for something like Bluetooth Low Energy. I just checked; the BLE 5.2 specification is 3256 pages long.)
 
 Video test
 
