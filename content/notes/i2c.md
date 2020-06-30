@@ -11,7 +11,7 @@ I<sup>2</sup>C is a digital communication protocol that uses 3 wires to talk bet
  2. A data line, SDA
  3. Ground, GND
 
-![I2C schematic](/img/i2c-schematic.jpg)
+![I2C schematic](/img/i2c-schematic.png)
 
 ## Open drain outputs and pull-up resistors
 
