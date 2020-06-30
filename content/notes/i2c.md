@@ -23,7 +23,7 @@ Here's a comparison of a normal push-pull output, which can go high or low, and 
 
 ![open drain output](/img/i2c-open-drain.png)
 
-If you want to know more about I<sup>2</sup>C, it's not crazy to try reading [the 64-page specification](pdf/i2c-specification-UM10204.pdf) that NXP has released. (That *is* crazy for something like Bluetooth Low Energy. I just checked; the BLE 5.2 specification is 3256 pages long.)
+If you want to know more about I<sup>2</sup>C, it's not crazy to try reading [the 64-page specification](/pdf/i2c-specification-UM10204.pdf) that NXP has released. (That *is* crazy for something like Bluetooth Low Energy. I just checked; the BLE 5.2 specification is 3256 pages long.)
 
 Video test
 
