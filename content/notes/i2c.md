@@ -3,8 +3,19 @@ title: "I2c"
 date: 2020-06-24T16:58:30-04:00
 draft: false
 ---
-This is where information about I2C will go. 
-We can post a link to the video here.
+# I<sup>2</sup>C: a digital communication protocol
+
+I<sup>2</sup>C is a digital communication protocol that uses 3 wires to talk between up to 112 different hosts in its basic addressing mode. Each host is connected to three wires:
+
+ 1. A clock line, SCK
+ 2. A data line, SDA
+ 3. Ground, GND
+
+![I2C schematic](/img/i2c-schematic.jpg)
+
+## Open drain outputs and pull-up resistors
+
+If you have a whole bunch of chips connected to the same three wires, there's a decent chance that one of them might starting to transmit at the same time as another. If one of them sends a high signal while the other is trying to send a low signal, this is like shorting power to ground, so one or both of the chips burns out. Chips that implement I<sup>2</sup>C avoid this by using special piece of hardware called an "open drain output." Instead of having two stacked transistors inside the chip to connect to emit either a high or low signal, an open drain output has only one transistor, the source of which is connected to ground. The gate is connected to control circuitry inside the chip, and the third terminal, the drain, is left open. (See, open drain?) This means that each chip can pull the clock or data lines low, but none of them can pull the lines high, so they can never burn each other out.
 
 Video test
 
