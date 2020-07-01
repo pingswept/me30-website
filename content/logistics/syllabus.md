@@ -30,7 +30,21 @@ Kristen's office hours are:
 
 *   TBD
 
-## Textbooks
+## Course expenses
+
+### Electronics kits
+
+We will buy you a bunch of stuff, and then you will give us $30. Need more details here. Let's link to a list of the kit contents on a different page, but list the total cost here.
+
+### Printed circuit board fabrication
+
+For this course, we will order PCBs from [OSHPark](https://docs.oshpark.com/services/two-layer/) in Lake Oswego, Oregon. Each of you will place two, or possibly 3, PCB orders over the course of the semester.
+
+Each of the 2 or 3 orders will cost around $10. (The price is actually $5 per square inch. If you can make your boards smaller, they will be cheaper, but most of the boards end up being around 2 square inches.)
+
+Shipping is free.
+
+### Textbooks
 
 There are two recommended textbooks for the class. You are not required to buy either, but given our socially distant operations this fall, you are encouraged to consider more independent modes of learning as a supplement to the rest of the course.
 
