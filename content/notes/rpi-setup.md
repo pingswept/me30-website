@@ -37,17 +37,20 @@ draft: false
 
 **What OS image should I use?**
 
-Unless you have a good reason not to, you should start with [Raspbian Stretch Lite](https://www.raspberrypi.org/downloads/raspbian/). The file you'll be downloading is called `2017-11-29-raspbian-stretch-lite.zip`
+Unless you have a good reason not to, you should start with [Raspberry Pi OS](https://www.raspberrypi.org/downloads/raspbian/). Previously called Raspbian, the OS should be based on Debian Buster or newer (as older versions will not work with a Pi 4). If you are unsure what this means, go ahead and get the `
+Raspberry Pi OS (32-bit) with desktop and recommended software` version.
 
 **How do I figure out what name is assigned to the USB-serial adapter when I plug it in?**
 
-On Windows 10, it's usually COM3\. You can check for sure in the Device Manager control panel under Ports (COM & LPT)
+On Windows 10, it's usually `COM3` (but it is not uncommon to have a different number). You can check for sure in the Device Manager control panel under Ports (COM & LPT)
 
 On macOS, it's called `/dev/tty.usbserial-123456`, but the numbers at the end change. You can check it by running `ls /dev` in Terminal.
 
+On Linux it's called `/dev/ttyACM0`, but the number will depend on how many USB devices are plugged in. As with macOS, you can check by running `ls /dev` in Terminal.
+
 **When I open config.txt with Notepad, the lines all run together. How do I fix this?**
 
-Use a better text editor, like Sublime Text, Textmate, or Notepad++. You could also try Wordpad.
+Use a better text editor, like [Sublime Text](https://www.sublimetext.com/), [Textmate](https://macromates.com/), or [Notepad++](https://notepad-plus-plus.org/). You could also try Wordpad.
 
 **What network settings do I need for the Tufts wireless network?**
 
@@ -128,7 +131,7 @@ def digital_write(pin_name, state):
     return 'Something went wrong'
 </pre>
 
-You also need to install Flask for this to work.
+You also need to install [Flask](https://pypi.org/project/Flask/) for this to work.
 
 **Wait, how do I install Flask?**
 
@@ -179,3 +182,11 @@ flask                            RUNNING   pid 14183, uptime 0:00:09
 </pre>
 
 If Supervisor can't start Flask for whatever reason, it will write error messages in the log files, which you can find in `/var/log/supervisor/`. In general, it's probably a better idea to debug your Flask code pretty thoroughly before you start using Supervisor, but if bugs come up, the log files are your best hope. You can also just stop Flask under Supervisor and going back to running Flask from the console yourself.
+
+**What do the pin numbers correspond to?**
+
+All the most recent Pi's share a standard pin format. Below is a handy guide. [This site](https://pinout.xyz/) is also an excellent resource for reference.
+
+<p align="center">
+  <img src="/img/raspberry-pi-pinout.png" />
+</p>
