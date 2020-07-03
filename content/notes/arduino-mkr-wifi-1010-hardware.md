@@ -2,6 +2,10 @@
 title: "Arduino MKR Wifi 1010 hardware"
 draft: false
 ---
+# Reference documents
+
+[Arduino MKR wifi 1010 schematic](/pdf/schematic-arduino-mkr-wifi-1010.pdf)
+
 ![Top view of Arduino MKR Wifi 1010](/img/arduino-mkr-wifi-1010-top-view.jpg)
 
 # Arduino MKR Wifi 1010 hardware overview
