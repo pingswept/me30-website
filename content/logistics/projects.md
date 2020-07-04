@@ -5,7 +5,7 @@ draft: false
 ---
 # Projects
 
-## Project #3: Build a useful, electronic thing
+## Project #4: Build a useful, electronic thing
 
 Your task is to build something electronic with the following characteristics:
 
