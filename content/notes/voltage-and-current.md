@@ -28,6 +28,8 @@ For example, take a pipe with 7 liters/minute flowing into it, which splits into
 
 **How fast is water coming out of the other pipe?**
 
+![Water flowing through pipes](/img/kirchhoff-pipes-example.png)
+
 {{< expand "See the answer" "..." >}}
 That's right, it's 3 liters/minute, because {{< katex >}}7 - 4 = 3{{< /katex >}}, or, as the mathematicians would say, {{< katex >}}7 - 4 - 3 = 0{{< /katex >}}.
 {{< /expand >}}
@@ -35,6 +37,8 @@ That's right, it's 3 liters/minute, because {{< katex >}}7 - 4 = 3{{< /katex >}}
 Now let's try the same thing with electricity. We have a circuit where 7 mA are flowing into a junction. 4 mA are coming out one wire.
 
 **How much current is coming out of the other wire?**
+
+![Electricity flowing through wires](/img/kirchhoff-current-example.png)
 
 {{< expand "See the answer" "..." >}}
 Hey, you did it! 3 mA is right!
@@ -50,11 +54,15 @@ Unfortunately, there is another law that is also typically taught in an obfuscat
 
 But you know how to use a tape measure, right? If I am 6 feet tall, and it's 2 feet from the bottom of my feet to my knees, how far is it from my knees to the top of my head?
 
+![A 6 foot tall man](/img/kirchhoff-height-example.png)
+
 {{< expand "See the answer" "..." >}}
 Yes, 4 feet is correct. Well calculated.
 {{< /expand >}}
 
 Voltage works the same way. If you have a circuit (shown below) run by a 6 V battery, and there is a 2 V drop across the LED, how many volts are there across the resistor?
+
+![Battery resistor, led loop](/img/kirchhoff-voltage-example.png)
 
 {{< expand "See the answer" "..." >}}
 Hey, you did it again! 4 V is right!
