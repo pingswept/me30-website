@@ -26,7 +26,7 @@ The letter {{< katex >}}I{{< /katex >}} refers to current, because, [according t
 
 For example, take a pipe with 7 liters/minute flowing into it, which splits into two pipes. One of the pipes has 4 liters/minute coming out of it.
 
-![Water flowing through pipes](/img/kirchhoff-pipes-example.png)
+![Water flowing through pipes](/img/kirchhoff-pipe-example.png)
 
 **How fast is water coming out of the other pipe?**
 
