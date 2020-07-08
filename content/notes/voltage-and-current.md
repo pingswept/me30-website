@@ -26,9 +26,9 @@ The letter {{< katex >}}I{{< /katex >}} refers to current, because, [according t
 
 For example, take a pipe with 7 liters/minute flowing into it, which splits into two pipes. One of the pipes has 4 liters/minute coming out of it.
 
-**How fast is water coming out of the other pipe?**
-
 ![Water flowing through pipes](/img/kirchhoff-pipes-example.png)
+
+**How fast is water coming out of the other pipe?**
 
 {{< expand "See the answer" "..." >}}
 That's right, it's 3 liters/minute, because {{< katex >}}7 - 4 = 3{{< /katex >}}, or, as the mathematicians would say, {{< katex >}}7 - 4 - 3 = 0{{< /katex >}}.
@@ -36,9 +36,9 @@ That's right, it's 3 liters/minute, because {{< katex >}}7 - 4 = 3{{< /katex >}}
 
 Now let's try the same thing with electricity. We have a circuit where 7 mA are flowing into a junction. 4 mA are coming out one wire.
 
-**How much current is coming out of the other wire?**
-
 ![Electricity flowing through wires](/img/kirchhoff-current-example.png)
+
+**How much current is coming out of the other wire?**
 
 {{< expand "See the answer" "..." >}}
 Hey, you did it! 3 mA is right!
@@ -52,17 +52,21 @@ Unfortunately, there is another law that is also typically taught in an obfuscat
 \sum_{k=1}^{n} V_k = 0
 {{< /katex >}}
 
-But you know how to use a tape measure, right? If I am 6 feet tall, and it's 2 feet from the bottom of my feet to my knees, how far is it from my knees to the top of my head?
+But you know how to use a tape measure, right?
 
 ![A 6 foot tall man](/img/kirchhoff-height-example.png)
+
+If I am 6 feet tall, and it's 2 feet from the bottom of my feet to my knees, how far is it from my knees to the top of my head?
 
 {{< expand "See the answer" "..." >}}
 Yes, 4 feet is correct. Well calculated.
 {{< /expand >}}
 
-Voltage works the same way. If you have a circuit (shown below) run by a 6 V battery, and there is a 2 V drop across the LED, how many volts are there across the resistor?
+Voltage works the same way.
 
 ![Battery resistor, led loop](/img/kirchhoff-voltage-example.png)
+
+If you have a circuit run by a 6 V battery, and there is a 2 V drop across the LED, how many volts are there across the resistor?
 
 {{< expand "See the answer" "..." >}}
 Hey, you did it again! 4 V is right!
