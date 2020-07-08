@@ -16,6 +16,8 @@ To give you an idea of scale, microcontrollers and phones run on currents of 1-1
 
 But current doesn't tell the whole story. Voltage tells the rest. Voltage is a measure of potential energy per electron.
 
+**Need more explanation of voltage here**
+
 ## Kirchhoff's Current Law
 
 There are two rules that can be useful in thinking about electricity flowing in circuits. When mathematicians and similar notation enthusiasts describe Kirchhoff's current law, they do it like this:
