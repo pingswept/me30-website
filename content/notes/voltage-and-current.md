@@ -19,3 +19,9 @@ But current doesn't tell the whole story. Voltage tells the rest. Voltage is a m
 ## Kirchhoff's Current and Voltage Laws
 
 There are two rules that can be useful in thinking about electricity flowing in circuits.
+{{< katex display >}}
+\sum_{k=1}^{n} I_k = 0
+{{< /katex >}}
+{{< katex display >}}
+\sum_{k=1}^{n} V_k = 0
+{{< /katex >}}
