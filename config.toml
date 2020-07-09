@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Tufts ME-30"
 theme = "book"
 enableGitInfo = true
+staticDir = ["/"]
 [params]
   BookSection = '*'
   BookRepo = 'https://github.com/pingswept/me30-website'
