@@ -14,15 +14,15 @@ When we say something behaves linearly, we just mean that if you double the inpu
 
 ## We measure resistance in ohms
 
-We measure resistance in ohms ({{< katex >}}\Omega{{< \katex >}}), a measure of how many amps the resistor lets through per volt applied to it. A 1 ohm resistor lets through 1 amp per volt.
+We measure resistance in ohms ({{< katex >}}\Omega{{< /katex >}}), a measure of how many amps the resistor lets through per volt applied to it. A 1 ohm resistor lets through 1 amp per volt.
 
 This brings us to Ohm's Law, which is really just the definition of resistance as the ratio of voltage applied to current passed. You could write it as
 
-{{< katex >}}V / I = R{{< \katex >}}
+{{< katex >}}V / I = R{{< /katex >}}
 
 but it's more commonly written as
 
-{{< katex >}}V = IR{{< \katex >}}
+{{< katex >}}V = IR{{< /katex >}}
 
 ## Power rating
 
