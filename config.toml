@@ -1,6 +1,6 @@
 baseURL = "http://me30.nolop.org/"
 languageCode = "en-us"
-title = "Tufts ME-30"
+title = "Tufts ME 30"
 theme = "book"
 enableGitInfo = true
 [params]
