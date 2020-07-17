@@ -3,6 +3,8 @@ title: "How to use a multimeter"
 draft: false
 ---
 
-Need to write the words that go here still.
+## Voltage measurement
 
-Also, need a good picture of a multimeter.
+## Current measurement
+
+![NT8233D Pro multimeter](/img/nt8233d-pro-multimeter.jpg)
