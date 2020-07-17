@@ -8,5 +8,5 @@ If you want to dig a little deeper, you can install Hugo on your local computer 
 The site can then be built by running `hugo` in the top level directory. This will generate a `public/` folder.  
 Inside the `public/` folder, you can run an HTTP server to view the content locally (you could do this with `python3 -m http.server`).  
 
-### Adding new Pages
+### Adding new pages
 All main content for this site is stored in the `content/` folder, and then organized by topic. All site pages are rendered automatically from markdown files (`.md` extension), and creating new ones will automatically integrate them into the website according to where they are located in the file structure. For a markdown cheat-sheet, check [the Markdown Guide](https://www.markdownguide.org/basic-syntax/). You might also be interested in the various features added by the [Hugo Book theme](https://github.com/alex-shpak/hugo-book) that we're using.
