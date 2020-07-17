@@ -17,7 +17,7 @@ You're going to love it.
 <--->
 ![Kristen Wendell](/img/kristen-wendell.jpg)
 <--->
-{{< columns >}}
+{{< /columns >}}
 
 ## Learning assistants
 
@@ -27,7 +27,7 @@ You're going to love it.
 ![Jared Jaramillo](/img/jared-jaramillo.jpg)
 <--->
 ![Jeremy Kanovsky](/img/jeremy-kanovsky.jpg)
-{{< columns >}}
+{{< /columns >}}
 
 
 Because of the global pandemic, the course is being taught in an unusual fashion. Instead of all just hanging out in a workshop building electronics for 14 weeks, we have a bunch of different elements that will combine, like Voltron, to make an awesome course.
