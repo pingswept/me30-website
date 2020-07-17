@@ -10,6 +10,26 @@ ME 30 is a new course at Tufts University in the fall of 2020 co-taught by Brand
 
 You're going to love it.
 
+## Instructors
+
+{{< columns >}}
+![Brandon Stafford](/img/brandon-stafford.jpg)
+<--->
+![Kristen Wendell](/img/kristen-wendell.jpg)
+<--->
+{{< columns >}}
+
+## Learning assistants
+
+{{< columns >}}
+![Libby Albanese](/img/libby-albanese.jpg)
+<--->
+![Jared Jaramillo](/img/jared-jaramillo.jpg)
+<--->
+![Jeremy Kanovsky](/img/jeremy-kanovsky.jpg)
+{{< columns >}}
+
+
 Because of the global pandemic, the course is being taught in an unusual fashion. Instead of all just hanging out in a workshop building electronics for 14 weeks, we have a bunch of different elements that will combine, like Voltron, to make an awesome course.
 
 * a central website for course logistics and notes, plus links to everything else
