@@ -5,7 +5,7 @@ draft: false
 
 # DRAFT
 
-|Week | Released previous Thurs. by 5pm | Student work due by midnight prior to class |
+|Week | Released previous Thurs. by 5pm | Student work due by midnight prior to class | |
 |---|---|---|---|
 | | Weekly Video/Website/Reading Resources| Tuesday| Thursday|
 | 1 | Course logistics| 8-Sep| 10-Sep|
