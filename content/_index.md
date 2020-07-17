@@ -10,7 +10,7 @@ ME 30 is a new course at Tufts University in the fall of 2020 co-taught by Brand
 
 You're going to love it.
 
-Because of the gloabl pandemic, the course is being taught in an unusual fashion. Instead of all just hanging out in a workshop building electronics for 14 weeks, we have a bunch of different elements that will combine, like Voltron, to make an awesome course.
+Because of the global pandemic, the course is being taught in an unusual fashion. Instead of all just hanging out in a workshop building electronics for 14 weeks, we have a bunch of different elements that will combine, like Voltron, to make an awesome course.
 
 * a central website for course logistics and notes, plus links to everything else
 * a [project kit](/logistics/kit/) and plan for PCB fabrication and assembly
