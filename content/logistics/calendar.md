@@ -2,6 +2,9 @@
 title: "Calendar"
 draft: false
 ---
+
+# DRAFT
+
 | | Released previous Thurs. by 5pm | Student work due by midnight prior to class| |
 |---|---|---|---|
 | | Weekly Video/Website/Reading Resources| Tuesday| Thursday|
