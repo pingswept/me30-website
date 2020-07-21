@@ -17,7 +17,7 @@ The fundamental characteristic of a BJT is that it is a **current-controlled dev
 
 MOSFETs are a newer variety of transistor than BJTs. If someone mentions an N-channel or P-channel device, they're usually talking about a MOSFET.
 
-The fundamental characteristic of a MOSFET is that it's a **voltage-controlled device**: raising the voltage on one leg of the device reduces the resistance between two other legs of the device.
+The fundamental characteristic of a MOSFET is that it's a **voltage-controlled device**: raising the voltage on one leg of the device (the gate) reduces the resistance between two other legs of the device (the drain and source).
 
 ## Two ways to use a transistor
 
