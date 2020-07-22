@@ -14,8 +14,10 @@ You're going to love it.
 
 {{< columns >}}
 ![Brandon Stafford](/img/brandon-stafford.jpg)
+Brandon Stafford
 <--->
 ![Kristen Wendell](/img/kristen-wendell.jpg)
+Kristen Wendell
 <--->
 {{< /columns >}}
 
