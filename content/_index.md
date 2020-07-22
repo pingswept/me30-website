@@ -25,10 +25,13 @@ Kristen Wendell
 
 {{< columns >}}
 ![Libby Albanese](/img/libby-albanese.jpg)
+Libby Albanese
 <--->
 ![Jared Jaramillo](/img/jared-jaramillo.jpg)
+Jared Jaramillo
 <--->
 ![Jeremy Kanovsky](/img/jeremy-kanovsky.jpg)
+Jeremy Kanovsky
 {{< /columns >}}
 
 
