@@ -32,3 +32,7 @@ At voltages of 30 V or higher, you need to start being careful about not getting
 ## Voltage regulation
 
 Okay, so we have high voltages because we want to avoid losing all of our energy in the wires leading to our devices. How do we lower the voltage from a high voltage down to the one we want?
+
+The easiest solution is to use a chip called a linear voltage regulator, along with two capacitors. A typical circuit shown below.
+
+![voltage regulator circuit](/img/voltage-regulator-circuit.png)
