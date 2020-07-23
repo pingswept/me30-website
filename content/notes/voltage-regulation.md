@@ -23,6 +23,7 @@ A key figure to remember here is described by the phrase, "ohmic losses." The po
 
 {{< hint danger >}}
 **Safety note**
+
 At voltages of 30 V or higher, you need to start being careful about not getting hurt. We will not be doing anything with voltages above 12 V in this class, but it's still good to remember that your body is kind of like a 70k resistor, and 10 mA through your heart can kill you.
 {{< /hint >}}
 
