@@ -1,5 +1,5 @@
 ---
-title: "Series vs. parallel"
+title: "Voltage regulation"
 draft: false
 ---
 
