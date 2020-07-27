@@ -40,7 +40,7 @@ When resistors are manufactured, there is some variation in their resistance. Ty
 
 ## Typical application: current limiter
 
-LEDs have the unusual characteristic that they start emitting light when you hit a certain voltage threshold, called {{< katex >}}V_f{{< /katex >}} for "forward voltage". Curiously, it varies with the color of the LED. If you try to raise the voltage across the LED above {{< katex >}}V_f{{< /katex >}}, it just gets brighter and hotter until it burns out. Unfortunately, the voltage threshold is not a pleasant voltage like 5 V; it's something weird like 2.9 V or 3.1 V. To run an LED from a microcontroller, which usually has a fixed output voltage, the usual strategy is to put the LED in series with a resistor that allows the LED to reach its threshold voltage while limiting the current to a level where the light emission is pleasant.
+LEDs have the unusual characteristic that they start emitting light when you hit a certain voltage threshold, called {{< katex >}}V_f{{< /katex >}} for "forward voltage". Curiously, it varies with the color of the LED. If you try to raise the voltage across the LED above {{< katex >}}V_f{{< /katex >}}, it just gets brighter and hotter until it burns out. Unfortunately, the voltage threshold is not a convenient voltage like 5 V; it's something weird like 2.9 V or 3.1 V. To run an LED from a microcontroller, which usually has a fixed output voltage, the usual strategy is to put the LED in series with a resistor that allows the LED to reach its threshold voltage while limiting the current to a level where the light emission is pleasant.
 
 The usual calculation for a 5 V system goes like this:
 
@@ -56,6 +56,8 @@ The usual calculation for a 5 V system goes like this:
 
 With microcontrollers and MOSFETs, you often have pins that you want to tie to a certain voltage. For example, most microcontrollers have a reset pin; when you apply 0 V to the pin, the microcontroller is reset. Here's a convenient circuit for that situation.
 
-In this situation, the resistor is called a pull-up resistor, because it pulls the voltage on the pin up to 5 V. Very little current flows into the reset pin. This means that very little current flows across the resistor, so there is very little voltage drop across it, so the reset pin is held near 5 V. When you press the pushbutton, the reset pin is pulled to ground, and the reset occurs. While the button is held down current flows through the resistor, through the button to ground.
+In this situation, the resistor is called a pull-up resistor, because it pulls the voltage on the pin up to 5 V. If it were connected to ground instead of 5 V, it would be called a pull-down resistor.
+
+Because of the circuitry inside the microcontroller, very little current flows into the reset pin. This means that very little current flows across the resistor, so there is very little voltage drop across it, so the reset pin is held near 5 V. When you press the pushbutton, the reset pin is pulled to ground, and the reset occurs. While the button is held down current flows through the resistor, through the button to ground.
 
 You might think to yourself, "But couldn't the resistor just be a wire?" If the resistor were a wire, it would still pull the reset line high just fine, but when you pressed the pushbutton, you would be shorting 5 V to ground. Don't do that.
