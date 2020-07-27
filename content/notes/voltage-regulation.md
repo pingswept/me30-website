@@ -36,3 +36,5 @@ Okay, so we have high voltages because we want to avoid losing all of our energy
 The easiest solution is to use a chip called a linear voltage regulator, along with two capacitors. A typical circuit shown below.
 
 ![voltage regulator circuit](/img/voltage-regulator-circuit.png)
+
+Linear voltage regulators have the disadvantage that they're relatively inefficient (~50%), but they're cheap and simple to use. The other major option is to use a switching power supply, also known in the RC car world as a "Universal Battery Elimination Circuit," or UBEC. Switchers are much more efficient (~85%), but they are also bigger, more expensive, and more complicated to build.
