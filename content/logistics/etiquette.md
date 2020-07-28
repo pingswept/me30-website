@@ -7,6 +7,8 @@ draft: false
 
 ## What do we call you?
 
+**NEEDS A KRISTEN WENDELL UPDATE**
+
 For most teachers in college, the conventional answer is "Professor [LAST NAME]" or "Doctor [LAST NAME]." If the teacher's name were Albus Dumbledore, you would call them "Doctor Dumbledore," "Professor Dumbledore," or just "Professor" for short. In an email, you might write "Dr. Dumbledore."
 
 For me in particular, we have a bit of an awkward situation to deal with. Tufts has given me the title "Lecturer," not "Professor," and I'd feel like a bit of a fraud asking you to call me by a higher rank than I am, so "Professor" is out. Also, I don't have a doctorate degree (a Ph.D.), so "Doctor" is out as well. This leaves us with a few options.
