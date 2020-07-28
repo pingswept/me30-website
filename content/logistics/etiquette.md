@@ -5,8 +5,6 @@ draft: false
 
 # How to behave in college
 
-<section>
-
 ## What do we call you?
 
 For most teachers in college, the conventional answer is "Professor [LAST NAME]" or "Doctor [LAST NAME]." If the teacher's name were Albus Dumbledore, you would call them "Doctor Dumbledore," "Professor Dumbledore," or just "Professor" for short. In an email, you might write "Dr. Dumbledore."
@@ -39,5 +37,3 @@ _Be specific in your criticism._ Try to anticipate failures and describe failure
 
 *   ❤ "I'm worried the wood will slide under the tape, and then the upper deck will collapse." ❤
 *   ⚠ "This design is bad. So bad. It just is." ⚠
-
-</section>
