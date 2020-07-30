@@ -32,9 +32,7 @@ Once you have a breadboard prototype that works, the next step is to make someth
 
 PCBs are just sheets of fiberglass with copper wires printed on them, along with holes to connect components. They're a big deal, so you can read the details in the [PCB section](/notes/pcb).
 
-## General thoughts on prototyping
-
-# Prototyping
+# General thoughts on prototyping
 
 The general conception of a prototype is an incomplete version of something, built hastily out of cheap materials, like building a foam-core model of a robot before building the real thing. You build a prototype, and then when you're done, you build the real thing.
 
