@@ -23,7 +23,7 @@ To install the Arduino software, [download the installer](https://www.arduino.cc
 
 You're on your own for the actual installation, but it consists of pressing "OK" and "Next" and things like that a few times. Search the internet for advice if you get stuck. Your goal is to see something like the image below on your screen, except not just a screenshot in your browser window like this one.
 
-![](img/arduino-program-screenshot.png)
+![The Arduino IDE](/img/arduino-program-screenshot.png)
 
 ## Hardware check
 
@@ -33,7 +33,7 @@ Once the board powers up, it's time to load new code on it. In the Arduino progr
 
 To compile the program and load it onto the Arduino, click the upload button, which is circled in the screenshot below. (If you hover over a button with the mouse pointer, the function of the button appears in the top bar.)
 
-![](img/arduino-upload-button.png)
+![The upload button](/img/arduino-upload-button.png)
 
 When you click upload, you see some messages at the bottom of the Arduino window. If everything works properly, you should see the following messages in order:
 
