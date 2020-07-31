@@ -1,5 +1,5 @@
 ---
-title: "How to use a multimeter"
+title: "Multimeters"
 draft: false
 ---
 
@@ -13,14 +13,14 @@ Generally, you can just crank the knob back and forth and try connecting the met
 
 Voltage measurements are made by connecting the multimeter in parallel with the voltage you want to measure. The multimeter acts like a very high resistance. Inside the meter, the voltage charges up a small capacitor, and the amount of time it takes to charge the capacitor tells us how much voltage we're measuring. (Need to sort out more details here)
 
-Need a diagram of a voltage divider.
+![measuring voltage](/img/measuring-voltage.png)
 
 ## Current measurement
 
-Need a picture of a shunt resistor.
+![measuring current](/img/measuring-current.png)
 
-## Resistance measurement
+## Resistance and continuity measurement
 
-## Continuity tester
+![measuring resistance](/img/measuring-resistance.png)
 
 ![NT8233D Pro multimeter](/img/nt8233d-pro-multimeter.jpg)
