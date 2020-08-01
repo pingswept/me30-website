@@ -37,4 +37,18 @@ The easiest solution is to use a chip called a linear voltage regulator, along w
 
 ![voltage regulator circuit](/img/voltage-regulator-circuit.png)
 
-Linear voltage regulators have the disadvantage that they're relatively inefficient (~50%), but they're cheap and simple to use. The other major option is to use a switching power supply, also known in the RC car world as a "Universal Battery Elimination Circuit," or UBEC. Switchers are much more efficient (~85%), but they are also bigger, more expensive, and more complicated to build.
+Linear voltage regulators have the disadvantage that they're relatively inefficient (~50%), but they're cheap, low noise, and simple to use. The other major option is to use a switching power supply, also known in the RC car world as a "Universal Battery Elimination Circuit," or UBEC. Switchers are much more efficient (~85%), but they are also bigger, more expensive, and more complicated to build. Their rapid switching tends to leak electrical noise into the rest of your circuit, unlike a linear regulator.
+
+## What are the capacitors for?
+
+The capacitor on the input filters out fast changes in the input voltage, so they don't ripple through to the output. If you omit it, and you have a noisy input, your regulator can start oscillating, get hot, and go into thermal shutdown.
+
+The capacitor on the output helps the regulator stay more constant if whatever you attach to the regulator draws a bunch of current suddenly. It acts like a small battery that has to be depleted for the output voltage to change.
+
+## How does a linear regulator work inside?
+
+Each company that makes linear regulators has a different silicon die inside, but the architecture is roughly the same. There are three elements:
+
+1. A precise voltage reference that is below the output voltage. (In an adjustable linear regulator, like the LM317, you provide this reference outside the chip, thereby adjusting the output.)
+2. A transistor that acts like a variable resistor between the input and the output. This is where the inefficiency happens.
+3. An amplifier that compares the output voltage to the voltage reference. As different amounts of current are drawn from the output, the amplifier adjusts the transistor so that the output voltage stays constant, instead of sagging as more current is drawn.
