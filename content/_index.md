@@ -45,6 +45,7 @@ Because of the global pandemic, the course is being taught in an unusual fashion
 * short, topical videos, incrementally released, specific to our class
 * Zoom pod sessions-- small groups of 16 people, real-time Q&A with [Kristen](https://tufts.zoom.us/my/kristen.wendell) or [Brandon](https://tufts.zoom.us/my/brandon.of.nolop)
 * a [Slack workspace](https://tufts-me30.slack.com) for the course, including channels for each pod
+* a [Flipgrid group](https://flipgrid.com/me30) for video documentation of student work
 * community enrichment activities, like streaming electronics teardowns [on Twitch](https://www.twitch.tv/radio_polonium_active)
 * email status updates weekly, crossposted to [this page](/logistics/weekly-updates/) and [the Slack workspace](https://tufts-me30.slack.com)
 * some form of assessment on Canvas
