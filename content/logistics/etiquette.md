@@ -5,22 +5,25 @@ draft: false
 
 # How to behave in college
 
-## What do we call you?
-
-**NEEDS A KRISTEN WENDELL UPDATE**
+## What do we call each other?
 
 For most teachers in college, the conventional answer is "Professor [LAST NAME]" or "Doctor [LAST NAME]." If the teacher's name were Albus Dumbledore, you would call them "Doctor Dumbledore," "Professor Dumbledore," or just "Professor" for short. In an email, you might write "Dr. Dumbledore."
 
-For me in particular, we have a bit of an awkward situation to deal with. Tufts has given me the title "Lecturer," not "Professor," and I'd feel like a bit of a fraud asking you to call me by a higher rank than I am, so "Professor" is out. Also, I don't have a doctorate degree (a Ph.D.), so "Doctor" is out as well. This leaves us with a few options.
+**Brandon:** For me in particular, we have a bit of an awkward situation to deal with. Tufts has given me the title "Lecturer," not "Professor," and I'd feel like a bit of a fraud asking you to call me by a higher rank than I am, so "Professor" is out. Also, I don't have a doctorate degree (a Ph.D.), so "Doctor" is out as well. This leaves us with a few options.
 
 *   Mr. Stafford
 *   Brandon
 
 The good news is that you get to pick. As I have repeatedly told my 4-year-old daughter, I don't care what words you use; I do care about the tone of your voice. If you were to call me, "PROFESSOR STAFFORD!" in the same tone that my daughter uses for, "I WILL NEVER NEVER TAKE A DEEP BREATH AGAIN!", I would be irritated with you, even though you chose respectful words. On the other hand, people have been calling me "Brandon" every day for the last 4 decades, so it feels fine to me.
 
+**Kristen:** I similarly understand that the way we act - including what tone of voice we use - is just as important for conveying respect and professionalism as are the words that we use. Technically, Tufts has given me the title "Associate Professor," and I have a Ph.D., so you can call me "Professor Wendell," or "Dr. Wendell" if you're more comfortable with formal titles. It's also completely okay with me if you call me "Kristen." I use the she/her/hers pronoun series.
+
+**Students:** Our practice is to refer to students by their first names. If you'd prefer us to address you differently, please let us know. In addition to working to learn, and frequently use, all of your names, we'll also work to learn your preferred pronouns, if you've posted them to SIS. If we get it wrong, we're very open to your correction - we hope you will let us know! 
+
 ## Does this really matter?
 
-The truth is that I don't really care what you call me, and I will probably pretend not to be irritated with you even if I feel irritated inside. This is called presenting a professional persona, and it's one of the skills that you need to learn to be a good engineer.
+The way we address each other affects our relationships and the extent to which we feel recognized as members of a community. It's important to us, to the kind of learning environment we want to establish, and to your individual learning, that we all feel known and seen.  
+On our side, as instructors, the truth is that if you call us by the wrong title, we will probably pretend not to be irritated with you even if we feel irritated inside. This is called presenting a professional persona, and it's one of the skills that you need to learn to be a good engineer.
 
 ## Your engineering persona
 
