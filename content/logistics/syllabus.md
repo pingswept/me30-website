@@ -59,11 +59,11 @@ During the time of COVID, we cannot all safely meet in the same room for one lar
 •	**Video Mini-Lectures** - Created and posted by the instructors. Several on a set of new topics each week.  
 •	**Website Notes** - Added weekly to the course website to accompany the video mini-lectures.  
 •	**Recommended Readings**  - Optional sections of the recommended textbooks to supplement videos and website notes.  
-•	**Canvas** - We'll use the ME 30 Canvas site to manage project deliverable submission, feedback, and grades.
+•	**Canvas** - We'll use the ME 30 Canvas site to manage project deliverable submission, feedback, and grades.  
 •	**Flipgrid** - We'll use the ME 30 Flipgrid group to gather and manage your weekly video responses. Flipgrid is a platform that makes it very easy for students and instructors to prompt, create, organize, and comment on brief videos.
 
 ### Semi-Synchronous Elements  
-•	**ME 30 Slack Workspace** – Interactive discussion platform where you can post questions, frustrations, successes, ideas, at any time of the day or night. Instructors and LAs will be active participants. If you're hoping for an instant response, try posting to Slack during an instructor's or LA's office hours, when they'll be on Slack in real time between visits from students. 
+•	**ME 30 Slack Workspace** – Interactive discussion platform where you can post questions, frustrations, successes, ideas, at any time of the day or night. Instructors and LAs will be active participants. If you're hoping for an immediate response, try posting to Slack during an instructor's or LA's office hours, when they'll be on Slack in real time between visits from students. 
 
 ### Synchronous Elements  
 •	**Pods** – Via Zoom during regularly scheduled class time. The class will be divided into four smaller cohorts, which we’ll call the East, West, North, and South pods, of roughly 16 students each. Each pod will meet on Zoom with one instructor (either Kristen or Brandon) and at least one LA, for 35 minutes during each regularly scheduled Tues/Thurs class session. Kristen and Brandon will rotate on a weekly or bi-weekly basis so that each pod interacts with each instructor. North and South pods will meet from 1:30 to 2:05pm ET, and East and West pods will from meet 2:10 to 2:45 ET. Attendance is highly encouraged. Student-to-student and student-to-instructor interaction will be facilitated. Breakout rooms will be used, and Learning Assistants will be actively supporting student participation, inclusion, and understanding. Project troubleshooting and de-brief will occur during pod sessions.  Instructors will be remote, but rooms on campus will be available for those of you who would like to participate in the Zoom sessions while being physically present person with pod-mates. Location information TBA.  
@@ -73,7 +73,7 @@ During the time of COVID, we cannot all safely meet in the same room for one lar
 ## A Week in the Life of ME 30, COVID Edition
 
 **Thursday 5pm** – Instructors release new video mini-lectures, website notes, suggested readings, and crucial questions for the upcoming week. You'll be answering these crucial questions in your weekly video response on Flipgrid (due Monday).   
-**Friday 5pm** – Instructors send weekly update email with reminders about new resources, new crucial questions, and things due in the upcoming week.  
+**Friday 5pm** – Instructors send weekly update email with reminders about what has been posted and what things are due in the upcoming week.  
 **Monday 1:00pm** – Deadline for you to log in to the ME 30 Flipgrid group and submit your 2-minute video response to the week’s crucial questions.  
 **Tuesday class time** – Instructors and LAs meet with student pods to discuss crucial questions, demonstrate techniques and concepts for the current project, and give feedback on project prototypes  
 **Wednesday 11:59pm** – Deadline for you to submit any project deliverables due that week.  
