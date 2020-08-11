@@ -24,17 +24,22 @@ Kristen Wendell, kristen.wendell@tufts.edu
 
 Brandon's office hours are:
 
-*   TBD
+*   Tues/Thurs 3-4:30pm???  
 
-Kristen's office hours are:
+Kristen's office hours are:  
 
-*   TBD
+*   Wed/Fri 3:30-5pm, https://tufts.zoom.us/my/kbwendell
+
+LA office hours are:
+
+*   TBD  
+
 
 ## Course expenses
 
 ### Electronics kits
 
-We will buy you a bunch of stuff, and then you will give us $TBD. Need more details here, likely about how to pay as a course materials fee, and about how the department is covering some cost due to COVID circumstances. Let's link to a list of the kit contents on a different page, but list the total cost here.
+We will buy you a bunch of stuff, and then you will give us $TBD as a course materials fee. This fee mainly covers the consumable materials - i.e., the supplies that we expect you'll burn out, lose, or otherwise use up over the course of the semester. We'll be re-collecting the more expensive components - multimeter, motors, Arduino, Raspberry Pi, and power supplies - from you at the end of the semester so that can continue to keep course fees as low as possible. For Fall 2020, the Mechanical Engineering department will be subsidizing a portion of the total ME 30 materials cost, so the student fee will be considerably less than the value of your materials. Bottom line: please keep track of and take care when handling your components. 
 
 ### Printed circuit board fabrication
 
@@ -51,29 +56,35 @@ There are two recommended textbooks for the class. You are not required to buy e
 1. [Practical Electronics for Inventors, Fourth Edition, by Paul Scherz and Simon Monk](https://www.amazon.com/Practical-Electronics-Inventors-Fourth-Scherz/dp/1259587541/), $22.49
 2. [Making Things Move by Dustyn Roberts](https://www.amazon.com/Making-Mechanisms-Inventors-Hobbyists-Artists/dp/0071741674/), $19.79
 
+
+## Financial constraints
+
+If, for whatever reason, you cannot afford to pay for the stuff needed for this class, please let one of the teachers know, either in Slack or via email. In virtually all cases, the Mechanical Engineering Department will pay for whatever you can't afford; if they can't, we will. Under no circumstances should your education suffer because you don't have the right tools or supplies.
+
+
 ## Modes of Instruction
 
 During the time of COVID, we cannot all safely meet in the same room for one large class session. We will instead run the class remotely, with opportunities for both asynchronous/self-directed learning and synchronous/collaborative learning.  We’ll combine the following course elements to give you multiple ways to engage with the course content, classmates, and instructor team.
 
 ### Asynchronous Elements  
-•	**Video Mini-Lectures** - Created and posted by the instructors. Several on a set of new topics each week.  
-•	**Website Notes** - Added weekly to the course website to accompany the video mini-lectures.  
-•	**Recommended Readings**  - Optional sections of the recommended textbooks to supplement videos and website notes.  
-•	**Canvas** - We'll use the ME 30 Canvas site to manage project deliverable submission, feedback, and grades.  
-•	**Flipgrid** - We'll use the ME 30 Flipgrid group to gather and manage your weekly video responses. Flipgrid is a platform that makes it very easy for students and instructors to prompt, create, organize, and comment on brief videos.
+* 	 **Video Mini-Lectures** - Created and posted by the instructors. Several on a set of new topics each week.  
+* 	 **Website Notes** - Added weekly to the course website to accompany the video mini-lectures.  
+* 	 **Recommended Readings**  - Optional sections of the recommended textbooks to supplement videos and website notes.  
+* 	 **Canvas** - We'll use the ME 30 Canvas site to manage project deliverable submission, feedback, and grades.  
+* 	 **Flipgrid** - We'll use the [ME 30 Flipgrid group] (http://flipgrid.com/me30) to gather and manage your weekly video responses. Flipgrid is a platform that makes it very easy for students and instructors to prompt, create, organize, and comment on brief videos.
 
 ### Semi-Synchronous Elements  
-•	**ME 30 Slack Workspace** – Interactive discussion platform where you can post questions, frustrations, successes, ideas, at any time of the day or night. Instructors and LAs will be active participants. If you're hoping for an immediate response, try posting to Slack during an instructor's or LA's office hours, when they'll be on Slack in real time between visits from students. 
+* 	 **ME 30 Slack Workspace** – Interactive discussion platform where you can post questions, frustrations, successes, ideas, at any time of the day or night. Instructors and LAs will be active participants. If you're hoping for an immediate response, try posting to Slack during an instructor's or LA's office hours, when they'll be on Slack in real time between visits from students. 
 
 ### Synchronous Elements  
-•	**Pods** – Via Zoom during regularly scheduled class time. The class will be divided into four smaller cohorts, which we’ll call the East, West, North, and South pods, of roughly 16 students each. Each pod will meet on Zoom with one instructor (either Kristen or Brandon) and at least one LA, for 35 minutes during each regularly scheduled Tues/Thurs class session. Kristen and Brandon will rotate on a weekly or bi-weekly basis so that each pod interacts with each instructor. North and South pods will meet from 1:30 to 2:05pm ET, and East and West pods will from meet 2:10 to 2:45 ET. Attendance is highly encouraged. Student-to-student and student-to-instructor interaction will be facilitated. Breakout rooms will be used, and Learning Assistants will be actively supporting student participation, inclusion, and understanding. Project troubleshooting and de-brief will occur during pod sessions.  Instructors will be remote, but rooms on campus will be available for those of you who would like to participate in the Zoom sessions while being physically present person with pod-mates. Location information TBA.  
-•	**LA Office Hours** – To be scheduled, likely to be fully remote  
-•	**Instructor Office Hours** – To be scheduled, likely to be fully remote  
+* 	 **Pods** – Via Zoom during regularly scheduled class time. The class will be divided into four smaller cohorts, which we’ll call the East, West, North, and South pods, of roughly 16 students each. Each pod will meet on Zoom with one instructor (either Kristen or Brandon) and at least one LA, for 35 minutes during each regularly scheduled Tues/Thurs class session. Kristen and Brandon will rotate on a weekly or bi-weekly basis so that each pod interacts with each instructor. North and South pods will meet from 1:30 to 2:05pm ET, and East and West pods will from meet 2:10 to 2:45 ET. Attendance is highly encouraged. Student-to-student and student-to-instructor interaction will be facilitated. Breakout rooms will be used, and Learning Assistants will be actively supporting student participation, inclusion, and understanding. Project troubleshooting and de-brief will occur during pod sessions.  Instructors will be remote, but rooms on campus will be available for those of you who would like to participate in the Zoom sessions while being physically present person with pod-mates. Location information TBA.  
+* 	 **LA and Instructor Office Hours** – See schedule above. Conducted via Zoom and Slack  
+
 
 ## A Week in the Life of ME 30, COVID Edition
 
-**Thursday 5pm** – Instructors release new video mini-lectures, website notes, suggested readings, and crucial questions for the upcoming week. You'll be answering these crucial questions in your weekly video response on Flipgrid (due Monday).   
-**Friday 5pm** – Instructors send weekly update email with reminders about what has been posted and what things are due in the upcoming week.  
+**Thursday 5:00pm** – Instructors release new video mini-lectures, website notes, suggested readings, and crucial questions for the upcoming week. You'll be answering these crucial questions in your weekly video response on Flipgrid (due Monday).   
+**Friday 5:00pm** – Instructors send weekly update email with reminders about what has been posted and what things are due in the upcoming week.  
 **Monday 1:00pm** – Deadline for you to log in to the ME 30 Flipgrid group and submit your 2-minute video response to the week’s crucial questions.  
 **Tuesday class time** – Instructors and LAs meet with student pods to discuss crucial questions, demonstrate techniques and concepts for the current project, and give feedback on project prototypes  
 **Wednesday 11:59pm** – Deadline for you to submit any project deliverables due that week.  
@@ -100,20 +111,17 @@ On the one hand, this sounds kind of tough. On the other hand, if you actually l
 
 ### Video Responses (20%)
 
-Most Monday afternoons, you'll be expected to post a short video to the ME 30 Flipgrid group. Each week the prompt for the video will be based on the week's crucial questions. It will be posted to Flipgrid on Thursday by 5pm, alongside the release of the week's video mini-lectures and website notes. As you view and study these weekly resources, consider the crucial questions and plan how you will explain your thinking about them. By Monday at 1pm, log in to Flipgrid and use your phone or webcam to record your video response. Each video response will be worth 1 point, and you'll earn the point as long as you submit on time and make an authentic attempt to address the crucial questions. Your grade will not be based on accuracy. Over the course of the semester, 12 video responses will be assigned (i.e., every week except those with holidays). Your video response grade will thus be out of 12 total possible points.
+On Monday afternoons, you'll be expected to post a short video to the ME 30 Flipgrid group. Each week the prompt for the video will be based on the week's crucial questions. It will be posted to Flipgrid on Thursday by 5pm, alongside the release of the week's video mini-lectures and website notes. As you view and study these weekly resources, consider the crucial questions and plan how you will explain your thinking about them. By Monday at 1pm, log in to Flipgrid and use your phone or webcam to record your video response. Each video response will be worth 1 point, and you'll earn the point as long as you submit on time and make an authentic attempt to address the crucial questions. Your grade will not be based on accuracy but rather on effort. Over the course of the semester, 12 video responses will be assigned (i.e., every week except those with holidays). Your video response grade will thus be out of 12 total possible points.
 
 ### Quizzes (10%)
 
-Detail here about the few short quizzes to take place during pod sessions after P2, P3, and maybe P4.
+There will be three short quizzes, one after each of the Projects 2, 3, and 4. These quizzes will take place during pod sessions, so please contact us if you cannot participate in a pod session when a quiz is scheduled. Each quiz will feature open-response questions aimed at checking your understanding of the big ideas of each project. Your quiz work will be graded for accuracy and coherency. The average of your three quiz grades will count for 10% of your total course grade.
 
-
-## Financial constraints
-
-If, for whatever reason, you cannot afford to pay for the stuff needed for this class, please let one of the teachers know, either in Slack or via email. In virtually all cases, the Mechanical Engineering Department will pay for whatever you can't afford; if they can't, we will. Under no circumstances should your education suffer because you don't have the right tools or supplies.
 
 ## Honesty
 
 We take honesty very seriously. Not only are we required to report violations of academic integrity, we are glad to do so. We are all fortunate to be at Tufts; there is no excuse for squandering that opportunity by representing someone else's work as your own. If you're unsure about the details, read the [Tufts Academic Integrity Policy](https://students.tufts.edu/student-affairs/student-life-policies/academic-integrity-policy).
+
 
 ## Accommodations for Students with Disabilities
 
