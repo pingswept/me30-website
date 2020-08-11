@@ -59,27 +59,28 @@ During the time of COVID, we cannot all safely meet in the same room for one lar
 •	**Video Mini-Lectures** - Created and posted by the instructors. Several on a set of new topics each week.  
 •	**Website Notes** - Added weekly to the course website to accompany the video mini-lectures.  
 •	**Recommended Readings**  - Optional sections of the recommended textbooks to supplement videos and website notes.  
-•	**Canvas** - We'll use the ME 30 Canvas site to manage assignment submission, feedback, and grades.    
+•	**Canvas** - We'll use the ME 30 Canvas site to manage project deliverable submission, feedback, and grades.
+•	**Flipgrid** - We'll use the ME 30 Flipgrid group to gather and manage your weekly video responses. Flipgrid is a platform that makes it very easy for students and instructors to prompt, create, organize, and comment on brief videos.
 
 ### Semi-Synchronous Elements  
-•	**ME 30 Slack Workspace** – Interactive discussion platform where you can post questions, frustrations, successes, ideas, at any time of the day or night. Instructors and LAs will post times when they will be active participants and able to respond to private messages, but students are welcome to interact via Slack any time.  
+•	**ME 30 Slack Workspace** – Interactive discussion platform where you can post questions, frustrations, successes, ideas, at any time of the day or night. Instructors and LAs will be active participants. If you're hoping for an instant response, try posting to Slack during an instructor's or LA's office hours, when they'll be on Slack in real time between visits from students. 
 
 ### Synchronous Elements  
-•	**Pods** – Via Zoom during regularly scheduled class time. The class will be divided into four smaller cohorts, which we’ll call the East, West, North, and South pods, of roughly 16 students each. Each pod will meet on Zoom with one instructor (either Kristen or Brandon) and at least one LA, for 40 minutes during each regularly scheduled Tues/Thurs class session. Kristen and Brandon will rotate on a weekly or bi-weekly basis so that each pod interacts with each instructor. North and South pods will meet from 1:30 to 2:10pm ET, and East and West pods will from meet 2:10 to 2:50 ET. Attendance is highly encouraged. Student-to-student and student-to-instructor interaction will be facilitated. Breakout rooms will be used, and Learning Assistants will be actively supporting student participation, inclusion, and understanding. Project presentations will occur during pod sessions (so attendance is required on those days to earn credit for presentations).  Instructors will be remote, but a room on campus will be available for those of you who would like to participate in the Zoom sessions while being physically present person with classmates. Location information TBA.  
-•	**LA Office Hours** – To be scheduled, and to be determined whether in-person, hybrid, or remote  
+•	**Pods** – Via Zoom during regularly scheduled class time. The class will be divided into four smaller cohorts, which we’ll call the East, West, North, and South pods, of roughly 16 students each. Each pod will meet on Zoom with one instructor (either Kristen or Brandon) and at least one LA, for 35 minutes during each regularly scheduled Tues/Thurs class session. Kristen and Brandon will rotate on a weekly or bi-weekly basis so that each pod interacts with each instructor. North and South pods will meet from 1:30 to 2:05pm ET, and East and West pods will from meet 2:10 to 2:45 ET. Attendance is highly encouraged. Student-to-student and student-to-instructor interaction will be facilitated. Breakout rooms will be used, and Learning Assistants will be actively supporting student participation, inclusion, and understanding. Project troubleshooting and de-brief will occur during pod sessions.  Instructors will be remote, but rooms on campus will be available for those of you who would like to participate in the Zoom sessions while being physically present person with pod-mates. Location information TBA.  
+•	**LA Office Hours** – To be scheduled, likely to be fully remote  
 •	**Instructor Office Hours** – To be scheduled, likely to be fully remote  
 
 ## A Week in the Life of ME 30, COVID Edition
 
-**Thursday 5pm** – Instructors release new video mini-lectures, website notes, suggested readings, and focus questions for the upcoming week.  
-**Friday 5pm** – Instructors send weekly update email with reminders about new resources, new focus questions, and things due in the upcoming week.  
-**Monday 11:59pm (or earlier)** – Students submits weekly 3-minute video response to the week’s focus questions.  
-**Tuesday class time** – Instructors and LAs meet with student pods to discuss focus questions, demonstrate techniques and concepts for the current project, and give feedback on project prototypes  
-**Wednesday 11:59pm (or earlier)** – Students submit any project deliverables due that week.  
-**Thursday class time** – Instructors and LAs meet with student pods to follow up on video responses, run project tutorials, and view student-led project presentations.  
+**Thursday 5pm** – Instructors release new video mini-lectures, website notes, suggested readings, and crucial questions for the upcoming week. You'll be answering these crucial questions in your weekly video response on Flipgrid (due Monday).   
+**Friday 5pm** – Instructors send weekly update email with reminders about new resources, new crucial questions, and things due in the upcoming week.  
+**Monday 1:00pm** – Deadline for you to log in to the ME 30 Flipgrid group and submit your 2-minute video response to the week’s crucial questions.  
+**Tuesday class time** – Instructors and LAs meet with student pods to discuss crucial questions, demonstrate techniques and concepts for the current project, and give feedback on project prototypes  
+**Wednesday 11:59pm** – Deadline for you to submit any project deliverables due that week.  
+**Thursday class time** – Instructors and LAs meet with student pods to follow up on video responses, run project tutorials, and de-brief project work submitted the night before.  
 
 **Daily** – Continued discussion on the ME30 Slack workspace.  
-**TBA** – Optional office hours with instructors and LAs.
+**Afternoons and evenings** – Optional office hours with instructors and LAs.
 
 
 ## Assignments and Grading
@@ -89,29 +90,22 @@ Projects (4) - 70% of course grade
 Video Responses (12) - 20% of course grade  
 Quizzes (3) - 10% of course grade  
 
-### Projects
+### Projects (70%)
 
 Each project will be worth 7 points, and then scaled by the number of weeks allocated to complete the project. (So a project 4 weeks in duration is worth twice as much as a project 2 weeks in duration.) For each day (or fraction thereof) a project is late, you will lose 1 point (before scaling), so a project that is 1 week late is worth 0 points. To receive credit for a project, your project must also meet the project requirements, which are published at the start of the project. For example, if a project requires fabrication of a PCB, and you don't make one, you lose credit, roughly in proportion to the fraction of the requirements unsatisfied. For group projects with N people per group, you should do roughly 1/N of the work.
 
-If you complete all the projects on time within the requirements, or at least 95% of that, you have earned an A. If you hit around 85%, that's a B. You can calculate the details if you want, but the main message is that you should complete all the projects, and you should do them on time.
+If you complete all the projects on time within the requirements, or at least 95% of that, you have earned an A for your project grade. If you hit around 85%, that's a B. You can calculate the details if you want, but the main message is that you should complete all the projects, and you should do them on time.
 
 On the one hand, this sounds kind of tough. On the other hand, if you actually like building electronics, you will do fine. We have a *very* wide spectrum of experience in this class. Note that the project requirements do not include any kind of performance target (like, "make a robot that can run faster than 18 mph"), but rather broad categorical requirements, like "Your circuit must run off batteries." In this example, we do care whether you made a legitimate attempt to make the circuit run off batteries; we don't care how well your circuit works, because that's based largely on your level of experience relative how ambitious a project you tried to build. Our goal is to get you to try to build ambitious projects in a few broad categories, not cross some arbitrary threshold that would be easy for some of you and intensely difficult for others.
 
-### Video Responses
+### Video Responses (20%)
 
-Detail here about video respones due roughly every Monday at midnight.
+Most Monday afternoons, you'll be expected to post a short video to the ME 30 Flipgrid group. Each week the prompt for the video will be based on the week's crucial questions. It will be posted to Flipgrid on Thursday by 5pm, alongside the release of the week's video mini-lectures and website notes. As you view and study these weekly resources, consider the crucial questions and plan how you will explain your thinking about them. By Monday at 1pm, log in to Flipgrid and use your phone or webcam to record your video response. Each video response will be worth 1 point, and you'll earn the point as long as you submit on time and make an authentic attempt to address the crucial questions. Your grade will not be based on accuracy. Over the course of the semester, 12 video responses will be assigned (i.e., every week except those with holidays). Your video response grade will thus be out of 12 total possible points.
 
-### Quizzes
+### Quizzes (10%)
 
 Detail here about the few short quizzes to take place during pod sessions after P2, P3, and maybe P4.
 
-## Zoom etiquette
-
-TBD. Please use video if you can? If you can't pay attention, leave?
-
-## Lectures
-
-Will be replaced by asynchronous video mini-lectures released weekly on Thursday afternoons and synchronous, interactive pod sessions on Zoom, Tu/Th 1:30-2:45. 
 
 ## Financial constraints
 
@@ -120,3 +114,8 @@ If, for whatever reason, you cannot afford to pay for the stuff needed for this 
 ## Honesty
 
 We take honesty very seriously. Not only are we required to report violations of academic integrity, we are glad to do so. We are all fortunate to be at Tufts; there is no excuse for squandering that opportunity by representing someone else's work as your own. If you're unsure about the details, read the [Tufts Academic Integrity Policy](https://students.tufts.edu/student-affairs/student-life-policies/academic-integrity-policy).
+
+## Accommodations for Students with Disabilities
+
+Tufts University values the diversity of our students, staff, and faculty, recognizing the important contribution each student makes to our unique community.  Tufts is committed to providing equal access and support to all qualified students through the provision of reasonable accommodations so that each student may fully participate in the Tufts experience. If you have a disability that requires reasonable accommodations, please contact the Student Accessibility Services office at Accessibility@tufts.edu or 617-627-4539 to make an appointment with an SAS representative to determine appropriate accommodations. Please be aware that accommodations cannot be enacted retroactively.
+
