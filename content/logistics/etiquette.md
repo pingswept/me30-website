@@ -5,7 +5,20 @@ draft: false
 
 # How to behave in college
 
-## What do we call each other?
+## Zoom norms
+
+* We hope you'll participate in the pod sessions over Zoom. One reason for the ME 30 pod size (~16 students) is the ability to fit all pod members on one Zoom screen at the same time.
+* The more of us who can turn video cameras on, the better for our feelings of connection and engagement in the course material. We encourage cameras on whenever possible.  
+* But we won't penalize you for having your camera off, which we totally understand might be necessary for privacy, safety, or technology reasons. If you need to have your camera off, please be sure there is a profile photo uploaded to your Tufts Zoom account. It will really help your instructors and classmates if there's at least a virtual "you" to talk to!  
+* To ask a question or make a comment, please use one of these options:  
+*Unmute your microphone.*  
+*Use the "Raise Hand" button.*  
+*Literally raise your hand in front of your camera.*  
+*Post your question or comment to chat.*  
+* We'll use Zoom chat settings that enable you to either post a message publicly to everyone, or privately to an instructor or LA (they'll be "co-hosts"). Instructors and LAs will use their judgment about how to bring chat messages into the full group discussion. While we won't re-post any private messages verbatim, we may do something like, "A great question has just been raised in chat. Someone has just asked us how we make such delicious cookies!" That way, we can get your good question out to the full group, but you can keep your privacy if you'd like.
+
+
+## What should we call each other?
 
 For most teachers in college, the conventional answer is "Professor [LAST NAME]" or "Doctor [LAST NAME]." If the teacher's name were Albus Dumbledore, you would call them "Doctor Dumbledore," "Professor Dumbledore," or just "Professor" for short. In an email, you might write "Dr. Dumbledore."
 
