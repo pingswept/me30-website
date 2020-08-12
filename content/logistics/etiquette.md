@@ -9,7 +9,7 @@ draft: false
 
 * We hope you'll participate in the pod sessions over Zoom. One reason for the ME 30 pod size (~16 students) is the ability to fit all pod members on one Zoom screen at the same time.
 * The more of us who can turn video cameras on, the better for our feelings of connection and engagement in the course material. We encourage cameras on whenever possible.  
-* But we won't penalize you for having your camera off, which we totally understand might be necessary for privacy, safety, or technology reasons. If you need to have your camera off, please be sure there is a profile photo uploaded to your Tufts Zoom account. It will really help your instructors and classmates if there's at least a virtual "you" to talk to!  
+* But we won't penalize you for having your camera off, which we totally understand might be necessary for privacy, safety, or technology reasons. If you need to have your camera off, please try to have a profile photo uploaded to your Tufts Zoom account. It will really help your instructors and classmates if there's at least a virtual "you" to talk to!  
 * To ask a question or make a comment, please use one of these options:  
 *Unmute your microphone.*  
 *Use the "Raise Hand" button.*  
@@ -19,6 +19,8 @@ draft: false
 
 
 ## What should we call each other?
+
+### Teachers
 
 For most teachers in college, the conventional answer is "Professor [LAST NAME]" or "Doctor [LAST NAME]." If the teacher's name were Albus Dumbledore, you would call them "Doctor Dumbledore," "Professor Dumbledore," or just "Professor" for short. In an email, you might write "Dr. Dumbledore."
 
@@ -31,12 +33,14 @@ The good news is that you get to pick. As I have repeatedly told my 4-year-old d
 
 **Kristen:** I similarly understand that the way we act - including what tone of voice we use - is just as important for conveying respect and professionalism as are the words that we use. Technically, Tufts has given me the title "Associate Professor," and I have a Ph.D., so you can call me "Professor Wendell," or "Dr. Wendell" if you're more comfortable with formal titles. It's also completely okay with me if you call me "Kristen." I use the she/her/hers pronoun series.
 
-**Students:** Our practice is to refer to students by their first names. If you'd prefer us to address you differently, please let us know. In addition to working to learn, and frequently use, all of your names, we'll also work to learn your preferred pronouns, if you've posted them to SIS. If we get it wrong, we're very open to your correction - we hope you will let us know! 
+### Students
+
+Our practice is to refer to students by their first names. If you'd prefer us to address you differently, please let us know. In addition to working to learn, and frequently use, all of your names, we'll also work to learn your preferred pronouns, if you've posted them to SIS. If we get it wrong, we're very open to your correction - we hope you will let us know! 
 
 ## Does this really matter?
 
 The way we address each other affects our relationships and the extent to which we feel recognized as members of a community. It's important to us, to the kind of learning environment we want to establish, and to your individual learning, that we all feel known and seen.  
-On our side, as instructors, the truth is that if you call us by the wrong title, we will probably pretend not to be irritated with you even if we feel irritated inside. This is called presenting a professional persona, and it's one of the skills that you need to learn to be a good engineer.
+On our side, as instructors, the truth is that if you call us by the wrong title, it's okay, and we will probably pretend not to be irritated with you even if we feel irritated inside. This is called presenting a professional persona, and it's one of the skills that you need to learn to be a good engineer. On the other hand, we want you, as students, to be called what you’d like to be called. 
 
 ## Your engineering persona
 
