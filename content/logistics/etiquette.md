@@ -31,6 +31,8 @@ For most teachers in college, the conventional answer is "Professor [LAST NAME]"
 
 The good news is that you get to pick. As I have repeatedly told my 4-year-old daughter, I don't care what words you use; I do care about the tone of your voice. If you were to call me, "PROFESSOR STAFFORD!" in the same tone that my daughter uses for, "I WILL NEVER NEVER TAKE A DEEP BREATH AGAIN!", I would be irritated with you, even though you chose respectful words. On the other hand, people have been calling me "Brandon" every day for the last 4 decades, so it feels fine to me.
 
+I use the he/him/his pronoun series.
+
 **Kristen:** I similarly understand that the way we act - including what tone of voice we use - is just as important for conveying respect and professionalism as are the words that we use. Technically, Tufts has given me the title "Associate Professor," and I have a Ph.D., so you can call me "Professor Wendell," or "Dr. Wendell" if you're more comfortable with formal titles. It's also completely okay with me if you call me "Kristen." I use the she/her/hers pronoun series.
 
 ### Students
