@@ -34,6 +34,9 @@ LA office hours are:
 
 *   TBD  
 
+## Course credit and time expectations
+
+ME 30 is a 4-SHU course with lab. The lab component will consist of a series of four independent projects. At Tufts, each SHU equates to 3 hours of student time per week. 4-SHU courses are expected to require an average of 12 student hours per week. Typically, these hours are divided into about 3 hours of class time and 9 hours of lab/homework/study time. For Fall 2020, you can expect to spend roughly 1 hour with pre-recorded lectures, 1.5 hours in synchronous class meeting, up to 4 hours on studying/homework, and up to 5.5 hours on projects/lab time each week. Of course, exact hours spent on study, homework, and projects will vary by student and week.
 
 ## Course expenses
 
