@@ -39,7 +39,7 @@ LA office hours are:
 
 ### Electronics kits
 
-We will buy you a bunch of stuff, and then you will give us $TBD as a course materials fee. This fee mainly covers the consumable materials - i.e., the supplies that we expect you'll burn out, lose, or otherwise use up over the course of the semester. We'll be re-collecting the more expensive components - multimeter, motors, Arduino, Raspberry Pi, and power supplies - from you at the end of the semester so that can continue to keep course fees as low as possible. For Fall 2020, the Mechanical Engineering department will be subsidizing a portion of the total ME 30 materials cost, so the student fee will be considerably less than the value of your materials. Bottom line: please keep track of and take care when handling your components. 
+We will buy you a bunch of stuff, and then you will be charged $95 (or less, depending on financial aid) as a course materials fee. This fee mainly covers the consumable materials - i.e., the supplies that we expect you'll burn out, lose, or otherwise use up over the course of the semester. We'll be re-collecting the multimeter, motors, Arduino, Raspberry Pi, and power supplies from you at the end of the semester so that we can continue to keep course fees as low as possible. For Fall 2020, a gift to the Mechanical Engineering department has covered a large portion of the total ME 30 materials cost, so the student fee is considerably less than the value of your materials. Bottom line: please keep track of and take care when handling your components. 
 
 ### Printed circuit board fabrication
 
@@ -71,7 +71,7 @@ During the time of COVID, we cannot all safely meet in the same room for one lar
 * 	 **Website Notes** - Added weekly to the course website to accompany the video mini-lectures.  
 * 	 **Recommended Readings**  - Optional sections of the recommended textbooks to supplement videos and website notes.  
 * 	 **Canvas** - We'll use the ME 30 Canvas site to manage project deliverable submission, feedback, and grades.  
-* 	 **Flipgrid** - We'll use the [ME 30 Flipgrid group] (http://flipgrid.com/me30) to gather and manage your weekly video responses. Flipgrid is a platform that makes it very easy for students and instructors to prompt, create, organize, and comment on brief videos.
+* 	 **Flipgrid** - We'll use the [ME 30 Flipgrid group](http://flipgrid.com/me30) to gather and manage your weekly video responses. Flipgrid is a platform that makes it very easy for students and instructors to prompt, create, organize, and comment on brief videos.
 
 ### Semi-Synchronous Elements  
 * 	 **ME 30 Slack Workspace** – Interactive discussion platform where you can post questions, frustrations, successes, ideas, at any time of the day or night. Instructors and LAs will be active participants. If you're hoping for an immediate response, try posting to Slack during an instructor's or LA's office hours, when they'll be on Slack in real time between visits from students. 
@@ -111,7 +111,7 @@ On the one hand, this sounds kind of tough. On the other hand, if you actually l
 
 ### Video Responses (20%)
 
-On Monday afternoons, you'll be expected to post a short video to the ME 30 Flipgrid group. Each week the prompt for the video will be based on the week's crucial questions. It will be posted to Flipgrid on Thursday by 5pm, alongside the release of the week's video mini-lectures and website notes. As you view and study these weekly resources, consider the crucial questions and plan how you will explain your thinking about them. By Monday at 1pm, log in to Flipgrid and use your phone or webcam to record your video response. Each video response will be worth 1 point, and you'll earn the point as long as you submit on time and make an authentic attempt to address the crucial questions. Your grade will not be based on accuracy but rather on effort. Over the course of the semester, 12 video responses will be assigned (i.e., every week except those with holidays). Your video response grade will thus be out of 12 total possible points.
+On Monday afternoons, you'll be expected to post a short video to the [ME 30 Flipgrid group](http://flipgrid.com/me30). Each week the prompt for the video will be based on the week's crucial questions. It will be posted to Flipgrid on Thursday by 5pm, alongside the release of the week's video mini-lectures and website notes. As you view and study these weekly resources, consider the crucial questions and plan how you will explain your thinking about them. By Monday at 1pm, log in to Flipgrid and use your phone or webcam to record your video response. Each video response will be worth 1 point, and you'll earn the point as long as you submit on time and make an authentic attempt to address the crucial questions. Your grade will not be based on accuracy but rather on effort. Over the course of the semester, 12 video responses will be assigned (i.e., every week except those with holidays). Your video response grade will thus be out of 12 total possible points.
 
 ### Quizzes (10%)
 
