@@ -20,6 +20,10 @@ When your design is ready, you should [submit it to the fabricator](https://oshp
 
 First of all, we're not trying to build anything revolutionary in this project. None of you have ever made a PCB before, so the point is to make something fairly simple to get comfortable with the process. (If you search Amazon for "breadboard power supply", you'll see that you can buy various versions of things like this, though none with the 12 V passthrough, so far as I'm aware.)
 
+Here's what a typical one of these things looks like.
+
+![breadboard power supply](/img/breadboard-power-supply-from-amazon.jpg)
+
 The image below shows the rough mechanical constraints for the PCB. You can make a board of whatever dimensions you want, but it needs to plug into the breadboard, hence the pin location dimensions.
 
 ![](/img/breadboard-supply-mechanical-design.png)
