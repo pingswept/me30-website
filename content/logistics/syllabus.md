@@ -42,7 +42,7 @@ ME 30 is a 4-SHU course with lab. The lab component will consist of a series of 
 
 ### Electronics kits
 
-We will buy you a bunch of stuff, and then you will be charged $95 (or less, depending on financial aid) as a course materials fee. This fee mainly covers the consumable materials - i.e., the supplies that we expect you'll burn out, lose, or otherwise use up over the course of the semester. We'll be re-collecting the multimeter, motors, Arduino, Raspberry Pi, and power supplies from you at the end of the semester so that we can continue to keep course fees as low as possible. For Fall 2020, a gift to the Mechanical Engineering department has covered a large portion of the total ME 30 materials cost, so the student fee is considerably less than the value of your materials. Bottom line: please keep track of and take care when handling your components. 
+We will buy you a bunch of stuff, and then you will be charged $95 (or less, depending on financial aid) as a course materials fee. This fee covers the consumable materials - i.e., the supplies that we expect you'll burn out, lose, or want to keep for future coursework. The multimeter and Project 4 materials (including the Raspberry Pi and its power supply) are loaner materials to you, and we'll be re-collecting them at the end of the semester. For Fall 2020, a gift to the Mechanical Engineering department has covered the cost of these loaner materials. Bottom line: please keep track of and take care when handling your components. 
 
 ### Printed circuit board fabrication
 
