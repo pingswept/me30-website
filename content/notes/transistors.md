@@ -25,7 +25,7 @@ Everything else about them is terrible.
 * They require a relatively large current to operate.
 * If you badly overload them, they weld shut.
 
-In general, you probably shouldn't use relays unless you need a safety circuit that pops open when the power fails, like in a table saw, or somebody gives you a pile of relays.
+In general, you probably shouldn't use relays unless you need a safety circuit that pops open when the power fails, like in a table saw, or somebody gives you a pile of relays for free.
 
 ## The new hotness: transistors
 
@@ -42,6 +42,8 @@ The fundamental characteristic of a BJT is that it is a **current-controlled dev
 MOSFETs are a newer variety of transistor than BJTs. If someone mentions an N-channel or P-channel device, they're usually talking about a MOSFET.
 
 The fundamental characteristic of a MOSFET is that it's a **voltage-controlled device**: raising the voltage on one leg of the device (the gate) reduces the resistance between two other legs of the device (the drain and source).
+
+<iframe id="kaltura_player" src="https://cdnapisec.kaltura.com/p/1813261/sp/181326100/embedIframeJs/uiconf_id/26203331/partner_id/1813261?iframeembed=true&playerId=kaltura_player&entry_id=1_khxby4qz&flashvars[streamerType]=auto&amp;flashvars[localizationCode]=en&amp;flashvars[leadWithHTML5]=true&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=1_svnajvo9" width="736" height="450" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" frameborder="0" title="Kaltura Player"></iframe>
 
 ## Two ways to use a transistor
 
