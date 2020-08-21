@@ -15,6 +15,6 @@ BR/EDR used 79 channels, each 1 MHz wide, but BLE uses 40 channels, each 2 MHZ w
 
 Both versions use frequency shift keying, which means that bits are encoded with two nearby frequencies.
 
-![Frequency shift keying](/img/fsk.png)
+![Frequency shift keying](/img/frequency-shift-keying.png)
 
 BLE uses Gaussian frequency shift keying, which is similar, but the transistions between frequencies are less abrupt, which spews less noise at other frequencies.
