@@ -31,6 +31,8 @@ In general, you probably shouldn't use relays unless you need a safety circuit t
 
 There's a huge amount to learn about transistors; the topic can be overwhelming. First, let's narrow things down to just two common varieties of transistor and explain two ways each can be used.
 
+![2 transistors](/img/transistors.jpg)
+
 ## Bipolar junction transistor (BJT)
 
 If someone just says "transistor" to you, they probably mean a bipolar junction transistor, or BJT. If someone mentions an NPN or PNP transistor, they are also talking about BJT's.
