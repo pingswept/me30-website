@@ -24,11 +24,11 @@ Kristen Wendell, kristen.wendell@tufts.edu
 
 Brandon's office hours are:
 
-*   Tues/Thurs 3-4:30pm???  
+*   Tues/Thurs 3-4:30pm, via Slack and Zoom  
 
 Kristen's office hours are:  
 
-*   Wed/Fri 3:30-5pm, https://tufts.zoom.us/my/kbwendell
+*   Wed/Fri 3:30-5pm, via Slack and Zoom (https://tufts.zoom.us/my/kbwendell)
 
 LA office hours are:
 
@@ -38,11 +38,17 @@ LA office hours are:
 
 ME 30 is a 4-SHU course with lab. The lab component will consist of a series of four independent projects. At Tufts, each SHU equates to 3 hours of student time per week. 4-SHU courses are expected to require an average of 12 student hours per week. Typically, these hours are divided into about 3 hours of class time and 9 hours of lab/homework/study time. For Fall 2020, you can expect to spend roughly 1 hour with pre-recorded lectures, 1.5 hours in synchronous class meeting, up to 4 hours on studying/homework, and up to 5.5 hours on projects/lab time each week. Of course, exact hours spent on study, homework, and projects will vary by student and week.
 
+## Learning electronics when life is really tough (and you might be in quarantine)
+
+We’re all facing challenges this year that we’ve never faced before. In ME 30 this semester, we hope to cultivate a supportive community of people who are helping each other take things one day at a time (while hopefully also learning some useful electronics along the way). But, we know that some days, or even most days, life will be really hard this semester. In particular, you might find yourself needing to quarantine, grieve, care for a friend or family member, or care for yourself in this time with its many sources of anxiety and concern. As your instructors, we aim to be flexible when those situations arise, and to support you in taking care of yourselves and loved ones. We will work with you to amend due dates and find solutions that won’t negatively impact your grade in the course. Please feel free to reach out to us, even if just to remind us how hard it is to be a college student right now.
+
 ## Course expenses
 
 ### Electronics kits
 
-We will buy you a bunch of stuff, and then you will be charged $95 (or less, depending on financial aid) as a course materials fee. This fee covers the consumable materials - i.e., the supplies that we expect you'll burn out, lose, or want to keep for future coursework. The multimeter and Project 4 materials (including the Raspberry Pi and its power supply) are loaner materials to you, and we'll be re-collecting them at the end of the semester. Please keep track of and take care when handling your components. 
+Essentially, we'll give you a [bunch of stuff](http://andnowforelectronics.com/logistics/kit/) (yours to keep!) and ask for some payment in return (but can help those who need it). We've partnered with Arduino to develop a custom kit just for this course. You'll pick up your kit or have it delivered to you, and you will be charged half its cost - $95 - as a course materials fee (financial assistance is available). The total cost of the kit is $190, but for Fall 2020, a generous gift to the Mechanical Engineering department has covered the other half. Please keep track of and take good care of your components and equipment.  
+
+If the cost is a hardship, the department can help. Please read the section below about financial constraints.
 
 ### Printed circuit board fabrication
 
@@ -65,26 +71,26 @@ There are two recommended textbooks for the class. You are not required to buy e
 If, for whatever reason, you cannot afford to pay for the stuff needed for this class, please let one of the teachers know, either in Slack or via email. In virtually all cases, the Mechanical Engineering Department will pay for whatever you can't afford; if they can't, we will. Under no circumstances should your education suffer because you don't have the right tools or supplies.
 
 
-## Modes of Instruction
+## Modes of instruction
 
 During the time of COVID, we cannot all safely meet in the same room for one large class session. We will instead run the class remotely, with opportunities for both asynchronous/self-directed learning and synchronous/collaborative learning.  We’ll combine the following course elements to give you multiple ways to engage with the course content, classmates, and instructor team.
 
-### Asynchronous Elements  
-* 	 **Video Mini-Lectures** - Created and posted by the instructors. Several on a set of new topics each week.  
-* 	 **Website Notes** - Added weekly to the course website to accompany the video mini-lectures.  
-* 	 **Recommended Readings**  - Optional sections of the recommended textbooks to supplement videos and website notes.  
+### Asynchronous elements  
+* 	 **Video mini-lectures** - Created and posted by the instructors. Several on a set of new topics each week.  
+* 	 **Website lotes** - Added weekly to the course website to accompany the video mini-lectures.  
+* 	 **Recommended readings**  - Optional sections of the recommended textbooks to supplement videos and website notes.  
 * 	 **Canvas** - We'll use the ME 30 Canvas site to manage project deliverable submission, feedback, and grades.  
 * 	 **Flipgrid** - We'll use the [ME 30 Flipgrid group](http://flipgrid.com/me30) to gather and manage your weekly video responses. Flipgrid is a platform that makes it very easy for students and instructors to prompt, create, organize, and comment on brief videos.
 
-### Semi-Synchronous Elements  
-* 	 **ME 30 Slack Workspace** – Interactive discussion platform where you can post questions, frustrations, successes, ideas, at any time of the day or night. Instructors and LAs will be active participants. If you're hoping for an immediate response, try posting to Slack during an instructor's or LA's office hours, when they'll be on Slack in real time between visits from students. 
+### Semi-synchronous elements  
+* 	 **ME 30 Slack workspace** – Interactive discussion platform where you can post questions, frustrations, successes, ideas, at any time of the day or night. Instructors and LAs will be active participants. If you're hoping for an immediate response, try posting to Slack during an instructor's or LA's office hours, when they'll be on Slack in real time between visits from students. 
 
-### Synchronous Elements  
+### Synchronous elements  
 * 	 **Pods** – Via Zoom during regularly scheduled class time. The class will be divided into four smaller cohorts, which we’ll call the East, West, North, and South pods, of roughly 16 students each. Each pod will meet on Zoom with one instructor (either Kristen or Brandon) and at least one LA, for 35 minutes during each regularly scheduled Tues/Thurs class session. Kristen and Brandon will rotate on a weekly or bi-weekly basis so that each pod interacts with each instructor. North and South pods will meet from 1:30 to 2:05pm ET, and East and West pods will from meet 2:10 to 2:45 ET. Attendance is highly encouraged. Student-to-student and student-to-instructor interaction will be facilitated. Breakout rooms will be used, and Learning Assistants will be actively supporting student participation, inclusion, and understanding. Project troubleshooting and de-brief will occur during pod sessions.  Instructors will be remote, but rooms on campus will be available for those of you who would like to participate in the Zoom sessions while being physically present person with pod-mates. Location information TBA.  
-* 	 **LA and Instructor Office Hours** – See schedule above. Conducted via Zoom and Slack  
+* 	 **LA and instructor office hours** – See schedule above. Conducted via Zoom and Slack  
 
 
-## A Week in the Life of ME 30, COVID Edition
+## A week in the life of ME 30, COVID edition
 
 **Thursday 5:00pm** – Instructors release new video mini-lectures, website notes, suggested readings, and crucial questions for the upcoming week. You'll be answering these crucial questions in your weekly video response on Flipgrid (due Monday).   
 **Friday 5:00pm** – Instructors send weekly update email with reminders about what has been posted and what things are due in the upcoming week.  
@@ -97,7 +103,7 @@ During the time of COVID, we cannot all safely meet in the same room for one lar
 **Afternoons and evenings** – Optional office hours with instructors and LAs.
 
 
-## Assignments and Grading
+## Assignments and grading
 
 Grades will be based mostly on your project work, but also on brief weekly responses and a few short quizzes.   
 Projects (4) - 70% of course grade  
@@ -112,7 +118,7 @@ If you complete all the projects on time within the requirements, or at least 95
 
 On the one hand, this sounds kind of tough. On the other hand, if you actually like building electronics, you will do fine. We have a *very* wide spectrum of experience in this class. Note that the project requirements do not include any kind of performance target (like, "make a robot that can run faster than 18 mph"), but rather broad categorical requirements, like "Your circuit must run off batteries." In this example, we do care whether you made a legitimate attempt to make the circuit run off batteries; we don't care how well your circuit works, because that's based largely on your level of experience relative how ambitious a project you tried to build. Our goal is to get you to try to build ambitious projects in a few broad categories, not cross some arbitrary threshold that would be easy for some of you and intensely difficult for others.
 
-### Video Responses (20%)
+### Video responses (20%)
 
 On Monday afternoons, you'll be expected to post a short video to the [ME 30 Flipgrid group](http://flipgrid.com/me30). Each week the prompt for the video will be based on the week's crucial questions. It will be posted to Flipgrid on Thursday by 5pm, alongside the release of the week's video mini-lectures and website notes. As you view and study these weekly resources, consider the crucial questions and plan how you will explain your thinking about them. By Monday at 1pm, log in to Flipgrid and use your phone or webcam to record your video response. Each video response will be worth 1 point, and you'll earn the point as long as you submit on time and make an authentic attempt to address the crucial questions. Your grade will not be based on accuracy but rather on effort. Over the course of the semester, 12 video responses will be assigned (i.e., every week except those with holidays). Your video response grade will thus be out of 12 total possible points.
 
@@ -126,7 +132,7 @@ There will be three short quizzes, one after each of the Projects 2, 3, and 4. T
 We take honesty very seriously. Not only are we required to report violations of academic integrity, we are glad to do so. We are all fortunate to be at Tufts; there is no excuse for squandering that opportunity by representing someone else's work as your own. If you're unsure about the details, read the [Tufts Academic Integrity Policy](https://students.tufts.edu/student-affairs/student-life-policies/academic-integrity-policy).
 
 
-## Accommodations for Students with Disabilities
+## Accommodations for students with disabilities
 
 Tufts University values the diversity of our students, staff, and faculty, recognizing the important contribution each student makes to our unique community.  Tufts is committed to providing equal access and support to all qualified students through the provision of reasonable accommodations so that each student may fully participate in the Tufts experience. If you have a disability that requires reasonable accommodations, please contact the Student Accessibility Services office at Accessibility@tufts.edu or 617-627-4539 to make an appointment with an SAS representative to determine appropriate accommodations. Please be aware that accommodations cannot be enacted retroactively.
 
