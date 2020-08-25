@@ -18,6 +18,14 @@ But current doesn't tell the whole story. Voltage tells the rest. Voltage is a m
 
 **Need more explanation of voltage here**
 
+**Maybe something like this? (from Kristen)**
+
+While current tells us about the rate at which electrons are flowing, and those electrons have some potential to transfer energy, the value of the current doesn’t tell us how MUCH energy the electrons are transferring each second.  To know that, we have to know how much voltage is applied. Voltage - also called potential difference - tells you where energy is converted in a circuit. If there’s a difference in voltage across something, then that thing has transferred electrical energy to some other form.
+
+Voltage has an “energy” definition and a “practical” definition. The energy definition is that 1 volt equals 1 joule per coulomb. In other words, voltage is the energy supplied per unit of charge. If 1 volt is applied, 1 joule of energy will be applied to each unit of charge in a circuit. That’s like giving each charge enough energy to lift 1 Newton 1 meter, it it could convert the energy perfectly. The practical definition of 1 volt is 1 watt per 1 amp. It's the power consumed per unit of current drawn by a device. If 1 volt is applied, 1 watt of power will be consumed for each 1 amp of current.
+
+A lot of us have the equation for Ohm’s law, V = iR, committed to memory. But Ohm's law should not be viewed as a definition of voltage. Instead, it defines resistance, as the ratio of the voltage applied to the resultant current flow. 
+
 ## Kirchhoff's Current Law
 
 There are two rules that can be useful in thinking about electricity flowing in circuits. When mathematicians and similar notation enthusiasts describe Kirchhoff's current law, they do it like this:
