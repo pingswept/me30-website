@@ -40,7 +40,7 @@ ME 30 is a 4-SHU course with lab. The lab component will consist of a series of 
 
 ## Learning electronics when life is really tough (and you might be in quarantine)
 
-We’re all facing challenges this year that we’ve never faced before. In ME 30 this semester, we hope to cultivate a supportive community of people who are helping each other take things one day at a time (while hopefully also learning some useful electronics along the way). But, we know that some days, or even most days, life will be really hard this semester. In particular, you might find yourself needing to quarantine, grieve, care for a friend or family member, or care for yourself in this time with its many sources of anxiety and concern. As your instructors, we aim to be flexible when those situations arise, and to support you in taking care of yourselves and loved ones. We will work with you to amend due dates and find solutions that won’t negatively impact your grade in the course. Please feel free to reach out to us, even if just to remind us how hard it is to be a college student right now.
+We’re all facing challenges this year that we’ve never faced before. In ME 30 this semester, we hope to cultivate a supportive community of people who are helping each other take things one day at a time while also learning some electronics along the way. But, we know that some days, or even most days, life will be really hard this semester. In particular, you might find yourself needing to quarantine, grieve, care for a friend or family member, or care for yourself in this time with its many sources of anxiety and concern. As your instructors, we aim to be flexible when those situations arise, and to support you in taking care of yourselves and loved ones. We will work with you to amend due dates and find solutions that won’t negatively impact your grade in the course. Please feel free to reach out to us, even if just to remind us how hard it is to be a college student right now.
 
 ## Course expenses
 
@@ -124,7 +124,7 @@ On Monday afternoons, you'll be expected to post a short video to the [ME 30 Fli
 
 ### Quizzes (10%)
 
-There will be three short quizzes, one after each of the Projects 2, 3, and 4. These quizzes will take place during pod sessions, so please contact us if you cannot participate in a pod session when a quiz is scheduled. Each quiz will feature open-response questions aimed at checking your understanding of the big ideas of each project. Your quiz work will be graded for accuracy and coherency. The average of your three quiz grades will count for 10% of your total course grade.
+There will be three short quizzes, one after each of the Projects 2, 3, and 4. These quizzes will take place during pod sessions, so please contact us if you cannot participate in a pod session when a quiz is scheduled. Each quiz will feature open-response questions aimed at checking your understanding of the big ideas of each project. Your quiz work will be graded for accuracy and coherence. The average of your three quiz grades will count for 10% of your total course grade.
 
 
 ## Honesty
@@ -134,5 +134,7 @@ We take honesty very seriously. Not only are we required to report violations of
 
 ## Accommodations for students with disabilities
 
-Tufts University values the diversity of our students, staff, and faculty, recognizing the important contribution each student makes to our unique community.  Tufts is committed to providing equal access and support to all qualified students through the provision of reasonable accommodations so that each student may fully participate in the Tufts experience. If you have a disability that requires reasonable accommodations, please contact the Student Accessibility Services office at Accessibility@tufts.edu or 617-627-4539 to make an appointment with an SAS representative to determine appropriate accommodations. Please be aware that accommodations cannot be enacted retroactively.
+Tufts is committed to providing equal access and support to all qualified students through reasonable accommodations so that each student may fully participate in the Tufts experience. If you have a disability that requires accommodations, please email accessibility@tufts.edu or call 617-627-4539 to make an appointment to talk with a Student Accessibility Services representative about appropriate accommodations.
+
+Please be aware that accommodations cannot be enacted retroactively.
 
