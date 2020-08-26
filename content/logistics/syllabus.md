@@ -77,7 +77,7 @@ During the time of COVID, we cannot all safely meet in the same room for one lar
 
 ### Asynchronous elements  
 * 	 **Video mini-lectures** - Created and posted by the instructors. Several on a set of new topics each week.  
-* 	 **Website lotes** - Added weekly to the course website to accompany the video mini-lectures.  
+* 	 **Website notes** - Added weekly to the course website to accompany the video mini-lectures.  
 * 	 **Recommended readings**  - Optional sections of the recommended textbooks to supplement videos and website notes.  
 * 	 **Canvas** - We'll use the ME 30 Canvas site to manage project deliverable submission, feedback, and grades.  
 * 	 **Flipgrid** - We'll use the [ME 30 Flipgrid group](http://flipgrid.com/me30) to gather and manage your weekly video responses. Flipgrid is a platform that makes it very easy for students and instructors to prompt, create, organize, and comment on brief videos.
