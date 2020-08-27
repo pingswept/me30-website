@@ -8,3 +8,31 @@ draft: false
 3. Does a motor get hotter when it's going fast or slow? Why?
 4. Can you store more energy in a 100 uF capacitor or in a lithium ion battery of the same volume?
 5. Why are extension cords rated for a certain voltage and current? How is a cord with higher ratings different?
+
+## Learning objectives
+
+1.	Complete four hands-on circuit design projects:
+    a.	  Build a prototype and PCB of a breadboard power supply that accepts power from a 12 V wall supply and emits 12 V, 5 V, and 3.3 V at the same time.
+    b.	  Build a prototype and PCB of an H-bridge motor controller to make a motor spin both ways.
+    c.	  Build an electromechanical game including microcontroller, moving mechanical element, and user input.
+    d.	  Build a node including both sensor(s) and actuator(s) in an internet-connected, electronic system.
+2.	Distinguish between voltage and current and apply working definitions of voltage and current to explain energy transfer in simple circuits. 
+3.	Describe the relationships among voltage, current, resistance, and power. 
+4.	Gain proficiency with breadboard prototyping.
+5.	Turn a breadboard prototype into a printed circuit board using PCB design software.
+6.	Explain how to use transistors to control high power with low power.
+7.	Compare and contrast different types of motors (DC, stepper, and servo) and build circuits incorporating each kind.
+8.	Explain how an H-bridge motor controller works.
+9.	Learn the basic code/upload/test/debug cycle for Arduino. 
+10.	Gain basic familiarity with microcontroller hardware.
+11.	Gain familiarity with incorporating microcontroller hardware peripherals into circuit designs, including the i2C module, PWM module, and serial port module.
+12.	Gain enough familiarity with C programming to code an electromechanical game controlled by an Arduino.
+13.	Describe how the internet works.
+14.	Gain familiarity with Linux basics and explain how they relate to the functioning of a Raspberry Pi. 
+15.	Identify the main components and functions of the Raspberry Pi.
+16.	Describe the basics types of control in the context of the motor(s) used in course projects, and Arduino or RPi.
+17.	Become familiar with the frequency domain and digital filters.
+18.	Reflect on strengths and weaknesses of one’s project management approach in an open-ended design project. 
+19.	Gain exposure to managing a bill of materials, supply chain, and verification vs validation.
+20.	Build engineering ethics fluency by exploring the impact of internet-connected electronic technologies on various stakeholders, including in environmental and societal contexts.
+21.	Define discriminatory design, explain a case where it has occurred, and identify an approach to avoid it.
