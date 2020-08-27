@@ -15,6 +15,27 @@ A project-based hands-on electronics boot camp, focusing on the design and fabri
 
 The point of the course is to force students to gain experience with the practical challenges of building electrical hardware. Acting as a counterbalance to the largely theory-heavy curriculum of the modern university, the course makes students work in teams with their mostly inexperienced peers, where they argue, burn out chips, and struggle with lightly documented hardware. They face engineering failure and have to recover to succeed.
 
+### Key topics
+•	Circuit fundamentals: voltage, current, resistance, capacitance, power, series vs. parallel
+•	Multimeters
+•	Prototyping
+•	LEDs
+•	Voltage regulation
+•	PCB design
+•	Transistors
+•	H-bridge motor controllers
+•	Motors
+•	Arduino MKR hardware
+•	Arduino programming
+•	Analog input/sensors
+•	Microcontroller peripherals: PWM module, serial port module, i2c module
+•	Frequency domain and digital filter basics
+•	IoT basics
+•	Raspberry Pi hardware
+•	Raspberry Pi programming
+•	Ethics in electronics and robotics
+•	Professional responsibilities and decision-making; career trajectories
+
 ## Co-teachers
 
 Brandon Stafford, brandon.stafford@tufts.edu
@@ -117,6 +138,12 @@ Each project will be worth 7 points, and then scaled by the number of weeks allo
 If you complete all the projects on time within the requirements, or at least 95% of that, you have earned an A for your project grade. If you hit around 85%, that's a B. You can calculate the details if you want, but the main message is that you should complete all the projects, and you should do them on time.
 
 On the one hand, this sounds kind of tough. On the other hand, if you actually like building electronics, you will do fine. We have a *very* wide spectrum of experience in this class. Note that the project requirements do not include any kind of performance target (like, "make a robot that can run faster than 18 mph"), but rather broad categorical requirements, like "Your circuit must run off batteries." In this example, we do care whether you made a legitimate attempt to make the circuit run off batteries; we don't care how well your circuit works, because that's based largely on your level of experience relative how ambitious a project you tried to build. Our goal is to get you to try to build ambitious projects in a few broad categories, not cross some arbitrary threshold that would be easy for some of you and intensely difficult for others.
+
+Over the course of the four projects you will:  
+1. Build a prototype and PCB of a breadboard power supply that accepts power from a 12 V wall supply and emits 12 V, 5 V, and 3.3 V at the same time.  
+2. Build a prototype and PCB of an H-bridge motor controller to make a motor spin both ways.  
+3. Build an electromechanical game including microcontroller, moving mechanical element, and user input.  
+4. Build a node including both sensor(s) and actuator(s) in an internet-connected, electronic system.  
 
 ### Video responses (20%)
 
