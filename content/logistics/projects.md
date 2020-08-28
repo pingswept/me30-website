@@ -14,7 +14,7 @@ The first project is to build a power supply with the following characteristics:
 
 **Due date (for PCB submission): Wednesday, September 16, 11:59 PM**
 
-When your design is ready, you should [submit it to the fabricator](https://oshpark.com/), OSH Park. It will cost you around $10\. After you submit it, forward your order confirmation to brandon.stafford@tufts.edu. That will serve as proof that you submitted your project on time.
+When your design is ready, you should [submit it to the fabricator](https://oshpark.com/), OSH Park. It will cost you around $10\. After you submit it, take a screenshot of your order confirmation and upload it to the Project 1 PCB assignment on Canvas. That will serve as proof that you submitted your project on time.
 
 ### More details for project #1
 
