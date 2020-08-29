@@ -1,5 +1,5 @@
 ---
-title: "Arduino MKR Wifi 1010 hardware"
+title: "Arduino MKR Wifi 1010"
 draft: false
 ---
 ## Reference documents
