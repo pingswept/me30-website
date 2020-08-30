@@ -26,6 +26,8 @@ Voltage has an “energy” definition and a “practical” definition. The ene
 
 A lot of us have the equation for Ohm’s law, V = iR, committed to memory. But Ohm's law should not be viewed as a definition of voltage. Instead, it defines resistance, as the ratio of the voltage applied to the resultant current flow. 
 
+<iframe width="736" height="450" src="https://www.youtube.com/embed/eVw0_JEXV1A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Kirchhoff's Current Law
 
 There are two rules that can be useful in thinking about electricity flowing in circuits. When mathematicians and similar notation enthusiasts describe Kirchhoff's current law, they do it like this:
