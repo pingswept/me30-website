@@ -8,6 +8,9 @@ draft: false
 **Here's another way we could do this (a screenshot from the Canvas auto-generated calendar):
 ![September at-a-glance](/img/CanvasCalendarSeptember.jpg)
 
+**Another option: send the Canvas calendar feed to Google Calendar, then embed that here. Might give the public too much information???
+<iframe src="https://calendar.google.com/calendar/embed?src=0d4h0bpmo36oorpov670avevaace1jom%40import.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-color:#9ABAD9;border-spacing:0;}
