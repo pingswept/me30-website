@@ -6,6 +6,7 @@ draft: false
 # DRAFT
 
 **Here's another way we could do this (a screenshot from the Canvas auto-generated calendar):
+![September at-a-glance](/img/CanvasCalendarSeptember.jpg)
 
 
 <style type="text/css">
