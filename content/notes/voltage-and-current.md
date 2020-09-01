@@ -14,17 +14,31 @@ To give you an idea of scale, microcontrollers and phones run on currents of 1-1
 
 ## Voltage
 
-But current doesn't tell the whole story. Voltage tells the rest. Voltage is a measure of potential energy per electron.
+But current doesn't tell the whole story. Voltage tells the rest.
 
-**Need more explanation of voltage here**
+Current tells us about the rate at which electrons are flowing, and you would guess that those electrons have some potential to transfer energy, but the value of the current doesn’t tell us how MUCH energy the electrons are transferring each second. To know that, we have to know how much voltage is applied. Voltage - also called potential difference - tells you where energy is converted in a circuit. If there’s a difference in voltage across something, then that thing is transferring electrical energy to some other form. Voltage is a measure of potential energy per electron.
 
-**Maybe something like this? (from Kristen)**
+Voltage has an “energy” definition and a “practical” definition. The energy definition is that 1 volt equals 1 joule per coulomb. In other words, voltage is the energy supplied per unit of charge.
 
-While current tells us about the rate at which electrons are flowing, and those electrons have some potential to transfer energy, the value of the current doesn’t tell us how MUCH energy the electrons are transferring each second.  To know that, we have to know how much voltage is applied. Voltage - also called potential difference - tells you where energy is converted in a circuit. If there’s a difference in voltage across something, then that thing has transferred electrical energy to some other form.
+{{< katex display >}}
+1 V = 1 J / 1 C
+{{< /katex >}}
 
-Voltage has an “energy” definition and a “practical” definition. The energy definition is that 1 volt equals 1 joule per coulomb. In other words, voltage is the energy supplied per unit of charge. If 1 volt is applied, 1 joule of energy will be applied to each unit of charge in a circuit. That’s like giving each charge enough energy to lift 1 Newton 1 meter, it it could convert the energy perfectly. The practical definition of 1 volt is 1 watt per 1 amp. It's the power consumed per unit of current drawn by a device. If 1 volt is applied, 1 watt of power will be consumed for each 1 amp of current.
+If 1 volt is applied, 1 joule of energy will be supplied by each coulomb that flows in a circuit. That’s like giving each charge enough energy to lift 1 newton up a distance of 1 meter, if the system could convert the energy with perfect efficiency.
 
-A lot of us have the equation for Ohm’s law, V = iR, committed to memory. But Ohm's law should not be viewed as a definition of voltage. Instead, it defines resistance, as the ratio of the voltage applied to the resultant current flow. 
+The practical definition of 1 volt is 1 watt per 1 amp. It's the power consumed per unit of current drawn by a device. If 1 volt is applied, 1 watt of power will be consumed for each 1 amp of current.
+
+{{< katex display >}}
+V = W / A
+{{< /katex >}}
+
+and
+
+{{< katex display >}}
+watts [W] = volts[V] * amps[A]
+{{< /katex >}}
+
+A lot of us have the equation for Ohm’s law, {{< katex >}}V = IR{{< /katex >}}, committed to memory. But Ohm's law should not be viewed as a definition of voltage. Instead, it defines resistance, as the ratio of the voltage applied to the resultant current flow. 
 
 
 ## Circuits as energy conversion devices  
