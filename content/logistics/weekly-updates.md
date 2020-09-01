@@ -3,7 +3,7 @@ title: "Weekly updates"
 draft: false
 ---
 
-There will eventually be a list of weekly updates here. If you're in the course, you got them via email, so this is just an archive.
+This is an archive of all the emails we have sent you about the course, just for reference.
 
 ## June 26, 2020
 
@@ -15,15 +15,15 @@ There will eventually be a list of weekly updates here. If you're in the course,
 > 
 > The plan is that ME30 will be a virtual/hybrid model, with no required synchronous activities but opportunities for (a) real-time interaction with the instructors during scheduled class times and (b) in-person gathering with other students for those who wish. There are 9 pillars to the course:
 > 
->     we mail/give you a project kit and plan for PCB fabrication and assembly
->     collection of pre-existing resources: a textbook plus other stuff on the website
->     short, topical videos, incrementally released, specific to our class
->     central website for syllabus, links to everything else
->     some kind of chat, probably Slack
->     Zoom “pod” sessions held during scheduled class time -- pods are small groups of 16 students, each pod will do real-time Q&A with one instructor for half of each class session; students may choose to join remotely or to gather physically in our reserved classroom while participating, but instructors will run the pod sessions remotely
->     community enrichment activities, like streaming electronics teardowns
->     email status updates weekly, crossposted to website and chat
->     some form of assessment
+> * we mail/give you a project kit and plan for PCB fabrication and assembly
+> * collection of pre-existing resources: a textbook plus other stuff on the website
+> * short, topical videos, incrementally released, specific to our class
+> * central website for syllabus, links to everything else
+> * some kind of chat, probably Slack
+> * Zoom “pod” sessions held during scheduled class time -- pods are small groups of 16 students, each pod will do real-time Q&A with one instructor for half of each class session; students may choose to join remotely or to gather physically in our reserved classroom while participating, but instructors will run the pod sessions remotely
+> * community enrichment activities, like streaming electronics teardowns
+> * email status updates weekly, crossposted to website and chat
+> * some form of assessment
 > 
 > But just to be clear, this is all just a plan that we have been emailing back and forth about. The textbook is selected, the first 5 kits are ordered, and the first video has been recorded, but the editing has only just begun.
 > 
