@@ -50,7 +50,7 @@ draft: false
   </tr>
   <tr>
     <td class="tg-ycr8"></td>
-    <td class="tg-ycr8">Topic set 1…</td>
+    <td class="tg-ycr8">Topic set 1</td>
     <td class="tg-ycr8">VR1 due</td>
     <td class="tg-ycr8">P1 proto due</td>
   </tr>
@@ -63,7 +63,7 @@ draft: false
   <tr>
     <td class="tg-0lax"></td>
     <td class="tg-0lax"></td>
-    <td class="tg-0lax">Pods:</td>
+    <td class="tg-0lax">Pods</td>
     <td class="tg-0lax">Pods: P1 reflection</td>
   </tr>
   <tr>
@@ -82,7 +82,7 @@ draft: false
     <td class="tg-ycr8"></td>
     <td class="tg-ycr8">Topic set 3</td>
     <td class="tg-ycr8">Pods: P2 activity</td>
-    <td class="tg-ycr8">Pods:</td>
+    <td class="tg-ycr8">Pods</td>
   </tr>
   <tr>
     <td class="tg-ycr8"></td>
@@ -99,7 +99,7 @@ draft: false
   <tr>
     <td class="tg-0lax"></td>
     <td class="tg-0lax"></td>
-    <td class="tg-0lax">Pods:</td>
+    <td class="tg-0lax">Pods</td>
     <td class="tg-0lax">Pods: P2 troubleshooting</td>
   </tr>
   <tr>
