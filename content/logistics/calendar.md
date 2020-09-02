@@ -5,10 +5,8 @@ draft: false
 
 # DRAFT
 
-**Here's another way we could do this (a screenshot from the Canvas auto-generated calendar):
-![September at-a-glance](/img/CanvasCalendarSeptember.jpg)
 
-**Another option: send the Canvas calendar feed to Google Calendar, then embed that here. Might give the public too much information???
+
 <iframe src="https://calendar.google.com/calendar/embed?src=0d4h0bpmo36oorpov670avevaace1jom%40import.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 
@@ -58,7 +56,7 @@ draft: false
   </tr>
   <tr>
     <td class="tg-0lax">2</td>
-    <td class="tg-0lax">Topic set 2…</td>
+    <td class="tg-0lax">Topic set 2</td>
     <td class="tg-0lax">15-Sep</td>
     <td class="tg-0lax">17-Sep</td>
   </tr>
@@ -82,7 +80,7 @@ draft: false
   </tr>
   <tr>
     <td class="tg-ycr8"></td>
-    <td class="tg-ycr8">Topic set 3…</td>
+    <td class="tg-ycr8">Topic set 3</td>
     <td class="tg-ycr8">Pods: P2 activity</td>
     <td class="tg-ycr8">Pods:</td>
   </tr>
@@ -94,7 +92,7 @@ draft: false
   </tr>
   <tr>
     <td class="tg-0lax">4</td>
-    <td class="tg-0lax">Topic set 4…</td>
+    <td class="tg-0lax">Topic set 4</td>
     <td class="tg-0lax">29-Sep</td>
     <td class="tg-0lax">1-Oct</td>
   </tr>
@@ -112,14 +110,14 @@ draft: false
   </tr>
   <tr>
     <td class="tg-ycr8">5</td>
-    <td class="tg-ycr8">Topic set 5…</td>
+    <td class="tg-ycr8">Topic set 5</td>
     <td class="tg-ycr8">6-Oct</td>
     <td class="tg-ycr8">8-Oct</td>
   </tr>
   <tr>
     <td class="tg-ycr8"></td>
     <td class="tg-ycr8"></td>
-    <td class="tg-ycr8">Pods:</td>
+    <td class="tg-ycr8">Pods</td>
     <td class="tg-ycr8">Pods: P2 reflection</td>
   </tr>
   <tr>
@@ -136,9 +134,9 @@ draft: false
   </tr>
   <tr>
     <td class="tg-0lax"></td>
-    <td class="tg-0lax">Topic set 6…</td>
+    <td class="tg-0lax">Topic set 6</td>
     <td class="tg-0lax">Pods: P3 planning</td>
-    <td class="tg-0lax">Pods: Quiz on P1 and P2 Big Ideas?</td>
+    <td class="tg-0lax">Pods: Quiz on P1 and P2 Big Ideas</td>
   </tr>
   <tr>
     <td class="tg-0lax"></td>
@@ -148,7 +146,7 @@ draft: false
   </tr>
   <tr>
     <td class="tg-ycr8">7</td>
-    <td class="tg-ycr8">Topic set 7…</td>
+    <td class="tg-ycr8">Topic set 7</td>
     <td class="tg-ycr8">20-Oct</td>
     <td class="tg-ycr8">22-Oct</td>
   </tr>
@@ -166,15 +164,15 @@ draft: false
   </tr>
   <tr>
     <td class="tg-0lax">8</td>
-    <td class="tg-0lax">Topic set 8…</td>
+    <td class="tg-0lax">Topic set 8</td>
     <td class="tg-0lax">27-Oct</td>
     <td class="tg-0lax">29-Oct</td>
   </tr>
   <tr>
     <td class="tg-0lax"></td>
     <td class="tg-0lax"></td>
-    <td class="tg-0lax">Pods:</td>
-    <td class="tg-0lax">Pods:</td>
+    <td class="tg-0lax">Pods</td>
+    <td class="tg-0lax">Pods</td>
   </tr>
   <tr>
     <td class="tg-0lax"></td>
@@ -184,14 +182,14 @@ draft: false
   </tr>
   <tr>
     <td class="tg-ycr8">9</td>
-    <td class="tg-ycr8">Topic set 9…</td>
+    <td class="tg-ycr8">Topic set 9</td>
     <td class="tg-ycr8">3-Nov</td>
     <td class="tg-ycr8">5-Nov</td>
   </tr>
   <tr>
     <td class="tg-ycr8"></td>
     <td class="tg-ycr8"></td>
-    <td class="tg-ycr8">Pods:</td>
+    <td class="tg-ycr8">Pods</td>
     <td class="tg-ycr8">Pods: Student P3 share-out</td>
   </tr>
   <tr>
@@ -208,13 +206,13 @@ draft: false
   </tr>
   <tr>
     <td class="tg-0lax"></td>
-    <td class="tg-0lax">Topic set 10…</td>
+    <td class="tg-0lax">Topic set 10</td>
     <td class="tg-0lax">(No VR this week)</td>
-    <td class="tg-0lax">Pods: Quiz on P3 Big Ideas?</td>
+    <td class="tg-0lax">Pods: Quiz on P3 Big Ideas</td>
   </tr>
   <tr>
     <td class="tg-ycr8">11</td>
-    <td class="tg-ycr8">Topic set 11…</td>
+    <td class="tg-ycr8">Topic set 11</td>
     <td class="tg-ycr8">17-Nov</td>
     <td class="tg-ycr8">19-Nov</td>
   </tr>
@@ -232,7 +230,7 @@ draft: false
   </tr>
   <tr>
     <td class="tg-0lax">12</td>
-    <td class="tg-0lax">Topic set 12…</td>
+    <td class="tg-0lax">Topic set 12</td>
     <td class="tg-0lax">24-Nov</td>
     <td class="tg-0lax">No class (Thanksgiving)</td>
   </tr>
@@ -250,14 +248,14 @@ draft: false
   </tr>
   <tr>
     <td class="tg-ycr8">13</td>
-    <td class="tg-ycr8">Topic set 13…</td>
+    <td class="tg-ycr8">Topic set 13</td>
     <td class="tg-ycr8">1-Dec</td>
     <td class="tg-ycr8">3-Dec</td>
   </tr>
   <tr>
     <td class="tg-ycr8"></td>
     <td class="tg-ycr8"></td>
-    <td class="tg-ycr8">Pods:</td>
+    <td class="tg-ycr8">Pods</td>
     <td class="tg-ycr8">Pods: Student P4 share-out</td>
   </tr>
   <tr>
@@ -275,8 +273,7 @@ draft: false
   <tr>
     <td class="tg-0lax"></td>
     <td class="tg-0lax"></td>
-    <td class="tg-0lax">Pods: Semester reflection (Possible Quiz on P4 Big Ideas?)</td>
-    <td class="tg-0lax">Pods: Kit organization and turn-in</td>
+    <td class="tg-0lax">Pods: Semester reflection (Quiz on P4 Big Ideas)</td>
   </tr>
   <tr>
     <td class="tg-0lax"></td>
