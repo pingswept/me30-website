@@ -5,6 +5,58 @@ draft: false
 
 This is an archive of all the emails we have sent you about the course, just for reference.
 
+## September 2, 2020
+
+> Greetings, ME 30!
+> 
+> Please check out this video about how we’ve been getting ready:
+> https://mediaspace.tufts.edu/media/t/1_rlmn097b 
+> 
+> And, here are answers to some of the questions you might have about how the course is going to work.
+> 
+> **How and when is class happening?**
+> 
+> The “live” portion of our class will take place during our scheduled Tues/Thurs class time, over Zoom, in four small groups that we are calling pods.
+Following this email, you’ll receive an email indicating your ME 30 “pod” assignment (North, South, East, or West). Please make a note of your pod. It’s important. Each pod includes 16 or 17 students and will meet up over Zoom with one instructor and one LA for half of our scheduled class time.  
+> You can find the Zoom meeting link for your pod on the ME 30 Canvas site.   
+> North and South pods meet Tues/Thurs 1:30 to 2:05.  
+> East and West pods meet Tues/Thurs 2:10 to 2:45.  
+> Looking forward to seeing you on Tuesday, Sep. 8, at 1:30 (North and South pods) or 2:05 (East and West pods)!  
+>  
+> 
+> **Why is the course Canvas site so sparse?**
+> 
+> Because we have a course website!  It’s http://andnowforelectronics.com  
+> We’ll just use Canvas as a way to accept and keep track of your assignments, and to organize Zoom meeting links.
+>  
+> 
+> **If we are meeting by Zoom, then why is this class listed as “hybrid”?**
+> 
+> We have reserved classrooms for you to use during your pod time if you’d like to be physically present with classmates. These classrooms are sized for 17 of you at a time, with physical distancing. Going to a classroom is totally optional! The instructors and LAs will NOT be present in the classrooms. Your pod assignment email will provide location information. Please, please, please do not go to the other pod’s classroom or stay in your classroom past your assigned time. That will bring the rooms over safe capacity. And, it will be confusing because you’ll be in a room with a bunch of people on a different Zoom call.
+> 
+>  
+> **Is there anything students should do before the first day of class, Sep. 8?**
+> 
+> Yes! Here’s what we’d like you to do, if you can:
+> 
+> (1) **Go to our course website and carefully read the Syllabus and Course Norms sections under “Logistics.”** The syllabus is somewhat lengthy, so please give yourself some time to digest it. Please contact us if you have questions.  
+> 
+> (2) Join our course Slack workspace by responding to the invitation email we send you. Try saying hello to everyone.  
+> 
+> (3) **If you’re on campus or in town and able to leave your room, pick up your project kit from the table outside of Nolop on Sep. 6, 7, or 8, ideally before 1:30pm on Sep. 8.**  
+> 
+> (4) If you’re on campus, decide whether you will stay home or go to the reserved classroom during your Sep. 8 pod session. Remember, if you choose to go to the classroom, you need a mask and you need to stay 6 feet apart from each other.  
+> 
+> (5) **If you’re going to be on campus but aren’t moving in until Sep. 8 or afterwards, don’t worry! Just send us a note on Slack or email when you arrive, and we’ll get you a kit.** Please come join the Sep. 8 and Sep. 10 pod sessions anyway. We know it is not your fault if you can’t pick up your kit earlier!  
+> 
+> (6) If you’re remote for the whole semester, look out for your project kit being delivered to the address you provided us.  
+> 
+> (7) Once you have your project kit, plan to have it with you during every pod session.  
+> 
+> Best,
+> Brandon Stafford and Kristen Wendell
+
+
 ## June 26, 2020
 
 > Hello,
