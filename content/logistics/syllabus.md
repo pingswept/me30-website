@@ -45,15 +45,15 @@ Kristen Wendell, kristen.wendell@tufts.edu
 
 Brandon's office hours are:
 
-*   Tues/Thurs 3-4:30pm, via Slack and Zoom  
+*   Tues/Thurs 3-4:30pm, via ME 30 Slack and Zoom  
 
 Kristen's office hours are:  
 
-*   Wed/Fri 3:30-5pm, via Slack and Zoom (https://tufts.zoom.us/my/kbwendell)
+*   Wed/Fri 3:30-5pm, via ME 30 Slack and Zoom (https://tufts.zoom.us/my/kbwendell)
 
 LA office hours are:
 
-*   TBD  
+*   Sun and Wed, 7-9pm, via ME 30 Slack and Zoom (Contact them on Slack for Zoom link)  
 
 ## Course credit and time expectations
 
@@ -67,7 +67,7 @@ We’re all facing challenges this year that we’ve never faced before. In ME 3
 
 ### Electronics kits
 
-Essentially, we'll give you a [bunch of stuff](http://andnowforelectronics.com/logistics/kit/) (yours to keep!) and ask for some payment in return (but can help those who need it). We've partnered with Arduino to develop a custom kit just for this course. You'll pick up your kit or have it delivered to you, and you will be charged half its cost - $95 - as a course materials fee (financial assistance is available). The total cost of the kit is $190, but for Fall 2020, a generous gift to the Mechanical Engineering department has covered the other half. Please keep track of and take good care of your components and equipment.  
+Essentially, we'll give you a [bunch of stuff](http://andnowforelectronics.com/logistics/kit/) (yours to keep except for the multimeter!) and ask for some payment in return (but can help those who need it). We've partnered with Arduino to develop a custom kit just for this course. You'll pick up your kit or have it delivered to you, and you will be charged half its cost - $95 - as a course materials fee (financial assistance is available). The total cost of the kit is $190, but for Fall 2020, a generous gift to the Mechanical Engineering department has covered the other half. Please keep track of and take good care of your components and equipment.  
 
 If the cost is a hardship, the department can help. Please read the section below about financial constraints.
 
