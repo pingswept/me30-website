@@ -1,6 +1,6 @@
 ---
 title: "Bluetooth"
-draft: false
+draft: true
 ---
 
 ## Classic Bluetooth vs BLE
