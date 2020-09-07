@@ -5,8 +5,6 @@ draft: false
 
 Each student in the course will receive a kit of project supplies. The contents of the kit are listed below.
 
-## DRAFT
-
 | Description                              | Manufacturer            | Manuf. part #   | Distributor     | Dist. part #    |                |
 |------------------------------------------|-------------------------|-----------------|-----------------|-----------------|----------------|
 | digital multimeter                       | Neoteck                 | 8233D PRO       | Amazon          |                 | 1              |
