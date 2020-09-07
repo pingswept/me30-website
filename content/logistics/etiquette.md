@@ -2,9 +2,6 @@
 title: "Course norms"
 draft: false
 ---
-
-# How to behave in college
-
 ## Zoom norms
 
 * We hope you'll participate in the pod sessions over Zoom. One reason for the ME 30 pod size (~16 students) is the ability to fit all pod members on one Zoom screen at the same time.
@@ -16,7 +13,7 @@ draft: false
 *Literally raise your hand in front of your camera.*  
 *Post your question or comment to chat.*  
 * We'll use Zoom chat settings that enable you to either post a message publicly to everyone, or privately to an instructor or LA (they'll be "co-hosts"). Instructors and LAs will use their judgment about how to bring chat messages into the full group discussion. While we won't re-post any private messages verbatim, we may do something like, "A great question has just been raised in chat. Someone has just asked us how we make such delicious cookies!" That way, we can get your good question out to the full group, but you can keep your privacy if you'd like.
-
+* Don't record or screenshot the pod videos. They're private to just the pod.
 
 ## What should we call each other?
 
@@ -29,7 +26,7 @@ For most teachers in college, the conventional answer is "Professor [LAST NAME]"
 *   Mr. Stafford
 *   Brandon
 
-The good news is that you get to pick. As I have repeatedly told my 4-year-old daughter, I don't care what words you use; I do care about the tone of your voice. If you were to call me, "PROFESSOR STAFFORD!" in the same tone that my daughter uses for, "I WILL NEVER NEVER TAKE A DEEP BREATH AGAIN!", I would be irritated with you, even though you chose respectful words. On the other hand, people have been calling me "Brandon" every day for the last 4 decades, so it feels fine to me.
+The good news is that you get to pick. As I have repeatedly told my 7-year-old daughter, I don't care what words you use; I do care about the tone of your voice. If you were to call me, "PROFESSOR STAFFORD!" in the same tone that my daughter uses for, "I WILL NEVER NEVER TAKE A DEEP BREATH AGAIN!", I would be irritated with you, even though you chose respectful words. On the other hand, people have been calling me "Brandon" every day for the last 4 decades, so it feels fine to me.
 
 I use the he/him/his pronoun series.
 
