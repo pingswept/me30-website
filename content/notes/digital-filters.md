@@ -1,6 +1,6 @@
 ---
 title: "Digital filters"
-draft: false
+draft: true
 ---
 
 ## Filtering: what is the point?
