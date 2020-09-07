@@ -27,10 +27,29 @@ Here's what a typical one of these things looks like.
 The image below shows the rough mechanical constraints for the PCB. You can make a board of whatever dimensions you want, but it needs to plug into the breadboard, so you probably want to follow the pin location dimensions shown below. You don't have to have pins where all of the 8 red dots are-- you could get by with just 4, but 8 will make the board stay in place a little more securely.
 
 ![](/img/breadboard-supply-mechanical-design.png)
-In your project kit, you'll find all the [components](components.html) you'll need to build a prototype of your power supply on a breadboard. You build the prototype and make sure that you've got the wiring right. Then, make the PCB with the same connections. Finally, when your PCB arrives in the mail, you can reuse the prototype components on your PCB.
+
+In your project kit, you'll find all the components you'll need to build a prototype of your power supply on a breadboard. You build the prototype and make sure that you've got the wiring right. Then, make the PCB with the same connections. Finally, when your PCB arrives in the mail, you can reuse the prototype components on your PCB.
 
 To improve heat dissipation, you will want to use your PCB as a heatsink for the regulators. The TA from 2018, Dominic Guri, has made a [KiCAD PCB footprint for the TO-220 package](/to-220-horizontal-footprint.kicad_mod) to help with that. You should put it into a folder called `volt-reg.pretty`, or something like that. (The ending `.pretty` is what matters to KiCAD.)
 
 Put that folder in C:\Program Files\KiCad\share\kicad\modules on Windows or /Library/Application Support/kicad/modules on MacOS. Then, you can add that library to Kicad using Preferences > Footprint Libraries in the footprint association window.
 
-**Note that the pins on the two regulators are not in the same order!**
+{{< hint danger >}}
+**Important note #1: the pins on the two regulators are not in the same order!**
+{{< hint >}}
+
+Check the datasheets for the components to see which pin is the input pin, which is the output pin, and which should connect to ground.
+
+{{< hint danger >}}
+**Important note #2: the pins on the power jack are weird! More details below.**
+{{< hint >}}
+
+There's a cryptic diagram in the datasheet for the PJ-102AH power jack, shown below.
+
+![power jack pinout](/img/power-jack-pinout.jpg)
+
+One part is obvious: the pin in the middle is connected to pin 1.
+
+But what is that little arrow/bump thing with pins 2 and 3?
+
+That's trying to tell you that when the jack is empty (i.e. no plug inserted), pins 2 and 3 are connected together. When you insert the plug, the barrel pushes on the bump at the end of the pin 2 contact, which bends it away from the pin 3 arrow, breaking the connection to pin 3. It's so that you can detect whether there's a plug inserted or not, which can be useful for batteru-powered systems. You don't need to implement that feature on your regulator board.
