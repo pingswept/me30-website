@@ -8,7 +8,7 @@ draft: false
 |     Week    |     Date    |     [Pods](http://andnowforelectronics.com/logistics/syllabus/#synchronous-elements)    |     [Video response](http://andnowforelectronics.com/logistics/syllabus/#video-responses-20) due (by Mon. 1pm)    |     Project deliverables due (by Wed. 11:59pm)    |
 |-|-|-|-|-|
 |     1    |     9/8    |     Breadboard [prototyping](http://andnowforelectronics.com/notes/prototyping/)    |          |          |
-|          |     9/10    |     Voltage regulators    |     [VR1 due Wed 11:59pm](http://flipgrid.com/me30)    |     [P1   proto](http://andnowforelectronics.com/logistics/projects/#project-1-build-a-breadboard-power-supply)    |
+|          |     9/10    |     [Voltage regulators](http://andnowforelectronics.com/notes/voltage-regulation/)    |     [VR1 due Wed 11:59pm](http://flipgrid.com/me30)    |     [P1   proto](http://andnowforelectronics.com/logistics/projects/#project-1-build-a-breadboard-power-supply)    |
 |     2    |     9/15    |     KiCad Q & A    |     [VR2](http://flipgrid.com/me30)    |          |
 |          |     9/17    |     PCB design    |          |     [P1   PCB](http://andnowforelectronics.com/logistics/projects/#project-1-build-a-breadboard-power-supply)    |
 |     3    |     9/22    |     Build a BJT circuit with an LED    |     [VR3](http://flipgrid.com/me30)    |          |
