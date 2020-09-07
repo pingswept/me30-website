@@ -1,5 +1,5 @@
 ---
-title: "Course Norms"
+title: "Course norms"
 draft: false
 ---
 
