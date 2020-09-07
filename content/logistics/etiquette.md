@@ -13,7 +13,7 @@ draft: false
 *Literally raise your hand in front of your camera.*  
 *Post your question or comment to chat.*  
 * We'll use Zoom chat settings that enable you to either post a message publicly to everyone, or privately to an instructor or LA (they'll be "co-hosts"). Instructors and LAs will use their judgment about how to bring chat messages into the full group discussion. While we won't re-post any private messages verbatim, we may do something like, "A great question has just been raised in chat. Someone has just asked us how we make such delicious cookies!" That way, we can get your good question out to the full group, but you can keep your privacy if you'd like.
-* Don't record or screenshot the pod videos. They're private to just the pod.
+* Don't record or screenshot the pod videos. They're private to just the pod. (The rest of the course videos and notes are licensed under a Creative Commons BY-SA license, so feel free to share them as widely as you like.
 
 ## What should we call each other?
 
