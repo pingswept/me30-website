@@ -1,7 +1,6 @@
 ---
 title: "Raspberry Pi setup"
-date: 2020-06-29T05:58:30-04:00
-draft: false
+draft: true
 ---
 # Setting up a Raspberry Pi Zero W
 
