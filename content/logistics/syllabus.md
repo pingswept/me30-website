@@ -45,7 +45,7 @@ Kristen Wendell, kristen.wendell@tufts.edu
 
 Brandon's office hours are:
 
-*   Tues/Thurs 3-4:30pm, via ME 30 Slack and Zoom  
+*   Tues/Thurs 3-4:30pm, via ME 30 Slack and Zoom (https://tufts.zoom.us/my/brandon.of.nolop)
 
 Kristen's office hours are:  
 
