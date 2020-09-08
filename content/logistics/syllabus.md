@@ -53,7 +53,7 @@ Kristen's office hours are:
 
 LA office hours are:
 
-*   Sun 8-10pm and Wed 7-9pm, via ME 30 Slack and Zoom (Contact them on Slack for Zoom link)  
+*   Sun 8-10pm and Wed 7-9pm, via ME 30 Slack and Zoom (https://tufts.zoom.us/j/95848857971)  
 
 ## Course credit and time expectations
 
