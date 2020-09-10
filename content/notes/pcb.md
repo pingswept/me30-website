@@ -7,6 +7,11 @@ draft: false
 
 A PCB is a printed circuit board. Essentially, it consists of an insulated board coated with copper pathways that allow current to flow between components. The pathways are created by etching away from a complete coating of copper and by drilling copper-coated holes. The circuit components are then soldered to the board after it is produced. 
 
+
+![PCB made by Oshpark](/img/PCB_OshPark.png)  
+This is a close-up of an unusually shaped PCB before its components have been soldered on. Note the component labels on the board.   
+Image credit: OSH Park PCB manufacturer, www.oshpark.com
+
 ## Layers of a PCB
 
 ![layers of a PCB](/img/pcb-fabrication-layers.jpg)
