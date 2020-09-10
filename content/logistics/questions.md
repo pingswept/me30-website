@@ -3,6 +3,9 @@ title: "Crucial questions"
 draft: false
 ---
 
+## Crucial questions for the semester  
+We'll choose a question from this list to generate the Video Response prompt for each week.  
+
 1. If we're trying to light up an LED with a 5 V supply, why do we need a resistor in series?
 2. How much power can 5 V drive into a 100 ohm resistor? Could the resistors in your project kit handle that?
 3. Does a motor get hotter when it's going fast or slow? Why?
