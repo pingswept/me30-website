@@ -3,6 +3,10 @@ title: "PCB design"
 draft: false
 ---
 
+## What is a PCB?
+
+A PCB is a printed circuit board. Essentially, it consists of an insulated board coated with copper pathways that allow current to flow between components. The pathways are created by etching away from a complete coating of copper and by drilling copper-coated holes. The circuit components are then soldered to the board after it is produced. 
+
 ## Layers of a PCB
 
 ![layers of a PCB](/img/pcb-fabrication-layers.jpg)
@@ -37,6 +41,11 @@ Here's a rough summary of how to use Kicad.
 
 *   [Chris Gammell's video tutorial on Youtube](https://www.youtube.com/watch?v=PlDOnSHkX2c)
 *   [Brian Bryce's written tutorial](http://babryce.com/kicad/tutorial.html)
+*   [Digikey's Intro to KiCad playlist on Youtube](https://www.youtube.com/watch?v=vaCVh2SAZY4) 
+
+Note that these two tutorials were created before the latest version of KiCad was released, so a few aspects of your KiCad interface might look slightly different. The main steps remain the same, however. For the most up-to-date written tutorial, try KiCad's own "Getting Started in KiCad":
+*   [KiCad's Getting Started tutorial](https://docs.kicad-pcb.org/#_getting_started)
+
 
 ## PCB checklist
 
@@ -47,7 +56,7 @@ Here's a rough summary of how to use Kicad.
 *   <input type="checkbox"> All designators legible, not obscured by vias, oriented the same way, if possible
 *   <input type="checkbox"> Power LED, if you can fit one
 *   <input type="checkbox"> Testpoints on critical lines, if pins too small to probe
-*   <input type="checkbox"> Two grounded holes to solder in a wire loop for scope ground clip
+*   <input type="checkbox"> Two grounded holes (can be the same footprints used for connector pins) to solder in a wire loop for scope ground clip
 *   <input type="checkbox"> Date, project name, board revision number
 *   <input type="checkbox"> Protection circuitry on interfaces (overvoltage zeners, reverse polarity diodes)
 *   <input type="checkbox"> You did actually run a design rule check, right?
