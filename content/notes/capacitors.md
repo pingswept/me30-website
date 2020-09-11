@@ -11,6 +11,10 @@ All capacitors are thin plates of conductive material separated by a thin layer 
 
 Capacitors are measured in farads. 1 F is 1 coulomb/volt, a measure of how much charge it takes to raise the voltage of the capacitor by 1 volt. Oddly, most of the capacitors we use in electronics are small relative to 1 F, usually in the range of microfarads (uF, 10^-6) down to picofarads (pF, 10^-12).
 
+## Voltage-current relationship
+
+Capacitors behave like frequency-dependent resistors. The governing equation is: {{< katex >}}I = C dV/dt{{< /katex >}}. When the frequency of a signal is high, {{< katex >}}dV/dt{{< /katex >}} is high, so more current flows. This makes the apparent resistance of capacitor low at high frequency. The reverse is also true: a capacitor appears high resistance to low frequency signals.
+
 ## But what is the point of them?
 
 Capacitors can be used in two main ways: as a small battery and as a filter.
