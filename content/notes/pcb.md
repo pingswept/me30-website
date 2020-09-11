@@ -68,3 +68,12 @@ Note that these two tutorials were created before the latest version of KiCad wa
 *   <input type="checkbox"> No design rules "temporarily" loosened?
 *   <input type="checkbox"> Drill sizes in allowable range for manufacture
 *   <input type="checkbox"> Test upload files with manufacturer, if possible
+
+## PCB gallery
+
+![PCB from old ME 30 project](/img/pcb-from-me93.jpg)
+![PCBs for precision voltage shield by Brandon Stafford](/img/pcb-precision-voltage-shield.jpg)
+![PCB from A123 with conformal coating](/img/pcb-a123-conformal-coating.jpg)
+![PCB from Rascal by Brandon Stafford](/img/pcb-rascal.jpg)
+![PCB from Rascal 2 by Brandon Stafford](/img/pcb-rascal-2.jpg)
+![PCB shaped like a rocket by Brandon Stafford](/img/pcb-rocket-dmx.jpg)
