@@ -5,6 +5,38 @@ draft: false
 
 This is an archive of all the emails we have sent you about the course, just for reference.
 
+## September 11, 2020
+
+> ME 30 Weekly Update Email for Friday, 9/11/20 
+>  
+> Thanks for a great first week in ME 30.
+> 
+> **Project kit housekeeping:** 
+> * If you’re remote and your kit hasn’t arrived by the end of the day Saturday, please let us know. 
+> * If you’re in Massachusetts and don’t have a kit yet, please also let us know. 
+> 
+> **Things due in Week 2:** 
+> * [Video Response 2](www.flipgrid.com/me30) by Monday 1:00pm, on Flipgrid (please post within the prompt for your pod) 
+> * [Project 1 Final](http://andnowforelectronics.com/logistics/projects/): Use KiCad to design a PCB for your breadboard power supply. Email to OSH Park by Wed. 11:59pm. Canvas deliverable: Upload a screenshot of your email confirmation from OSH Park. 
+> 
+> **Learning goals for Week 2:** 
+> * Deepening your understanding of voltage, current, resistance, and power, as they relate to your voltage regulator circuit 
+> * How to take a breadboard prototype and turn it into a PCB design using KiCad software 
+>  
+> **Resources for your learning for Week 2:**    
+> In ME 30 we’re aiming to provide a menu of resources to support your electronics learning. We hope you’ll explore and use what works best for you. Some of you may start with the videos we’ve embedded in the website pages; some of you may start by reading a textbook section; some of you may focus on the written website notes; and others may start with broad questions in office hours. Let us know if you’d like help developing a strategy for navigating the different options. 
+ > 
+> For Week 2, these are the resources we’re suggesting: 
+> * Website notes on concepts: Voltage regulation, Voltage & current*, Series vs. parallel, Resistors, Capacitors* 
+> * Website notes on skills: Prototyping, PCB design, Demo videos 
+> * PCB design section of Scherz & Monk textbook (if you have it) 
+> 	** These pages include mini-lecture videos. 
+> 
+> 
+> Have a great weekend,
+> Brandon and Kristen
+
+
 ## September 2, 2020
 
 > Greetings, ME 30!
