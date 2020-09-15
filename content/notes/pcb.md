@@ -38,7 +38,7 @@ Here's a rough summary of how to use Kicad.
 10.  Roughly arrange the parts the way you want them.
 11.  Place mechanically critical components.
 12.  Place the rest of the components and route traces between everything.
-13.  Run a design rule check (DRC).
+13.  Run a design rule check (DRC). (Kicad calls this an ERC, but nobody else does.)
 14.  Repeat cycle: schematic/footprints -> gen. netlist -> read netlist -> tweak layout -> run DRC
 15.  Submit .kicad_pcb file to OSH Park (or possibly generate Gerber files for another manufacturer).
 
@@ -48,11 +48,11 @@ Here's a rough summary of how to use Kicad.
 *   [Brian Bryce's written tutorial](http://babryce.com/kicad/tutorial.html)
 *   [Digikey's Intro to KiCad playlist on Youtube](https://www.youtube.com/watch?v=vaCVh2SAZY4) 
 
-Note that these two tutorials were created before the latest version of KiCad was released, so a few aspects of your KiCad interface might look slightly different. The main steps remain the same, however. For the most up-to-date written tutorial, try KiCad's own "Getting Started in KiCad":
+Note that the first two tutorials above were created before the latest version of KiCad was released, so a few aspects of your KiCad interface might look slightly different. The main steps remain the same, however. For the most up-to-date written tutorial, try KiCad's own "Getting Started in KiCad":
 *   [KiCad's Getting Started tutorial](https://docs.kicad-pcb.org/#_getting_started)
 
 
-## PCB checklist
+## General PCB checklist (not applicable to every project)
 
 *   <input type="checkbox"> Mounting holes
 *   <input type="checkbox"> Power and ground connector on board
@@ -72,7 +72,13 @@ Note that these two tutorials were created before the latest version of KiCad wa
 ## PCB gallery
 
 ![PCB from old ME 30 project](/img/pcb-from-me93.jpg)
+Here's a purple PCB from OSHPark. Note that the power jack is oriented in such a way that the power cord would intersect with other parts on the board. This is the kind of detail that is really hard to get right on the first try.
+
 ![PCBs for precision voltage shield by Brandon Stafford](/img/pcb-precision-voltage-shield.jpg)
+I (Brandon) used to run a company where I manufactured and sold these small Arduino shields. The shield turns your Arduino into an 8-channel voltmeter, and you can stack them to get more channels.
+
+The shrink-wrapped pile is how the PCBs arrived from China, the empty PCB is before I soldered anything on, and the other device has all the components soldered on. Notice that the PCB is a mix of surface-mount (abbreviated SMT or SMD, for surface-mount device) and through-hole components. Today, surface-mount components are preferred for almost everything except connectors, where the strong mechanical connection to the PCB provided by the through-hole is valuable. But, for prototyping, SMT stuff is a nightmare.
+
 ![PCB from A123 with conformal coating](/img/pcb-a123-conformal-coating.jpg)
 ![PCB from Rascal by Brandon Stafford](/img/pcb-rascal.jpg)
 ![PCB from Rascal 2 by Brandon Stafford](/img/pcb-rascal-2.jpg)
