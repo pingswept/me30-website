@@ -77,3 +77,4 @@ Note that these two tutorials were created before the latest version of KiCad wa
 ![PCB from Rascal by Brandon Stafford](/img/pcb-rascal.jpg)
 ![PCB from Rascal 2 by Brandon Stafford](/img/pcb-rascal-2.jpg)
 ![PCB shaped like a rocket by Brandon Stafford](/img/pcb-rocket-dmx.jpg)
+![More PCBs shaped like rockets by Brandon Stafford](/img/85CCD426-0322-41C7-99F0-C3C01B5EF2C8.jpeg)
