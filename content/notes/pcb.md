@@ -80,7 +80,19 @@ I (Brandon) used to run a company where I manufactured and sold these small Ardu
 The shrink-wrapped pile is how the PCBs arrived from China, the empty PCB is before I soldered anything on, and the other device has all the components soldered on. Notice that the PCB is a mix of surface-mount (abbreviated SMT or SMD, for surface-mount device) and through-hole components. Today, surface-mount components are preferred for almost everything except connectors, where the strong mechanical connection to the PCB provided by the through-hole is valuable. But, for prototyping, SMT stuff is a nightmare.
 
 ![PCB from A123 with conformal coating](/img/pcb-a123-conformal-coating.jpg)
+Speaking of nightmares, here's an insane PCB from now-defunct battery manufacturer A123, formerly in Watertown, MA. The PCB is a charge controller from a huge battery pack; its job was to monitor every cell in the pack, and make sure that they were all charged equally and that none of them got too hot. Prototyping this was probably really difficult-- I would bet they made smaller versions first to validate the circuit before they made the whole thing.
+
+Note also that the PCB is covered in a conformal coating (AKA shiny goo). This is to protect the circuit from dust and moisture. Enough dirt and oil piling up on a PCB can make new, slightly conductive paths between pins, which can cause problems for some circuits.
+
 ![PCB from Rascal by Brandon Stafford](/img/pcb-rascal.jpg)
+This PCB consumed six months of my life. It is the most complex engineering project I have ever completed. The central chip, an Atmel AT91SAM9G20 ARM processor running at 396 MHz, is a ball-grid array package, which means that there is a grid-shaped array of metal balls under the chip instead of pins around the outside. It is risky to solder this kind of chip yourself, because if you get solder blobs underneath shorting out pins, you can't see them without an X-ray machine.
+
+This PCB is also the only PCB I've worked on where the length of the traces mattered. The memory signals on the board are running at 133 MHz, so if one memory trace is a lot longer than another, the nanosecond differences in the time it takes for signals to propagate down the length of the trace mean that a clock cycle can end before all the signals arrive. In the case of this board, it meant that everything went fine, until you tried to do a particularly write-heavy operation (specifically, cloning a git repository) at which point, a signal would arrive late, so the CPU would find an invalid instruction in its memory and reset. I had to revise the board to make all the traces much closer to each other in length. I blogged about [the details of this painful experience](https://rascalmicro.com/2012/05/01/delayed-by-memory-timing-errors/).
+
 ![PCB from Rascal 2 by Brandon Stafford](/img/pcb-rascal-2.jpg)
+This PCB is cool just because I used black soldermask and yellow silkscreen to make it look cool, but no more expensive than any other board.
+
 ![PCB shaped like a rocket by Brandon Stafford](/img/pcb-rocket-dmx.jpg)
+Here are some fanciful PCBs I made a few years ago. The rocket engine is actually a DMX connector; the thing is used to control stage lights. This is just to give you the idea that PCBs don’t just have to be boring rectangular things. I made this PCB using weird open-source software called PCBmodE: https://github.com/boldport/pcbmode. If you want to make a simple, but oddly shaped, PCB, maybe that would work for you.
+
 ![More PCBs shaped like rockets by Brandon Stafford](/img/85CCD426-0322-41C7-99F0-C3C01B5EF2C8.jpeg)
