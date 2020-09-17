@@ -145,7 +145,6 @@ Here are some fanciful PCBs I made a few years ago. The rocket engine is actuall
 * Start by building it in a large area, and once you get the hang of it start minimize the area
 * If components start to heat up, something is wired wrong
 * Good practice: check all the wiring before you plug your circuit into a power source
-
 *	How to look up all the components of the circuit in the library
 *	How to use it! And feel comfortable with it!
 *	Using the 3D viewer
