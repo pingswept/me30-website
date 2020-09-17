@@ -96,3 +96,62 @@ This PCB is cool just because I used black soldermask and yellow silkscreen to m
 Here are some fanciful PCBs I made a few years ago. The rocket engine is actually a DMX connector; the thing is used to control stage lights. This is just to give you the idea that PCBs don’t just have to be boring rectangular things. I made this PCB using weird open-source software called PCBmodE: https://github.com/boldport/pcbmode. If you want to make a simple, but oddly shaped, PCB, maybe that would work for you.
 
 ![More PCBs shaped like rockets by Brandon Stafford](/img/85CCD426-0322-41C7-99F0-C3C01B5EF2C8.jpeg)
+
+## 2020 PCB design tips
+
+### Lessons learned from Gus, Emily, and Alex:
+
+* figuring out how to ground things
+* the circuit doesn’t actually have to complete a circle
+* realizing that the rats nest is a guide for how to lay your traces
+* you can use any footprint that fits your component
+* how to lay components in series vs. parallel in the schematic
+
+### From Ronan, Teddy, Majeed, Matias:
+
+* Finding footprints was very time consuming
+* KiCAD schematic is mainly symbolic not functional (not for running a simulation)
+* Difficult UI on KiCAD
+* Learning keyboard shortcuts for KiCAD was useful
+* Sometimes you need to go online to get footprints for parts not on KiCAD
+* You can trace on both sides of the board - there are two layers
+* Datasheets were a very useful resource
+* YouTube is an amazing resource
+* A solid understanding of the circuit schematic helped with the production of the PCB later on
+
+### From Jake, Charvady, Alanna, and Trevor:
+
+* Completely new software to all of us - all developed a basic understanding after P1
+* All thought kicad was easy-to-use after the learning curve. 
+* Demo video was really helpful
+* Updating libraries was hard to figure out and not explicitly clear at all
+* Assigning the footprints and making sure you had the correct one. Flipping back between all datasheets
+* Going back to circuit diagram and being able to update PCB layout directly. 
+* All the different layers of the PCB board and deciding which layer is used for what - 2 copper wire layers, top & bottom silk screen.
+* Making sure things were facing in the right direction - barrel jack.
+* Always had to be thinking of overall PCB layout - wiring and placing components. 
+* What to label. When in doubt, label everything. 
+* Where to place connector pins and how to connect in circuit diagram.
+
+## From other groups:
+
+* Troubleshooting issues: close the whole application and restart (“brain refresh”)
+* Finding components: google main header, some are named weirdly
+* Using a mouse instead of a trackpad
+* Making schematic traceable and obvious, including labels, etc.
+* Use ground symbols instead of connecting things to ground itself
+* Don’t want overlap traces in contact
+* Learn shortcut keys (example shift + M to move a component)
+* Start by building it in a large area, and once you get the hang of it start minimize the area
+* If components start to heat up, something is wired wrong
+* Good practice: check all the wiring before you plug your circuit into a power source
+
+*	How to look up all the components of the circuit in the library
+*	How to use it! And feel comfortable with it!
+*	Using the 3D viewer
+*	Placing wires on top and bottom layer
+*	Condensing components
+*	Kicad makes suggestions based on schematic 
+*	Labeling pcb board on silk screen
+*	Using hot keys (M, R, E, etc.)
+*	Placing what you want to plug other things into in an easily accessible spot
