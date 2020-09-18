@@ -1,6 +1,6 @@
 ---
 title: "Motors"
-draft: true
+draft: false
 ---
 
 ## Common characteristics
@@ -18,3 +18,24 @@ Usually, the limits of motor performance are thermal; if you drive too much curr
 The fundamental principle of a motor is to run some electric current in a wire that is perpendicular to a magnetic field, which generates a force on the wire.
 
 <iframe id="kaltura_player" src="https://cdnapisec.kaltura.com/p/1813261/sp/181326100/embedIframeJs/uiconf_id/26203331/partner_id/1813261?iframeembed=true&playerId=kaltura_player&entry_id=1_45k3qkx7&flashvars[streamerType]=auto&amp;flashvars[localizationCode]=en&amp;flashvars[leadWithHTML5]=true&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=1_t9h074m7" width="736" height="450" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" frameborder="0" title="Kaltura Player"></iframe>
+
+## Motor types
+
+You have three types of motors in your project kits:
+
+1. a brushed DC gearmotor
+2. a NEMA 17 stepper motor
+3. a hobby servo
+
+First off, let's expose a lie: the hobby servo is, in fact, a brushed DC motor hidden inside a plastic box with a geartrain, a motor controller IC, an H-bridge and a potentiometer, so the truth is that you only have two kinds of motors.
+
+![stepper motor](/img/stepper-motor.jpg)
+![stepper motor guts](/img/stepper-motor-guts.jpg)
+![stepper motor rotor](/img/stepper-motor-rotor.jpg)
+![hobby servo](/img/hobby-servo.jpg)
+![hobby servo guts](/img/hobby-servo-guts.jpg)
+![hobby servo h-bridge](/img/hobby-servo-h-bridge.jpg)
+
+The H-bridge in the servo uses two Rohm 2SD2118 NPN power transistors and two complementary 2SB1412 PNP transistors.
+
+On the underside of the PCB is a Hitec HT7003 analog controller.
