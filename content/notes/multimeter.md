@@ -24,3 +24,9 @@ Voltage measurements are made by connecting the multimeter in parallel with the 
 ![measuring resistance](/img/measuring-resistance.png)
 
 ![NT8233D Pro multimeter](/img/nt8233d-pro-multimeter.jpg)
+
+![NT8233D Pro multimeter teardown overview](/img/neoteck-8233d-pro-teardown-overview.jpg)
+
+![NT8233D Pro multimeter teardown pcb](/img/neoteck-8233d-pro-teardown-pcb.jpg)
+
+![NT8233D Pro multimeter teardown knob](/img/neoteck-8233d-pro-teardown-knob.jpg)
