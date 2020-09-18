@@ -5,6 +5,39 @@ draft: false
 
 This is an archive of all the emails we have sent you about the course, just for reference.
 
+## September 18, 2020
+
+> ME 30 Weekly Update Email for Friday, 9/18/20 
+> 
+> **Project 1 wrap-up:** 
+> * Thanks for all of your hard work!  
+> * We know some of you are still working on Project 1, and that is completely okay. Please don’t hesitate to reach out if you need more support on it. We will approach Project 2 a bit more gradually. 
+> * If your North or East pod breakout room on 9/17 created a list of take-aways/strategies you’ve learned about KiCad and PCB design, please send it to Kristen or Jared and we’ll compile them to share as a master list to inform everyone’s Project 2 work.   
+> * We’ll set up a location for PCB and component drop-off for those of you who would like to have the instructional staff solder on your components. More info on that process coming soon.  
+> 
+>
+> **Things due in Week 3:** 
+> * [Video Response 3](flipgrid.com/me30) by Monday 1:00pm, on Flipgrid (please post within the prompt for your pod) 
+> 
+>
+> **Learning goals for Week 3:** 
+> * Explain how to use transistors to control high power with low power.
+> * Begin to compare different types of motors (DC, stepper, and servo) and build circuits incorporating motors.
+>
+>  
+> **Resources for your learning for Week 3:**     
+> For Week 3, these are the resources we’re suggesting: 
+> * Website notes: [Low power/high power](http://andnowforelectronics.com/notes/low-power-high-power/) (includes two mini-lecture videos)   
+> * “Transistors” section of Scherz & Monk textbook (if you have it) (section 4.3, pgs. 429-467)  
+> 
+> 
+> Have a great weekend,
+> Brandon and Kristen
+  
+    
+
+
+
 ## September 11, 2020
 
 > ME 30 Weekly Update Email for Friday, 9/11/20 
