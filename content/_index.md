@@ -43,7 +43,7 @@ Because of the global pandemic, the course is being taught in an unusual fashion
 * a [project kit](/logistics/kit/) and plan for PCB fabrication and assembly
 * collection of pre-existing resources: a textbook plus other stuff on the website
 * short, topical videos, incrementally released, specific to our class
-* Zoom pod sessions-- small groups of 16 people, real-time Q&A with [Kristen](https://tufts.zoom.us/my/kristen.wendell) or [Brandon](https://tufts.zoom.us/my/brandon.of.nolop)
+* Zoom pod sessions-- small groups of 16 people, real-time Q&A with Kristen or [Brandon](https://tufts.zoom.us/my/brandon.of.nolop)
 * a [Slack workspace](https://tufts-me30.slack.com) for the course, including channels for each pod
 * a [Flipgrid group](https://flipgrid.com/me30) for video documentation of student work
 * community enrichment activities, like streaming electronics teardowns [on Twitch](https://www.twitch.tv/radio_polonium_active)
