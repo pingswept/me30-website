@@ -4,6 +4,22 @@ draft: false
 ---
 # Projects
 
+## Project #2: Build an H-bridge motor controller
+
+The second project is to build a motor controller with the following characteristics:
+
+*   It consists of a PCB with screw terminals for power and control lines.
+*   It also accepts power from a 2.1 x 5.5 mm plug from a 12 V wall adapter.
+*   It has a power LED that lights up when motor power is available.
+*   It can make a DC motor spin in both directions.
+*   The motor current traces can handle 12 V and 5 A continuously without melting.
+*   It can be controlled by logic signals from an Arduino.
+
+**Due date for prototype: Wednesday, September 30, 11:59 PM**
+**Due date for PCB submission: Tuesday, October 7, 11:59 PM**
+
+When your design is ready, you should [submit it to the fabricator](https://oshpark.com/), OSH Park. It will cost you around $10\. After you submit it, take a screenshot of your order confirmation and upload it to the Project 2 PCB assignment on Canvas. That will serve as proof that you submitted your project on time.
+
 ## Project #1: Build a breadboard power supply
 
 The first project is to build a power supply with the following characteristics:
