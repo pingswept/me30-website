@@ -29,6 +29,14 @@ There are many kinds of motors, but let's start with the three types in your pro
 
 ### DC gearmotor
 
+A gearmotor just means a motor that has a geartrain attached to its output shaft to give the motor more torque at the expense of speed. In the picture below, the actual motor is the metal case with "FK-130SH-14225" printed on it. The shape of the motor reveals its contents: the motor has two curved permanent magnets to create a magnetic field across the rotor. The flat sides of the case are where no magnets are needed.
+
+The cylinder with no labels is the gearbox.
+
+Using a DC gearmotor is pretty simple: you give it a constant voltage. If you want it to spin faster or generate more torque, you raise the voltage. If you raise the voltage too far, the insulation in the coils melts, and you need a new motor.
+
+Usually, we run DC gearmotors at higher voltage than we need, and then reduce their speed using pulse-width modulation.
+
 ![DC gearmotor](/img/dc-gearmotor.jpg)
 
 ### Stepper motors
@@ -45,11 +53,11 @@ Here's what a hobby servo looks like, inside and out.
 
 ![hobby servo](/img/hobby-servo.jpg)
 
+![hobby servo guts](/img/hobby-servo-guts.jpg)
+
 Hobby servos are great for position control, but they usually have a limited range, from 0-180 degrees. They are frequently used in the steering systems of RC cars, which is where the "hobby" name comes from. The plastic T on the top of the servo is called the "horn," and it can be replaced with different shapes, like crosses and disks. You can get a small, weak, plastic-geared SG90 hobby servo for around $2. More powerful hobby servos with metal gears can run up to $100.
 
 To control the servo, you send it a digital pulse 50 times per second. The length of each pulse represents a command to the servo to move to a certain position. The length of the pulse can range from 1-2 ms, with 1 ms corresponding to spinning all the way in one direction and 2 ms corresponding to spinning all the way in the other direction.
-
-![hobby servo guts](/img/hobby-servo-guts.jpg)
 
 On the underside of the PCB is a Hitec HT7003 analog controller. This chip looks at the voltage on the potentiometer, compares it to the control signal, and then drives the motor via the H-bridge to make the potentiometer match the control signal.
 
