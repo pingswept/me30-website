@@ -27,10 +27,17 @@ There are many kinds of motors, but let's start with the three types in your pro
 2. a NEMA 17 stepper motor
 3. a hobby servo
 
+### DC gearmotor
+
 ![DC gearmotor](/img/dc-gearmotor.jpg)
+
+### Stepper motors
+
 ![stepper motor](/img/stepper-motor.jpg)
 ![stepper motor guts](/img/stepper-motor-guts.jpg)
 ![stepper motor rotor](/img/stepper-motor-rotor.jpg)
+
+### Hobby servos
 
 Okay, now we have to expose a lie: the hobby servo is, in fact, a brushed DC motor hidden inside a plastic box, so the truth is that you only have two kinds of motors. The box also contains a geartrain, a motor controller IC, an H-bridge and a potentiometer.
 
