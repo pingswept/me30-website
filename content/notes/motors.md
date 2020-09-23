@@ -41,7 +41,16 @@ Usually, we run DC gearmotors at higher voltage than we need, and then reduce th
 
 ### Stepper motors
 
+in most situations involving motors, you want them to spin continuously for a long time. Stepper motors are designed for the situation in which you want a motor to rotate to a certain position, and then stop very precisely. They're common in printers (both 2D and 3D) and all sorts of robots. You could make a stepper motor spin continuously to run, say, a fan, but it would be less efficient and more expensive than other motors.
+
+Here's what a stepper motor looks like.
+
 ![stepper motor](/img/stepper-motor.jpg)
+
+Inside, it has a rotor that consists of a large permanent magnet capped in iron cups that look like gears. The teeth of the cups are offset from each other by one tooth; they don't line up.
+
+The stator has two sets of coils. When a magnetic field is applied to the rotor with one set of coils, one of the cups lines up with the field more than the other. Then, when we switch current to the other set of coils, the other cup lines up, and the motor takes a step. By alternating back and forth, the motor steps in a circle.
+
 ![stepper motor guts](/img/stepper-motor-guts.jpg)
 ![stepper motor rotor](/img/stepper-motor-rotor.jpg)
 
