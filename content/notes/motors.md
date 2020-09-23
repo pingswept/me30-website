@@ -27,6 +27,8 @@ There are many kinds of motors, but let's start with the three types in your pro
 2. a NEMA 17 stepper motor
 3. a hobby servo
 
+Each of these types of motors has lots of other variations, but these are good examples of the most common motors you'll run into.
+
 ### DC gearmotor
 
 A gearmotor just means a motor that has a geartrain attached to its output shaft to give the motor more torque at the expense of speed. In the picture below, the actual motor is the metal case with "FK-130SH-14225" printed on it. The shape of the motor reveals its contents: the motor has two curved permanent magnets to create a magnetic field across the rotor. The flat sides of the case are where no magnets are needed.
@@ -52,6 +54,9 @@ Inside, it has a rotor that consists of a large permanent magnet capped in iron 
 The stator has two sets of coils. When a magnetic field is applied to the rotor with one set of coils, one of the cups lines up with the field more than the other. Then, when we switch current to the other set of coils, the other cup lines up, and the motor takes a step. By alternating back and forth, the motor steps in a circle.
 
 ![stepper motor guts](/img/stepper-motor-guts.jpg)
+
+If you look closely at the rotor below, you can see that the teeth on the left rotor cup are not lined up with the teeth on the right rotor cup.
+
 ![stepper motor rotor](/img/stepper-motor-rotor.jpg)
 
 ### Hobby servos
