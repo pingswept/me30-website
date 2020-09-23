@@ -49,7 +49,7 @@ Brandon's office hours are:
 
 Kristen's office hours are:  
 
-*   Wed/Fri 3:30-5pm, via ME 30 Slack and Zoom (Zoom link posted on Canvas)
+*   Mon/Wed 3:30-5pm, via ME 30 Slack and Zoom (Zoom link posted on Canvas)
 
 LA office hours are:
 
