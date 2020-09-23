@@ -80,3 +80,29 @@ On the underside of the PCB is a Hitec HT7003 analog controller. This chip looks
 On the PCB next to the motor, you can see the 4 transistors that make up the H-bridge. The servo uses two Rohm 2SD2118 NPN power transistors and two complementary 2SB1412 PNP transistors. MOSFETs would also work here, but would probably be more expensive.
 
 Sparkfun has [a good hobby servo explanation](https://learn.sparkfun.com/tutorials/hobby-servo-tutorial) if you want more details.
+
+## Motor selection
+
+How do you actually go about selecting and buying a motor?
+
+Here are a few steps you could run through.
+
+1. Decide what kind of motion you need. If you need to rotate continuously, a brushed DC or universal motor is a good choice. If you need to control position, like in a 3D printer or robotic arm, a stepper motor is better. If you just need to twitch back and forth across a small angle, a hobby servo might be a better choice.
+
+2. Figure out how much power you need. This is why you took Dynamics last semester. *add a dynamics example here*
+
+3. Check your various budgets: how much can you spend, but also how big or heavy can the motor be? How many motors do you need? Just one for a prototype, or 100,000 for a production run of your new electric pogo stick?
+
+For low power, cheap motors, you're in a bit of a bind. Usually, cheap motors are poorly documented. You'll get for a DC gearmotor, for example, a voltage rating and a no-load speed, like 12 V, 540 RPM. This suggests that if you apply 12 V to the motor with nothing attached, it will spin at 540 RPM. That tells you nothing about how fast it will spin when you load it down, unfortunately (though you can be sure it will be slower).
+
+A decent selection method is to estimate your power, and then estimate the size of a motor that can handle that power.
+
+As a rough guide:
+
+* A 1000 W motor is around the volume of a paint can (3.78 L).
+* A 100 W motor is around the volume of a soda can (355 mL).
+* A 10 W motor is around the volume of 5 Oreo cookies stacked up.
+
+The gearmotor in your kit is rated for 2 W, and probably has a volume of around 1 Oreo cookie (not including the gearbox). This power rating is similar to most motors like this, called "type 130," or "toy motors," or "one of those ones like Mabuchi makes."
+
+Buy a motor that size, and try running it with your load at different voltages to see how it behaves.
