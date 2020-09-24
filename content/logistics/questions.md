@@ -12,6 +12,8 @@ We'll choose a question from this list to generate the Video Response prompt for
 4. Can you store more energy in a 100 uF capacitor or in a lithium ion battery of the same volume?
 5. Why are extension cords rated for a certain voltage and current? How is a cord with higher ratings different?
 6. Using the stuff in your project kit, devise a few different ways to overload your voltage regulator circuit and tell us which one would dissipate the most power, and why.
+7. How much energy is there in an AA battery? In a 9V battery? Which has higher energy density by volume, and why?  
+
 
 ## Learning objectives
 
