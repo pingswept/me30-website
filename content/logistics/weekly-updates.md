@@ -5,6 +5,39 @@ draft: false
 
 This is an archive of all the emails we have sent you about the course, just for reference.
 
+## September 25, 2020
+
+> ME 30 Expectations for Week 4 (Weekly Update Email for Friday, 9/25/20)
+> 
+> **Some notes about our course structure:**  
+> If you have the feeling in pods like, “Hey, they’re not really explaining this stuff to us. It’s like they’re assuming that we’ve heard this stuff before somewhere else,” you probably need to review how this unusual course is run:  
+> * Please be sure that you are reading the weekly update emails and that you are studying the web page notes and videos listed in that email. The weekly emails are archived on the website if you’ve missed a couple weeks.
+> * ME 30 follows a sort of flipped classroom model, and it requires your viewing of the videos and notes so that we can devote pod time to circuit building, troubleshooting, and discussion.  
+> * The web page notes and videos are the “lecture” portion of ME 30. Because we’re only asking for 70 minutes of your time in pods each week, we’re expecting you will find at least that amount of time outside of pods to watch the videos and study the related notes. We’re designing the pod activities as learning experiences that build on the notes, videos, and Flipgrid Video Response exercises.  
+> 
+> **Things due in Week 4:**  
+> * [Video Response 4](flipgrid.com/me30) by Monday 1:00pm, on Flipgrid (please post within the prompt for your pod)  
+> * [Project 2 Prototype](https://canvas.tufts.edu/courses/22096/assignments/107779) by Wednesday 11:59pm  
+> 
+> **Learning goals for Week 4:**  
+> * Explain how to use transistors to control high power with low power.  
+> * Begin to compare different types of motors (DC, stepper, and servo) and build circuits incorporating motors.  
+> * Explain how an H-bridge motor controller works.  
+> 
+> **What you should watch and read before Week 4 pods:**
+> * [Low power/high power](http://andnowforelectronics.com/notes/low-power-high-power/) (includes three mini-lecture videos)
+> * [H-bridges](http://andnowforelectronics.com/notes/h-bridge/)
+> * [Project 2 introduction](http://andnowforelectronics.com/logistics/projects/) (includes one mini-lecture video)  
+
+> If you’re feeling iffy about breadboarding, make sure you’ve reviewed the website notes  and videos on:  
+> * Prototyping  
+> * Voltage and current  
+> * Resistors  
+> * Series vs. parallel  
+
+> For Week 4, an optional resources is the “Transistors” section of Scherz & Monk textbook (if you have it) (section 4.3, pgs. 429-467)
+> 
+
 ## September 18, 2020
 
 > ME 30 Weekly Update Email for Friday, 9/18/20 
