@@ -14,7 +14,7 @@ draft: false
 |     3    |     9/22    |     Build a BJT circuit with an LED    |     [VR3](http://flipgrid.com/me30)    |          |
 |          |     9/24    |     Drive a motor with a MOSFET    |          |          |
 |     4    |     9/29    |     Build an H-bridge    |     [VR4](http://flipgrid.com/me30)    |          |
-|          |     10/1    |     Make a motor spin both ways    |          |     P2 proto     |
+|          |     10/1    |     Make a motor spin both ways    |          |     [P2 proto](https://canvas.tufts.edu/courses/22096/assignments/107779)     |
 |     5    |     10/6    |     Motor overview    |     [VR5](http://flipgrid.com/me30)    |          |
 |          |     10/8    |     DC, stepper, and servo motors    |          |     P2 PCB    |
 |     6    |     10/13    |     Arduino challenges    |     [VR6](http://flipgrid.com/me30)    |          |
