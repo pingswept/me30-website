@@ -28,13 +28,13 @@ This is an archive of all the emails we have sent you about the course, just for
 > * [Low power/high power](http://andnowforelectronics.com/notes/low-power-high-power/) (includes three mini-lecture videos)
 > * [H-bridges](http://andnowforelectronics.com/notes/h-bridge/)
 > * [Project 2 introduction](http://andnowforelectronics.com/logistics/projects/) (includes one mini-lecture video)  
-
+>
 > If you’re feeling iffy about breadboarding, make sure you’ve reviewed the website notes  and videos on:  
 > * Prototyping  
 > * Voltage and current  
 > * Resistors  
 > * Series vs. parallel  
-
+>
 > For Week 4, an optional resources is the “Transistors” section of Scherz & Monk textbook (if you have it) (section 4.3, pgs. 429-467)
 > 
 
