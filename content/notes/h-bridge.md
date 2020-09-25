@@ -29,3 +29,7 @@ Yes, you do. The trick that people use is to a low power NPN bipolar junction tr
 ## But if we have to use a BJT, why not use that instead of the MOSFET? Why both?
 
 The 2N3904 costs around $0.01, i.e. it is approximately free, but it can only handle around 0.5 A. You could instead get a larger power transistor. In some circumstances, people do that, but H-bridges tend to be pulsed on and off very quickly (hundreds or thousands of times per second) for speed control. MOSFETs require much less energy to turn on and off than BJTs, so the MOSFETs make the circuit more efficient. At really high currents (hundreds of amps, say for an electric car), people switch from MOSFETs to a weird hybrid of the two called an insulated gate bipolar transistor. IGBT's are cool, but they're also more expensive. Stick with the MOSFETs for now.
+
+## Prototyping an H-bridge motor controller circuit  
+
+In your ME 30 kit, you've got everything you need to build an H-bridge circuit on a breadboard. If you're totally unsure of how to get started, study the diagrams on this page. For ideas about how to test and debug your H-bridge systematically, check out the [Testing an H-bridge half](http://andnowforelectronics.com/notes/demo-videos/#testing-an-h-bridge) demo video.
