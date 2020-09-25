@@ -4,7 +4,7 @@ draft: "false"
 ---
 
 ## Testing an H-bridge one MOSFET at a time  
-This video is not intended to provide step-by-step building and testing instructions for an [H-bridge motor controller circuit](http://andnowforelectronics.com/notes/motors/). Instead, its goal is to give you a feel for one kind of systematic approach you could take to circuit construction, testing, and debugging.  It shows only the testing steps, and it proceeds only until half of the H-bridge circuit is complete.  Here's what we hope you'll take away from it:
+This video is not intended to provide step-by-step building and testing instructions for an [H-bridge motor controller circuit](http://andnowforelectronics.com/notes/h-bridge/). Instead, its goal is to give you a feel for one kind of systematic approach you could take to circuit construction, testing, and debugging.  It shows only the testing steps, and it proceeds only until half of the H-bridge circuit is complete.  Here's what we hope you'll take away from it:
 * You can start building an H-bridge by wiring up the "lower left" corner N-channel MOSFET. You can test it by manually hooking up the other side of the motor to 12 V.  
 * Then, add the "upper left" corner P-channel MOSFET.  To test it by itself, think about where the other side of the motor needs to be manually connected to test this corner.  
 * Third, connect the lower and upper left corners and test out the full left side. Take time to think about how to deal with the other side of the motor in this testing step.  
