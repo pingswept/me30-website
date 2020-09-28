@@ -2,11 +2,14 @@
 title: "Arduino MKR Wifi 1010"
 draft: false
 ---
+
+![Top view of Arduino MKR Wifi 1010](/img/arduino-mkr-wifi-1010-top-view.jpg)
+
 ## Reference documents
 
 [Arduino MKR wifi 1010 schematic](/pdf/schematic-arduino-mkr-wifi-1010.pdf)
 
-![Top view of Arduino MKR Wifi 1010](/img/arduino-mkr-wifi-1010-top-view.jpg)
+[Arduino MKR wifi 1010 pinout](/pdf/pinout-arduino-mkr-wifi-1010-2020-09-28.pdf)
 
 ## Arduino MKR Wifi 1010 hardware overview
 
