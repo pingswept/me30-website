@@ -1,6 +1,6 @@
 ---
 title: "Motors"
-draft: false
+draft: true
 ---
 
 ## Common characteristics
@@ -87,15 +87,69 @@ How do you actually go about selecting and buying a motor?
 
 Here are a few steps you could run through.
 
-1. Decide what kind of motion you need. If you need to rotate continuously, a brushed DC or universal motor is a good choice. If you need to control position, like in a 3D printer or robotic arm, a stepper motor is better. If you just need to twitch back and forth across a small angle, a hobby servo might be a better choice.
+### 1. Decide what kind of motion you need. If you need to rotate continuously, a brushed DC or universal motor is a good choice. If you need to control position, like in a 3D printer or robotic arm, a stepper motor is better. If you just need to twitch back and forth across a small angle, a hobby servo might be a better choice.
 
-2. Figure out how much power you need. This is why you took Dynamics last semester. *add a dynamics example here*
+### 2. Figure out how much power you need. This is why you took Dynamics last semester. However, as you'll see in the following example, a full dynamics is more useful in some scenarios than others.
 
-3. Check your various budgets: how much can you spend, but also how big or heavy can the motor be? How many motors do you need? Just one for a prototype, or 100,000 for a production run of your new electric pogo stick?
+**Motor power estimation example #1: Rotating photo cube.**  Imagine you’re making a gift for your mom - let's say it's a rotating photo cube that displays a different photo on each of its 6 faces. Each edge of the cube is 20 cm in length. You imagine it to be a desktop or countertop item, something like this [hand-powered version](https://www.amazon.com/Neil-Enterprises-Inc-Black-Floating/dp/B00810N5Q2/ref=sr_1_10?dchild=1&keywords=rotating+photo+cube&qid=1601434614&sr=8-10), but with a motor in its base to rotate the cube continuously (which means a DC gearmotor is the best choice). You plan to have the motor shaft directly coupled to the pin that extends down from the bottom corner of the photo cube.
+
+What torque and speed does the photo cube’s motor need? 
+
+**Speed:**  A desirable rotation rate would be about 10 rpm, which would give the viewer 6 second to see all the photos on the cube as it completes one revolution.   
+
+**Acceleration:** It doesn’t really matter if the photo cube takes a bit of time to accelerate up to its operating speed, but it seems like it would be more ideal if there’s not to much of a lag. Let’s say you’d like it to get up to speed within a quarter of a second.
+
+Then, angular acceleration = (angular velocity) / (start-up time).  
+Using 10 rpm as your angular velocity and 0.25 sec as your delta t, and converting rpm to rad/sec, you get 4.2 rad/sec^2 for angular acceleration.
+
+**Torque:** The motor needs to provide torque to:  
+(1) overcome the friction between the cube and its frame and  
+(2) accelerate the rotational inertia of the cube.  
+
+Assume the frictional torques are orders of magnitude lower than the inertia torque. In other words, if the motor supplies enough torque to initially accelerate the cube, there will be enough torque to overcome friction during rotation.  
+
+Torque = (mass moment of inertia) x (angular acceleration)
+
+Let’s estimate the mass of the cube at 0.5 kg, and its side length to be 20 cm. We can then use the formula for the mass moment of inertia of a cube, I = (1/6)x(mass)x(side length)^2, to find I = 0.0033 kg-m^2.
+
+Torque = (0.0033 kg-m^2) x (4.2 rad/sec^2) = 0.014 Newton-meters = 14 milliNewton-meters
+
+That’s in SI units; you can also convert it to the imperial units of 2.0 ounce-inches.
+
+**An alternate way to estimate torque** is to anticipate the force you’d need to apply at the edge of the cube to set it in motion. (This approach also assumes negligible friction around the axle.) Assume a finger tap will do it, and that’s about 0.1 N of force. If 0.1 N is applied at a 10-cm moment arm from the motor shaft, the torque is 0.01 Newton-meters, or 10 milliNewton-meters.  This result is satisfying because it's the same order of magnitude as the first approach.
+
+So, you want a motor that can provide a torque of 14 mN-m and a speed of 10 rpm, or 1.0 rad/s.
+
+**Power:** Since power = (torque) x (rotational speed) = (14 mN-m) x (1.0 rad/s), you’re looking for a motor with power of 14 milliwatts.  Not much!
+
+**Did this dynamics analysis help you?**  Not really!  Even without those calculations, you probably knew this was a very low power application. Any cheap low-torque gear motor would probably be fine, with its speed slowed down either with a gearbox (which would also increase its torque) or via pulse-width modulation. You would have been better off focusing on the size of your picture frame base and choose a cheap DC gearmotor that fits into that size and shape profile. 
+
+**Motor power estimation example #2: Helicopter rescue hoist.**  Let’s consider a completely different motor application, in a context where you’d want to be sure to get its specifications correct.
+
+Imagine you’re designing a helicopter rescue hoist, which lifts survivors from emergency situations by reeling in a basket attached to a cable. A motor-driven winch winds a cable around a spool on board the helicopter. How much motor power is needed here?
+
+**Torque:** You’d probably want to make sure the rescue hoist can support at least 1000 lbs.
+If the cable tension is 1000 lbs, and the cable spool has a 1-foot radius, the motor torque would need to be 1000 lbs-ft, or 1355 N-m.
+
+**Speed:** Hoists in industrial warehouses typically lift loads at 10 to 25 ft/min, but in an emergency situation, like a wildfire, a faster lift could be necessary. Let’s aim for the capability to lift the survivors at 60 ft/min. That's clearing the height of a 6-story building in one minute.
+
+What rotational velocity is needed for the spool to lift the cable at a rate of 60 ft/min?  
+
+The cable will be wound around the spool at a rate roughlty equal to the (spool circumference) x (rotational velocity).  
+
+Rotational velocity = (lifting rate) / (spool circumference) = 60 ft/min / (2pi ft/rev) = 9.55 rpm, or 1 rad/sec  
+
+**Power:** 
+Power = (torque) x (rotational speed) = 1355 N-m x 1 rad/sec = 1355 watts
+
+This is definitely a back-of-the-envelope calculation, but we've at least learned that a serious motor is in order.  
+
+
+### 3. Check your various budgets: how much can you spend, but also how big or heavy can the motor be? How many motors do you need? Just one for a prototype, or 100,000 for a production run of your new electric pogo stick?
 
 For low power, cheap motors, you're in a bit of a bind. Usually, cheap motors are poorly documented. You'll get for a DC gearmotor, for example, a voltage rating and a no-load speed, like 12 V, 540 RPM. This suggests that if you apply 12 V to the motor with nothing attached, it will spin at 540 RPM. That tells you nothing about how fast it will spin when you load it down, unfortunately (though you can be sure it will be slower).
 
-A decent selection method is to estimate your power, and then estimate the size of a motor that can handle that power.
+### A decent selection method is to estimate your power, and then estimate the size of a motor that can handle that power.
 
 As a rough guide:
 
