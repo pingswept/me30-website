@@ -113,7 +113,7 @@ Buy a motor that size, and try running it with your load at different voltages t
 
 ## Motor selection examples
 
-**Motor power estimation example #1: Rotating photo cube.**  Imagine you’re making a gift for your mom - let's say it's a rotating photo cube that displays a different photo on each of its 6 faces. Each edge of the cube is 20 cm in length. You imagine it to be a desktop or countertop item, something like this [hand-powered version](https://www.amazon.com/Neil-Enterprises-Inc-Black-Floating/dp/B00810N5Q2/), but with a motor in its base to rotate the cube continuously (which means a DC gearmotor is the best choice). You plan to have the motor shaft directly coupled to the pin that extends down from the bottom corner of the photo cube.
+**Motor power estimation example #1: Rotating photo cube.**  Imagine you’re making a gift for your mom - let's say it's a rotating photo cube that displays a different photo on each of its 6 faces. Each edge of the cube is 20 cm in length. You imagine it to be a desktop or countertop item, something like [this](https://www.amazon.com/Clear-Spinning-Photo-Silver-Photos/dp/B0079Q75HO/), but with a motor in its base to rotate the cube continuously (which means a DC gearmotor is the best choice). You plan to have the motor shaft directly coupled to the pin that extends down from the bottom corner of the photo cube.
 
 What torque and speed does the photo cube’s motor need? 
 
