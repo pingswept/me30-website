@@ -95,6 +95,24 @@ If you need to rotate continuously, a brushed DC or universal motor is a good ch
 
 This is why you took Dynamics last semester. However, as you'll see in the following example, a full dynamics model is more useful in some scenarios than others.
 
+### 3. Check your various budgets: how much can you spend, but also how big or heavy can the motor be? How many motors do you need? Just one for a prototype, or 100,000 for a production run of your new electric pogo stick?
+
+For low power, cheap motors, you're in a bit of a bind. Usually, cheap motors are poorly documented. You'll get for a DC gearmotor, for example, a voltage rating and a no-load speed, like 12 V, 540 RPM. This suggests that if you apply 12 V to the motor with nothing attached, it will spin at 540 RPM. That tells you nothing about how fast it will spin when you load it down, unfortunately (though you can be sure it will be slower).
+
+### A decent selection method is to estimate your power, and then estimate the size of a motor that can handle that power.
+
+As a rough guide:
+
+* A 1000 W motor is around the volume of a paint can (3.78 L).
+* A 100 W motor is around the volume of a soda can (355 mL).
+* A 10 W motor is around the volume of 5 Oreo cookies stacked up.
+
+The gearmotor in your kit is rated for 2 W, and probably has a volume of around 1 Oreo cookie (not including the gearbox). This power rating is similar to most motors like this, called "type 130," or "toy motors," or "one of those ones like Mabuchi makes."
+
+Buy a motor that size, and try running it with your load at different voltages to see how it behaves.
+
+## Motor selection examples
+
 **Motor power estimation example #1: Rotating photo cube.**  Imagine you’re making a gift for your mom - let's say it's a rotating photo cube that displays a different photo on each of its 6 faces. Each edge of the cube is 20 cm in length. You imagine it to be a desktop or countertop item, something like this [hand-powered version](https://www.amazon.com/Neil-Enterprises-Inc-Black-Floating/dp/B00810N5Q2/), but with a motor in its base to rotate the cube continuously (which means a DC gearmotor is the best choice). You plan to have the motor shaft directly coupled to the pin that extends down from the bottom corner of the photo cube.
 
 What torque and speed does the photo cube’s motor need? 
@@ -146,21 +164,4 @@ Rotational velocity = (lifting rate) / (spool circumference) = 60 ft/min / (2pi 
 **Power:** 
 Power = (torque) x (rotational speed) = 1355 N-m x 1 rad/sec = 1355 watts
 
-This is definitely a back-of-the-envelope calculation, but we've at least learned that a serious motor is in order.  
-
-
-### 3. Check your various budgets: how much can you spend, but also how big or heavy can the motor be? How many motors do you need? Just one for a prototype, or 100,000 for a production run of your new electric pogo stick?
-
-For low power, cheap motors, you're in a bit of a bind. Usually, cheap motors are poorly documented. You'll get for a DC gearmotor, for example, a voltage rating and a no-load speed, like 12 V, 540 RPM. This suggests that if you apply 12 V to the motor with nothing attached, it will spin at 540 RPM. That tells you nothing about how fast it will spin when you load it down, unfortunately (though you can be sure it will be slower).
-
-### A decent selection method is to estimate your power, and then estimate the size of a motor that can handle that power.
-
-As a rough guide:
-
-* A 1000 W motor is around the volume of a paint can (3.78 L).
-* A 100 W motor is around the volume of a soda can (355 mL).
-* A 10 W motor is around the volume of 5 Oreo cookies stacked up.
-
-The gearmotor in your kit is rated for 2 W, and probably has a volume of around 1 Oreo cookie (not including the gearbox). This power rating is similar to most motors like this, called "type 130," or "toy motors," or "one of those ones like Mabuchi makes."
-
-Buy a motor that size, and try running it with your load at different voltages to see how it behaves.
+This is definitely a back-of-the-envelope calculation, but we've at least learned that something like a 2 kW motor is in order.
