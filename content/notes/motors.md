@@ -87,11 +87,15 @@ How do you actually go about selecting and buying a motor?
 
 Here are a few steps you could run through.
 
-### 1. Decide what kind of motion you need. If you need to rotate continuously, a brushed DC or universal motor is a good choice. If you need to control position, like in a 3D printer or robotic arm, a stepper motor is better. If you just need to twitch back and forth across a small angle, a hobby servo might be a better choice.
+### 1. Decide what kind of motion you need.
 
-### 2. Figure out how much power you need. This is why you took Dynamics last semester. However, as you'll see in the following example, a full dynamics is more useful in some scenarios than others.
+If you need to rotate continuously, a brushed DC or universal motor is a good choice. If you need to control position, like in a 3D printer or robotic arm, a stepper motor is better. If you just need to twitch back and forth across a small angle, a hobby servo might be a better choice.
 
-**Motor power estimation example #1: Rotating photo cube.**  Imagine you’re making a gift for your mom - let's say it's a rotating photo cube that displays a different photo on each of its 6 faces. Each edge of the cube is 20 cm in length. You imagine it to be a desktop or countertop item, something like this [hand-powered version](https://www.amazon.com/Neil-Enterprises-Inc-Black-Floating/dp/B00810N5Q2/ref=sr_1_10?dchild=1&keywords=rotating+photo+cube&qid=1601434614&sr=8-10), but with a motor in its base to rotate the cube continuously (which means a DC gearmotor is the best choice). You plan to have the motor shaft directly coupled to the pin that extends down from the bottom corner of the photo cube.
+### 2. Figure out how much power you need.
+
+This is why you took Dynamics last semester. However, as you'll see in the following example, a full dynamics model is more useful in some scenarios than others.
+
+**Motor power estimation example #1: Rotating photo cube.**  Imagine you’re making a gift for your mom - let's say it's a rotating photo cube that displays a different photo on each of its 6 faces. Each edge of the cube is 20 cm in length. You imagine it to be a desktop or countertop item, something like this [hand-powered version](https://www.amazon.com/Neil-Enterprises-Inc-Black-Floating/dp/B00810N5Q2/), but with a motor in its base to rotate the cube continuously (which means a DC gearmotor is the best choice). You plan to have the motor shaft directly coupled to the pin that extends down from the bottom corner of the photo cube.
 
 What torque and speed does the photo cube’s motor need? 
 
@@ -106,7 +110,7 @@ Using 10 rpm as your angular velocity and 0.25 sec as your delta t, and converti
 (1) overcome the friction between the cube and its frame and  
 (2) accelerate the rotational inertia of the cube.  
 
-Assume the frictional torques are orders of magnitude lower than the inertia torque. In other words, if the motor supplies enough torque to initially accelerate the cube, there will be enough torque to overcome friction during rotation.  
+Assume the frictional torques are orders of magnitude lower than the inertial torque. In other words, if the motor supplies enough torque to initially accelerate the cube, there will be enough torque to overcome friction during rotation.
 
 Torque = (mass moment of inertia) x (angular acceleration)
 
@@ -128,14 +132,14 @@ So, you want a motor that can provide a torque of 14 mN-m and a speed of 10 rpm,
 
 Imagine you’re designing a helicopter rescue hoist, which lifts survivors from emergency situations by reeling in a basket attached to a cable. A motor-driven winch winds a cable around a spool on board the helicopter. How much motor power is needed here?
 
-**Torque:** You’d probably want to make sure the rescue hoist can support at least 1000 lbs.
+**Torque:** You’d probably want to make sure the rescue hoist can lift at least 1000 lbs.
 If the cable tension is 1000 lbs, and the cable spool has a 1-foot radius, the motor torque would need to be 1000 lbs-ft, or 1355 N-m.
 
 **Speed:** Hoists in industrial warehouses typically lift loads at 10 to 25 ft/min, but in an emergency situation, like a wildfire, a faster lift could be necessary. Let’s aim for the capability to lift the survivors at 60 ft/min. That's clearing the height of a 6-story building in one minute.
 
 What rotational velocity is needed for the spool to lift the cable at a rate of 60 ft/min?  
 
-The cable will be wound around the spool at a rate roughlty equal to the (spool circumference) x (rotational velocity).  
+The cable will be wound around the spool at a rate roughly equal to the (spool circumference) x (rotational velocity).  
 
 Rotational velocity = (lifting rate) / (spool circumference) = 60 ft/min / (2pi ft/rev) = 9.55 rpm, or 1 rad/sec  
 
