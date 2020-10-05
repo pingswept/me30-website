@@ -5,6 +5,42 @@ draft: false
 
 This is an archive of all the emails we have sent you about the course, just for reference.
 
+## October 2, 2020
+
+> ME 30 Weekly Update Email for Friday, 10/2/20
+>
+> Things due in Week 5:
+>
+> Quiz 1 on big ideas of Projects 1 and 2 during pods on Tuesday, Oct. 6 (15-minute independent task that you’ll submit online)
+> Project 2 PCB by Wednesday 11:59pm
+> No Video Response this week! Please review for Quiz 1 instead. 
+>
+> **Learning goals for Week 5:**
+>
+> * Explain how an H-bridge motor controller works.
+> * Improve your skills with PCB design strategies and software.
+> * Compare different types of motors (DC, stepper, and servo).
+>
+>**What you should watch and read before Week 5 pods:**
+>
+> * Motors (includes one mini-lecture video)
+> * For Quiz 1 review: web notes on Voltage Regulation and Low Power/High Power
+> * For Project 2 completion: If you’re feeling iffy about PCB design generally, or KiCad specifically, make sure you’ve reviewed the PCB design website notes.
+>
+> **Optional additional reading for Week 5:**
+>
+> Note that both of our optional course textbooks are available online for free from Tisch Library
+> * “Chapter 15: Motors” (pgs. 933-945) in Practical Electronics for Inventors (Scherz & Monk)
+> * “Chapter 6: Eeny, Meeny, Miny, Motor: Options for Creating and Controlling Motion” (pgs. 123-181) in Making Things Move (Dustyn Roberts), available online to Tufts students from Tisch Library
+>
+> **Attention Arduino newcomers! Save-the-date for special prep for Week 6:**
+>
+> The homework leading up to Week 6 (pods 10/13 and 10/15) will be to make sure you can send basic program to your Arduino (blink its onboard LED; flash an external LED). VR 6 (due 10/12) will be related to these tasks.
+> Some of you have never programmed a microcontroller before.  We’ll provide links to tutorials to support your work on VR6. But we will also hold three special office hour tutorials designed to walk you through the above two tasks and get you ready for pods on 10/13. Please plan to attend one if you are new to the Arduino.
+> * Thurs 10/8 – 3:00 and 3:45pm start times for the tutorials
+> * Sun 10/11 – 8:00 & 9:00pm start times for the tutorials
+> * Mon 10/12 – 3:30 & 4:15pm start times for the tutorials
+
 ## September 25, 2020
 
 > ME 30 Expectations for Week 4 (Weekly Update Email for Friday, 9/25/20)
