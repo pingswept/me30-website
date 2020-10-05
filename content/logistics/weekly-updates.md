@@ -9,7 +9,7 @@ This is an archive of all the emails we have sent you about the course, just for
 
 > ME 30 Weekly Update Email for Friday, 10/2/20
 >
-> Things due in Week 5:
+> **Things due in Week 5:**
 >
 > * Quiz 1 on big ideas of Projects 1 and 2 during pods on Tuesday, Oct. 6 (15-minute independent task that you’ll submit online)
 > * Project 2 PCB by Wednesday 11:59pm
