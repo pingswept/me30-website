@@ -13,10 +13,18 @@ draft: false
 
 * [100 uF aluminum electrolytic capacitor](/pdf/capacitor-100uf.pdf)
 
+## LEDs
+
+* [5 mm LED](/pdf/LED-QBL8XX15C.pdf)
+
 ## MOSFETs
 
 * [p-channel FQP27P06 MOSFET, 27 A, 60 V, TO-220 package](/pdf/mosfet-FQP27P06.pdf)
 * [n-channel IRLB8721 MOSFET, 30 A, 60 V, TO-220 package](/pdf/mosfet-IRLB8721.pdf)
+
+## Resistors
+
+* [1/4 W resistor](/pdf/resistor-CFM1JTxxxR.pdf)
 
 ## Voltage regulators
 
