@@ -17,9 +17,9 @@ So your computer sends off the UDP packet saying, "Hey, where can I find [andnow
 
 But again, despite the site's worldwide popularity, Comcast has no idea where to find it, so it makes a request to the authoritative name server for all the domain names that end in .com. If Comcast's server didn't know where to find that server, it could ask one of the 13 root name servers; those servers' addresses are hard-coded into the Comcast server's memory, but Comcast has seen bajillions of requests for .com addresses before, so it surely has the .com name server address cached.
 
-Finally, the .com server sends Comcast over to the authoritative server for andnowforelectronics.com, which is a server run by a domain name registrar in Paris, France, called gandi.net. Their name server, ns1.gandi.net, at long last, answers the question! They do this because I pay them to, and they know the right IP address because I typed it into their website last summer.
+Finally, the .com server sends Comcast over to the authoritative server for andnowforelectronics.com, which is a server run by a domain name registrar in Paris, France, called gandi.net. Their name server, ns1.gandi.net, at long last, answers the question! They do this because I paid them to register the domain name and provide these DNS services, and they know the right IP address because I typed it into their website last summer.
 
-Here's what their server sends back:
+Here's what the Gandi name server sends back:
 
     id 65452
     opcode QUERY
@@ -32,11 +32,30 @@ Here's what their server sends back:
     ;AUTHORITY
     ;ADDITIONAL
 
-That IP address gets passed back to your web browser, and all the DNS servers along the way cache the answer, in case someone else wants to know where to find the site.
+That IP address, 23.239.11.134, gets passed back to your web browser, and all the DNS servers along the way cache the answer, in case someone else wants to know where to find the site.
 
 ## Second, connect to the webserver
 
-stuff about TCP/IP goes here
+Now your computer knows the IP address of the webserver you're targeting. The server is one at a datacenter in New Jersey, owned by a company called Linode. I pay them $5/month, and they let me use their server. The server is almost certainly a multi-core behemoth that is running lots of virtual servers in parallel using a hypervisor, but as far as I can tell, it's just like any other Linux server. My best guess is that the server is in the Cologix data center in Cedar Knolls, NJ: https://goo.gl/maps/J5UagBYytmXPBHRz8
+
+The next step is that your computer sends out a TCP packet to start a connection to the server at 23.239.11.134. Your computer only knows the IP address of your wifi router, so it sends the first packet to that address and hopes it gets there. Your router has no idea how to connect to a server in New Jersey, so it sends the packet upstream to a router at Comcast (or Tufts, or wherever you're getting your internet connection). Your packet will be passed along from router to router. The routers along the way don't know where to find your server, but they each contain a huge table that lists how to get to different networks.
+
+If we use a tool called `traceroute`, we can see the steps that our packet takes to get to the server. From my house in Somerville, here's the path it takes. (The path might be slightly different each time.)
+
+    traceroute to 23.239.11.134 (23.239.11.134) , 5 relative hops max, 52 byte packets
+       1 192.168.1.1 (192.168.1.1) 13.237 ms 38.604 ms 39.627 ms
+       2 10.16.224.1 (10.16.224.1) 10.392 ms 37.174 ms 39.008 ms
+       3 146.115.22.193 (146.115.22.193) 12.844 ms 140.886 ms 143.371 ms
+       4 207.172.18.99 (207.172.18.99) 10.770 ms 79.205 ms 81.527 ms
+       5 hge0-2-0-0.border1.bos.ma.rcn.net (207.172.19.53) 12.398 ms 110.949 ms 113.830 ms
+       6 69.174.18.121 (69.174.18.121) 29.522 ms 539.015 ms 541.012 ms
+       7 89.149.140.182 (89.149.140.182) 20.705 ms 509.607 ms 511.082 ms
+       8 173.205.38.198 (173.205.38.198) 17.054 ms 427.030 ms 428.663 ms
+       9  * * *
+       10  * * *
+       11  * * *
+       12 23.239.11.134 (23.239.11.134) 26.737 ms 3167.498 ms 3169.165 ms
+
 
 ## Third, we ask the server for the webpage
 
