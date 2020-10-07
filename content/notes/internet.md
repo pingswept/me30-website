@@ -42,20 +42,26 @@ The next step is that your computer sends out a TCP packet to start a connection
 
 If we use a tool called `traceroute`, we can see the steps that our packet takes to get to the server. From my house in Somerville, here's the path it takes. (The path might be slightly different each time.)
 
-    traceroute to 23.239.11.134 (23.239.11.134) , 5 relative hops max, 52 byte packets
-       1 192.168.1.1 (192.168.1.1) 13.237 ms 38.604 ms 39.627 ms
-       2 10.16.224.1 (10.16.224.1) 10.392 ms 37.174 ms 39.008 ms
-       3 146.115.22.193 (146.115.22.193) 12.844 ms 140.886 ms 143.371 ms
-       4 207.172.18.99 (207.172.18.99) 10.770 ms 79.205 ms 81.527 ms
-       5 hge0-2-0-0.border1.bos.ma.rcn.net (207.172.19.53) 12.398 ms 110.949 ms 113.830 ms
-       6 69.174.18.121 (69.174.18.121) 29.522 ms 539.015 ms 541.012 ms
-       7 89.149.140.182 (89.149.140.182) 20.705 ms 509.607 ms 511.082 ms
-       8 173.205.38.198 (173.205.38.198) 17.054 ms 427.030 ms 428.663 ms
-       9  * * *
-       10  * * *
-       11  * * *
-       12 23.239.11.134 (23.239.11.134) 26.737 ms 3167.498 ms 3169.165 ms
+```
+Tracing route to andnowforelectronics.com [23.239.11.134]
+over a maximum of 30 hops:
 
+  1    <1 ms    <1 ms    <1 ms  192.168.1.1
+  2     2 ms     1 ms     1 ms  192.168.0.1
+  3    11 ms    11 ms    12 ms  10.23.192.1
+  4    39 ms    11 ms    13 ms  bdle1-sub212.aggr1.bos.ma.rcn.net [146.115.22.195]
+  5    13 ms     9 ms    10 ms  hge0-0-0-10.core1.sth.ma.rcn.net [207.172.19.191]
+  6     9 ms    10 ms    10 ms  207.172.18.70
+  7    19 ms    33 ms    15 ms  et-0-0-13.cr1-bos1.ip4.gtt.net [69.174.18.121]
+  8    15 ms    14 ms    14 ms  ae10.cr3-nyc3.ip4.gtt.net [89.149.140.182]
+  9    17 ms    30 ms    15 ms  ip4.gtt.net [173.205.38.198]
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13    16 ms    19 ms    18 ms  li688-134.members.linode.com [23.239.11.134]
+
+Trace complete.
+```
 
 ## Third, we ask the server for the webpage
 
