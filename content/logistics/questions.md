@@ -12,7 +12,10 @@ We'll choose a question from this list to generate the Video Response prompt for
 4. Can you store more energy in a 100 uF capacitor or in a lithium ion battery of the same volume?
 5. Why are extension cords rated for a certain voltage and current? How is a cord with higher ratings different?
 6. Using the stuff in your project kit, devise a few different ways to overload your voltage regulator circuit and tell us which one would dissipate the most power, and why.
-7. How much energy is there in an AA battery? In a 9V battery? Which has higher energy density by volume, and why?  
+7. How much energy is there in an AA battery? In a 9V battery? Which has higher energy density by volume, and why?
+8. Compared to the N-channel set-up, what would you need to do differently to use a P-channel MOSFET to switch your 12-V DC gearmotor on and off? 
+9. What would be the advantages of using the P-channel as a high-side driver instead of a low-side driver?
+10. How would you select an appropriate motor for a robot elbow?
 
 
 ## Learning objectives
@@ -42,3 +45,33 @@ We'll choose a question from this list to generate the Video Response prompt for
 19.	Gain exposure to managing a bill of materials, supply chain, and verification vs validation.
 20.	Build engineering ethics fluency by exploring the impact of internet-connected electronic technologies on various stakeholders, including in environmental and societal contexts.
 21.	Define discriminatory design, explain a case where it has occurred, and identify an approach to avoid it.
+
+## Video Response 6 (due Mon., Oct. 12, 11:59pm)
+This Video Response prompt has more text than can fit in Flipgrid, so we are posting the details here.  
+
+We are moving on to microcontrollers! We’ll begin with the Arduino.  Here are the steps for Video Response #6, due a few hours later than usual: 11:59pm Monday, Oct. 12.  
+
+**VR 6 Part I: Reflection on the first 5 weeks of ME 30**
+
+Reflect for a few minutes on your work and learning in ME 30 so far this semester. Here’s a prompt to guide your reflection:
+* You’ve probably done a bunch of different things for ME 30 so far (e.g., going to office hours, asking friends how things work, asking questions in pods, reading the website notes and watching its videos, building circuits, breaking components, debugging, Googling, reading the textbooks, making video responses, posting to Slack, etc.)    
+* Which of the things you’ve done for ME 30 has been most useful for your learning? What do you think might happen if you put all your effort into that thing and ignored everything else?    
+* Jot down some thoughts and save them for your video response (see Step 5 below).  
+
+**VR 6 Part II: Arduino prep**  
+
+(1) Read the ME 30 website notes [on microcontrollers](http://andnowforelectronics.com/notes/microcontrollers/) and on the [Arduino MKR Wifi 1010](http://andnowforelectronics.com/notes/arduino-mkr-wifi-1010-hardware/).
+
+(2) Install the Arduino IDE, Desktop version, version 1.8.13, from Arduino’s downloads page: https://www.arduino.cc/en/Main/Software
+**We’ll be using the desktop IDE, NOT the web editor.**  
+(The acronym IDE means integrated development environment, which is software that gives computer programmers a single graphical user interface for the different tasks involved in writing programs.)
+
+(3) Follow the directions for adding the Arduino SAMD core to the Boards Manager on the Desktop IDE. These directions are on the website, https://www.arduino.cc/en/Guide/MKRWiFi1010, in the lower section titled “Use your Arduino MKR WIFI 1010 on the Arduino Desktop IDE,”  Make sure you are NOT using the earlier sections on using the IoT cloud or the Web IDE.  In ME 30 we’ll be using the Desktop IDE.
+
+(4) Complete the following two initial Arduino programming tasks:
+
+a. Make your Arduino run the "Blink" example.  
+b. Make your Arduino flash an LED so there are 2 flashes per second, controlled by pin D6.
+
+(5) Make and post a [Flipgrid](https://flipgrid.com/me30) video that shows us you can do these two Arduino programming tasks, and that shares your reflection thoughts from Part I.
+
