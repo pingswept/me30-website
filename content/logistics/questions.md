@@ -72,8 +72,8 @@ Reflect for a few minutes on your work and learning in ME 30 so far this semeste
 
 (5) Complete the following two initial Arduino programming tasks:
 
-a. Make your Arduino run the "Blink" example.  
-b. Make your Arduino flash an LED so there are 2 flashes per second, controlled by pin D7.
+a. Make your Arduino run the "Blink" example. You can find the "Blink" code and instructions [here](https://www.arduino.cc/en/Tutorial/BuiltInExamples/Blink).  
+b. Make your Arduino flash an LED so there are 2 flashes per second, controlled by pin D7. See information about Arduino pins [here](https://www.arduino.cc/reference/en/language/functions/digital-io/digitalwrite/).
 
 (6) Make and post a [Flipgrid](https://flipgrid.com/me30) video that shows us you can do these two Arduino programming tasks, and that shares your reflection thoughts from Part I.
 
