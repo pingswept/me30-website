@@ -19,7 +19,7 @@ Before you can actually make an Arduino do anything, you have to install the Ard
 *   A compiler, which translates your code into 1's and 0's for the Arduino
 *   A USB loader, which loads the 1's and 0's onto the Arduino through the USB cable
 
-To install the Arduino software, [download the installer](https://www.arduino.cc/en/Main/Software) from the Arduino website. (There is also a web-based version, but it doesn't work reliably yet, as of February 2017.)
+To install the Arduino software, [download the installer](https://www.arduino.cc/en/Main/Software) from the Arduino website. Be sure to download the desktop application, not the web editor which appears at the top of the page. (We are using the desktop application in ME 30.)
 
 You're on your own for the actual installation, but it consists of pressing "OK" and "Next" and things like that a few times. Search the internet for advice if you get stuck. Your goal is to see something like the image below on your screen, except not just a screenshot in your browser window like this one.
 
@@ -48,6 +48,10 @@ After the code is loaded, here's what you should see (an Arduino with a flashing
 ![](img/arduino-uno-blink.gif)
 
 If you've made it this far, your hardware and software are working properly. Congratulations! Go get a drink of cool, delicious water!
+
+## Alternative Arduino programming tutorials
+
+Arduino's [Tutorials](https://www.arduino.cc/en/Tutorial/HomePage) are a great resource for Arduino newcomers. We urge you to spend time walking through this resource.
 
 ## When stuff goes wrong
 
