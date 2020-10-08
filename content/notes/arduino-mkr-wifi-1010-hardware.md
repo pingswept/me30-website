@@ -25,4 +25,8 @@ However, the first Google image search result for "TW 833 chip" is an Adafruit b
 
 ## Connectors
 
-The right end of the board has three different connectors. The white, 2-pin connector at the top, right next to the battery chip, is a JST connector for a 1-cell lithium ion battery. The silver connector on the short side of the board is a micro USB connector for communication with a host computer. The white, 5-pin connector at the bottom of the board connects to the I<sup>2</sup>C bus of the M0+, as well as an extra digital pin, power, and ground.
+The right end of the board has three different connectors. The white, 2-pin connector at the top, right next to the battery chip, is a JST connector for a 1-cell lithium ion battery. The silver connector on the short side of the board is a micro USB connector for communication with a host computer. The white, 5-pin connector at the bottom of the board connects to the I<sup>2</sup>C bus of the M0+, as well as an extra digital pin, power, and ground. 
+
+## Learning to program your Arduino
+
+Arduino's [Tutorials](https://www.arduino.cc/en/Tutorial/HomePage) are a great resource for Arduino newcomers. We urge you to spend time walking through this resource.
