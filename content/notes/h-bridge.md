@@ -33,3 +33,14 @@ The 2N3904 costs around $0.01, i.e. it is approximately free, but it can only ha
 ## Prototyping an H-bridge motor controller circuit  
 
 In your ME 30 kit, you've got everything you need to build an H-bridge circuit on a breadboard. If you're totally unsure of how to get started, study the diagrams on this page. For ideas about how to test and debug your H-bridge systematically, check out the [Testing an H-bridge half](http://andnowforelectronics.com/notes/demo-videos/#testing-an-h-bridge) demo video.
+
+## Pathologies and debugging
+
+ * Motor was pulsing, because power supply was overloaded, because P-channel was shorted to ground, because circuit design was misunderstood.
+ * BJT exploded. Visual inspection revealed missing chunk.
+ * Did not understand building blocks of circuit before using to build larger system.
+ * Smoke coming out of transistor. Replaced transistor.
+ * Components getting hot. Tested parts in isolation to get each part working.
+ * Visual tracing of wires to match wires to circuit design.
+ * Incorrect understanding of pinouts and part numbers from datasheets.
+ * Difficulty packing components together to make PCB small.
