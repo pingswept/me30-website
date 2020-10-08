@@ -62,7 +62,7 @@ Reflect for a few minutes on your work and learning in ME 30 so far this semeste
 
 (1) If you are a complete newcomer to the Arduino, consider attending one of the special office hour tutorials in which we will walk you through the steps outlined below. Those tutorials are happening Thurs., 10/8 (3pm and 3:45pm), Sun., 10/11 (8pm and 9pm), and Mon., 10/12 (3:30pm and 4:15pm).
 
-(2) Read the ME 30 website notes [on microcontrollers](http://andnowforelectronics.com/notes/microcontrollers/) and on the [Arduino MKR Wifi 1010](http://andnowforelectronics.com/notes/arduino-mkr-wifi-1010-hardware/).
+(2) Skim the ME 30 website notes [on microcontrollers](http://andnowforelectronics.com/notes/microcontrollers/), the [Arduino MKR Wifi 1010](http://andnowforelectronics.com/notes/arduino-mkr-wifi-1010-hardware/), and [Arduino programming](http://andnowforelectronics.com/notes/arduino-programming/). (You'll want to read them in more depth later on; for now, just get a sense for what's there.)  
 
 (3) Install the Arduino IDE, Desktop version, version 1.8.13, from Arduino’s downloads page: https://www.arduino.cc/en/Main/Software
 **We’ll be using the desktop IDE, NOT the web editor.** (The acronym IDE means integrated development environment, which is software that gives computer programmers a single graphical user interface for the different tasks involved in writing programs.)
