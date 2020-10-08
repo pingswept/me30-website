@@ -65,8 +65,7 @@ Reflect for a few minutes on your work and learning in ME 30 so far this semeste
 (2) Read the ME 30 website notes [on microcontrollers](http://andnowforelectronics.com/notes/microcontrollers/) and on the [Arduino MKR Wifi 1010](http://andnowforelectronics.com/notes/arduino-mkr-wifi-1010-hardware/).
 
 (3) Install the Arduino IDE, Desktop version, version 1.8.13, from Arduino’s downloads page: https://www.arduino.cc/en/Main/Software
-**We’ll be using the desktop IDE, NOT the web editor.**  
-(The acronym IDE means integrated development environment, which is software that gives computer programmers a single graphical user interface for the different tasks involved in writing programs.)
+**We’ll be using the desktop IDE, NOT the web editor.** (The acronym IDE means integrated development environment, which is software that gives computer programmers a single graphical user interface for the different tasks involved in writing programs.)
 
 (4) Follow the directions for adding the Arduino SAMD core to the Boards Manager on the Desktop IDE. These directions are on the website, https://www.arduino.cc/en/Guide/MKRWiFi1010, in the lower section titled “Use your Arduino MKR WIFI 1010 on the Arduino Desktop IDE,”  Make sure you are NOT using the earlier sections on using the IoT cloud or the Web IDE.  In ME 30 we’ll be using the Desktop IDE.
 
@@ -75,5 +74,5 @@ Reflect for a few minutes on your work and learning in ME 30 so far this semeste
 a. Make your Arduino run the "Blink" example. You can find the "Blink" code and instructions [here](https://www.arduino.cc/en/Tutorial/BuiltInExamples/Blink).  
 b. Make your Arduino flash an LED so there are 2 flashes per second, controlled by pin D7. See information about Arduino pins [here](https://www.arduino.cc/reference/en/language/functions/digital-io/digitalwrite/).
 
-(6) Make and post a [Flipgrid](https://flipgrid.com/me30) video that shows us you can do these two Arduino programming tasks, and that shares your reflection thoughts from Part I.
+**(6) Fligrip posting - Make and post a [Flipgrid](https://flipgrid.com/me30) video that shows us you can do these two Arduino programming tasks, and that shares your reflection thoughts from Part I.**
 
