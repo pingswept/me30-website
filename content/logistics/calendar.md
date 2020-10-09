@@ -17,21 +17,21 @@ draft: false
 |          |     10/1    |     Make a motor spin both ways    |         |          |     [P2 proto](https://canvas.tufts.edu/courses/22096/assignments/107779)     |
 |     5    |     10/6    |     Quiz 1 (on P1 and P2)    |     [Motors](http://andnowforelectronics.com/notes/motors/)    |         |          |
 |          |     10/8    |     DC, stepper, and servo motors    |         |          |     P2 PCB    |
-|     6    |     10/13    |     Arduino challenges    |     [Microcontrollers](http://andnowforelectronics.com/notes/microcontrollers/); [Arduino MKR 1010 Wifi](http://andnowforelectronics.com/notes/arduino-mkr-wifi-1010-hardware/); [Arduino programming](http://andnowforelectronics.com/notes/arduino-programming/)     |     [VR6](http://flipgrid.com/me30)    |          |
+|     6    |     10/13    |     Arduino challenges    |     [Microcontrollers](http://andnowforelectronics.com/notes/microcontrollers/); [Arduino MKR 1010 Wifi](http://andnowforelectronics.com/notes/arduino-mkr-wifi-1010-hardware/); [Arduino programming](http://andnowforelectronics.com/notes/arduino-programming/)     |     [VR5](http://flipgrid.com/me30)    |          |
 |          |     10/15    |     Arduino challenges, cont'd    |         |          |          |
-|     7    |     10/20    |     Hardware peripherals    |         |     [VR7](http://flipgrid.com/me30)    |          |
+|     7    |     10/20    |     Hardware peripherals    |         |     [VR6](http://flipgrid.com/me30)    |          |
 |          |     10/22    |     i2C, PWM, and serial port modules    |         |          |     P3 proto    |
-|     8    |     10/27    |     Sensors and more C programming    |         |     [VR8](http://flipgrid.com/me30)    |          |
+|     8    |     10/27    |     Sensors and more C programming    |         |     [VR7](http://flipgrid.com/me30)    |          |
 |          |     10/29    |          |         |          |          |
-|     9    |     11/3    |     How does the internet work?    |         |     [VR9](http://flipgrid.com/me30)    |          |
+|     9    |     11/3    |     How does the internet work?    |         |     [VR8](http://flipgrid.com/me30)    |          |
 |          |     11/5    |     P3 share out    |         |          |     P3 final    |
 |     10    |     11/10    |     No pods (Wed. schedule)    |         |          |          |
 |          |     11/12    |     Quiz 2 (on P3) and booting the Raspberry Pi    |         |          |          |
-|     11    |     11/17    |     Basic types of control    |         |     [VR10](http://flipgrid.com/me30)    |          |
+|     11    |     11/17    |     Basic types of control    |         |     [VR9](http://flipgrid.com/me30)    |          |
 |          |     11/19    |          |         |          |     P4 proto    |
 |     12    |     11/24    |     Intro to the frequency domain    |         |          |          |
 |          |     11/26    |     No pods (Thanksgiving)    |         |          |          |
-|     13    |     12/1    |     Ethics and project management    |         |     [VR11](http://flipgrid.com/me30)    |          |
+|     13    |     12/1    |     Ethics and project management    |         |     [VR10](http://flipgrid.com/me30)    |          |
 |          |     12/2    |     P4 share out    |         |          |     P4 final    |
-|     14    |     12/8    |     Ethics and jobs    |         |     [VR12](http://flipgrid.com/me30)    |          |
+|     14    |     12/8    |     Ethics and jobs    |         |     [VR11](http://flipgrid.com/me30)    |          |
 |          |     12/10    |     Semester reflection    |         |          |          |
