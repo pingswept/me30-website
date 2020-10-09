@@ -5,6 +5,33 @@ draft: false
 
 This is an archive of all the emails we have sent you about the course, just for reference.
 
+## October 9, 2020
+
+> ME 30 Weekly Update Email for Friday, 10/9/20
+>
+>**Things due in Week 6:**
+> * [Video Response 5](https://flipgrid.com/me30) by Monday 11:59pm, on Flipgrid (please note tutorials offered Sun. night and Mon. afternoon to assist Arduino newcomers)  
+>
+>**Learning goals for Week 6:**
+> * Learn the basic code/upload/test/debug cycle for Arduino.  
+> * Gain basic familiarity with microcontroller hardware.  
+>
+>**What you should watch and read before Week 6 pods in ME 30:**
+> * [Microcontrollers](http://andnowforelectronics.com/notes/microcontrollers/)  
+> * [Arduino MKR 1010 hardware](http://andnowforelectronics.com/notes/arduino-mkr-wifi-1010-hardware/)  
+> * [Arduino programming](http://andnowforelectronics.com/notes/arduino-programming/)    
+>
+>**Optional textbook reading for Week 6:**
+> * Note that both of our optional course textbooks are available online for free from Tisch Library
+> * “Section 13.4: Arduino” (pgs. 864-873) in [Practical Electronics for Inventors](https://tufts-primo.hosted.exlibrisgroup.com/permalink/f/k87dab/TN_cdi_safari_books_9781259587559) (Scherz & Monk)
+> * “Appendix: Arduino Primer” (pgs. 329-337) in [Making Things Move](https://tufts-primo.hosted.exlibrisgroup.com/permalink/f/k87dab/TN_cdi_askewsholts_vlebooks_9780071741682) (Dustyn Roberts)
+>
+>**Arduino newcomers! Special prep for Week 6:**
+>The VR leading up to Week 6 (pods 10/13 and 10/15) involves making sure you can send basic program to your Arduino (blink its onboard LED; flash an external LED). For Arduino newcomers, there are two more special office hour tutorials designed to walk you through the above two tasks and get you ready for pods on 10/13. Please plan to attend one if you are new to the Arduino.  
+> * Sun 10/11 – 8:00 & 9:00pm start times for the tutorials (during LA office hours)
+> * Mon 10/12 – 3:30 & 4:15pm start times for the tutorials (during Wendell office hours)
+
+
 ## October 2, 2020
 
 > ME 30 Weekly Update Email for Friday, 10/2/20
