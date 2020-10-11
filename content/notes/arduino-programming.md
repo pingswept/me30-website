@@ -6,7 +6,7 @@ draft: false
 ## Stuff You Need
 
 *   A computer, plus the admin password to install software
-*   An Arduino Uno R3
+*   An Arduino MKR 1010 Wifi
 *   A USB cable with the right ends to connect the Arduino to the computer
 
 If you need to buy an Arduino or USB cable, I'd recommend Adafruit in New York as the best choice: [Arduino Uno R3](https://www.adafruit.com/products/50) and [USB cable](https://www.adafruit.com/products/62).
