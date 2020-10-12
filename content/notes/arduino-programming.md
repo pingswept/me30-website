@@ -29,7 +29,7 @@ You're on your own for the actual installation, but it consists of pressing "OK"
 
 The next step is to plug in your Arduino with the USB cable. When you plug it in, you should see a green light on the board light up, showing that the Arduino is getting electricity. Depending on how your Arduino was manufactured or last used, some of the yellow lights on the board might also light up. That's okay.
 
-Once the board powers up, it's time to load new code on it. In the Arduino program, select `File > Examples > 01.Basics > Blink`. This will open a file containing a short program that blinks the yellow LED labeled "L" on the Arduino in a 1 second on, 1 second off pattern forever (or until you load a new program).
+Once the board powers up, it's time to load new code on it. In the Arduino program, select `File > Examples > 01.Basics > Blink`. This will open a file containing a short program that blinks the yellow LED on the Arduino in a 1 second on, 1 second off pattern forever (or until you load a new program).
 
 To compile the program and load it onto the Arduino, click the upload button, which is circled in the screenshot below. (If you hover over a button with the mouse pointer, the function of the button appears in the top bar.)
 
@@ -40,10 +40,13 @@ When you click upload, you see some messages at the bottom of the Arduino window
 *   "Compiling sketch..."
 *   "Uploading..."
 *   "Done uploading."
+*   "CPU reset"
 
 As the code is uploaded, you'll see the yellow lights on the board flash rapidly for a second or two. Each flash of the light marked "TX" (which means "transmit", for no compelling reason) is a 1 getting sent to the board; the gaps between flashes are 0's. The flashes on the "RX" pin ("receive") are confirmation packets sent back to the computer.
 
 After the code is loaded, here's what you should see (an Arduino with a flashing yellow light).
+
+**(Sorry, this is an old Arduino Uno, not the new MKR Wifi 1010)**
 
 ![](img/arduino-uno-blink.gif)
 
@@ -51,7 +54,7 @@ If you've made it this far, your hardware and software are working properly. Con
 
 ## Alternative Arduino programming tutorials
 
-Arduino's [Tutorials](https://www.arduino.cc/en/Tutorial/HomePage) are a great resource for Arduino newcomers. We urge you to spend time walking through this resource.
+Arduino's [Tutorials](https://www.arduino.cc/en/Tutorial/HomePage) are great if you're new to this stuff. Please take the time to run through them; it's an investment worth making. Microcontrollers are not going away soon.
 
 ## When stuff goes wrong
 
@@ -100,31 +103,35 @@ A better approach for those of you who are still here is to learn a few useful f
 
 ## A few exciting functions
 
-More details to be added . . .
+Here are some functions that you might want to start with.
 
-digitalWrite()
+digitalWrite(): set a pin high or low
 
-digitalRead()
+digitalRead(): check whether a pin is high or low
 
-analogRead()
+pinMode(): make a pin controlled by the Arduino (output mode) or let outside voltages control it (input mode)
 
-analogWrite()
+analogRead(): check the voltage on a pin, but only works on pins A0-A6
 
-delay()
+analogWrite(): send a PWM signal out on a pin (NOT ACTUALLY ANALOG! LIARS!)
 
-If you want to check the details of these functions or see what else is available, the canonical reference is [the Arduino reference page](https://www.arduino.cc/en/Reference/HomePage).
+delay(): do nothing for some number of milliseconds
+
+If you want to check the details of these functions or see what else is available, the canonical reference is [the Arduino reference page](https://www.arduino.cc/en/Reference/HomePage). Become good friends with this page, and it will serve you well.
 
 ## Some useful programming techniques
 
 ### #defines
 
-First off, anything that starts with a # is called a "preprocessor directive." When you translate your C code into a binary executable file, the first step is a sweep by the preprocessor. It reads the #defines and replaces anything you have defined with your definitions. For example, if you have written `#define TOO_MUCH_CHEESE 138`, the preprocessor will replace all subsequent occurrences of the phrase `TOO_MUCH_CHEESE` with the number `138`.
+First off, anything that starts with a # is called a "preprocessor directive," and "#" is pronounced "pound," not "hashtag." **#sorrynotsorry**
 
-This probably seems stupid-- why wouldn't you just write 138 in the first place? Suppose you had written 138 in 22 different places in a long file. Then, you realized that 138 wasn't really all _that_ much cheese, so you decide to bump 138 up to 243\. If you were smart enough to use a #define, you only have to change it in one place.
+When you translate your C code into a binary executable file, the first step is a sweep by the preprocessor. It reads the #defines and replaces anything you have defined with your definitions. For example, if you have written `#define TOO_MUCH_CHEESE 138`, the preprocessor will replace all subsequent occurrences of the phrase `TOO_MUCH_CHEESE` with the number `138`.
+
+This probably seems stupid-- why wouldn't you just write 138 in the first place? Suppose you had written 138 in 22 different places in a long file. Then, you realized that 138 wasn't really all _that_ much cheese, so you decide to bump 138 up to 243. If you were smart enough to use a #define, you only have to change it in one place.
 
 But the fun doesn't stop there! You can also use them to make your code more understandable, which is highly desirable when I'm trying to help you debug your project. For example, if you write `if(signal>128)`, I have no idea what you're doing. If you write `if(signal>SENSOR_THRESHOLD)`, I'll have a good guess of what's happening.
 
-A good rule of thumb is that if you find any numbers other than 1's and 0's below `main()` you're probably making a mistake.
+A good rule of thumb is that if you find any numbers other than 1's and 0's below `setup()` you're probably making a mistake.
 
 An interesting thing to think about is what happens if you make one `#define` depend on another-- does the order matter? (No, but it seems like it does at first. That's why it's "interesting.")
 
@@ -138,11 +145,11 @@ There are two formats of #includes:
 #include "somefunctions.h"
 </pre>
 
-You use the for <somefunctions.h> for files of functions that are pre-installed with the compiler. The "somefunctions.h" format is used for any little collections of functions you write and keep in the same directory as your main program. (Actually, these settings can be different on different compilers, and, to be honest, I'm not really even sure that this is the way the Arduino compiler is set up, but that's why there are two formats.)
+You use the format `<somefunctions.h>` for files of functions that are pre-installed with the compiler. The `"somefunctions.h"` format is used for any little collections of functions you write and keep in the same directory as your main program. (Actually, these settings can be different on different compilers, and, to be honest, I'm not really even sure that this is the way the Arduino compiler is set up, but that's why there are two formats.)
 
 ### Comments
 
-Comments are text fragments injected for the sake of humans; the preprocessor strips them out as soon as you give it the file for compilation. For C, the rule is that comments are to be stuck between the symbols /* and */. Since C++ has been developed as an improved version of C, most preprocessors now allow "C++ style comments" which start with // and continue to the end of a line.
+Comments are text fragments injected for the sake of humans; the preprocessor strips them out as soon as you give it the file for compilation. For C, the rule is that comments are to be stuck between the symbols `/*` and `*/`. Since C++ has been developed as an improved version of C, most preprocessors now allow "C++ style comments" which start with // and continue to the end of a line.
 
 ### Functions
 
@@ -158,9 +165,11 @@ A function is a section of code that takes in some data and spits out some other
 }
 </pre>
 
+### Encapsulation of complexity
+
 By far, the coolest thing about functions is that you can use them to break down complex tasks into simpler ones. Suppose you're building a medical imaging device that uses the Bessel function to compute Hankel transforms. You write a little function that calculates the value of the Bessel function for different numbers. Then you write a little program that tests your function (to be cool, call this little test program a "test harness"). Once you get that function working, you put in a file labeled "bessel.c", include a header called "bessel.h," and you never think about it again. This is _significantly_ different from, say, building a house. You cannot, for example, build a house in the following order: (1) putting up the wallpaper, (2) installing the wiring, and then (3) building the floor, walls, and roof.
 
-The second coolest thing about functions is that the variables used inside them disappear when the function is finished.
+The second coolest thing about functions is that the variables used inside them disappear when the function is finished, so you conserve memory.
 
 ## Useful Structures
 
@@ -186,7 +195,7 @@ Example:
 
 Notes:
 
-1.  you can leave off the "else" part if you want.
+1.  You can leave off the "else" choice if you only want the first part of the conditional.
 2.  A very common error is to use = (which assigns a value to a variable) instead of == (which tests one expression against another)
 
 ### for
@@ -245,5 +254,3 @@ Summary:
 
 *   static function == private function
 *   static variable == persistent variable
-
-</section>
