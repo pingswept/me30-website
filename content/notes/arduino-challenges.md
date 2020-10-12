@@ -1,12 +1,12 @@
 ---
 title: "Arduino challenges"
-draft: true
+draft: false
 ---
 
 ## Arduino challenges
 
 1. Make your Arduino run the "Blink" example.
-2. Make your Arduino flash an LED so there are 2 flashes per second, controlled by pin D6.
+2. Make your Arduino flash an LED so there are 2 flashes per second, controlled by pin D5.
 3. Make your Arduino send the text, "I am not a number! I am a free person!" to your serial monitor once per second.
 4. Use a 10k resistor to pull pin D5 high or low. Print out the pin's state as "HIGH" or "LOW" on the serial monitor every time it changes.
 5. Make an LED on D6 mirror the state of D5, controlled by the 10k resistor as in the previous challenge.
