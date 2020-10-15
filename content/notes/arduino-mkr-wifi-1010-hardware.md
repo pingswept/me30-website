@@ -13,7 +13,7 @@ draft: false
 
 ## Arduino MKR Wifi 1010 hardware overview
 
-Looking at the picture above, you can see three large chips, some connectors, and a lot of tiny resistors and capacitors. Right in the middle is the microcontroller that acts as the brain of the board. It's an Atmel ATSAMD21G18A-U, which is an ARM Cortex M0+ running at 48 MHz. The 1827 code on the chip means that this particular chip it was manufactured in week 27 of 2018.
+Looking at the picture above, you can see three large chips, some connectors, and a lot of tiny resistors and capacitors. Right in the middle is the microcontroller that acts as the brain of the board. It's an Atmel [ATSAMD21G18A-U](https://www.microchip.com/wwwproducts/en/ATsamd21g18), which is an ARM Cortex M0+ running at 48 MHz. The 1827 code on the chip means that this particular chip it was manufactured in week 27 of 2018.
 
 At the left edge of the board, you can see the uBlox NINA W102 module, which is what provides the wifi and Bluetooth connections to the board. This is an Espressif ESP32 microcontroller inside a metal box with a small wifi antenna next to it. Its main advantage is that the module has passed FCC 47 CFR 15 certification, so the Arduino folks can add it to their board without having to go through the tedious and expensive certification process required of everything with a radio transmitter.
 
