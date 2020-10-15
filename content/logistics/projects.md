@@ -4,6 +4,26 @@ draft: false
 ---
 # Projects
 
+## Project #3: Build an electromechanical game
+
+Your task is to build a game with the following characteristics:
+
+*   It is controlled by a microcontroller like an Arduino or Raspberry Pi. (Choose the Arduino unless you're a Pi zealot.)
+*   It has at least one electromechanical element that moves, like a motor or a solenoid.
+*   It has some kind of user input, like buttons, knobs, joysticks, sensors, or the like.
+*   It is at least sort of fun to play. A blinking LED is not a game.
+*   (It does not need to have a custom PCB, but it can if you want. If it has a custom PCB, you must make a working prototype first.)
+
+**Milestone 2: Build a prototype: Wednesday, October 21, 11:59 PM**
+
+**Final due date: Monday, November 2, 11:59 PM**
+
+Plan to demo your playable game in pods on November 3rd and 5th.
+
+### More details for project #3
+
+If you need parts (like a sensor or a certain kind of motor), we're happy to order them for you.
+
 ## Project #2: Build an H-bridge motor controller
 
 The second project is to build a motor controller with the following characteristics:
