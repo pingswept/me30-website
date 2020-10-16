@@ -5,6 +5,35 @@ draft: false
 
 This is an archive of all the emails we have sent you about the course, just for reference.
 
+## October 16, 2020
+
+> ME 30 Weekly Update Email for Friday, 10/16/20
+>
+>**Things due in Week 7:**
+> * [Video Response 6](https://flipgrid.com/me30) by Monday 11:59pm, on Flipgrid (please post within the prompt for your pod)
+> * [Project 3 prototype](https://canvas.tufts.edu/courses/22096/assignments/107781) by Wednesday 11:59pm, on Canvas
+>
+>**Learning goals for Week 7:**
+> * Gain familiarity with incorporating microcontroller hardware peripherals into circuit designs, including the i2C module, PWM module, and serial port module.
+> * Gain enough familiarity with C programming to code an electromechanical game controlled by an Arduino.
+>
+>**What you should watch and read before Week 7 pods in ME 30:**
+> * [Arduino programming](http://andnowforelectronics.com/notes/arduino-programming/)    
+> * [Analog vs digital](http://andnowforelectronics.com/notes/analog/)
+> * [I2C](http://andnowforelectronics.com/notes/i2c/) (includes a mini-lecture video)
+> * [Project 3 Description](http://andnowforelectronics.com/logistics/projects/#project-3-build-an-electromechanical-game): Your task is to build a game with the following characteristics:  
+>   - It is controlled by a microcontroller like an Arduino or Raspberry Pi. (Choose the Arduino unless you’re a Pi zealot.)
+>   - It has at least one electromechanical element that moves, like a motor or a solenoid.
+>   - It has some kind of user input, like buttons, knobs, joysticks, sensors, or the like.
+>   - It is at least sort of fun to play. A blinking LED is not a game.
+>   - (It does not need to have a custom PCB, but it can if you want. If it has a custom PCB, you must make a working prototype first.)
+>
+>**Optional textbook reading for Week 7:**
+> * Note that both of our optional course textbooks are available online for free from Tisch Library
+> * “Section 13.5: Interfacing with microcontrollers” (pgs. 874-892) in [Practical Electronics for Inventors](https://tufts-primo.hosted.exlibrisgroup.com/permalink/f/k87dab/TN_cdi_safari_books_9781259587559) (Scherz & Monk)
+>
+>
+
 ## October 9, 2020
 
 > ME 30 Weekly Update Email for Friday, 10/9/20
