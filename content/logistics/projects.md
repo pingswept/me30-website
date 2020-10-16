@@ -14,7 +14,7 @@ Your task is to build a game with the following characteristics:
 *   It is at least sort of fun to play. A blinking LED is not a game.
 *   (It does not need to have a custom PCB, but it can if you want. If it has a custom PCB, you must make a working prototype first.)
 
-**Milestone 2: Build a prototype: Wednesday, October 21, 11:59 PM**
+**Milestone 2: Build a [prototype](https://canvas.tufts.edu/courses/22096/assignments/107781): Wednesday, October 21, 11:59 PM**
 
 **Final due date: Monday, November 2, 11:59 PM**
 
