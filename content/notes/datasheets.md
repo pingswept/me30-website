@@ -24,7 +24,8 @@ draft: false
 
 ## Resistors
 
-* [1/4 W resistor](/pdf/resistor-CFM1JTxxxR.pdf)
+* [1/4 W resistor](/pdf/resistor-CFM1JTxxxR.pdf)  
+*[Click here for a resistor color code chart](https://cdn.sparkfun.com/assets/learn_tutorials/6/4/Resistors.png)*
 
 ## Voltage regulators
 
@@ -36,3 +37,7 @@ draft: false
 * [PN2222 npn transistor, 600 mA, 30 V, TO-92 package](/pdf/transistor-PN2222.pdf)
 * [2N3904 npn transistor, 200 mA, 40 V, TO-92 package](/pdf/transistor-2N3904.pdf)
 * [PN2907 pnp transistor, 800 mA, 40 V, TO-92 package](/pdf/transistor-PN2907.pdf)
+
+## Trimmer Potentiometers (Variable Resistors)
+
+* [10k trimmer potentiometer](https://www.nidec-copal-electronics.com/e/catalog/trimmer/ct-6.pdf)
