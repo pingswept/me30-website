@@ -5,6 +5,30 @@ draft: false
 
 This is an archive of all the emails we have sent you about the course, just for reference.
 
+## October 23, 2020
+>
+> ME 30 Weekly Update Email for Friday, 10/23/20
+>
+>**Things due in Week 8:**
+> * [Video Response 7](https://flipgrid.com/me30) by Monday 11:59pm, on Flipgrid (please post within the prompt for your pod)
+>
+>**Learning goals for Week 8:**
+> * Continue gaining familiarity with microcontroller hardware peripherals including the i2C module, PWM module, and serial port module.
+> * Continue gaining familiarity with motor control, sensor input, and C++ programming.
+>
+>**What you should watch and read before Week 8 pods in ME 30:**  
+There is no new material for Week 8, but the following web pages that may be helpful to review for Project 3:
+> * [Arduino programming](http://andnowforelectronics.com/notes/arduino-programming/)    
+> * [Analog vs digital](http://andnowforelectronics.com/notes/analog/)
+> * [H-bridge motor driver](http://andnowforelectronics.com/notes/h-bridge/)
+> * [Arduino tutorials and foundations (from Arduino)](https://www.arduino.cc/en/Tutorial/HomePage)
+>
+>**Optional textbook reading for Week 8:**  
+> Note that both of our optional course textbooks are available online for free from Tisch Library
+> * “Section 13.5: Interfacing with microcontrollers” (pgs. 874-892) in [Practical Electronics for Inventors](https://tufts-primo.hosted.exlibrisgroup.com/permalink/f/k87dab/TN_cdi_safari_books_9781259587559) (Scherz & Monk)
+>
+>
+
 ## October 16, 2020
 
 > ME 30 Weekly Update Email for Friday, 10/16/20
