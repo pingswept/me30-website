@@ -27,6 +27,43 @@ However, the first Google image search result for "TW 833 chip" is an Adafruit b
 
 The right end of the board has three different connectors. The white, 2-pin connector at the top, right next to the battery chip, is a JST connector for a 1-cell lithium ion battery. The silver connector on the short side of the board is a micro USB connector for communication with a host computer. The white, 5-pin connector at the bottom of the board connects to the I<sup>2</sup>C bus of the M0+, as well as an extra digital pin, power, and ground. 
 
+## Quirks
+
+### 2 mA current limit per pin
+
+The Arduino website claims that the digital I/O pins on the MKR Wifi 1010 can supply 7 mA, but as of October 2020, this not true without enabling a special setting.
+
+It turns out that the pins on the ATSAMD21 processor on the MKR 1010 can run in two modes. In high drive strength mode, they can supply 7 mA. In low drive strength mode, they can supply only 2 mA. The low current mode is the default.
+
+To switch to high drive strength mode, you need to set the high drive strength mode for each pin from which you need more than 2 mA. Here's a function that does that:
+
+```
+bool setHighStrengthOutputPinMode( uint32_t ulPin)
+{
+// Thanks to Fabien, https://github.com/fab672000, for this code.
+// Handle the case the pin isn't usable as PIO
+if ( g_APinDescription[ulPin].ulPinType == PIO_NOT_A_PIN ) return false;
+  EPortType port = g_APinDescription[ulPin].ulPort;
+uint32_t pin = g_APinDescription[ulPin].ulPin;
+uint32_t pinMask = (1ul << pin);
+// enable input, to support reading back values, with pullups disabled and DRVSTR set
+  PORT->Group[port].PINCFG[pin].reg=(uint8_t)(PORT_PINCFG_INEN | PORT_PINCFG_DRVSTR) ;
+// Set pin to output mode
+  PORT->Group[port].DIRSET.reg = pinMask;
+return true;
+}
+```
+
+Full example of usage here: https://gist.github.com/pingswept/c4a8e9aae4df17f11bd23ed20d30f7c3
+
+This issue was reported to the Arduino folks in 2016, but it's still occurring in October 2020: https://github.com/arduino/ArduinoCore-samd/issues/158
+
+### Serial port setup delay
+
+Here's a fun fact I discovered about the Arduino MKR Wifi 1010 today (October 2020): it takes around 1.7 seconds for it to initialize its serial port. If you're finding that the first `Serial.println()`'s that you issue in `setup()` or `loop()` are getting dropped, this is probably why.
+
+Try adding `delay(2000);` after `Serial.begin(9600);`, and I bet it will fix your problems.
+
 ## Learning to program your Arduino
 
-Arduino's [Tutorials](https://www.arduino.cc/en/Tutorial/HomePage) are a great resource for Arduino newcomers. We urge you to spend time walking through this resource.
+Arduino's [Tutorials](https://www.arduino.cc/en/Tutorial/HomePage) are a great resource for Arduino newcomers.
