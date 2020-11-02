@@ -23,10 +23,10 @@ draft: false
 |          |     10/22    |     i2C, PWM, and serial port modules    |         |          |     [P3 proto](https://canvas.tufts.edu/courses/22096/assignments/107781)    |
 |     8    |     10/27    |     Sensors and more C programming    |         |     [VR7](http://flipgrid.com/me30)    |          |
 |          |     10/29    |          |         |          |          |
-|     9    |     11/3    |     How does the internet work?    |         |     [VR8](http://flipgrid.com/me30)    |          |
+|     9    |     11/3    |     P3 share out    |         |     [VR8](http://flipgrid.com/me30)    |          |
 |          |     11/5    |     P3 share out    |         |          |     P3 final due Mon. 11:59pm   |
 |     10    |     11/10    |     No pods (Wed. schedule)    |         |          |          |
-|          |     11/12    |     Quiz 2 (on P3) and booting the Raspberry Pi    |         |          |          |
+|          |     11/12    |     How does the internet work? and booting the Raspberry Pi    |         |          |          |
 |     11    |     11/17    |     Basic types of control    |         |     [VR9](http://flipgrid.com/me30)    |          |
 |          |     11/19    |          |         |          |     P4 proto    |
 |     12    |     11/24    |     Intro to the frequency domain    |         |          |          |
