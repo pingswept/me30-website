@@ -29,9 +29,9 @@ draft: true
 
 If you are working in a team, while it is probably wise to have one of you manage the sensor and one of you manage the actuator, you are both responsible for the entire system. Saying, "Well, my side works; it's his side that doesn't work," is the same as saying, "I have failed to get half of the project working." Both sides are your sides.
 
-**Milestone 1: Build a mock-up: Wednesday, November 18, 11:59 PM **
+**Milestone 1: Build a mock-up: Wednesday, November 18, 11:59 PM**
 
-**Final due date: Thursday, December 1, 11:59 PM **
+**Final due date: Thursday, December 1, 11:59 PM**
 
 ### More details for project #4
 
