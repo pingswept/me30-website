@@ -1,43 +1,42 @@
 ---
 title: "Raspberry Pi setup"
-draft: true
+draft: false
 ---
-# Setting up a Raspberry Pi Zero W
+
+## Raspberry Pi setup
+
+<iframe id="kaltura_player" src="https://cdnapisec.kaltura.com/p/1813261/sp/181326100/embedIframeJs/uiconf_id/26203331/partner_id/1813261?iframeembed=true&playerId=kaltura_player&entry_id=1_krkfenre&flashvars[streamerType]=auto&amp;flashvars[localizationCode]=en&amp;flashvars[leadWithHTML5]=true&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=1_rqh2illx" width="736" height="450" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" frameborder="0" title="Kaltura Player"></iframe>
 
 ## Stuff you need
 
-*   Raspberry Pi Zero W
-*   2x20 0.100" pitch male header pins to solder into the R. Pi
-*   micro SD card
-*   micro USB cable for power
-*   USB-serial adapter
-*   mini USB cable for USB-serial adapter
-*   3 female-female jumper wires
+* Raspberry Pi 4
+* micro SD card
+* USB card reader, if you don't have a card reader built into your computer
+* USB-C power supply
+* USB-serial adapter, AKA a console cable
 
 ## Setup checklist
 
-*   <input type="checkbox"> Download OS image
-*   <input type="checkbox"> Burn image to micro SD card with Etcher
-*   <input type="checkbox"> Edit config.txt on micro SD card to include: `enable_uart=1`
-*   <input type="checkbox"> Solder in pins
-*   <input type="checkbox"> Connect RPi to laptop with serial adapter, mini-USB cable, and 3 jumper wires
-*   <input type="checkbox"> Put micro SD card in slot of Pi
-*   <input type="checkbox"> Connect mini USB cable between PWR IN on Pi and a USB power adapter
-*   <input type="checkbox"> Open Putty (Windows) or Terminal (macOS)
-*   <input type="checkbox"> Start a session at 115200 bps to the Pi
-*   <input type="checkbox"> Log in with username `pi` and password `raspberry`
-*   <input type="checkbox"> To enable wireless, figure out the Pi's MAC address with ifconfig
-*   <input type="checkbox"> Register MAC address with Tufts IT
-*   <input type="checkbox"> Wait a few minutes for MAC address permissions to propagate to local wireless access point
-*   <input type="checkbox"> Add network information to `/etc/wpa_supplicant/wpa_supplicant.conf`
-*   <input type="checkbox"> Reboot Pi
+* <input type="checkbox"> Download OS image
+* <input type="checkbox"> Burn image to micro SD card with Imager
+* <input type="checkbox"> Edit config.txt on micro SD card to include: `enable_uart=1`
+* <input type="checkbox"> Connect RPi to laptop with console cable
+* <input type="checkbox"> Put micro SD card in slot of Pi
+* <input type="checkbox"> Open Putty (Windows) or Terminal (macOS)
+* <input type="checkbox"> Start a session at 115200 bps to the Pi
+* <input type="checkbox"> Connect USB-C power cable
+* <input type="checkbox"> Log in with username `pi` and password `raspberry`
+* <input type="checkbox"> To enable wireless, figure out the Pi's MAC address with ifconfig
+* <input type="checkbox"> Register MAC address with Tufts IT
+* <input type="checkbox"> Wait a few minutes for MAC address permissions to propagate to local wireless access point
+* <input type="checkbox"> Add network information to `/etc/wpa_supplicant/wpa_supplicant.conf`
+* <input type="checkbox"> Reboot Pi
 
 ## FAQ
 
 **What OS image should I use?**
 
-Unless you have a good reason not to, you should start with [Raspberry Pi OS](https://www.raspberrypi.org/downloads/raspbian/). Previously called Raspbian, the OS should be based on Debian Buster or newer (as older versions will not work with a Pi 4). If you are unsure what this means, go ahead and get the `
-Raspberry Pi OS (32-bit) with desktop and recommended software` version.
+Unless you have a good reason not to, you should start with [Raspberry Pi OS](https://www.raspberrypi.org/downloads/raspbian/). Previously called Raspbian, the OS should be based on Debian Buster or newer (as older versions will not work with a Pi 4).
 
 **How do I figure out what name is assigned to the USB-serial adapter when I plug it in?**
 
