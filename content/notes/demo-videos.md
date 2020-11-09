@@ -3,6 +3,10 @@ title: "Demo videos"
 draft: "false"
 ---
 
+## Raspberry Pi setup
+
+<iframe id="kaltura_player" src="https://cdnapisec.kaltura.com/p/1813261/sp/181326100/embedIframeJs/uiconf_id/26203331/partner_id/1813261?iframeembed=true&playerId=kaltura_player&entry_id=1_krkfenre&flashvars[streamerType]=auto&amp;flashvars[localizationCode]=en&amp;flashvars[leadWithHTML5]=true&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=1_rqh2illx" width="736" height="450" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" frameborder="0" title="Kaltura Player"></iframe>
+
 ## Testing an H-bridge   
 This video is not intended to provide step-by-step building and testing instructions for an [H-bridge motor controller circuit](http://andnowforelectronics.com/notes/h-bridge/). Instead, its goal is to give you a feel for one kind of systematic approach you could take to circuit construction, testing, and debugging.  It shows only the testing moments, and it proceeds only until half of the H-bridge circuit is complete.  Here's what we hope you'll take away from it:
 * "One MOSFET at a time" is a reasonable approach to H-bridge building and testing.  
