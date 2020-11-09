@@ -1,8 +1,41 @@
 ---
 title: "Projects"
-draft: false
+draft: true
 ---
 # Projects
+
+## Project #4: Build a whimsical, sort-of-public art installation
+
+### System requirements
+
+* It should consist of at least one sensor and at least one actuator that are not attached to each other.
+* The sensor and actuator should communicate with each other through the internet.
+* The system should do something beautiful, intriguing, or both, without physical intervention or control signals from you.
+* The system should be enclosed and immune to a [test finger probe](https://www.amazon.com/Articulated-Finger-accessibility-electrical-standards/dp/B0716YYXN2), like that used in UL/IEC 60950-1. The idea here is that you should try to give your system a finished appearance.
+* To the extent that this is possible, the system should be installed in public location, because the world needs more joy in the dark winter coming up. If you live by yourself on a dead-end street with no foot traffic, "public" to your cat is okay.
+
+### Sensor requirements
+
+* It should sense something. It should not be a simple binary sensor, i.e. not just a pushbutton.
+* The sensor hardware should filter the raw sensor data so the readings reported to the actuator are smooth.
+* It should run without a connection to a laptop. Batteries or a wall plug are okay.
+
+### Actuator requirements
+
+* It should physically move in response to your sensor.
+* Including LEDs, displays, or sound is also good, but not required.
+* It should query your sensor via HTTP.
+* It should run without a connection to a laptop. Batteries or a wall plug are okay.
+
+If you are working in a team, while it is probably wise to have one of you manage the sensor and one of you manage the actuator, you are both responsible for the entire system. Saying, "Well, my side works; it's his side that doesn't work," is the same as saying, "I have failed to get half of the project working." Both sides are your sides.
+
+**Milestone 1: Build a mock-up: Wednesday, November 18, 11:59 PM **
+
+**Final due date: Thursday, December 1, 11:59 PM **
+
+### More details for project #4
+
+If you need parts (like a sensor or a certain kind of motor), we're happy to order them for you.
 
 ## Project #3: Build an electromechanical game
 
