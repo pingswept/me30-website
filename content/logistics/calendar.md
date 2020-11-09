@@ -28,7 +28,7 @@ draft: false
 |     10    |     11/10    |     No pods (Wed. schedule)    |         |          |          |
 |          |     11/12    |     How does the internet work? and booting the Raspberry Pi    |         |          |          |
 |     11    |     11/17    |     Basic types of control    |         |     [VR9](http://flipgrid.com/me30)    |          |
-|          |     11/19    |          |         |          |     P4 proto    |
+|          |     11/19    |          |         |          |     [P4 mock-up](https://canvas.tufts.edu/courses/22096/assignments/107783)    |
 |     12    |     11/24    |     Intro to the frequency domain    |         |          |          |
 |          |     11/26    |     No pods (Thanksgiving)    |         |          |          |
 |     13    |     12/1    |     Ethics and project management    |         |     [VR10](http://flipgrid.com/me30)    |          |
