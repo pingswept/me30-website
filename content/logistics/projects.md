@@ -11,7 +11,7 @@ draft: true
 * It should consist of at least one sensor and at least one actuator that are not attached to each other.
 * The sensor and actuator should communicate with each other through the internet.
 * The system should do something beautiful, intriguing, or both, without physical intervention or control signals from you.
-* The system should be enclosed and immune to a [test finger probe](https://www.amazon.com/Articulated-Finger-accessibility-electrical-standards/dp/B0716YYXN2), like that used in UL/IEC 60950-1. The idea here is that you should try to give your system a finished appearance.
+* The system should be enclosed and repel a [test finger probe](https://www.amazon.com/Articulated-Finger-accessibility-electrical-standards/dp/B0716YYXN2), like that used in UL/IEC 60950-1. The idea here is that you should try to give your system a finished appearance, with no holes where people can stick their fingers in.
 * To the extent that this is possible, the system should be installed in public location, because the world needs more joy in the dark winter coming up. If you live by yourself on a dead-end street with no foot traffic, "public" to your cat is okay.
 
 ### Sensor requirements
@@ -39,24 +39,23 @@ If you need parts (like a sensor or a certain kind of motor), we're happy to ord
 
 ### Teaming options for project #4
 
-Project 4 requires an internet-connected sensor that can send data in response to a request from an internet-connected actuator. Due to internet firewalls, this communication is only possible when either (1) both the sensor and actuator are on the same wireless network (i.e., Tufts Wireless, or the same home wireless router), or (2) the sensor operator has access to change the firewall settings of their wireless router (specifically, the port forwarding settings).  
+Project 4 requires an internet-connected sensor that can send data in response to a request from an internet-connected actuator. Due to internet firewalls, this communication is only possible when either (1) both the sensor and actuator are on the same wireless network (i.e., Tufts_Wireless, or the same home wireless router), or (2) the sensor operator has access to change the firewall settings of their wireless router (specifically, the port forwarding settings). You may have heard of people doing this to run an Xbox; it's the same situation, but just one port.
 
-**Option 1 – Work by yourself**  
-You’ll need to use both your Raspberry Pi and your Arduino, both connected to the same wireless network. With this approach, an individual student can satisfy the project requirement to include a sensor and an actuator that are not physically connected to each other and that communicate through the internet.  
+**Option 1 – Work by yourself**
+You’ll need to use both your Raspberry Pi and your Arduino, both connected to the same wireless network. With this approach, an individual student can satisfy the project requirement to include a sensor and an actuator that are not physically connected to each other and that communicate through the internet.
 
-**Option 2 – Work with a partner of your choice**  
-For this set-up to be successful, one of the following statements should be true:  
-* Both partners can access the Tufts campus network when testing and running your system, OR   
-* at least one partner (who operates the sensor node) has access to change the firewall (port forwarding) settings on their home wireless router, OR   
-* both partners are willing to work patiently with the ME 30 team on creating an encrypted tunnel through your firewall.  
+**Option 2 – Work with a partner of your choice**
+For this set-up to be successful, one of the following statements should be true:
+* Both partners can access the Tufts campus network when testing and running your system, OR
+* at least one partner (who operates the sensor node) has access to change the firewall (port forwarding) settings on their home wireless router, OR
+* both partners are willing to work patiently with the ME 30 team on creating an encrypted tunnel through your firewall.
 
-Be sure to ask any potential partners about their wireless situation both before and after Thanksgiving. The project is due on Dec. 1.  
+Be sure to ask any potential partners about their wireless situation both before and after Thanksgiving. The project is due on Dec. 1.
 
 **Option 3 – Work with a partner assigned to you by Kristen and Brandon**
 We’ll pool all the people who would like to be assigned a partner, and make optimal pairs based on your responses to the following questions about wireless network access.  
-1)	Will you have access to the Tufts campus wireless network both before and after Thanksgiving?  
-2)	Do you have access to change the firewall (port forwarding) settings of your home wireless router?  
-
+1)	Will you have access to the Tufts campus wireless network both before and after Thanksgiving?
+2)	Do you have access to change the firewall (port forwarding) settings of your home wireless router?
 
 ## Project #3: Build an electromechanical game
 
