@@ -27,7 +27,7 @@ You may also need a USB card reader, if you don't have a card slot built into yo
 * <input type="checkbox"> Start a session at 115200 bps to the Pi
 * <input type="checkbox"> Connect USB-C power cable
 * <input type="checkbox"> Log in with username `pi` and password `raspberry`
-* <input type="checkbox"> To enable wireless, figure out the Pi's MAC address with ifconfig
+* <input type="checkbox"> To enable wireless, figure out the Pi's MAC address with ifconfig (if you're on home wireless, you may need to first use the raspi-config command)
 * <input type="checkbox"> Register MAC address with Tufts IT
 * <input type="checkbox"> Wait a few minutes for MAC address permissions to propagate to local wireless access point
 * <input type="checkbox"> Add network information to `/etc/wpa_supplicant/wpa_supplicant.conf`
