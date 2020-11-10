@@ -9,7 +9,7 @@ Suppose you're sitting in your apartment, watching some crazy person on Zoom tel
 
 ## First, name resolution
 
-First, your computer sends a universal datagram packet (UDP) to port 53 on a domain name system (DNS) server somewhere on the internet. The job of a DNS server is to look up the IP address of the website you're looking for in the distributed global database of domain names.
+First, your computer sends a universal datagram protocol (UDP) packet to port 53 on a domain name system (DNS) server somewhere on the internet. The job of a DNS server is to look up the IP address of the website you're looking for in the distributed global database of domain names.
 
 If you have wireless where you live, the server that your computer targets is probably your wireless router. If you're using your phone, it's a server that's run by AT&T, Verizon, or some phone company like that, and your phone was told where to find it when it connected to the cellular network. You could also be using a public server; for example, Google runs two public DNS servers at the weird IP addresses 8.8.8.8 and 8.8.4.4.
 
