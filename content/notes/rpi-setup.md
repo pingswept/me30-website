@@ -111,7 +111,7 @@ sudo pip3 install RPi.GPIO
 
 **How do I control pins on the Raspberry Pi?**
 
-Here's an example Python script that sets a pin high.
+Here's an example Python 3 script that sets a pin high.
 
 <pre class="code">import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BOARD)   # use the BOARD pin-numbering system
@@ -123,6 +123,7 @@ Here's another script that checks the state of a pin.
 
 <pre class="code">import time
 import RPi.GPIO as GPIO
+GPIO.setmode(GPIO.BOARD)   # use the BOARD pin-numbering system
 GPIO.setup(16, GPIO.IN)       # like pinMode(16, INPUT)
 while(1):                     # do this forever
     if(GPIO.input(16)):       # like digitalRead(16)
@@ -171,14 +172,14 @@ You also need to install [Flask](https://pypi.org/project/Flask/) for this to wo
 
 **Wait, how do I install Flask?**
 
-<pre class="code">sudo apt-get install python-pip
+<pre class="code">sudo apt-get install python3-pip
 sudo pip install flask
 </pre>
 
 Then, start the server (assuming your code is in a file called `server.py`):
 
 <pre class="code">export FLASK_APP=server.py
-python -m flask run --host=0.0.0.0
+python3 -m flask run --host=0.0.0.0
 </pre>
 
 By default, Flask will listen on port 5000, so check `http://your.rpi.ip.address:5000` to see if it worked.
