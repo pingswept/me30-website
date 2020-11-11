@@ -18,24 +18,28 @@ You may also need a USB card reader, if you don't have a card slot built into yo
 
 ## Setup checklist
 
-* <input type="checkbox"> Download OS image
-* <input type="checkbox"> Burn image to micro SD card with Imager
-* <input type="checkbox"> Edit config.txt on micro SD card to include: `enable_uart=1`
-* <input type="checkbox"> Connect RPi to laptop with console cable
-* <input type="checkbox"> Put micro SD card in slot of Pi
-* <input type="checkbox"> Open Putty (Windows) or Terminal (macOS)
-* <input type="checkbox"> Start a session at 115200 bps to the Pi
-* <input type="checkbox"> Connect USB-C power cable
-* <input type="checkbox"> Log in with username `pi` and password `raspberry`
-* <input type="checkbox"> Run `sudo raspi-config` to set up your wireless connection and enable SSH.
+<ul style="list-style: none;">
+  <li><input type="checkbox"> Download OS image</li>
+  <li><input type="checkbox"> Burn image to micro SD card with Imager</li>
+  <li><input type="checkbox"> Edit config.txt on micro SD card to include: `enable_uart=1`</li>
+  <li><input type="checkbox"> Connect RPi to laptop with console cable</li>
+  <li><input type="checkbox"> Put micro SD card in slot of Pi</li>
+  <li><input type="checkbox"> Open Putty (Windows) or Terminal (macOS)</li>
+  <li><input type="checkbox"> Start a session at 115200 bps to the Pi</li>
+  <li><input type="checkbox"> Connect USB-C power cable</li>
+  <li><input type="checkbox"> Log in with username `pi` and password `raspberry`</li>
+  <li><input type="checkbox"> Run `sudo raspi-config` to set up your wireless connection and enable SSH.</li>
+</ul>
 
 ## Checklist for Tufts_Wireless
 
-<input type="checkbox"> Figure out the Pi's MAC address with `ifconfig`
-<input type="checkbox"> Register that MAC address with Tufts IT
-<input type="checkbox"> Wait a few minutes for MAC address permissions to propagate to local wireless access point
-<input type="checkbox"> Add network information to `/etc/wpa_supplicant/wpa_supplicant.conf`
-<input type="checkbox"> Reboot Pi
+<ul style="list-style: none;">
+  <li><input type="checkbox"> Figure out the Pi's MAC address with `ifconfig`</li>
+  <li><input type="checkbox"> Register that MAC address with Tufts IT</li>
+  <li><input type="checkbox"> Wait a few minutes for MAC address permissions to propagate to local wireless access point</li>
+  <li><input type="checkbox"> Add network information to `/etc/wpa_supplicant/wpa_supplicant.conf`</li>
+  <li><input type="checkbox"> Reboot Pi</li>
+</ul>
 
 ## Checklist for Tufts_Secure
 
