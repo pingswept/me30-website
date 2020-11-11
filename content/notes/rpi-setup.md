@@ -94,6 +94,21 @@ The LA's can tell you the Nolop_IOT password; we try to avoid publishing passwor
 }
 </pre>
 
+**What if I want to install more software and write cool programs?**
+
+First, update the APT package manager, and you'll probably want to install Pip3, which installs modules for Python 3.
+
+```
+sudo apt update
+sudo apt install python3-pip
+```
+
+Then you can install lots of fun stuff.
+
+```
+sudo pip3 install RPi.GPIO
+```
+
 **How do I control pins on the Raspberry Pi?**
 
 Here's an example Python script that sets a pin high.
