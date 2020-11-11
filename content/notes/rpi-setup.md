@@ -71,11 +71,12 @@ Use a better text editor, like [Sublime Text](https://www.sublimetext.com/), [Te
 
 **What network settings do I need for the Tufts wireless network?**
 
-<pre class="code">network={
+```
+network={
     ssid="Tufts_Wireless"
     key_mgmt=NONE
 }
-</pre>
+```
 
 **What about Tufts Secure?**
 
@@ -83,7 +84,8 @@ Use a better text editor, like [Sublime Text](https://www.sublimetext.com/), [Te
 
 The LA's can tell you the Nolop_IOT password; we try to avoid publishing passwords on the internet.
 
-<pre class="code">network={
+```
+network={
     ssid="Tufts_Secure"
     key_mgmt=WPA-EAP
     pairwise=CCMP
@@ -92,7 +94,7 @@ The LA's can tell you the Nolop_IOT password; we try to avoid publishing passwor
     password="YOU PUT THE PASSWORD HERE IN QUOTES"
     phase2="auth=MSCHAPV2"
 }
-</pre>
+```
 
 **What if I want to install more software and write cool programs?**
 
@@ -113,15 +115,17 @@ sudo pip3 install RPi.GPIO
 
 Here's an example Python 3 script that sets a pin high.
 
-<pre class="code">import RPi.GPIO as GPIO
+```
+import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BOARD)   # use the BOARD pin-numbering system
 GPIO.setup(16, GPIO.OUT)   # like pinMode(16, OUTPUT)
 GPIO.output(16, GPIO.HIGH) # like digitalWrite(16, HIGH)
-</pre>
+```
 
 Here's another script that checks the state of a pin.
 
-<pre class="code">import time
+```
+import time
 import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BOARD)   # use the BOARD pin-numbering system
 GPIO.setup(16, GPIO.IN)       # like pinMode(16, INPUT)
@@ -131,7 +135,7 @@ while(1):                     # do this forever
     else:
         print("Pin is low.")
     time.sleep(0.5)           # sleep for 0.5 s
-</pre>
+```
 
 **What if I want to control pins through a web browser?**
 
@@ -190,33 +194,37 @@ By default, Flask will listen on port 5000, so check `http://your.rpi.ip.address
 
 For that, you want to install [Supervisor](http://supervisord.org).
 
-<pre class="code">sudo apt-get install supervisor
-</pre>
+```
+sudo apt-get install supervisor
+```
 
 Check that Supervisor is installed properly and running.
 
-<pre class="code">pi@raspberrypi:~$ sudo supervisorctl
+```
+pi@raspberrypi:~$ sudo supervisorctl
 supervisor> status
 supervisor> exit
-</pre>
+```
 
 Tell supervisor that you want it to run Flask for you by adding something like the lines below to `/etc/supervisor/supervisord.conf`
 
-<pre class="code">[program:flask]
+```
+[program:flask]
 directory=/home/pi
 environment=FLASK_APP="server.py"
 command=python -m flask run --host=0.0.0.0
-</pre>
+```
 
 Then, make Supervisor read the config file.
 
-<pre class="code">sudo supervisorctl
+```
+sudo supervisorctl
 supervisor> update flask
 flask: stopped
 flask: updated process group
 supervisor> status
 flask                            RUNNING   pid 14183, uptime 0:00:09
-</pre>
+```
 
 If Supervisor can't start Flask for whatever reason, it will write error messages in the log files, which you can find in `/var/log/supervisor/`. In general, it's probably a better idea to debug your Flask code pretty thoroughly before you start using Supervisor, but if bugs come up, the log files are your best hope. You can also just stop Flask under Supervisor and going back to running Flask from the console yourself.
 
@@ -224,6 +232,4 @@ If Supervisor can't start Flask for whatever reason, it will write error message
 
 All the most recent Pi's share a standard pin format. Below is a handy guide. [This site](https://pinout.xyz/) is also an excellent resource for reference.
 
-<p align="center">
-  <img src="/img/raspberry-pi-pinout.png" />
-</p>
+![RPi pinout](/img/raspberry-pi-pinout.png)
