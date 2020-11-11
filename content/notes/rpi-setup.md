@@ -16,6 +16,12 @@ draft: false
 
 You may also need a USB card reader, if you don't have a card slot built into your computer. We have some adapters in the bin under the pickup table that you can borrow to burn your SD card if needed.
 
+To connect the console cable, look at this diagram.
+
+![RPi console cable connection](/img/rpi_console_cable.png)
+
+There are more details if you need them in [Adafruit's console cable tutorial](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-5-using-a-console-cable/connect-the-lead).
+
 ## Setup checklist
 
 <ul style="list-style: none;">
