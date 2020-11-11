@@ -72,6 +72,7 @@ Use a better text editor, like [Sublime Text](https://www.sublimetext.com/), [Te
 </pre>
 
 **What about Tufts Secure?**
+Read also the note above about the bug in `/lib/dhcpcd/dhcpcd-hooks/10-wpa_supplicant`. The LA's can tell you the Nolop_IOT password; we try to avoid publishing passwords on the internet.
 
 <pre class="code">network={
     ssid="Tufts_Secure"
@@ -107,9 +108,9 @@ while(1):                     # do this forever
     time.sleep(0.5)           # sleep for 0.5 s
 </pre>
 
-**Where can I find that code you showed us in class that turned pins on and off through a web browser?**
+**What if I want to control pins through a web browser?**
 
-Right here:
+Try using the Flask web framework:
 
 <pre class="code">from flask import Flask
 app = Flask(__name__)
@@ -145,8 +146,6 @@ def digital_write(pin_name, state):
 You also need to install [Flask](https://pypi.org/project/Flask/) for this to work.
 
 **Wait, how do I install Flask?**
-
-Switch to the Tufts_Guest wifi network, so your Pi's HTTP requests won't be redirected by Tufts' network. Then, install Flask:
 
 <pre class="code">sudo apt-get install python-pip
 sudo pip install flask
