@@ -72,7 +72,10 @@ Use a better text editor, like [Sublime Text](https://www.sublimetext.com/), [Te
 </pre>
 
 **What about Tufts Secure?**
-Read also the note above about the bug in `/lib/dhcpcd/dhcpcd-hooks/10-wpa_supplicant`. The LA's can tell you the Nolop_IOT password; we try to avoid publishing passwords on the internet.
+
+{{< hint danger >}} Read the note above about the bug in `/lib/dhcpcd/dhcpcd-hooks/10-wpa_supplicant`. {{< /hint >}}
+
+The LA's can tell you the Nolop_IOT password; we try to avoid publishing passwords on the internet.
 
 <pre class="code">network={
     ssid="Tufts_Secure"
