@@ -195,7 +195,7 @@ By default, Flask will listen on port 5000, so check `http://your.rpi.ip.address
 For that, you want to install [Supervisor](http://supervisord.org).
 
 ```
-sudo apt-get install supervisor
+sudo apt install supervisor
 ```
 
 Check that Supervisor is installed properly and running.
@@ -212,7 +212,7 @@ Tell supervisor that you want it to run Flask for you by adding something like t
 [program:flask]
 directory=/home/pi
 environment=FLASK_APP="server.py"
-command=python -m flask run --host=0.0.0.0
+command=python3 -m flask run --host=0.0.0.0
 ```
 
 Then, make Supervisor read the config file.
