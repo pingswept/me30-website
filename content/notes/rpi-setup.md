@@ -28,6 +28,7 @@ There are more details if you need them in [Adafruit's console cable tutorial](h
   <li><input type="checkbox"> Download OS image</li>
   <li><input type="checkbox"> Burn image to micro SD card with Imager</li>
   <li><input type="checkbox"> Edit config.txt on micro SD card to include: `enable_uart=1`</li>
+    <li><input type="checkbox"> Install the [driver for the console cable](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-5-using-a-console-cable/software-installation-mac)</li>
   <li><input type="checkbox"> Connect RPi to laptop with console cable</li>
   <li><input type="checkbox"> Put micro SD card in slot of Pi</li>
   <li><input type="checkbox"> Open Putty (Windows) or Terminal (macOS)</li>
