@@ -20,7 +20,7 @@ To connect the console cable, look at this diagram.
 
 ![RPi console cable connection](/img/rpi_console_cable.png)
 
-There are more details if you need them in [Adafruit's console cable tutorial](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-5-using-a-console-cable/connect-the-lead).
+There are more details if you need them in [Adafruit's console cable tutorial](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-5-using-a-console-cable/connect-the-lead). Emily K. also recommends the [Sparkfun tutorial](https://learn.sparkfun.com/tutorials/terminal-basics/all).
 
 ## Setup checklist
 
