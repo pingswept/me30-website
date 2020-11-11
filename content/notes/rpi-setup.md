@@ -172,15 +172,16 @@ You also need to install [Flask](https://pypi.org/project/Flask/) for this to wo
 
 **Wait, how do I install Flask?**
 
-<pre class="code">sudo apt-get install python3-pip
-sudo pip install flask
-</pre>
+```
+sudo pip3 install flask
+```
 
 Then, start the server (assuming your code is in a file called `server.py`):
 
-<pre class="code">export FLASK_APP=server.py
+```
+export FLASK_APP=server.py
 python3 -m flask run --host=0.0.0.0
-</pre>
+```
 
 By default, Flask will listen on port 5000, so check `http://your.rpi.ip.address:5000` to see if it worked.
 
