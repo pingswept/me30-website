@@ -27,11 +27,19 @@ You may also need a USB card reader, if you don't have a card slot built into yo
 * <input type="checkbox"> Start a session at 115200 bps to the Pi
 * <input type="checkbox"> Connect USB-C power cable
 * <input type="checkbox"> Log in with username `pi` and password `raspberry`
-* <input type="checkbox"> To enable wireless, figure out the Pi's MAC address with ifconfig (if you're on home wireless, you may need to first use the raspi-config command)
-* <input type="checkbox"> Register MAC address with Tufts IT
-* <input type="checkbox"> Wait a few minutes for MAC address permissions to propagate to local wireless access point
-* <input type="checkbox"> Add network information to `/etc/wpa_supplicant/wpa_supplicant.conf`
-* <input type="checkbox"> Reboot Pi
+* <input type="checkbox"> Run `sudo raspi-config` to set up your wireless connection and enable SSH.
+
+## Checklist for Tufts_Wireless
+
+<input type="checkbox"> Figure out the Pi's MAC address with `ifconfig`
+<input type="checkbox"> Register that MAC address with Tufts IT
+<input type="checkbox"> Wait a few minutes for MAC address permissions to propagate to local wireless access point
+<input type="checkbox"> Add network information to `/etc/wpa_supplicant/wpa_supplicant.conf`
+<input type="checkbox"> Reboot Pi
+
+## Checklist for Tufts_Secure
+
+There's a bug in `/lib/dhcpcd/dhcpcd-hooks/10-wpa_supplicant` in the current version of Raspbian OS (based on Debian 10.4, Buster). This post explains how to fix it, but we haven't verified that it works yet: https://medium.com/@iced_burn/raspberry-pi-connected-to-wifi-of-wpa2-enterprise-ddd5a40c0b07
 
 ## FAQ
 
