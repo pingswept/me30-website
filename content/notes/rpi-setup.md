@@ -54,11 +54,11 @@ There's a bug in `/lib/dhcpcd/dhcpcd-hooks/10-wpa_supplicant` in the current ver
 
 ## FAQ
 
-**What OS image should I use?**
+### **What OS image should I use?**
 
 Unless you have a good reason not to, you should start with [Raspberry Pi OS](https://www.raspberrypi.org/downloads/raspbian/). Previously called Raspbian, the OS should be based on Debian Buster or newer (as older versions will not work with a Pi 4).
 
-**How do I figure out what name is assigned to the USB-serial adapter when I plug it in?**
+### **How do I figure out what name is assigned to the USB-serial adapter when I plug it in?**
 
 On Windows 10, it's usually `COM3` (but it is not uncommon to have a different number). You can check for sure in the Device Manager control panel under Ports (COM & LPT)
 
@@ -66,11 +66,11 @@ On macOS, it's called `/dev/tty.usbserial-123456`, but the numbers at the end ch
 
 On Linux it's called `/dev/ttyACM0`, but the number will depend on how many USB devices are plugged in. As with macOS, you can check by running `ls /dev` in Terminal.
 
-**When I open config.txt with Notepad, the lines all run together. How do I fix this?**
+### **When I open config.txt with Notepad, the lines all run together. How do I fix this?**
 
 Use a better text editor, like [Sublime Text](https://www.sublimetext.com/), [Textmate](https://macromates.com/), or [Notepad++](https://notepad-plus-plus.org/). You could also try Wordpad.
 
-**What network settings do I need for the Tufts wireless network?**
+### **What network settings do I need for the Tufts wireless network?**
 
 ```
 network={
@@ -79,7 +79,7 @@ network={
 }
 ```
 
-**What about Tufts Secure?**
+### **What about Tufts Secure?**
 
 {{< hint danger >}} Read the note above about the bug in `/lib/dhcpcd/dhcpcd-hooks/10-wpa_supplicant`. {{< /hint >}}
 
@@ -97,7 +97,7 @@ network={
 }
 ```
 
-**What if I want to install more software and write cool programs?**
+### **What if I want to install more software and write cool programs?**
 
 First, update the APT package manager, and you'll probably want to install Pip3, which installs modules for Python 3.
 
@@ -112,7 +112,26 @@ Then you can install lots of fun stuff.
 sudo pip3 install RPi.GPIO
 ```
 
-**How do I control pins on the Raspberry Pi?**
+**How do I write, edit, and save pieces of code on my Raspberry Pi?**  
+### **nano text editor**
+
+First, you might want to create a new directory (i.e., folder) to store all the code you write. If you are writing Python scripts, you could call your new directory *python-scripts.*  Use the commands *pwd* (print working directory) and *cd* (change directory) to see the current directory and to switch to a different one if needed. Once you are in the */home/pi* directory, create a new directory to store your scripts. Use the *mkdir* (make directory) command for this.  
+
+```
+pi@raspberry:~ $ pwd
+/home/pi
+pi@raspberry:~ $ mkdir python-scripts
+pi@raspberry:~ $ cd python-scripts
+pi@raspberry:~/python-scripts $
+pi@raspberry:~ $ pwd
+/home/pi/python-scripts
+```
+
+Next, you may want a text editor that runs in your terminal window to write, edit, and save your scripts. You can use *nano*, which comes pre-installed in the Rasperry Pi OS. To run it, simply type *nano* in the terminal window once you are logged into your Raspberry Pi.  Within *nano*, use Control-O to save a file ("Writing Out" = saving) and Control-R to open a file ("Reading" = opening).   
+
+![nano window](/img/nano.png)
+
+### **How do I control pins on the Raspberry Pi?**
 
 Here's an example Python 3 script that sets a pin high.
 
@@ -138,7 +157,7 @@ while(1):                     # do this forever
     time.sleep(0.5)           # sleep for 0.5 s
 ```
 
-**What if I want to control pins through a web browser?**
+### **What if I want to control pins through a web browser?**
 
 Try using the Flask web framework:
 
@@ -229,7 +248,7 @@ flask                            RUNNING   pid 14183, uptime 0:00:09
 
 If Supervisor can't start Flask for whatever reason, it will write error messages in the log files, which you can find in `/var/log/supervisor/`. In general, it's probably a better idea to debug your Flask code pretty thoroughly before you start using Supervisor, but if bugs come up, the log files are your best hope. You can also just stop Flask under Supervisor and going back to running Flask from the console yourself.
 
-**What do the pin numbers correspond to?**
+### **What do the pin numbers correspond to?**
 
 All the most recent Pi's share a standard pin format. Below is a handy guide. [This site](https://pinout.xyz/) is also an excellent resource for reference.
 
