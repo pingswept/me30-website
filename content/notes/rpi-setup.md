@@ -146,6 +146,14 @@ Next, you may want a text editor that runs in your terminal window to write, edi
 * `grep`: search a file for a string of text
 * `|`: pipe the results of one command into another, like `cat server.py | grep Flask`
 * `uname -a`: tell me what version of the Linux kernel I am running
+* `netstat -plut`: list what programs are listening on what ports
+* `wget`: download a file from the internet
+* `curl`: read the contents of a file on the internet as text
+* `ping`: send a packet to an IP address to see if it's working
+* `nmap`: scan a network for IP addresses in use `sudo apt install nmap` first)
+* `ps -aux`: list all the processes running
+* `top`: show a live list of running programs (q to quit)
+* `dig`: look up the IP address of a domain name (`sudo apt install dnsutils` first)
 
 There's even more stuff at [linuxcommandlibrary.com](https://linuxcommandlibrary.com/basics.html)
 
@@ -165,6 +173,7 @@ GPIO.setmode(GPIO.BOARD)   # use the BOARD pin-numbering system
 GPIO.setup(16, GPIO.OUT)   # like pinMode(16, OUTPUT)
 GPIO.output(16, GPIO.HIGH) # like digitalWrite(16, HIGH)
 ```
+You can save this as a file and then run it with `python3 name-of-the-file.py`, or you can paste in each line at a Python prompt if you want to play around with it.
 
 Here's another script that checks the state of a pin.
 
