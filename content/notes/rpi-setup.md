@@ -147,6 +147,8 @@ Next, you may want a text editor that runs in your terminal window to write, edi
 * `|`: pipe the results of one command into another, like `cat server.py | grep Flask`
 * `uname -a`: tell me what version of the Linux kernel I am running
 
+There's even more stuff at [linuxcommandlibrary.com](https://linuxcommandlibrary.com/basics.html)
+
 ### **What is something else that you want to mention, but can't quite figure out where to mention it?**
 
 Ah, that would be the crucial difference between Python and Python 3. You should use the commands `python3` and `pip3` exclusively. If you switch to, for example, just `python`, you will find that it will run, but none of the modules that you installed for Python 3 will show up.
