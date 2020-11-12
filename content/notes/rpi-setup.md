@@ -159,7 +159,7 @@ You may think to yourself, couldn't I just make `python` into a shortcut for `py
 
 Here's an example Python 3 script that sets a pin high.
 
-```
+```python
 import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BOARD)   # use the BOARD pin-numbering system
 GPIO.setup(16, GPIO.OUT)   # like pinMode(16, OUTPUT)
@@ -168,7 +168,7 @@ GPIO.output(16, GPIO.HIGH) # like digitalWrite(16, HIGH)
 
 Here's another script that checks the state of a pin.
 
-```
+```python
 import time
 import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BOARD)   # use the BOARD pin-numbering system
@@ -185,7 +185,7 @@ while(1):                     # do this forever
 
 Try using the Flask web framework:
 
-```
+```python
 from flask import Flask
 app = Flask(__name__)
 
