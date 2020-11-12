@@ -115,7 +115,7 @@ sudo pip3 install RPi.GPIO
 ### **How do I write, edit, and save pieces of code on my Raspberry Pi?**  
 **nano text editor**
 
-First, you might want to create a new directory (i.e., folder) to store all the code you write. If you are writing Python scripts, you could call your new directory *python-scripts.*  Use the commands *pwd* (print working directory) and *cd* (change directory) to see the current directory and to switch to a different one if needed. Once you are in the */home/pi* directory, create a new directory to store your scripts. Use the *mkdir* (make directory) command for this.  
+First, you might want to create a new directory (i.e., folder) to store all the code you write. If you are writing Python scripts, you could call your new directory `python-scripts.`  Use the commands `pwd` (print working directory) and `cd` (change directory) to see the current directory and to switch to a different one if needed. Once you are in the `/home/pi` directory, create a new directory to store your scripts. Use the `mkdir` (make directory) command for this.  
 
 ```
 pi@raspberry:~ $ pwd
@@ -127,7 +127,7 @@ pi@raspberry:~ $ pwd
 /home/pi/python-scripts
 ```
 
-Next, you may want a text editor that runs in your terminal window to write, edit, and save your scripts. You can use *nano*, which comes pre-installed in the Rasperry Pi OS. To run it, simply type *nano* in the terminal window once you are logged into your Raspberry Pi.  Within *nano*, use Control-O to save a file ("Writing Out" = saving) and Control-R to open a file ("Reading" = opening).   
+Next, you may want a text editor that runs in your terminal window to write, edit, and save your scripts. You can use `nano`, which comes pre-installed in the Rasperry Pi OS. To run it, type `nano` in the terminal window once you are logged into your Raspberry Pi.  Within `nano`, use Control-O to save a file ("Writing Out" = saving) and Control-R to open a file ("Reading" = opening).   
 
 ![nano window](/img/nano.png)
 
