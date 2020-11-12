@@ -131,6 +131,28 @@ Next, you may want a text editor that runs in your terminal window to write, edi
 
 ![nano window](/img/nano.png)
 
+### **What other useful commands might I need to know?**
+
+* `ls`: list what's in a directory
+* `cd`: change to a different directory
+* `sudo`: execute a command as a superuser
+* `cat`: print out the contents of a file
+* `<tab>`: try to autocomplete the command I am typing
+
+### **What about some more obscure commands that could be useful?**
+
+* `hostname -I`: print the IP address of my Pi
+* `which`: show which program gets executed by a command
+* `grep`: search a file for a string of text
+* `|`: pipe the results of one command into another, like `cat server.py | grep Flask`
+* `uname -a`: tell me what version of the Linux kernel I am running
+
+### **What is something else that you want to mention, but can't quite figure out where to mention it?**
+
+Ah, that would be the crucial difference between Python and Python 3. You should use the commands `python3` and `pip3` exclusively. If you switch to, for example, just `python`, you will find that it will run, but none of the modules that you installed for Python 3 will show up.
+
+You may think to yourself, couldn't I just make `python` into a shortcut for `python3`? You could, but lots of software depends on Python and will fail if executed with the Python 3 interpreter. Unfortunately, the name `python` is probably used up for eternity.
+
 ### **How do I control pins on the Raspberry Pi?**
 
 Here's an example Python 3 script that sets a pin high.
