@@ -41,7 +41,7 @@ There are more details if you need them in [Adafruit's console cable tutorial](h
 ## Checklist for Tufts_Wireless
 
 <ul style="list-style: none;">
-  <li><input type="checkbox"> Figure out the Pi's MAC address with `ifconfig`</li>
+  <li><input type="checkbox"> Figure out the Pi's MAC address with `ifconfig`. Be sure you get the MAC for `wlan0`, not `eth0`.</li>
   <li><input type="checkbox"> Register that MAC address with Tufts IT</li>
   <li><input type="checkbox"> Wait a few minutes for MAC address permissions to propagate to local wireless access point</li>
   <li><input type="checkbox"> Add network information to `/etc/wpa_supplicant/wpa_supplicant.conf`</li>
