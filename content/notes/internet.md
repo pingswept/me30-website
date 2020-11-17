@@ -65,7 +65,7 @@ Trace complete.
 
 ## Third, we ask the server for the webpage
 
-stuff about HTTP, maybe HTTPS?
+I'm going to omit the details of how HTTPS works for now. We send a message to the server IP address that literally contains the letters `GET` and a URL, and then the server sends back `HTTP/1.1 200 OK` and a bunch of HTML and Javascript for your browser to render. There are a lot more details on the [Mozilla Developer Network page on HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Session).
 
 ## MAC addresses and IP addresses
 
@@ -113,3 +113,12 @@ An unfortunate side effect of NAT is that if a node on the public internet wants
 
 ## Ports and port forwarding
 
+You can run any protocol on any port, but there are a few protocols that have been assigned ports, just to make things simpler.
+
+ * SSH: port 22
+ * HTTP: port 80
+ * HTTPS: port 443
+
+(HTTPS is just HTTP plus encryption.)
+
+One thing you should not do: forward port 22 to your Raspberry Pi, so you can SSH in remotely. Lots of other people (well, scripts) will try to SSH in remotely, and then your Pi will be, as they say, "pwned".
