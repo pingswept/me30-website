@@ -109,5 +109,7 @@ Then comes the "address translation" part. When your laptop makes an HTTPS reque
 
 When a reply comes back, the AP looks up the address it came from in the translation table, finds your private IP address, does the reverse modification on the reply, and sends it back to your laptop.
 
-## Port forwarding
+An unfortunate side effect of NAT is that if a node on the public internet wants to initiate a connection to one of the devices on your private network, it has no way of connecting to it. It could send packets to the address of your AP, but there's no way to specify which device the packets should go to. This brings us to ports and port forwarding.
+
+## Ports and port forwarding
 
