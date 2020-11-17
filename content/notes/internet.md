@@ -109,9 +109,9 @@ Then comes the "address translation" part. When your laptop makes an HTTPS reque
 
 When a reply comes back, the AP looks up the address it came from in the translation table, finds your private IP address, does the reverse modification on the reply, and sends it back to your laptop.
 
-An unfortunate side effect of NAT is that if a node on the public internet wants to initiate a connection to one of the devices on your private network, it has no way of connecting to it. It could send packets to the address of your AP, but there's no way to specify which device the packets should go to. This brings us to ports and port forwarding.
+An unfortunate side effect of NAT is that if a node on the public internet wants to initiate a connection to one of the devices on your private network, it has no way of connecting to it. It could send packets to the address of your AP, but there's no way to specify which device the packets should go to. This is the "firewall" mentioned earlier-- nodes on the public internet cannot **initiate** connections to the devices on your network. This brings us to ports and port forwarding.
 
-## Ports and port forwarding
+## Ports
 
 All of the packets that run between different IP addresses are categorized by one of 65536 destination ports. Typically, each port corresponds to a certain protocol.You can run any protocol on any port, but there are a few protocols that have been assigned ports, just to make things simpler.
 
@@ -138,6 +138,10 @@ udp        0      0 0.0.0.0:5353            0.0.0.0:*                           
 udp6       0      0 :::38804                :::*                                374/avahi-daemon: r
 udp6       0      0 :::5353                 :::*                                374/avahi-daemon: r
 ```
+
+## Port forwarding
+
+We can now understand how to solve the problem of allowing nodes on the internet to access devices on your private network. Assuming you have the login credentials for the administrative interface for your wireless AP, you can set your AP to forward one of its ports to a port on a certain device on your internal network. For example, you could forward port 5000 on your AP to port 5000 on your Pi. Then, if you were running Flask on port 5000, it would be accessible to the entire internet.
 
 {{< hint danger >}}
 **One thing you should not do:** forward port 22 to your Raspberry Pi, so you can SSH in remotely. Lots of other people (well, scripts) will try to SSH in remotely, and then your Pi will be, as they say, "pwned".
