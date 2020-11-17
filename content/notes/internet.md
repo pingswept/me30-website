@@ -99,6 +99,15 @@ The Pi also has the IP address 192.168.1.217. This is the address assigned to th
 
 But wait, how can we all use the same range of 192.168.1.xxx addresses at home and still look like unique nodes on the internet? That leads us to network address translation.
 
-## Network address translation and port forwarding
+## Network address translation
 
-Your wireless AP performs a few different services for you. The big one is the "wireless" part, where data is magically sent through the air with no wires, but it performs two other big roles: firewall and address translator.
+Your wireless AP performs a few different services for you. The big one is the "wireless" part, where data is magically sent through the air with no wires, but it performs two other big roles: address translator and firewall.
+
+When you pay for an internet connection (say, a cable modem from Comcast), their servers listen for a IP address requests. When you plug in your AP, it requests an IP address, and Comcast's server assigns it one. Then, your AP sets up its own private network and listens for IP address requests from all your wireless devices. It gives out addresses, usually in the 192.168.1.x range.
+
+Then comes the "address translation" part. When your laptop makes an HTTPS request to [bing.com](https://bing.com) because you have some important searching to do, your AP strips out your IP address from the packets and replaces the address with its own IP address. (It also updates the IP and TCP checksums, if you were worried about that detail.) It then sends your modified packets out onto the internet and adds your address and the destination address to a translation table.
+
+When a reply comes back, the AP looks up the address it came from in the translation table, finds your private IP address, does the reverse modification on the reply, and sends it back to your laptop.
+
+## Port forwarding
+
