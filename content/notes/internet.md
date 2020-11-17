@@ -121,4 +121,6 @@ You can run any protocol on any port, but there are a few protocols that have be
 
 (HTTPS is just HTTP plus encryption.)
 
-One thing you should not do: forward port 22 to your Raspberry Pi, so you can SSH in remotely. Lots of other people (well, scripts) will try to SSH in remotely, and then your Pi will be, as they say, "pwned".
+{{< hint danger >}}
+**One thing you should not do:** forward port 22 to your Raspberry Pi, so you can SSH in remotely. Lots of other people (well, scripts) will try to SSH in remotely, and then your Pi will be, as they say, "pwned".
+{{< /hint >}}
