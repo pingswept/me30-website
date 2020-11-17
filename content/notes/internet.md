@@ -113,13 +113,31 @@ An unfortunate side effect of NAT is that if a node on the public internet wants
 
 ## Ports and port forwarding
 
-You can run any protocol on any port, but there are a few protocols that have been assigned ports, just to make things simpler.
+All of the packets that run between different IP addresses are categorized by one of 65536 destination ports. Typically, each port corresponds to a certain protocol.You can run any protocol on any port, but there are a few protocols that have been assigned ports, just to make things simpler.
 
  * SSH: port 22
  * HTTP: port 80
  * HTTPS: port 443
+ * Flask: port 5000 (default just for testing)
 
 (HTTPS is just HTTP plus encryption.)
+
+You can think of ports like channels on a television, and the shows playing on the television are the different programs running on a server. This is how, when packets arrive at your Raspberry Pi asking to log in via SSH, it knows to hand those packets over to the SSH server running on your Pi. Similarly, anything that arrives marked "port 5000" gets passed to Flask (assuming Flask is running).
+
+You can check what services are running on which ports on your Pi like this.
+
+```
+pi@raspberrypi:~ $ sudo netstat -plunt
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      725/sshd
+tcp6       0      0 :::22                   :::*                    LISTEN      725/sshd
+udp        0      0 0.0.0.0:36784           0.0.0.0:*                           374/avahi-daemon: r
+udp        0      0 0.0.0.0:68              0.0.0.0:*                           489/dhcpcd
+udp        0      0 0.0.0.0:5353            0.0.0.0:*                           374/avahi-daemon: r
+udp6       0      0 :::38804                :::*                                374/avahi-daemon: r
+udp6       0      0 :::5353                 :::*                                374/avahi-daemon: r
+```
 
 {{< hint danger >}}
 **One thing you should not do:** forward port 22 to your Raspberry Pi, so you can SSH in remotely. Lots of other people (well, scripts) will try to SSH in remotely, and then your Pi will be, as they say, "pwned".
