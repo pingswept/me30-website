@@ -67,4 +67,38 @@ Trace complete.
 
 stuff about HTTP, maybe HTTPS?
 
-Should also add stuff about ports, NAT, and port forwarding
+## MAC addresses and IP addresses
+
+Each device on the internet has two different kinds of addresses: media access control (MAC) addresses and internet protocol (IP) addresses. A device can have more than one of each. (The "MAC" in "MAC address" has nothing to do with Apple's Mac computers.)
+
+Each MAC address is globally unique; it's like a serial number for the device. IP addresses are unique on the global internet, but they can be reused on smaller subnets, like your home wireless network.
+
+You might think to yourself, "Wait, why do we need two sets of addresses. That seems stupid." Indeed, it does seem that way at first. The difference is that IP addresses are arranged in a giant structure like a pile of balls, with similar IP prefixes grouped together. For example, Tufts is assigned all of the 65536 addresses that match the pattern `130.64.xxx.xxx`, but within that network, devices have all sorts of different MAC addresses.
+
+But then what do we need MAC addresses for? (Maybe that's the stupid part?)
+
+We need MAC addresses so that we can assign IP addresses automatically. Say you connect your laptop to a new wireless network. Your laptop requests an IP address from the wireless access point (AP). When the AP replies, it has to address its message somehow. Without a MAC address, the IP address assignment couldn't get back to your laptop. (MAC addresses are also used by low-level network switches, but you don't need to worry about those much these days.)
+
+To take our Raspberry Pi as an example, we can run the command `ifconfig`.
+
+```
+pi@raspberrypi:~ $ ifconfig
+eth0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether dc:a6:32:b0:6e:ea  txqueuelen 1000  (Ethernet)
+
+wlan0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.217  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet6 fe80::ba5c:ddba:f04d:7271  prefixlen 64  scopeid 0x20<link>
+        ether dc:a6:32:b0:6e:eb  txqueuelen 1000  (Ethernet)
+```
+From this, we can see the Pi has two MAC addresses, `dc:a6:32:b0:6e:ea` and `dc:a6:32:b0:6e:eb`. The first one is for its Ethernet port, `eth0`; the second is for its wireless connection, `wlan0`.
+
+The first half of the MAC address is called the organizationally unique identifier (OUI). In theory, every device made by the Raspberry Pi Foundation should start with `dc:a6:32`. In reality, they also use at least `e4:5f:01` and `b8:27:eb`. The second half of the identifier has no special meaning.
+
+The Pi also has the IP address 192.168.1.217. This is the address assigned to the Pi by my wireless AP. You might recognize the network 192.168.1.x; it's one that is reserved for small private networks like home wireless networks. (We call these [RFC1918](https://tools.ietf.org/html/rfc1918) addresses.)
+
+But wait, how can we all use the same range of 192.168.1.xxx addresses at home and still look like unique nodes on the internet? That leads us to network address translation.
+
+## Network address translation and port forwarding
+
+Your wireless AP performs a few different services for you. The big one is the "wireless" part, where data is magically sent through the air with no wires, but it performs two other big roles: firewall and address translator.
