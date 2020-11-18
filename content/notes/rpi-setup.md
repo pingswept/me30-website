@@ -190,9 +190,10 @@ while(1):                     # do this forever
     time.sleep(0.5)           # sleep for 0.5 s
 ```
 
-### **What if I want to control pins through a web browser?**
+### **What if I want to control pins through a web browser? (Flask**
 
-Try using the Flask web framework:
+Try using the Flask web framework.   
+You can use the python script below, which uses Flask to take input from a web browser and then uses that input to set a Raspberry Pi pin either HIGH or LOW. You could create this script and save it as server.py.
 
 ```python
 from flask import Flask
@@ -211,6 +212,9 @@ def pin_on():
     GPIO.output(16, GPIO.HIGH) # digitalWrite(16, HIGH)
     return 'I turned on the pin.'
 
+# Below we take input from a web browser and channel it to GPIO pin.
+# app.route refers to your Pi's IP address, which you'll type into a web browser URL line when you want to control this code.
+# For example, to set pin 16 on your Pi to HIGH, in your web browser you'll type [your Pi IP address]/digital/write/16/HIGH.
 # Make sure the line below has the correct angle brackets in it.
 @app.route('/digital/write/<pin_name>/<state>')
 def digital_write(pin_name, state):
@@ -234,7 +238,7 @@ You also need to install [Flask](https://pypi.org/project/Flask/) for this to wo
 sudo pip3 install flask
 ```
 
-Then, start the server (assuming your code is in a file called `server.py`):
+Then, start the server (assuming your code is in a file called `server.py` and you replace the 0.0.0.0 with your Pi's IP address):
 
 ```
 export FLASK_APP=server.py
