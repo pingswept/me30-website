@@ -27,11 +27,11 @@ draft: false
 |          |     11/5    |     P3 share out    |         |          |     P3 final due Mon. 11:59pm   |
 |     10    |     11/10    |     No pods (Wed. schedule)    |         |          |          |
 |          |     11/12    |     How does the internet work? and booting the Raspberry Pi    |         |          |          |
-|     11    |     11/17    |     Basic types of control    |         |     [VR9](http://flipgrid.com/me30)    |          |
+|     11    |     11/17    |     Ethics    |         |     [VR9](http://flipgrid.com/me30)    |          |
 |          |     11/19    |          |         |          |     [P4 mock-up](https://canvas.tufts.edu/courses/22096/assignments/107783)    |
-|     12    |     11/24    |     Intro to the frequency domain    |         |          |          |
+|     12    |     11/24    |     Basic types of control    |         |          |          |
 |          |     11/26    |     No pods (Thanksgiving)    |         |          |          |
-|     13    |     12/1    |     Ethics and project management    |         |     [VR10](http://flipgrid.com/me30)    |          |
+|     13    |     12/1    |     Introduction to frequency domain    |         |     [VR10](http://flipgrid.com/me30)    |          |
 |          |     12/2    |     P4 share out    |         |          |     P4 final    |
-|     14    |     12/8    |     Ethics and jobs    |         |     [VR11](http://flipgrid.com/me30)    |          |
+|     14    |     12/8    |     Ethics, project management, and jobs    |         |     [VR11](http://flipgrid.com/me30)    |          |
 |          |     12/10    |     Semester reflection    |         |          |          |
