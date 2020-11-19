@@ -25,7 +25,29 @@ However, the first Google image search result for "TW 833 chip" is an Adafruit b
 
 ## Connectors
 
-The right end of the board has three different connectors. The white, 2-pin connector at the top, right next to the battery chip, is a JST connector for a 1-cell lithium ion battery. The silver connector on the short side of the board is a micro USB connector for communication with a host computer. The white, 5-pin connector at the bottom of the board connects to the I<sup>2</sup>C bus of the M0+, as well as an extra digital pin, power, and ground. 
+The right end of the board has three different connectors. The white, 2-pin connector at the top, right next to the battery chip, is a JST connector for a 1-cell lithium ion battery. The silver connector on the short side of the board is a micro USB connector for communication with a host computer. The white, 5-pin connector at the bottom of the board connects to the I<sup>2</sup>C bus of the M0+, as well as an extra digital pin, power, and ground.
+
+## Wifi
+
+To use the uBlox NINA W102 wifi module on the board, you'll need to install the library called WiFiNINA using `Tools > Manage Libraries` in the Arduino IDE.
+
+A good first step once you've done that is to run the network scanning tool under `File > Examples > WiFiNINA > ScanNetworks`.
+
+You'll see results like this:
+
+```
+Please upgrade the firmware
+MAC: 24:62:AB:B3:8B:9C
+Scanning available networks...
+** Scan Networks **
+number of available networks:5
+0) slownet	Signal: -50 dBm	Encryption: WPA2
+1) LinksysSetupE48	Signal: -77 dBm	Encryption: WPA2
+2) ARRIS-DFDB	Signal: -80 dBm	Encryption: WPA2
+3) Braendle-Net	Signal: -87 dBm	Encryption: WPA2
+4) foxyguest	Signal: -89 dBm	Encryption: WPA2
+```
+Notice that this also tells you the MAC address, which you need if you want to connect to Tufts_Wireless rather than Tufts_Secure.
 
 ## Quirks
 
