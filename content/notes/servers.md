@@ -14,11 +14,11 @@ There are zillions of ways to write servers and clients-- lots of different prog
 
 ### Arduino MKR Wifi 1010 server
 
-[](https://www.arduino.cc/en/Tutorial/LibraryExamples/WiFiNINAWiFiWebServer)
+Example code for [WiFiNINA WiFiWebServer](https://www.arduino.cc/en/Tutorial/LibraryExamples/WiFiNINAWiFiWebServer)
 
 ### Arduino MKR Wifi 1010 client
 
-[](https://www.arduino.cc/en/Tutorial/LibraryExamples/WiFiNINAWiFiWebClient)
+Example code for [WiFiNINAWiFi WebClient](https://www.arduino.cc/en/Tutorial/LibraryExamples/WiFiNINAWiFiWebClient)
 
 ### Raspberry Pi server
 
