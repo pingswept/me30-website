@@ -10,7 +10,7 @@ This is an archive of all the emails we have sent you about the course, just for
 
 > ME 30 Weekly Update Email for Friday, 11/20/20
 > 
-> Thanks for your thoughtful responses to the “How smart does your house have to be…” Flipgrid prompt, and kudos on a strong start to Project 4 this week. We’re excited about the ideas that you have and look forward to supporting your implementation.  
+> Thanks for your thoughtful responses to the “How smart does your bed have to be…” Flipgrid prompt, and kudos on a strong start to Project 4 this week. We’re excited about the ideas that you have and look forward to supporting your implementation.  
 > 
 > Below is a short update before a short week. We hope you are all taking care and we wish you a restful Thanksgiving break.   
 > 
