@@ -5,6 +5,126 @@ draft: false
 
 This is an archive of all the emails we have sent you about the course, just for reference.
 
+
+## November 20, 2020  
+
+> ME 30 Weekly Update Email for Friday, 11/20/20
+> 
+> Thanks for your thoughtful responses to the “How smart does your house have to be…” Flipgrid prompt, and kudos on a strong start to Project 4 this week. We’re excited about the ideas that you have and look forward to supporting your implementation.  
+> 
+> Below is a short update before a short week. We hope you are all taking care and we wish you a restful Thanksgiving break.   
+> 
+> **Things due in Week 12:**  
+> •	Nothing due this week  
+> 
+> **Learning goals for Week 12:**  
+> •	Describe how the internet works.  
+> •	Identify the main components and functions of the Raspberry Pi.  
+> 
+> **What you should watch and read before Week 12 pods in ME 30:**  
+> The following web pages may be helpful for Project 4:  
+> •	[Servers and clients](http://andnowforelectronics.com/notes/servers/)  
+> •	[Project 4 Requirements](http://andnowforelectronics.com/logistics/projects/#project-4-build-a-whimsical-sort-of-public-art-installation)  
+> •	[The Internet: How does it work?](http://andnowforelectronics.com/notes/internet/)  
+> •	[Raspberry Pi set-up](http://andnowforelectronics.com/notes/rpi-setup/)   
+> •	[Demo video on Raspberry Pi set-up](http://andnowforelectronics.com/notes/demo-videos/#raspberry-pi-setup)  
+> 
+> **Optional textbook reading for Week 12:**  
+> •	None this week  
+> 
+> 
+
+## November 13, 2020  
+
+> ME 30 Weekly Update Email for Friday, 11/13/20
+> 
+> **Things due in Week 11:**  
+> •	Video Response 9, due on Flipgrid by Monday 11:59pm.   
+> •	Project 4 Teaming Preference Survey, due Monday 9:00am. This is a very quick survey. We need your input so we can make any needed partner assignments in time for you to work together next week.  
+> •	Project 4 Mock-Up, due on Canvas by Wednesday 11:59pm. Your submission should include: (1) a labeled sketch or diagram showing your plan for the two nodes of your system, their function, and their main components, (2) photo(s) showing a mock-up of each node  
+> 
+> **Learning goals for Week 11:**  
+> •	Describe how the internet works.  
+> •	Identify the main components and functions of the Raspberry Pi.  
+> •	Build engineering ethics fluency by exploring the impact of internet-connected electronic technologies on various stakeholders.    
+> 
+> **What you should watch and read before Week 11 pods in ME 30:**  
+> •	Project 4 Requirements  
+> •	The Internet: How does it work?  
+> •	Raspberry Pi set-up   
+> •	Demo video on Raspberry Pi set-up  
+> 
+> **Optional textbook reading for Week 11:**  
+> •	None this week  
+> 
+> 
+
+
+## November 7, 2020  
+
+> ME 30 Weekly Update Email for Saturday, 11/7/20
+> 
+> Thanks for your hard and creative work on Project 3, and your participation in share-out this past week. Make sure you save your Project 3 video and take some good photos of your work so that you have it for portfolios and career opportunities down the road.  
+> 
+> **Things due in Week 10:**  
+> •	No pods on Tuesday (it’s a Tufts Wed. schedule), and no video response due.  
+> •	But, in time for pods on Thursday, 11/12, please have your Raspberry Pi set up following the demo video (to be posted soon). This is important work for you to do to be able to participate in 11/12 pods and to keep on track for Project 4. Please attend office hours before 11/12 if you’re having trouble with RPi set up.  
+> 
+> **Learning goals for Week 10:**  
+> •	Describe how the internet works.  
+> •	Identify the main components and functions of the Raspberry Pi.  
+> 
+> **What you should watch and read before Week 10 pods:**  
+> •	The Internet: How does it work?  
+> •	Microcontrollers  
+> •	Getting Started with Raspberry Pi (skim/browse, to get a sense of what it is)  
+> •	Raspberry Pi set-up (link TBD) (includes a mini-lecture video): Your task is to: (1) Install the Raspberry Pi OS on your micro SD card. (2) Plug the SD card to your RPi, and connect your RPi to power and your computer. (3) Demonstrate that you can connect to your RPI over the Internet.  
+> 
+> **Optional textbook reading for Week 10:**  
+> •	None for this week  
+
+
+
+
+## October 30, 2020  
+
+> ME 30 Weekly Update Email for Friday, 10/30/20
+> 
+> We’d like to start this week’s email with some big-picture perspective. While there is a deadline coming up next week (Monday night, for Project 3), the point of ME 30 projects is the process, not the particular endpoint you reach by the deadline. If you don’t find yourself on a journey, that’s a concern (and please reach out so we can help you get started). But if you don’t find yourself landing at the exact destination you’d hoped for by Monday night – especially given the stress of the pandemic and the upcoming election – that is okay. The learning comes from the journey, and that’s what this is all about.  
+> 
+> **Things due in Week 9:**  
+> •	Project 3 Final, which will take the form of Video Response 8 plus a Canvas submission. Due Monday 11:59pm.   
+> •	In Video Response 8, you will: (1) demonstrate playing your game and (2) point out the major electromechanical components and explain the circuit   
+> •	On Canvas, you’ll upload: (1) a still photo of your game and circuit and (2) your code for the game  
+> 
+> **How will Project 3 sharing happen?**  
+> 1.	We’ll make the Flipgrid project demo videos visible to all ME 30 students.  
+> 2.	On both Tuesday and Thursday, North and South pods will meet in together in the same Zoom (1:30-2:05) and East and West pods will meet together (2:10-2:45). We’ll create four breakout rooms of ~8 students each plus an instructor or LA. Each breakout room will focus on four games on Tuesday, and the other four games on Thursday.   
+> 3.	Each breakout room will give 15 minutes for individual viewing (on your own device) of that day’s four Flipgrid videos, followed by 15 minutes to ask those four students questions about their games.   
+> 4.	The first four people alphabetically (by last name) will have their videos viewed Tuesday; the other four will go on Thursday.   
+> 5.	When you post your Flipgrid and Canvas submissions for Project 3, we’ll also ask you to fill in a row of a shared table that lists each game’s designer, goal/objective, component used for output (e.g., which type of motor(s)), and component used for input (e.g., which type of sensor or switch).  
+> 6.	You can use that shared table to decide if you want to watch any other videos (from people in another breakout room) on your own.  
+> 
+> **Learning goals for Week 9:**  
+> •	Continue gaining familiarity with microcontroller hardware peripherals including the i2C module, PWM module, and serial port module.  
+> •	Continue gaining familiarity with motor control, sensor input, and C++ programming.  
+> 
+> **What you should watch and read before Week 9 pods in ME 30:**  
+> There is no new material for Week 9, but the following web pages that may be helpful for Project 3:  
+> •	Arduino programming  
+> •	Analog vs digital  
+> •	H-bridge motor driver  
+> •	Arduino tutorials and foundations (from Arduino)  
+> 
+> **Optional textbook reading for Week 9:**  
+> •	Note that both of our optional course textbooks are available online for free from Tisch Library  
+> •	“Section 13.5: Interfacing with microcontrollers” (pgs. 874-892) in Practical Electronics for Inventors (Scherz & Monk)
+> 
+> 
+
+
+
+
 ## October 23, 2020
 >
 > ME 30 Weekly Update Email for Friday, 10/23/20
@@ -30,7 +150,7 @@ There is no new material for Week 8, but the following web pages that may be hel
 >
 
 ## October 16, 2020
-
+> 
 > ME 30 Weekly Update Email for Friday, 10/16/20
 >
 >**Things due in Week 7:**
