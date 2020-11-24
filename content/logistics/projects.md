@@ -31,11 +31,14 @@ If you are working in a team, while it is probably wise to have one of you manag
 
 **Milestone 1: Build a mock-up: Wednesday, November 18, 11:59 PM**
 
-**Final due date: Thursday, December 1, 11:59 PM**
+**Final due date: Wednesday, December 2, 11:59 PM**
 
 ### More details for project #4
 
-If you need parts (like a sensor or a certain kind of motor), we're happy to order them for you.
+* If you need parts (like a sensor or a certain kind of motor), we're happy to order them for you.  
+* See the [Raspberry Pi setup](http://andnowforelectronics.com/notes/rpi-setup/) page to learn how to control your Pi via serial cable and the Internet.  
+* See the [Servers and Clients](http://andnowforelectronics.com/notes/series-vs-parallel/) page for resources on coding your Pi and Arduino to send and receive data through the Internet.  
+* See the [Internet](http://andnowforelectronics.com/notes/internet/) page to find out how IP addresses work.  
 
 ### Teaming options for project #4
 
