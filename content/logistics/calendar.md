@@ -32,6 +32,6 @@ draft: false
 |     12    |     11/24    |     Basic types of control    |         |          |          |
 |          |     11/26    |     No pods (Thanksgiving)    |         |          |          |
 |     13    |     12/1    |     Introduction to frequency domain    |         |     [VR10](http://flipgrid.com/me30) due Wed. 11:59pm    |          |
-|          |     12/2    |     P4 share out    |         |          |     P4 final    |
+|          |     12/3    |     P4 share out    |         |          |     P4 final    |
 |     14    |     12/8    |     Ethics, project management, and jobs    |         |     [VR11](http://flipgrid.com/me30)    |          |
 |          |     12/10    |     Semester reflection    |         |          |          |
