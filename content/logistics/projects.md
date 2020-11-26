@@ -38,6 +38,7 @@ If you are working in a team, while it is probably wise to have one of you manag
 * If you need parts (like a sensor or a certain kind of motor), we're happy to order them for you.  
 * See the [Raspberry Pi setup](http://andnowforelectronics.com/notes/rpi-setup/) page to learn how to control your Pi via serial cable and the Internet.  
 * See the [Servers and Clients](http://andnowforelectronics.com/notes/series-vs-parallel/) page for resources on coding your Pi and Arduino to send and receive data through the Internet.  
+* See the [client and server setup](http://andnowforelectronics.com/notes/demo-videos/#client-and-server-setup) demo video that walks through the code for Raspberry Pis and Arduinos as clients and servers
 * See the [Internet](http://andnowforelectronics.com/notes/internet/) page to find out how IP addresses work.  
 
 ### Teaming options for project #4
