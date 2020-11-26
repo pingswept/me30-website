@@ -38,3 +38,7 @@ reply = requests.get('http://192.168.1.123/sensor/reading')
 print(reply.text)
 ```
 ![server-client architecture](/img/server-client-architecture.jpg)
+
+### Demo videos showing some client/server setup
+
+Check them out [here](http://andnowforelectronics.com/notes/demo-videos/#client-and-server-setup)
