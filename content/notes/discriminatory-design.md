@@ -1,9 +1,9 @@
 ---
-title: "Discriminatory design: identifying and avoiding it"
+title: "Discriminatory design"
 draft: false
 ---
 
-**Introduction**
+**Identifying discriminatory design**
 
 One goal of ME 30 is to empower you to use tools of electronics and robotics to design new technologies. As we wrap up this semester, we acknowledge that with that power comes much responsibility, including the responsibility to understand how robotic systems can negatively impact some individuals and groups even as they positively impact the lives or work of others — and the responsibility to learn how to proactively avoid this kind of discriminatory design.  
 
