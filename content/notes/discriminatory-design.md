@@ -1,6 +1,6 @@
 ---
 title: "Discriminatory design: identifying and avoiding it"
-draft: true
+draft: false
 ---
 
 **Introduction**
