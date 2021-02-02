@@ -95,7 +95,7 @@ This PCB is cool just because I used black soldermask and yellow silkscreen to m
 ![PCB shaped like a rocket by Brandon Stafford](/img/pcb-rocket-dmx.jpg)
 Here are some fanciful PCBs I made a few years ago. The rocket engine is actually a DMX connector; the thing is used to control stage lights. This is just to give you the idea that PCBs don’t just have to be boring rectangular things. I made this PCB using weird open-source software called PCBmodE: https://github.com/boldport/pcbmode. If you want to make a simple, but oddly shaped, PCB, maybe that would work for you.
 
-![More PCBs shaped like rockets by Brandon Stafford](/img/85CCD426-0322-41C7-99F0-C3C01B5EF2C8.jpeg)
+![More PCBs shaped like rockets by Brandon Stafford](/img/array-of-rocket-pcbs.jpg)
 
 ## 2020 PCB design tips
 
