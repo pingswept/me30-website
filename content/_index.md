@@ -13,27 +13,41 @@ You're going to love it.
 ## Instructors
 
 {{< columns >}}
+![Briana Bouchard](/img/kristen-wendell.jpg)
+Briana Bouchard
+<--->
 ![Brandon Stafford](/img/brandon-stafford.jpg)
 Brandon Stafford
-<--->
-![Kristen Wendell](/img/kristen-wendell.jpg)
-Kristen Wendell
 <--->
 {{< /columns >}}
 
 ## Learning assistants
 
 {{< columns >}}
-![Libby Albanese](/img/libby-albanese.jpg)
-Libby Albanese
+![Morgan Burke](/img/morgan-burke.jpg)
+Morgan Burke
 <--->
-![Jared Jaramillo](/img/jared-jaramillo.jpg)
-Jared Jaramillo
+![Rachel Eaglin](/img/rachel-eaglin.jpg)
+Rachel Eaglin
 <--->
-![Jeremy Kanovsky](/img/jeremy-kanovsky.jpg)
-Jeremy Kanovsky
+![Rónán Gissler](/img/ronan-gissler.jpg)
+Rónán Gissler
+<--->
+![Megan Jenney](/img/megan-jenney.jpg)
+Megan Jenney
+<--->
+![Teddy Robbins](/img/teddy-robbins.jpg)
+Teddy Robbins
+<--->
+![Zosia Stafford](/img/zosia-stafford.jpg)
+Zosia Stafford
+<--->
+![Maia Taffe](/img/maia-taffe.jpg)
+Maia Taffe
+<--->
+![Olivia Tomassetti](/img/olivia-tomassetti.jpg)
+Olivia Tomassetti
 {{< /columns >}}
-
 
 Because of the global pandemic, the course is being taught in an unusual fashion. Instead of all just hanging out in a workshop building electronics for 14 weeks, we have a bunch of different elements that will combine, like Voltron, to make an awesome course.
 
