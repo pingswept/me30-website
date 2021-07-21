@@ -13,7 +13,7 @@ You're going to love it.
 ## Instructors
 
 {{< columns >}}
-![Briana Bouchard](/img/kristen-wendell.jpg)
+![Briana Bouchard](/img/briana-bouchard.jpg)
 Briana Bouchard
 <--->
 ![Brandon Stafford](/img/brandon-stafford.jpg)
