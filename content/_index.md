@@ -6,7 +6,7 @@ draft: false
 
 # ME 30: Electromechanical Systems and Robotics I
 
-ME 30 is a new course at Tufts University in the fall of 2020 co-taught by Briana Bouchard and Brandon Stafford.
+ME 30 is an course in electronics at Tufts University co-taught by Briana Bouchard and Brandon Stafford.
 
 You're going to love it.
 
