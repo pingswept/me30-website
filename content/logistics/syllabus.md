@@ -5,7 +5,7 @@ draft: false
 ---
 # Electromechanical Systems and Robotics I Syllabus
 
-ME 30, Electromechanical Systems and Robotics I, Section 01, class number 83723
+ME 30, Electromechanical Systems and Robotics I, class number 80399
 
 ## Course description
 
@@ -16,25 +16,26 @@ A project-based hands-on electronics boot camp, focusing on the design and fabri
 The point of the course is to force students to gain experience with the practical challenges of building electrical hardware. Acting as a counterbalance to the largely theory-heavy curriculum of the modern university, the course makes students work in teams with their mostly inexperienced peers, where they argue, burn out chips, and struggle with lightly documented hardware. They face engineering failure and have to recover to succeed.
 
 ### Key topics
-•	Circuit fundamentals: voltage, current, resistance, capacitance, power, series vs. parallel
-•	Multimeters
-•	Prototyping
-•	LEDs
-•	Voltage regulation
-•	PCB design
-•	Transistors
-•	H-bridge motor controllers
-•	Motors
-•	Arduino MKR hardware
-•	Arduino programming
-•	Analog input/sensors
-•	Microcontroller peripherals: PWM module, serial port module, i2c module
-•	Frequency domain and digital filter basics
-•	IoT basics
-•	Raspberry Pi hardware
-•	Raspberry Pi programming
-•	Ethics in electronics and robotics
-•	Professional responsibilities and decision-making; career trajectories
+* Circuit fundamentals: voltage, current, resistance, capacitance, power, series vs. parallel
+* Ethics in electronics and robotics
+* Professional responsibilities and decision-making
+* Multimeters
+* Prototyping
+* LEDs
+* Voltage regulation
+* PCB design
+* Transistors
+* H-bridge motor controllers
+* Motors
+* Arduino hardware
+* Arduino programming
+* Analog input/sensors
+* Microcontroller peripherals: PWM module, serial port module, I2C module
+* Frequency domain and digital filter basics
+* IoT basics
+* Raspberry Pi hardware
+* Raspberry Pi programming
+* Career trajectories and how to find a job
 
 ## Co-teachers
 
@@ -45,23 +46,24 @@ Brandon Stafford, brandon.stafford@tufts.edu
 
 Briana's office hours are:  
 
-*   Mon/Wed 3:30-5pm, via ME 30 Slack and Zoom (Zoom link posted on Canvas)
+* To be determined
 
 Brandon's office hours are:
 
-*   Tues/Thurs 3-4:30pm, via ME 30 Slack and Zoom (https://tufts.zoom.us/my/brandon.of.nolop)
+* Tues/Thurs at high noon on the SEC patio, or possibly Zoom (https://tufts.zoom.us/my/brandon.of.nolop)
+* Brandon is also usually findable in Nolop.
 
 LA office hours are:
 
-*   Sun 8-10pm and Wed 7-9pm, via ME 30 Slack and Zoom (https://tufts.zoom.us/j/95848857971)  
+* To be determined, via ME 30 Slack or possibly Zoom (https://tufts.zoom.us/j/95848857971)  
 
 ## Course credit and time expectations
 
-ME 30 is a 4-SHU course with lab. The lab component will consist of a series of four independent projects. At Tufts, each SHU equates to 3 hours of student time per week. 4-SHU courses are expected to require an average of 12 student hours per week. Typically, these hours are divided into about 3 hours of class time and 9 hours of lab/homework/study time. For Fall 2020, you can expect to spend roughly 1 hour with pre-recorded lectures, 1.5 hours in synchronous class meeting, up to 4 hours on studying/homework, and up to 5.5 hours on projects/lab time each week. Of course, exact hours spent on study, homework, and projects will vary by student and week.
+ME 30 is a 4-SHU course with lab. The lab component will consist of a series of four independent projects. At Tufts, each SHU equates to 3 hours of student time per week. 4-SHU courses are expected to require an average of 12 student hours per week. Typically, these hours are divided into about 3 hours of class time and 9 hours of lab/homework/study time. For Fall 2021, you can expect to spend roughly 2.5 hours in class meeting, maybe 1 hour on studying/homework, and the remaining 8.5 hours on project work each week.
 
 ## Learning electronics when life is really tough (and you might be in quarantine)
 
-We’re all facing challenges this year that we’ve never faced before. In ME 30 this semester, we hope to cultivate a supportive community of people who are helping each other take things one day at a time while also learning some electronics along the way. But, we know that some days, or even most days, life will be really hard this semester. In particular, you might find yourself needing to quarantine, grieve, care for a friend or family member, or care for yourself in this time with its many sources of anxiety and concern. As your instructors, we aim to be flexible when those situations arise, and to support you in taking care of yourselves and loved ones. We will work with you to amend due dates and find solutions that won’t negatively impact your grade in the course. Please feel free to reach out to us, even if just to remind us how hard it is to be a college student right now.
+This pandemic is lingering a lot longer than any of us want it to. In ME 30 this semester, we hope to cultivate a supportive community of people who are helping each other take things one day at a time while also learning some electronics along the way. But, we know that some days, life may still be hard this semester. In particular, you might find yourself needing to quarantine, grieve, care for a friend or family member, or care for yourself in this time with its many sources of anxiety and concern. As your instructors, we aim to be flexible when those situations arise, and to support you in taking care of yourselves and loved ones. We will work with you to amend due dates and find solutions that won’t negatively impact your grade in the course. Please feel free to reach out to us, even if just to remind us how hard it is to be a college student right now.
 
 ## Course expenses
 
@@ -81,14 +83,14 @@ Shipping is free.
 
 ### Textbooks
 
-There are two recommended textbooks for the class. You are not required to buy either, but given our socially distant operations this fall, you are encouraged to consider more independent modes of learning as a supplement to the rest of the course.
+There are two recommended textbooks for the class. You are not required to buy either, but you are strongly encouraged to consider independent modes of learning as a supplement to the rest of the course.
 
 1. [Practical Electronics for Inventors, Fourth Edition, by Paul Scherz and Simon Monk](https://www.amazon.com/Practical-Electronics-Inventors-Fourth-Scherz/dp/1259587541/), $22.49 in print, and also available as a free [e-book from Tisch Library](https://tufts-primo.hosted.exlibrisgroup.com/permalink/f/k87dab/TN_cdi_askewsholts_vlebooks_9781259587559)
 2. [Making Things Move by Dustyn Roberts](https://www.amazon.com/Making-Mechanisms-Inventors-Hobbyists-Artists/dp/0071741674/), $19.79 in print, and also available as a free [e-book from Tisch Library](https://www-accessengineeringlibrary-com.ezproxy.library.tufts.edu/content/book/9780071741675)
 
 ## Financial constraints
 
-If, for whatever reason, you cannot afford to pay for the stuff needed for this class, please let one of the teachers know, either in Slack or via email. In virtually all cases, the Mechanical Engineering Department will pay for whatever you can't afford; if they can't, we will. Under no circumstances should your education suffer because you don't have the right tools or supplies.
+If, for whatever reason, you cannot afford to pay for the stuff needed for this class, please let one of the teachers know, either in person or via email. In virtually all cases, the Mechanical Engineering Department will pay for whatever you can't afford; if they can't, we will. Under no circumstances should your education suffer because you don't have the right tools or supplies.
 
 ## Modes of instruction
 
