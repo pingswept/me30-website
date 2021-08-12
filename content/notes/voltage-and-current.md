@@ -16,7 +16,7 @@ To give you an idea of scale, microcontrollers and phones run on currents of 1-1
 
 But current doesn't tell the whole story. Voltage tells the rest.
 
-Current tells us about the rate at which electrons are flowing, and you would guess that those electrons have some potential to transfer energy, but the value of the current doesn’t tell us how MUCH energy the electrons are transferring each second. To know that, we have to know how much voltage is applied. Voltage - also called potential difference - tells you where energy is converted in a circuit. If there’s a difference in voltage across something, then that thing is transferring electrical energy to some other form. Voltage is a measure of potential energy per electron.
+Current tells us about the rate at which electrons are flowing, and you would guess that those electrons have some potential to transfer energy, but the value of the current doesn’t tell us how MUCH energy the electrons are transferring each second. To know that, we have to know how much voltage is applied. Voltage, also called "potential difference," tells you where energy is transferred in a circuit. If there’s a difference in voltage across something, then that thing is transferring electrical energy to some other form. Voltage is a measure of potential energy per electron.
 
 Voltage has an “energy” definition and a “practical” definition. The energy definition is that 1 volt equals 1 joule per coulomb. In other words, voltage is the energy supplied per unit of charge.
 
