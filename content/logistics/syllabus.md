@@ -38,18 +38,18 @@ The point of the course is to force students to gain experience with the practic
 
 ## Co-teachers
 
+Briana Bouchard, briana.bouchard@tufts.edu
 Brandon Stafford, brandon.stafford@tufts.edu
-Kristen Wendell, kristen.wendell@tufts.edu
 
 ## Office hours
+
+Briana's office hours are:  
+
+*   Mon/Wed 3:30-5pm, via ME 30 Slack and Zoom (Zoom link posted on Canvas)
 
 Brandon's office hours are:
 
 *   Tues/Thurs 3-4:30pm, via ME 30 Slack and Zoom (https://tufts.zoom.us/my/brandon.of.nolop)
-
-Kristen's office hours are:  
-
-*   Mon/Wed 3:30-5pm, via ME 30 Slack and Zoom (Zoom link posted on Canvas)
 
 LA office hours are:
 
@@ -86,11 +86,9 @@ There are two recommended textbooks for the class. You are not required to buy e
 1. [Practical Electronics for Inventors, Fourth Edition, by Paul Scherz and Simon Monk](https://www.amazon.com/Practical-Electronics-Inventors-Fourth-Scherz/dp/1259587541/), $22.49 in print, and also available as a free [e-book from Tisch Library](https://tufts-primo.hosted.exlibrisgroup.com/permalink/f/k87dab/TN_cdi_askewsholts_vlebooks_9781259587559)
 2. [Making Things Move by Dustyn Roberts](https://www.amazon.com/Making-Mechanisms-Inventors-Hobbyists-Artists/dp/0071741674/), $19.79 in print, and also available as a free [e-book from Tisch Library](https://www-accessengineeringlibrary-com.ezproxy.library.tufts.edu/content/book/9780071741675)
 
-
 ## Financial constraints
 
 If, for whatever reason, you cannot afford to pay for the stuff needed for this class, please let one of the teachers know, either in Slack or via email. In virtually all cases, the Mechanical Engineering Department will pay for whatever you can't afford; if they can't, we will. Under no circumstances should your education suffer because you don't have the right tools or supplies.
-
 
 ## Modes of instruction
 
@@ -111,8 +109,6 @@ During the time of COVID, we cannot all safely meet in the same room for one lar
 * 	 **Pods** – Via Zoom during regularly scheduled class time. The class will be divided into four smaller cohorts, which we’ll call the East, West, North, and South pods, of roughly 16 students each. Each pod will meet on Zoom with one instructor (either Kristen or Brandon) and at least one LA, for 35 minutes during each regularly scheduled Tues/Thurs class session. Kristen and Brandon will rotate so that each pod interacts with each instructor. North and South pods will meet from 1:30 to 2:05pm ET, and East and West pods will from meet 2:10 to 2:45 ET. Attendance is highly encouraged. Student-to-student and student-to-instructor interaction will be facilitated. Breakout rooms will be used, and Learning Assistants will be actively supporting student participation, inclusion, and understanding. Project troubleshooting and de-brief will occur during pod sessions.  
 During the pod sessions, instructors will be remote, but we have reserved rooms on campus for those of you who would like to participate in the Zoom sessions while being physically present person with pod-mates. You'll get an email with information about your pod assignment and room. **Being physically present in these rooms is completely optional. Instructors will join only via Zoom. If you attend in person, you must wear a mask, stay 6 feet apart from each other, and wipe down your space before you leave.**  
 
-
-
 ## A week in the life of ME 30, COVID edition
 
 **Thursday 5:00pm** – Instructors release new video mini-lectures, website notes, suggested readings, and crucial questions for the upcoming week. You'll be answering these crucial questions in your weekly video response on Flipgrid (due Monday).   
@@ -121,10 +117,8 @@ During the pod sessions, instructors will be remote, but we have reserved rooms 
 **Tuesday class time** – Instructors and LAs meet with student pods to discuss crucial questions, demonstrate techniques and concepts for the current project, and give feedback on project prototypes  
 **Wednesday 11:59pm** – Deadline for you to submit any project deliverables due that week.  
 **Thursday class time** – Instructors and LAs meet with student pods to follow up on video responses, run project tutorials, and de-brief project work submitted the night before.  
-
 **Daily** – Continued discussion on the ME30 Slack workspace.  
 **Afternoons and evenings** – Optional office hours with instructors and LAs.
-
 
 ## Assignments and grading
 
@@ -155,15 +149,12 @@ On Monday afternoons, you'll be expected to post a short video to the [ME 30 Fli
 
 There will be three short quizzes, one after each of the Projects 2, 3, and 4. These quizzes will take place during pod sessions, so please contact us if you cannot participate in a pod session when a quiz is scheduled. Each quiz will feature open-response questions aimed at checking your understanding of the big ideas of each project. Your quiz work will be graded for accuracy and coherence. The average of your three quiz grades will count for 10% of your total course grade.
 
-
 ## Honesty
 
 We take honesty very seriously. Not only are we required to report violations of academic integrity, we are glad to do so. We are all fortunate to be at Tufts; there is no excuse for squandering that opportunity by representing someone else's work as your own. If you're unsure about the details, read the [Tufts Academic Integrity Policy](https://students.tufts.edu/student-affairs/student-life-policies/academic-integrity-policy).
-
 
 ## Accommodations for students with disabilities
 
 Tufts is committed to providing equal access and support to all qualified students through reasonable accommodations so that each student may fully participate in the Tufts experience. If you have a disability that requires accommodations, please email accessibility@tufts.edu or call 617-627-4539 to make an appointment to talk with a Student Accessibility Services representative about appropriate accommodations.
 
 Please be aware that accommodations cannot be enacted retroactively.
-
