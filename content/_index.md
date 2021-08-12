@@ -49,15 +49,6 @@ Maia Taffe
 Olivia Tomassetti
 {{< /columns >}}
 
-Because of the global pandemic, the course is being taught in an unusual fashion. Instead of all just hanging out in a workshop building electronics for 14 weeks, we have a bunch of different elements that will combine, like Voltron, to make an awesome course.
+## Slack workspace
 
-* a central website for course logistics and notes, plus links to everything else
-* a [project kit](/logistics/kit/) and plan for PCB fabrication and assembly
-* collection of pre-existing resources: a textbook plus other stuff on the website
-* short, topical videos, incrementally released, specific to our class
-* Zoom pod sessions-- small groups of 16 people, real-time Q&A with Kristen or [Brandon](https://tufts.zoom.us/my/brandon.of.nolop)
-* a [Slack workspace](https://tufts-me30.slack.com) for the course, including channels for each pod
-* a [Flipgrid group](https://flipgrid.com/me30) for video documentation of student work
-* community enrichment activities, like streaming electronics teardowns [on Twitch](https://www.twitch.tv/radio_polonium_active)
-* email status updates weekly, crossposted to [this page](/logistics/weekly-updates/) and [the Slack workspace](https://tufts-me30.slack.com)
-* some form of assessment on Canvas
+Last year, during the height of the pandemic, we used Slack, a messaging app, for ME 30. It turns out that it was useful enough that we have decided to try it again this year. (Unless we change our minds. Honestly, I'm just typing this now; who knows what will happen when the semester starts.) You should join [our Slack workspace](https://tufts-me30.slack.com) with your Tufts email address.
