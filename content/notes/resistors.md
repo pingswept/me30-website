@@ -14,13 +14,13 @@ At top right, we have a big spool of 1/10 W, 1k surface-mount resistors. They mi
 
 The big blocky brass thing in the middle is a current shunt, that is, a resistor that has a very low resistance that is precisely calibrated. You run a large current through the rod in the middle, and then you measure the voltage drop with the two wires on either side. If you look carefully at the right hand side of the shunt, you can seea legend stamped into the metal that reads, "50 A 60 mV." This means that when you measure a 60 mV drop across the shunt, 50 A is flowing through it. (Thus, its resistance is 0.060/50 = 0.0012 ohms, or 1.2 milliohms.)
 
-In the lower left, we have a power resistor. This is just a resistor encased in a big resistor so you can run a lot of current through it without melting it. The last line of the legend printed on it says, "50W 0.15Ω," which means that the resistor can dissipate 50 W before it burns up. Knowing its power limit and resistance, you can calculate its current and voltage limits: sqrt(50/0.15) = 18 A, and sqrt(50 * 0.15) = 2.7 V.
+In the lower left, we have a power resistor. This is just a resistor encased in a big block of metal so you can run a lot of current through it without melting it. The last line of the legend printed on it says, "50W 0.15Ω," which means that the resistor can dissipate 50 W without burning up. Knowing its power limit and resistance, you can calculate its current and voltage limits: sqrt(50/0.15) = 18 A, and sqrt(50 * 0.15) = 2.7 V.
 
 ## Resistors are linear
 
 When we say something behaves linearly, we just mean that if you double the input, the output also doubles. If you triple the input, the output triples. With a resistor, if you double the voltage pushing electrons through the resistor, the current through the resistor will double.
 
-In reality, resistors aren't exactly linear, but they're close enough. The most common deviation that you'll run into is that as you run more current through a carbon film resistor, it heats up. As it heats up, the resistance drops slightly, so if you double the voltage, you actually get slightly more than double the current. (But that's just carbon film resistors. The resistance of copper wires increases slightly with temperature.)
+In reality, resistors aren't exactly linear, but they're close enough. The most common deviation that you'll run into is that as you run more current through a carbon film resistor, it heats up. As it heats up, the resistance drops slightly, so if you double the voltage, you actually get slightly more than double the current. (But that's just carbon film resistors. The resistance of copper wires is just the opposite-- it increases slightly with temperature.)
 
 ## We measure resistance in ohms
 
@@ -44,7 +44,7 @@ Typical carbon film resistors are rated for 1/4 W. Typical 0805 surface mount re
 
 ## Tolerance
 
-When resistors are manufactured, there is some variation in their resistance. Typical cheap carbon film resistors are specified to be accurate within 5% of their nominal value, but they are usually closer than 1%. This is different than capacitors, which are specified to be within 10% or 20% of their rated value, and often push those limits, especially across signals of different frequencies. You can pay extra moeny to get resistors with tighter tolerances.
+When resistors are manufactured, there is some variation in their resistance. Typical cheap carbon film resistors are specified to be accurate within 5% of their nominal value, but they are usually closer than 1%. This is different than capacitors, which are specified to be within 10% or 20% of their rated value, and often push those limits, especially across signals of different frequencies. You can pay more money to get resistors with tighter tolerances.
 
 ## Typical application: current limiter
 
@@ -66,7 +66,7 @@ If you have, say, two 10k resistors stacked with 5 V applied, the voltage betwee
 
 If you have, say, a 3.9k and a 1k resistor stacked with 5 V applied, the voltage between them will be around 1 V.
 
-You might think that all that matters about a voltage divider is the ratio of the two resistors. Usually, you would be right. But, the purpose of the voltage divider is often to supply a reference voltage to another device. If that device draws off some current, the voltage between the resistors will start to sag. To prevent this, make sure that the current drawn off into your device is at least 100x less than the current flowing through the divider itself. Alternatively, if the sag is predictable, you could just set the divider a little higher and let it sag to the original target.
+You might think that all that matters about a voltage divider is the ratio of the two resistors. Usually, you would be right. But, the purpose of the voltage divider is often to supply a reference voltage to another device. If that device draws off some current, the voltage between the resistors will start to sag, because less current is flowing through the lower resistor. To prevent this, make sure that the current drawn off into your device is at least 100x less than the current flowing through the divider itself. Alternatively, if the sag is predictable, you could just set the divider a little higher and let it sag to the original target.
 
 ## Typical application: pull-up or pull-down
 
