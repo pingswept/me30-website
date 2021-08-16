@@ -13,7 +13,7 @@ Capacitors are measured in farads. 1 F is 1 coulomb/volt, a measure of how much 
 
 ## Voltage-current relationship
 
-Capacitors behave like frequency-dependent resistors. The governing equation is: {{< katex >}}I = C dV/dt{{< /katex >}}. When the frequency of a signal is high, {{< katex >}}dV/dt{{< /katex >}} is high, so more current flows. This makes the apparent resistance of capacitor low at high frequency. The reverse is also true: a capacitor appears high resistance to low frequency signals.
+Capacitors behave like frequency-dependent resistors. The governing equation is: {{< katex >}}I = C dV/dt{{< /katex >}}, where {{< katex >}}I{{< /katex >}} is current, {{< katex >}}C{{< /katex >}} is capacitance, and {{< katex >}}dV/dt{{< /katex >}} is the rate at which the voltage is changing. The capacitance is a physical property of a capacitor, and is more or less constant. When the frequency of a signal is high, {{< katex >}}dV/dt{{< /katex >}} is high, so more current flows. This makes the apparent resistance of capacitor low at high frequency. The reverse is also true: a capacitor appears high resistance to low frequency signals.
 
 ## But what is the point of them?
 
