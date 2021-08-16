@@ -5,8 +5,8 @@ draft: false
 
 
 
-| Week | Date  |     Class topic    |     What to study    |     Project deliverables due (by Wed. 11:59pm)    |
-|------|-------|--------------------|----------------------|---------------------------------------------------|
+| Week | Date  |     Class topic    |     What to study    |     Project deliverables due (by Mon. 11:59pm)    |
+|:----:|:-----:|--------------------|----------------------|---------------------------------------------------|
 |  1   | 9/9   |     Breadboard [prototyping](http://andnowforelectronics.com/notes/prototyping/)    |     [Voltage and current](http://andnowforelectronics.com/notes/voltage-and-current/); [Resistors](http://andnowforelectronics.com/notes/resistors/); [Voltage regulators](http://andnowforelectronics.com/notes/voltage-regulation/); [Capacitors](http://andnowforelectronics.com/notes/capacitors/); [Videos for P1](http://andnowforelectronics.com/notes/demo-videos/#videos-for-project-1)    |          |
 |  2   | 9/14  |     [Voltage regulators](http://andnowforelectronics.com/notes/voltage-regulation/)    |         |     [P1   proto](http://andnowforelectronics.com/logistics/projects/#project-1-build-a-breadboard-power-supply)    |
 |      | 9/16  |     KiCad Q & A    |     [Prototyping](http://andnowforelectronics.com/notes/prototyping/); [Multimeters](http://andnowforelectronics.com/notes/multimeter/); [PCB design](http://andnowforelectronics.com/notes/pcb/)    |          |
