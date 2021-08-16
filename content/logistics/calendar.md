@@ -6,7 +6,7 @@ draft: false
 
 
 |     Week    |     Date    |     [Pods](http://andnowforelectronics.com/logistics/syllabus/#synchronous-elements)    |     Web Notes    |     Project deliverables due (by Wed. 11:59pm)    |
-|-|-|-|-|-|-|
+|-|-|-|-|-|
 |     1    |     9/8    |     Breadboard [prototyping](http://andnowforelectronics.com/notes/prototyping/)    |     [Voltage & current](http://andnowforelectronics.com/notes/voltage-and-current/); [Resistors](http://andnowforelectronics.com/notes/resistors/); [Voltage regulators](http://andnowforelectronics.com/notes/voltage-regulation/); [Capacitors](http://andnowforelectronics.com/notes/capacitors/); [Videos for P1](http://andnowforelectronics.com/notes/demo-videos/#videos-for-project-1)    |          |
 |          |     9/10    |     [Voltage regulators](http://andnowforelectronics.com/notes/voltage-regulation/)    |         |     [P1   proto](http://andnowforelectronics.com/logistics/projects/#project-1-build-a-breadboard-power-supply)    |
 |     2    |     9/15    |     KiCad Q & A    |     [Prototyping](http://andnowforelectronics.com/notes/prototyping/); [Multimeters](http://andnowforelectronics.com/notes/multimeter/); [PCB design](http://andnowforelectronics.com/notes/pcb/)    |          |
