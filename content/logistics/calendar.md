@@ -5,18 +5,18 @@ draft: false
 
 
 
-| Week | Date  |     Class topic    |     What to study    |     Project deliverables due (by Mon. 11:59pm)    |
-|:----:|:-----:|--------------------|----------------------|---------------------------------------------------|
-|  1   | 9/9   |     Breadboard [prototyping](http://andnowforelectronics.com/notes/prototyping/)    |     [Voltage and current](http://andnowforelectronics.com/notes/voltage-and-current/); [Resistors](http://andnowforelectronics.com/notes/resistors/); [Voltage regulators](http://andnowforelectronics.com/notes/voltage-regulation/); [Capacitors](http://andnowforelectronics.com/notes/capacitors/); [Videos for P1](http://andnowforelectronics.com/notes/demo-videos/#videos-for-project-1)    |          |
-|  2   | 9/14  |     [Voltage regulators](http://andnowforelectronics.com/notes/voltage-regulation/)    |         |     [P1   proto](http://andnowforelectronics.com/logistics/projects/#project-1-build-a-breadboard-power-supply)    |
-|      | 9/16  |     KiCad Q & A    |     [Prototyping](http://andnowforelectronics.com/notes/prototyping/); [Multimeters](http://andnowforelectronics.com/notes/multimeter/); [PCB design](http://andnowforelectronics.com/notes/pcb/)    |          |
-|  3   | 9/21  |     PCB design    |         |     [P1   PCB](http://andnowforelectronics.com/logistics/projects/#project-1-build-a-breadboard-power-supply)    |
-|      | 9/23  |     Build a BJT circuit with a motor    |     [Low power/high power](http://andnowforelectronics.com/notes/low-power-high-power/)    |          |
-|  4   | 9/28  |     Drive a motor with a MOSFET    |         |          |
-|      | 9/30  |     Build an H-bridge    |     [H-bridge motor driver](http://andnowforelectronics.com/notes/h-bridge/)    |          |
+| Week | Date  | Lecture                                    | Hands-on                      |    What to study    |     Project deliverables due (by Mon. 11:59pm)    |
+|:----:|:-----:|--------------------------------------------|-------------------------------|---------------------|---------------------------------------------------|
+|  1   | 9/9   | Voltage, current, resistors, capacitors    | Breadboard [prototyping](http://andnowforelectronics.com/notes/prototyping/)    |     [Voltage and current](http://andnowforelectronics.com/notes/voltage-and-current/); [Resistors](http://andnowforelectronics.com/notes/resistors/); [Voltage regulators](http://andnowforelectronics.com/notes/voltage-regulation/); [Capacitors](http://andnowforelectronics.com/notes/capacitors/); [Videos for P1](http://andnowforelectronics.com/notes/demo-videos/#videos-for-project-1)    |          |
+|  2   | 9/14  | Voltage, current, power. To succeed, fail. | Debug your voltage regulators | [Voltage regulators](http://andnowforelectronics.com/notes/voltage-regulation/) Also, learn Kicad from Youtube. |     [P1   proto](http://andnowforelectronics.com/logistics/projects/#project-1-build-a-breadboard-power-supply) |
+|      | 9/16  | LEDSs, voltage dividers                    | KiCad Q & A                   | [Prototyping](http://andnowforelectronics.com/notes/prototyping/); [Multimeters](http://andnowforelectronics.com/notes/multimeter/); [PCB design](http://andnowforelectronics.com/notes/pcb/)    |          |
+|  3   | 9/21  | Transistors as switches                    | Switch an LED with a BJT      | [Low power/high power](http://andnowforelectronics.com/notes/low-power-high-power/) |     [P1   PCB](http://andnowforelectronics.com/logistics/projects/#project-1-build-a-breadboard-power-supply)    |
+|      | 9/23  | MOSFETs                                    | Run a motor with a MOSFET     |                     |                                                   |
+|  4   | 9/28  | DC motors                                  | Measure motors                |                     |                                                   |
+|      | 9/30  | H-bridges                                  | Start building an H-bridge    |     [H-bridge motor driver](http://andnowforelectronics.com/notes/h-bridge/)    |          |
 |  5   | 10/5  |     Make a motor spin both ways    |         |     [P2 proto](https://canvas.tufts.edu/courses/22096/assignments/107779)     |
 |      | 10/7  |     Quiz 1 (on P1 and P2)    |     [Motors](http://andnowforelectronics.com/notes/motors/)    |         |
-|  6   | 10/12 |     DC, stepper, and servo motors    |          |     P2 PCB    |
+|  6   | 10/12 |     Stepper and servo motors    |          |     P2 PCB    |
 |      | 10/14 |     Arduino challenges    |     [Microcontrollers](http://andnowforelectronics.com/notes/microcontrollers/); [Arduino MKR 1010 Wifi](http://andnowforelectronics.com/notes/arduino-mkr-wifi-1010-hardware/); [Arduino programming](http://andnowforelectronics.com/notes/arduino-programming/)     |          |
 |  7   | 10/19 |     Arduino challenges, cont'd    |         |          |
 |      | 10/21 |     Hardware peripherals    |         |          |
