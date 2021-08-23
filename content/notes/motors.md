@@ -117,7 +117,7 @@ Buy a motor that size, and try running it with your load at different voltages t
 
 What torque and speed does the photo cube’s motor need? 
 
-**Speed:**  A desirable rotation rate would be about 10 rpm, which would give the viewer 6 second to see all the photos on the cube as it completes one revolution.   
+**Speed:**  A desirable rotation rate would be about 10 rpm, which would give the viewer 6 seconds to see all the photos on the cube as it completes one revolution.   
 
 **Acceleration:** It doesn’t really matter if the photo cube takes a bit of time to accelerate up to its operating speed, but it seems like it would be more ideal if there’s not to much of a lag. Let’s say you’d like it to get up to speed within a quarter of a second.
 
