@@ -21,11 +21,11 @@ The fundamental principle of a motor is to run some electric current in a wire t
 
 ## Motor types
 
-There are many kinds of motors, but let's start with the three types in your project kits:
+There are many kinds of motors, but let's start with three comon types:
 
-1. a brushed DC gearmotor
-2. a NEMA 17 stepper motor
-3. a hobby servo
+1. a brushed DC gearmotor (you have this in your kit)
+2. a NEMA 17 stepper motor (you have one of these too)
+3. a hobby servo (you can get one of these at Nolop)
 
 Each of these types of motors has lots of other variations, but these are good examples of the most common motors you'll run into.
 
@@ -61,7 +61,7 @@ If you look closely at the rotor below, you can see that the teeth on the left r
 
 ### Hobby servos
 
-Okay, now we have to expose a lie: the hobby servo is, in fact, a brushed DC motor hidden inside a plastic box, so the truth is that you only have two kinds of motors. The box also contains a geartrain, a motor controller IC, an H-bridge and a potentiometer.
+Okay, now we have to expose a lie: the hobby servo is, in fact, a brushed DC motor hidden inside a plastic case, so the truth is that we're only discussing two kinds of motors. The case also contains a geartrain, a motor controller IC, an H-bridge and a potentiometer.
 
 Here's what a hobby servo looks like, inside and out.
 
@@ -159,7 +159,7 @@ What rotational velocity is needed for the spool to lift the cable at a rate of 
 
 The cable will be wound around the spool at a rate roughly equal to the (spool circumference) x (rotational velocity).  
 
-Rotational velocity = (lifting rate) / (spool circumference) = 60 ft/min / (2pi ft/rev) = 9.55 rpm, or 1 rad/sec  
+Rotational velocity = (lifting rate) / (spool circumference) = 60 ft/min / (2 * π * 1 ft/rev) = 9.55 rpm, or 1 rad/sec  
 
 **Power:** 
 Power = (torque) x (rotational speed) = 1355 N-m x 1 rad/sec = 1355 watts
