@@ -4,6 +4,8 @@ draft: false
 ---
 ## Multimeters
 
+![NT8233D Pro multimeter](/img/nt8233d-pro-multimeter.jpg)
+
 You might want to read the page on [series vs. parallel](/notes/series-vs-parallel/) connections before you read this one.
 
 A modern digital multimeter has a whole bunch of different measurement tools packed into one box. The knob on the front allows you to pick which tool is active.
@@ -25,8 +27,6 @@ Voltage measurements are made by connecting the multimeter in parallel with the 
 ![measuring resistance](/img/measuring-resistance.png)
 
 ## What a multimeter looks like inside
-
-![NT8233D Pro multimeter](/img/nt8233d-pro-multimeter.jpg)
 
 ![NT8233D Pro multimeter teardown overview](/img/neoteck-8233d-pro-teardown-overview.jpg)
 
