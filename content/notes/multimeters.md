@@ -2,6 +2,7 @@
 title: "Multimeters"
 draft: false
 ---
+## Multimeters
 
 You might want to read the page on [series vs. parallel](/notes/series-vs-parallel/) connections before you read this one.
 
@@ -22,6 +23,8 @@ Voltage measurements are made by connecting the multimeter in parallel with the 
 ## Resistance and continuity measurement
 
 ![measuring resistance](/img/measuring-resistance.png)
+
+## What a multimeter looks like inside
 
 ![NT8233D Pro multimeter](/img/nt8233d-pro-multimeter.jpg)
 
