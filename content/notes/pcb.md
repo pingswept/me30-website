@@ -7,10 +7,8 @@ draft: false
 
 A PCB is a printed circuit board. Essentially, it consists of an insulated board coated with copper pathways that allow current to flow between components. The pathways are created by etching away from a complete coating of copper and by drilling copper-coated holes. The circuit components are then soldered to the board after it is produced. 
 
-
-![PCB made by Oshpark](/img/PCB_OshPark.png)  
-This is a close-up of an unusually shaped PCB before its components have been soldered on. Note the component labels on the board.   
-Image credit: OSH Park PCB manufacturer, www.oshpark.com
+![PCB from old ME 30 project](/img/pcb-from-me93.jpg)
+Here's a purple PCB from OSHPark. Note that the power jack is oriented in such a way that the power cord would intersect with other parts on the board. This is the kind of detail that is really hard to get right on the first try.
 
 ## Layers of a PCB
 
@@ -70,9 +68,6 @@ Note that the first two tutorials above were created before the latest version o
 *   <input type="checkbox"> Test upload files with manufacturer, if possible
 
 ## PCB gallery
-
-![PCB from old ME 30 project](/img/pcb-from-me93.jpg)
-Here's a purple PCB from OSHPark. Note that the power jack is oriented in such a way that the power cord would intersect with other parts on the board. This is the kind of detail that is really hard to get right on the first try.
 
 ![PCBs for precision voltage shield by Brandon Stafford](/img/pcb-precision-voltage-shield.jpg)
 I (Brandon) used to run a company where I manufactured and sold these small Arduino shields. The shield turns your Arduino into an 8-channel voltmeter, and you can stack them to get more channels.
