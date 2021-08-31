@@ -11,6 +11,6 @@ LEDs have the irritating property that they respond nonlinearly to voltage. If y
 
 The voltage at which the LED emits light is called the forward voltage. When you include an LED in a circuit, typically you'll want to include a [resistor to limit the current](/notes/resistors/#typical-application-current-limiter) drawn by the LED. With a properly-sized resistor, this allows the LED to conduct at its forward voltage, while the resistor prevents it from burning out.
 
-Oddly, the forward voltage of an LED varies with its color.
+Oddly, the forward voltage of an LED varies with its color. A decent heuristic for determining an LED's forward voltage is to guess that it is around 2 V, unless the LED is blue or white, for which you guess 3 V. For current, 1 mA is a good place to start. After these guesses, you can refine your estimates with multimeter measurements.
 
 ![5 mm LED innards](/img/led-5mm-green.svg)
