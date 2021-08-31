@@ -9,4 +9,4 @@ A light-emitting diode is a piece of silicon that blocks current flow in one dir
 
 When you include an LED in a circuit, typically you'll want to include a [resistor to limit the current](/notes/resistors/#typical-application-current-limiter) drawn by the LED.
 
-![5 mm LED innards](/img/LED-5mm-green.svg)
+![5 mm LED innards](/img/led-5mm-green.svg)
