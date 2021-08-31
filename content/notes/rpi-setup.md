@@ -133,7 +133,7 @@ pi@raspberry:~ $ pwd
 
 Next, you may want a text editor that runs in your terminal window to write, edit, and save your scripts. You can use `nano`, which comes pre-installed in the Rasperry Pi OS. To run it, type `nano` in the terminal window once you are logged into your Raspberry Pi.  Within `nano`, use Control-O to save a file ("Writing Out" = saving) and Control-R to open a file ("Reading" = opening).   
 
-![nano window](/img/nano.png)
+![nano window](/img/nano-editor.png)
 
 ### **What other useful commands might I need to know?**
 
