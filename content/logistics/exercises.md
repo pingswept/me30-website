@@ -1,5 +1,5 @@
 ---
-title: "Course norms"
+title: "Exercises"
 draft: false
 ---
 ## In-class exercises
