@@ -4,6 +4,7 @@ draft: false
 ---
 # Projects
 
+<!--
 ## Project #4: Build a whimsical, sort-of-public art installation
 
 ### System requirements
@@ -104,7 +105,7 @@ To get started building your prototype H-bridge, review the [Low Power/high powe
 **Due date for PCB submission: Wednesday, October 7, 11:59 PM**
 
 When your design is ready, you should [submit it to the fabricator](https://oshpark.com/), OSH Park. It will cost you around $10\. After you submit it, take a screenshot of your order confirmation and upload it to the Project 2 PCB assignment on Canvas. That will serve as proof that you submitted your project on time.
-
+-->
 ## Project #1: Build a breadboard power supply
 
 The first project is to build a power supply with the following characteristics:
