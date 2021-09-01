@@ -143,10 +143,18 @@ There will be three short quizzes, one after each of the Projects 2, 3, and 4. E
 
 ## Honesty
 
-We take honesty very seriously. Not only are we required to report violations of academic integrity, we are glad to do so. We are all fortunate to be at Tufts; there is no excuse for squandering that opportunity by representing someone else's work as your own. If you're unsure about the details, read the [Tufts Academic Integrity Policy](https://students.tufts.edu/student-affairs/student-life-policies/academic-integrity-policy).
+I take honesty very seriously. Not only am I required to report violations of academic integrity, I am glad to do so. We are all fortunate to be at Tufts; there is no excuse for squandering that opportunity by representing someone else's work as your own. If you're unsure about the details, read the [Tufts Academic Integrity Policy](https://students.tufts.edu/student-affairs/student-life-policies/academic-integrity-policy).
+
+## Sharing
+
+Tufts has asked me to include this statement: "It is against Tufts policy for anyone to share any content made available in this course including course syllabi, reading materials, problems sets, videos, handouts, and exams, with anyone outside of the course without the express permission of the instructor." I hereby grant you, and everyone else in the world, express permission to share all materials from this course, including the course syllabus, reading materials, problem sets, videos, handouts, and exams, as widely as you like, under the CC-BY-SA Creative Commons License linked at the bottom of the page. In fact, I encourage you to do so.
+
+"He who receives an idea from me, receives instruction himself without lessening mine; as he who lights his taper at mine, receives light without darkening me." --Thomas Jefferson
+
+## Mental health
+
+There may be times when personal stressors or emotional difficulties interfere with your academic performance or well-being. The [Counseling and Mental Health Service](http://go.tufts.edu/Counseling) (CMHS) provides confidential consultation, brief counseling, and urgent care at no cost for all Tufts undergraduates. Call 617-627-3360 if you need help.
 
 ## Accommodations for students with disabilities
 
-Tufts is committed to providing equal access and support to all qualified students through reasonable accommodations so that each student may fully participate in the Tufts experience. If you have a disability that requires accommodations, please email accessibility@tufts.edu or call 617-627-4539 to make an appointment to talk with a Student Accessibility Services representative about appropriate accommodations.
-
-Please be aware that accommodations cannot be enacted retroactively.
+Tufts is committed to providing equal access and support to all qualified students through reasonable accommodations so that each student may fully participate in the Tufts experience. If you have a disability that requires accommodations, please email accessibility@tufts.edu or call 617-627-4539 to make an appointment to talk with a Student Accessibility Services representative about appropriate accommodations. Accommodations cannot be enacted retroactively.
