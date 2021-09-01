@@ -4,7 +4,6 @@ draft: false
 ---
 
 ## Crucial questions for the semester  
-We'll choose a question from this list to generate the Video Response prompt for each week.  
 
 1. If we're trying to light up an LED with a 5 V supply, why do we need a resistor in series?
 2. How much power can 5 V drive into a 100 ohm resistor? Could the resistors in your project kit handle that?
@@ -46,19 +45,7 @@ We'll choose a question from this list to generate the Video Response prompt for
 20.	Build engineering ethics fluency by exploring the impact of internet-connected electronic technologies on various stakeholders, including in environmental and societal contexts.
 21.	Define discriminatory design, explain a case where it has occurred, and identify an approach to avoid it.
 
-## Video Response 5 (due Mon., Oct. 12, 11:59pm)
-*This Video Response prompt has more text than can fit in Flipgrid, so we are posting the details here.*  
-
-We are moving on to microcontrollers! We’ll begin with the Arduino.  Here are the steps for Video Response #5, due a few hours later than usual: 11:59pm Monday, Oct. 12.  
-
-**VR 5 Part I: Reflection on the first 5 weeks of ME 30**
-
-Reflect for a few minutes on your work and learning in ME 30 so far this semester. Here’s a prompt to guide your reflection:
-* You’ve probably done a bunch of different things for ME 30 so far (e.g., going to office hours, asking friends how things work, asking questions in pods, reading the website notes and watching its videos, building circuits, breaking components, debugging, Googling, reading the textbooks, making video responses, posting to Slack, etc.)    
-* Which of the things you’ve done for ME 30 has been most useful for your learning? What do you think might happen if you put all your effort into that thing and ignored everything else?    
-* Jot down some thoughts and save them for your video response (see Step 6 below).  
-
-**VR 5 Part II: Arduino prep**  
+**Arduino prep**  
 
 (1) If you are a complete newcomer to the Arduino, consider attending one of the special office hour tutorials in which we will walk you through the steps outlined below. Those tutorials are happening Thurs., 10/8 (3pm and 3:45pm), Sun., 10/11 (8pm and 9pm), and Mon., 10/12 (3:30pm and 4:15pm).
 
@@ -73,6 +60,4 @@ Reflect for a few minutes on your work and learning in ME 30 so far this semeste
 
 a. Make your Arduino run the "Blink" example. You can find the "Blink" code and instructions [here](https://www.arduino.cc/en/Tutorial/BuiltInExamples/Blink).  
 b. Make your Arduino flash an LED so there are 2 flashes per second, controlled by pin D7. See information about Arduino pins [here](https://www.arduino.cc/reference/en/language/functions/digital-io/digitalwrite/).
-
-**(6) Fligrid posting - Make and post a [Flipgrid](https://flipgrid.com/me30) video that shows us you can do these two Arduino programming tasks, and that shares your reflection thoughts from Part I.**
 
