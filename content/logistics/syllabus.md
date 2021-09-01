@@ -69,7 +69,7 @@ This pandemic is lingering a lot longer than any of us want it to. In ME 30 this
 
 ### Electronics kits
 
-Essentially, we'll give you a [bunch of stuff](http://andnowforelectronics.com/logistics/kit/) (yours to keep except for the multimeter!) and ask for some payment in return (but can help those who need it). We've partnered with Arduino to develop a custom kit just for this course. You'll pick up your kit or have it delivered to you, and you will be charged half its cost - $95 - as a course materials fee (financial assistance is available). The total cost of the kit is $190, but for Fall 2020, a generous gift to the Mechanical Engineering department has covered the other half. Please keep track of and take good care of your components and equipment.  
+Essentially, we'll give you a [bunch of stuff](http://andnowforelectronics.com/logistics/kit/) (yours to keep except for the multimeter!) and ask for some payment in return (but can help those who need it). Please keep track of and take good care of your components and equipment.  
 
 If the cost is a hardship, the department can help. Please read the section below about financial constraints.
 
@@ -83,7 +83,7 @@ Shipping is free.
 
 ### Textbooks
 
-There are two recommended textbooks for the class. You are not required to buy either, but you are strongly encouraged to consider independent modes of learning as a supplement to the rest of the course. This is a fancy way of saying that when you get stuck on something, try reading a few pages from the books below about the topic. Then think some, and then read again, then more thinking. If you actually read and absorbed even 20% of these two books, you would know a LOT abou
+There are two recommended textbooks for the class. You are not required to buy either, but you are strongly encouraged to consider independent modes of learning as a supplement to the rest of the course. This is a fancy way of saying that when you get stuck on something, try reading a few pages from the books below about the topic. Then think some, and then read again, then more thinking. If you actually read and absorbed even 20% of these two books, you would know a LOT about electronics.
 
 1. [Practical Electronics for Inventors, Fourth Edition, by Paul Scherz and Simon Monk](https://www.amazon.com/Practical-Electronics-Inventors-Fourth-Scherz/dp/1259587541/), $22.49 in print, and also available as a free [e-book from Tisch Library](https://tufts-primo.hosted.exlibrisgroup.com/permalink/f/k87dab/TN_cdi_askewsholts_vlebooks_9781259587559)
 2. [Making Things Move by Dustyn Roberts](https://www.amazon.com/Making-Mechanisms-Inventors-Hobbyists-Artists/dp/0071741674/), $19.79 in print, and also available as a free [e-book from Tisch Library](https://www-accessengineeringlibrary-com.ezproxy.library.tufts.edu/content/book/9780071741675)
@@ -119,11 +119,11 @@ Here's how class will work each day.
 
 ## Assignments and grading
 
-Grades will be based mostly on your project work, but also on a few short quizzes.   
-Projects (4) - 90% of course grade   
-Quizzes (3) - 10% of course grade  
+Grades will be based entirely on your project work. There will also be a few short quizzes, which will be ungraded.   
+Projects (4) - 100% of course grade
+Quizzes (3) - 0% of course grade  
 
-### Projects (70%)
+### Projects (100%)
 
 Each project will be worth 7 points, and then scaled by the number of weeks allocated to complete the project. (So a project 4 weeks in duration is worth twice as much as a project 2 weeks in duration.) For each day (or fraction thereof) a project is late, you will lose 1 point (before scaling), so a project that is 1 week late is worth 0 points. To receive credit for a project, your project must also meet the project requirements, which are published at the start of the project. For example, if a project requires fabrication of a PCB, and you don't make one, you lose credit, roughly in proportion to the fraction of the requirements unsatisfied. For group projects with N people per group, you should do roughly 1/N of the work.
 
@@ -137,13 +137,9 @@ Over the course of the four projects you will:
 3. Build an electromechanical game including microcontroller, moving mechanical element, and user input.  
 4. Build a node including both sensor(s) and actuator(s) in an internet-connected, electronic system.  
 
-### Video responses (20%)
+### Quizzes (0%)
 
-On Monday afternoons, you'll be expected to post a short video to the [ME 30 Flipgrid group](http://flipgrid.com/me30). Each week the prompt for the video will be based on the week's crucial questions. It will be posted to Flipgrid on Thursday by 5pm, alongside the release of the week's video mini-lectures and website notes. As you view and study these weekly resources, consider the crucial questions and plan how you will explain your thinking about them. By Monday at 1pm, log in to Flipgrid and use your phone or webcam to record your video response. Each video response will be worth 1 point, and you'll earn the point as long as you submit on time and make an authentic attempt to address the crucial questions. Your grade will not be based on accuracy but rather on effort. Over the course of the semester, 12 video responses will be assigned (i.e., every week except those with holidays). Your video response grade will thus be out of 12 total possible points.
-
-### Quizzes (10%)
-
-There will be three short quizzes, one after each of the Projects 2, 3, and 4. These quizzes will take place during pod sessions, so please contact us if you cannot participate in a pod session when a quiz is scheduled. Each quiz will feature open-response questions aimed at checking your understanding of the big ideas of each project. Your quiz work will be graded for accuracy and coherence. The average of your three quiz grades will count for 10% of your total course grade.
+There will be three short quizzes, one after each of the Projects 2, 3, and 4. Each quiz will feature open-response questions aimed at checking your understanding of the big ideas of each project.
 
 ## Honesty
 
