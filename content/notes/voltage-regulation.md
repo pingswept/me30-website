@@ -35,9 +35,9 @@ At voltages of 30 V or higher, you need to start being careful about not getting
 
 ## Voltage regulation
 
-Okay, so we have high voltages because we want to avoid losing all of our energy in the wires leading to our devices. How do we lower the voltage from a high voltage down to the one we want?
+Okay, so we have high voltages because we want to avoid losing all of our energy in the wires leading to our devices. However, we don't want to use really high voltage for everything-- our motors would spin too fast and some chips might get too hot. How do we lower the voltage from a high voltage down to the one we want?
 
-The easiest solution is to use a chip called a linear voltage regulator, along with two capacitors. A typical circuit is shown below.
+The easiest solution is to use a chip called a linear voltage regulator, along with two capacitors. A typical circuit is shown below. High voltage goes in one side, and low voltage comes out the other side. For the L7805CV that we use, the input voltage can range between 7 V and 25 V. The output voltage will always be very close to 5 V (maybe 4.9-5.1 V).
 
 ![voltage regulator circuit](/img/voltage-regulator-circuit.png)
 
@@ -56,3 +56,5 @@ Each company that makes linear regulators has a different silicon die inside, bu
 1. A precise voltage reference that is below the output voltage. (In an adjustable linear regulator, like the LM317, you provide this reference outside the chip, thereby adjusting the output.)
 2. A transistor that acts like a variable resistor between the input and the output. This is where the inefficiency happens.
 3. An amplifier that compares the output voltage to the voltage reference. As different amounts of current are drawn from the output, the amplifier adjusts the transistor so that the output voltage stays constant, instead of sagging as more current is drawn.
+
+These elements make up a basic control system. Hey, that's what ME 31 is for! (You'll study more interesting control systems than just voltage regulation, though.)
