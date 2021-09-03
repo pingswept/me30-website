@@ -10,7 +10,7 @@ Each student in the course will receive a kit of project supplies. The contents 
 | digital multimeter                       | Neoteck                 | 8233D PRO            | Amazon          | B01NAVAT9S      | 1              |
 | breadboard, 7 inch                       | Adafruit                | 239                  | Adafruit        | 239             | 1              |
 | hook-up wire kit                         | Global Specialties      | WK-3                 | Digikey         | BKWK-3-ND       | 1              |
-| 12 V, 1 A DC power supply                | Tri-Mag, LLC            | L6R12H-120           | Digikey         | 364-1264-ND     | 1              |
+| 12 V, 1 A DC power supply                | Tri-Mag                 | L6R12H-120           | Digikey         | 364-1264-ND     | 1              |
 | 5mm green LED                            | SunLED	                 | XLUG12D	            | Digikey	        | 1497-1023-ND    | 5              |
 | 5mm red LED                              | SunLED	                 | XLUR12D	            | Digikey	        | 1497-1031-ND    | 5              |
 | 100 ohm resistor                         | Yageo	                 | CFR-25JB-52-100R     |	Digikey	        | 100QBK-ND       | 5              |
@@ -29,13 +29,12 @@ Each student in the course will receive a kit of project supplies. The contents 
 | N-channel MOSFET                         | International Rectifier | IRLB8721PBF          | Digikey         | IRLB8721PBF-ND  | 2              |
 | P-channel MOSFET                         | Fairchild               | FQP27P06             | Digikey         | FQP27P06-ND     | 2              |
 | NPN transistor                           | On Semiconductor        | 2N3904               | Digikey         | 2N3904FS-ND     | 2              |
-| DC gearmotor                             | Pololu Corporation      | 3482                 | Digikey         | 2183-3482-ND    | 1              |
+| DC gearmotor                             | Pololu                  | 3482                 | Pololu          | 3482            | 1              |
 |                                          |                         |                      |                 |                 |                |
-| Arduino MKR 1010 Wifi                    | Arduino                 | ABX00023             | Digikey         | 1050-1162-ND    | 1              |
-| micro USB cable                          | CUI Devices             | CBL-UA-MUB-1         | Digikey         | 102-5943-ND     | 1              |
-| Raspberry Pi 4B with 2GB RAM             | Raspberry Pi Foundation | SC0193               | PiHut Wholesale |                 | 1              |
-| 15 W DC power supply for R. Pi           | Raspberry Pi Foundation |                      | PiHut Wholesale |                 | 1              |
-| USB to TTL serial cable                  | Adafruit                | 954                  | Digikey         | 1528-2128-ND    | 1              |
-| jumper wire female-male RED 20 CM LONG   |                         |                      |                 |                 |                |
-| jumper wire female-male BLACK 20 CM LONG |                         |                      |                 |                 |                |
-| NEMA 17 stepper motor, 350 mA@12 V       | Adafruit                | 324                  | Digikey         | 1528-1062-ND    | 1              |
+| Raspberry Pi 4B with 2GB RAM             | Raspberry Pi Foundation | SC0193               | PiHut Wholesale | SC0193          | 1              |
+| 15 W DC power supply for R. Pi           | Raspberry Pi Foundation | SC0214               | PiHut Wholesale | SC0214          | 1              |
+| MicroSD card                             | Raspberry Pi Foundation | SC0268               | PiHut Wholesale | SC0268          | 1              |
+| USB to TTL serial cable                  | Adafruit                | 954                  | Adafruit        | 954             | 1              |
+| NEMA 17 stepper motor, 350 mA@12 V       | Adafruit                | 324                  | Adafruit        | 324             | 1              |
+|                                          |                         |                      |                 |                 |                |
+| Custom cardboard box, 10 x 8 x 4 in      | Packlane                |                      |                 |                 |                |
