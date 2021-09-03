@@ -69,7 +69,7 @@ This pandemic is lingering a lot longer than any of us want it to. In ME 30 this
 
 ### Electronics kits
 
-Essentially, we'll give you a [bunch of stuff](http://andnowforelectronics.com/logistics/kit/) (yours to keep except for the multimeter!) and ask for some payment in return (but can help those who need it). Please keep track of and take good care of your components and equipment.  
+Essentially, we'll give you a [bunch of stuff](http://andnowforelectronics.com/logistics/kit/) (yours to keep except for the multimeter!) and ask for some payment in return (but can help those who need it). Please keep track of and take good care of your components and equipment. The kits will cost you $105, and this will be charged to your bursar’s account though the regular Tufts billing process. The kit contents actually cost about $140, but the ME department is covering some of the cost. At the end of the semester, we’ll ask you to return the multimeters so they can be used next year, but the rest of the kit is yours to keep.
 
 If the cost is a hardship, the department can help. Please read the section below about financial constraints.
 
