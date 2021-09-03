@@ -27,7 +27,7 @@ Each student in the course will receive a kit of project supplies. The contents 
 | screw terminals, 5mm pitch               | Wurth Elektronik        | 691137710002         | Digikey         | 732-10955-ND    | 1              |
 |                                          |                         |                      |                 |                 |                |
 | N-channel MOSFET                         | International Rectifier | IRLB8721PBF          | Digikey         | IRLB8721PBF-ND  | 2              |
-| P-channel MOSFET                         | Fairchild               | FQP27P06             | Digikey         | FQP27P06-ND     | 2              |
+| P-channel MOSFET                         | Fairchild               | FQP27P06             | Newark          | 58K1524         | 2              |
 | NPN transistor                           | On Semiconductor        | 2N3904               | Digikey         | 2N3904FS-ND     | 2              |
 | DC gearmotor                             | Pololu                  | 3482                 | Pololu          | 3482            | 1              |
 |                                          |                         |                      |                 |                 |                |
@@ -37,4 +37,4 @@ Each student in the course will receive a kit of project supplies. The contents 
 | USB to TTL serial cable                  | Adafruit                | 954                  | Adafruit        | 954             | 1              |
 | NEMA 17 stepper motor, 350 mA@12 V       | Adafruit                | 324                  | Adafruit        | 324             | 1              |
 |                                          |                         |                      |                 |                 |                |
-| Custom cardboard box, 10 x 8 x 4 in      | Packlane                |                      |                 |                 |                |
+| Custom cardboard box, 10 x 8 x 4 in      | Packlane                |                      |                 |                 | 1              |
