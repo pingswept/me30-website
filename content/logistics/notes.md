@@ -46,3 +46,4 @@ Use the multimeter on the DC voltage setting to measure voltage.
 2. Install Kicad.
 3. Try to replicate the schematic.
 4. Watch the Kicad demo videos, a total of 5 minutes, 59 seconds for [the first two demo videos](http://andnowforelectronics.com/notes/demo-videos/)
+5. Read and try to absorb the web pages listed under ["What to study" on the calendar](http://andnowforelectronics.com/logistics/calendar/)
