@@ -108,13 +108,13 @@ Here's how class will work each day.
 * 	 **Video mini-lectures** - Created and posted by the instructors. Several on a set of new topics each week.  
 * 	 **Website notes** - Added weekly to the course website to accompany the video mini-lectures.  
 * 	 **Recommended readings**  - Optional sections of the recommended textbooks to supplement videos and website notes.  
-* 	 **Canvas** - We'll use the ME 30 Canvas site to manage project deliverable submission, feedback, and grades.  
+* 	 **Canvas** - We'll use the ME 30 Canvas site to manage project submissions and grades.  
 
 ### Semi-synchronous elements  
 * 	 **ME 30 Slack workspace** – Interactive discussion platform where you can post questions, frustrations, successes, ideas, at any time of the day or night. Instructors and LAs will be active participants. If you're hoping for an immediate response, try posting to Slack during an instructor's or LA's office hours, when they'll be on Slack in real time between visits from students. 
 
 ### Synchronous elements
-* 	 **LA and instructor office hours** – See schedule above. Conducted via Zoom and Slack.  
+* 	 **LA and instructor office hours** – See schedule above. 
 * 	 **Class**
 
 ## Assignments and grading
