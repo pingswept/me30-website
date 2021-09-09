@@ -50,12 +50,12 @@ Briana's office hours are:
 
 Brandon's office hours are:
 
-* Tues/Thurs at high noon on the SEC patio, or possibly Zoom (https://tufts.zoom.us/my/brandon.of.nolop)
+* Tues/Thurs, 1-2 PM on the SEC patio
 * Brandon is also usually findable in Nolop.
 
 LA office hours are:
 
-* To be determined, via ME 30 Slack or possibly Zoom (https://tufts.zoom.us/j/95848857971)  
+* To be determined
 
 ## Course credit and time expectations
 
