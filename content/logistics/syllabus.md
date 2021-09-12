@@ -46,7 +46,8 @@ Brandon Stafford, brandon.stafford@tufts.edu
 
 Briana's office hours are:  
 
-* To be determined
+* Tues/Thurs, 4:30-5:30 PM in Nolop
+* Briana is also usually reachable on slack.
 
 Brandon's office hours are:
 
@@ -55,7 +56,10 @@ Brandon's office hours are:
 
 LA office hours are:
 
-* To be determined
+* Rachel & Zosia - Sunday, 1-3 PM in Nolop
+* Olivia & Maia - Sunday, 7-9 PM in Nolop
+* Teddy & Rónán - Monday, 2:30-4:30 PM in Nolop
+* Morgan & Megan - Monday, 7-9 PM in Nolop
 
 ## Course credit and time expectations
 
