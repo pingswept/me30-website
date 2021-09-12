@@ -147,7 +147,7 @@ There will be three short quizzes, one after each of the Projects 2, 3, and 4. E
 
 ## Honesty
 
-I take honesty very seriously. Not only am I required to report violations of academic integrity, I am glad to do so. We are all fortunate to be at Tufts; there is no excuse for squandering that opportunity by representing someone else's work as your own. If you're unsure about the details, read the [Tufts Academic Integrity Policy](https://students.tufts.edu/student-affairs/student-life-policies/academic-integrity-policy).
+We take honesty very seriously. Not only are we required to report violations of academic integrity, We are glad to do so. We are all fortunate to be at Tufts; there is no excuse for squandering that opportunity by representing someone else's work as your own. If you're unsure about the details, read the [Tufts Academic Integrity Policy](https://students.tufts.edu/student-affairs/student-life-policies/academic-integrity-policy).
 
 ## Sharing
 
