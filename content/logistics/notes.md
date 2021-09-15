@@ -6,6 +6,32 @@ draft: false
 
 This page is more like the show notes for a podcast (links to stuff mentioned in class, reminders) than a coherent description of electronics.
 
+## Class 2: More voltage regulation and Kicad
+
+### Intro stuff
+
+LA office hours
+
+Notice that we are offering a few different modes of learning. Check which one works for you and go deep on that.
+
+### More voltage regulation
+
+Develop your breadboard circuit a little more fully to meet the P1 requirements.
+
+12 V in, leading to 3 outputs: 12 V passing through on a screw terminal, 5 V from an L7805CV, and 3.3 V from an LM1117.
+
+There are at least two possible topologies: cascade the 3.3 V regulator off the 5 V output, or feed both regulators directly from 12 V. Cascading the two regulators is less efficient. Also, we have to worry about dropout voltage. If you feed the L7805CV less than 7 V, its output will sag. At 6 V input, its output will be around 4 V, and the regulation will be terrible.
+
+### Kicad workflow
+
+schematic -> netlist export -> assign footprints -> netlist import -> lay out PCB
+
+Important maxim: if a footprint has the right size holes in the right location, it is the right footprint. You can also care about the part outline and labels, but the holes are what matter the most.
+
+How PCBs are made, briefly. Copper-clad fiberglass is drilled, exposed to light, etched with acid, and covered in soldermask and silkscreen. Multilayer PCBs contain power planes and rectilinear spaghetti.
+
+### Introductions
+
 ## Class 1: Intro and build a voltage regulation circuit
 
 ### Introductions
