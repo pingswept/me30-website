@@ -6,6 +6,32 @@ draft: false
 
 This page is more like the show notes for a podcast (links to stuff mentioned in class, reminders) than a coherent description of electronics.
 
+## Class 4: Low power and high power: BJTs
+
+### Intro stuff
+
+LA's: set up power strips right away.
+
+Reminder: P1 is due tonight at midnight! So far, you are all doing great!
+
+### Motor measurements, episode 1
+
+Measure the resistance of your DC gearmotor's coils. Then, hook it up to 12 V with alligator clips and measure its no-load current. (The current will be relatively high, around 100-150 mA, because the gearbox friction is already loading your motor.)
+
+### The geography of electronics
+
+We use small, low power chunks of silicon to control transistors, which control large flows of current. This is the structure of all modern electronics.
+
+### Transistors as switches
+
+All about BJTs
+
+Build a BJT circuit to control an LED. First hook up an LED without a BJT so you know you have your current-limiting resistor right. Then, add the BJT with a base resistor.
+
+## Class 3: Voltage dividers, series vs. parallel, LEDs
+
+**stuff to be added here**
+
 ## Class 2: More voltage regulation and Kicad
 
 ### Intro stuff
