@@ -16,7 +16,11 @@ The 4 components are:
 2. One L7805CV voltage regulator
 3. Two capacitors
 
-### 2. Control an LED with a transistor
+### 2. Build voltage dividers
+
+![Voltage dividers](/img/voltage-dividers.jpg)
+
+### 3. Control an LED with a transistor
 
 Making an LED light up is pretty simple: put a resistor in series with it and apply a voltage. If you sized the resistor right and didn't put the LED in backwards, you're done. When we want to control things like LEDs electronically, instead of plugging them in to breadboards with our hands, we use transistors. The goal of this exercise is to use a bipolar junction transistor, the 2N3904, to turn on and off an LED.
 
