@@ -6,17 +6,21 @@ draft: false
 
 This page is more like the show notes for a podcast (links to stuff mentioned in class, reminders) than a coherent description of electronics.
 
-## Class 4: Low power and high power: BJTs
+## Class 5: MOSFETs
 
 ### Intro stuff
 
 LA's: set up power strips right away.
 
-Reminder: P1 is due tonight at midnight! So far, you are all doing great!
-
 ### Motor measurements, episode 1
 
 Measure the resistance of your DC gearmotor's coils. Then, hook it up to 12 V with alligator clips and measure its no-load current. (The current will be relatively high, around 100-150 mA, because the gearbox friction is already loading your motor.)
+
+## Class 4: Low power and high power: BJTs
+
+### Intro stuff
+
+Reminder: P1 is due tonight at midnight! So far, you are all doing great!
 
 ### The geography of electronics
 
