@@ -34,3 +34,12 @@ You need 4 things:
 The picture below shows the concept of what you're building. In place of the motor, we'll use an LED.
 
 ![Typical BJT circuit](/img/typical-bjt-circuit.png)
+
+### 4. Measure a DC gearmotor (part 1)
+
+Here are a few basic measurements you can make to understand your DC gearmotor better. We'll start with current measurement.
+
+1. When your motor is stalled (like if you're trying to lift something too heavy with it), it behaves like a resistor. This is when your motor draws maximum current, so checking the resistance is a good way to estimate the maximum current for whatever drive voltage you choose. Using the resistance-measuring setting of your multimeter (the omega symbol, Ω, represents ohms), measure the resistance of the coils of your motor.
+2. Make your DC gearmotor spin by connecting your motor directly to your 12 V DC power supply using alligator clips. Then, measure the current the motor draws with no load attached by putting your multimeter in series with the motor. You should switch your multimeter to the A setting (for Amps), and move the red lead to the port on the left side of the meter that is labeled "A". The black lead stays in the black port labeled "COM".
+
+With these measurements, you can estimate the maximum current the motor will draw at any voltage, and the minimum current at 12 V. If you can estimate how much power a task will require, you can start to figure out what voltage this motor would need to deliver that power (assuming perfect efficiency, for now). That's the first step toward deciding whether this is the right motor for whatever you're building.
