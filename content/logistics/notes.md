@@ -95,12 +95,3 @@ We need 4 components: two capacitors, one regulator, and one power jack, plus va
 Find those components in your kits.
 
 Use the multimeter on the DC voltage setting to measure voltage.
-
-### Your homework for Tuesday
-
-1. Make it so that 12 V goes into your circuit and 5 V comes out.
-2. Install Kicad.
-3. Try to replicate the schematic.
-4. Watch the Kicad demo videos, a total of 5 minutes, 59 seconds for [the first two demo videos](http://andnowforelectronics.com/notes/demo-videos/)
-5. Read and try to absorb the web pages listed under ["What to study" on the calendar](http://andnowforelectronics.com/logistics/calendar/)
-6. If you can absorb material from books efficiently, read as much of chapter 2 from the Practical Electronics textbook as you can.
