@@ -6,6 +6,32 @@ draft: false
 
 This page is more like the show notes for a podcast (links to stuff mentioned in class, reminders) than a coherent description of electronics.
 
+{{< hint [danger] >}}
+**These notes are really just for Briana and Brandon. You are probably spending your time frivolously if you are reading them.**
+
+Seriously, go read some of the sensible pages on the site rather than this malformed dreck.
+{{< /hint >}}
+
+## Class 7: Spinning in both directions: the H-bridge
+
+High-side vs. low-side drive. NPN and PNP. N-channel and P-channel.
+
+H-bridge architecture.
+
+Pull-down and pull-up resistors.
+
+If time, NPN used to turn on P-channels.
+
+## Class 6: Motors
+
+Comments on feedback from last class.
+
+Description of how a DC motor works.
+
+Demo of DC motor working, using rotor from sander and magnet.
+
+Exercise: measure time to lift around 0.5 kg of water 0.5 m. Measure current and voltage. Estimate power in, power out, and efficiency. (Turns out efficiency is only 10% or so. I guess gearbox friction is terrible, and effiency is generally bad at low speeds.)
+
 ## Class 5: MOSFETs
 
 ### Intro stuff
