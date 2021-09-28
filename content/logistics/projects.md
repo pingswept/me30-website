@@ -151,3 +151,12 @@ But what is that little arrow/bump thing with pins 2 and 3?
 
 That's trying to tell you that when the jack is empty (i.e. no plug inserted), pins 2 and 3 are connected together. When you insert the plug, the barrel pushes on the bump at the end of the pin 2 contact, which bends it away from the pin 3 arrow, breaking the connection to pin 3. It's so that you can detect whether there's a plug inserted or not, which can be useful for battery-powered systems. You don't need to implement that feature on your regulator board; you can just use pins 1 and 2.
 {{< /hint >}}
+
+### P1 prototype: what you should do before class #2
+
+1. Make it so that 12 V goes into your circuit and 5 V comes out.
+2. Install Kicad.
+3. Try to replicate in Kicad the schematic of the circuit that you started building in the first class.
+4. Watch the Kicad demo videos, a total of 5 minutes, 59 seconds for [the first two demo videos](http://andnowforelectronics.com/notes/demo-videos/)
+5. Read and try to absorb the web pages listed under ["What to study" on the calendar](http://andnowforelectronics.com/logistics/calendar/)
+6. If you can absorb material from books efficiently, read as much of chapter 2 from the Practical Electronics textbook as you can.
