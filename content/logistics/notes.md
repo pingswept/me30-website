@@ -6,7 +6,7 @@ draft: false
 
 This page is more like the show notes for a podcast (links to stuff mentioned in class, reminders) than a coherent description of electronics.
 
-{{< hint [danger] >}}
+{{< hint danger >}}
 **These notes are really just for Briana and Brandon. You are probably spending your time frivolously if you are reading them.**
 
 Seriously, go read some of the sensible pages on the site rather than this malformed dreck.
