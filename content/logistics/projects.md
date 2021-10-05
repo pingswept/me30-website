@@ -87,7 +87,7 @@ If you need parts (like a sensor or a certain kind of motor), we're happy to ord
 
 The second project is to build a motor controller with the following characteristics:
 
-*   It consists of a PCB with screw terminals for power and control lines.
+*   It consists of a PCB with connectors for a motor, plus power and control lines.
 *   It also accepts power from a 2.1 x 5.5 mm plug from a 12 V wall adapter.
 *   It has a power LED that lights up when motor power is available.
 *   It can make a DC motor spin in both directions.
