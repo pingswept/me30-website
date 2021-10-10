@@ -12,6 +12,26 @@ This page is more like the show notes for a podcast (links to stuff mentioned in
 Seriously, go read some of the sensible pages on the site rather than this malformed dreck.
 {{< /hint >}}
 
+## Class 9: Arduino Connections & PWM for Motor Control
+
+Pins on Arduino can be switched high or low. Each pin controls one MOSFET or could use one pin for two MOSFETs in an H-bridge. 
+
+Importance of connecting Arduino GND to ground loop. 
+
+Pulse Width Modulation to control speed of motors. Ideally demo this using a signal generator. Digital vs analog signals.
+
+Exercise: Work on KiCAD - revisit this and come up with motor related exercise. 
+
+## Class 8: Hidden Challenges of Project 2 & H-Bridge Debugging
+
+Challenge 1: Ampacity. What size traces to use and how to find out? 
+
+Challenge 2: Making sure you have connectors on PCB to connect motor and Arduino to PCB (screw terminals, pin headers, wire loops, etc)
+
+H-bridge debugging. Testing individual MOSFETs. Using multimeter to check voltage at various points. 
+
+Exercise: Continue working on H-bridge prototype.
+
 ## Class 7: Spinning in both directions: the H-bridge
 
 High-side vs. low-side drive. NPN and PNP. N-channel and P-channel.
