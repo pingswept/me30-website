@@ -28,6 +28,8 @@ Challenge 1: Ampacity. What size traces to use and how to find out?
 
 Challenge 2: Making sure you have connectors on PCB to connect motor and Arduino to PCB (screw terminals, pin headers, wire loops, etc)
 
+Review of KiCAD footprints and how to find appropriate footprints if there isn't a matching option.
+
 H-bridge debugging. Testing individual MOSFETs. Using multimeter to check voltage at various points. 
 
 Exercise: Continue working on H-bridge prototype.
@@ -80,7 +82,33 @@ Build a BJT circuit to control an LED. First hook up an LED without a BJT so you
 
 ## Class 3: Voltage dividers, series vs. parallel, LEDs
 
-**stuff to be added here**
+### Ohm's Law as definition of resistance
+
+Resistors always have linear I-V curve, otherwise, it's not a resistor.
+
+Review resistor color codes 
+
+Importance of considering how much power resistors are rated for or they will burn out - Joules Law 
+
+### Series vs. Parallel
+
+Resistance increases in series and decreases in parallel
+
+### Voltage Dividers
+
+Attaching load causes sag in voltage from current pull - not the same as voltage regulators
+
+Exercise: Replicate voltage divider examples and see if calculated voltage matches measured voltage. 
+
+### LEDs
+
+Nonlinear I-V curve means they are not resistors
+
+Current flowing in one direction will be stopped, but current flowing in the opposite direction will result in LED emitting light
+
+Forward voltage. Varies by color. 
+
+Need for current limiting resistor to prevent burnout. 
 
 ## Class 2: More voltage regulation and Kicad
 
