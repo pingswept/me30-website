@@ -61,6 +61,7 @@ Be sure to ask any potential partners about their wireless situation both before
 We’ll pool all the people who would like to be assigned a partner, and make optimal pairs based on your responses to the following questions about wireless network access.  
 1)	Will you have access to the Tufts campus wireless network both before and after Thanksgiving?
 2)	Do you have access to change the firewall (port forwarding) settings of your home wireless router?
+-->
 
 ## Project #3: Build an electromechanical game
 
@@ -70,18 +71,20 @@ Your task is to build a game with the following characteristics:
 *   It has at least one electromechanical element that moves, like a motor or a solenoid.
 *   It has some kind of user input, like buttons, knobs, joysticks, sensors, or the like.
 *   It is at least sort of fun to play. A blinking LED is not a game.
+*   It is NOT a game that already exists, like skee-ball or checkers. It can be kinda similar to existing games, but you must use your creativity here.
 *   (It does not need to have a custom PCB, but it can if you want. If it has a custom PCB, you must make a working prototype first.)
 
-**Midway milestone: Build a [prototype](https://canvas.tufts.edu/courses/22096/assignments/107781): Wednesday, October 21, 11:59 PM**
+**Midway milestone: Bring a prototype to class: Tuesday, November 2nd,**
 
-**Final due date: Monday, November 2, 11:59 PM**
+**Final ddemo in class: Tuesday, November 16**
 
-Plan to demo your playable game in pods on November 3rd and 5th.
+Class on November 16th will consist entirely of us playing each other's games.
 
 ### More details for project #3
 
-If you need parts (like a sensor or a certain kind of motor), we're happy to order them for you.
--->
+If you need parts (like a sensor or a certain kind of motor), we're happy to order them for you. Keep in mind that it takes a few days for stuff to arrive through the mail.
+
+It is a good plan to work hard on this project at the beginning, until you have some idea what stuff you might need, then build/buy/borrow what you need, then put it all together. (Then realize that despite your best efforts, not everything works the first time; scramble to recover.)
 
 ## Project #2: Build an H-bridge motor controller
 
