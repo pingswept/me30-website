@@ -74,9 +74,9 @@ Your task is to build a game with the following characteristics:
 *   It is NOT a game that already exists, like skee-ball or checkers. It can be kinda similar to existing games, but you must use your creativity here.
 *   (It does not need to have a custom PCB, but it can if you want. If it has a custom PCB, you must make a working prototype first.)
 
-**Midway milestone: Bring a prototype to class: Tuesday, November 2nd,**
+**Midway milestone: Bring a prototype to class and submit some photo or video documentation of it to Canvas: Tuesday, November 2nd (7 points)**
 
-**Final ddemo in class: Tuesday, November 16**
+**Final demo in class and submit video of it in operation to Canvas: Tuesday, November 16 (14 points)**
 
 Class on November 16th will consist entirely of us playing each other's games.
 
