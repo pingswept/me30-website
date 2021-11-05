@@ -76,7 +76,7 @@ Your task is to build a game with the following characteristics:
 
 **Midway milestone: Bring a prototype to class and submit some photo or video documentation of it to Canvas: Tuesday, November 2nd (7 points)**
 
-**Final demo in class and submit video of it in operation to Canvas: Tuesday, November 16 (14 points)**
+**Final demo in class and submit video of it in operation and your code to Canvas: Tuesday, November 16 (14 points)**
 
 Class on November 16th will consist entirely of us playing each other's games.
 
