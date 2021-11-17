@@ -194,7 +194,7 @@ while(1):                     # do this forever
     time.sleep(0.5)           # sleep for 0.5 s
 ```
 
-### **What if I want to control pins through a web browser? (Flask**
+### **What if I want to control pins through a web browser?**
 
 Try using the Flask web framework.   
 You can use the python script below, which uses Flask to take input from a web browser and then uses that input to set a Raspberry Pi pin either HIGH or LOW. You could create this script and save it as server.py.
