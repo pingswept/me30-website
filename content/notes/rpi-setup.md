@@ -25,13 +25,13 @@ There are more details if you need them in [Adafruit's console cable tutorial](h
 ## Setup checklist
 
 <ul style="list-style: none;">
-  <li><input type="checkbox"> Download OS image</li>
-  <li><input type="checkbox"> Burn image to micro SD card with Imager</li>
+  <li><input type="checkbox"> Download OS image **AND** the Raspberry Pi Imager [the Raspberry Pi Software page](https://www.raspberrypi.com/software/)</li>
+  <li><input type="checkbox"> Burn the image to micro SD card with imager</li>
   <li><input type="checkbox"> Edit config.txt on micro SD card to include: `enable_uart=1`</li>
     <li><input type="checkbox"> Install the driver for the console cable (can be found on the Adafruit tutorial linked above) </li>
   <li><input type="checkbox"> Connect RPi to laptop with console cable</li>
   <li><input type="checkbox"> Put micro SD card in slot of Pi</li>
-  <li><input type="checkbox"> Open Putty (Windows) or Terminal (macOS)</li>
+  <li><input type="checkbox"> Install [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) (Windows) or open Terminal (macOS)</li>
   <li><input type="checkbox"> Start a session at 115200 bps to the Pi</li>
   <li><input type="checkbox"> Connect USB-C power cable</li>
   <li><input type="checkbox"> Log in with username `pi` and password `raspberry`</li>
