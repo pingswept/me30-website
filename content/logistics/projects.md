@@ -61,6 +61,46 @@ Be sure to ask any potential partners about their wireless situation both before
 We’ll pool all the people who would like to be assigned a partner, and make optimal pairs based on your responses to the following questions about wireless network access.  
 1)	Will you have access to the Tufts campus wireless network both before and after Thanksgiving?
 2)	Do you have access to change the firewall (port forwarding) settings of your home wireless router?
+
+## Project #4: Build an intrepid robot that traverses the SEC
+
+### System requirements
+
+* Your robot will be placed on the floor in the atrium near Blake.
+* Your robot must do three things in order:
+** High five an LA.
+** Travel to Jason Rife's office.
+** High five Jason Rife.
+* The robot should be enclosed and repel a [test finger probe](https://www.amazon.com/Articulated-Finger-accessibility-electrical-standards/dp/B0716YYXN2), like that used in UL/IEC 60950-1. The idea here is that you should try to give your system a finished appearance, with no holes where people can stick their fingers in.
+
+If you are working in a team, while it is probably wise to have one of you manage the sensor and one of you manage the actuator, you are both responsible for the entire system. Saying, "Well, my side works; it's his side that doesn't work," is the same as saying, "I have failed to get half of the project working." Both sides are your sides.
+
+**Milestone 1: Build something that drives: Thursday, December 7, 10:30 AM**
+
+**Final due date: Thursday, December 14, 10:30 AM (last class)**
+
+### More details for project #4
+
+* If you need parts (like a sensor or a certain kind of motor), we're happy to order them for you.  
+* See the [Raspberry Pi setup](http://andnowforelectronics.com/notes/pi-setup/) page to learn how to control your Pi via serial cable and the Internet.  
+* See the [Servers and Clients](http://andnowforelectronics.com/notes/servers-and-clients/) page for resources on coding your Pi and Arduino to send and receive data through the Internet.  
+* See the [client and server setup](http://andnowforelectronics.com/notes/demo-videos/#client-and-server-setup) demo video that walks through the code for Raspberry Pis and Arduinos as clients and servers
+* See the [Internet](http://andnowforelectronics.com/notes/internet/) page to find out how IP addresses work.  
+
+### Teaming options for project #4
+
+Project 4 requires an internet-connected sensor that can send data in response to a request from an internet-connected actuator. Due to internet firewalls, this communication is only possible when either (1) both the sensor and actuator are on the same wireless network (i.e., Tufts_Wireless, or the same home wireless router), or (2) the sensor operator has access to change the firewall settings of their wireless router (specifically, the port forwarding settings). You may have heard of people doing this to run an Xbox; it's the same situation, but just one port.
+
+**Option 2 – Work with a partner of your choice**
+For this set-up to be successful, one of the following statements should be true:
+* Both partners can access the Tufts campus network when testing and running your system, OR
+* at least one partner (who operates the sensor node) has access to change the firewall (port forwarding) settings on their home wireless router, OR
+* both partners are willing to work patiently with the ME 30 team on creating an encrypted tunnel through your firewall.
+
+Be sure to ask any potential partners about their wireless situation both before and after Thanksgiving. The project is due on Dec. 1.
+
+**Option 3 – Work with a partner assigned to you by Kristen and Brandon**
+We’ll pool all the people who would like to be assigned a partner, and make optimal pairs based on your responses to the following questions about wireless network access.
 -->
 
 ## Project #3: Build an electromechanical game
