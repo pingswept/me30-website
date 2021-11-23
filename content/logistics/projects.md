@@ -68,7 +68,7 @@ We’ll pool all the people who would like to be assigned a partner, and make op
 
 * On December 14th at 10:30 AM, your robot will be placed on the floor in the atrium near Blake.
 * Your robot must do three things in order in less than 15 minutes:
-** High five an LA (target hand height 80 cm), seated conveniently nearby in the atrium
+** High five an LA (target hand height 105.5-107 cm), seated conveniently nearby in the atrium
 ** Travel to Jason Rife's office.
 ** High five Jason Rife (target hand height 80 cm).
 * Your robot should be enclosed and repel a [test finger probe](https://www.amazon.com/Articulated-Finger-accessibility-electrical-standards/dp/B0716YYXN2), like that used in UL/IEC 60950-1. The idea here is that you should try to give your robot a finished appearance, with no holes where people can stick their fingers in.
