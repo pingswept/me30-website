@@ -69,9 +69,9 @@ We’ll pool all the people who would like to be assigned a partner, and make op
 
 * On December 14th at 10:30 AM, your robot will be placed on the floor in the atrium near Blake.
 * Your robot must do three things in order in less than 15 minutes:
-  ** High five an LA (target hand height 105.5-107 cm), seated conveniently nearby in the atrium
-  ** Travel to Jason Rife's office.
-  ** High five Jason Rife (target hand height 105.5-107 cm).
+  * High five an LA (target hand height 105.5-107 cm), seated conveniently nearby in the atrium
+  * Travel to Jason Rife's office.
+  * High five Jason Rife (target hand height 105.5-107 cm).
 * Your robot should not be tethered to a wall outlet (batteries will be available in Nolop).
 
 ### Restrictions
