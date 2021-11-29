@@ -69,9 +69,9 @@ We’ll pool all the people who would like to be assigned a partner, and make op
 
 * On December 14th at 10:30 AM, your robot will be placed on the floor in the atrium near Blake.
 * Your robot must do three things in order in less than 15 minutes:
-** High five an LA (target hand height 105.5-107 cm), seated conveniently nearby in the atrium
-** Travel to Jason Rife's office.
-** High five Jason Rife (target hand height 105.5-107 cm).
+  ** High five an LA (target hand height 105.5-107 cm), seated conveniently nearby in the atrium
+  ** Travel to Jason Rife's office.
+  ** High five Jason Rife (target hand height 105.5-107 cm).
 * Your robot should not be tethered to a wall outlet (batteries will be available in Nolop).
 
 ### Restrictions
@@ -79,9 +79,9 @@ We’ll pool all the people who would like to be assigned a partner, and make op
 * You should not touch your robot during its adventures. This probably means that your robot should be remote controlled.
 * You should not use an RC car controller. This probably means that your robot should be controlled through wifi from a laptop or phone.
 * Your robot cannot fly. (We don't have the space to test drones safely, unfortunately.)
-* You cannot clear the path for the robot. This would include moving chairs, opening doors and the like. 
+* You cannot clear a path for the robot. This would include moving chairs, opening doors and the like. 
 
-### Safe Assumptions
+### Safe assumptions
 
 * The doors at the top of the stairs that lead to the ME department hallway will be propped open.
 * The atrium and hallways will be clear of chairs and similar obstacles. You will still need to traverse a variety of different surfaces.
