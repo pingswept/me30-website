@@ -89,6 +89,7 @@ We’ll pool all the people who would like to be assigned a partner, and make op
 **Milestone 1: Build something that drives: Tuesday, December 7, 10:30 AM**
 
 * You should submit video documentation to Canvas and bring your something-that-drives to class. 
+* Note: It would be a good idea to focus on making your robot drive effectively before you worry about any higher level mechanics or control through the internet.
 
 **Final due date: Thursday, December 14, 10:30 AM (last class)**
 
