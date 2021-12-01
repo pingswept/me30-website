@@ -1,6 +1,6 @@
 ---
 title: "Discriminatory design"
-draft: false
+draft: true
 ---
 
 **Identifying discriminatory design**
