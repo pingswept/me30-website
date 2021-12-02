@@ -1,22 +1,14 @@
 ---
 title: "Discriminatory design"
-draft: true
+draft: false
 ---
 
 **Identifying discriminatory design**
 
 One goal of ME 30 is to empower you to use tools of electronics and robotics to design new technologies. We acknowledge that with that power comes much responsibility, including the responsibility to understand how robotic systems can negatively impact some individuals and groups even as they positively impact the lives or work of others — and the responsibility to learn how to proactively avoid this kind of discriminatory design.
 
-Luckily we have sociologist [Ruha Benjamin](https://aas.princeton.edu/people/ruha-benjamin), a professor in Princeton’s Department of African American Studies, to help us. Benjamin’s scholarship uncovers the ways in which racial discrimination and marginalization are designed into technology — often unintentionally, but also at times intentionally. If you’re interested in learning more about Dr. Benjamin’s work, you can view her 2019 talk on discrimination and algorithms [here](https://www.youtube.com/watch?v=zZEVAVf6_Ak), and her 2015 TEDx Talk “From Park Bench to Lab Bench: Whose future are we designing” [here](https://www.youtube.com/watch?v=_8RrX4hjCr0). (These videos are optional resources. You are not required to watch these videos for this activity.)  
+Luckily we have sociologist [Ruha Benjamin](https://aas.princeton.edu/people/ruha-benjamin), a professor in Princeton’s Department of African American Studies, to help us. Benjamin’s scholarship uncovers the ways in which racial discrimination and marginalization are designed into technology — often unintentionally, but also at times intentionally. Please watch her 2015 TEDx Talk “From Park Bench to Lab Bench: Whose future are we designing” [here](https://www.youtube.com/watch?v=_8RrX4hjCr0). 
 
-In class, we will discuss an excerpt from Dr. Benjamin's 2019 book *Race After Technology: Abolitionist Tools for the New Jim Code.* Each chapter of this book includes a case study of a technology that produces (or reproduces) racist outcomes.  Our excerpt, from Chapter 1, motivates the need for race-conscious design (pp. 59-63) with a case study of an automated hotel soap dispenser (pp. 64-69).
-
-Benjamin calls on engineers to learn how to be race-conscious designers because “colorblind” engineering perpetuates racist realities. She asserts that “colorblind, gender-neutral, and class-avoidant approaches to tech development are another avenue for coding inequity.” (p. 63). 
-How does the soap dispenser example (explained most directly on p. 68) illustrate this point?
-
-Benjamin disagrees with the assumption that “self-conscious intention is what makes something racist” (p. 60). On the contrary, she points out, a machine can be characterized as racist if it produces racially discriminatory effects, no matter what the designers’ intention.
-
-What does Benjamin mean when she writes that “so much of what is routine, reasonable, intuitive, and codified reproduces unjust social arrangements” (p. 60)? Discuss another technology (other than the problematic soap dispenser) that illustrates this point.
 
 **Questions for your response**
 
