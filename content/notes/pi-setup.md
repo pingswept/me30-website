@@ -242,7 +242,7 @@ You also need to install [Flask](https://pypi.org/project/Flask/) for this to wo
 sudo pip3 install flask
 ```
 
-Then, start the server (assuming your code is in a file called `server.py` and you replace the 0.0.0.0 with your Pi's IP address):
+Then, start the server. We're assuming your code is in a file called `server.py`. The `--host=0.0.0.0` in the command below means that your Flask instance will listen on whatever IP addresses it has, instead of just for connections from itself, which is the default for testing. 
 
 ```
 export FLASK_APP=server.py
