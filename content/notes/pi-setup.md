@@ -74,7 +74,7 @@ Use a better text editor, like [Sublime Text](https://www.sublimetext.com/), [Te
 
 First, you need to register your Pi's MAC address at [the Tufts registration page](http://hostreg.net.tufts.edu/). You can get the MAC address using the command `ifconfig`.
 
-Then, use the settings below in `/etc/wpa-supplicant/wpa-supplicant.conf`
+Then, use the settings below in `/etc/wpa_supplicant/wpa_supplicant.conf`
 
 ```
 network={
