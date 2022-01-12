@@ -48,7 +48,7 @@ When resistors are manufactured, there is some variation in their resistance. Ty
 
 ## Typical application: current limiter
 
-[LEDs](/content/notes/leds/) have the unusual characteristic that they start emitting light when you hit a certain voltage threshold, called {{< katex >}}V_f{{< /katex >}} for "forward voltage". Curiously, it varies with the color of the LED. If you try to raise the voltage across the LED above {{< katex >}}V_f{{< /katex >}}, it just gets brighter and hotter until it burns out. Unfortunately, the voltage threshold is not a convenient voltage like 5 V; it's something weird like 2.9 V or 3.1 V. To run an LED from a microcontroller, which usually has a fixed output voltage, the usual strategy is to put the LED in series with a resistor that allows the LED to reach its threshold voltage while limiting the current to a level where the light emission is pleasant.
+[LEDs](/notes/leds/) have the unusual characteristic that they start emitting light when you hit a certain voltage threshold, called {{< katex >}}V_f{{< /katex >}} for "forward voltage". Curiously, it varies with the color of the LED. If you try to raise the voltage across the LED above {{< katex >}}V_f{{< /katex >}}, it just gets brighter and hotter until it burns out. Unfortunately, the voltage threshold is not a convenient voltage like 5 V; it's something weird like 2.9 V or 3.1 V. To run an LED from a microcontroller, which usually has a fixed output voltage, the usual strategy is to put the LED in series with a resistor that allows the LED to reach its threshold voltage while limiting the current to a level where the light emission is pleasant.
 
 The usual calculation for a 5 V system goes like this:
 
