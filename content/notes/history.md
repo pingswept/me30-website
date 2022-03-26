@@ -16,6 +16,7 @@ Heavily based on a Science News article, ["The Future of Computing" by Matthew H
 * 1947: transistor invented at Bell Labs
 * 1948: Claude Shannon sorts out information theory, starts people using the word "bit" for "binary digit"
 * 1954: FORTRAN, first widely used programming language, invented at IBM. Still used today for fast calculations, as in the open source libraries [ATLAS](https://hpc.llnl.gov/software/mathematical-software/atlas), BLAS, and LAPACK.
+* 1955: "Artificial intelligence" summer institute proposed at Dartmouth, in New Hampshire.
 * 1958-9: Texas Instruments and Fairchild Semiconductor invent the integrated circuit, where multiple transistors and other circuitry are fabricated together on one chip.
 * 1965: Gordon Moore says transistors per device will double every year.
 * 1969: ARPANET invented by US government agency ARPA
