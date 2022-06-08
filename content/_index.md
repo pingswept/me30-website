@@ -31,7 +31,7 @@ Reid Baris
 Madeline Fabela
 <--->
 ![Olivia Goss](/img/olivia-goss.jpg)
-Olivia Goss ("semi-firm commitment"
+Olivia Goss ("semi-firm commitment")
 <--->
 ![Luisa Guarco](/img/luisa-guarco.jpg)
 Luisa Guarco
