@@ -6,15 +6,15 @@ draft: false
 
 # ME 30: Electromechanical Systems and Robotics I
 
-ME 30 is an course in electronics at Tufts University co-taught by Briana Bouchard and Brandon Stafford.
+ME 30 is an course in electronics at Tufts University co-taught by Kristen Wendell and Brandon Stafford.
 
 You're going to love it.
 
 ## Instructors
 
 {{< columns >}}
-![Briana Bouchard](/img/briana-bouchard.jpg)
-Briana Bouchard
+![Kristen Wendell](/img/kristen-wendell.jpg)
+Kristen Wendell
 <--->
 ![Brandon Stafford](/img/brandon-stafford.jpg)
 Brandon Stafford
@@ -24,29 +24,27 @@ Brandon Stafford
 ## Learning assistants
 
 {{< columns >}}
-![Morgan Burke](/img/morgan-burke.jpg)
-Morgan Burke
+![Reid Baris](/img/reid-baris.jpg)
+Reid Baris
 <--->
-![Rachel Eaglin](/img/rachel-eaglin.jpg)
-Rachel Eaglin
+![Madeline Fabela](/img/madeline-fabela.jpg)
+Madeline Fabela
 <--->
-![Rónán Gissler](/img/ronan-gissler.jpg)
-Rónán Gissler
+![Olivia Goss](/img/olivia-goss.jpg)
+Olivia Goss ("semi-firm commitment"
 <--->
-![Megan Jenney](/img/megan-jenney.jpg)
-Megan Jenney
+![Luisa Guarco](/img/luisa-guarco.jpg)
+Luisa Guarco
 <--->
-![Teddy Robbins](/img/teddy-robbins.jpg)
-Teddy Robbins
+![Roy Hidalgo](/img/roy-hidalgo.jpg)
+Roy Hidalgo
+<--->
+![Leslie Jaramillo Martinez](/img/leslie-jaramillo-martinez.jpg)
+Leslie Jaramillo Martinez
 <--->
 ![Zosia Stafford](/img/zosia-stafford.jpg)
-Zosia Stafford
+Zosia Stafford, back for round 2
 <--->
-![Maia Taffe](/img/maia-taffe.jpg)
-Maia Taffe
-<--->
-![Olivia Tomassetti](/img/olivia-tomassetti.jpg)
-Olivia Tomassetti
 {{< /columns >}}
 
 ## Slack workspace
