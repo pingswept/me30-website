@@ -60,3 +60,9 @@ The fundamental characteristic of a MOSFET is that it's a **voltage-controlled d
 There are two major ways that a transistor can be used: as an **amplifier** or a **switch**. In digital electronics, which has largely superseded analog electronics over the last few decades, we largely use transistors as switches rather than amplifiers.
 
 (It should be noted here that because physical phenomena are, in reality, analog in nature, at the lowest levels, electronics will always be analog. But, for everyday engineering tasks, you will largely encounter digital devices. If the analog stuff is interesting to you, dive into it; a deeper understanding of analog stuff can only benefit you.)
+
+### 27P06 P-channel MOSFET ###
+
+So close ...
+
+![So close](/img/27pp06-license-plate.jpg)
