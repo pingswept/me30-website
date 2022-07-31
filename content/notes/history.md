@@ -15,6 +15,7 @@ Heavily based on a Science News article, ["The Future of Computing" by Matthew H
 * 1945: von Neumann architecture invented: data and instructions stored in same memory bank, separate from CPU
 * 1947: transistor invented at Bell Labs
 * 1948: Claude Shannon sorts out information theory, starts people using the word "bit" for "binary digit"
+* 1951: Grace Hopper coins the word "compiler," creates a sort-of compiler. (We would call it a linker today.)
 * 1954: FORTRAN, first widely used programming language, invented at IBM. Still used today for fast calculations, as in the open source libraries [ATLAS](https://hpc.llnl.gov/software/mathematical-software/atlas), BLAS, and LAPACK.
 * 1955: "Artificial intelligence" summer institute proposed at Dartmouth, in New Hampshire.
 * 1958-9: Texas Instruments and Fairchild Semiconductor invent the integrated circuit, where multiple transistors and other circuitry are fabricated together on one chip.
