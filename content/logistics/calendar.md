@@ -3,9 +3,9 @@ title: "Calendar"
 draft: false
 ---
 
-# THIS CALENDAR IS NOT RIGHT. #
+# THIS CALENDAR IS NOT QUITE RIGHT. #
 
-# STILL NEEDS UPDATES FOR FALL 2022, BUT NOW THE DATES ARE CORRECT. #
+# STILL NEEDS UPDATES FOR FALL 2022, BUT NOW THE CLASS AND PROJECT DATES ARE CORRECT. #
 
 | Week | Date  | Lecture                                    | Hands-on                      | What to study                                                            | Due dates                                                     |
 |:----:|:-----:|--------------------------------------------|-------------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------|
