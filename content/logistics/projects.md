@@ -126,6 +126,10 @@ If you need parts (like a sensor or a certain kind of motor), we're happy to ord
 
 It is a good plan to work hard on this project at the beginning, until you have some idea what stuff you might need, then build/buy/borrow what you need, then put it all together. (Then realize that despite your best efforts, not everything works the first time; scramble to recover.)
 
+## Project #2.5: Build something to couple a winch to a motor shaft
+
+This mini-project is to build an attachment to a motor shaft - torque contest
+
 ## Project #2: Build an H-bridge motor controller
 
 The second project is to build a motor controller with the following characteristics:
