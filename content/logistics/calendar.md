@@ -3,16 +3,13 @@ title: "Calendar"
 draft: false
 ---
 
-# THIS CALENDAR IS NOT QUITE RIGHT. #
-
-# STILL NEEDS UPDATES FOR FALL 2022, BUT NOW THE CLASS AND PROJECT DATES ARE CORRECT. #
 
 | Week | Date  | Lecture                                    | Hands-on                      | What to study                                                            | Due dates                                                     |
 |:----:|:-----:|--------------------------------------------|-------------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------|
-|  1   | 9/6   | Voltage, current, resistors, LEDs    | Breadboard basics; Project 0             | [Prototyping](http://andnowforelectronics.com/notes/prototyping/); [Voltage and current](http://andnowforelectronics.com/notes/voltage-and-current/); [Resistors](http://andnowforelectronics.com/notes/resistors/)    |          |
-|      | 9/8   | Voltage dividers, voltage regulators, capacitors    | Project 1 start             |  [Voltage regulators](http://andnowforelectronics.com/notes/voltage-regulation/); [Capacitors](http://andnowforelectronics.com/notes/capacitors/); [Videos for P1](http://andnowforelectronics.com/notes/demo-videos/#videos-for-project-1)    | P0 |
-|  2   | 9/13  | Voltage regulators, Kicad, PCB design |  Debug your voltage regulator   | [Voltage regulators](http://andnowforelectronics.com/notes/voltage-regulation/)  | [P1   proto](http://andnowforelectronics.com/logistics/projects/#project-1-build-a-breadboard-power-supply)     |
-|      | 9/15  | PCB design, power                     | KiCad Q & A;    | [Multimeters](http://andnowforelectronics.com/notes/multimeter/); [PCB design](http://andnowforelectronics.com/notes/pcb/)    |  |
+|  1   | 9/6   | Voltage, current, resistors, LEDs    | Breadboard basics; Project 0             | [Prototyping](http://andnowforelectronics.com/notes/prototyping/); [Voltage and current](http://andnowforelectronics.com/notes/voltage-and-current/); [LEDs](http://andnowforelectronics.com/notes/leds/); [Resistors](http://andnowforelectronics.com/notes/resistors/)    |          |
+|      | 9/8   | Voltage dividers, voltage regulators, capacitors    | Project 1 start             |  [Series vs. parallel](http://andnowforelectronics.com/notes/series-vs-parallel/); [Voltage regulators](http://andnowforelectronics.com/notes/voltage-regulation/); [Capacitors](http://andnowforelectronics.com/notes/capacitors/); [Multimeters](http://andnowforelectronics.com/notes/multimeter/); [Videos for P1](http://andnowforelectronics.com/notes/demo-videos/#videos-for-project-1)    | P0 |
+|  2   | 9/13  | Voltage regulators, Kicad |  Debug your voltage regulator   | [Voltage regulators](http://andnowforelectronics.com/notes/voltage-regulation/); [Videos for P1](http://andnowforelectronics.com/notes/demo-videos/#videos-for-project-1); Kicad resources  | [P1   proto](http://andnowforelectronics.com/logistics/projects/#project-1-build-a-breadboard-power-supply)     |
+|      | 9/15  | PCB design, power                     | KiCad Q & A    | [PCB design](http://andnowforelectronics.com/notes/pcb/); Kicad resources    |  |
 |  3   | 9/20  | Transistors as switches                    | Switch an LED with a BJT      | [Low power/high power](http://andnowforelectronics.com/notes/low-power-high-power/) |         |
 |      | 9/22  | MOSFETs                                    | Run a motor with a MOSFET     |                                                                          |[P1 PCB](http://andnowforelectronics.com/logistics/projects/#project-1-build-a-breadboard-power-supply)|
 |  4   | 9/27  | DC motors, soldering demo, P2 intro             | Measure motors                | [Motors](http://andnowforelectronics.com/notes/motors/)                  |                                                               |
