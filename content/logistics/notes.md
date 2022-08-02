@@ -105,17 +105,21 @@ Notice that we are offering a few different modes of learning. Check which one w
 ### Re-visit extension/challenge from end of Class 1 (having two LEDs in circuit)
 
 Series vs. Parallel
+
 Resistance increases in series and decreases in parallel
 
 ### Frame Project 1
 We’ve “powered” on LED with 12V from wall, “controlled” with push button.
 By end of semester, you’re going to want to control outputs with portable microcontroller, which handles only 5 V.
+
 So how do we get 5 V from power supply instead of 12?
 
 ### Voltage divider as first approach to reducing output voltage
 
 Voltage divider exercises (first two)
-see the issue with voltage dividers / need for voltage regulation (see if calculated voltage matches measured voltage.)
+
+Uncover the issue with voltage dividers / need for voltage regulation (see if calculated voltage matches measured voltage.)
+
 Attaching load causes sag in voltage from current pull - not the same as voltage regulators
 
 ### Project 1: Voltage regulation
@@ -162,20 +166,27 @@ Schematic diagram of what we’re going to build
 - find each component as we discuss: DC power supply, one power (barrel) jack, one LED, one resistor, one pushbutton, plus various wires and a breadboard.
 
 How the barrel jack works
+
 How the LED works
+
 Breadboard connections / pattern layout
 
 ### LEDs
 Nonlinear I-V curve means they are not resistorsCurrent flowing in one direction will be stopped, but current flowing in the opposite direction will result in LED emitting light.
+
 Forward voltage. Varies by color.
+
 Need for current limiting resistor to prevent burnout.
 
 ### Ohm’s Law as definition of resistance
 Resistors always have linear I-V curve, otherwise, it’s not a resistor.
+
 Review resistor color codes
+
 Importance of considering how much power resistors are rated for or they will burn out 
+
 Which resistor for your LED circuit, and why?
 
 
-#### Extension/challenge: Re-arrange your circuit so you have one LED that stays on permanently and another that is powered by the switch
+### Extension/challenge: Re-arrange your circuit so you have one LED that stays on permanently and another that is powered by the switch
 
