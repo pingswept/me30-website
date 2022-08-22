@@ -31,6 +31,7 @@ Each student in the course will receive a kit of project supplies. The contents 
 | NPN transistor                           | On Semiconductor        | 2N3904               | Digikey         | 2N3904FS-ND     | 2              |
 | DC gearmotor                             | Pololu                  | 3482                 | Pololu          | 3482            | 1              |
 |                                          |                         |                      |                 |                 |                |
+| Adafruit Feather RP2040 Pink             | Adafruit                | 4884                 | Adafruit        | 4884            | 1              |
 | Raspberry Pi 4B with 2GB RAM             | Raspberry Pi Foundation | SC0193               | PiHut Wholesale | SC0193          | 1              |
 | 15 W DC power supply for R. Pi           | Raspberry Pi Foundation | SC0214               | PiHut Wholesale | SC0214          | 1              |
 | MicroSD card                             | Raspberry Pi Foundation | SC0268               | PiHut Wholesale | SC0268          | 1              |
