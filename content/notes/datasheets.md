@@ -29,7 +29,7 @@ draft: false
 ## Resistors
 
 * [1/4 W resistor](/pdf/resistor-CFM1JTxxxR.pdf)  
-* [Resistor color code chart](https://cdn.sparkfun.com/assets/learn_tutorials/6/4/Resistors.png)*
+* [Resistor color code chart](https://cdn.sparkfun.com/assets/learn_tutorials/6/4/Resistors.png)
 
 ## Voltage regulators
 
