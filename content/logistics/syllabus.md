@@ -39,15 +39,15 @@ The point of the course is to force students to gain experience with the practic
 
 ## Co-teachers
 
-Briana Bouchard, briana.bouchard@tufts.edu
+Brandon Stafford, brandon.stafford@tufts.edu
 Kristen Wendell, kristen.wendell@tufts.edu
 
 ## Office hours
 
-Briana's office hours are:  
+Kristen's office hours are:  
 
-* Tues/Thurs, 4:30-5:30 PM in Nolop
-* Briana is also usually reachable on slack.
+* Tues/Thurs, TBD in Robinson 169
+* Kristen is also usually reachable on slack.
 
 Brandon's office hours are:
 
