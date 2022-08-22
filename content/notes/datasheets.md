@@ -19,13 +19,17 @@ draft: false
 
 ## MOSFETs
 
-* [p-channel FQP27P06 MOSFET, 27 A, 60 V, TO-220 package](/pdf/mosfet-FQP27P06.pdf)
-* [n-channel IRLB8721 MOSFET, 30 A, 60 V, TO-220 package](/pdf/mosfet-IRLB8721.pdf)
+* [P-channel FQP27P06 MOSFET, 27 A, 60 V, TO-220 package](/pdf/mosfet-FQP27P06.pdf)
+* [N-channel IRLB8721 MOSFET, 30 A, 60 V, TO-220 package](/pdf/mosfet-IRLB8721.pdf)
+
+## Motors
+
+* [TJZ37RGa DC gearmotor, 12 V, 200 RPM](/img/tjz37rga-motor-specs.jpg)
 
 ## Resistors
 
 * [1/4 W resistor](/pdf/resistor-CFM1JTxxxR.pdf)  
-*[Click here for a resistor color code chart](https://cdn.sparkfun.com/assets/learn_tutorials/6/4/Resistors.png)*
+* [Resistor color code chart](https://cdn.sparkfun.com/assets/learn_tutorials/6/4/Resistors.png)*
 
 ## Voltage regulators
 
@@ -34,10 +38,10 @@ draft: false
 
 ## Transistors
 
-* [PN2222 npn transistor, 600 mA, 30 V, TO-92 package](/pdf/transistor-PN2222.pdf)
-* [2N3904 npn transistor, 200 mA, 40 V, TO-92 package](/pdf/transistor-2N3904.pdf)
-* [PN2907 pnp transistor, 800 mA, 40 V, TO-92 package](/pdf/transistor-PN2907.pdf)
+* [PN2222 NPN transistor, 600 mA, 30 V, TO-92 package](/pdf/transistor-PN2222.pdf)
+* [2N3904 NPN transistor, 200 mA, 40 V, TO-92 package](/pdf/transistor-2N3904.pdf)
+* [PN2907 PNP transistor, 800 mA, 40 V, TO-92 package](/pdf/transistor-PN2907.pdf)
 
-## Trimmer Potentiometers (Variable Resistors)
+## Trimmer potentiometers (variable resistors)
 
 * [10k trimmer potentiometer](https://www.nidec-copal-electronics.com/e/catalog/trimmer/ct-6.pdf)
