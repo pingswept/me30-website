@@ -40,6 +40,7 @@ The point of the course is to force students to gain experience with the practic
 ## Co-teachers
 
 Brandon Stafford, brandon.stafford@tufts.edu
+
 Kristen Wendell, kristen.wendell@tufts.edu
 
 ## Office hours
