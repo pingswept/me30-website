@@ -9,7 +9,7 @@ ME 30, Electromechanical Systems and Robotics I, class number 80399
 
 ## Course description
 
-A project-based hands-on electronics boot camp, focusing on the design and fabrication of printed circuit boards and interfacing with microcontrollers from the Arduino and Raspberry Pi families.
+A project-based hands-on electronics boot camp, focusing on the design and fabrication of printed circuit boards and interfacing with microcontrollers from the Raspberry Pi family.
 
 ## Course goals
 
@@ -27,8 +27,8 @@ The point of the course is to force students to gain experience with the practic
 * Transistors
 * H-bridge motor controllers
 * Motors
-* Arduino hardware
-* Arduino programming
+* Microcontroller hardware
+* Microcontroller programming
 * Analog input/sensors
 * Microcontroller peripherals: PWM module, serial port module, I2C module
 * Frequency domain and digital filter basics
@@ -40,7 +40,7 @@ The point of the course is to force students to gain experience with the practic
 ## Co-teachers
 
 Briana Bouchard, briana.bouchard@tufts.edu
-Brandon Stafford, brandon.stafford@tufts.edu
+Kristen Wendell, kristen.wendell@tufts.edu
 
 ## Office hours
 
@@ -56,57 +56,58 @@ Brandon's office hours are:
 
 LA office hours are:
 
-* Rachel & Zosia - Sunday, 1-3 PM in Nolop
-* Olivia & Maia - Sunday, 7-9 PM in Nolop
-* Teddy & Rónán - Monday, 2:30-4:30 PM in Nolop
-* Morgan & Megan - Monday, 7-9 PM in Nolop
+* Leslie - TBD
+* Luisa - TBD
+* Madeline - TBD
+* Olivia - TBD
+* Reid - TBD
+* Roy - TBD
+* Zosia - TBD
 
 ## Course credit and time expectations
 
-ME 30 is a 4-SHU course with lab. The lab component will consist of a series of four independent projects. At Tufts, each SHU equates to 3 hours of student time per week. 4-SHU courses are expected to require an average of 12 student hours per week. Typically, these hours are divided into about 3 hours of class time and 9 hours of lab/homework/study time. For Fall 2021, you can expect to spend roughly 2.5 hours in class meeting, maybe 1 hour on studying/homework, and the remaining 8.5 hours on project work each week.
+ME 30 is a 4-SHU course with lab. The lab component will consist of a series of four independent projects. At Tufts, each SHU equates to 3 hours of student time per week. 4-SHU courses are expected to require an average of 12 student hours per week. Typically, these hours are divided into about 3 hours of class time and 9 hours of lab/homework/study time. For Fall 2022, you can expect to spend roughly 2.5 hours in class sessions, maybe 1.5 hours on studying/homework, and the remaining 8 hours on project work each week.
 
 ## Learning electronics when life is really tough (and you might be in quarantine)
 
-This pandemic is lingering a lot longer than any of us want it to. In ME 30 this semester, we hope to cultivate a supportive community of people who are helping each other take things one day at a time while also learning some electronics along the way. But, we know that some days, life may still be hard this semester. In particular, you might find yourself needing to quarantine, grieve, care for a friend or family member, or care for yourself in this time with its many sources of anxiety and concern. As your instructors, we aim to be flexible when those situations arise, and to support you in taking care of yourselves and loved ones. We will work with you to amend due dates and find solutions that won’t negatively impact your grade in the course. Please feel free to reach out to us, even if just to remind us how hard it is to be a college student right now.
+In ME 30 this semester, we hope to cultivate a supportive community of people who are helping each other take things one day at a time while also learning some electronics along the way. But, we know that some days, with the effects of the pandemic still lingering, life may still be hard this semester. In particular, you might find yourself needing to quarantine, grieve, care for a friend or family member, or care for yourself in this time with its many sources of anxiety and concern. As your instructors, we aim to be flexible when those situations arise, and to support you in taking care of yourselves and loved ones. We will work with you to amend due dates and find solutions that won’t negatively impact your learning of electronics or your grade in the course. Please feel free to reach out to us, even if just to remind us how hard it is to be a college student right now.
 
 ## Course expenses
 
 ### Electronics kits
 
-Essentially, we'll give you a [bunch of stuff](http://andnowforelectronics.com/logistics/kit/) (yours to keep except for the multimeter!) and ask for some payment in return (but can help those who need it). Please keep track of and take good care of your components and equipment. The kits will cost you $105, and this will be charged to your bursar’s account though the regular Tufts billing process. The kit contents actually cost about $140, but the ME department is covering some of the cost. At the end of the semester, we’ll ask you to return the multimeters so they can be used next year, but the rest of the kit is yours to keep.
+Essentially, we'll give you a [bunch of stuff](http://andnowforelectronics.com/logistics/kit/) and ask for some payment in return (but can help those who need it). You'll get to keep the "consumables" portion of the kit, and you'll return the re-usable hardware at the end of the semester so next year's students can use them. Please keep track of and take good care of your components and equipment. 
 
-If the cost is a hardship, the department can help. Please read the section below about financial constraints.
+If the consumable kit cost is a hardship, the department can help. Please read the section below about financial constraints.
 
 ### Printed circuit board fabrication
 
 For this course, we will order PCBs from [OSHPark](https://docs.oshpark.com/services/two-layer/) in Lake Oswego, Oregon. Each of you will place two, or possibly 3, PCB orders over the course of the semester.
 
-Each of the 2 or 3 orders will cost around $10. (The price is actually $5 per square inch. If you can make your boards smaller, they will be cheaper, but most of the boards end up being around 2 square inches.)
+Each of the 2 or 3 orders will cost around $10. (The price is actually $5 per square inch. If you can make your boards smaller, they will be cheaper, but most of the boards end up being around 2 square inches.) Shipping is free. 
 
-Shipping is free.
+If the PCB cost is a hardship, the department can help. Please read the section below about financial constraints.
+
 
 ### Textbooks
 
-There are two recommended textbooks for the class. You are not required to buy either, but you are strongly encouraged to consider independent modes of learning as a supplement to the rest of the course. This is a fancy way of saying that when you get stuck on something, try reading a few pages from the books below about the topic. Then think some, and then read again, then more thinking. If you actually read and absorbed even 20% of these two books, you would know a LOT about electronics.
+There are two recommended textbooks for the class. You are not required to buy either, but you are strongly encouraged to consider independent modes of learning as a supplement to the rest of the course. This is a fancy way of saying that when you get stuck on something, try reading a few pages from the books below about the topic. Then think some, work on some of the exercises, and talk to someone about them. Then read again, then more thinking. If you actually read and made sense of even 20% of these two books, you would know a LOT about electronics.
 
 1. [Practical Electronics for Inventors, Fourth Edition, by Paul Scherz and Simon Monk](https://www.amazon.com/Practical-Electronics-Inventors-Fourth-Scherz/dp/1259587541/), $22.49 in print, and also available as a free [e-book from Tisch Library](https://tufts-primo.hosted.exlibrisgroup.com/permalink/f/k87dab/TN_cdi_askewsholts_vlebooks_9781259587559)
 2. [Making Things Move by Dustyn Roberts](https://www.amazon.com/Making-Mechanisms-Inventors-Hobbyists-Artists/dp/0071741674/), $19.79 in print, and also available as a free [e-book from Tisch Library](https://www-accessengineeringlibrary-com.ezproxy.library.tufts.edu/content/book/9780071741675)
 
 ## Financial constraints
 
-If, for whatever reason, you cannot afford to pay for the stuff needed for this class, please let one of the teachers know, either in person or via email. In virtually all cases, the Mechanical Engineering Department will pay for whatever you can't afford; if they can't, we will. Under no circumstances should your education suffer because you don't have the right tools or supplies.
+If, for whatever reason, you cannot afford to pay for the stuff needed for this class, please let one of the teachers or the ME department administrator Courtney Russo (courtney.russo@tufts.edu) know, either in person or via email. In virtually all cases, the Mechanical Engineering Department will pay for whatever you can't afford; if they can't, we will. Under no circumstances should your education suffer because you don't have the right tools or supplies.
 
 ## Modes of instruction
 
-Class this year will be slightly odd, but not because of Covid. We will be meeting in 3 rooms at the same time: Anderson 206, Anderson 212, and Blake. You will be assigned to one of these rooms. The rooms are all more or less the same.
+### In-class sessions
 
-Here's how class will work each day.
-1. You show up for class. We all wear masks. The LAs are spread throughout the three classrooms.
-2. For the first half of class, one of the instructors (Briana or Brandon) will explain something about electronics. The people in the other classrooms will see and hear the explanation through a big screen and camera in each classroom.
-3. For the second half of class, we all build electronics. The LAs help you, as do Briana and Brandon.
-4. For the next class, the live lecture happens in a different classroom.
-
-"Why is it like this?" you ask? It's because there are 89 people in this class, because mechanical engineering is popular, because it is awesome. If we put you all in one classroom, it would be a huge lecture hall with tiny desks and we couldn't build electronics in class. BORING! Some of you would fall asleep.
+Here's how class will work each Tuesday and Thursday.
+1. You show up for class. 
+2. For the first half of class, one of the instructors (Kristen or Brandon) will explain something about electronics. 
+3. For the second half of class, we all build electronics. The LAs help you and ask you questions to extend your learning, as do Kristen and Brandon.
 
 ### Asynchronous elements  
 * 	 **Video mini-lectures** - Created and posted by the instructors. Several on a set of new topics each week.  
@@ -151,7 +152,7 @@ We take honesty very seriously. Not only are we required to report violations of
 
 ## Sharing
 
-Tufts has asked me to include this statement: "It is against Tufts policy for anyone to share any content made available in this course including course syllabi, reading materials, problems sets, videos, handouts, and exams, with anyone outside of the course without the express permission of the instructor." I hereby grant you, and everyone else in the world, express permission to share all materials from this course, including the course syllabus, reading materials, problem sets, videos, handouts, and exams, as widely as you like, under the CC-BY-SA Creative Commons License linked at the bottom of the page. In fact, I encourage you to do so.
+Tufts has asked us to include this statement: "It is against Tufts policy for anyone to share any content made available in this course including course syllabi, reading materials, problems sets, videos, handouts, and exams, with anyone outside of the course without the express permission of the instructor." We hereby grant you, and everyone else in the world, express permission to share all materials from this course, including the course syllabus, reading materials, problem sets, videos, handouts, and exams, as widely as you like, under the CC-BY-SA Creative Commons License linked at the bottom of the page. In fact, we encourage you to do so.
 
 "He who receives an idea from me, receives instruction himself without lessening mine; as he who lights his taper at mine, receives light without darkening me." --Thomas Jefferson
 
