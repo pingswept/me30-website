@@ -1,5 +1,5 @@
 ---
-title: "Adafruit Feather RP2040 Pink"
+title: "Feather RP2040"
 draft: false
 ---
 
