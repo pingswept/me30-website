@@ -106,8 +106,8 @@ If, for whatever reason, you cannot afford to pay for the stuff needed for this 
 ### In-class sessions
 
 Here's how class will work each Tuesday and Thursday.
-1. You show up for class. 
-2. For the first half of class, one of the instructors (Kristen or Brandon) will explain something about electronics. 
+1. You'll show up to class and bring your kit with you.
+2. For the first half of class, the instructors (Kristen and Brandon) will explain something about electronics. 
 3. For the second half of class, we all build electronics. The LAs help you and ask you questions to extend your learning, as do Kristen and Brandon.
 
 ### Asynchronous elements  
@@ -126,7 +126,7 @@ Here's how class will work each Tuesday and Thursday.
 ## Assignments and grading
 
 Grades will be based entirely on your project work. There will also be a few short quizzes, which will be ungraded.   
-Projects (4) - 100% of course grade
+Projects (5) - 100% of course grade
 Quizzes (3) - 0% of course grade  
 
 ### Projects (100%)
@@ -142,6 +142,7 @@ Over the course of the four projects you will:
 2. Build a prototype and PCB of an H-bridge motor controller to make a motor spin both ways.  
 3. Build an electromechanical game including microcontroller, moving mechanical element, and user input.  
 4. Build a node including both sensor(s) and actuator(s) in an internet-connected, electronic system.  
+5. Combine an internet-connected, electronic system with a moving mechanical element.
 
 ### Quizzes (0%)
 
