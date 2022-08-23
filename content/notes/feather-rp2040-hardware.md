@@ -1,22 +1,26 @@
 ---
 title: "Adafruit Feather RP2040 Pink"
-draft: true
+draft: false
 ---
 
 ## KRISTEN TO EDIT THIS PAGE TO APPLY TO FEATHER INSTEAD OF ARDUINO
 
 
-![Top view of Arduino MKR Wifi 1010](/img/arduino-mkr-wifi-1010-top-view.jpg)
+![Top view of Adafruit Feather RP2040](/img/feather-rp2040-top-view.jpg)
 
 ## Reference documents
 
-[Arduino MKR wifi 1010 schematic](/pdf/schematic-arduino-mkr-wifi-1010.pdf)
+[Adafruit Feather RP2040 schematic](/pdf/schematic-feather-rp2040.pdf)
 
-[Arduino MKR wifi 1010 pinout](/pdf/pinout-arduino-mkr-wifi-1010-2020-09-28.pdf)
+[Adafruit Feather RP2040 pinout](/pdf/pinout-feather-rp2040.pdf)
 
-## Arduino MKR Wifi 1010 hardware overview
+## Adafruit Feather RP2040 hardware overview
 
-Looking at the picture above, you can see three large chips, some connectors, and a lot of tiny resistors and capacitors. Right in the middle is the microcontroller that acts as the brain of the board. It's an Atmel [ATSAMD21G18A-U](https://www.microchip.com/wwwproducts/en/ATsamd21g18), which is an ARM Cortex M0+ running at 48 MHz. The 1827 code on the chip means that this particular chip it was manufactured in week 27 of 2018.
+### UPDATE FOR FEATHER! 
+
+Looking at the picture above, you can see X large chips, some connectors, and a lot of tiny resistors and capacitors. Right in the middle is the microcontroller that acts as the brain of the board. 
+
+It's an Atmel [ATSAMD21G18A-U](https://www.microchip.com/wwwproducts/en/ATsamd21g18), which is an ARM Cortex M0+ running at 48 MHz. The 1827 code on the chip means that this particular chip it was manufactured in week 27 of 2018.
 
 At the left edge of the board, you can see the uBlox NINA W102 module, which is what provides the wifi and Bluetooth connections to the board. This is an Espressif ESP32 microcontroller inside a metal box with a small wifi antenna next to it. Its main advantage is that the module has passed FCC 47 CFR 15 certification, so the Arduino folks can add it to their board without having to go through the tedious and expensive certification process required of everything with a radio transmitter.
 
@@ -89,6 +93,6 @@ Here's a fun fact I discovered about the Arduino MKR Wifi 1010 today (October 20
 
 Try adding `delay(2000);` after `Serial.begin(9600);`, and I bet it will fix your problems.
 
-## Learning to program your Arduino
+## Learning to program your Feather
 
-Arduino's [Tutorials](https://www.arduino.cc/en/Tutorial/HomePage) are a great resource for Arduino newcomers.
+Adafruit's [CircuitPython Tutorials](https://learn.adafruit.com/welcome-to-circuitpython) are a great resource for Feather newcomers.
