@@ -1,86 +1,80 @@
 ---
 title: "Feather RP2040 programming"
-draft: true
+draft: false
 ---
 
-## KRISTEN TO EDIT THIS PAGE TO APPLY TO FEATHER INSTEAD OF ARDUINO
+## KRISTEN TO EDIT SECOND HALF OF THIS PAGE TO APPLY TO FEATHER INSTEAD OF ARDUINO
 
 ## Stuff You Need
 
 *   A computer, plus the admin password to install software
-*   An Arduino MKR 1010 Wifi
-*   A USB cable with the right ends to connect the Arduino to the computer
+*   An Adafruit Feather RP2040
+*   A USB-C cable with the right ends to connect the Feather to the computer
 
-If you need to buy an Arduino or USB cable, I'd recommend Adafruit in New York as the best choice: [Arduino Uno R3](https://www.adafruit.com/products/50) and [USB cable](https://www.adafruit.com/products/62).
+If you need to buy a Feather or USB cable, I'd recommend Adafruit in New York as the best choice: [Pink Feather RP2040](https://www.adafruit.com/product/5299) and [USB cable](https://www.adafruit.com/products/62).
 
-## Software check
+## Software check 
 
-Before you can actually make an Arduino do anything, you have to install the Arduino program. It's actually three programs in one:
+Before you can actually make a Feather do anything, you have to install a code editor program on your computer. We'll use the Mu Editor, which works well with Adafruit CircuitPython boards, including the Feather. It's actually XXX programs in one:
 
 *   A text editor, for typing code
-*   A compiler, which translates your code into 1's and 0's for the Arduino
-*   A USB loader, which loads the 1's and 0's onto the Arduino through the USB cable
+*   IS IT THIS?  A compiler, which translates your code into 1's and 0's for the Feather
+*   AND THIS? A USB loader, which loads the 1's and 0's onto the Feather through the USB cable
 
-To install the Arduino software, [download the installer](https://www.arduino.cc/en/Main/Software) from the Arduino website. Be sure to download the desktop application, not the web editor which appears at the top of the page. (We are using the desktop application in ME 30.)
+To install the Mu Editor software, [download it](https://www.arduino.cc/en/Main/Software) from the Arduino website. 
 
-You're on your own for the actual installation, but it consists of pressing "OK" and "Next" and things like that a few times. Search the internet for advice if you get stuck. Your goal is to see something like the image below on your screen, except not just a screenshot in your browser window like this one.
+You're on your own for the actual installation, but it consists of pressing "OK" and "Next" and things like that a few times. Search the internet for advice if you get stuck. Your goal is to see something like the image below on your screen.
 
-![The Arduino IDE](/img/arduino-program-screenshot.png)
+![The Mu Editor](/img/arduino-program-screenshot.png)
 
-## Hardware check
+## Hardware check 
 
-The next step is to plug in your Arduino with the USB cable. When you plug it in, you should see a green light on the board light up, showing that the Arduino is getting electricity. Depending on how your Arduino was manufactured or last used, some of the yellow lights on the board might also light up. That's okay.
+The next step is to plug in your Feather with the USB cable. When you plug it in, you should see a XXXX light on the board light up, showing that the Feather is getting electricity. 
 
-Once the board powers up, it's time to load new code on it. In the Arduino program, select `File > Examples > 01.Basics > Blink`. This will open a file containing a short program that blinks the yellow LED on the Arduino in a 1 second on, 1 second off pattern forever (or until you load a new program).
+Once the board powers up, it's time to load CircuitPython onto it.....
 
-To compile the program and load it onto the Arduino, click the upload button, which is circled in the screenshot below. (If you hover over a button with the mouse pointer, the function of the button appears in the top bar.)
+The next step is to load your first Python program onto your Feather....
 
-![The upload button](/img/arduino-upload-button.png)
+To compile the program and load it onto the Feather, click the .... which is circled in the screenshot below. 
 
-When you click upload, you see some messages at the bottom of the Arduino window. If everything works properly, you should see the following messages in order:
+![The upload button](/img/feather-upload-button.png)
 
-*   "Compiling sketch..."
-*   "Uploading..."
-*   "Done uploading."
-*   "CPU reset"
+When you click upload, you see some messages at the bottom of the Mu Editor window. If everything works properly, you should see the following messages in order:
 
-As the code is uploaded, you'll see the yellow lights on the board flash rapidly for a second or two. Each flash of the light marked "TX" (which means "transmit", for no compelling reason) is a 1 getting sent to the board; the gaps between flashes are 0's. The flashes on the "RX" pin ("receive") are confirmation packets sent back to the computer.
+*   XXXX
+*   YYYYY
 
-After the code is loaded, here's what you should see (an Arduino with a flashing yellow light).
+As the code is uploaded, you'll see the .... on the board flash rapidly for a second or two. Each flash of the light marked "TX" (which means "transmit", for no compelling reason) is a 1 getting sent to the board; the gaps between flashes are 0's. The flashes on the "RX" pin ("receive") are confirmation packets sent back to the computer.
 
-**(Sorry, this is an old Arduino Uno, not the new MKR Wifi 1010)**
+After the code is loaded, here's what you should see ....
 
-![](img/arduino-uno-blink.gif)
+![](img/feather-blink.gif)
 
 If you've made it this far, your hardware and software are working properly. Congratulations! Go get a drink of cool, delicious water!
 
-## Alternative Arduino programming tutorials
+## Alternative Feather programming tutorials
 
-Arduino's [Tutorials](https://www.arduino.cc/en/Tutorial/HomePage) are great if you're new to this stuff. Please take the time to run through them; it's an investment worth making. Microcontrollers are not going away soon.
+Adafruit's [CircuitPython Tutorials](https://learn.adafruit.com/welcome-to-circuitpython) are great if you're new to this stuff. Please take the time to run through them; it's an investment worth making. Microcontrollers are not going away soon.
 
 ## When stuff goes wrong
 
-The most common problem with Arduinos is difficulty communicating between the computer and the Arduino. You might see messages in the bottom window like this:
+The most common problem with microcontrollers is difficulty communicating between the computer and the microcontroller. You might see messages like this....
 
-<pre class="code">avrdude: stk500_recv(): programmer is not responding
-avrdude: stk500_getsync() attempt 1 of 10: not in sync: resp=0x00
-avrdude: stk500_recv(): programmer is not responding
-avrdude: stk500_getsync() attempt 10 of 10: not in sync: resp=0x00
-Problem uploading to board.  See http://www.arduino.cc/en/Guide/Troubleshooting#upload for suggestions.
-</pre>
 
-In this case, you should check two settings:
 
-*   `Tools > Board`
-*   `Tools > Port`
+In this case, you should ....
 
-You can also try unplugging the Arduino and plugging it in again and restarting the Arduino program. As a last resort, you can ["see http://www.arduino.cc/en/Guide/Troubleshooting#upload for suggestions"](http://www.arduino.cc/en/Guide/Troubleshooting#upload)
+You can also try unplugging the Feather and plugging it in again and restarting the Mu Editor. 
+
 
 ## Conceptual underpinnings
 
+### UPDATE!!
 When the Arduino Uno gets electricity, it starts running whatever code is at location 0 of its memory. This is typically an instruction called a "reset vector" that points to the start of a chunk of code called a "bootloader." The bootloader checks to see if a new program is available via the USB port. If it is, it receives the code, writes it into memory, and starts running it. If no code is available, it just runs whatever program it had been given the last time it was programmed. This is how every Arduino works: power up, look for new code; if none, run old code until power cycle.
 
 ## So, how do I make this "code" you mention?
+
+### UPDATE!
 
 Start by making a new file in the Arduino program using `File > New`. You'll see a new file containing the empty skeleton of an Arduino program:
 
@@ -99,11 +93,17 @@ When an Arduino starts executing code (after figuring out whether new code needs
 
 ## Okay, but what can I actually write?
 
+### UPDATE!
+
+
 This is a hard question. One approach to answering it is to say, "Here are all the rules for what C++ code is valid," but that's not really a very good way to learn the possibilities, and it's also incredibly boring. (If that approach works for you, great! You should first read ["The C Programming Language" by Brian Kernighan and Dennis Ritchie](https://en.wikipedia.org/wiki/The_C_Programming_Language), and then move on to [Bjarne Stroustrup's "The C++ Programming Language."](https://en.wikipedia.org/wiki/The_C%2B%2B_Programming_Language))
 
 A better approach for those of you who are still here is to learn a few useful functions, and then look up other ones when you need them.
 
 ## A few exciting functions
+
+### UPDATE!
+
 
 Here are some functions that you might want to start with.
 
@@ -122,6 +122,9 @@ delay(): do nothing for some number of milliseconds
 If you want to check the details of these functions or see what else is available, the canonical reference is [the Arduino reference page](https://www.arduino.cc/en/Reference/HomePage). Become good friends with this page, and it will serve you well.
 
 ## Some useful programming techniques
+
+### UPDATE!
+
 
 ### #defines
 
