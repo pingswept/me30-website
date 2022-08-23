@@ -1,9 +1,10 @@
-asdf
-
 ---
 title: "Adafruit Feather RP2040 Pink"
 draft: true
 ---
+
+## KRISTEN TO EDIT THIS PAGE TO APPLY TO FEATHER INSTEAD OF ARDUINO
+
 
 ![Top view of Arduino MKR Wifi 1010](/img/arduino-mkr-wifi-1010-top-view.jpg)
 
