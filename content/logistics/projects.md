@@ -4,8 +4,6 @@ draft: false
 ---
 # Projects
 
-<!--
---!>
 
 ## Project #1: Build a breadboard power supply
 
