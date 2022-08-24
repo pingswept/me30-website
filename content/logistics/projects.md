@@ -60,7 +60,7 @@ That's trying to tell you that when the jack is empty (i.e. no plug inserted), p
 5. Read and try to make sense of the web pages listed under ["What to study" on the calendar](http://andnowforelectronics.com/logistics/calendar/)
 6. If you can absorb material from books efficiently, read as much of chapter 2 from the Practical Electronics textbook as you can.
 
-## Project 0: Power an LED with "wall" power through our DC power supply. Control it with a push button.
+## Project #0: Power an LED with "wall" power through our DC power supply. Control it with a push button.
 
 The getting-started "project" is really more of a warm-up activity, and we'll do it together in class. The goal is to create a circuit on your breadboard that powers an LED with power from the wall, directed through your kit's DC power supply.  This circuit should have the following characteristics:
 
