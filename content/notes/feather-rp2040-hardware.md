@@ -7,9 +7,9 @@ draft: false
 
 ## Reference documents
 
-[Adafruit Feather RP2040 schematic](/pdf/feather-rp2040-schematic.pdf)
-
 [Adafruit Feather RP2040 pinout](/pdf/feather-rp2040-pinout.pdf)
+
+[Adafruit Feather RP2040 schematic](/pdf/feather-rp2040-schematic.pdf)
 
 [Adafruit Feather RP2040 complete guide](https://cdn-learn.adafruit.com/downloads/pdf/adafruit-feather-rp2040-pico.pdf)
 
@@ -21,7 +21,7 @@ The chip just to the right of center is the microcontroller that acts as the bra
 
 The square chip closer to the upper right corner of the board is the Flash memory chip for storing files and code.
 
-Adafruit provides a handy overview of [all the Feather RP2040 components and pins] (https://learn.adafruit.com/adafruit-feather-rp2040-pico/pinouts).
+Adafruit provides a handy [overview](https://learn.adafruit.com/adafruit-feather-rp2040-pico/pinouts) of all the Feather RP2040 components and [pins](/pdf/feather-rp2040-pinout.pdf).
 
 ## Connectors
 
