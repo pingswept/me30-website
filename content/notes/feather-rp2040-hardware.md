@@ -7,9 +7,9 @@ draft: false
 
 ## Reference documents
 
-[Adafruit Feather RP2040 schematic](/pdf/schematic-feather-rp2040.pdf)
+[Adafruit Feather RP2040 schematic](/pdf/feather-rp2040-schematic.pdf)
 
-[Adafruit Feather RP2040 pinout](/pdf/pinout-feather-rp2040.pdf)
+[Adafruit Feather RP2040 pinout](/pdf/feather-rp2040-pinout.pdf)
 
 [Adafruit Feather RP2040 complete guide](https://cdn-learn.adafruit.com/downloads/pdf/adafruit-feather-rp2040-pico.pdf)
 
