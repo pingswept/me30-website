@@ -17,7 +17,7 @@ The good news is that you get to pick. As I have repeatedly told my 7-year-old d
 
 I use the he/him/his pronoun series.
 
-**Briana:** I similarly understand that the way we act - including what tone of voice we use - is just as important for conveying respect and professionalism as are the words that we use. Technically, Tufts has given me, like Brandon, the title "Lecturer." If you're more comfortable with formal titles, you can go with "Ms. Bouchard." It's also completely okay with me if you call me "Briana."
+**Kristen:** I similarly understand that the way we act - including what tone of voice we use - is just as important for conveying respect and professionalism as are the words that we use. Technically, Tufts has given me, like Brandon, the title "Professor." If you're more comfortable with formal titles, you can go with "Professor Wendell." It's also completely okay with me if you call me "Kristen."
 
 I use the she/her/hers pronoun series.
 
