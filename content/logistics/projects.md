@@ -59,3 +59,13 @@ That's trying to tell you that when the jack is empty (i.e. no plug inserted), p
 4. Watch the Kicad demo videos, a total of 5 minutes, 59 seconds for [the first two demo videos](http://andnowforelectronics.com/notes/demo-videos/)
 5. Read and try to make sense of the web pages listed under ["What to study" on the calendar](http://andnowforelectronics.com/logistics/calendar/)
 6. If you can absorb material from books efficiently, read as much of chapter 2 from the Practical Electronics textbook as you can.
+
+## Project 0: Power an LED with "wall" power through our DC power supply. Control it with a push button.
+
+The getting-started "project" is really more of a warm-up activity, and we'll do it together in class. The goal is to create a circuit on your breadboard that powers an LED with power from the wall, directed through your kit's DC power supply.  This circuit should have the following characteristics:
+
+*   It is implemented on a breadboard.
+*   It accepts power from a 2.1 x 5.5 mm plug from a 12 V wall adapter.
+*   It turns on an LED when a push button is pressed.
+
+**Due date (for submitting a photo of your circuit to Canvas): Thursday, September 8, 11:59 PM**
