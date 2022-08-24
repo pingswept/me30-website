@@ -169,5 +169,5 @@ Tufts is committed to providing equal access and support to all qualified studen
 
 ## Coaching in academic skills at the StAAR Center
 
-In addition to its subject tutoring and writing support that you may use for other classes, the StAAR Center offers academic coaching to hone fundamental academic skills like time management and overcoming procrastination. These skills are important for success in this class, and if you are struggling with them, we encourage you to make an appointment for academic coaching by visiting go.tufts.edu/StAARCenter
+In addition to its subject tutoring and writing support that you may use for other classes, the StAAR Center offers academic coaching to hone fundamental academic skills like time management and overcoming procrastination. These skills are important for success in this class, and if you are struggling with them, we encourage you to make an appointment for academic coaching by visiting the [StAAR Center website](go.tufts.edu/StAARCenter).
 
