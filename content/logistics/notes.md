@@ -12,6 +12,15 @@ This page is more like the show notes for a podcast (links to stuff mentioned in
 Seriously, go read some of the sensible pages on the site rather than this malformed dreck.
 {{< /hint >}}
 
+## Before Project 3:
+
+**Add a software exercise where we practice writing a state machine.**
+
+Make an LED flash twice per second while checking a button:
+- the bad way (delay)
+- using millis() in a loop
+- real state machine and functions
+
 ## (2021) Class 9: Arduino Connections & PWM for Motor Control
 
 Pins on Arduino can be switched high or low. Each pin controls one MOSFET or could use one pin for two MOSFETs in an H-bridge. 
@@ -158,7 +167,7 @@ Sidebar: voltage vs. current. Current is like water flowing in a hose. Voltage i
 
 Our DC power supply converts high (110 V) AC voltage to low (12 V) DC voltage.
 
-### Project 0: Power an LED with "wall" power through our DC power supply
+### Project 0: Power an LED with "wall" power through our DC power supply. Control it with a pushbutton.
 
 Schematic diagram of what we’re going to build
 - ground symbol
