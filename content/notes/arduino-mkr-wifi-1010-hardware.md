@@ -1,6 +1,6 @@
 ---
 title: "Arduino MKR Wifi 1010"
-draft: false
+draft: true
 ---
 
 ![Top view of Arduino MKR Wifi 1010](/img/arduino-mkr-wifi-1010-top-view.jpg)
