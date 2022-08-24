@@ -47,8 +47,9 @@ Kristen Wendell, kristen.wendell@tufts.edu
 
 Kristen's office hours are:  
 
-* Tues/Thurs, TBD in Robinson 169
-* Kristen is also usually reachable on slack.
+* Wed, 9-10am, Zoom: https://tufts.zoom.us/my/kbwendell
+* Fri, 2-4pm, in person at my ME office: Robinson 169
+* Kristen is also usually reachable on Slack.
 
 Brandon's office hours are:
 
@@ -121,7 +122,7 @@ Here's how class will work each Tuesday and Thursday.
 
 ### Synchronous elements
 * 	 **LA and instructor office hours** – See schedule above. 
-* 	 **Class**
+* 	 **Class** - See description above.
 
 ## Assignments and grading
 
@@ -150,7 +151,7 @@ There will be three short quizzes, one after each of the Projects 2, 3, and 4. E
 
 ## Honesty
 
-We take honesty very seriously. Not only are we required to report violations of academic integrity, we are glad to do so. We are all fortunate to be at Tufts; there is no excuse for squandering that opportunity by representing someone else's work as your own. If you're unsure about the details, read the [Tufts Academic Integrity Policy](https://students.tufts.edu/student-affairs/student-life-policies/academic-integrity-policy).
+We take honesty very seriously. Not only are we required to report violations of academic integrity, we see it as an important part of our responsibility as teachers. We are all fortunate to be at Tufts; there is no excuse for squandering that opportunity by representing someone else's work as your own. If you're unsure about the details, read the [Tufts Academic Integrity Policy](https://students.tufts.edu/student-affairs/student-life-policies/academic-integrity-policy).
 
 ## Sharing
 
@@ -164,4 +165,9 @@ There may be times when personal stressors or emotional difficulties interfere w
 
 ## Accommodations for students with disabilities
 
-Tufts is committed to providing equal access and support to all qualified students through reasonable accommodations so that each student may fully participate in the Tufts experience. If you have a disability that requires accommodations, please email accessibility@tufts.edu or call 617-627-4539 to make an appointment to talk with a Student Accessibility Services representative about appropriate accommodations. Accommodations cannot be enacted retroactively.
+Tufts is committed to providing equal access and support to all qualified students through reasonable accommodations so that each student may fully participate in the Tufts experience. If you have a disability that requires accommodations, please contact the StAAR Center (formerly Student Accessibility Services) at StaarCenter@tufts.edu or 617-627-4539 to make an appointment with an accessibility representative to determine appropriate accommodations. Please be aware that accommodations cannot be enacted retroactively.
+
+## Coaching in academic skills at the StAAR Center
+
+In addition to its subject tutoring and writing support that you may use for other classes, the StAAR Center offers academic coaching to hone fundamental academic skills like time management and overcoming procrastination. These skills are important for success in this class, and if you are struggling with them, we encourage you to make an appointment for academic coaching by visiting go.tufts.edu/StAARCenter
+
