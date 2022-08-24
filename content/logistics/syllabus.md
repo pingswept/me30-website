@@ -70,7 +70,7 @@ LA office hours are:
 
 ME 30 is a 4-SHU course with lab. The lab component will consist of a series of four independent projects. At Tufts, each SHU equates to 3 hours of student time per week. 4-SHU courses are expected to require an average of 12 student hours per week. Typically, these hours are divided into about 3 hours of class time and 9 hours of lab/homework/study time. For Fall 2022, you can expect to spend roughly 2.5 hours in class sessions, maybe 1.5 hours on studying/homework, and the remaining 8 hours on project work each week.
 
-## Learning electronics when life is really tough (and you might be in quarantine)
+## Learning electronics when life is really tough 
 
 In ME 30 this semester, we hope to cultivate a supportive community of people who are helping each other take things one day at a time while also learning some electronics along the way. But, we know that some days, with the effects of the pandemic still lingering, life may still be hard this semester. In particular, you might find yourself needing to quarantine, grieve, care for a friend or family member, or care for yourself in this time with its many sources of anxiety and concern. As your instructors, we aim to be flexible when those situations arise, and to support you in taking care of yourselves and loved ones. We will work with you to amend due dates and find solutions that won’t negatively impact your learning of electronics or your grade in the course. Please feel free to reach out to us, even if just to remind us how hard it is to be a college student right now.
 
@@ -138,7 +138,7 @@ If you complete all the projects on time within the requirements, or at least 95
 
 On the one hand, this sounds kind of tough. On the other hand, if you actually like building electronics, you will do fine. We have a *very* wide spectrum of experience in this class. Note that the project requirements do not include any kind of performance target (like, "make a robot that can run faster than 18 mph"), but rather broad categorical requirements, like "Your circuit must run off batteries." In this example, we do care whether you made a legitimate attempt to make the circuit run off batteries; we don't care how well your circuit works, because that's based largely on your level of experience relative how ambitious a project you tried to build. Our goal is to get you to try to build ambitious projects in a few broad categories, not cross some arbitrary threshold that would be easy for some of you and intensely difficult for others.
 
-Over the course of the four projects you will:  
+Over the course of the five projects you will:  
 1. Build a prototype and PCB of a breadboard power supply that accepts power from a 12 V wall supply and emits 12 V, 5 V, and 3.3 V at the same time.  
 2. Build a prototype and PCB of an H-bridge motor controller to make a motor spin both ways.  
 3. Build an electromechanical game including microcontroller, moving mechanical element, and user input.  
