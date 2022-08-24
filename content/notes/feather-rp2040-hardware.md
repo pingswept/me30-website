@@ -1,10 +1,7 @@
 ---
 title: "Feather RP2040"
-draft: true
+draft: false
 ---
-
-## KRISTEN TO EDIT THIS PAGE TO APPLY TO FEATHER INSTEAD OF ARDUINO
-
 
 ![Top view of Adafruit Feather RP2040](/img/feather-rp2040-top-view.jpg)
 
@@ -18,11 +15,9 @@ draft: true
 
 ## Adafruit Feather RP2040 hardware overview
 
-### UPDATE FOR FEATHER! 
+Looking at the picture above, you can see 2 large chips, some connectors, and a lot of tiny resistors and capacitors. 
 
-Looking at the picture above, you can see 2 large chips, some connectors, and a lot of tiny resistors and capacitors. The chip just to the right of center is the microcontroller that acts as the brain of the board. 
-
-It's an [RP2040 chip] (https://www.raspberrypi.com/products/rp2040/), which has dual ARM Cortex M0+ cores running at 133 MHz. The 20/43 code on the chip means that this particular chip it was manufactured in week 43 of 2020. The RP means that it is made by Raspberry Pi.
+The chip just to the right of center is the microcontroller that acts as the brain of the board. It's an [RP2040 chip] (https://www.raspberrypi.com/products/rp2040/), which has dual ARM Cortex M0+ cores running at 133 MHz. The 20/43 code on the chip means that this particular chip it was manufactured in week 43 of 2020. The RP means that it is made by Raspberry Pi.
 
 The square chip closer to the upper right corner of the board is the Flash memory chip for storing files and code.
 
@@ -44,7 +39,7 @@ The one labeled 13 is a red LED connected to pin D13. You can easily turn it on 
 
 The LED labled CHG indicates the charge status of a connected battery. If no battery is in place, this LED might flicker as the charge circuitry tries to detect whether there is a batter or not.
 
-The NeoPixel...
+The NeoPixel LED indicates the runtime status of CircuitPython code. It can also be programmed to glow in difference colors using the variable board.NEOPIXEL and the code in the NeoPixel library.
 
 ## Quirks
 
