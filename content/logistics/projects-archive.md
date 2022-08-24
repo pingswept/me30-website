@@ -2,9 +2,9 @@
 title: "Projects Archive"
 draft: true
 ---
+
 # Projects Assigned in Fall 2021
 
-<!--
 ## Project #4: Build a whimsical, sort-of-public art installation
 
 ### System requirements
