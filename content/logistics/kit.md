@@ -19,7 +19,11 @@ Each student in the course will receive a kit of project supplies. The contents 
 | 100k ohm resistor                        | Yageo	                 | CFR-25JB-52-100K     |	Digikey	        | 100KQBK-ND      | 5              |
 | 5mm red LED                              | SunLED	                 | XLUR12D	            | Digikey	        | 1497-1031-ND    | 5              |
 | 5mm green LED                            | SunLED	                 | XLUG12D	            | Digikey	        | 1497-1023-ND    | 5              |
-| Custom cardboard box, 10 x 8 x 4 in      | Packlane                |                      |                 |                 | 1              |
+| pushbutton                               | Taiss                   | 6x6x4.3mm            | Amazon          | B08DRB78MX      | 2              |
+| ziploc bag                               | Ziploc                  | 1089057              | Amazon          | B00MR1TK4C      | 1              |
+| Feather pinout sticker                   | Stickermule             | R874344506           | Stickermule     | R874344506      | 1              |
+| Raspberry Pi pinout sticker              | Stickermule             | R574453160           | Stickermule     | R574453160      | 1              |
+| cardboard box, 10 x 8 x 4 in             | Packlane                |                      | Packlane        |                 | 1              |
 |                                          |                         |                      |                 |                 |                |
 | barrel jack                              | CUI Devices             | PJ-102AH             | Digikey         | CP-102AH-ND     | 1              |
 | 5 V voltage regulator                    | STMicroelectronics      | L7805CV              | Digikey         | 497-1443-5-ND   | 1              |
