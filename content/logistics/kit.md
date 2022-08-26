@@ -29,9 +29,10 @@ Each student in the course will receive a kit of project supplies. The contents 
 | N-channel MOSFET                         | International Rectifier | IRLB8721PBF          | Digikey         | IRLB8721PBF-ND  | 2              |
 | P-channel MOSFET                         | Fairchild               | FQP27P06             | Newark          | 58K1524         | 2              |
 | NPN transistor                           | On Semiconductor        | 2N3904               | Digikey         | 2N3904FS-ND     | 2              |
-| DC gearmotor                             | Pololu                  | 3482                 | Pololu          | 3482            | 1              |
+| DC gearmotor                             | Plumia                  | TJZ37RGa             | Amazon          |                 | 1              |
 |                                          |                         |                      |                 |                 |                |
 | Adafruit Feather RP2040 Pink             | Adafruit                | 4884                 | Adafruit        | 4884            | 1              |
+|                                          |                         |                      |                 |                 |                |
 | Raspberry Pi 4B with 2GB RAM             | Raspberry Pi Foundation | SC0193               | PiHut Wholesale | SC0193          | 1              |
 | 15 W DC power supply for R. Pi           | Raspberry Pi Foundation | SC0214               | PiHut Wholesale | SC0214          | 1              |
 | MicroSD card                             | Raspberry Pi Foundation | SC0268               | PiHut Wholesale | SC0268          | 1              |
@@ -40,4 +41,4 @@ Each student in the course will receive a kit of project supplies. The contents 
 |                                          |                         |                      |                 |                 |                |
 | Custom cardboard box, 10 x 8 x 4 in      | Packlane                |                      |                 |                 | 1              |
 
-In 2022, we assembled 92 kits: 83 for students, 7 for learning assistants, and 2 for professors. The cost per kit was $174, split $42 for consumables and $132 for durable parts that we hope to reuse next year. Historically, our recovery rate for durables has been around 65%, so we estimate the annual durables replacement cost to the department at 35% of $174, or $61 per student.
+In 2022, we assembled 92 kits: 83 for students, 7 for learning assistants, and 2 for professors. The cost per kit was $175, split $43 for consumables and $132 for durable parts that we hope to reuse next year. Historically, our recovery rate for durables has been around 65%, so we estimate the annual durables replacement cost to the department at 35% of $175, or $61 per student.
