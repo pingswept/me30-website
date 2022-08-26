@@ -45,3 +45,6 @@ Each student in the course will receive a kit of project supplies. The contents 
 | NEMA 17 stepper motor, 350 mA@12 V       | Adafruit                | 324                  | Adafruit        | 324             | 1              |
 
 In 2022, we assembled 92 kits: 83 for students, 7 for learning assistants, and 2 for professors. The cost per kit was $160, split $43 for consumables and $117 for durable parts that we hope to reuse next year. Historically, our recovery rate for durables has been around 65%, so we estimate the annual durables replacement cost to the department at 35% of $117, or $41 per student.
+
+![Assembling the kits in their boxes](/img/kit-assembly.jpg)
+![A pile of finished kits](/img/pile-of-kits.jpg)
