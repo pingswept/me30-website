@@ -18,7 +18,7 @@ You may also need a USB card reader, if you don't have a card slot built into yo
 
 To connect the console cable, look at this diagram.
 
-![RPi console cable connection](/img/rpi_console_cable.png)
+![RPi console cable connection](/img/rpi-console-cable.png)
 
 There are more details if you need them in [Adafruit's console cable tutorial](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-5-using-a-console-cable/overview). Emily K. also recommends the [Sparkfun tutorial](https://learn.sparkfun.com/tutorials/terminal-basics/all).
 
