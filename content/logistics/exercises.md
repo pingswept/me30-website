@@ -4,7 +4,27 @@ draft: false
 ---
 ## In-class exercises
 
-### 1: Build a voltage regulation circuit
+### 1: Project #0: Power an LED with "wall" power
+
+This is a warm-up activity to power an LED with "wall" power through our DC power supply and control it with a push button. 
+
+Your goal is to create a circuit on your breadboard that lights up an LED with power from the wall, directed through your kit's DC power supply. This circuit should have the following characteristics:
+
+- It is implemented on a breadboard.
+- It accepts power from a 2.1 x 5.5 mm plug from a 12 V wall adapter.
+- It turns on an LED when a push button is pressed.
+
+The components are:
+
+1. DC power supply
+2. One power (barrel) jack
+3. One LED
+4. One resistor
+5. One pushbutton
+6. Various wires and a breadboard
+
+
+### 2: Build a voltage regulation circuit
 
 This is an introductory exercise designed to help you get familiar with breadboard prototyping while also building a basic circuit that will be useful for later exercises and projects. It forms the basis for Project #1, but you don't need to think about that yet. If this is all new to you, look at the pages on [breadboard prototyping](/notes/prototyping/) and [multimeters](/notes/multimeters/).
 
@@ -16,11 +36,11 @@ The 4 components are:
 2. One L7805CV voltage regulator
 3. Two capacitors
 
-### 2. Build voltage dividers
+### 3. Build voltage dividers
 
 ![Voltage dividers](/img/voltage-dividers.png)
 
-### 3. Control an LED with a transistor
+### 4. Control an LED with a transistor
 
 Making an LED light up is pretty simple: put a resistor in series with it and apply a voltage. If you sized the resistor right and didn't put the LED in backwards, you're done. When we want to control things like LEDs electronically, instead of plugging them in to breadboards with our hands, we use transistors. The goal of this exercise is to use a bipolar junction transistor, the 2N3904, to turn on and off an LED.
 
@@ -35,7 +55,7 @@ The picture below shows the concept of what you're building. In place of the mot
 
 ![Typical BJT circuit](/img/typical-bjt-circuit.png)
 
-### 4. Measure a DC gearmotor (part 1)
+### 5. Measure a DC gearmotor (part 1)
 
 Here are a few basic measurements you can make to understand your DC gearmotor better. We'll start with current measurement.
 
