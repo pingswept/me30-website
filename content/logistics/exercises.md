@@ -19,7 +19,7 @@ The components are:
 1. DC power supply
 2. One power (barrel) jack
 3. One LED
-4. One resistor
+4. One resistor (What size? See [these notes](http://andnowforelectronics.com/notes/resistors/#typical-application-current-limiter).)
 5. One pushbutton
 6. Various wires and a breadboard
 
