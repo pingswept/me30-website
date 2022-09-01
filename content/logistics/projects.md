@@ -58,7 +58,7 @@ The getting-started "project" is really more of a warm-up activity, and we'll do
 **Due date (for submitting a photo of your circuit to Canvas): Thursday, September 8, 11:59 PM**
 
 {{< hint danger >}}
-**Important note #2: the pins on the power jack are weird! More details below.**
+**Important note: the pins on the power jack are weird! More details below.**
 
 There's a cryptic diagram in the datasheet for the PJ-102AH power jack, shown below.
 
