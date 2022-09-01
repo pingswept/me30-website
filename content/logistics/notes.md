@@ -174,7 +174,7 @@ Schematic diagram of what we’re going to build
 - note closed loop
 - find each component as we discuss: DC power supply, one power (barrel) jack, one LED, one resistor, one pushbutton, plus various wires and a breadboard.
 
-How the barrel jack works
+How the barrel jack works. Power is the outer metal shell, which goes to pin 2, at closed end. Ground is the inner metal shell, which goes to pin 1, at open end.
 
 How the LED works
 
@@ -185,7 +185,7 @@ Nonlinear I-V curve means they are not resistorsCurrent flowing in one direction
 
 Forward voltage. Varies by color.
 
-Need for current limiting resistor to prevent burnout.
+Need for current limiting resistor to prevent burnout. 
 
 ### Ohm’s Law as definition of resistance
 Resistors always have linear I-V curve, otherwise, it’s not a resistor.
@@ -195,6 +195,8 @@ Review resistor color codes
 Importance of considering how much power resistors are rated for or they will burn out 
 
 Which resistor for your LED circuit, and why?
+
+V - V_f = V_r.  V_r = iR.   R = V_r / i.  Aim for current of 0.001 A and assume V_f of 3V.
 
 
 ### Extension/challenge: Re-arrange your circuit so you have one LED that stays on permanently and another that is powered by the switch
