@@ -30,7 +30,7 @@ The image below is a circuit diagram representation of what you're building.
 {{< hint danger >}}
 **Important note: the pins on the power jack are weird! More details below.**
 
-There's a cryptic diagram in the datasheet for the PJ-102AH power jack, shown below.
+There's a cryptic diagram in the [datasheet](http://andnowforelectronics.com/notes/datasheets/) for the PJ-102AH power jack, shown below.
 
 ![power jack pinout](/img/power-jack-pinout.jpg)
 
