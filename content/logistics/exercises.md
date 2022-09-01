@@ -25,7 +25,7 @@ The components are:
 
 The image below is a circuit diagram representation of what you're building.
 
-![Wall-powered LED circuit](/img/project0-circuit.png)
+![Wall-powered LED circuit](/img/project0_circuit.png)
 
 {{< hint danger >}}
 **Important note: the pins on the power jack are weird! More details below.**
