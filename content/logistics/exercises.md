@@ -23,6 +23,9 @@ The components are:
 5. One pushbutton
 6. Various wires and a breadboard
 
+The image below is a circuit diagram representation of what you're building.
+
+![Wall-powered LED circuit](/img/project0-circuit.png)
 
 ### 2: Build a voltage regulation circuit
 
