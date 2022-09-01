@@ -32,24 +32,11 @@ The image below shows the rough mechanical constraints for the PCB. You can make
 In your project kit, you'll find all the components you'll need to build a prototype of your power supply on a breadboard. You build the prototype and make sure that you've got the wiring right. Then, make the PCB with the same connections. Finally, when your PCB arrives in the mail, you can reuse the prototype components on your PCB.
 
 {{< hint danger >}}
-**Important note #1: the pins on the two regulators are not in the same order!**
+**Important note: the pins on the two regulators are not in the same order!**
 {{< /hint >}}
 
 Check the datasheets for the components to see which pin is the input pin, which is the output pin, and which should connect to ground.
 
-{{< hint danger >}}
-**Important note #2: the pins on the power jack are weird! More details below.**
-
-There's a cryptic diagram in the datasheet for the PJ-102AH power jack, shown below.
-
-![power jack pinout](/img/power-jack-pinout.jpg)
-
-One part is obvious: the pin in the middle is connected to pin 1.
-
-But what is that little arrow/bump thing with pins 2 and 3?
-
-That's trying to tell you that when the jack is empty (i.e. no plug inserted), pins 2 and 3 are connected together. When you insert the plug, the barrel pushes on the bump at the end of the pin 2 contact, which bends it away from the pin 3 arrow, breaking the connection to pin 3. It's so that you can detect whether there's a plug inserted or not, which can be useful for battery-powered systems. You don't need to implement that feature on your regulator board; you can just use pins 1 and 2.
-{{< /hint >}}
 
 ### P1 prototype: what you should do before class #3
 
@@ -69,3 +56,18 @@ The getting-started "project" is really more of a warm-up activity, and we'll do
 *   It turns on an LED when a push button is pressed.
 
 **Due date (for submitting a photo of your circuit to Canvas): Thursday, September 8, 11:59 PM**
+
+{{< hint danger >}}
+**Important note #2: the pins on the power jack are weird! More details below.**
+
+There's a cryptic diagram in the datasheet for the PJ-102AH power jack, shown below.
+
+![power jack pinout](/img/power-jack-pinout.jpg)
+
+One part is obvious: the pin in the middle is connected to pin 1.
+
+But what is that little arrow/bump thing with pins 2 and 3?
+
+That's trying to tell you that when the jack is empty (i.e. no plug inserted), pins 2 and 3 are connected together. When you insert the plug, the barrel pushes on the bump at the end of the pin 2 contact, which bends it away from the pin 3 arrow, breaking the connection to pin 3. It's so that you can detect whether there's a plug inserted or not, which can be useful for battery-powered systems. You don't need to implement that feature on your regulator board; you can just use pins 1 and 2.
+{{< /hint >}}
+
