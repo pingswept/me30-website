@@ -7,7 +7,7 @@ draft: false
 
 ## Connectors
 
-* [DC power jack, 2.1 mm x 5.5 mm](/pdf/power-jack-PJ102AH.pdf)
+* [DC power (barrel) jack, 2.1 mm x 5.5 mm](/pdf/power-jack-PJ102AH.pdf)
 
 ## Capacitors
 
