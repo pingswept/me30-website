@@ -34,6 +34,8 @@ but it's more commonly written as
 
 {{< katex >}}V = IR{{< /katex >}}
 
+The pattern of color bands on a through-hole resistor tells you its resistance value. Here's a [guide to resistance color bands](https://cdn.sparkfun.com/assets/learn_tutorials/6/4/Resistors.png).
+
 ## Power rating
 
 One other matter to worry about is what happens if you run a lot of current through a resistor. Raise the current enough, and the resistor will eventually burn out.
@@ -77,3 +79,8 @@ In this situation, the resistor is called a pull-up resistor, because it pulls t
 Because of the circuitry inside the microcontroller, very little current flows into the reset pin. This means that very little current flows across the resistor, so there is very little voltage drop across it, so the reset pin is held near 5 V. When you press the pushbutton, the reset pin is pulled to ground, and the reset occurs. While the button is held down current flows through the resistor, through the button to ground.
 
 You might think to yourself, "But couldn't the resistor just be a wire?" If the resistor were a wire, it would still pull the reset line high just fine, but when you pressed the pushbutton, you would be shorting 5 V to ground. Don't do that.
+
+## Guide to resistance color bands
+
+Determine the resistance using this [guide](https://cdn.sparkfun.com/assets/learn_tutorials/6/4/Resistors.png).
+
