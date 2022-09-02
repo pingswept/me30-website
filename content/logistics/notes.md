@@ -174,7 +174,7 @@ Schematic diagram of what we’re going to build
 - note closed loop
 - find each component as we discuss: DC power supply, one power (barrel) jack, one LED, one resistor, one pushbutton, plus various wires and a breadboard.
 
-How the barrel jack works. Power is the outer metal shell, which goes to pin 2, at closed end. Ground is the inner metal shell, which goes to pin 1, at open end.
+How the barrel jack works. See that pin 3 is not involved, and then use your multimeter to check polarity on pins 1 and 2. All of our power supplies are center-positive, but center-negative power supplies exist in the world. (In our supplies, postive is the center metal lining, which goes to pin 1, at closed end of barrel. Ground/negative is the outer metal shell, which goes to pin 2, closer to open end.)
 
 How the LED works
 
