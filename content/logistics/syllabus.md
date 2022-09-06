@@ -79,7 +79,7 @@ In ME 30 this semester, we hope to cultivate a supportive community of people wh
 
 Essentially, we'll give you a [bunch of stuff](http://andnowforelectronics.com/logistics/kit/) and ask for some payment in return (but can help those who need it). You'll get to keep the "consumables" portion of the kit, and you'll return the re-usable hardware at the end of the semester so next year's students can use them. Please keep track of and take good care of your components and equipment. 
 
-This year the consumable kit cost is $43. If the cost is a hardship, the department can help. Please read the section below about financial constraints.
+This year the consumable kit cost is $43, payble via Venmo to Nolop. If the cost is a hardship, the department can help. Please read the section below about financial constraints.
 
 ### Printed circuit board fabrication
 
