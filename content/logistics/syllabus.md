@@ -47,9 +47,8 @@ Kristen Wendell, kristen.wendell@tufts.edu
 
 Kristen's office hours are:  
 
-* Wed, 9-10am, Zoom: https://tufts.zoom.us/my/kbwendell
 * Fri, 2-4pm, in person at my ME office: Robinson 169
-* Kristen is also usually reachable on Slack.
+* Wed, 9-10am, Zoom: https://tufts.zoom.us/my/kbwendell
 
 Brandon's office hours are:
 
@@ -116,9 +115,6 @@ Here's how class will work each Tuesday and Thursday.
 * 	 **Website notes** - Added weekly to the course website to accompany the video mini-lectures.  
 * 	 **Recommended readings**  - Optional sections of the recommended textbooks to supplement videos and website notes.  
 * 	 **Canvas** - We'll use the ME 30 Canvas site to manage project submissions and grades.  
-
-### Semi-synchronous elements  
-* 	 **ME 30 Slack workspace** – Interactive discussion platform where you can post questions, frustrations, successes, ideas, at any time of the day or night. Instructors and LAs will be active participants. If you're hoping for an immediate response, try posting to Slack during an instructor's or LA's office hours, when they'll be on Slack in real time between visits from students. 
 
 ### Synchronous elements
 * 	 **LA and instructor office hours** – See schedule above. 
