@@ -52,15 +52,15 @@ Kristen's office hours are:
 
 Brandon's office hours are:
 
-* Tues/Thurs, 1-2 PM on the SEC patio
-* Brandon is also usually findable in Nolop.
+* Roughly 9 AM to 5 PM in Nolop, unless he's teaching class or in a meeting
 
 LA office hours are at Nolop at these times:
 
-* Mondays 6:30-8:30pm: Luisa & Olivia
-* Tuesdays 10:30-11:30am: Zosia
-* Wednesdays 8:00-9:00pm: Roy
-* More hours TBD
+* Sundays, 6-8 PM: Madeline and Leslie
+* Mondays 6:30-8:30 PM: Luisa & Olivia
+* Tuesdays 10:30-11:30 AM: Zosia
+* Wednesdays 8:00-9:00 PM: Roy
+* Reid's times coming soon!
 
 
 ## Course credit and time expectations
