@@ -38,14 +38,13 @@ In your project kit, you'll find all the components you'll need to build a proto
 Check the datasheets for the components to see which pin is the input pin, which is the output pin, and which should connect to ground.
 
 
-### P1 prototype: what you should do before class #3
+### P1 prototype: what you should do before class #3 (before Tues., 9/13)
 
-1. Make it so that 12 V goes into your circuit and 5 V comes out.
-2. Install Kicad.
-3. Try to replicate in Kicad the schematic of the circuit that you started building in the first class.
+1. Read and try to make sense of the website notes on [voltage regulation](http://andnowforelectronics.com/notes/voltage-regulation/). Pay special attention to the circuit diagram showing the L7805C voltage regulator.
+2. Try your best to make a breadboard circuit so that 12 V goes into your circuit and 5 V comes out, as shown on the [website diagram](http://andnowforelectronics.com/notes/voltage-regulation/). You'll need to use your [5V voltage regulator component](http://andnowforelectronics.com/notes/datasheets/#voltage-regulators).
+3. Install Kicad.
 4. Watch the Kicad demo videos, a total of 5 minutes, 59 seconds for [the first two demo videos](http://andnowforelectronics.com/notes/demo-videos/)
-5. Read and try to make sense of the web pages listed under ["What to study" on the calendar](http://andnowforelectronics.com/logistics/calendar/)
-6. If you can absorb material from books efficiently, read as much of chapter 2 from the Practical Electronics textbook as you can.
+5. If you can absorb material from books efficiently, read as much of chapter 2 from the Practical Electronics textbook as you can.
 
 ## Project #0: Power an LED with "wall" power through our DC power supply. Control it with a push button.
 
