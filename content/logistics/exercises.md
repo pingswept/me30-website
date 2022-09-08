@@ -58,7 +58,7 @@ The 4 components are:
 
 ### 3. Build voltage dividers
 
-![Voltage dividers](/img/voltage-dividers.png)
+![Voltage dividers](/img/voltage-dividers-2022.png)
 
 ### 4. Control an LED with a transistor
 
