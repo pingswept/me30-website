@@ -52,7 +52,7 @@ Kristen's office hours are:
 
 Brandon's office hours are:
 
-* Roughly 9 AM to 5 PM in Nolop, unless he's teaching class or in a meeting
+* Roughly 9 AM to 5 PM in Nolop, unless he's teaching class or in a meeting, or it's a weekend
 
 LA office hours are at Nolop at these times:
 
