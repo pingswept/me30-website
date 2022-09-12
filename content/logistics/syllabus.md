@@ -59,8 +59,8 @@ LA office hours are at Nolop at these times:
 * Sundays, 6-8 PM: Madeline and Leslie
 * Mondays 6:30-8:30 PM: Luisa & Olivia
 * Tuesdays 10:30-11:30 AM: Zosia
+* Wednesdays 6:00-8:00 PM: Reid
 * Wednesdays 8:00-9:00 PM: Roy
-* Reid's times coming soon!
 
 
 ## Course credit and time expectations
