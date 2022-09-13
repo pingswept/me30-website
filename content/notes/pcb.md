@@ -16,7 +16,7 @@ Here's a purple PCB from OSHPark. Note that the power jack is oriented in such a
 
 ## What software?
 
-You should use [Kicad](https://kicad-pcb.org). It's free and open source, which means that once you learn to use it, you can make PCBs as long as you have a computer. You could also try [Eagle](https://www.autodesk.com/products/eagle/overview), which might be a little easier to use, but it requires a subscription if you want to make a commercial board bigger than this chocolate bar that I'm eating. I've designed a few boards in Eagle; neither Kicad nor Eagle is great (though both are improving fairly quickly after a decade or so of stagnation). You could also try a browser-based program like [Upverter](https://upverter.com), but if they shut down their servers, your designs are gone.
+You should use [Kicad](https://www.kicad.org/). It's free and open source, which means that once you learn to use it, you can make PCBs as long as you have a computer. You could also try [Eagle](https://www.autodesk.com/products/eagle/overview), which might be a little easier to use, but it requires a subscription if you want to make a commercial board bigger than this chocolate bar that I'm eating. I've designed a few boards in Eagle; neither Kicad nor Eagle is great (though both are improving fairly quickly after a decade or so of stagnation). You could also try a browser-based program like [Upverter](https://upverter.com), but if they shut down their servers, your designs are gone.
 
 If it makes you feel any better, expensive PCB design software, like [Altium Designer](http://altium.com), is also pretty lousy. (I think the general problem the industry is facing is that electrical engineers are a relatively small population, and they're pretty good at figuring out how to use bad software.)
 
@@ -47,7 +47,7 @@ Here's a rough summary of how to use Kicad.
 *   [Digikey's Intro to KiCad playlist on Youtube](https://www.youtube.com/watch?v=vaCVh2SAZY4) 
 
 Note that the first two tutorials above were created before the latest version of KiCad was released, so a few aspects of your KiCad interface might look slightly different. The main steps remain the same, however. For the most up-to-date written tutorial, try KiCad's own "Getting Started in KiCad":
-*   [KiCad's Getting Started tutorial](https://docs.kicad-pcb.org/#_getting_started)
+*   [KiCad's Getting Started tutorial](https://docs.kicad.org/6.0/en/getting_started_in_kicad/getting_started_in_kicad.html)
 
 
 ## General PCB checklist (not applicable to every project)
