@@ -32,21 +32,21 @@ Here's a rough summary of how to use Kicad.
 4.  (If you're using a laptop with a trackpad, plug in a real mouse.)
 
 ### Steps with the Software
-6.  Open Kicad
-7.  Make a new project.
-8.  Add components to the schematic file.
-9.  Connect the components together in the schematic.
-10.  Associate a footprint with each component.
-11.  Generate a netlist from the schematic.
-12.  Read the netlist into the PCB file.
-13.  If your footprints are all in a stack, right-click > Global Spread and Place > Spread out All Footprints
-14.  Make a mechanical outline of the PCB on the Edge.Cuts layer using "Add Graphic Line or Polygon."
-15.  Roughly arrange the parts the way you want them.
-16.  Place mechanically critical components.
-17.  Place the rest of the components and route traces between everything.
-18.  Run a design rule check (DRC). (Kicad calls this an ERC, but nobody else does.)
-19.  Repeat cycle: schematic/footprints -> gen. netlist -> read netlist -> tweak layout -> run DRC
-20.  Submit .kicad_pcb file to OSH Park (or possibly generate Gerber files for another manufacturer).
+5.  Open Kicad
+6.  Make a new project.
+7.  Add components to the schematic file.
+8.  Connect the components together in the schematic.
+9.  Associate a footprint with each component.
+10.  Generate a netlist from the schematic.
+11.  Read the netlist into the PCB file.
+12.  If your footprints are all in a stack, right-click > Global Spread and Place > Spread out All Footprints
+13.  Make a mechanical outline of the PCB on the Edge.Cuts layer using "Add Graphic Line or Polygon."
+14.  Roughly arrange the parts the way you want them.
+15.  Place mechanically critical components.
+16.  Place the rest of the components and route traces between everything.
+17.  Run a design rule check (DRC). (Kicad calls this an ERC, but nobody else does.)
+18.  Repeat cycle: schematic/footprints -> gen. netlist -> read netlist -> tweak layout -> run DRC
+19.  Submit .kicad_pcb file to OSH Park (or possibly generate Gerber files for another manufacturer).
 
 ## Tutorials to get you started
 
@@ -57,7 +57,10 @@ Here's a rough summary of how to use Kicad.
 Note that the first two tutorials above were created before the latest version of KiCad was released, so a few aspects of your KiCad interface might look slightly different. The main steps remain the same, however. For the most up-to-date written tutorial, try KiCad's own "Getting Started in KiCad":
 *   [KiCad's Getting Started tutorial](https://docs.kicad.org/6.0/en/getting_started_in_kicad/getting_started_in_kicad.html)
 
-Tip: Use the KiCad "hot keys" to more easily move, rotate, and label components in your schematic and layout.
+{{< hint danger >}}
+**Tip: Use the KiCad "hot keys" to more easily move, rotate, and label components in your schematic and layout.**
+![KiCad hotkeys](/img/hotkeys.jpg)
+{{< /hint >}}
 
 ## General PCB checklist (not applicable to every project)
 
@@ -101,7 +104,7 @@ Here are some fanciful PCBs I made a few years ago. The rocket engine is actuall
 
 ![More PCBs shaped like rockets by Brandon Stafford](/img/array-of-rocket-pcbs.jpg)
 
-## 2020 PCB design tips
+## PCB design tips from former ME 30 students
 
 ### Lessons learned from Gus, Emily, and Alex:
 
