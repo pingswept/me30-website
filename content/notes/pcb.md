@@ -48,6 +48,11 @@ Here's a rough summary of how to use Kicad.
 18.  Repeat cycle: schematic/footprints -> gen. netlist -> read netlist -> tweak layout -> run DRC
 19.  Submit .kicad_pcb file to OSH Park (or possibly generate Gerber files for another manufacturer).
 
+
+{{< hint danger >}}
+**Tip: Use the KiCad ["hot key keyboard shortcuts"](/img/KiCAD-hotkeys.pdf) to more easily move, rotate, and label components in your schematic and layout.**
+{{< /hint >}}
+
 ## Tutorials to get you started
 
 *   [Chris Gammell's video tutorial on Youtube](https://www.youtube.com/watch?v=PlDOnSHkX2c)
@@ -57,10 +62,6 @@ Here's a rough summary of how to use Kicad.
 Note that the first two tutorials above were created before the latest version of KiCad was released, so a few aspects of your KiCad interface might look slightly different. The main steps remain the same, however. For the most up-to-date written tutorial, try KiCad's own "Getting Started in KiCad":
 *   [KiCad's Getting Started tutorial](https://docs.kicad.org/6.0/en/getting_started_in_kicad/getting_started_in_kicad.html)
 
-{{< hint danger >}}
-**Tip: Use the KiCad ["hot keys"](/img/KiCAD-hotkeys.pdf) to more easily move, rotate, and label components in your schematic and layout.**
-![KiCad hotkeys](/img/hotkeys.png)
-{{< /hint >}}
 
 ## General PCB checklist (not applicable to every project)
 
