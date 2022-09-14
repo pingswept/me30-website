@@ -58,8 +58,8 @@ Note that the first two tutorials above were created before the latest version o
 *   [KiCad's Getting Started tutorial](https://docs.kicad.org/6.0/en/getting_started_in_kicad/getting_started_in_kicad.html)
 
 {{< hint danger >}}
-**Tip: Use the KiCad "hot keys" to more easily move, rotate, and label components in your schematic and layout.**
-![KiCad hotkeys](/img/hotkeys.jpg)
+**Tip: Use the KiCad ["hot keys"](KiCAD-hotkeys.pdf) to more easily move, rotate, and label components in your schematic and layout.**
+![KiCad hotkeys](/img/hotkeys.png)
 {{< /hint >}}
 
 ## General PCB checklist (not applicable to every project)
