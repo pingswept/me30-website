@@ -48,7 +48,7 @@ Here's a rough summary of how to use Kicad.
 18.  Repeat cycle: schematic/footprints -> gen. netlist -> read netlist -> tweak layout -> run DRC
 19.  Submit .kicad_pcb file to OSH Park (or possibly generate Gerber files for another manufacturer).
 
-
+### Keyboard Shortcuts
 {{< hint danger >}}
 **Tip: Use the KiCad ["hot key keyboard shortcuts"](/img/KiCAD-hotkeys.pdf) to more easily move, rotate, and label components in your schematic and layout.**
 {{< /hint >}}
@@ -154,7 +154,6 @@ Here are some fanciful PCBs I made a few years ago. The rocket engine is actuall
 * If components start to heat up, something is wired wrong
 * Good practice: check all the wiring before you plug your circuit into a power source
 *	How to look up all the components of the circuit in the library
-*	How to use it! And feel comfortable with it!
 *	Using the 3D viewer
 *	Placing wires on top and bottom layer
 *	Condensing components
