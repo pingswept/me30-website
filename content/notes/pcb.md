@@ -1,5 +1,5 @@
 ---
-title: "PCB design"
+title: "PCB design/Kicad"
 draft: false
 ---
 
@@ -24,21 +24,29 @@ If it makes you feel any better, expensive PCB design software, like [Altium Des
 
 Here's a rough summary of how to use Kicad.
 
-1.  (If you're using a laptop with a trackpad, plug in a real mouse.)
-2.  Make a new project.
-3.  Add components to the schematic file.
-4.  Connect the components together in the schematic.
-5.  Associate a footprint with each component.
-6.  Generate a netlist from the schematic.
-7.  Read the netlist into the PCB file.
-8.  If your footprints are all in a stack, right-click > Global Spread and Place > Spread out All Footprints
-9.  Make a mechanical outline of the PCB on the Edge.Cuts layer using "Add Graphic Line or Polygon."
-10.  Roughly arrange the parts the way you want them.
-11.  Place mechanically critical components.
-12.  Place the rest of the components and route traces between everything.
-13.  Run a design rule check (DRC). (Kicad calls this an ERC, but nobody else does.)
-14.  Repeat cycle: schematic/footprints -> gen. netlist -> read netlist -> tweak layout -> run DRC
-15.  Submit .kicad_pcb file to OSH Park (or possibly generate Gerber files for another manufacturer).
+### Preparation Steps
+
+1.  Make sure you have a working breadboard prototype of your circuit.
+2.  Draw a schematic diagram of your circuit on paper, so you know what you are trying to re-create on Kicad.
+3.  Determine any physical constraints for your final printed circuit board: its ideal length and width, any components that need to be in a specific location (e.g., to match up with breadboard holes or allow for plug access). 
+4.  (If you're using a laptop with a trackpad, plug in a real mouse.)
+
+### Steps with the Software
+6.  Open Kicad
+7.  Make a new project.
+8.  Add components to the schematic file.
+9.  Connect the components together in the schematic.
+10.  Associate a footprint with each component.
+11.  Generate a netlist from the schematic.
+12.  Read the netlist into the PCB file.
+13.  If your footprints are all in a stack, right-click > Global Spread and Place > Spread out All Footprints
+14.  Make a mechanical outline of the PCB on the Edge.Cuts layer using "Add Graphic Line or Polygon."
+15.  Roughly arrange the parts the way you want them.
+16.  Place mechanically critical components.
+17.  Place the rest of the components and route traces between everything.
+18.  Run a design rule check (DRC). (Kicad calls this an ERC, but nobody else does.)
+19.  Repeat cycle: schematic/footprints -> gen. netlist -> read netlist -> tweak layout -> run DRC
+20.  Submit .kicad_pcb file to OSH Park (or possibly generate Gerber files for another manufacturer).
 
 ## Tutorials to get you started
 
@@ -49,6 +57,7 @@ Here's a rough summary of how to use Kicad.
 Note that the first two tutorials above were created before the latest version of KiCad was released, so a few aspects of your KiCad interface might look slightly different. The main steps remain the same, however. For the most up-to-date written tutorial, try KiCad's own "Getting Started in KiCad":
 *   [KiCad's Getting Started tutorial](https://docs.kicad.org/6.0/en/getting_started_in_kicad/getting_started_in_kicad.html)
 
+Tip: Use the KiCad "hot keys" to more easily move, rotate, and label components in your schematic and layout.
 
 ## General PCB checklist (not applicable to every project)
 
@@ -128,7 +137,7 @@ Here are some fanciful PCBs I made a few years ago. The rocket engine is actuall
 * What to label. When in doubt, label everything. 
 * Where to place connector pins and how to connect in circuit diagram.
 
-## From other groups:
+### From other groups:
 
 * Troubleshooting issues: close the whole application and restart (“brain refresh”)
 * Finding components: google main header, some are named weirdly
