@@ -63,21 +63,21 @@ Demo of DC motor working, using rotor from sander and magnet.
 
 Exercise: measure time to lift around 0.5 kg of water 0.5 m. Measure current and voltage. Estimate power in, power out, and efficiency. (Turns out efficiency is only 10% or so. I guess gearbox friction is terrible, and effiency is generally bad at low speeds.)
 
-## (2021) Class 5: MOSFETs
+## (2021) Class 6: MOSFETs
 
-### Intro stuff
-
-LA's: set up power strips right away.
 
 ### Motor measurements, episode 1
 
 Measure the resistance of your DC gearmotor's coils. Then, hook it up to 12 V with alligator clips and measure its no-load current. (The current will be relatively high, around 100-150 mA, because the gearbox friction is already loading your motor.)
 
-## Class 4: 
 
-### Kicad Q&A, intro to transistors
+## Class 5: 
 
-Kicad Q & A session
+### Kicad practice, Kicad Q&A, intro to transistors
+
+Kicad practice with an in-class exercise to make the layout for a push-button motor supply PCB that would work in tandem with the Project 1 PCB (on the same breadboard). See Exercises.
+
+Kicad Q & A session using shared doc to crowd source answers
 
 ### Low power and high power: BJTs
 ### The geography of electronics
@@ -88,9 +88,9 @@ We use small, low power chunks of silicon to control transistors, which control 
 
 All about BJTs
 
-Build a BJT circuit to control an LED. First hook up an LED without a BJT so you know you have your current-limiting resistor right. Then, add the BJT with a base resistor.
+Build a BJT circuit to control an LED (or motor from the Motor Power Supply circuit discussed in the opening exercise). First hook up an LED without a BJT so you know you have your current-limiting resistor right. Then, add the BJT with a base resistor.
 
-## Class 3: Kicad
+## Class 4: Kicad
 
 You’ve got some basic circuit knowledge. You’re gonna build lots more circuit knowledge, but we’ve got to get some manufacturing underway. While it would be ideal to wait til a bit later to add this complexity, PCB manufacturing isn’t instantaneous so need to start now, so you have the PCB in hand when needed.
 
@@ -101,6 +101,16 @@ schematic -> netlist export -> assign footprints -> netlist import -> lay out PC
 Important maxim: if a footprint has the right size holes in the right location, it is the right footprint. You can also care about the part outline and labels, but the holes are what matter the most.
 
 How PCBs are made, briefly. Copper-clad fiberglass is drilled, exposed to light, etched with acid, and covered in soldermask and silkscreen. Multilayer PCBs contain power planes and rectilinear spaghetti.
+
+## Class 3: Catch-up mini-lecture
+
+Ohm's law and i-v curves
+
+Using a multimeter - 3 ways
+
+Big picture view of Project 1
+
+Q & A about Project 1 breadboard prototypes
 
 
 ## Class 2: Build a voltage regulator circuit
