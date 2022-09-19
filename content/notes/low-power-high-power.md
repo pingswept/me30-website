@@ -1,6 +1,6 @@
 ---
 title: "Low power/high power"
-draft: true
+draft: false
 ---
 
 ## Controlling high power with low power
