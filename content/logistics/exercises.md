@@ -44,7 +44,13 @@ That's trying to tell you that when the jack is empty (i.e. no plug inserted), p
 *For an extension to this exercise, re-arrange your circuit so you have one LED that stays on permanently and another that is powered by the button.*
 
 
-### 2: Build a voltage regulation circuit
+### 2. Build voltage dividers
+
+![Voltage dividers](/img/voltage-dividers-2022.png)
+
+
+
+### 3: Build a voltage regulation circuit
 
 This is an introductory exercise designed to help you get familiar with breadboard prototyping while also building a basic circuit that will be useful for later exercises and projects. It forms the basis for Project #1, but you don't need to think about that yet. If this is all new to you, look at the pages on [breadboard prototyping](/notes/prototyping/) and [multimeters](/notes/multimeters/).
 
@@ -56,11 +62,20 @@ The 4 components are:
 2. One L7805CV voltage regulator
 3. Two capacitors
 
-### 3. Build voltage dividers
 
-![Voltage dividers](/img/voltage-dividers-2022.png)
+### 4. Motor power supply board with indicator LED
 
-### 4. Control an LED with a transistor
+The goal of this exercise is to give you more practice with Kicad while also showing you a sample use of the Project 1 PCB.
+
+Assume you've received your Breadboard Power Supply PCB (Project 1) back from OSH Park, and you've soldered on all of the components. You plug it into one end of your breadboard, and now you have one of your breadboard (+) rails powered at 5 V, the other (+) rail powered at 3.3 V, and a screw terminal on your Project 1 PCB powered at 12 V.
+
+Now imagine a second PCB plugged into the other end of your breadboard. Let's call this a "Motor Power Supply" PCB.
+
+In this exercise, your task is to design this "Motor Power Supply" PCB so that works in tandem with your Breadboard Power Supply PCB from Project 1. This new PCB does two things: (1) it lights an LED to show when 5 V is available on your breadboard, and (2) on the push of a simple button, it runs a motor at 12 V, through a screw terminal. 
+
+Pretend that you've already created a breadboard prototype of this Motor Power Supply PCB.  A schematic diagram for your Motor Power Supply looks like this:
+
+### 5. Control an LED with a transistor
 
 Making an LED light up is pretty simple: put a resistor in series with it and apply a voltage. If you sized the resistor right and didn't put the LED in backwards, you're done. When we want to control things like LEDs electronically, instead of plugging them in to breadboards with our hands, we use transistors. The goal of this exercise is to use a bipolar junction transistor, the 2N3904, to turn on and off an LED.
 
