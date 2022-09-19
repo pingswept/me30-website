@@ -104,7 +104,7 @@ The picture below shows the concept of what you're building. In place of the mot
 
 ![Typical BJT circuit](/img/typical-bjt-circuit.png)
 
-### 5. Measure a DC gearmotor (part 1)
+### 6. Measure a DC gearmotor (part 1)
 
 Here are a few basic measurements you can make to understand your DC gearmotor better. We'll start with current measurement.
 
