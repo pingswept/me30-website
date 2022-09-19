@@ -65,29 +65,29 @@ The 4 components are:
 
 ### 4. Motor power supply PCB with indicator LED (Sep. 20)
 
-The goal of this exercise is to give you more practice with Kicad while also showing you a sample use of the Project 1 PCB.
+The goal of this exercise is to give you more practice with Kicad while also demonstrating how one might use the PCB you've been working on for Project 1.
 
-Imagine you've received your Breadboard Power Supply PCB (Project 1) back from OSH Park, and you've soldered on all of the components. You plug it into one end of your breadboard. With it plugged in, now you have one of your breadboard (+) rails powered at 5 V, the other (+) rail powered at 3.3 V, and a screw terminal powered at 12 V.
+Imagine you've received your breadboard power supply PCB (project 1) back from OSH Park, and you've soldered on all of the components. You plug it into one end of your breadboard. With it plugged in, you have one of your positive breadboard rails powered at 5 V, the other positive rail powered at 3.3 V, and a screw terminal powered at 12 V.
 
-Now imagine a second PCB plugged into the other end of your breadboard. Let's call this a "Motor Power Supply" PCB.
+Now we'll design a second PCB that will plug into the other end of your breadboard. Let's call this a motor power supply.
 
-**In this exercise, your task is to make (on Kicad) the PCB layout for this new "Motor Power Supply" board so that works in tandem with your Breadboard Power Supply PCB from Project 1.**
+**In this exercise, your task is to design the PCB layout for this new board in Kicad so that it works with your P1 PCB.**
 
-This new PCB has two functions: 
-(1) it lights an LED to show when 5 V is available on your breadboard, and 
-(2) on the push of a simple button, it runs a motor at 12 V, through a screw terminal. 
+Today's new PCB has two functions:
 
-Pretend that you've already created a breadboard prototype of this Motor Power Supply PCB.  A schematic diagram for your Motor Power Supply shows that it's really just two simple circuits:
+1. It lights an LED to show when 5 V is available on your breadboard, and 
+2. When you push a button, it runs a motor at 12 V, through a screw terminal. 
+
+Pretend that you've already created a breadboard prototype of this motor power supply PCB.  A schematic diagram for your motor power supply shows that it's really just two simple circuits:
 
 ![Motor supply schematic](/img/motorsupply-PCB.jpg)
 
-Your Motor Power Supply PCB should include the following components:
-- screw terminal
-- header pins
-- LED
-- resistor
-- push button
-
+Your new PCB should include the following components:
+* 2 screw terminals
+* some header pins
+* 1 LED
+* 1 resistor
+* 1 push button
 
 ### 5. Control an LED with a transistor
 
