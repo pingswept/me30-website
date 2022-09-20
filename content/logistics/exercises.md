@@ -89,6 +89,10 @@ Your new PCB should include the following components:
 * 1 resistor
 * 1 push button
 
+Shared doc for posting your work and questions:
+https://docs.google.com/document/d/1ONtsG_-AVNehNyhWbaVRlC9eLj0BGLUVzQcgiZofu24/edit?usp=sharing
+
+
 ### 5. Control an LED with a transistor
 
 Making an LED light up is pretty simple: put a resistor in series with it and apply a voltage. If you sized the resistor right and didn't put the LED in backwards, you're done. When we want to control things like LEDs electronically, instead of plugging them in to breadboards with our hands, we use transistors. The goal of this exercise is to use a bipolar junction transistor, the 2N3904, to turn on and off an LED.
