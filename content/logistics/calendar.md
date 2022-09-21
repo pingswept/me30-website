@@ -36,5 +36,5 @@ draft: false
 |      | 12/8  |    Last class                      |                               |                                                                          |   [P4 final](http://andnowforelectronics.com/logistics/projects)  |
 | (15) | 12/13 |                                   |                               |                                                                          |                                       |
 |    | 12/15 |    (Finals start)                    |                               |                                                                          |                                       |
-|  (16)  | 12/20 |                                   |                               |                                                                          |[P5 showcase](http://andnowforelectronics.com/logistics/projects)|
+|  (16)  | 12/15 |                                   |                               |                                                                          |[P5 showcase, 12-2pm](http://andnowforelectronics.com/logistics/projects)|
 |    | 12/22 |   (Finals end)       |                               |                                                                          |                                       |
