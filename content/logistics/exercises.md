@@ -101,7 +101,7 @@ You need 4 things:
 
 1. A 5 V voltage source, like the voltage regulation circuit you built previously
 2. A 2N3904 transistor (or really any transistor is fine, if you know the pinout)
-3. A gear motor
+3. A DC gear motor
 4. An appropriately-sized current-limiting resistor for the BJT
 
 The picture below shows the concept of what you're building. In place of the 24 V source, we'll use your 12 V source.
