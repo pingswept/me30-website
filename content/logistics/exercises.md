@@ -93,18 +93,18 @@ Shared doc for posting your work and questions:
 https://docs.google.com/document/d/1ONtsG_-AVNehNyhWbaVRlC9eLj0BGLUVzQcgiZofu24/edit?usp=sharing
 
 
-### 5. Control an LED with a transistor
+### 5. Control a motor with a transistor
 
-Making an LED light up is pretty simple: put a resistor in series with it and apply a voltage. If you sized the resistor right and didn't put the LED in backwards, you're done. When we want to control things like LEDs electronically, instead of plugging them in to breadboards with our hands, we use transistors. The goal of this exercise is to use a bipolar junction transistor, the 2N3904, to turn on and off an LED.
+Making a motor spin is pretty simple: apply sufficient voltage across its leads. When we want to control things like motors (or LEDs, buzzers, etc.) electronically, instead of plugging them in to breadboards with our hands, we use transistors. The goal of this exercise is to use a bipolar junction transistor, the 2N3904, to turn on and off a motor.
 
 You need 4 things:
 
 1. A 5 V voltage source, like the voltage regulation circuit you built previously
 2. A 2N3904 transistor (or really any transistor is fine, if you know the pinout)
-3. An LED
-4. Two appropriately-sized current-limiting resistors: one for the LED, one for the BJT
+3. A gear motor
+4. Two appropriately-sized current-limiting resistors: one for the motor, one for the BJT
 
-The picture below shows the concept of what you're building. In place of the motor, we'll use an LED.
+The picture below shows the concept of what you're building. In place of the 24 V source, we'll use your 12 V source.
 
 ![Typical BJT circuit](/img/typical-bjt-circuit.png)
 
