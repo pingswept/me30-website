@@ -1,5 +1,5 @@
 ---
-title: "Weekly Updates"
+title: "Weekly updates"
 draft: false
 ---
 ## Archive of Weekly Update Emails
