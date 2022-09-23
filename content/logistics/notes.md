@@ -53,7 +53,9 @@ Pull-down and pull-up resistors.
 
 If time, NPN used to turn on P-channels.
 
-## (2021) Class 6: Motors
+## Class 7: Motors
+
+### Motor measurements, episode 1
 
 Comments on feedback from last class.
 
@@ -63,21 +65,12 @@ Demo of DC motor working, using rotor from sander and magnet.
 
 Exercise: measure time to lift around 0.5 kg of water 0.5 m. Measure current and voltage. Estimate power in, power out, and efficiency. (Turns out efficiency is only 10% or so. I guess gearbox friction is terrible, and effiency is generally bad at low speeds.)
 
-## (2021) Class 6: MOSFETs
+Exercise: Measure the resistance of your DC gearmotor's coils. Then, hook it up to 12 V with alligator clips and measure its no-load current. (The current will be relatively high, around 100-150 mA, because the gearbox friction is already loading your motor.)
 
 
-### Motor measurements, episode 1
+## Class 6:
 
-Measure the resistance of your DC gearmotor's coils. Then, hook it up to 12 V with alligator clips and measure its no-load current. (The current will be relatively high, around 100-150 mA, because the gearbox friction is already loading your motor.)
-
-
-## Class 5: 
-
-### Kicad practice, Kicad Q&A, intro to transistors
-
-Kicad practice with an in-class exercise to make the layout for a push-button motor supply PCB that would work in tandem with the Project 1 PCB (on the same breadboard). See Exercises.
-
-Kicad Q & A session using shared doc to crowd source answers
+### Intro to transistors
 
 ### Low power and high power: BJTs
 ### The geography of electronics
@@ -88,7 +81,17 @@ We use small, low power chunks of silicon to control transistors, which control 
 
 All about BJTs
 
-Build a BJT circuit to control an LED (or motor from the Motor Power Supply circuit discussed in the opening exercise). First hook up an LED without a BJT so you know you have your current-limiting resistor right. Then, add the BJT with a base resistor.
+Exercise #5: Build a BJT circuit to control a motor. First hook up a motor without a BJT so you know you have your 12 V wired correctly. Also set up your 5 V regulator. Then, add the BJT with a base resistor.
+
+
+## Class 5: 
+
+### Kicad practice, Kicad Q&A
+
+More Kicad practice with an in-class exercise to make the layout for a push-button motor supply PCB that would work in tandem with the Project 1 PCB (on the same breadboard). See Exercise #4.
+
+Kicad Q & A session using shared doc to crowd-source answers
+
 
 ## Class 4: Kicad
 
