@@ -32,9 +32,8 @@ draft: false
 |      | 11/24 | No class (Thanksgiving)                    |                               |                                                                          |                                                               |
 |  13  | 11/29 | Intro to the frequency domain, Basic types of control              |                               |                                                                          |                                                               |
 |      | 12/1  | Project management, BOMs                   |                               |                                                                          |                                                               |
-|  14  | 12/6  |  Jobs talk                   |                               |                                                                          |                                                       |
-|      | 12/8  |    Last class                      |                               |                                                                          |   [P4 final](http://andnowforelectronics.com/logistics/projects)  |
-| (15) | 12/13 |                                   |                               |                                                                          |                                       |
-|    | 12/15 |    (Finals start)                    |                               |                                                                          |                                       |
-|  (16)  | 12/15 |                                   |                               |                                                                          |[P5 showcase, 12-2pm](http://andnowforelectronics.com/logistics/projects)|
+|  14  | 12/6  | P4 demo day                 |                               |                                                                          |   [P4 final](http://andnowforelectronics.com/logistics/projects)       |
+|      | 12/8  | Last class, jobs talk                      |                               |                                           |         |
+| (15) | 12/13 |                                   |                               |                                              |                                       |
+|    | 12/15 |   (Finals start)        |                               |                                                                          |[P5 showcase, 12-2pm](http://andnowforelectronics.com/logistics/projects)|
 |    | 12/22 |   (Finals end)       |                               |                                                                          |                                       |
