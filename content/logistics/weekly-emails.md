@@ -26,6 +26,7 @@ draft: false
 - [Project 2 introduction](http://andnowforelectronics.com/logistics/projects/) (includes one mini-lecture video)
 
 **Optional additional reading for Week 4:**
+- If you’re curious to know about what’s going on inside your transistors, try Veritasium’s [6-minute video](https://www.youtube.com/watch?v=IcrBqCFLHIY&list=PLkahZjV5wKe_dajngssVLffaCh2gbq55_&index=1&t=17s) on how transistors work
 - Note that both of our optional course textbooks are available online for free from Tisch Library
 - “Transistors” (Section 4.3, pgs. 429-467) in [Practical Electronics for Inventors](https://tufts-primo.hosted.exlibrisgroup.com/permalink/f/k87dab/TN_cdi_safari_books_9781259587559) (Scherz & Monk) 
 - “Chapter 6: Eeny, Meeny, Miny, Motor: Options for Creating and Controlling Motion” (pgs. 123-181) in [Making Things Move](https://tufts-primo.hosted.exlibrisgroup.com/permalink/f/k87dab/TN_cdi_askewsholts_vlebooks_9780071741682) (Roberts)
