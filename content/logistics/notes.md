@@ -31,7 +31,7 @@ Pulse Width Modulation to control speed of motors. Ideally demo this using a sig
 
 Exercise: Work on KiCAD - revisit this and come up with motor related exercise. 
 
-## (2021) Class 8: Hidden Challenges of Project 2 & H-Bridge Debugging
+## Class 9: Hidden Challenges of Project 2 & H-Bridge Debugging
 
 Challenge 1: Ampacity. What size traces to use and how to find out? 
 
@@ -43,7 +43,9 @@ H-bridge debugging. Testing individual MOSFETs. Using multimeter to check voltag
 
 Exercise: Continue working on H-bridge prototype.
 
-## (2021) Class 7: Spinning in both directions: the H-bridge
+## Class 8: Soldering demo and Spinning in both directions: the H-bridge
+
+Soldering demo so students are prepared for the arrival of P1 PCBs and the in-class test of the P1 PCBs (in a couple weeks)
 
 High-side vs. low-side drive. NPN and PNP. N-channel and P-channel.
 
@@ -53,11 +55,11 @@ Pull-down and pull-up resistors.
 
 If time, NPN used to turn on P-channels.
 
-## Class 7: Motors
+## Class 7: MOSFETs and Motors
 
-### Motor measurements, episode 1
+### Control a motor with a MOSFET
 
-Comments on feedback from last class.
+### Motor measurements
 
 Description of how a DC motor works.
 
