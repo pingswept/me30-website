@@ -5,6 +5,34 @@ draft: false
 ## Archive of Weekly Update Emails
 
 - - -
+### Week 4: Tuesday, 9/29/22
+
+**Course housekeeping:**
+- Each week, please use the course website [Calendar](http://andnowforelectronics.com/logistics/calendar/) to see what website notes and videos to view that week. These course website resources will help you understand the circuits we are building in class and for your projects. 
+- If you’ve missed class due to illness, please check both the [Calendar](http://andnowforelectronics.com/logistics/calendar/) and the [Exercises](http://andnowforelectronics.com/logistics/exercises/) section of the website to see what we did in class. Reach out to an instructor or Learning Assistant if you have questions.
+- Come visit us at [office hours](http://andnowforelectronics.com/logistics/syllabus/#office-hours)!
+
+**Things due in Week 4:**
+- Nothing due this week. Project 2 prototype will be due next Thursday, Oct. 6.
+
+**Learning goals for Week 4:**
+- Explain how to use transistors to control high power with low power.
+- Build circuits incorporating motors.
+- Explain how an H-bridge motor controller works.
+
+**What you should watch and read this week:**
+- [Low power/high power](http://andnowforelectronics.com/notes/low-power-high-power/) (includes three mini-lecture videos)
+- [H-bridges](http://andnowforelectronics.com/notes/h-bridge/)
+- [Project 2 introduction](http://andnowforelectronics.com/logistics/projects/) (includes one mini-lecture video)
+
+**Optional additional reading for Week 4:**
+- Note that both of our optional course textbooks are available online for free from Tisch Library
+- “Transistors” (Section 4.3, pgs. 429-467) in [Practical Electronics for Inventors](https://tufts-primo.hosted.exlibrisgroup.com/permalink/f/k87dab/TN_cdi_safari_books_9781259587559) (Scherz & Monk) 
+- “Chapter 6: Eeny, Meeny, Miny, Motor: Options for Creating and Controlling Motion” (pgs. 123-181) in [Making Things Move](https://tufts-primo.hosted.exlibrisgroup.com/permalink/f/k87dab/TN_cdi_askewsholts_vlebooks_9780071741682) (Roberts)
+
+
+- - -
+
 
 ### Week 3: Tuesday, 9/20/22 
 
