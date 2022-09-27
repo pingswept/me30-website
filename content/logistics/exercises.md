@@ -112,7 +112,7 @@ The picture below shows the concept of what you're building. In place of the 24 
 
 You've used a bipolar junction transistor to control a motor. Now try using the other main class of transistor: a metal oxide semiconductor field effect transistor, or MOSFET.  The main difference between the [two types of transistors](http://andnowforelectronics.com/notes/low-power-high-power/) is that BJTs are current-controlled, and MOSFETs are voltage-controlled.
 
-You need 4 things:
+You need 5 things:
 
 1. 3.3 V voltage source, which you can make using the 3.3V regulator in your kit
 2. 12 V voltage source
@@ -122,15 +122,25 @@ You need 4 things:
 
 ![MOSFET circuit](/img/mosfet-controller.jpg)
 
-### 7. Measure a DC gearmotor (part 1)
+### 7. Measure a DC gearmotor (Power In)
 
-Here are a few basic measurements you can make to understand your DC gearmotor better. We'll start with current measurement.
+Here are a few basic measurements you can make to understand your DC gearmotor better. The overall goal is to determine the efficiency of the motor by comparing the electrical power that goes into it ("power in") with the mechanical power it delivers ("power out"). 
+
+We'll start with determing the minimum and maximum current that the motor draws.
 
 1. When your motor is stalled (like if you're trying to lift something too heavy with it), it behaves like a resistor. This is when your motor draws maximum current, so checking the resistance is a good way to estimate the maximum current for whatever drive voltage you choose. Using the resistance-measuring setting of your multimeter (the omega symbol, Ω, represents ohms), measure the resistance of the coils of your motor.
 2. Make your DC gearmotor spin by connecting your motor directly to your 12 V DC power supply using alligator clips. Then, measure the current the motor draws with no load attached by putting your multimeter in series with the motor. You should switch your multimeter to the A setting (for Amps), and move the red lead to the port on the left side of the meter that is labeled "A". The black lead stays in the black port labeled "COM".
 
-With these measurements, you can estimate the maximum current the motor will draw at any voltage, and the minimum current at 12 V. If you can estimate how much power a task will require, you can start to figure out what voltage this motor would need to deliver that power (assuming perfect efficiency, for now). That's the first step toward deciding whether this is the right motor for whatever you're building.
+With measurement #1 above (the resistance of the coils), you can estimate the **maximum current** the motor will draw at any voltage. With measurement #2, you can find the **minimum current at 12 V**. 
 
-### 8. Measure a DC gearmotor (part 2)
+When you know the current and the voltage, you can multiply them to find the electrical power going into the motor.
 
-Measure the time it takes to lift around 0.5 kg of water 0.5 m. Measure current and voltage. Estimate power in, power out, and efficiency.
+If you can estimate how much power a task will require, you can start to figure out what voltage this motor would need to deliver that power (assuming perfect efficiency, for now). That's the first step toward deciding whether this is the right motor for whatever you're building.
+
+### 8. Measure a DC gearmotor (Power Out)
+
+The next step is to determine how much mechanical power the motor actually delivers ("power out"). One way to do this is to measure the time it takes to perform a certain amount of work (i.e., to add energy to a system).
+
+1. Use tape and string to hang a water bottle from your motor shaft.
+2. Measure the time it takes your motor to lift around 0.5 kg of water 0.5 m. Compute the amount of work done in lifting the water. With these two values, you can find "power out."
+3. Compare "power in" and "power out" to estimate the motor's efficiency.
