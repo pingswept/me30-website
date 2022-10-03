@@ -31,7 +31,7 @@ Pulse Width Modulation to control speed of motors. Ideally demo this using a sig
 
 Exercise: Work on KiCAD - revisit this and come up with motor related exercise. 
 
-## Class 9: Hidden Challenges of Project 2 & H-Bridge Debugging
+## Class 10: Hidden Challenges of Project 2 & H-Bridge Debugging
 
 Challenge 1: Ampacity. What size traces to use and how to find out? 
 
@@ -39,13 +39,22 @@ Challenge 2: Making sure you have connectors on PCB to connect motor and Arduino
 
 Review of KiCAD footprints and how to find appropriate footprints if there isn't a matching option.
 
+## Class 9: Soldering demo and H-bridge details
+
+Soldering demo so students are prepared for the arrival of P1 PCBs and the in-class test of the P1 PCBs (in a couple weeks)
+
+Introduce BJT as better method of switching P channels
+
+H-bridge circuit analysis worksheet
+
+Build H-bridges with BJTs
+
 H-bridge debugging. Testing individual MOSFETs. Using multimeter to check voltage at various points. 
 
 Exercise: Continue working on H-bridge prototype.
 
-## Class 8: Soldering demo and Spinning in both directions: the H-bridge
+## Class 8: Spinning in both directions: the H-bridge
 
-Soldering demo so students are prepared for the arrival of P1 PCBs and the in-class test of the P1 PCBs (in a couple weeks)
 
 High-side vs. low-side drive. NPN and PNP. N-channel and P-channel.
 
