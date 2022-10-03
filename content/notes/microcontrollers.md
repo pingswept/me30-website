@@ -23,7 +23,9 @@ Here's what an Arduino Uno looks like.
 
 ![Arduino Uno blinking its LED](/img/arduino-uno-blink.gif)
 
-In your project kit, you have an [Arduino MKR 1010 Wifi](/notes/arduino-mkr-wifi-1010-hardware/) which is like the Uno, but more faster, smaller, and with wifi.
+In previous offerings of this course, we have used an [Arduino MKR 1010 Wifi](/notes/arduino-mkr-wifi-1010-hardware/) which is like the Uno, but more faster, smaller, and with wifi.
+
+In Fall 2022, you have an Adafruit Feather in your project kit, which is also like the Arduino, but made by a different company and with a different central processing chip - called an RP2040.
 
 ### Category 2: has an operating system
 
