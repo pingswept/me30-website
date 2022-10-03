@@ -31,7 +31,29 @@ Pulse Width Modulation to control speed of motors. Ideally demo this using a sig
 
 Exercise: Work on KiCAD - revisit this and come up with motor related exercise. 
 
-## Class 10: Hidden Challenges of Project 2 & H-Bridge Debugging
+
+## Class 12: Intro to microcontrollers and PWM for motor control
+
+Pins on Feather can be switched high or low. Each pin controls one MOSFET or could use one pin for two MOSFETs in an H-bridge. 
+
+Importance of connecting Feather GND to ground loop. 
+
+Pulse Width Modulation to control speed of motors. Ideally demo this using a signal generator. Digital vs analog signals.
+
+
+## Class 11: PCB 1 Test and PCB Fabrication
+
+### PCB 1 test:
+
+Students solder their components onto their P1 PCBs before class. In class, gather in groups of 4. Connect some resistors to your P1 boards and determine how much current your pins can supply before the regulation drops out (for each of the two regulators).
+
+### PCB fabrication
+
+Discuss PCB layers and manufacturing process
+
+## Class 10: Hidden Challenges of Project 2 & Motor Measurements
+
+### Hidden challenges
 
 Challenge 1: Ampacity. What size traces to use and how to find out? 
 
@@ -39,19 +61,35 @@ Challenge 2: Making sure you have connectors on PCB to connect motor and Arduino
 
 Review of KiCAD footprints and how to find appropriate footprints if there isn't a matching option.
 
+Conventions for making circuit schematics
+
+### Motor measurements
+
+Description of how a DC motor works.
+
+Demo of DC motor working, using rotor from sander and magnet.
+
+Exercise: measure time to lift around 0.5 kg of water 0.5 m. Measure current and voltage. Estimate power in, power out, and efficiency. (Turns out efficiency is only 10% or so. I guess gearbox friction is terrible, and effiency is generally bad at low speeds.)
+
+Exercise: Measure the resistance of your DC gearmotor's coils. Then, hook it up to 12 V with alligator clips and measure its no-load current. (The current will be relatively high, around 100-150 mA, because the gearbox friction is already loading your motor.)
+
+Intro Project 2.5: Design and build a hub, spool, or lever arm that attaches to your motor shaft and provides a hole (where you can attach a paper clip) 1.5cm from the shaft axis. Your hub must be able to handle enough torque to stall the motor when it is operating at 12 V.  Submit your Solidworks rendering of your design and bring your hub to class.  (In class on the P2.5 due date, we will make a histogram showing range of torque applied before either slipping or stalling.)
+
+
 ## Class 9: Soldering demo and H-bridge details
 
 Soldering demo so students are prepared for the arrival of P1 PCBs and the in-class test of the P1 PCBs (in a couple weeks)
 
-Introduce BJT as better method of switching P channels
+Revisit how to test one corner of an H-bridge (focus on top left P channel)
+
+Introduce BJT as better method of switching P channels (still focus on top left P channel)
 
 H-bridge circuit analysis worksheet
 
-Build H-bridges with BJTs
+Exercise: Build H-bridges with BJTs. Your goal: get your H-bridge circuit working, and then help your neighbor get theirs working, too. Why help your neighbor? Because the process of helping will help you understand it better.
 
 H-bridge debugging. Testing individual MOSFETs. Using multimeter to check voltage at various points. 
 
-Exercise: Continue working on H-bridge prototype.
 
 ## Class 8: Spinning in both directions: the H-bridge
 
@@ -64,19 +102,10 @@ Pull-down and pull-up resistors.
 
 If time, NPN used to turn on P-channels.
 
-## Class 7: MOSFETs and Motors
+## Class 7: MOSFETs 
 
 ### Control a motor with a MOSFET
 
-### Motor measurements
-
-Description of how a DC motor works.
-
-Demo of DC motor working, using rotor from sander and magnet.
-
-Exercise: measure time to lift around 0.5 kg of water 0.5 m. Measure current and voltage. Estimate power in, power out, and efficiency. (Turns out efficiency is only 10% or so. I guess gearbox friction is terrible, and effiency is generally bad at low speeds.)
-
-Exercise: Measure the resistance of your DC gearmotor's coils. Then, hook it up to 12 V with alligator clips and measure its no-load current. (The current will be relatively high, around 100-150 mA, because the gearbox friction is already loading your motor.)
 
 
 ## Class 6:
