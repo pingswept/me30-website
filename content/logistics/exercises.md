@@ -111,7 +111,7 @@ The picture below shows the concept of what you're building. In place of the 24 
 
 ### 5.5 Determine pin voltages and ideal resistor value for a BJT circuit
 
-Fill in the table....
+Fill in the table below to indicate the voltage at E, B, and C when the input is (a) at ground and (b) at 3.3 V.
 
 ### 6. Control a motor with a MOSFET
 
@@ -127,7 +127,28 @@ You need 5 things:
 
 ![MOSFET circuit](/img/mosfet-controller.jpg)
 
-### 7. H-bridge circuit analysis
+### 7. H-bridge circuit analysis, part 1
+
+You've just wired up the top left corner of an H-bridge circuit. You've used a P-channel MOSFET. To test this corner before wiring up the transistors at any other corners, you connect the other motor lead to ground.  If this corner is wired correctly, what should happen to the motor when the MOSFET gate is connected:
+
+- to 12 V?  
+- to ground?  
+
+Sketch and label the current path for each of those gate states.
+
+![Top left corner of an H-bridge](/img/Hbridge-corner.jpg)
+
+Now you add a BJT as a different method for switching on the P-channel MOSFET. Again, you want to test this corner before moving on to other sections of the H-bridge. If the BJT and P-channel MOSFET in this corner are wired correctly, what should happen to the motor when the BJT base is:
+
+- at 3.3 V?  
+- at ground?  
+
+Sketch and label the current path for each of those base states.
+
+![add BJT to corner of an H-bridge](/img/Hbridge-corner-BJT.jpg)
+
+
+### 7. H-bridge circuit analysis, part 2
 
 https://tufts.qualtrics.com/jfe/form/SV_086kK9vBZbSdqqG
 
