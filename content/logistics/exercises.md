@@ -127,7 +127,11 @@ You need 5 things:
 
 ![MOSFET circuit](/img/mosfet-controller.jpg)
 
-### 7. Measure a DC gearmotor (Power In)
+### 7. H-bridge circuit analysis
+
+https://tufts.qualtrics.com/jfe/form/SV_086kK9vBZbSdqqG
+
+### 8. Measure a DC gearmotor (Power In)
 
 Here are a few basic measurements you can make to understand your DC gearmotor better. The overall goal is to determine the efficiency of the motor by comparing the electrical power that goes into it ("power in") with the mechanical power it delivers ("power out"). 
 
@@ -142,7 +146,7 @@ When you know the current and the voltage, you can multiply them to find the ele
 
 If you can estimate how much power a task will require, you can start to figure out what voltage this motor would need to deliver that power (assuming perfect efficiency, for now). That's the first step toward deciding whether this is the right motor for whatever you're building.
 
-### 8. Measure a DC gearmotor (Power Out)
+### 9. Measure a DC gearmotor (Power Out)
 
 The next step is to determine how much mechanical power the motor actually delivers ("power out"). One way to do this is to measure the time it takes to perform a certain amount of work (i.e., to add energy to a system).
 
