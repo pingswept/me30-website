@@ -108,6 +108,11 @@ The picture below shows the concept of what you're building. In place of the 24 
 
 ![Typical BJT circuit](/img/typical-bjt-circuit.png)
 
+
+### 5.5 Determine pin voltages and ideal resistor value for a BJT circuit
+
+Fill in the table....
+
 ### 6. Control a motor with a MOSFET
 
 You've used a bipolar junction transistor to control a motor. Now try using the other main class of transistor: a metal oxide semiconductor field effect transistor, or MOSFET.  The main difference between the [two types of transistors](http://andnowforelectronics.com/notes/low-power-high-power/) is that BJTs are current-controlled, and MOSFETs are voltage-controlled.
