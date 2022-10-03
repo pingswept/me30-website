@@ -134,7 +134,7 @@ You've just wired up the top left corner of an H-bridge circuit. You've used a P
 - to 12 V?  
 - to ground?  
 
-Sketch and label the current path for each of those gate states.
+Sketch the current path for each of those gate states.
 
 ![Top left corner of an H-bridge](/img/Hbridge-corner.jpg)
 
@@ -143,7 +143,7 @@ Now you add a BJT as a different method for switching on the P-channel MOSFET. A
 - at 3.3 V?  
 - at ground?  
 
-Sketch and label the current path for each of those base states.
+Sketch the current path for each of those base states.
 
 ![add BJT to corner of an H-bridge](/img/Hbridge-corner-BJT.jpg)
 
