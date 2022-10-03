@@ -129,14 +129,14 @@ You need 5 things:
 
 ### 7. H-bridge circuit analysis, part 1
 
-You've just wired up the top left corner of an H-bridge circuit. You've used a P-channel MOSFET. To test this corner before wiring up the transistors at any other corners, you connect the other motor lead to ground.  If this corner is wired correctly, what should happen to the motor when the MOSFET gate is connected:
+You've just wired up the top left corner of an H-bridge circuit using a P-channel MOSFET. You connect the other motor lead to ground so that you can test this corner before wiring up the transistors at any other corners.  If this corner is wired correctly, what should happen to the motor when the MOSFET gate is connected:
 
 - to 12 V?  
 - to ground?  
 
 Sketch the current path for each of those gate states.
 
-![Top left corner of an H-bridge](/img/Hbridge-corner.jpg)
+![Top left corner of an H-bridge](/img/Hbridge-corner.png)
 
 Now you add a BJT as a different method for switching on the P-channel MOSFET. Again, you want to test this corner before moving on to other sections of the H-bridge. If the BJT and P-channel MOSFET in this corner are wired correctly, what should happen to the motor when the BJT base is:
 
