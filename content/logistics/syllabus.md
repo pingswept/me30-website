@@ -48,7 +48,8 @@ Kristen Wendell, kristen.wendell@tufts.edu
 Kristen's office hours are:  
 
 * Fri, 2-4pm, in person at Nolop (if I'm not there, check my ME office: Robinson 169)
-* Wed, 9-10am, Zoom: https://tufts.zoom.us/my/kbwendell
+* No Wed. morning Zoom office hours on 10/5. 
+* Tue., 10/4, 3-4pm, Zoom: https://tufts.zoom.us/my/kbwendell
 
 Brandon's office hours are:
 
