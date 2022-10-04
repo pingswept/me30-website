@@ -93,7 +93,7 @@ Shared doc for posting your work and questions:
 https://docs.google.com/document/d/1ONtsG_-AVNehNyhWbaVRlC9eLj0BGLUVzQcgiZofu24/edit?usp=sharing
 
 
-### 5. Control a motor with a BJT
+### 5. Control a motor with a BJT (Sep. 27)
 
 Making a motor spin is pretty simple: apply sufficient voltage across its leads. When we want to control things like motors (or LEDs, buzzers, etc.) electronically, instead of plugging them in to breadboards with our hands, we use transistors. The goal of this exercise is to use a bipolar junction transistor, the 2N3904, to turn on and off a motor.
 
@@ -109,11 +109,13 @@ The picture below shows the concept of what you're building. In place of the 24 
 ![Typical BJT circuit](/img/typical-bjt-circuit.png)
 
 
-### 5.5 Determine pin voltages and ideal resistor value for a BJT circuit
+### 5.5 Determine pin voltages and ideal resistor value for a BJT circuit (Sep. 29)
 
 Fill in the table below to indicate the voltage at E, B, and C when the input is (a) at ground and (b) at 3.3 V.
 
-### 6. Control a motor with a MOSFET
+(Graphic to be added)
+
+### 6. Control a motor with a MOSFET (Sep. 29)
 
 You've used a bipolar junction transistor to control a motor. Now try using the other main class of transistor: a metal oxide semiconductor field effect transistor, or MOSFET.  The main difference between the [two types of transistors](http://andnowforelectronics.com/notes/low-power-high-power/) is that BJTs are current-controlled, and MOSFETs are voltage-controlled.
 
@@ -127,7 +129,7 @@ You need 5 things:
 
 ![MOSFET circuit](/img/mosfet-controller.jpg)
 
-### 7. H-bridge circuit analysis, part 1
+### 7. H-bridge circuit analysis, part 1 (Oct. 4)
 
 You've just wired up the top left corner of an H-bridge circuit using a P-channel MOSFET. You connect the other motor lead to ground so that you can test this corner before wiring up the transistors at any other corners.  If this corner is wired correctly, what should happen to the motor when the MOSFET gate is connected:
 
@@ -148,11 +150,14 @@ Sketch the current path for each of those base states.
 ![add BJT to corner of an H-bridge](/img/Hbridge-corner-BJT.jpg)
 
 
-### 7. H-bridge circuit analysis, part 2
+### 7. H-bridge circuit analysis, part 2 (Oct. 4)
+
+Please click the link below to view and analyze a full H-bridge circuit, with BJT controllers for the P-channel MOSFETs. This analysis will help you know what to expect and how to test your own full H-bridge prototype.
 
 https://tufts.qualtrics.com/jfe/form/SV_086kK9vBZbSdqqG
 
-### 8. Measure a DC gearmotor (Power In)
+
+### 8. Measure a DC gearmotor (Power In) (Oct. 6)
 
 Here are a few basic measurements you can make to understand your DC gearmotor better. The overall goal is to determine the efficiency of the motor by comparing the electrical power that goes into it ("power in") with the mechanical power it delivers ("power out"). 
 
@@ -167,7 +172,7 @@ When you know the current and the voltage, you can multiply them to find the ele
 
 If you can estimate how much power a task will require, you can start to figure out what voltage this motor would need to deliver that power (assuming perfect efficiency, for now). That's the first step toward deciding whether this is the right motor for whatever you're building.
 
-### 9. Measure a DC gearmotor (Power Out)
+### 9. Measure a DC gearmotor (Power Out) (Oct. 6)
 
 The next step is to determine how much mechanical power the motor actually delivers ("power out"). One way to do this is to measure the time it takes to perform a certain amount of work (i.e., to add energy to a system).
 
