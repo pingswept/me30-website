@@ -10,19 +10,19 @@ An H-bridge is a simple, commonly used circuit that can make motors spin in both
 
 Conceptually, the circuit consists of 4 switches. When they're all off, the motor is stopped. When you turn on the upper left and lower right, current flows one way, and the motor spins. When you turn on the upper right and lower left, current flows the other way, so the motor reverses.
 
-For small, low-power motors, you can get chips that contain all 4 switches in a single package. As motors get bigger, we start using 4 separate MOSFETs for the 4 switches.
+![H-bridge concept with switches](/img/h-bridge-concept.png)
+
+For small, low-power motors, you can get chips that contain all 4 switches in a single package. As motors get bigger, we start using 4 separate MOSFETs for the 4 switches. In ME 30, we're going to build an H-bridge using 4 separate MOSFETs, because that's what we can prototype on a breadboard.
 
 ## What kind of MOSFETs do we use?
 
 Typically, the lower two MOSFETs in the circuit are N-channel MOSFETs, while the upper two are P-channel. (If the upper ones were N-channel, you would need a higher gate voltage to turn them on, which is inconvenient.) A good starting point would be the IRLB8721 MOSFET for the N-channels and the FQP27P06 MOSFET for the P-channels. Both MOSFETs are cheap (around $0.80 from a US distributor) and widely available. They can handle 25-30 A when on and withstand 60 V when off.
 
-![H-bridge concept with switches](/img/h-bridge-concept.png)
-
 ## Don't I still need high voltage to turn off the P-channels?
 
 Yes, you do. The trick that people use is to a low power NPN bipolar junction transistor, like the 2N3904, to turn on the P-channels, and then a pull-up resistor to turn them off. Then you can control the P-channels through the BJT's using 3.3 V or 5 V logic signals from a microcontroller.
 
-![Left half of an H-bridge with MOSFETs and a BJT](/img/h-bridge-schematic.png)
+![Rough schematic of an H-bridge](/img/h-bridge-schematic.png)
 
 ## But if we have to use a BJT, why not use that instead of the MOSFET? Why both?
 
