@@ -28,6 +28,13 @@ Yes, you do. The trick that people use is to a low power NPN bipolar junction tr
 
 The 2N3904 costs around $0.01, i.e. it is approximately free, but it can only handle around 0.5 A. You could instead get a larger power transistor. In some circumstances, people do that, but H-bridges tend to be pulsed on and off very quickly (hundreds or thousands of times per second) for speed control. MOSFETs require much less energy to turn on and off than BJTs, so the MOSFETs make the circuit more efficient. At really high currents (hundreds of amps, say for an electric car), people switch from MOSFETs to a weird hybrid of the two called an insulated gate bipolar transistor. IGBT's are cool, but they're also more expensive. Stick with the MOSFETs for now.
 
+## What are R<sub>BIG</sub> and R<sub>SMALL</sub>?
+
+R<sub>BIG</sub> is a pull-up or pull-down resistor. With the upper MOSFETs, its job is to fill the capacitor in the MOSFET when you turn off the BJT. This turns off the P-channel MOSFET. With the lower MOSFETs, its job is to drain the MOSFET capacitance whenever your control lines are not connected to anything. The idea is to keep your motor from spinning wildly while your microcontroller is booting up. For both pull-ups and pull-downs, the exact value is not very important-- values of 10k or 100k are typical.
+
+R<sub>SMALL</sub>
+
+
 ## Prototyping an H-bridge motor controller circuit  
 
 In your ME 30 kit, you've got everything you need to build an H-bridge circuit on a breadboard. If you're totally unsure of how to get started, study the diagrams on this page. For ideas about how to test and debug your H-bridge systematically, check out the [Testing an H-bridge half](http://andnowforelectronics.com/notes/demo-videos/#testing-an-h-bridge) demo video.
