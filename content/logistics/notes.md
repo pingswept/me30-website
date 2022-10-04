@@ -62,6 +62,17 @@ Challenge 2: Making sure you have connectors on PCB to connect motor and Arduino
 Review of KiCAD footprints and how to find appropriate footprints if there isn't a matching option.
 
 Conventions for making circuit schematics
+		
+Look at the PCB design take-aways they generated after P1
+		
+Have them individually sketch out a P2 PCB layout design (on paper or whiteboard, etc.), while looking at the list of P2 requirements
+		
+Share and improve their sketches in groups
+
+Things to go over:
+	•	planning PCB connectors. They can merge the P-channel and N-channel connections for each diagonal pair.
+	•	Reminder that they need common ground between motor supply and control supply.
+	•	The P-channels can handle 27 A. Not sure about screw terminals. But for 27 A, you’d need somewhere around a 20-40 mil trace width, assuming an external trace with normal 1 oz copper.
 
 ### Motor measurements
 
