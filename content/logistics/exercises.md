@@ -205,3 +205,5 @@ The next step is to determine how much mechanical power the motor actually deliv
 1. Use tape and string to hang a water bottle from your motor shaft.
 2. Measure the time it takes your motor to lift around 0.5 kg of water 0.5 m. Compute the amount of work done in lifting the water. With these two values, you can find "power out."
 3. Compare "power in" and "power out" to estimate the motor's efficiency.
+
+Post your group's results here: https://docs.google.com/spreadsheets/d/1hPOLsmSsdGBHga9NMayhIXqW0E7COHThiejLpnPMqj8/edit?usp=sharing
