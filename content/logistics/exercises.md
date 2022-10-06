@@ -167,13 +167,19 @@ This H-bridge circuit has four inputs, shown at locations 1, 2, 3, and 4. Each i
 To spin the motor in one direction, put corners 1 and 3 at 3.3 V while corners 2 and 4 are at ground (0 V). To reverse directions, do the opposite - put corners 2 and 4 at 3.3 V while corners 1 and 3 are at ground. The upper corners turn "on" when their BJT transistors are set to 3.3 V because when the BJT is "on" and current can flow across it, the gate (G) of the P-channel MOSFET has a direct connection to ground. When the gate (G) of a P-channel is at a lower voltage than its source (S), it turns "on" and allows current to flow to the motor.
 {{< /expand >}}
 
-2. What should be the state of each input to turn the motor OFF? Explain your reasoning.
+2. What should be the state of each input to turn the motor OFF? 
 
 {{< expand "See the answer" "..." >}}
 The top corners (1 and 4) need to both be set to ground to block current flow to the motor. But it's a good idea to set everything to ground when you want the motor to be off.
 {{< /expand >}}
 
+3. If all four switches were connected to 3.3 V (as shown below), what would happen and why?  
 
+![H-bridge inputs all at 3.3 V](/img/Hbridge_all3v.jpeg)
+
+{{< expand "See the answer" "..." >}}
+**Don't do this -  it will short the circuit!!** In this H-bridge, setting a corner input to 3.3 V turns that corner's MOSFET "on," allowing current to across the source-drain pathway. If all 4 MOSFETs are allowing current to flow, then this circuit's easiest path to ground will be down the two sides of the "H."  No current will flow through the highly resistive motor. The motor will not spin, and the rest of the circuit will get very hot.
+{{< /expand >}}
 
 ### 8. Measure a DC gearmotor (Power In) (Oct. 6)
 
