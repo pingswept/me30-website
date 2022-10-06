@@ -2,9 +2,9 @@
 title: "Exercises"
 draft: false
 ---
-## In-class exercises
+# In-class exercises
 
-### 1: Project #0: Power an LED with "wall" power (Sep. 6)
+## 1: Project #0: Power an LED with "wall" power (Sep. 6)
 
 This is a warm-up activity to power an LED with "wall" power through our DC power supply and control it with a push button. 
 
@@ -44,13 +44,13 @@ That's trying to tell you that when the jack is empty (i.e. no plug inserted), p
 *For an extension to this exercise, re-arrange your circuit so you have one LED that stays on permanently and another that is powered by the button.*
 
 
-### 2. Build voltage dividers (Sep. 8)
+## 2. Build voltage dividers (Sep. 8)
 
 ![Voltage dividers](/img/voltage-dividers-2022.png)
 
 
 
-### 3: Build a voltage regulation circuit (Sep. 13)
+## 3: Build a voltage regulation circuit (Sep. 13)
 
 This is an introductory exercise designed to help you get familiar with breadboard prototyping while also building a basic circuit that will be useful for later exercises and projects. It forms the basis for Project #1, but you don't need to think about that yet. If this is all new to you, look at the pages on [breadboard prototyping](/notes/prototyping/) and [multimeters](/notes/multimeters/).
 
@@ -63,7 +63,7 @@ The 4 components are:
 3. Two capacitors
 
 
-### 4. Motor power supply PCB with indicator LED (Sep. 20)
+## 4. Motor power supply PCB with indicator LED (Sep. 20)
 
 The goal of this exercise is to give you more practice with Kicad while also demonstrating how one might use the PCB you've been working on for Project 1.
 
@@ -93,7 +93,7 @@ Shared doc for posting your work and questions:
 https://docs.google.com/document/d/1ONtsG_-AVNehNyhWbaVRlC9eLj0BGLUVzQcgiZofu24/edit?usp=sharing
 
 
-### 5. Control a motor with a BJT (Sep. 27)
+## 5. Control a motor with a BJT (Sep. 27)
 
 Making a motor spin is pretty simple: apply sufficient voltage across its leads. When we want to control things like motors (or LEDs, buzzers, etc.) electronically, instead of plugging them in to breadboards with our hands, we use transistors. The goal of this exercise is to use a bipolar junction transistor, the 2N3904, to turn on and off a motor.
 
@@ -109,13 +109,13 @@ The picture below shows the concept of what you're building. In place of the 24 
 ![Typical BJT circuit](/img/typical-bjt-circuit.png)
 
 
-### 5.5 Determine pin voltages and ideal resistor value for a BJT circuit (Sep. 29)
+## 5.5 Determine pin voltages and ideal resistor value for a BJT circuit (Sep. 29)
 
 Fill in the table below to indicate the voltage at E, B, and C when the input is (a) at ground and (b) at 3.3 V.
 
 (Graphic to be added)
 
-### 6. Control a motor with a MOSFET (Sep. 29)
+## 6. Control a motor with a MOSFET (Sep. 29)
 
 You've used a bipolar junction transistor to control a motor. Now try using the other main class of transistor: a metal oxide semiconductor field effect transistor, or MOSFET.  The main difference between the [two types of transistors](http://andnowforelectronics.com/notes/low-power-high-power/) is that BJTs are current-controlled, and MOSFETs are voltage-controlled.
 
@@ -129,7 +129,7 @@ You need 5 things:
 
 ![MOSFET circuit](/img/mosfet-controller.jpg)
 
-### 7. H-bridge circuit analysis, part 1 (Oct. 4)
+## 7. H-bridge circuit analysis, part 1 (Oct. 4)
 
 You've just wired up the top left corner of an H-bridge circuit using a P-channel MOSFET. You connect the other motor lead to ground so that you can test this corner before wiring up the transistors at any other corners.  If this corner is wired correctly, what should happen to the motor when the MOSFET gate is connected:
 
@@ -150,7 +150,7 @@ Sketch the current path for each of those base states.
 ![add BJT to corner of an H-bridge](/img/Hbridge-corner-BJT.jpg)
 
 
-### 7. H-bridge circuit analysis, part 2 (Oct. 4)
+## 7. H-bridge circuit analysis, part 2 (Oct. 4)
 
 Please click the link below to view and analyze a full H-bridge circuit, with BJT controllers for the P-channel MOSFETs. This analysis will help you know what to expect and how to test your own full H-bridge prototype.
 
@@ -183,7 +183,7 @@ The top corners (1 and 4) need to both be set to ground to block current flow to
 **Don't do this -  it will short the circuit!!** In this H-bridge, setting a corner input to 3.3 V turns that corner's MOSFET "on," allowing current to across the source-drain pathway. If all 4 MOSFETs are allowing current to flow, then this circuit's easiest path to ground will be down the two sides of the "H."  No current will flow through the highly resistive motor. The motor will not spin, and the rest of the circuit will get very hot.
 {{< /expand >}}
 
-### 8. Measure a DC gearmotor (Power In) (Oct. 6)
+## 8. Measure a DC gearmotor (Power In) (Oct. 6)
 
 Here are a few basic measurements you can make to understand your DC gearmotor better. The overall goal is to determine the efficiency of the motor by comparing the electrical power that goes into it ("power in") with the mechanical power it delivers ("power out"). 
 
@@ -198,7 +198,7 @@ When you know the current and the voltage, you can multiply them to find the ele
 
 If you can estimate how much power a task will require, you can start to figure out what voltage this motor would need to deliver that power (assuming perfect efficiency, for now). That's the first step toward deciding whether this is the right motor for whatever you're building.
 
-### 9. Measure a DC gearmotor (Power Out) (Oct. 6)
+## 9. Measure a DC gearmotor (Power Out) (Oct. 6)
 
 The next step is to determine how much mechanical power the motor actually delivers ("power out"). One way to do this is to measure the time it takes to perform a certain amount of work (i.e., to add energy to a system).
 
