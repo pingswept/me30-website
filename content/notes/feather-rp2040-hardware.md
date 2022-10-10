@@ -27,7 +27,7 @@ Adafruit provides a handy [overview](https://learn.adafruit.com/adafruit-feather
 
 The Feather is shipped without header pins to keep costs low and to give users options for how they attach sensors and actuators to it. Users can decide whether and which header pins to solder to the Feather PCB. 
 
-In ME 30, you'll want to be able to plug your Feather into a breadboard for stability and wiring. Find the header pins that are enclosed with your Feather, and solder them onto the Feather PCB. Before you do this, check out Adafruit's Feather soldering tutorial:  https://learn.adafruit.com/how-to-solder-headers/stacking-headers
+In ME 30, you'll want to be able to plug your Feather into a breadboard for stability and wiring. Find the header pins that are enclosed with your Feather, and solder them onto the Feather PCB. Before you do this, check out Adafruit's Feather soldering tutorial:  https://learn.adafruit.com/how-to-solder-headers/male-headers
 
 
 ## Connectors
