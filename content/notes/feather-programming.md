@@ -1,5 +1,5 @@
 ---
-title: "Feather RP2040 programming"
+title: "Feather programming"
 draft: false
 ---
 
