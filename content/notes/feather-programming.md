@@ -83,9 +83,7 @@ To load it onto the Feather, click the "Save" button in the Mu editor's top menu
 
 As the code is uploaded, you'll see the larger circular LED on the Feather board flash rapidly green for a moment. 
 
-After the code is saved on the Feather, here's what you should see the on-board red LED blinking once per second...
-
-![](img/feather-blink.gif)
+After the code is saved on the Feather, here's what you should see the on-board red LED blinking once per second.
 
 If you've made it this far, your hardware and software are working properly. Congratulations! Go get a drink of cool, delicious water!
 
