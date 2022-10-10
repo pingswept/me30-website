@@ -4,6 +4,22 @@ draft: false
 ---
 # Projects
 
+## Project #2.5: Create a secure motor attachment
+
+Because the third major project will require using a motor to actuate some part of an interactive game, in Project 2.5, you’ll building some knowledge about how to attach a part securely to a motor.
+
+Your task in Project 2.5 is to design and build a motor hub that meets the following specifications:
+
+-	Provides a hole 1.5 cm from the shaft axis (you’ll insert a paper clip with a weighted string into this hole) 
+-	Fits on and attaches to your motor shaft
+-	Stays attached securely enough to handle the amount of torque that stalls the motor when it is operating at 12 V
+-	Shaped like a spool or lever arm (i.e., shape is up to you)
+
+Submit to Canvas a Solidworks or Onshape rendering of your design, and bring your hub to class. In class on the P2.5 due date, we will compile everyone’s results into histogram showing the range of torques applied before the hubs either (a) slip on their motor shaft or (b) successfully stall the motor.
+
+**Due date: Tuesday, 10/25, at noon (in class)**
+
+
 ## Project #2: Build an H-bridge motor controller
 
 The second project is to build a motor controller with the following characteristics:
