@@ -1,6 +1,6 @@
 ---
 title: "Feather RP2040"
-draft: true
+draft: false
 ---
 
 ![Top view of Adafruit Feather RP2040](/img/feather-rp2040-top-view.jpg)
@@ -22,6 +22,13 @@ The chip just to the right of center is the microcontroller that acts as the bra
 The square chip closer to the upper right corner of the board is the Flash memory chip for storing files and code.
 
 Adafruit provides a handy [overview](https://learn.adafruit.com/adafruit-feather-rp2040-pico/pinouts) of all the Feather RP2040 components and [pins](/pdf/feather-rp2040-pinout.pdf).
+
+## Why are there no header pins?
+
+The Feather is shipped without header pins to keep costs low and to give users options for how they attach sensors and actuators to it. Users can decide whether and which header pins to solder to the Feather PCB. 
+
+In ME 30, you'll want to be able to plug your Feather into a breadboard for stability and wiring. Find the header pins that are enclosed with your Feather, and solder them onto the Feather PCB. Before you do this, check out Adafruit's Feather soldering tutorial:  https://learn.adafruit.com/how-to-solder-headers/stacking-headers
+
 
 ## Connectors
 
