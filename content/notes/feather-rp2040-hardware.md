@@ -55,4 +55,6 @@ The NeoPixel LED indicates the runtime status of CircuitPython code. It can also
 
 ## Learning to program your Feather
 
+Check out this website's [Feather programming notes](http://andnowforelectronics.com/notes/feather-programming/).
+
 Adafruit's [CircuitPython Tutorials](https://learn.adafruit.com/welcome-to-circuitpython) are a great resource for newcomers to the world of microcontrollers.
