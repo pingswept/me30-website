@@ -1,5 +1,5 @@
 ---
-title: "Feather RP2040"
+title: "Feather hardware"
 draft: false
 ---
 
