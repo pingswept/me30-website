@@ -3,25 +3,18 @@ title: "Feather RP2040 programming"
 draft: true
 ---
 
-## KRISTEN TO EDIT SECOND HALF OF THIS PAGE TO APPLY TO FEATHER INSTEAD OF ARDUINO
-
 ## Stuff You Need
 
 *   A computer, plus the admin password to install software
 *   An Adafruit Feather RP2040
 *   A USB-C cable with the right ends to connect the Feather to the computer
 
-If you need to buy a Feather or USB cable, I'd recommend Adafruit in New York as the best choice: [Pink Feather RP2040](https://www.adafruit.com/product/5299) and [USB cable](https://www.adafruit.com/products/62).
 
 ## Software check 
 
-Before you can actually make a Feather do anything, you have to install a code editor program on your computer. We'll use the Mu Editor, which works well with Adafruit CircuitPython boards, including the Feather. It's actually XXX programs in one:
+Before you can actually make a Feather do anything, you have to install a code editor program on your computer. We'll use the Mu Editor, which works well with Adafruit CircuitPython boards, including the Feather. 
 
-*   A text editor, for typing code
-*   IS IT THIS?  A compiler, which translates your code into 1's and 0's for the Feather
-*   AND THIS? A USB loader, which loads the 1's and 0's onto the Feather through the USB cable
-
-To install the Mu Editor software, [download it](https://www.arduino.cc/en/Main/Software) from the Arduino website. 
+To install the Mu Editor software, [download it](https://codewith.mu/en/) from the Mu website. 
 
 You're on your own for the actual installation, but it consists of pressing "OK" and "Next" and things like that a few times. Search the internet for advice if you get stuck. Your goal is to see something like the image below on your screen.
 
