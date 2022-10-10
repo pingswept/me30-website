@@ -44,7 +44,7 @@ To install CircuitPython on your Feather, follow the basic steps below. These st
 4. Watch for the Feather's light to flash again and for **RPI-RP2** to disappear, and for a new drive to appear on your computer called **CIRCUIPY**.
 5. When you see the **CIRCUITPY** drive, you know that your Feather now has CircuitPython installed on it, and it is ready to receive, store, and execute Python files. Congratulations!
 
-![The CIRCUITPY drive](/img/circuipy_drive.png)
+![The CIRCUITPY drive](/img/circuitpy_drive.png)
 
 
 ### Load a Python program onto your Feather.
@@ -83,7 +83,7 @@ To load it onto the Feather, click the "Save" button in the Mu editor's top menu
 
 As the code is uploaded, you'll see the larger circular LED on the Feather board flash rapidly green for a moment. 
 
-After the code is saved on the Feather, here's what you should see the on-board red LED blinking once per second.
+After the code is saved on the Feather, you should see the on-board red LED blinking once per second.
 
 If you've made it this far, your hardware and software are working properly. Congratulations! Go get a drink of cool, delicious water!
 
