@@ -207,3 +207,8 @@ The next step is to determine how much mechanical power the motor actually deliv
 3. Compare "power in" and "power out" to estimate the motor's efficiency.
 
 Post your group's results here: https://docs.google.com/spreadsheets/d/1hPOLsmSsdGBHga9NMayhIXqW0E7COHThiejLpnPMqj8/edit?usp=sharing
+
+
+## Oct. 11 P2 Q & A
+
+https://docs.google.com/document/d/1atNNbe8rjqZZtX7Foj0LWxPWZwktrCwlViqzWgFVHoU/edit?usp=sharing
