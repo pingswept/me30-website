@@ -209,11 +209,11 @@ The next step is to determine how much mechanical power the motor actually deliv
 Post your group's results here: https://docs.google.com/spreadsheets/d/1hPOLsmSsdGBHga9NMayhIXqW0E7COHThiejLpnPMqj8/edit?usp=sharing
 
 
-## 10 Test the current limit of your P1 PCB, plus P2 Q & A (Oct. 11)
+## 10. Test the current limit of your P1 PCB, plus P2 Q & A (Oct. 11)
 
-The voltage regulators on your P1 PCB are specified (on their data sheets) to be able to handle current at the level of 1.5 A (the 5V regulator) and 0.8 A (the 3.3 V regulator). But the question is - **once soldered into your P1 PCB, can they perform up to that specified level for current handling?**  
+The voltage regulators on your P1 PCB are specified (on their data sheets) to be able to handle current at the level of 1.5 A (the 5V regulator) and 0.8 A (the 3.3 V regulator). But the question is - **once soldered into your P1 PCB, can they still perform up to their specified max current limit?**  
 
-Test your P1 PCB by determining how much current your regulators can actually send out to loads at your output pins before going into thermal shutdown.
+**Test your P1 PCB by determining how much current your regulators can actually send out to loads at your output pins before going into thermal shutdown.**
 
 General procedure (details left to your group):
 - Determine the resistance (it will be a low value!) you should attach to your 3.3 V and 5 V output so that something close to the specified max current is drawn (0.8 A or 1.5 A, respectively)
