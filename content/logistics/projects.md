@@ -10,7 +10,7 @@ Because the third major project will require using a motor to actuate some part 
 
 Your task in Project 2.5 is to design and build a motor hub that meets the following specifications:
 
--	Provides a hole 1.5 cm from the shaft axis (you’ll insert a paper clip with a weighted string into this hole) 
+-	Provides a 3 mm hole 15 mm from the shaft axis (you’ll insert a paper clip with a weighted string into this hole) 
 -	Fits on and attaches to your motor shaft
 -	Stays attached securely enough to handle the amount of torque that stalls the motor when it is operating at 12 V
 -	Shaped like a spool or lever arm (i.e., shape is up to you)
