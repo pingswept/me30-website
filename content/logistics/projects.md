@@ -15,6 +15,8 @@ Your task in Project 2.5 is to design and build a motor hub that meets the follo
 -	Stays attached securely enough to handle the amount of torque that stalls the motor when it is operating at 12 V
 -	Shaped like a spool or lever arm (i.e., shape is up to you)
 
+![](74AC7980-A949-4450-BDC3-5F5F44BE69AC.jpeg)
+
 Submit to Canvas a Solidworks or Onshape rendering of your design, and bring your hub to class. In class on the P2.5 due date, we will compile everyone’s results into histogram showing the range of torques applied before the hubs either (a) slip on their motor shaft or (b) successfully stall the motor.
 
 **Due date: Tuesday, 10/25, at noon (in class)**
