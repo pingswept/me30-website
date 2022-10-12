@@ -10,23 +10,23 @@ draft: false
 ## Week 6, Wednesday, 10/12/22 
 
 **Course housekeeping:**
-•	In class on Thursday, Oct. 13, you will need your Feather microcontroller (the pink circuit board in your kit), a laptop, and a USB-C cable that connects your Feather and laptop. Please bring all three of these things to class.
+- In class on Thursday, Oct. 13, you will need your Feather microcontroller (the pink circuit board in your kit), a laptop, and a USB-C cable that connects your Feather and laptop. Please bring all three of these things to class.
 
 **Things due in Week 6:**
-•	Project 2 PCB design to Canvas by Thursday, Oct. 13, 11:59pm
+- Project 2 PCB design to Canvas by Thursday, Oct. 13, 11:59pm
 
 **Learning goals for Week 6:**
-•	Improve your skills with PCB design strategies and software.
-•	Gain basic familiarity with microcontroller hardware.
-•	Learn to set up the Feather RP2040 microcontroller to run simple Python code
+- Improve your skills with PCB design strategies and software.
+- Gain basic familiarity with microcontroller hardware.
+- Learn to set up the Feather RP2040 microcontroller to run simple Python code
 
 **What you should watch and read in Week 6:**
-•	Microcontrollers
-•	Feather hardware
+- [Microcontrollers](http://andnowforelectronics.com/notes/microcontrollers/)
+- [Feather hardware](http://andnowforelectronics.com/notes/feather-rp2040-hardware/)
 
 **Optional reading for Week 6:**
-•	“Section 13.5: Interfacing with Microcontrollers” (pgs. 874-895) in Practical Electronics for Inventors (Scherz & Monk)
-•	Introducing Adafruit Feather RP2040 (an Adafruit online guide) 
+- “Section 13.5: Interfacing with Microcontrollers” (pgs. 874-895) in [Practical Electronics for Inventors](https://tufts-primo.hosted.exlibrisgroup.com/permalink/f/k87dab/TN_cdi_safari_books_9781259587559) (Scherz & Monk)
+- [Introducing Adafruit Feather RP2040](https://learn.adafruit.com/adafruit-feather-rp2040-pico/overview) (an Adafruit online guide) 
 
 - - -
 
@@ -34,30 +34,30 @@ draft: false
 ## Week #5: Tuesday, 10/4/22  
 
 **Course housekeeping:**
-•	Each week, please use the course website “Calendar” to see what website notes and videos you should watch that week. These course website resources will help you understand the circuits we are building in class and for your projects. 
+- Each week, please use the course website “Calendar” to see what website notes and videos you should watch that week. These course website resources will help you understand the circuits we are building in class and for your projects. 
 
 **Things due in Week 5:**
-•	Project 2 breadboard prototype to Canvas by Thursday, Oct. 6, 11:59pm (and P2 PCB is due next Thurs.)
+- Project 2 breadboard prototype to Canvas by Thursday, Oct. 6, 11:59pm (and P2 PCB is due next Thurs.)
 
 **Learning goals for Week 5:**
-•	Explain how an H-bridge motor controller works.
-•	Improve your skills with PCB design strategies and software.
-•	Estimate motor power and efficiency using electrical and mechanical measurements
+- Explain how an H-bridge motor controller works.
+- Improve your skills with PCB design strategies and software.
+- Estimate motor power and efficiency using electrical and mechanical measurements
 
 **What you should watch and read for Week 5:**
-•	H-bridges website notes
-•	Motors website notes
-•	For Project 2 completion: If you’re feeling iffy about PCB design generally, or KiCad specifically, make sure you’ve reviewed the PCB design website notes.
+- [H-bridges](http://andnowforelectronics.com/notes/h-bridges/) website notes
+- [Motors](http://andnowforelectronics.com/notes/motors/) website notes
+- For Project 2 completion: If you’re feeling iffy about PCB design generally, or KiCad specifically, make sure you’ve reviewed the [PCB design](http://andnowforelectronics.com/notes/pcb/) website notes.
 
 **Optional additional reading for Week 5:**
-•	Note that both of our optional course textbooks are available online for free from Tisch Library
-•	“Chapter 15: Motors” (pgs. 933-945) in Practical Electronics for Inventors (Scherz & Monk) 
-•	“Chapter 6: Eeny, Meeny, Miny, Motor: Options for Creating and Controlling Motion” (pgs. 123-181) in Making Things Move (Dustyn Roberts), available online to Tufts students from Tisch Library
+- Note that both of our optional course textbooks are available online for free from Tisch Library
+- “Chapter 15: Motors” (pgs. 933-945) in [Practical Electronics for Inventors](https://tufts-primo.hosted.exlibrisgroup.com/permalink/f/k87dab/TN_cdi_safari_books_9781259587559) (Scherz & Monk) 
+- “Chapter 6: Eeny, Meeny, Miny, Motor: Options for Creating and Controlling Motion” (pgs. 123-181) in [Making Things Move](https://tufts-primo.hosted.exlibrisgroup.com/permalink/f/k87dab/TN_cdi_askewsholts_vlebooks_9780071741682) (Roberts)
 
 
 - - -
 
-### Week 4: Tuesday, 9/29/22
+## Week 4: Tuesday, 9/29/22
 
 **Course housekeeping:**
 - Each week, please use the course website [Calendar](http://andnowforelectronics.com/logistics/calendar/) to see what website notes and videos to view that week. These course website resources will help you understand the circuits we are building in class and for your projects. 
@@ -87,7 +87,7 @@ draft: false
 - - -
 
 
-### Week 3: Tuesday, 9/20/22 
+## Week 3: Tuesday, 9/20/22 
 
 **Course housekeeping:**
 - Thanks for all of your hard work learning Kicad for Project 1! 
@@ -112,7 +112,7 @@ For Week 3, these are the resources we’re suggesting:
 - - -
 
 
-### Week 2: Tuesday, 9/13/22
+## Week 2: Tuesday, 9/13/22
 
 **Course housekeeping:**
 - Friendly reminder about paying for your consumables kit if you have not already done so: the cost is $43, payable by Venmo to @tuftsnolop. If the cost is a hardship, please let us know and we will help.
@@ -137,7 +137,7 @@ For Week 2, these are the resources we’re suggesting:
 - - -
 
 
-### Week 1: Wednesday, 9/7/22
+## Week 1: Wednesday, 9/7/22
 
 **Some course housekeeping:**
 - Starting next week, we’ll send an organizational email every Tuesday morning. But this first week, we’re doing it on Wednesday.
