@@ -8,6 +8,7 @@ draft: false
 ## Connectors
 
 * [DC power (barrel) jack, 2.1 mm x 5.5 mm](/pdf/power-jack-PJ102AH.pdf)
+* [Screw terminal, 5mm pitch](https://www.digikey.com/en/products/detail/cui-devices/TB001-500-02BE/10064058)
 
 ## Capacitors
 
