@@ -5,6 +5,58 @@ draft: false
 ## Archive of Weekly Update Emails
 
 - - -
+
+
+## Week 6, Wednesday, 10/12/22 
+
+**Course housekeeping:**
+•	In class on Thursday, Oct. 13, you will need your Feather microcontroller (the pink circuit board in your kit), a laptop, and a USB-C cable that connects your Feather and laptop. Please bring all three of these things to class.
+
+**Things due in Week 6:**
+•	Project 2 PCB design to Canvas by Thursday, Oct. 13, 11:59pm
+
+**Learning goals for Week 6:**
+•	Improve your skills with PCB design strategies and software.
+•	Gain basic familiarity with microcontroller hardware.
+•	Learn to set up the Feather RP2040 microcontroller to run simple Python code
+
+**What you should watch and read in Week 6:**
+•	Microcontrollers
+•	Feather hardware
+
+**Optional reading for Week 6:**
+•	“Section 13.5: Interfacing with Microcontrollers” (pgs. 874-895) in Practical Electronics for Inventors (Scherz & Monk)
+•	Introducing Adafruit Feather RP2040 (an Adafruit online guide) 
+
+- - -
+
+
+## Week #5: Tuesday, 10/4/22  
+
+**Course housekeeping:**
+•	Each week, please use the course website “Calendar” to see what website notes and videos you should watch that week. These course website resources will help you understand the circuits we are building in class and for your projects. 
+
+**Things due in Week 5:**
+•	Project 2 breadboard prototype to Canvas by Thursday, Oct. 6, 11:59pm (and P2 PCB is due next Thurs.)
+
+**Learning goals for Week 5:**
+•	Explain how an H-bridge motor controller works.
+•	Improve your skills with PCB design strategies and software.
+•	Estimate motor power and efficiency using electrical and mechanical measurements
+
+**What you should watch and read for Week 5:**
+•	H-bridges website notes
+•	Motors website notes
+•	For Project 2 completion: If you’re feeling iffy about PCB design generally, or KiCad specifically, make sure you’ve reviewed the PCB design website notes.
+
+**Optional additional reading for Week 5:**
+•	Note that both of our optional course textbooks are available online for free from Tisch Library
+•	“Chapter 15: Motors” (pgs. 933-945) in Practical Electronics for Inventors (Scherz & Monk) 
+•	“Chapter 6: Eeny, Meeny, Miny, Motor: Options for Creating and Controlling Motion” (pgs. 123-181) in Making Things Move (Dustyn Roberts), available online to Tufts students from Tisch Library
+
+
+- - -
+
 ### Week 4: Tuesday, 9/29/22
 
 **Course housekeeping:**
