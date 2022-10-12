@@ -31,7 +31,7 @@ draft: false
 - - -
 
 
-## Week #5: Tuesday, 10/4/22  
+## Week 5: Tuesday, 10/4/22  
 
 **Course housekeeping:**
 - Each week, please use the course website “Calendar” to see what website notes and videos you should watch that week. These course website resources will help you understand the circuits we are building in class and for your projects. 
