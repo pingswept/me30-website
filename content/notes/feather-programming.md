@@ -108,4 +108,6 @@ Start by exploring the CircuitPython tutorial provided by Adafruit, starting at 
 
 Learn the [basics of Python syntax](https://www.w3schools.com/python/python_syntax.asp) at the easy-to-follow Python W3 Schools website.
 
+Then review and bookmark the [CircuitPython Essentials](https://learn.adafruit.com/circuitpython-essentials/circuitpython-essentials) page from Adafruit.
+
 Look for more Python getting-started information to come here soon!
