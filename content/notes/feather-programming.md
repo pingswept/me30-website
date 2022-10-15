@@ -147,9 +147,9 @@ Python has no command for simply declaring the existence of a variable.
 
 You’ll need to open the serial monitor in the Mu editor.
 
-## A few exciting commands in the BOARD, TIME, DIGITALIO, PWMIO libraries
+## A few exciting commands in some CircuitPython-specific libraries
 
-Here are some Python commands that you might want to start with. You need to import the BOARD, DIGITALIO, and TIME libraries to use all but the print() command.
+Here are some Python commands that you might want to start with. To use all but the print() command, you need to start your Python code by importing the libraries specified below (TIME, BOARD, DIGITALIO, PWMIO, ANALOGIO).
 
 **print(<variable>)**: Prints the value of whatever variable is listed inside the ().
 
@@ -201,7 +201,7 @@ creates a new pulse-width modulation object called “xyz” that will hold all 
     
 at whatever pin has been declared to correspond to the PWM object xyz, changes the duty cycle of the PWM voltage to 32000.  For the RP2040 chip on the Feather, the duty cycle maximum is 65535; max duty cycle means the output is high 100% of the time.
 
-### analogio library
+### ANALOGIO library
 
 **xyz = analogio.AnalogIn(board.A1)**: Creates an object and connects the object to A1 as an analog input.
 
