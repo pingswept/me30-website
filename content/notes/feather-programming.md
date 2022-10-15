@@ -97,7 +97,7 @@ Adafruit's [CircuitPython Tutorials](https://learn.adafruit.com/welcome-to-circu
 
 The most common problem with microcontrollers is difficulty communicating between the computer and the microcontroller. You might see messages like "Circuit Python device not connected."
 
-In this case, you should hold down the BOOTSELF button while pressing and releasing the RESET button, to make sure your computer sees the Feather's CIRCUITPY drive.
+In this case, you should hold down the BOOTSEL button while pressing and releasing the RESET button, to make sure your computer sees the Feather's CIRCUITPY drive.
 
 You can also try unplugging the Feather and plugging it in again and restarting the Mu Editor. 
 
