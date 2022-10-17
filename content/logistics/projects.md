@@ -80,6 +80,7 @@ In your project kit, you'll find all the components you'll need to build a proto
 
 Check the datasheets for the components to see which pin is the input pin, which is the output pin, and which should connect to ground.
 
+If you feel like you understand this project pretty well, or if you've made a basic circuitboard before, you could try adding additional features. Look at the open source [Ant breadboard power supply](https://www.crowdsupply.com/digital-cool/ant-bbps) for inspiration. The [schematics are available](https://gitlab.com/DigitalUncool/ant/-/blob/main/Hardware) if you're curious about the details.
 
 ### P1 prototype: what you should do before class #3 (before Tues., 9/13)
 
