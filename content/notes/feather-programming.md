@@ -124,7 +124,7 @@ To return the Feather to running the code, use CTRL-D in the serial monitor.
 
 - In Python, a line break (new line) indicates a new command. You might have seen other programming languages use semicolons or parentheses.
 - In Python, indentation (space at the beginning of a line) is very important! To indicate nested or sub-section blocks of code (e.g., of a loop or function), you must use indentation from the left edge of the screen. Python uses whitespace (indentation amount) to determine “scope” — that is, to figure out what blocks of code define other code, or belong within a higher level of code.
-- Use the # symbol to indicate the start of a comment (indicate that certain text is documentation of your code, rather than a command)
+- Use the # symbol to indicate the start of a comment (indicate that certain text is documentation of your code, rather than a command).
 
 <pre class="code">
 # Python interprets this line as a comment.
@@ -133,7 +133,7 @@ print(“Hello ME 30!”)
 
 ## Python variables
 
-Create a variable by assigning a value to it assign a value to it. Python will automatically determine what type of variable it is (e.g., an integer, a decimal, a string) based on its initial assignment.
+Create a variable by assigning a value to it. Python will automatically determine what type of variable it is (e.g., an integer, a decimal, a string) based on its initial assignment.
 
 <pre class="code">
 x = 30
