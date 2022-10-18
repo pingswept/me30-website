@@ -14,9 +14,9 @@ draft: false
 
 ## Software check 
 
-Before you can actually make a Feather do anything, you have to install a code editor program on your computer. We'll use the Mu Editor, which works well with Adafruit CircuitPython boards, including the Feather. 
+Before you can actually make a Feather do anything, you have to install a code editor on your computer. We'll use the Mu Editor, which works well with Adafruit CircuitPython boards, including the Feather. 
 
-To install the Mu Editor software, [download it](https://codewith.mu/en/) from the Mu website. 
+To install the Mu Editor, [download it](https://codewith.mu/en/) from the Mu website. 
 
 You're on your own for the actual installation, but it consists of pressing "OK" and "Next" and things like that a few times. Adafruit's CircuitPython tutorial provides step-by-step instructions for installing Mu here: https://learn.adafruit.com/welcome-to-circuitpython/installing-mu-editor
 
@@ -24,7 +24,7 @@ Your goal is to see something like the image below on your screen.
 
 ![The Mu Editor](/img/Mu_blankeditor.png)
 
-When Mu first opens, you'll need to select its "mode." Choose "CircuitPython."
+The first time you run Mu, you'll need to select its "mode." Choose "CircuitPython."
 
 ![Selecting the Mu mode](/img/Mu_mode.png)
 
@@ -43,7 +43,7 @@ To install CircuitPython on your Feather, follow the basic steps below. These st
 1. To your computer, [download](https://circuitpython.org/board/adafruit_feather_rp2040/) the latest version of CircuitPython for the Feather RP2040. Putting CircuitPython on your computer is an intermediate step. You are not going to run CircuitPython onto your computer - your eventual goal is to get CircuitPython onto your Feather.
 2. Enter the "bootloader" mode on your Feather by **holding down the BOOTSEL button as you press and release the RESET button. Continue to hold down the BOOTSEL button until the Feather's bootloader drive appears as "RPI-RP2" on your computer** (to which the Feather is plugged in). You need your Feather board in bootloader mode to install or update Circuit Python.
 3. Find the CircuitPython file that you downloaded onto your computer. Drag that file to the Feather's boot drive (the **RPI-RP2** drive).
-4. Watch for the Feather's light to flash again and for **RPI-RP2** to disappear, and for a new drive to appear on your computer called **CIRCUIPY**.
+4. Watch for the Feather's light to flash again and for **RPI-RP2** to disappear, and for a new drive to appear on your computer called **CIRCUITPY**.
 5. When you see the **CIRCUITPY** drive, you know that your Feather now has CircuitPython installed on it, and it is ready to receive, store, and execute Python files. Congratulations!
 
 ![The CIRCUITPY drive](/img/circuitpy_drive.png)
