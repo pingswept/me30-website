@@ -224,3 +224,10 @@ General procedure (details left to your group):
 Use this shared doc to post questions about the P1 PCB test and about P2 circuit board design:
 
 https://docs.google.com/document/d/1atNNbe8rjqZZtX7Foj0LWxPWZwktrCwlViqzWgFVHoU/edit?usp=sharing
+
+
+## 11. Feather challenges (Oct. 18)
+
+Learn to program your Feather by working through these 10 challenges. You'll want to consult the [Feather programming](http://andnowforelectronics.com/notes/feather-programming/) resources.
+
+http://andnowforelectronics.com/notes/feather-challenges/
