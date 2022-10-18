@@ -6,6 +6,31 @@ draft: false
 
 - - -
 
+## Week 7, Tuesday, 10/18/22
+ 
+**Course housekeeping:**
+- In class this week, you will need your Feather microcontroller with soldered header pins  a laptop, and a USB-C cable that connects your Feather and laptop. 
+ 
+**Things due in Week 7:**
+- Nothing is due on Canvas this week, but [Project 2.5](http://andnowforelectronics.com/logistics/projects/#project-25-create-a-secure-motor-attachment) is due by the start of class next Tuesday, Oct. 25
+- We’ll be working on these [Feather challenges](http://andnowforelectronics.com/notes/feather-challenges/) in class in Week 7.
+ 
+**Learning goals for Week 7:**
+- Gain enough familiarity with Python programming to code the Feather microcontroller to process simple inputs and outputs.
+- Gain familiarity with incorporating microcontroller hardware peripherals into circuit designs, including the PWM module.
+ 
+**What you should read for Week 7:**
+- [Analog vs digital](http://andnowforelectronics.com/notes/analog/) website notes
+- [Feather programming](http://andnowforelectronics.com/notes/feather-programming/) website notes
+ 
+**Optional reading for Week 7:**
+- Section 13.5: Interfacing with Microcontrollers” (pgs. 874-895) in [Practical Electronics for Inventors](https://tufts-primo.hosted.exlibrisgroup.com/permalink/f/k87dab/TN_cdi_safari_books_9781259587559) (Scherz & Monk)
+- [Introducing Adafruit Feather RP2040](https://learn.adafruit.com/adafruit-feather-rp2040-pico/overview) (an Adafruit online guide)  
+- Just this week! An interview with a Tufts Fletcher School professor who studies the history of technology and has a new book out – Chip War - on the history and politics of semiconductors: https://now.tufts.edu/2022/10/13/technology-runs-world-and-race-make-it
+
+
+- - -
+
 
 ## Week 6, Wednesday, 10/12/22 
 
