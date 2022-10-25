@@ -6,6 +6,29 @@ draft: false
 
 - - -
 
+## Week 8, Tuesday, 10/25/22 
+ 
+**Course housekeeping:**
+- For class today (10/25), don’t forget your P 2.5 motor hub. 
+- If you can, please bring a water bottle to class today (10/25) to use as a testing weight.
+- Aim to complete all 10 Feather challenges this week. Use office hours, peers, Nolop, and/or the ME 30 Slack channel for support to complete them. 
+ 
+**Things due in Week 8:**
+- Project 2.5 is due by the start of class next Tuesday, Oct. 25
+- Two sentences about your tentative plans for Project 3 are due on Canvas on Thursday, Oct. 27.
+ 
+**Learning goals for Week 8:**
+- Use the Feather microcontroller to process both analog and digital inputs and outputs.
+- Write Python code to complete all 10 Feather challenges.
+- Gain familiarity with incorporating microcontroller hardware peripherals into circuit designs, including the PWM module.
+ 
+**What you should read for Week 8 in ME 30:**
+- Project 3 description
+- Feather programming
+- Motors
+
+- - -
+
 ## Week 7, Tuesday, 10/18/22
  
 **Course housekeeping:**
