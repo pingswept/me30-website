@@ -4,6 +4,24 @@ draft: false
 ---
 # Projects
 
+## Project #3: Build an electromechanical game
+
+Your task is to build a game with the following characteristics:
+
+*   It is controlled by a Feather microcontroller.
+*   It has at least one electromechanical element that moves, like a motor or a solenoid.
+*   It has some kind of user input, like buttons, knobs, joysticks, sensors, or the like.
+*   It is at least sort of fun to play. A blinking LED is not a game.
+*   It is NOT exactly like a game that already exists, like skee-ball or checkers. It can be kinda similar to existing games, but you must use your creativity here.
+*   (It does not need to have a custom PCB, but it can if you want. If it has a custom PCB, you must make a working prototype first.)
+
+**Midway milestone: Bring a prototype to class and submit some photo or video documentation of it to Canvas: Tuesday, Nov. 1**
+
+**Final demo in class and submit video of it in operation and your code to Canvas: Thursday, Nov. 10**
+
+Class on November 10th will consist entirely of us playing each other's games.
+
+
 ## Project #2.5: Create a secure motor attachment
 
 Because the third major project will require using a motor to actuate some part of an interactive game, in Project 2.5, you’ll building some knowledge about how to attach a part securely to a motor.
