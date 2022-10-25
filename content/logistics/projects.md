@@ -10,10 +10,17 @@ Your task is to build a game with the following characteristics:
 
 *   It is controlled by a Feather microcontroller.
 *   It has at least one electromechanical element that moves, like a motor or a solenoid.
-*   It has some kind of user input, like buttons, knobs, joysticks, sensors, or the like.
+*   It has some kind of user input, like buttons, knobs, joysticks, sensors, or the like (no need to spend your own $ - see note below about the ME 30 Nolop tab).
 *   It is at least sort of fun to play. A blinking LED is not a game.
 *   It is NOT exactly like a game that already exists, like skee-ball or checkers. It can be kinda similar to existing games, but you must use your creativity here.
 *   (It does not need to have a custom PCB, but it can if you want. If it has a custom PCB, you must make a working prototype first.)
+
+Where to get materials for your game:
+
+* Feel free to use anything from your ME 30 kit.
+* Nolop has buttons, potentiometers, LEDs, and materials for laser cutting. You do not need to pay personally for these items. You can use Nolop   materials for your projects by "charging" it to the ME 30 tab located on a clipboard on the Nolop front table. (That involves writing down the item and your name.)
+* Bray also has materials for fabrication.
+* If you need something not available at Nolop or Bray, please talk to Brandon or Kristen.
 
 **Midway milestone: Bring a prototype to class and submit some photo or video documentation of it to Canvas: Tuesday, Nov. 1**
 
