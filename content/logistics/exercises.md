@@ -260,7 +260,7 @@ Challenge #7 asks you to control a motor's on/off state with a Feather output pi
 {{< expand "See the answer" "..." >}}
 (a) The Feather GND pin is not tied to the same ground as the motor circuitry.
 
-(b) There is no current-limiting resistor between the Feather output and the BJT base. We want to keep the current through the base-emitter diode to 15 mA or less. And we want the BJT base to be at only 0.6 V. Since the Feather output supplies 3.3 V, we need a resistor to drop the voltage by 2.7 V and limit the current to 15 mA.
+(b) There is no current-limiting resistor between the Feather output and the BJT base. We want to keep the current through the base-emitter diode to about 10% of the collector-to-emitter current. If the motor is drawing 150 mA, then we want the base-emitter current to be about 15 mA. And we know that when the BJT is on, its base voltage is 0.6 V. Since the Feather output supplies 3.3 V, we need a resistor to drop the voltage by 2.7 V and limit the current to 15 mA.
 {{< /expand >}}
 
 *What are the problems with approach #2?*
