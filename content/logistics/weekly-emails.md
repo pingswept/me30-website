@@ -6,6 +6,36 @@ draft: false
 
 - - -
 
+## Week 9, Monday, 10/31/22 
+
+**Course housekeeping:**
+- We encourage you to take advantage of office hours as you work on Project 3. Here are the times: http://andnowforelectronics.com/logistics/syllabus/#office-hours
+ 
+**Things due in Week 9:**
+- Project 3 prototype is due in class on Tuesday, Nov. 1, with documentation due on Canvas at 11:59pm. We are not expecting to see a working prototype of your entire game, but rather an initial attempt at one of its “critical modules” – this could be the wiring and basic code for its motor, the circuitry and code for its user input, the mechanism that will connect the motor to the game piece(s), etc.
+- By class time on Thursday, Nov., 3, read the short excerpt (on Canvas) from Chapter 1 of Ruha Benjamin’s Race After Technology and respond to the short reflection question on Canvas. This pre-work is important for your ability to engage in our in-class activity on discriminatory design. 
+ 
+**Learning goal for Week 9:**
+- Continue gaining familiarity with motor control, digital and analog input, and CircuitPython programming.
+ 
+**What you should read for Week 9 in ME 30:**
+- Project 3 description
+- Feather programming
+- Discriminatory design
+ 
+**FAQs about resources for Project 3:**
+
+*Where can I find example code for programming Feather inputs and outputs?*
+- Adafruit’s CircuitPython Essentials site: https://learn.adafruit.com/circuitpython-essentials/circuitpython-essentials
+- For controlling a stepper motor with the Feather: https://learn.adafruit.com/adafruit-stepper-dc-motor-featherwing/circuitpython
+ 
+*How do I figure out how to convert the motor shaft’s rotational motion into other useful motion?*
+- “Chapter 8: Combining Simple Machines for Work and Fun” in Making Things Move (Dustyn Roberts), available online to Tufts students from Tisch Library
+- 507 Mechanical Movements: http://507movements.com/toc.html
+- LEGO Technic Mechanisms (you can take inspiration from these even when not building with LEGO): https://www.hispabrickmagazine.com/pdfs/HBM017_EN/HBM017_EN-52-54.pdf
+
+- - -
+
 ## Week 8, Tuesday, 10/25/22 
  
 **Course housekeeping:**
