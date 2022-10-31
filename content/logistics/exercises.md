@@ -243,3 +243,21 @@ Multiply your hub's "slip/stall weight" by the distance between your shaft axis 
 Take a photo of your motor hub attachment. Place it on the class histogram in the column find that corresponds approximately to your slip/stall torque.
 https://docs.google.com/spreadsheets/d/1Y_V_8rgQhnSgg5z3wRCmGc2mLD-aFtRIoKs-uJ67k6A/edit?usp=sharing
 
+## 13. Recognizing common errors in Feather Challenge #7 (Oct. 27)
+
+Challenge #7 asks you to control a motor's on/off state with a Feather output pin. Below are two approaches to setting up the circuitry. Each has problems that will prevent it from working correctly. What do you think those problems are?
+
+*What are the problems with approach #1?*
+
+{{< expand "See the answer" "..." >}}
+(a) The Feather GND pin is not tied to the same ground as the motor circuitry.
+
+(b) There is no current-limiting resistor between the Feather output and the BJT base. We want to keep the current through the base-emitter diode to 15 mA or less. And we want the BJT base to be at only 0.6 V. Since the Feather output supplies 3.3 V, we need a resistor to drop the voltage by 2.7 V and limit the current to 15 mA.
+{{< /expand >}}
+
+*What are the problems with approach #2?*
+
+{{< expand "See the answer" "..." >}}
+The motor is "below" the N-channel MOSFET. When the gate is supplied with voltage, **for a very brief moment** the gate voltage will be higher than the source voltage, and current will flow from drain to source and therefore through the motor.  But once current starts to be drawn through the motor, the voltage at the source will rise to somewhere near 12 V. At this point, the gate voltage of 3.3 V will be less than the source voltage, and the MOSFET will no longer allow current flow to the motor.
+{{< /expand >}}
+
