@@ -111,9 +111,15 @@ The picture below shows the concept of what you're building. In place of the 24 
 
 ## 5.5 Determine pin voltages and ideal resistor value for a BJT circuit (Sep. 29)
 
-Fill in the table below to indicate the voltage at E, B, and C when the input is (a) at ground and (b) at 3.3 V.
+1. Fill in the table below to indicate the voltage at E, B, and C when the input is (a) at ground and (b) at 3.3 V.
+2. What is an ideal value for the current-limiting resistor?
 
-(Graphic to be added)
+
+|  | V_E  | V_B   | V_C |
+|:----:|:-----:|:----:|:----:|
+|  Input at O V   |    |   |     |
+|  Input at 3.3 V   |    |   |     |
+
 
 ## 6. Control a motor with a MOSFET (Sep. 29)
 
@@ -246,6 +252,8 @@ https://docs.google.com/spreadsheets/d/1Y_V_8rgQhnSgg5z3wRCmGc2mLD-aFtRIoKs-uJ67
 ## 13. Recognizing common errors in Feather Challenge #7 (Oct. 27)
 
 Challenge #7 asks you to control a motor's on/off state with a Feather output pin. Below are two approaches to setting up the circuitry. Each has problems that will prevent it from working correctly. What do you think those problems are?
+
+![Feather challenge 7 problems](/img/challenge7.png)
 
 *What are the problems with approach #1?*
 
