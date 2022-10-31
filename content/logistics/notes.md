@@ -21,24 +21,22 @@ Make an LED flash twice per second while checking a button:
 - using millis() in a loop
 - real state machine and functions
 
-## (2021) Class 9: Arduino Connections & PWM for Motor Control
+## Class 14: PWM
 
-Pins on Arduino can be switched high or low. Each pin controls one MOSFET or could use one pin for two MOSFETs in an H-bridge. 
+Pulse Width Modulation to control speed of motors. Begin with exercise that shows two square waves one with 75% duty cycle and one with 25% duty cycle, and ask for student initial ideas on how the motor would behave in each case (not yet using the term "duty cycle").
 
-Importance of connecting Arduino GND to ground loop. 
+## Class 13: Feather challenges
 
-Pulse Width Modulation to control speed of motors. Ideally demo this using a signal generator. Digital vs analog signals.
+Start Feather challenges
 
-Exercise: Work on KiCAD - revisit this and come up with motor related exercise. 
+## Class 12: Intro to microcontrollers 
 
-
-## Class 12: Intro to microcontrollers and PWM for motor control
+Feather set-up
 
 Pins on Feather can be switched high or low. Each pin controls one MOSFET or could use one pin for two MOSFETs in an H-bridge. 
 
 Importance of connecting Feather GND to ground loop. 
 
-Pulse Width Modulation to control speed of motors. Ideally demo this using a signal generator. Digital vs analog signals.
 
 
 ## Class 11: PCB 1 Test and PCB Fabrication
