@@ -266,6 +266,8 @@ Challenge #7 asks you to control a motor's on/off state with a Feather output pi
 *What are the problems with approach #2?*
 
 {{< expand "See the answer" "..." >}}
-The motor is "below" the N-channel MOSFET. When the gate is supplied with voltage, **for a very brief moment** the gate voltage will be higher than the source voltage, and current will flow from drain to source and therefore through the motor.  But once current starts to be drawn through the motor, the voltage at the source will rise to somewhere near 12 V. At this point, the gate voltage of 3.3 V will be less than the source voltage, and the MOSFET will no longer allow current flow to the motor.
+(a) The motor is "below" the N-channel MOSFET. When the gate is supplied with voltage, **for a very brief moment** the gate voltage will be higher than the source voltage, and current will flow from drain to source and therefore through the motor.  But once current starts to be drawn through the motor, the voltage at the source will rise to somewhere near 12 V. At this point, the gate voltage of 3.3 V will be less than the source voltage, and the MOSFET will no longer allow current flow to the motor.
+
+(b) The MOSFET gate does not have a pull-down resistor to ground.
 {{< /expand >}}
 
