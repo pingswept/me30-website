@@ -222,9 +222,10 @@ while True:
     
 ## State Machine Code
 
-    https://gist.github.com/pingswept/1d37a74943f73a6266688db44f3e382d
+Often when using a microcontroller within a electromechanical system, you need to be able to check for the state of inputs while also running motors, lights, and other actuators. Writing code for "state machines" is a useful technique for this situation.  [At this link](https://gist.github.com/pingswept/1d37a74943f73a6266688db44f3e382d) is one way to set up state machines in CircuitPython. This code flashes an LED, constantly checks for a button press, and flashes a different LED when the button is pressed.     
 
-
+    
+## CircuitPython Reference Pages
 If you want to check the details of these functions or see what else is available, the canonical reference is [the CircuitPython Essentials page](https://learn.adafruit.com/circuitpython-essentials/circuitpython-essentials). 
 
 
