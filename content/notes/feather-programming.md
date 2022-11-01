@@ -218,6 +218,11 @@ while True:
     print((inputvoltage.value,))
     time.sleep(0.1)
 </pre>
+    
+    
+## State Machine Code
+
+    https://gist.github.com/pingswept/1d37a74943f73a6266688db44f3e382d
 
 
 If you want to check the details of these functions or see what else is available, the canonical reference is [the CircuitPython Essentials page](https://learn.adafruit.com/circuitpython-essentials/circuitpython-essentials). 
