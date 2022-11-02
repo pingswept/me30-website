@@ -28,14 +28,100 @@ Where to get materials for your game:
 
 Class on November 10th will consist entirely of us playing each other's games.
 
-### Project 3 Resources
+### Project 3 FAQs
 
-* Wiring a stepper motor to two H-bridges: https://lastminuteengineers.com/stepper-motor-l298n-arduino-tutorial/
-* CircuitPython code for stepper motors: [code template](/pdf/motor_stepper_digitalio_template.pdf)
-* How to download CircuitPython libraries onto your Feather: https://learn.adafruit.com/welcome-to-circuitpython/circuitpython-libraries
-* The Adafruit CircuitPython Library Bundle: https://circuitpython.org/libraries
+**How do I download CircuitPython libraries onto my Feather?**
+{{< expand "Click for answer" "..." >}}
+https://learn.adafruit.com/welcome-to-circuitpython/circuitpython-libraries
+{{< /expand >}}
+
+**Where can I find the full set of CircuitPython libraries for the Feather?**
+{{< expand "Click for answer" "..." >}}
+https://circuitpython.org/libraries
 
 NOTE: I recommend downloading the entire bundle to your **laptop,** and then transferring ONLY the libraries you need for your game to your Feather. Transferring the entire bundle to your Feather will take quite a long time.
+{{< /expand >}}
+
+**I know I need two H-bridges to control a stepper motor. But how do I wire it?**
+{{< expand "Click for answer" "..." >}}
+https://lastminuteengineers.com/stepper-motor-l298n-arduino-tutorial/
+{{< /expand >}}
+
+**How do I write CircuitPython code to make a stepper motor move?**
+{{< expand "Click to see some code to get you started" "..." >}}
+<pre class="code">
+# SPDX-FileCopyrightText: 2021 ladyada for Adafruit Industries
+# SPDX-License-Identifier: MIT
+
+# Use this example for digital pin control of an H-bridge driver
+# like a DRV8833, TB6612 or L298N.
+
+# For wiring, see https://lastminuteengineers.com/stepper-motor-l298n-arduino-tutorial/
+
+import time
+import board
+import digitalio
+from adafruit_motor import stepper
+
+# Set DELAY as the length of time that the motor runs for each step. Adafruit suggests 0.01, but ME 30 folks have found this delay value needs to be much shorter. If 0.01 doesn't work, try something as short as 0.005.
+
+DELAY = 0.01
+
+# Set the number of steps for one rotation of the motor. For the stepper motor in the ME 30 kit, one rotation takes 200 steps.
+
+STEPS = 200
+
+# You can use any available GPIO pin on a microcontroller.
+# The following pins are simply a suggestion. If you use different pins, update
+# the following code to use your chosen pins.
+
+coils = (
+    digitalio.DigitalInOut(board.D9),  # A1
+    digitalio.DigitalInOut(board.D10),  # A2
+    digitalio.DigitalInOut(board.D11),  # B1
+    digitalio.DigitalInOut(board.D12),  # B2
+)
+
+for coil in coils:
+    coil.direction = digitalio.Direction.OUTPUT
+
+motor = stepper.StepperMotor(coils[0], coils[1], coils[2], coils[3], microsteps=None)
+
+# Each for loop below represents just one approach to taking a step. 
+# Your final code should choose one of them
+
+# For more info on what these different commands mean, see 
+# the "Stepper Motors" section of this page: 
+# https://learn.adafruit.com/adafruit-stepper-dc-motor-featherwing/circuitpython
+
+for step in range(STEPS):
+    motor.onestep()
+    time.sleep(DELAY)
+
+for step in range(STEPS):
+    motor.onestep(direction=stepper.BACKWARD)
+    time.sleep(DELAY)
+
+for step in range(STEPS):
+    motor.onestep(style=stepper.DOUBLE)
+    time.sleep(DELAY)
+
+for step in range(STEPS):
+    motor.onestep(direction=stepper.BACKWARD, style=stepper.DOUBLE)
+    time.sleep(DELAY)
+
+for step in range(STEPS):
+    motor.onestep(style=stepper.INTERLEAVE)
+    time.sleep(DELAY)
+
+for step in range(STEPS):
+    motor.onestep(direction=stepper.BACKWARD, style=stepper.INTERLEAVE)
+    time.sleep(DELAY)
+
+motor.release()
+</pre>
+{{< /expand >}}
+
 
 
 ## Project #2.5: Create a secure motor attachment
