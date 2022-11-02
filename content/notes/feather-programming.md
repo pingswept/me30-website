@@ -230,7 +230,7 @@ The full set of CircuitPython libraries for the Feather can be downloaded [here]
 
 **NOTE:** I recommend downloading the entire bundle to your **laptop,** and then transferring ONLY the libraries you need for your game to your Feather. Transferring the entire bundle to your Feather will take quite a long time.
     
-For stepper motor control, you'll need the adafruit_motor library.
+For stepper motor control, you'll need the **adafruit_motor library** (and two H-bridges). You can find helpful wiring diagrams [here](https://lastminuteengineers.com/stepper-motor-l298n-arduino-tutorial/).
     
 For distance sensor reading, check out [this page](https://learn.adafruit.com/ultrasonic-sonar-distance-sensors/python-circuitpython) to see what libraries you need.
 
