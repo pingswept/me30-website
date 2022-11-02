@@ -282,6 +282,7 @@ Suppose you want to check for the state of inputs while also running motors, lig
 
 Here's how a novice programmer might try to set up a microcontroller to check for input and flesh a second LED when a button is pressed.  Why will this code probably **not work very well** to accomplish the goal stated above?
 
+{{< expand "Click to see the novice code" "..." >}}
 <pre class="code">
 import board
 import digitalio as dio
@@ -311,6 +312,7 @@ while True:
     else:
         other_led.value = False
 </pre>
+{{< /expand >}}
 
 ### Try a state machine instead!
 
@@ -318,6 +320,43 @@ Writing code for “state machines” is a better technique for this situation. 
 
 https://gist.github.com/pingswept/1d37a74943f73a6266688db44f3e382d
 
+{{< expand "Click to see the state machine code" "..." >}}
+<pre class="code">
+import board
+import digitalio as dio
+import time
 
+led = dio.DigitalInOut(board.LED)
+led.direction = dio.Direction.OUTPUT
 
+button = dio.DigitalInOut(board.D6)
+button.direction = dio.Direction.INPUT
+
+other_led = dio.DigitalInOut(board.D5)
+other_led.direction = dio.Direction.OUTPUT
+
+STATE_TOGGLE = 1
+STATE_CHECK_BUTTON = 2
+
+state = STATE_TOGGLE
+next_toggle = 0
+led.value = False
+
+while True:
+    if state is STATE_TOGGLE:
+        if led.value is True:
+            led.value = False
+        else:
+            led.value = True
+        next_toggle = time.monotonic() + 1.0
+        state = STATE_CHECK_BUTTON
+    elif state is STATE_CHECK_BUTTON:
+        if button.value is True:
+            other_led.value = True
+        else:
+            other_led.value = False
+        if time.monotonic() > next_toggle:
+            state = STATE_TOGGLE
+</pre>
+{{< /expand >}}
 
