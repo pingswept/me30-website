@@ -278,7 +278,9 @@ Challenge #7 asks you to control a motor's on/off state with a Feather output pi
 
 Suppose you want to check for the state of inputs while also running motors, lights, and other actuators. In particular, you want to flash an LED, constantly check for a button press that sets an input pin HIGH, and flash a different LED when the button is pressed.
 
-Here's how a novice programmer might try to set up a microcontroller to check for input and flesh a second LED when a button is pressed.  Why will this code probably not work very well to accomplish the goal stated above?
+### The naive approach
+
+Here's how a novice programmer might try to set up a microcontroller to check for input and flesh a second LED when a button is pressed.  Why will this code probably **not work very well** to accomplish the goal stated above?
 
 <pre class="code">
 import board
@@ -309,6 +311,8 @@ while True:
     else:
         other_led.value = False
 </pre>
+
+### Try a state machine instead!
 
 Writing code for “state machines” is a better technique for this situation. At this link is one way to set up state machines in CircuitPython. 
 
