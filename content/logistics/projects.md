@@ -31,7 +31,7 @@ Class on November 10th will consist entirely of us playing each other's games.
 ### Project 3 Resources
 
 * Wiring a stepper motor to two H-bridges: https://lastminuteengineers.com/stepper-motor-l298n-arduino-tutorial/
-* CircuitPython code for stepper motors: link to py file
+* CircuitPython code for stepper motors: ![code link](/pdf/motor_stepper_digitalio_template.py)
 * How to download CircuitPython libraries onto your Feather: https://learn.adafruit.com/welcome-to-circuitpython/circuitpython-libraries
 * The Adafruit CircuitPython Library Bundle: https://circuitpython.org/libraries
 
