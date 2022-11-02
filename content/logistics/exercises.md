@@ -280,7 +280,35 @@ Suppose you want to check for the state of inputs while also running motors, lig
 
 Here's how a novice programmer might try to set up a microcontroller to check for input and flesh a second LED when a button is pressed.  Why will this code probably not work very well to accomplish the goal stated above?
 
-*novice code to be added here*
+<pre class="code">
+import board
+import digitalio as dio
+import time
+
+led = dio.DigitalInOut(board.LED)
+led.direction = dio.Direction.OUTPUT
+
+button = dio.DigitalInOut(board.D6)
+button.direction = dio.Direction.INPUT
+
+other_led = dio.DigitalInOut(board.D5)
+other_led.direction = dio.Direction.OUTPUT
+
+led.value = False
+
+while True:
+    if led.value is True:
+        led.value = False
+    else:
+        led.value = True
+
+    time.sleep(1.0)
+
+    if button.value is True:
+        other_led.value = True
+    else:
+        other_led.value = False
+</pre>
 
 Writing code for “state machines” is a better technique for this situation. At this link is one way to set up state machines in CircuitPython. 
 
