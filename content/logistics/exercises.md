@@ -269,5 +269,23 @@ Challenge #7 asks you to control a motor's on/off state with a Feather output pi
 (a) The motor is "below" the N-channel MOSFET. When the gate is supplied with voltage, **for a very brief moment** the gate voltage will be higher than the source voltage, and current will flow from drain to source and therefore through the motor.  But once current starts to be drawn through the motor, the voltage at the source will rise to somewhere near 12 V. At this point, the gate voltage of 3.3 V will be less than the source voltage, and the MOSFET will no longer allow current flow to the motor.
 
 (b) The MOSFET gate does not have a pull-down resistor to ground.
+
+(c) The Feather GND pin is not tied to the same ground as the motor circuitry.
+
 {{< /expand >}}
+
+## 14. How to code your Feather to constantly check an input while also running actuators (Nov. 1)
+
+Suppose you want to check for the state of inputs while also running motors, lights, and other actuators. In particular, you want to flash an LED, constantly check for a button press that sets an input pin HIGH, and flash a different LED when the button is pressed.
+
+Here's how a novice programmer might try to set up a microcontroller to check for input and flesh a second LED when a button is pressed.  Why will this code probably not work very well to accomplish the goal stated above?
+
+*novice code to be added here*
+
+Writing code for “state machines” is a better technique for this situation. At this link is one way to set up state machines in CircuitPython. 
+
+https://gist.github.com/pingswept/1d37a74943f73a6266688db44f3e382d
+
+
+
 
