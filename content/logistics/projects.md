@@ -28,6 +28,15 @@ Where to get materials for your game:
 
 Class on November 10th will consist entirely of us playing each other's games.
 
+### Project 3 Resources
+
+* Wiring a stepper motor to two H-bridges: https://lastminuteengineers.com/stepper-motor-l298n-arduino-tutorial/
+* CircuitPython code for stepper motors: link to py file
+* How to download CircuitPython libraries onto your Feather: https://learn.adafruit.com/welcome-to-circuitpython/circuitpython-libraries
+* The Adafruit CircuitPython Library Bundle: https://circuitpython.org/libraries
+
+NOTE: I recommend downloading the entire bundle to your **laptop,** and then transferring ONLY the libraries you need for your game to your Feather. Transferring the entire bundle to your Feather will take quite a long time.
+
 
 ## Project #2.5: Create a secure motor attachment
 
