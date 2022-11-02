@@ -4,6 +4,7 @@ draft: false
 ---
 ## Programming your Feather RP2040 microcontroller
 
+- - -
 
 ## Stuff You Need
 
@@ -147,6 +148,8 @@ Python has no command for simply declaring the existence of a variable.
 
 You’ll need to open the serial monitor in the Mu editor.
 
+- - -
+
 ## A few exciting commands in some CircuitPython-specific libraries
 
 Here are some Python commands that you might want to start with. To use all but the print() command, you need to start your Python code by importing the libraries specified below (TIME, BOARD, DIGITALIO, PWMIO, ANALOGIO).
@@ -219,6 +222,19 @@ while True:
     time.sleep(0.1)
 </pre>
     
+### Libraries for sensors and stepper motors
+    
+If you want to program more specialized devices like stepper motors or particular sensors, you may need to download additional CircuitPython libraries (that don't come with CircuitPython uf2 file itself) onto your Feather. You can learn about how that works at the Welcome to CircuitPython libraries [page](https://learn.adafruit.com/welcome-to-circuitpython/circuitpython-libraries)
+
+The full set of CircuitPython libraries for the Feather can be downloaded [here](https://circuitpython.org/libraries).
+
+**NOTE:** I recommend downloading the entire bundle to your **laptop,** and then transferring ONLY the libraries you need for your game to your Feather. Transferring the entire bundle to your Feather will take quite a long time.
+    
+For stepper motor control, you'll need the adafruit_motor library.
+    
+For distance sensor reading, check out [this page](https://learn.adafruit.com/ultrasonic-sonar-distance-sensors/python-circuitpython) to see what libraries you need.
+
+
     
 ## State Machine Code
 
