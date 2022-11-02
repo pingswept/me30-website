@@ -30,6 +30,11 @@ Class on November 10th will consist entirely of us playing each other's games.
 
 ### Project 3 FAQs
 
+**Where is that state machine code that was shown in class?**
+{{< expand "Click for link" "..." >}}
+https://gist.github.com/pingswept/1d37a74943f73a6266688db44f3e382d
+{{< /expand >}}
+
 **How do I download CircuitPython libraries onto my Feather?**
 {{< expand "Click for answer" "..." >}}
 https://learn.adafruit.com/welcome-to-circuitpython/circuitpython-libraries
