@@ -59,6 +59,8 @@ If you look closely at the rotor below, you can see that the teeth on the left r
 
 ![stepper motor rotor](/img/stepper-motor-rotor.jpg)
 
+To learn about how to wire a stepper motor to a pair of H-bridge motor drivers, view [this resource](https://lastminuteengineers.com/stepper-motor-l298n-arduino-tutorial/).
+
 ### Hobby servos
 
 Okay, now we have to expose a lie: the hobby servo is, in fact, a brushed DC motor hidden inside a plastic case, so the truth is that we're only discussing two kinds of motors. The case also contains a geartrain, a motor controller IC, an H-bridge and a potentiometer.
