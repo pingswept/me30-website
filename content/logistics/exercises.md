@@ -282,7 +282,7 @@ Suppose you want to check for the state of inputs while also running motors, lig
 
 Here's how a novice programmer might try to set up a microcontroller to check for input and flesh a second LED when a button is pressed.  Why will this code probably **not work very well** to accomplish the goal stated above?
 
-{{< expand "Click to see the novice code" "..." >}}
+{{< expand "Click to see the code that won't work very well" "..." >}}
 <pre class="code">
 import board
 import digitalio as dio
@@ -316,9 +316,7 @@ while True:
 
 ### Try a state machine instead!
 
-Writing code for “state machines” is a better technique for this situation. At this link is one way to set up state machines in CircuitPython. 
-
-https://gist.github.com/pingswept/1d37a74943f73a6266688db44f3e382d
+Writing code for “state machines” is a better technique for this situation. At this [link](https://gist.github.com/pingswept/1d37a74943f73a6266688db44f3e382d) (and in the box below) is one way to set up state machines in CircuitPython. 
 
 {{< expand "Click to see the state machine code" "..." >}}
 <pre class="code">
