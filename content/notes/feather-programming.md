@@ -230,9 +230,65 @@ The full set of CircuitPython libraries for the Feather can be downloaded [here]
 
 **NOTE:** I recommend downloading the entire bundle to your **laptop,** and then transferring ONLY the libraries you need for your game to your Feather. Transferring the entire bundle to your Feather will take quite a long time.
     
+For distance sensor reading, check out [this page](https://learn.adafruit.com/ultrasonic-sonar-distance-sensors/python-circuitpython) to see what libraries you need.
+
 For stepper motor control, you'll need the **adafruit_motor library** (and two H-bridges). You can find helpful wiring diagrams [here](https://lastminuteengineers.com/stepper-motor-l298n-arduino-tutorial/).
     
-For distance sensor reading, check out [this page](https://learn.adafruit.com/ultrasonic-sonar-distance-sensors/python-circuitpython) to see what libraries you need.
+{{< expand "Click to see some stepper motor code" "..." >}}
+<pre class="code">
+# SPDX-FileCopyrightText: 2021 ladyada for Adafruit Industries
+# SPDX-License-Identifier: MIT
+
+# Use this example for digital pin control of an H-bridge driver
+# like a DRV8833, TB6612 or L298N.
+
+import time
+import board
+import digitalio
+from adafruit_motor import stepper
+
+# Set DELAY as the length of time that the motor runs for each step. Adafruit suggests 0.01, but ME 30 folks have found this delay value needs to be much shorter. If 0.01 doesn't work, try something as short as 0.005.
+
+DELAY = 0.01
+
+# Set the number of steps for one rotation of the motor. For the stepper motor in the ME 30 kit, one rotation takes 200 steps.
+
+STEPS = 200
+
+# You can use any available GPIO pin on a microcontroller.
+# The following pins are simply a suggestion. If you use different pins, 
+# update the following code to use your chosen pins.
+
+coils = (
+    digitalio.DigitalInOut(board.D9),  # A1
+    digitalio.DigitalInOut(board.D10),  # A2
+    digitalio.DigitalInOut(board.D11),  # B1
+    digitalio.DigitalInOut(board.D12),  # B2
+)
+
+for coil in coils:
+    coil.direction = digitalio.Direction.OUTPUT
+    
+# The next line is essential. It creates an 
+# object, 'motor' (you can name it anything)
+# to hold the details about your stepper motor wiring. 
+# It uses the stepper command from the adafruit_motor library.
+
+motor = stepper.StepperMotor(coils[0], coils[1], coils[2], coils[3], microsteps=None)
+
+# The for loop below represents just one approach to taking a step. 
+# For more info on the arguments for the 'onestep' command, see 
+# the "Stepper Motors" section of this page: 
+# https://learn.adafruit.com/adafruit-stepper-dc-motor-featherwing/circuitpython
+
+for step in range(STEPS):
+    motor.onestep(direction=stepper.FORWARD, style=stepper.INTERLEAVE)
+    time.sleep(DELAY)
+
+motor.release()
+
+</pre>
+{{< /expand >}}
 
 
     
