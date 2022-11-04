@@ -6,12 +6,14 @@ draft: false
 
 - - -
 
+## Set-Up Procedure
+{{< expand "Click to see the set-up steps" "..." >}}
+
 ## Stuff You Need
 
 *   A computer, plus the admin password to install software
 *   An Adafruit Feather RP2040
 *   A USB-C cable with the right ends to connect the Feather to the computer
-
 
 ## Software check 
 
@@ -89,6 +91,8 @@ As the code is uploaded, you'll see the larger circular LED on the Feather board
 After the code is saved on the Feather, you should see the on-board red LED blinking once per second.
 
 If you've made it this far, your hardware and software are working properly. Congratulations! Go get a drink of cool, delicious water!
+{{< /expand >}}
+
 
 ## Alternative Feather programming tutorials
 
