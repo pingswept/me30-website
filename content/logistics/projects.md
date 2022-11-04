@@ -28,40 +28,24 @@ Where to get materials for your game:
 
 Class on November 10th will consist entirely of us playing each other's games.
 
-### Project 3 FAQs
+### Project 3 FAQs / Resources
 
-**Where is that state machine code that was shown in class?**
-{{< expand "Click for link" "..." >}}
-https://gist.github.com/pingswept/1d37a74943f73a6266688db44f3e382d
-{{< /expand >}}
-
-**How do I download CircuitPython libraries onto my Feather?**
-{{< expand "Click for answer" "..." >}}
-https://learn.adafruit.com/welcome-to-circuitpython/circuitpython-libraries
-{{< /expand >}}
-
-**Where can I find the full set of CircuitPython libraries for the Feather?**
-{{< expand "Click for answer" "..." >}}
-https://circuitpython.org/libraries
+- State machine code shown in class: https://gist.github.com/pingswept/1d37a74943f73a6266688db44f3e382d
+- Downloading CircuitPython libraries onto your Feather: https://learn.adafruit.com/welcome-to-circuitpython/circuitpython-libraries
+- Full bundle of CircuitPython libraries for the Feather: https://circuitpython.org/libraries
 
 NOTE: I recommend downloading the entire bundle to your **laptop,** and then transferring ONLY the libraries you need for your game to your Feather. Transferring the entire bundle to your Feather will take quite a long time.
-{{< /expand >}}
 
-**I know I need two H-bridges to control a stepper motor. But how do I wire it?**
-{{< expand "Click for answer" "..." >}}
-https://lastminuteengineers.com/stepper-motor-l298n-arduino-tutorial/
-{{< /expand >}}
+- Stepper motors - how to wire: https://lastminuteengineers.com/stepper-motor-l298n-arduino-tutorial/
+- Stepper motors - how to code:
 
-**How do I write CircuitPython code to make a stepper motor move?**
-{{< expand "Click to see some code to get you started" "..." >}}
+{{< expand "Click to see stepper motor code" "..." >}}
 <pre class="code">
 # SPDX-FileCopyrightText: 2021 ladyada for Adafruit Industries
 # SPDX-License-Identifier: MIT
 
 # Use this example for digital pin control of an H-bridge driver
 # like a DRV8833, TB6612 or L298N.
-
-# For wiring, see https://lastminuteengineers.com/stepper-motor-l298n-arduino-tutorial/
 
 import time
 import board
@@ -77,8 +61,8 @@ DELAY = 0.01
 STEPS = 200
 
 # You can use any available GPIO pin on a microcontroller.
-# The following pins are simply a suggestion. If you use different pins, update
-# the following code to use your chosen pins.
+# The following pins are simply a suggestion. If you use different pins, 
+# update the following code to use your chosen pins.
 
 coils = (
     digitalio.DigitalInOut(board.D9),  # A1
@@ -89,41 +73,25 @@ coils = (
 
 for coil in coils:
     coil.direction = digitalio.Direction.OUTPUT
+    
+# The next line is essential. It creates an 
+# object, 'motor' (you can name it anything)
+# to hold the details about your stepper motor wiring. 
+# It uses the stepper command from the adafruit_motor library.
 
 motor = stepper.StepperMotor(coils[0], coils[1], coils[2], coils[3], microsteps=None)
 
-# Each for loop below represents just one approach to taking a step. 
-# Your final code should choose one of them
-
-# For more info on what these different commands mean, see 
+# The for loop below represents just one approach to taking a step. 
+# For more info on the arguments for the 'onestep' command, see 
 # the "Stepper Motors" section of this page: 
 # https://learn.adafruit.com/adafruit-stepper-dc-motor-featherwing/circuitpython
 
 for step in range(STEPS):
-    motor.onestep()
-    time.sleep(DELAY)
-
-for step in range(STEPS):
-    motor.onestep(direction=stepper.BACKWARD)
-    time.sleep(DELAY)
-
-for step in range(STEPS):
-    motor.onestep(style=stepper.DOUBLE)
-    time.sleep(DELAY)
-
-for step in range(STEPS):
-    motor.onestep(direction=stepper.BACKWARD, style=stepper.DOUBLE)
-    time.sleep(DELAY)
-
-for step in range(STEPS):
-    motor.onestep(style=stepper.INTERLEAVE)
-    time.sleep(DELAY)
-
-for step in range(STEPS):
-    motor.onestep(direction=stepper.BACKWARD, style=stepper.INTERLEAVE)
+    motor.onestep(direction=stepper.FORWARD, style=stepper.INTERLEAVE)
     time.sleep(DELAY)
 
 motor.release()
+
 </pre>
 {{< /expand >}}
 
