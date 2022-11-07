@@ -7,6 +7,27 @@ draft: false
 
 ME 30, Electromechanical Systems and Robotics I, class number 80399
 
+## Office hours
+
+Kristen's office hours are:  
+
+* Tues., 11/8, 12-1:30pm Nolop
+* Wednesday, 11/9, 9-10am, Nolop
+
+Brandon's office hours are:
+
+* Roughly 9 AM to 5 PM in Nolop, unless he's teaching class or in a meeting, or it's a weekend
+
+LA office hours are at Nolop at these times:
+
+* Sundays, 6-8 PM: Madeline and Leslie
+* Mondays 6:30-8:30 PM: Luisa & Olivia
+* Tuesdays 10:30-11:30 AM: Zosia
+* Tuesdays 1:30-2:30 PM: Roy
+* Wednesdays 6:00-8:00 PM: Reid
+* Wednesdays 8:00-9:00 PM: Roy
+
+
 ## Course description
 
 A project-based hands-on electronics boot camp, focusing on the design and fabrication of printed circuit boards and interfacing with microcontrollers from the Raspberry Pi family.
@@ -42,27 +63,6 @@ The point of the course is to force students to gain experience with the practic
 Brandon Stafford, brandon.stafford@tufts.edu
 
 Kristen Wendell, kristen.wendell@tufts.edu
-
-## Office hours
-
-Kristen's office hours are:  
-
-* Thurs., 11/3, 4-5pm Nolop
-* Tues., 11/8, 12-1:30pm Nolop
-* Wednesdays, 9-10am, Zoom: https://tufts.zoom.us/my/kbwendell
-
-Brandon's office hours are:
-
-* Roughly 9 AM to 5 PM in Nolop, unless he's teaching class or in a meeting, or it's a weekend
-
-LA office hours are at Nolop at these times:
-
-* Sundays, 6-8 PM: Madeline and Leslie
-* Mondays 6:30-8:30 PM: Luisa & Olivia
-* Tuesdays 10:30-11:30 AM: Zosia
-* Tuesdays 1:30-2:30 PM: Roy
-* Wednesdays 6:00-8:00 PM: Reid
-* Wednesdays 8:00-9:00 PM: Roy
 
 
 ## Course credit and time expectations
