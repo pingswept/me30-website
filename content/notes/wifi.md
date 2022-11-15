@@ -1,6 +1,6 @@
 ---
 title: "Wifi"
-draft: true
+draft: false
 ---
 
 ## Wifi at Tufts
