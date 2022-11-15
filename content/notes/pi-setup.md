@@ -31,7 +31,7 @@ There are more details if you need them in [Adafruit's console cable tutorial](h
     <li><input type="checkbox"> Install the driver for the console cable (can be found on the Adafruit tutorial linked above) </li>
   <li><input type="checkbox"> Connect RPi to laptop with console cable</li>
   <li><input type="checkbox"> Put micro SD card in slot of Pi</li>
-  <li><input type="checkbox"> Install <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">PuTTY</a> (Windows) or open Terminal (macOS)</li>
+  <li><input type="checkbox"> Install <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">PuTTY</a> (Windows) or open Terminal (macOS -- from the Utilities folder in Applications)</li>
   <li><input type="checkbox"> Start a session at 115200 bps to the Pi</li>
   <li><input type="checkbox"> Connect USB-C power cable</li>
   <li><input type="checkbox"> Log in with username `pi` and password `raspberry`</li>
