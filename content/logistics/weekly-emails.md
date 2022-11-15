@@ -6,6 +6,48 @@ draft: false
 
 - - -
 
+## Week 11, Monday, 11/14/22
+
+Thanks for your hard and creative work on Project 3, and your participation in sharing out in class last week. Make sure you save your Project 3 video and take some good photos of your work so that you have it for portfolios and career opportunities down the road.
+ 
+**Course housekeeping:**
+- If you have a micro SD card reader, please bring it to class this week along with your ME 30 kit. We’ll use them for putting operating systems onto your Raspberry Pis.
+ 
+**Things due in Week 11:**
+- By class time on Thursday, 11/17, please have your Raspberry Pi set up so that you can log into it. Post a photo on Canvas to show your Pi setup or let us know where you are stuck. We’ll go over the Pi set-up steps in class on Tuesday, 11/15.
+ 
+**Learning goals for Week 11:**
+- Identify the main components and functions of the Raspberry Pi.
+ 
+**What you should watch and read for Week 11:**
+- Microcontrollers: http://andnowforelectronics.com/notes/microcontrollers/
+- Raspberry Pi setup: http://andnowforelectronics.com/notes/pi-setup/
+- Raspberry Pi programming:  http://andnowforelectronics.com/notes/pi-programming/
+- Raspberry Pi challenges: http://andnowforelectronics.com/notes/pi-challenges/
+
+## Week 10, Monday, 11/7/22
+ 
+We’d like to start this week’s email with some big-picture perspective. While there is a deadline coming up this week (Thursday, for Project 3), the point of ME 30 projects is the process, not the particular endpoint you reach by the deadline. If you don’t find yourself on a journey, that’s a concern (and please reach out so we can help you get started). But if you don’t find yourself landing at the exact destination you’d hoped for by Thursday at 12pm – that is okay. The learning comes from the journey, and that’s what this is all about.  Remember that project grading is based on fulfilling the project criteria by the due date (syllabus section on project grading: http://andnowforelectronics.com/logistics/syllabus/#projects-100).  We’re NOT grading you based on how complicated your game is.
+ 
+**Course housekeeping:**
+- No class this Tuesday due to Tufts Friday schedule. 
+- Lots of office hours to help you with P3: http://andnowforelectronics.com/logistics/syllabus/#office-hours
+ 
+**Things due in Week 10:**
+- Project 3 Final. Bring your completed game to class on Thursday, Nov. 10. We’ll dedicate the class time to playing each other’s games and reflecting. Post documentation of your game to Canvas by midnight on Thursday.
+ 
+**Learning goals for Week 10:**
+- Continue gaining familiarity with motor control, digital and analog input, and CircuitPython programming.
+ 
+**Resources for Project 3:**
+- Setting Feather pins as PWM pins to control DC motor speed: http://andnowforelectronics.com/notes/feather-programming/#pwmio-library
+- State machine code shown in class: https://gist.github.com/pingswept/1d37a74943f73a6266688db44f3e382d
+- Downloading CircuitPython libraries onto your Feather: https://learn.adafruit.com/welcome-to-circuitpython/circuitpython-libraries
+- Full bundle of CircuitPython libraries for the Feather: https://circuitpython.org/libraries
+- Stepper motors - how to wire: https://lastminuteengineers.com/stepper-motor-l298n-arduino-tutorial/
+- Stepper motors - how to code: http://andnowforelectronics.com/notes/feather-programming/#libraries-for-sensors-and-stepper-motors
+
+
 ## Week 9, Monday, 10/31/22 
 
 **Course housekeeping:**
