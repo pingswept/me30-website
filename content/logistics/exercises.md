@@ -362,6 +362,8 @@ while True:
 
 Whole-class anonymous poll (responses viewable anonymously by the class): https://pollev.com/me30
 
+Your responses: https://tufts.box.com/s/x9fatn1zsfspyp1mi7k9o7qa1rb84o8m
+
 Individual reflection (responses seen only by instructors): https://tufts.qualtrics.com/jfe/form/SV_82I3784cDRJPzX8
 
 ## 15. Raspberry Pi setup (Nov. 15)
