@@ -358,3 +358,13 @@ while True:
 </pre>
 {{< /expand >}}
 
+## 14. Project 3 Reflection (Nov. 15)
+
+Whole-class anonymous poll (responses viewable anonymously by the class): https://pollev.com/me30
+
+Individual reflection (responses seen only by instructors): https://tufts.qualtrics.com/jfe/form/SV_82I3784cDRJPzX8
+
+## 15. Raspberry Pi setup (Nov. 15)
+
+Follow the video and text directions here: http://andnowforelectronics.com/notes/pi-setup/
+
