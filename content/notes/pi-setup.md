@@ -32,7 +32,7 @@ There are more details if you need them in [Adafruit's console cable tutorial](h
   <li><input type="checkbox"> Connect RPi to laptop with console cable</li>
   <li><input type="checkbox"> Put micro SD card in slot of Pi</li>
   <li><input type="checkbox"> Install <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">PuTTY</a> (Windows) or open Terminal (macOS -- from the Utilities folder in Applications)</li>
-  <li><input type="checkbox"> macOS -- type `ls /dev` and find the entry in the list of devices that says `tty.usbserial-XXYYZ`. Record the numbers you see instead of XXYYZ. </li>
+  <li><input type="checkbox"> macOS -- type `ls /dev` and find the name assigned to the USB-serial adapter. It should be the entry in the list that says `tty.usbserial-XXYYZ`. Record the numbers you see instead of XXYYZ. </li>
   <li><input type="checkbox"> Start a session at 115200 bps to the Pi (macOS -- type in the Terminal `screen /dev/tty.usbserial-XXYYZ 115200`) </li>
   <li><input type="checkbox"> Connect USB-C power cable. Wait a minute or so for the Pi to boot up</li>
   <li><input type="checkbox"> Log in with username `pi` and password `raspberry`</li>
