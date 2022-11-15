@@ -21,4 +21,6 @@ The main jobs that an operating system does are:
 
 * Run a file system. Store files efficiently. Keep track of their names, who is allowed to access them, and when they were last modified.
 * Talk to the internet. Connect to a wifi access point and get an IP address. Resolve domain names.
-* Run a process scheduler. This is a program that switches back and forth between different programs really fast, so that it seems like they are running at the same time. 
+* Run a process scheduler. This is a program that switches back and forth between different programs really fast, so that it seems like they are running at the same time.
+* Manage memory. Allocate memory to different programs, and then take it back when the program is done.
+* Talk to the rest of the hardware on the computer. For example, the operating system knows how to make the CPU talk to a USB port, plus how to control all the pins on the Pi's 40-pin header.
