@@ -6,7 +6,9 @@ draft: false
 
 # THE P4 DESCRIPTION IS NOT ACCURATE. THIS IS FROM LAST YEAR. #
 
-## Project #4: Build an intrepid robot that traverses the SEC
+## Projects 4 and 5: Build an intrepid robot that traverses an obstacle course and delivers freight
+
+Projects 4 and 5 are, in a sense, one mega-project. In the first part, you and your team build a robot. In the second part, you modify it to traverse an obstacle course and deliver a payload.
 
 ### System requirements
 
@@ -22,7 +24,6 @@ draft: false
 * You should not touch your robot during its adventures. This probably means that your robot should be remote controlled.
 * You should not use an RC car controller. This probably means that your robot should be controlled through wifi from a laptop or phone.
 * Your robot cannot fly. (We don't have the space to test drones safely, unfortunately.)
-* You cannot clear a path for the robot. This would include moving chairs, opening doors and the like. 
 
 ### Safe assumptions
 
@@ -46,25 +47,16 @@ draft: false
 * See the [client and server setup](http://andnowforelectronics.com/notes/demo-videos/#client-and-server-setup) demo video that walks through the code for Raspberry Pis and Arduinos as clients and servers
 * See the [Internet](http://andnowforelectronics.com/notes/internet/) page to find out how IP addresses work.
 
-### Teaming options for project #4
+### Teaming options for projects 4 and 5
 
-Project 4 requires an internet-connected sensor that can send data in response to a request from an internet-connected actuator. Due to internet firewalls, this communication is only possible when either (1) both the sensor and actuator are on the same wireless network (i.e., Tufts_Wireless, or the same home wireless router), or (2) the sensor operator has access to change the firewall settings of their wireless router (specifically, the port forwarding settings). You may have heard of people doing this to run an Xbox; it's the same situation, but just one port.
-
-**Option 1 – Work by yourself**
-You’ll need to use both your Raspberry Pi and your Arduino, both connected to the same wireless network. With this approach, an individual student can satisfy the project requirement to include a sensor and an actuator that are not physically connected to each other and that communicate through the internet.
-
-**Option 2 – Work with a partner of your choice**
+**Option 1 – Work with a partner of your choice**
 For this set-up to be successful, one of the following statements should be true:
 * Both partners can access the Tufts campus network when testing and running your system, OR
 * at least one partner (who operates the sensor node) has access to change the firewall (port forwarding) settings on their home wireless router, OR
 * both partners are willing to work patiently with the ME 30 team on creating an encrypted tunnel through your firewall.
 
-Be sure to ask any potential partners about their wireless situation both before and after Thanksgiving. The project is due on Dec. 1.
-
-**Option 3 – Work with a partner assigned to you by Kristen and Brandon**
-We’ll pool all the people who would like to be assigned a partner, and make optimal pairs based on your responses to the following questions about wireless network access.  
-1)	Will you have access to the Tufts campus wireless network both before and after Thanksgiving?
-2)	Do you have access to change the firewall (port forwarding) settings of your home wireless router?
+**Option 2 – Work with a partner assigned to you by Kristen and Brandon**
+We’ll pool all the people who would like to be assigned a partner, and make optimal pairs based on your responses to the following questions about wireless network access.
 
 ## Project #3: Build an electromechanical game
 
