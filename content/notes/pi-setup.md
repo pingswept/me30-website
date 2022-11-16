@@ -14,7 +14,7 @@ draft: false
 * USB-C power supply
 * USB-serial adapter, AKA a console cable
 
-You may also need a USB card reader, if you don't have a card slot built into your computer. We have extra adapters that you can borrow to burn your SD card if needed.
+You may also need a USB card reader, if you don't have a card slot built into your computer. We have extra adapters that you can borrow to write data to your SD card if needed.
 
 To connect the console cable, look at this diagram.
 
@@ -32,12 +32,13 @@ There are more details if you need them in [Adafruit's console cable tutorial](h
     <li><input type="checkbox"> Install the <a href="https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads">SiLabs CP210X USB driver</a> for the console cable</li>
   <li><input type="checkbox"> Connect RPi to laptop with console cable</li>
   <li><input type="checkbox"> Put micro SD card in slot of Pi</li>
-  <li><input type="checkbox"> Install <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">PuTTY</a> (Windows) or open Terminal (macOS -- from the Utilities folder in Applications)</li>
-  <li><input type="checkbox"> macOS -- type <code>ls /dev</code> and find the name assigned to the USB-serial adapter. It should be the entry in the list that says <code>tty.usbserial-XXYYZZ</code>. Record the numbers you see instead of XXYYZZ. </li>
-  <li><input type="checkbox"> Start a session at 115200 bps to the Pi (macOS -- type in the Terminal <code>screen /dev/tty.usbserial-XXYYZ 115200</code>) </li>
+  <li><input type="checkbox"> Install <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">PuTTY</a> (Windows) or open Applications > Utilities > Terminal (macOS)</li>
+  <li><input type="checkbox"> (macOS only) In Terminal, run <code>ls /dev</code> and find the entry that says <code>tty.usbserial-XXYYZZ</code>. Record the numbers you see instead of XXYYZZ. </li>
+  <li><input type="checkbox"> (macOS only) In Terminal, run <code>screen /dev/tty.usbserial-XXYYZ 115200</code>)
+  <li><input type="checkbox"> (Windows only) In PuTTY, start a serial session at 115200 bps to the Pi</li>
   <li><input type="checkbox"> Connect USB-C power cable. Wait a minute or so for the Pi to boot up</li>
-  <li><input type="checkbox"> Log in with username <code>pi</code> and password you set using the Imager.</li>
-  <li><input type="checkbox"> Run <code>sudo raspi-config</code> to set up your wireless connection.</li>
+  <li><input type="checkbox"> Log in with username <code>pi</code> and password you set using the Imager</li>
+  <li><input type="checkbox"> Run <code>sudo raspi-config</code> to set up your wireless connection</li>
 </ul>
 
 ![Raspberry Pi Imager OS selection](/img/pi-imager-with-gear-menu.png)
