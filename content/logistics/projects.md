@@ -10,44 +10,34 @@ draft: false
 
 Projects 4 and 5 are, in a sense, one mega-project. In the first part, you and your team build a robot. In the second part, you modify it to traverse an obstacle course and deliver a payload.
 
-### System requirements
+### Requirements for project 4: build something that travels by Tuesday, December 6, high noon
 
-* On December 14th at 10:30 AM, your robot will be placed on the floor in the atrium near Blake.
-* Your robot must do three things in order in less than 15 minutes:
-  * High five an LA (target hand height 105.5-107 cm), seated conveniently nearby in the atrium
-  * Travel to Jason Rife's office.
-  * High five Jason Rife (target hand height 105.5-107 cm).
-* Your robot should not be tethered to a wall outlet (batteries will be available in Nolop).
-
-### Restrictions
-
+* Your robot should fit in a circle 30 cm in diameter.
+* Your robot should be less than 30 cm tall.
+* The top of your robot should be a freight platform that can support a load, up to 10 cm in diameter that weighs up to 1 kg.
+* Your robot should be stable, so that as it travels, laden with freight, it does not tilt its load more than 3 degrees in any direction from the horizontal plane. 
 * You should not touch your robot during its adventures. This probably means that your robot should be remote controlled.
 * You should not use an RC car controller. This probably means that your robot should be controlled through wifi from a laptop or phone.
 * Your robot cannot fly. (We don't have the space to test drones safely, unfortunately.)
-
-### Safe assumptions
-
-* The doors at the top of the stairs that lead to the ME department hallway will be propped open.
-* The atrium and hallways will be clear of chairs and similar obstacles. You will still need to traverse a variety of different surfaces.
-
-**Milestone 1: Build something that drives: Tuesday, December 7, 10:30 AM**
-
-* You should submit video documentation to Canvas and bring your something-that-drives to class. 
+* You should submit video documentation to Canvas and bring your something-that-drives to class.
 * Note: It would be a good idea to focus on making your robot drive effectively before you worry about any higher level mechanics or control through the internet.
 
-**Final due date: Thursday, December 14, 10:30 AM (last class)**
+### Rough requirements for project 5
 
-* You should submit video documentation and code to Canvas and bring your robot to the atrium. 
+We'll release more details about the obstacle course and freight delivery after Thanksgiving. The truth is that we haven't done this project before, so we're still deciding exactly what obstacles to give you, but also, we want you to focus on the basic robot design first, rather than going for a 1 month moonshot.
 
-### More details for project #4
+* On Thursday, December 15th at high noon, your robot will be placed on the floor in the atrium near Blake.
+* Your robot must do three things in order in less than 15 minutes:
+  * Traverse the obstacle course.
+  * Travel to the freight depot.
+  * Deliver the freight to its destination.
+* Your robot should not be tethered to a wall outlet (batteries will be available in Nolop).
 
-* If you need parts (like a sensor or a certain kind of motor), we're happy to order them for you.  
-* See the [Raspberry Pi setup](http://andnowforelectronics.com/notes/pi-setup/) page to learn how to control your Pi via serial cable and the Internet.  
-* See the [servers and clients](http://andnowforelectronics.com/notes/servers/) page to learn how to coax your Pi into sending and receiving data through the Internet.
-* See the [client and server setup](http://andnowforelectronics.com/notes/demo-videos/#client-and-server-setup) demo video that walks through the code for Raspberry Pis and Arduinos as clients and servers
-* See the [Internet](http://andnowforelectronics.com/notes/internet/) page to find out how IP addresses work.
+**Final due date: Thursday, December 15, high noon**
 
-### Teaming options for projects 4 and 5
+* As usual, you should submit video documentation and code to Canvas by midnight on the night of December 15th (after the robot has its adventures). 
+
+### Team options for projects 4 and 5
 
 **Option 1 – Work with a partner of your choice**
 For this set-up to be successful, one of the following statements should be true:
@@ -57,6 +47,14 @@ For this set-up to be successful, one of the following statements should be true
 
 **Option 2 – Work with a partner assigned to you by Kristen and Brandon**
 We’ll pool all the people who would like to be assigned a partner, and make optimal pairs based on your responses to the following questions about wireless network access.
+
+### More details for projects 4 and 5
+
+* If you need parts (like a sensor or a certain kind of motor), we're happy to order them for you.  
+* See the [Raspberry Pi setup](http://andnowforelectronics.com/notes/pi-setup/) page to learn how to control your Pi via serial cable and the Internet.  
+* See the [servers and clients](http://andnowforelectronics.com/notes/servers/) page to learn how to coax your Pi into sending and receiving data through the Internet.
+* See the [client and server setup](http://andnowforelectronics.com/notes/demo-videos/#client-and-server-setup) demo video that walks through the code for Raspberry Pis and Arduinos as clients and servers
+* See the [Internet](http://andnowforelectronics.com/notes/internet/) page to find out how IP addresses work.
 
 ## Project #3: Build an electromechanical game
 
