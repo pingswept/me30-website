@@ -41,7 +41,15 @@ There are more details if you need them in [Adafruit's console cable tutorial](h
   <li><input type="checkbox"> Run <code>sudo raspi-config</code> to set up your wireless connection</li>
 </ul>
 
+## What the Imager should look like
+
+The gear menu doesn't appear until after you choose the Raspberry Pi OS Lite (32-bit) image.
+
 ![Raspberry Pi Imager OS selection](/img/pi-imager-with-gear-menu.png)
+
+## The advanced options you should pick
+
+Enable SSH and set the password for the user `pi`.
 
 ![Raspberry Pi Imager advanced options](/img/pi-imager-advanced-options.png)
 
