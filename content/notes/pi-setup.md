@@ -29,7 +29,7 @@ There are more details if you need them in [Adafruit's console cable tutorial](h
   <li><input type="checkbox"> In the Imager, choose the image "Raspberry Pi OS Lite (32-bit)"</li>
   <li><input type="checkbox"> Click the gear menu for Advanced Options to enable SSH and set the password for the user `pi`</li>
   <li><input type="checkbox"> Edit config.txt on micro SD card to include: `enable_uart=1`</li>
-    <li><input type="checkbox"> Install the driver for the console cable (can be found on the Adafruit tutorial linked above) </li>
+    <li><input type="checkbox"> Install the <a href="https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads">SiLabs CP210X USB driver</a> for the console cable</li>
   <li><input type="checkbox"> Connect RPi to laptop with console cable</li>
   <li><input type="checkbox"> Put micro SD card in slot of Pi</li>
   <li><input type="checkbox"> Install <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">PuTTY</a> (Windows) or open Terminal (macOS -- from the Utilities folder in Applications)</li>
