@@ -2,11 +2,13 @@
 title: "Projects"
 draft: false
 ---
-# Projects 4 and 5: Build an intrepid robot that traverses an obstacle course and delivers freight
+# Projects 4 and 5
+## Build an intrepid robot that traverses an obstacle course and delivers freight
 
 Projects 4 and 5 are, in a sense, one mega-project. In the first part, you and your team build a robot. In the second part, you modify it to traverse an obstacle course and deliver a payload.
 
-## Requirements for project 4: build something that travels by Tuesday, December 6, high noon
+## Requirements for project 4
+## Build something that travels by Tuesday, December 6, high noon
 
 * Your robot should fit in a circle 30 cm in diameter.
 * Your robot should be less than 30 cm tall.
@@ -18,7 +20,7 @@ Projects 4 and 5 are, in a sense, one mega-project. In the first part, you and y
 * You should submit video documentation to Canvas and bring your something-that-drives to class.
 * Note: It would be a good idea to focus on making your robot drive effectively before you worry about any higher level mechanics or control through the internet.
 
-### Rough requirements for project 5
+## Rough requirements for project 5
 
 We'll release more details about the obstacle course and freight delivery after Thanksgiving. The truth is that we haven't done this project before, so we're still deciding exactly what obstacles to give you, but also, we want you to focus on the basic robot design first, rather than going for a 1 month moonshot.
 
