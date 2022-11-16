@@ -25,8 +25,9 @@ There are more details if you need them in [Adafruit's console cable tutorial](h
 ## Setup checklist
 
 <ul style="list-style: none;">
-  <li><input type="checkbox"> Download the Raspberry Pi Imager from <a href="https://www.raspberrypi.com/software/">the Raspberry Pi Software page</a></li>
-  <li><input type="checkbox"> Burn the image to micro SD card with imager</li>
+  <li><input type="checkbox"> Install the Raspberry Pi Imager from <a href="https://www.raspberrypi.com/software/">the Raspberry Pi Software page</a></li>
+  <li><input type="checkbox"> In the Imager, choose the image "Raspberry Pi OS Lite (32-bit)"</li>
+  <li><input type="checkbox"> Click the gear menu for Advanced Options to enable SSH and set the password for the user `pi`</li>
   <li><input type="checkbox"> Edit config.txt on micro SD card to include: `enable_uart=1`</li>
     <li><input type="checkbox"> Install the driver for the console cable (can be found on the Adafruit tutorial linked above) </li>
   <li><input type="checkbox"> Connect RPi to laptop with console cable</li>
@@ -38,6 +39,10 @@ There are more details if you need them in [Adafruit's console cable tutorial](h
   <li><input type="checkbox"> Log in with username `pi` and password `raspberry`</li>
   <li><input type="checkbox"> Run `sudo raspi-config` to set up your wireless connection and enable SSH.</li>
 </ul>
+
+![Raspberry Pi Imager OS selection](/img/pi-imager-with-gear-menu.png)
+
+![Raspberry Pi Imager advanced options](/img/pi-imager-advanced-options.png)
 
 ## Checklist for Tufts_Wireless
 
