@@ -56,10 +56,10 @@ Enable SSH and set the password for the user `pi`.
 ## Checklist for Tufts_Wireless
 
 <ul style="list-style: none;">
-  <li><input type="checkbox"> Figure out the Pi's MAC address with `ifconfig`. Be sure you get the MAC for `wlan0`, not `eth0`.</li>
-  <li><input type="checkbox"> Register that MAC address with Tufts IT at [the Tufts registration page](http://hostreg.net.tufts.edu/)</li>
+  <li><input type="checkbox"> Figure out the Pi's MAC address with <code>ifconfig</code>. Be sure you get the MAC for <code>wlan0</code>, not <code>eth0</code>.</li>
+  <li><input type="checkbox"> Register that MAC address with Tufts IT at <a href="http://hostreg.net.tufts.edu/">the Tufts registration page</a></li>
   <li><input type="checkbox"> Wait a few minutes for MAC address permissions to propagate to local wireless access point</li>
-  <li><input type="checkbox"> Add network settings below to `/etc/wpa_supplicant/wpa_supplicant.conf`</li>
+  <li><input type="checkbox"> Add network settings below to <code>/etc/wpa_supplicant/wpa_supplicant.conf</code></li>
   <li><input type="checkbox"> Reboot Pi</li>
 </ul>
 
@@ -72,7 +72,7 @@ network={
 }
 ```
 
-## Checklist for Tufts_Secure
+## Setup for Tufts_Secure
 
 There's a bug in `/lib/dhcpcd/dhcpcd-hooks/10-wpa_supplicant` in the current version of Raspbian OS (based on Debian 10.4, Buster). This post explains how to fix it, but we haven't verified that it works yet: https://medium.com/@iced_burn/raspberry-pi-connected-to-wifi-of-wpa2-enterprise-ddd5a40c0b07
 
