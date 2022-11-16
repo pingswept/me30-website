@@ -2,15 +2,11 @@
 title: "Projects"
 draft: false
 ---
-# Projects
-
-# THE P4 DESCRIPTION IS NOT ACCURATE. THIS IS FROM LAST YEAR. #
-
-## Projects 4 and 5: Build an intrepid robot that traverses an obstacle course and delivers freight
+# Projects 4 and 5: Build an intrepid robot that traverses an obstacle course and delivers freight
 
 Projects 4 and 5 are, in a sense, one mega-project. In the first part, you and your team build a robot. In the second part, you modify it to traverse an obstacle course and deliver a payload.
 
-### Requirements for project 4: build something that travels by Tuesday, December 6, high noon
+## Requirements for project 4: build something that travels by Tuesday, December 6, high noon
 
 * Your robot should fit in a circle 30 cm in diameter.
 * Your robot should be less than 30 cm tall.
@@ -56,7 +52,7 @@ We’ll pool all the people who would like to be assigned a partner, and make op
 * See the [client and server setup](http://andnowforelectronics.com/notes/demo-videos/#client-and-server-setup) demo video that walks through the code for Raspberry Pis and Arduinos as clients and servers
 * See the [Internet](http://andnowforelectronics.com/notes/internet/) page to find out how IP addresses work.
 
-## Project #3: Build an electromechanical game
+# Project #3: Build an electromechanical game
 
 Your task is to build a game with the following characteristics:
 
@@ -80,7 +76,7 @@ Where to get materials for your game:
 
 Class on November 10th will consist entirely of us playing each other's games.
 
-### Project 3 FAQs / Resources
+## Project 3 FAQs / Resources
 
 - State machine code shown in class: https://gist.github.com/pingswept/1d37a74943f73a6266688db44f3e382d
 - Downloading CircuitPython libraries onto your Feather: https://learn.adafruit.com/welcome-to-circuitpython/circuitpython-libraries
@@ -149,7 +145,7 @@ motor.release()
 
 
 
-## Project #2.5: Create a secure motor attachment
+# Project 2.5: Create a secure motor attachment
 
 Because the third major project will require using a motor to actuate some part of an interactive game, in Project 2.5, you’ll building some knowledge about how to attach a part securely to a motor.
 
@@ -166,8 +162,7 @@ Submit to Canvas a Solidworks or Onshape rendering of your design, and bring you
 
 **Due date: Tuesday, 10/25, at noon (in class)**
 
-
-## Project #2: Build an H-bridge motor controller
+# Project #2: Build an H-bridge motor controller
 
 The second project is to build a motor controller with the following characteristics:
 
@@ -193,7 +188,7 @@ To get started building your prototype H-bridge, review the [Low Power/high powe
 
 When your design is ready, you should [submit it to the fabricator](https://oshpark.com/), OSH Park. It will cost you around $10\. (If this cost is a hardship, please let Kristen or Brandon know, and we will help, no questions asked.) After you submit it, take a screenshot of your order confirmation and upload it to the Project 2 PCB assignment on Canvas (proof that you submitted your project on time). Also, take a screenshot of your PCB design in KiCad and upload that as well (it would be a good idea to save this screenshot for your portfolio). 
 
-## Project #1: Build a breadboard power supply
+# Project 1: Build a breadboard power supply
 
 The first project is to build a power supply with the following characteristics:
 
@@ -205,7 +200,7 @@ The first project is to build a power supply with the following characteristics:
 
 When your design is ready, you should [submit it to the fabricator](https://oshpark.com/), OSH Park. It will cost you around $10\. After you submit it, take a screenshot of your order confirmation and upload it to the Project 1 PCB assignment on Canvas. That will serve as proof that you submitted your project on time.
 
-### More details for project #1
+### More details for project 1
 
 First of all, we're not trying to build anything revolutionary in this project. None of you have ever made a PCB before, so the point is to make something fairly simple to get comfortable with the process. If you search Amazon for "breadboard power supply", you'll see that you can buy various versions of things like this, though none with a 12 V passthrough, so far as we're aware.
 
@@ -235,7 +230,7 @@ If you feel like you understand this project pretty well, or if you've made a ba
 4. Watch the Kicad demo videos, a total of 5 minutes, 59 seconds for [the first two demo videos](http://andnowforelectronics.com/notes/demo-videos/)
 5. If you can absorb material from books efficiently, read as much of chapter 2 from the Practical Electronics textbook as you can.
 
-## Project #0: Power an LED with "wall" power through our DC power supply. Control it with a push button.
+# Project 0: Power an LED with "wall" power through our DC power supply. Control it with a push button.
 
 The getting-started "project" is really more of a warm-up activity, and we'll do it together in class. The goal is to create a circuit on your breadboard that powers an LED with power from the wall, directed through your kit's DC power supply.  This circuit should have the following characteristics:
 
