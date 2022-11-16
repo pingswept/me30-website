@@ -3,12 +3,14 @@ title: "Projects"
 draft: false
 ---
 # Projects 4 and 5
-## Build an intrepid robot that traverses an obstacle course and delivers freight
+### Build an intrepid robot that traverses an obstacle course and delivers freight
 
-Projects 4 and 5 are, in a sense, one mega-project. In the first part, you and your team build a robot. In the second part, you modify it to traverse an obstacle course and deliver a payload.
+Projects 4 and 5 are, in a sense, one mega-project. In the first part, you and your team build a robot. In the second part, you and your team modify it to traverse an obstacle course and deliver a payload.
 
-## Requirements for project 4
-## Build something that travels by Tuesday, December 6, high noon
+### Requirements for project 4
+### Build something that travels by Tuesday, December 6, high noon
+
+This is a relatively constrained project compared to the vast open field of P3. Your task is to build a robot that can travel across the floor, controlled remotely by you.
 
 * Your robot should fit in a circle 30 cm in diameter.
 * Your robot should be less than 30 cm tall.
@@ -20,7 +22,11 @@ Projects 4 and 5 are, in a sense, one mega-project. In the first part, you and y
 * You should submit video documentation to Canvas and bring your something-that-drives to class.
 * Note: It would be a good idea to focus on making your robot drive effectively before you worry about any higher level mechanics or control through the internet.
 
-## Rough requirements for project 5
+**Due date: Tuesday, December 6, high noon**
+
+In class on December 6, we will test drive the robots through a basic course-- basically a U-shaped hallway with a 30 cm doorway. If your robot can navigate and meets the requirements above, it will do fine.
+
+### Rough requirements for project 5
 
 We'll release more details about the obstacle course and freight delivery after Thanksgiving. The truth is that we haven't done this project before, so we're still deciding exactly what obstacles to give you, but also, we want you to focus on the basic robot design first, rather than going for a 1 month moonshot.
 
@@ -37,14 +43,11 @@ We'll release more details about the obstacle course and freight delivery after 
 
 ### Team options for projects 4 and 5
 
-**Option 1 – Work with a partner of your choice**
-For this set-up to be successful, one of the following statements should be true:
-* Both partners can access the Tufts campus network when testing and running your system, OR
-* at least one partner (who operates the sensor node) has access to change the firewall (port forwarding) settings on their home wireless router, OR
-* both partners are willing to work patiently with the ME 30 team on creating an encrypted tunnel through your firewall.
+**Option 1 – Work in a team of 2 or 3 chosen by you**
+If there are 1 or 2 other people in the class you would like to work with, send Kristen and Brandon an email listing the names of the people on your team.
 
-**Option 2 – Work with a partner assigned to you by Kristen and Brandon**
-We’ll pool all the people who would like to be assigned a partner, and make optimal pairs based on your responses to the following questions about wireless network access.
+**Option 2 – Work in a team of 2 or 3 assigned to you by Kristen and Brandon**
+We’ll pool all the people who would like to be assigned a partner and try to team you up. We might need to make a team of 4 depending on who is available. If you'd prefer this option, no need to do anything; we'll team up everyone not already on a team.
 
 ### More details for projects 4 and 5
 
