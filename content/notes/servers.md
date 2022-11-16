@@ -10,15 +10,7 @@ A client is a program that makes requests of servers.
 
 ## Implementation on microcontrollers
 
-There are zillions of ways to write servers and clients-- lots of different programming languages, architectures, and libraries you could use. But, to narrow things down a little bit, here are a few places to start with the Raspberry Pi and Arduino.
-
-### Arduino MKR Wifi 1010 server
-
-Example code for [WiFiNINA WiFiWebServer](https://www.arduino.cc/en/Tutorial/LibraryExamples/WiFiNINAWiFiWebServer)
-
-### Arduino MKR Wifi 1010 client
-
-Example code for [WiFiNINAWiFi WebClient](https://www.arduino.cc/en/Tutorial/LibraryExamples/WiFiNINAWiFiWebClient)
+There are zillions of ways to write servers and clients-- lots of different programming languages, architectures, and libraries you could use. But, to narrow things down a little bit, here are a few places to start with the Raspberry Pi.
 
 ### Raspberry Pi server
 
