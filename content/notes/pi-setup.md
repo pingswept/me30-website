@@ -38,7 +38,7 @@ There are more details if you need them in [Adafruit's console cable tutorial](h
     <li><input type="checkbox"> Install the <a href="https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads">SiLabs CP210X USB driver</a> for the console cable</li>
   <li><input type="checkbox"> Connect RPi to laptop with console cable</li>
   <li><input type="checkbox"> Put micro SD card in slot of Pi</li>
-  <li><input type="checkbox"> Install <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">PuTTY</a> (Windows) or open Applications > Utilities > Terminal (macOS)</li>
+  <li><input type="checkbox"> Install <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">PuTTY</a> (Windows) or open Applications > Utilities > Terminal (macOS) or install <a href="https://www.decisivetactics.com/products/serial/">Serial</a> (macOS)</li>
   <li><input type="checkbox"> (macOS only) In Terminal, run <code>ls /dev</code> and find the entry that says <code>tty.usbserial-XXYYZZ</code>. Record the numbers you see instead of XXYYZZ. </li>
   <li><input type="checkbox"> (macOS only) In Terminal, run <code>screen /dev/tty.usbserial-XXYYZ 115200</code>)
   <li><input type="checkbox"> (Windows only) In PuTTY, start a serial session at 115200 bps to the Pi</li>
@@ -100,6 +100,14 @@ network={
 }
 ```
 
+### Connecting to your Pi via SSH instead of serial
+
+Once you have your Pi connected to the wireless network, and you use ifconfig to find the IP address it has been assigned, you can log into it through SSH instead of through a USB-serial cable. 
+- Have your Pi's IP address handy.
+- Make sure your Pi is plugged into power. Do not attach the serial console cable.
+- Open a new terminal window.
+- Type `ssh your_Pi_username@ip_address_of_your_Pi`
+- You should be prompted for your Pi's password, and then you should be logged in!  No serial cable necessary!
 
 ## FAQ
 
