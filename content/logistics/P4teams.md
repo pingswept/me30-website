@@ -11,3 +11,6 @@ draft: true
 - Sloan, Jonah, Elijah
 - Tristan, Jordan, Shiv
 - Kenny, Connor Ryan, Liam, Alex K. (making 2 robots)
+- Sebastian, Michael Y., Rachel D.
+- Helen, Alexa, Alex M.
+- Julia, Lydia, Liam
