@@ -5,6 +5,35 @@ draft: false
 ## Archive of Weekly Update Emails
 
 - - -
+## Week 12, Monday, 11/21/22
+
+**Course housekeeping:**
+
+PLEASE KEEP TRACK OF YOUR MOTORS, POWER SUPPLIES, AND OTHER NON-CONSUMABLES! The kit fee that you paid covered the cost of the small consumables in your kit – the LEDs, wires, transistors, resistors.  But the department has paid for the reusables, and we must collect them back at the end of the semester so that ME 30 is possible again next year.  Please keep track of the following items so that you can return them on Dec. 15:
+	1.	Stepper motor
+	2.	DC gear motor
+	3.	12-V power supply
+	4.	RPi power supply
+	5.	Raspberry Pi
+	6.	Feather
+	7.	Multimeter
+ 
+ 
+ **Things due in Week 12:**
+- By Tuesday, 11/22, please email Brandon and Kristen to note your partners for Projects 4 and 5, if you are choosing your own. If we don’t get a note from you about partners  by tomorrow, we will assign your partners.
+- We don’t expect you to be working on Project 4 over the Thanksgiving break. We hope you will rest and recharge. As long as you have your Raspberry Pi set up (i.e., you’ve gotten through #5 on the Raspberry Pi challenges), you will have enough time to complete Project 4 in the 9 days after the Thanksgiving break.
+ 
+
+**Learning goals for Week 12:**
+- Identify the main components and functions of the Raspberry Pi.
+ 
+
+**What you should read for Week 12:**
+- Descriptions for Projects 4 and 5
+- Raspberry Pi setup: http://andnowforelectronics.com/notes/pi-setup/
+- Raspberry Pi programming:  http://andnowforelectronics.com/notes/pi-programming/
+- Raspberry Pi challenges: http://andnowforelectronics.com/notes/pi-challenges/
+
 
 ## Week 11, Monday, 11/14/22
 
