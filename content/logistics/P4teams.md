@@ -3,7 +3,7 @@ draft: true
 ---
 
 
-- Evy, Jesse G., Mina
+- Evy, Jesse P., Mina
 - Suely, Xamier, Rachel H.
 - Tahseen, Hannah, Fo, Darya (making 2 robots)
 - Noah, Vanessa, Malcolm
