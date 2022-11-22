@@ -14,8 +14,15 @@ draft: true
 - Sebastian, Michael Y., Rachel D.
 - Helen, Alexa, Alex M.
 - Julia, Lydia, Liam
-- Chloe, Ismael
+- Chloe, Ismael (would welcome a 3rd)
 - Calder, Joseph
 - Maria, Ege, Yousef
 - Ronny, Robert Gonzalez, Marc Alenn
 - Joel, Jesse G., Alex Savic
+- Sam P., Julie K. (would like a 3rd)
+- Michael M., Braeden
+- Yodai, Saurabh
+- Eli, Sarah C.
+- Gordon, Gabe, Chris T.
+- Gus, Casey, Kelli
+- Connor Rosow, Sara M.
