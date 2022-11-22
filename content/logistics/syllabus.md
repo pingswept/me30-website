@@ -11,7 +11,7 @@ ME 30, Electromechanical Systems and Robotics I, class number 80399
 
 Kristen's office hours are:  
 
-* Wednesdays, 9-10am, on Zoom at https://tufts.zoom.us/my/kbwendell
+* Wednesdays, 9-10am, on Zoom (No office hours on Nov. 23 - please email or Slack with questions)
 
 Brandon's office hours are:
 
