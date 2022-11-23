@@ -26,3 +26,6 @@ draft: true
 - Gordon, Gabe, Chris T.
 - Gus, Casey, Kelli
 - Connor Rosow, Sara M.
+- Derrick, Robby Gray, Nick Teguis
+- Jackson, Javier
+- Greg, Adrien, Ben 
