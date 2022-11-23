@@ -24,7 +24,9 @@ This is a relatively constrained project compared to the vast open field of P3. 
 
 **Due date: Tuesday, December 6, high noon**
 
-In class on December 6, we will test drive the robots through a basic course-- basically a U-shaped hallway with a 30 cm doorway. If your robot can navigate and meets the requirements above, it will do fine.
+In class on December 6, we will test drive the robots through a basic course-- basically a U-shaped hallway with a 30 cm doorway. If your robot can navigate and meets the requirements above, it will do fine. 
+
+**Project grading:** As with all projects in ME 30, if your robot demonstrates an attempt at meeting all requirements, you receive full points for the project.
 
 ### Rough requirements for project 5
 
