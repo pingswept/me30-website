@@ -171,7 +171,7 @@ supervisor> status
 supervisor> exit
 ```
 
-Tell supervisor that you want it to run Flask for you by adding something like the lines below to `/etc/supervisor/supervisord.conf` (You'll need to change directories to go up to the highest level directory on your Pi. Once you get to the /etc/supervisor directory, use 'sudo nano' to open and edit the file.)
+Tell supervisor that you want it to run Flask for you by adding something like the lines below to `/etc/supervisor/supervisord.conf` (You'll need to change directories to go up to the highest level directory on your Pi. Once you get to the /etc/supervisor directory, use `sudo nano` to open and edit the file.)
 
 ```
 [program:flask]
