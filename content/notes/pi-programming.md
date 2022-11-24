@@ -99,10 +99,8 @@ while(1):                     # do this forever
 ```
 
 Here are more resources about the RPi.GPIO module. Check these out if you are looking to implement vary the output using PWM, for example:
-
-From SourceForge: https://sourceforge.net/p/raspberry-gpio-python/wiki/PWM/
-
-From sparkfun: https://learn.sparkfun.com/tutorials/raspberry-gpio/python-rpigpio-api
+- From SourceForge: https://sourceforge.net/p/raspberry-gpio-python/wiki/PWM/
+- From sparkfun: https://learn.sparkfun.com/tutorials/raspberry-gpio/python-rpigpio-api
 
 
 ### **What if I want to control pins through a web browser?**
