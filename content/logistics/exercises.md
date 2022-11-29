@@ -370,3 +370,11 @@ Individual reflection (responses seen only by instructors): https://tufts.qualtr
 
 Follow the video and text directions here: http://andnowforelectronics.com/notes/pi-setup/
 
+## 16. Project 4 planning and Raspberry Pi Flask set-up(Nov. 29)
+
+(a) Discuss these Project 4 planning questions with your team: https://docs.google.com/document/d/1ulQfKKEcXGVL5VZVITyimeE2d2Y40JnkMOGGLtVdCfo/edit?usp=sharing
+
+(b) Make sure you can complete [Raspberry Pi challenge #9](http://andnowforelectronics.com/notes/pi-challenges/)
+
+
+
