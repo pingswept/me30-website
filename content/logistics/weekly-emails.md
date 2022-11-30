@@ -5,6 +5,24 @@ draft: false
 ## Archive of Weekly Update Emails
 
 - - -
+
+## Week 13, Wednesday, 11/30/22
+
+**Things due in Week 13:**
+- Nothing is due this week, but the [Project 4](http://andnowforelectronics.com/logistics/projects/) due date is coming up soon: next Tuesday, Dec. 6, at noon. On that date, we will NOT meet in our regular JCC classroom. Instead, we will set up the Project 4 test “hallway” for your robots in the SEC lobby. Each team will be assigned a 5-minute slot (within our 12-1:15pm class time) to come by and test your robot with Kristen and Brandon.  LAs will be supporting troubleshooting during this time (probably in Nolop).
+ 
+**Learning goals for Week 13:**
+- Describe how the internet works.
+- Identify the main components and functions of the Raspberry Pi.
+- Gain familiarity with Linux basics and explain how they relate to the functioning of a Raspberry Pi.
+- Build one or more nodes in an internet-connected, electromechanical system.
+ 
+**What you should read on the ME 30 website for Week 13:**
+- [Project 4 Requirements](http://andnowforelectronics.com/logistics/projects/)
+- [The Internet: How does it work?](http://andnowforelectronics.com/notes/internet/)
+- [Servers and clients](http://andnowforelectronics.com/notes/servers/)
+- [Raspberry Pi Programming](http://andnowforelectronics.com/notes/pi-programming/)
+
 ## Week 12, Monday, 11/21/22
 
 **Course housekeeping:**
