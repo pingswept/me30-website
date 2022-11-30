@@ -44,7 +44,7 @@ There are more details if you need them in [Adafruit's console cable tutorial](h
   <li><input type="checkbox"> (Windows only) In PuTTY, start a serial session at 115200 bps to the Pi</li>
   <li><input type="checkbox"> Connect USB-C power cable. Wait a minute or so for the Pi to boot up</li>
   <li><input type="checkbox"> Log in with username <code>pi</code> and password you set using the Imager</li>
-  <li><input type="checkbox"> Run <code>sudo raspi-config</code> to set up your wireless connection</li>
+  <li><input type="checkbox"> Run <code>sudo raspi-config</code> to set up your wireless connection (Tufts_Wireless as SSID; no passphrase)</li>
 </ul>
 
 ## What the Imager should look like
