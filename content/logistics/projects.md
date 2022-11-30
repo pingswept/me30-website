@@ -28,6 +28,8 @@ In class on December 6, we will test drive the robots through a basic course-- b
 
 **Project grading:** As with all projects in ME 30, if your robot demonstrates an attempt at meeting all requirements, you receive full points for the project.
 
+**Project planning resource:** We suggest discussing this [list of P4 planning questions](https://docs.google.com/document/d/1ulQfKKEcXGVL5VZVITyimeE2d2Y40JnkMOGGLtVdCfo/edit?usp=sharing) with your team. 
+
 ### Rough requirements for project 5
 
 We'll release more details about the obstacle course and freight delivery after Thanksgiving. The truth is that we haven't done this project before, so we're still deciding exactly what obstacles to give you, but also, we want you to focus on the basic robot design first, rather than going for a 1 month moonshot.
