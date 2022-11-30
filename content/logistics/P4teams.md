@@ -14,7 +14,7 @@ draft: true
 - Sebastian, Michael Y., Rachel D.
 - Helen, Alexa, Alex M.
 - Julia, Lydia, Liam
-- Chloe, Ismael (would welcome a 3rd)
+- Chloe, Ismael, Abbie
 - Calder, Joseph
 - Maria, Ege, Yousef
 - Ronny, Robert Gonzalez, Marc Alenn
