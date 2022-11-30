@@ -39,8 +39,8 @@ There are more details if you need them in [Adafruit's console cable tutorial](h
   <li><input type="checkbox"> Connect RPi to laptop with console cable</li>
   <li><input type="checkbox"> Put micro SD card in slot of Pi</li>
   <li><input type="checkbox"> Install <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">PuTTY</a> (Windows) or open Applications > Utilities > Terminal (macOS) or install <a href="https://www.decisivetactics.com/products/serial/">Serial</a> (macOS)</li>
-  <li><input type="checkbox"> (macOS only) In Terminal, run <code>ls /dev</code> and find the entry that says <code>tty.usbserial-XXYYZZ</code>. Record the numbers you see instead of XXYYZZ. </li>
-  <li><input type="checkbox"> (macOS only) In Terminal, run <code>screen /dev/tty.usbserial-XXYYZ 115200</code>)
+  <li><input type="checkbox"> (macOS only) In Terminal, run <code>ls /dev</code> and find the entry that says <code>tty.usbserial-XXYYZZ</code>. Record the numbers you see instead of XXYYZZ. Then run <code>screen /dev/tty.usbserial-XXYYZ 115200</code>) </li>
+  <li><input type="checkbox"> (macOS only) If using Serial instead of Terminal, simply open Serial and double click on the USB-serial device that appears</li> 
   <li><input type="checkbox"> (Windows only) In PuTTY, start a serial session at 115200 bps to the Pi</li>
   <li><input type="checkbox"> Connect USB-C power cable. Wait a minute or so for the Pi to boot up</li>
   <li><input type="checkbox"> Log in with username <code>pi</code> and password you set using the Imager</li>
@@ -63,9 +63,9 @@ Enable SSH and set the password for the user `pi`.
 
 <ul style="list-style: none;">
   <li><input type="checkbox"> Figure out the Pi's MAC address with <code>ifconfig</code>. Be sure you get the MAC for <code>wlan0</code>, not <code>eth0</code>.</li>
-  <li><input type="checkbox"> Register that MAC address with Tufts IT at <a href="http://hostreg.net.tufts.edu/">the Tufts registration page</a></li>
+  <li><input type="checkbox"> Register that MAC address with Tufts IT at <a href="http://hostreg.net.tufts.edu/">the Tufts registration page. If using Chrome, you'll probably need to use an Incognito window </a></li>
   <li><input type="checkbox"> Wait a few minutes for MAC address permissions to propagate to local wireless access point</li>
-  <li><input type="checkbox"> Add network settings below to <code>/etc/wpa_supplicant/wpa_supplicant.conf</code></li>
+  <li><input type="checkbox"> If you did not use `sudo raspi-config` to list Tufts_Wireless as the network, then add the network settings below to <code>/etc/wpa_supplicant/wpa_supplicant.conf</code></li>
   <li><input type="checkbox"> Reboot Pi</li>
 </ul>
 
