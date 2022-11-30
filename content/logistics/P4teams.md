@@ -8,9 +8,9 @@ draft: true
 - Tahseen, Hannah, Fo, Darya (making 2 robots)
 - Noah, Vanessa, Malcolm
 - Anna, Rose
-- Sloan, Jonah, Elijah
+- Sloan, Jonah, Elijah (and maybe Erik H.?)
 - Tristan, Jordan, Shiv
-- Kenny, Connor Ryan, Liam(?), Alex K. (making 2 robots if group of 4)
+- Kenny, Connor Ryan, Alex K. 
 - Sebastian, Michael Y., Rachel D.
 - Helen, Alexa, Alex M.
 - Julia, Lydia, Liam
@@ -18,14 +18,16 @@ draft: true
 - Calder, Joseph
 - Maria, Ege, Yousef
 - Ronny, Robert Gonzalez, Marc Alenn
-- Joel, Jesse G., Alex Savic
-- Sam P., Julie K. (would like a 3rd)
+- Joel, Jesse G., Alex S.
+- Sam P., Julie K., Kristina
 - Michael M., Braeden
 - Yodai, Saurabh
 - Eli, Sarah C.
 - Gordon, Gabe, Chris T.
 - Gus, Casey, Kelli
 - Connor Rosow, Sara M.
-- Derrick, Robby Gray, Nick Teguis
+- Derrick, Robby Gray, Nick T.
 - Jackson, Javier
 - Greg, Adrien, Ben 
+- Aidan, Marvin, Asma, Davonte
+- Nicholas M., Eric R., Antonio
