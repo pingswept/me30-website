@@ -142,7 +142,7 @@ def digital_write(pin_name, state):
     return 'Something went wrong'
 ```
 
-You also need to install [Flask](https://pypi.org/project/Flask/) for this to work.
+You also need to install [Flask](https://pypi.org/project/Flask/) onto your Pi for this to work.
 
 **Wait, how do I install Flask?**
 
@@ -150,7 +150,7 @@ You also need to install [Flask](https://pypi.org/project/Flask/) for this to wo
 sudo pip3 install flask
 ```
 
-Then, start the server. We're assuming your code is in a file called `server.py`. The `--host=0.0.0.0` in the command below means that your Flask instance will listen on whatever IP addresses it has, instead of just for connections from itself, which is the default for testing. 
+Then, start the server by typing the commands below (into your Terminal, assuming you are logged into your Pi). We're assuming your code is in a file on your Pi called `server.py`. The `--host=0.0.0.0` in the command below means that your Flask instance (on your Pi) will listen on whatever IP addresses it has, instead of just for connections from itself, which is the default for testing. 
 
 ```
 export FLASK_APP=server.py
@@ -161,7 +161,7 @@ By default, Flask will listen on port 5000, so check `http://your.rpi.ip.address
 
 **That's cool, but how do I get Flask to start itself when the Pi boots?**
 
-For that, you want to install [Supervisor](http://supervisord.org).
+If you are logged in to your Pi remotely via SSH, you can just type in the commands above to start Flask and run a python script within it. But if you want Flask to start itself automatically when the Pi boots, then you'll want to install [Supervisor](http://supervisord.org).
 
 ```
 sudo apt install supervisor
