@@ -7,6 +7,10 @@ draft: false
 
 Projects 4 and 5 are, in a sense, one mega-project. In the first part, you and your team build a robot. In the second part, you and your team modify it to traverse an obstacle course and deliver a payload.
 
+![](/img/maze-top-view.jpg)
+
+![](/img/maze-isometric-view.jpg)
+
 ### Requirements for project 4
 ### Build something that travels by Tuesday, December 6, high noon
 
