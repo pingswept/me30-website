@@ -53,21 +53,6 @@ In class on December 6, we will test drive the robots through a basic course-- b
 
 **Project planning resource:** We suggest discussing this [list of P4 planning questions](https://docs.google.com/document/d/1ulQfKKEcXGVL5VZVITyimeE2d2Y40JnkMOGGLtVdCfo/edit?usp=sharing) with your team. 
 
-### Rough requirements for project 5
-
-We'll release more details about the obstacle course and freight delivery after Thanksgiving. The truth is that we haven't done this project before, so we're still deciding exactly what obstacles to give you, but also, we want you to focus on the basic robot design first, rather than going for a 1 month moonshot.
-
-* On Thursday, December 15th at high noon, your robot will be placed on the floor in the atrium near Blake.
-* Your robot must do three things in order in less than 15 minutes:
-  * Traverse the obstacle course.
-  * Travel to the freight depot.
-  * Deliver the freight to its destination.
-* Your robot should not be tethered to a wall outlet (batteries will be available in Nolop).
-
-**Final due date: Thursday, December 15, high noon**
-
-* As usual, you should submit video documentation and code to Canvas by midnight on the night of December 15th (after the robot has its adventures). 
-
 ### Team options for projects 4 and 5
 
 **Option 1 – Work in a team of 2 or 3 chosen by you**
