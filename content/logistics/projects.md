@@ -22,6 +22,10 @@ To spice things up a little, the maze has two movable walls. One of the walls wi
 
 If sensors are not that interesting to you, you can instead choose to drive over the maze. This will likely require that you upgrade your robot to be able to drive up and down ramps, which is a non-trivial challenge.
 
+### Characteristics of the freight terminal and drop zone
+
+Okay, to be honest, we were considering having a freight terminal where you have to pick up a payload with a forklift (or something like that), but it seemed too difficult. So, all you have to do is have your robot drive up to a table to receive freight. When your robot arrives, one of the LA's will put a payload (a mass weighing less than 1 kg and less than 10 cm in diameter) on your robot. If your robot can drive to the nearby drop zone (an area marked by tape on the floor), you're victorious!
+
 ![](/img/maze-top-view.jpg)
 
 ![](/img/maze-isometric-view.jpg)
