@@ -5,7 +5,22 @@ draft: false
 # Projects 4 and 5
 ### Build an intrepid robot that traverses an obstacle course and delivers freight
 
-Projects 4 and 5 are, in a sense, one mega-project. In the first part, you and your team build a robot. In the second part, you and your team modify it to traverse an obstacle course and deliver a payload.
+Projects 4 and 5 are, in a sense, one mega-project. In the first part, P4, you and your team build a robot. In the second part, P5, you and your team modify it to traverse an obstacle course and deliver a payload.
+
+### Requirements for project 5
+### Build something that traverses or climbs over the maze by Thursday, December 15, high noon
+
+Your robot, which you have constructed for P4, must complete two tasks:
+
+ 1. It must EITHER travel through the maze (shown below) or scale the ramp, cross the roof of the maze, and drive down the ramp on the far side.
+ 2. After completing the first challenge, your robot must visit the freight terminal, where it will be given a payload. Your robot will then deliver the payload to the drop zone. Once one of your team members has received the payload in the drop zone, your team has completed the challenge.
+
+### Characteristics of the maze
+
+If your robot traversed the hallway and doorway of P4, it will fit through the maze. However, the maze has a roof on it, and you can't see inside. 
+To spice things up a little, the maze has two movable walls. One of the walls will be at location A or B. The other wall will be at location C or D. You will not know which location the movable walls are in. This means you will need to add some kind of sensor system to your robot. You might consider using ultrasonic distance sensors, optical sensors, pushbuttons bumpers, or a webcam to navigate the maze.
+
+If sensors are not that interesting to you, you can instead choose to drive over the maze. This will likely require that you upgrade your robot to be able to drive up and down ramps, which is a non-trivial challenge.
 
 ![](/img/maze-top-view.jpg)
 
