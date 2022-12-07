@@ -19,7 +19,28 @@ There are zillions of ways to write servers and clients-- lots of different prog
 
 ![Pi as server set up](/img/Pi-as-server.jpeg)
 
-For code, see the [Flask example on our Raspberry Pi setup page](http://andnowforelectronics.com/notes/rpi-setup/#what-if-i-want-to-control-pins-through-a-web-browser-flask).
+For code, try writing a function that executes if a specific HTTP request is made, like the `/senddata/` example below. 
+
+```python
+from flask import Flask
+app = Flask(__name__)
+
+import gpiozero
+from gpiozero import DistanceSensor
+
+# Waits for an HTTP request ending in "senddata"
+@app.route('/senddata')
+def send_data():
+    # echo and trigger of the sensor are connected to GPIO pins 23 and 24
+    ultrasonic = DistanceSensor(echo=23, trigger=24)
+    reading = int(ultrasonic.distance)
+    # returns to the client the value of the variable <reading>
+    return 'sensor reading is {0}'.format(reading)
+
+ ```python   
+    
+For more details, see the [Flask example on our Raspberry Pi setup page](http://andnowforelectronics.com/notes/rpi-setup/#what-if-i-want-to-control-pins-through-a-web-browser-flask).
+
 
 ### Raspberry Pi client
 
