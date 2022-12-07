@@ -132,3 +132,7 @@ Use a better text editor, like [Sublime Text](https://www.sublimetext.com/), [Te
 All the most recent Pi's share a standard pin format. Below is a handy guide. [This site](https://pinout.xyz/) is also an excellent resource for reference.
 
 ![RPi pinout](/img/raspberry-pi-pinout.png)
+
+Tutorials from the Raspberry Pi Foundation on using the GPIO pins:
+
+https://projects.raspberrypi.org/en/projects/physical-computing/1
