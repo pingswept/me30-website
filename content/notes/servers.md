@@ -19,9 +19,9 @@ There are zillions of ways to write servers and clients-- lots of different prog
 
 ![Pi as server set up](/img/Pi-as-server.jpeg)
 
-For code, try writing a function that executes if a specific HTTP request is made, like the `/senddata/` example below. 
+For code, try writing a function that executes if a specific HTTP request is made, like the `/senddata` example below. 
 
-```python
+```
 from flask import Flask
 app = Flask(__name__)
 
