@@ -6,7 +6,7 @@ draft: "false"
 -->
 ## Client and server setup
 
-* Please note that P4 for fall 2021 is different from the P4 described in the below videos. However, these videos might still be helpful in seeing some examples of setting the Pi up as a server. 
+* Please note that P4 and P5 for fall 2022 are different from the P4 described in the below videos. However, these videos might still be helpful in seeing some examples of setting the Pi up as a server or client. 
 
 ### Intro to client and server setup
 
