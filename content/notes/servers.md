@@ -36,8 +36,7 @@ def send_data():
     reading = int(ultrasonic.distance)
     # returns to the client the value of the variable <reading>
     return 'sensor reading is {0}'.format(reading)
-
- ```python   
+ ```   
     
 For more details, see the [Flask example on our Raspberry Pi setup page](http://andnowforelectronics.com/notes/rpi-setup/#what-if-i-want-to-control-pins-through-a-web-browser-flask).
 
