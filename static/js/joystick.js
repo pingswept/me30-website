@@ -28,7 +28,7 @@ var x = 0,
 if (typeof console === 'undefined') console = { log: function() {} };
 
 function sendJoystickPosition() {
-  $.get('/joystick/' + x.toFixed(2) + '/' + y.toFixed(2));
+  $.get('http://' + $('#ip-address').val() + '/joystick/' + x.toFixed(2) + '/' + y.toFixed(2));
 }
 
 function startSending() {
