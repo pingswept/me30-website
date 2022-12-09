@@ -1,5 +1,5 @@
 ---
-title: "joystick demo"
+title: "Joystick demo"
 draft: false
 ---
 
