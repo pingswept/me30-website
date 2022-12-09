@@ -1,4 +1,10 @@
-Example
+---
+title: "joystick demo"
+draft: false
+---
+
+
+Example of code to interpret joystick signal
 
 ```python
 # Joystick math based on code by Richard Klancer, circa 2012
