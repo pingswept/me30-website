@@ -13,7 +13,7 @@ Kristen's office hours are:
 
 * Wednesday, Dec. 7, 9-10am, on Zoom: https://tufts.zoom.us/my/kbwendell
 * Friday, Dec. 9, 1-3pm, Nolop
-* Wednesday, Dec. 14, 11am-2pm, Nolop
+* Wednesday, Dec. 14, 11am-12pm & 1pm-2pm, Nolop
 
 Brandon's office hours are:
 
