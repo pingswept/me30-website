@@ -30,6 +30,8 @@ Okay, to be honest, we were considering having a freight terminal where you have
 
 ![](/img/maze-isometric-view.jpg)
 
+The length of the ramp surface is 122 cm, and its height is 41 cm. 
+
 ### Requirements for project 4
 ### Build something that travels by Tuesday, December 6, high noon
 
