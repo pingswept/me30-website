@@ -50,3 +50,5 @@ Zosia Stafford, back for round 2
 
 
 ![project showcase in atrium](/img/atrium-project-showcase-2021-11-16.jpg)
+
+2021 project showcase in the Science and Engineering Center atrium
