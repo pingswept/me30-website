@@ -6,6 +6,8 @@ draft: false
 
 Example of code to interpret joystick signal
 
+[Live demo](http://andnowforelectronics.com/joystick.html)
+
 ```python
 # Joystick math based on code by Richard Klancer, circa 2012
 
