@@ -3,17 +3,16 @@ title: "Syllabus"
 date: 2020-06-24T16:58:56-04:00
 draft: false
 ---
-# Electromechanical Systems and Robotics I Syllabus
+# Electronics & Controls I Syllabus
 
-ME 30, Electromechanical Systems and Robotics I, class number 80399
+ME 30, Electronics & Controls I
 
 ## Office hours
 
 Kristen's office hours are:  
 
-* Wednesday, Dec. 7, 9-10am, on Zoom: https://tufts.zoom.us/my/kbwendell
-* Friday, Dec. 9, 1-3pm, Nolop
-* Wednesday, Dec. 14, 11am-2pm, Nolop
+* Tuesdays in Nolop
+* Thursdays on Zoom: https://tufts.zoom.us/my/kbwendell
 
 Brandon's office hours are:
 
