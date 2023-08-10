@@ -4,7 +4,7 @@ type: homepage
 draft: false
 ---
 
-# ME 30: Electromechanical Systems and Robotics I
+# ME 30: Electronics & Controls I
 
 ME 30 is an course in electronics at Tufts University co-taught by Kristen Wendell and Brandon Stafford.
 
@@ -24,26 +24,29 @@ Brandon Stafford
 ## Learning assistants
 
 {{< columns >}}
-![Reid Baris](/img/reid-baris.jpg)
-Reid Baris
+![Antonio Alphonse](/img/antonio.jpg)
+Antonio Alphonse
 <--->
-![Madeline Fabela](/img/madeline-fabela.jpg)
-Madeline Fabela
+![Julia Divan](/img/julia.jpg)
+Julia Divan
 <--->
-![Olivia Goss](/img/olivia-goss.jpg)
-Olivia Goss
+![Suely Garcia Acosta](/img/suely.jpg)
+Suely Garcia Acosta
 <--->
-![Luisa Guarco](/img/luisa-guarco.jpg)
-Luisa Guarco
+![Rose Kitz](/img/rose.jpg)
+Rose Kitz
 <--->
-![Roy Hidalgo](/img/roy-hidalgo.jpg)
-Roy Hidalgo
+![Theresa Nguyen](/img/theresa.jpg)
+Theresa Nguyen
 <--->
-![Leslie Jaramillo Martinez](/img/leslie-jaramillo-martinez.jpg)
-Leslie Jaramillo Martinez
+![Anna Quiros](/img/anna.jpg)
+Anna Quiros
 <--->
-![Zosia Stafford](/img/zosia-stafford.jpg)
-Zosia Stafford, back for round 2
+![Zosia Stafford](/img/zosia.jpg)
+Zosia Stafford, back for round 3
+<--->
+![Alexa Watson](/img/alexa.jpg)
+Alexa Watson
 <--->
 {{< /columns >}}
 
