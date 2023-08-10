@@ -24,28 +24,28 @@ Brandon Stafford
 ## Learning assistants
 
 {{< columns >}}
-![Antonio Alphonse](/img/antonio.jpg)
+![Antonio Alphonse](/img/Antonio.jpg)
 Antonio Alphonse
 <--->
-![Julia Divan](/img/julia.jpg)
+![Julia Divan](/img/Julia.jpg)
 Julia Divan
 <--->
-![Suely Garcia Acosta](/img/suely.jpg)
+![Suely Garcia Acosta](/img/Suely.jpg)
 Suely Garcia Acosta
 <--->
-![Rose Kitz](/img/rose.jpg)
+![Rose Kitz](/img/Rose.jpg)
 Rose Kitz
 <--->
-![Theresa Nguyen](/img/theresa.jpg)
+![Theresa Nguyen](/img/Theresa.jpg)
 Theresa Nguyen
 <--->
-![Anna Quiros](/img/anna.jpg)
+![Anna Quiros](/img/Anna.jpg)
 Anna Quiros
 <--->
-![Zosia Stafford](/img/zosia.jpg)
+![Zosia Stafford](/img/Zosia.jpg)
 Zosia Stafford, back for round 3
 <--->
-![Alexa Watson](/img/alexa.jpg)
+![Alexa Watson](/img/Alexa.jpg)
 Alexa Watson
 <--->
 {{< /columns >}}
