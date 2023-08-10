@@ -36,6 +36,9 @@ Suely Garcia Acosta
 ![Rose Kitz](/img/Rose.jpg)
 Rose Kitz
 <--->
+![Gabe Moussa](/img/Gabe.jpg)
+Gabe Moussa
+<--->
 ![Theresa Nguyen](/img/Theresa.jpg)
 Theresa Nguyen
 <--->
