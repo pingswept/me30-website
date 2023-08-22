@@ -54,9 +54,6 @@ The point of the course is to force students to gain experience with the practic
 * Raspberry Pi programming
 * Career trajectories and how to find a job
 
-### ABET outcomes
-
-This course
 
 ## Co-teachers
 
@@ -168,3 +165,17 @@ Tufts is committed to providing equal access and support to all qualified studen
 
 In addition to its subject tutoring and writing support that you may use for other classes, the StAAR Center offers academic coaching to hone fundamental academic skills like time management and overcoming procrastination. These skills are important for success in this class, and if you are struggling with them, we encourage you to make an appointment for academic coaching by visiting the [StAAR Center website](go.tufts.edu/StAARCenter).
 
+## Alignment of course to ABET outcomes
+
+This course address all 7 student outcomes required by ABET, the accrediting body for undergraduate engineering programs.
+
+| ABET Student Outcomes | ME 30 Alignment  | 
+|--------------------------------------------|-------------------------------|
+|  1.	an ability to identify, formulate, and solve complex engineering problems by applying principles of engineering, science, and mathematics |  Course video lectures, reading assignments, and class activities involve circuit analysis problems  |
+| 2.	an ability to apply engineering design to produce solutions that meet specified needs with consideration of public health, safety, and welfare, as well as global, cultural, social, environmental, and economic factors  |  •	Course revolves around six hands-on circuit design projects that progress in difficulty and in complexity of requirements and constraints  |
+|  3.	an ability to communicate effectively with a range of audiences |  Video-recorded and live presentations of projects  |
+| 4.	an ability to recognize ethical and professional responsibilities in engineering situations and make informed judgments, which must consider the impact of engineering solutions in global, economic, environmental, and societal contexts 
+  | Discussion of safety considerations with high power circuits; Macroethics and discriminatory design addressed in Project 4 reflection assignment   |
+| 5.	an ability to function effectively on a team whose members together provide leadership, create a collaborative and inclusive environment, establish goals, plan tasks, and meet objectives  | Students work in teams for Projects 5 and 6   |
+|  6.	an ability to develop and conduct appropriate experimentation, analyze and interpret data, and use engineering judgment to draw conclusions | Frequent opportunities to analyze circuit behavior with digital multimeter; Troubleshooting and debugging of circuits emphasized  |
+| 7.	an ability to acquire and apply new knowledge as needed, using appropriate learning strategies  |  Open-ended nature of Projects 4, 5, and 6 requires students to find and apply learning resources applicable to the components and behaviors they wish to incorporate  |
