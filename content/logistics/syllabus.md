@@ -64,7 +64,7 @@ Kristen Wendell, kristen.wendell@tufts.edu
 
 ## Course credit and time expectations
 
-ME 30 is a 4-SHU course with lab. The lab component will consist of a series of four independent projects. At Tufts, each SHU equates to 3 hours of student time per week. 4-SHU courses are expected to require an average of 12 student hours per week. Typically, these hours are divided into about 3 hours of class time and 9 hours of lab/homework/study time. For Fall 2022, you can expect to spend roughly 2.5 hours in class sessions, maybe 1.5 hours on studying/homework, and the remaining 8 hours on project work each week.
+ME 30 is a 4-SHU course with lab. The lab component will consist of a series of four independent projects. At Tufts, each SHU equates to 3 hours of student time per week. 4-SHU courses are expected to require an average of 12 student hours per week. Typically, these hours are divided into about 3 hours of class time and 9 hours of lab/homework/study time. For Fall 2023, you can expect to spend roughly 2.5 hours in class sessions, 1 hour in lab, 2 hours reading/viewing/studying, and the remaining 7 hours on project work each week.
 
 ## Learning electronics when life is tough (what to do if you miss a class or due date) 
 
