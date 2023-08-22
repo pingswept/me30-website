@@ -16,7 +16,17 @@ draft: false
 |      | 9/27  | Transistors as switches      |  Make a switch with a BJT    | [Low power/high power](http://andnowforelectronics.com/notes/low-power-high-power/)|[P1 PCB](http://andnowforelectronics.com/logistics/projects/#project-1-build-a-breadboard-power-supply)|        |
 |  5   | 10/2  | Intro to P2 (game v1), DC motors, MOSFETs | Run a motor with a MOSFET    | [Motors](http://andnowforelectronics.com/notes/motors/) |              |
 |      | 10/4 | Microcontrollers, CircuitPython     | KB2040 set-up    | [Microcontrollers](http://andnowforelectronics.com/notes/microcontrollers/); [KB2040 hardware](http://andnowforelectronics.com/notes/feather-rp2040-hardware/); Solder pins to your KB2040 and bring to class |       |
-|      | 10/9 | NO CLASS   |    |  |        |
+|  6    | 10/9 | NO CLASS   |    |  |        |
+|     | 10/11 | Digital and analog I/O hardware            | KB2040 challenges    |    [KB2040 programming](http://andnowforelectronics.com/notes/feather-programming/); [KB2040 challenges](http://andnowforelectronics.com/notes/feather-challenges/)    |   
+|  7    | 10/16  | Intro to P3, H-bridges                                  | Start building an H-bridge    | [H-bridge motor driver](http://andnowforelectronics.com/notes/h-bridge/); [Intro and video for P3](http://andnowforelectronics.com/logistics/projects/#project-2-build-an-h-bridge-motor-controller) |
+|     | 10/18  | More H-bridge details     | More H-bridge work            |               |               |
+|  8  | 10/23  | Motor power, debugging strategies  |   Motor measurement; H-bridge debugging   |     |[P3 proto](http://andnowforelectronics.com/logistics/projects/#project-2-build-an-h-bridge-motor-controller)|
+|      | 10/25  | PCB fabrication   |  P1 PCB test  | Solder components to your P1 PCB and bring to class  | Soldered P1 PCB |
+|  9  | 10/30  | Intro to P4 (game v2), sensors, state machines | More KB2040 challenges  | [KB2040 programming](http://andnowforelectronics.com/notes/feather-programming/); [KB2040 challenges](http://andnowforelectronics.com/notes/feather-challenges/)     | [P3 PCB](http://andnowforelectronics.com/logistics/projects/#project-2-build-an-h-bridge-motor-controller)   |
+|      | 11/1  | PWM for motor control   |  P4 planning  |   |  |
+
+
+
 
 2022 
 
