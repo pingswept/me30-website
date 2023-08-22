@@ -3,6 +3,17 @@ title: "Calendar"
 draft: false
 ---
 
+2023
+
+| Week | Date  | Class topics  | Hands-on  | What to study | What's due  |
+|:----:|:-----:|--------------------------------------------|-------------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------|
+|  1   | 9/6   | Course overview, introductions, kit contents    | Breadboard basics | [Prototyping](http://andnowforelectronics.com/notes/prototyping/); [Voltage and current](http://andnowforelectronics.com/notes/voltage-and-current/); [LEDs](http://andnowforelectronics.com/notes/leds/); [LEDs](http://andnowforelectronics.com/notes/leds/)  |          |
+|   2  | 9/11   | Voltage, current, resistors, LEDs    | Power an LED with "wall" power             |  [Series vs. parallel](http://andnowforelectronics.com/notes/series-vs-parallel/); [Resistors](http://andnowforelectronics.com/notes/resistors/); [Multimeters](http://andnowforelectronics.com/notes/multimeter/)   |  |
+|     | 9/13  | Voltage dividers, voltage regulators, capacitors |  Project 1 start   | [Capacitors](http://andnowforelectronics.com/notes/capacitors/); [Voltage regulators](http://andnowforelectronics.com/notes/voltage-regulation/); [Videos for P1](http://andnowforelectronics.com/notes/demo-videos/#videos-for-project-1)  |      |
+|  3   | 9/18  | Voltage regulators |  Debug your voltage regulator   | [Voltage regulators](http://andnowforelectronics.com/notes/voltage-regulation/); [Videos for P1](http://andnowforelectronics.com/notes/demo-videos/#videos-for-project-1)  | [P1   proto](http://andnowforelectronics.com/logistics/projects/#project-1-build-a-breadboard-power-supply)     |
+|      | 9/20  | KiCad  | KiCad demo; Soldering demo    | [PCB design](http://andnowforelectronics.com/notes/pcb/); Kicad resources; [Adafruit soldering guide](https://learn.adafruit.com/adafruit-guide-excellent-soldering/making-a-good-solder-joint)    |  |
+
+2022 
 
 | Week | Date  | Lecture                                    | Hands-on                      | What to study                                                            | Due dates                                                     |
 |:----:|:-----:|--------------------------------------------|-------------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------|
