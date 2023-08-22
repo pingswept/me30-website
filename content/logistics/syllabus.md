@@ -11,21 +11,17 @@ ME 30, Electronics & Controls I
 
 Kristen's office hours are:  
 
-* Tuesdays in Nolop
-* Thursdays on Zoom: https://tufts.zoom.us/my/kbwendell
+* Wednesdays 12-1:15pm,  Nolop
+* Fridays 2:30-4pm, Nolop
+* Thursdays 3-4pm, Zoom: https://tufts.zoom.us/my/kbwendell
 
 Brandon's office hours are:
 
 * Roughly 9 AM to 5 PM in Nolop, unless he's teaching class or in a meeting, or it's a weekend
 
-LA office hours are at Nolop at these times:
+Zosia's LA office hours are at Nolop at these times:
 
-* Sundays, 6-8 PM: Madeline and Leslie
-* Mondays 6:30-8:30 PM: Luisa & Olivia
-* Tuesdays 10:30-11:30 AM: Zosia
-* Tuesdays 1:30-2:30 PM: Roy
-* Wednesdays 6:00-8:00 PM: Reid
-* Wednesdays 8:00-9:00 PM: Roy
+* TBD
 
 
 ## Course description
@@ -58,6 +54,10 @@ The point of the course is to force students to gain experience with the practic
 * Raspberry Pi programming
 * Career trajectories and how to find a job
 
+### ABET outcomes
+
+This course
+
 ## Co-teachers
 
 Brandon Stafford, brandon.stafford@tufts.edu
@@ -69,15 +69,15 @@ Kristen Wendell, kristen.wendell@tufts.edu
 
 ME 30 is a 4-SHU course with lab. The lab component will consist of a series of four independent projects. At Tufts, each SHU equates to 3 hours of student time per week. 4-SHU courses are expected to require an average of 12 student hours per week. Typically, these hours are divided into about 3 hours of class time and 9 hours of lab/homework/study time. For Fall 2022, you can expect to spend roughly 2.5 hours in class sessions, maybe 1.5 hours on studying/homework, and the remaining 8 hours on project work each week.
 
-## Learning electronics when life is really tough 
+## Learning electronics when life is tough (what to do if you miss a class or due date) 
 
-In ME 30 this semester, we hope to cultivate a supportive community of people who are helping each other take things one day at a time while also learning some electronics along the way. But, we know that some days, with the effects of the pandemic still lingering, life may still be hard this semester. In particular, you might find yourself needing to quarantine, grieve, care for a friend or family member, or care for yourself in this time with its many sources of anxiety and concern. As your instructors, we aim to be flexible when those situations arise, and to support you in taking care of yourselves and loved ones. We will work with you to amend due dates and find solutions that won’t negatively impact your learning of electronics or your grade in the course. Please feel free to reach out to us, even if just to remind us how hard it is to be a college student right now.
+In ME 30 this semester, we hope to cultivate a supportive community of people who are helping each other take things one day at a time while also learning some electronics along the way. To create a learning community, we need you to be present in class and to contribute your ideas and work to the larger group. However, as your instructors, we aim to be flexible when situations of illness or family emergencies arise, and to support you in taking care of yourselves and loved ones. If you need to miss a class or a due date, please reach out to Kristen or Brandon as early as possible. If you stay in contact, we will work with you to amend due dates and find solutions that won’t negatively impact your learning of electronics or your grade in the course. If we don't hear from you, it will be difficult for us to support your learning.
 
 ## Course expenses
 
 ### Electronics kits
 
-Essentially, we'll give you a [bunch of stuff](http://andnowforelectronics.com/logistics/kit/) and ask for some payment in return (but can help those who need it). You'll get to keep the "consumables" portion of the kit, and you'll return the re-usable hardware at the end of the semester so next year's students can use them. Please keep track of and take good care of your components and equipment. 
+Essentially, we'll give you a [bunch of stuff](http://andnowforelectronics.com/logistics/kit/) and ask for some payment in return (unless it is a hardship for you). You'll get to keep the "consumables" portion of the kit, and you'll return the re-usable hardware at the end of the semester so next year's students can use them. Please keep track of and take good care of your components and equipment. 
 
 This year the consumable kit cost is $43, payble via Venmo to @tuftsnolop. If the cost is a hardship, the department can help. Please read the section below about financial constraints.
 
@@ -105,10 +105,10 @@ If, for whatever reason, you cannot afford to pay for the stuff needed for this 
 
 ### In-class sessions
 
-Here's how class will work each Tuesday and Thursday.
+Here's how class will work each Monday and Wednesday.
 1. You'll show up to class and bring your kit with you.
 2. For the first half of class, the instructors (Kristen and Brandon) will explain something about electronics. 
-3. For the second half of class, we all build electronics. The LAs help you and ask you questions to extend your learning, as do Kristen and Brandon.
+3. For the second half of class, we will all build electronics. The LAs will help you and ask you questions to extend your learning, as will Kristen and Brandon.
 
 ### Asynchronous elements  
 * 	 **Video mini-lectures** - Created and posted by the instructors. Several on a set of new topics each week.  
@@ -123,7 +123,7 @@ Here's how class will work each Tuesday and Thursday.
 ## Assignments and grading
 
 Grades will be based entirely on your project work. There will also be a few short quizzes, which will be ungraded.   
-Projects (5) - 100% of course grade
+Projects (6) - 100% of course grade
 Quizzes (3) - 0% of course grade  
 
 ### Projects (100%)
@@ -134,16 +134,17 @@ If you complete all the projects on time within the requirements, or at least 95
 
 We have a *very* wide spectrum of experience in this class. Note that the project requirements do not include any kind of performance target (like, "make a robot that can run faster than 18 mph"), but rather broad categorical requirements, like "Your circuit must run off batteries." In this example, we do care whether you made a legitimate attempt to make the circuit run off batteries; we don't care how well your circuit works, because that's based largely on your level of experience relative how ambitious a project you tried to build. Our goal is to get you to try to build ambitious projects in a few broad categories, not cross some arbitrary threshold that would be easy for some of you and intensely difficult for others.
 
-Over the course of the five projects you will:  
+Over the course of the six projects you will:  
 1. Build a prototype and PCB of a breadboard power supply that accepts power from a 12 V wall supply and emits 12 V, 5 V, and 3.3 V at the same time.  
-2. Build a prototype and PCB of an H-bridge motor controller to make a motor spin both ways.  
-3. Build an electromechanical game including microcontroller, moving mechanical element, and user input.  
-4. Build a node including both sensor(s) and actuator(s) in an internet-connected, electronic system.  
-5. Combine an internet-connected, electronic system with a moving mechanical element.
-
+2. Build a very basic motorized game, with a motor that spins in only one direction.
+3. Build a prototype and PCB of an H-bridge motor controller to make a motor spin both ways.  
+4. Build a more complex electromechanical game including microcontroller, moving mechanical element, and user input.  
+5. Build a an internet-connected, electromechanical device that can traverse a ramp.
+6. Coordinate with other electromechanical devices in an internet-connected system.  
+    
 ### Quizzes (0%)
 
-There will be three short quizzes, one after each of the Projects 2, 3, and 4. Each quiz will feature open-response questions aimed at checking your understanding of the big ideas of each project.
+There will be three short quizzes, one after each of the Projects 1, 3, and 4. Each quiz will feature open-response questions aimed at checking your understanding of the big ideas of each project.
 
 ## Honesty
 
