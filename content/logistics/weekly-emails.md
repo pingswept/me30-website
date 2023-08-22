@@ -8,7 +8,7 @@ draft: false
 
 
 
-## Week 1: Wednesday, 9/7/22
+## Week 1: Tuesday, 9/5/23
 
 **Some course housekeeping:**
 - We’ll send an organizational email every Sunday evening. But this first week, we're doing it on Tuesday.
