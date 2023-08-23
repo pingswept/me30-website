@@ -24,6 +24,18 @@ draft: false
 |      | 10/25  | PCB fabrication   |  P1 PCB test  | Solder components to your P1 PCB and bring to class  | Soldered P1 PCB |
 |  9  | 10/30  | Intro to P4 (game v2), sensors, state machines | More KB2040 challenges  | [KB2040 programming](http://andnowforelectronics.com/notes/feather-programming/); [KB2040 challenges](http://andnowforelectronics.com/notes/feather-challenges/)     | [P3 PCB](http://andnowforelectronics.com/logistics/projects/#project-2-build-an-h-bridge-motor-controller)   |
 |      | 11/1  | PWM for motor control   |  P4 planning  |   |  |
+|  10   | 11/6  | Stepper motors   |  Stepper motors   |    |  |
+|     | 11/8  | Discriminatory design   |         |       |    |
+|  11   | 11/13  |   |  P4 (game v2) demo day   |    | P4 (game v2) |
+|     | 11/15  | Raspberry Pi intro | Booting the Raspberry Pi     | [Raspberry Pi setup](http://andnowforelectronics.com/notes/pi-setup/); [Raspberry Pi programming](http://andnowforelectronics.com/notes/pi-programming/) |    |
+|  12    | 11/20 | Project 5 intro       | P4 learning goals; Pi challenges |  [Raspberry Pi challenges](http://andnowforelectronics.com/notes/pi-challenges/)     |    Raspberry Pi setup check on Canvas         |
+|      | 11/22 | No class (Thanksgiving)     |        |           |    P5 partners    |
+|  13  | 11/27 | How does the internet work?               |   P5 planning              |  [Internet](http://andnowforelectronics.com/notes/internet/); [Servers and clients](http://andnowforelectronics.com/notes/servers/)     |             |
+|    | 11/29 | Oscilloscopes  |  P5 Q & A     |               |    |
+|  14 | 12/4  | Project management, BOMs  |  Design ethics  |      |     |
+|     | 12/6  | Project 6 intro  |   P5 demo day  |          |   [P5](http://andnowforelectronics.com/logistics/projects)       |
+|  15    | 12/11  | Career trajectories  |  P6 Q & A   |                                           |         |
+|    | 12/18 |   (ME 30 finals block)        |       |             |[P6 showcase, 3:30-5:30pm](http://andnowforelectronics.com/logistics/projects)|
 
 
 
@@ -33,27 +45,8 @@ draft: false
 | Week | Date  | Lecture                                    | Hands-on                      | What to study                                                            | Due dates                                                     |
 |:----:|:-----:|--------------------------------------------|-------------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------|
 
-                                                              |
-|      | 9/29  | H-bridges                                  | Start building an H-bridge    | [H-bridge motor driver](http://andnowforelectronics.com/notes/h-bridge/); [Intro and video for P2](http://andnowforelectronics.com/logistics/projects/#project-2-build-an-h-bridge-motor-controller) |                                                               |
-|  5   | 10/4  | Soldering demo, more H-bridge details     | More H-bridge work            |    [H-bridge motor driver](http://andnowforelectronics.com/notes/h-bridge/); [Adafruit soldering guide](https://learn.adafruit.com/adafruit-guide-excellent-soldering/making-a-good-solder-joint)                                                                      |                                                       |
-|      | 10/6  | Motor measurement    |                               |                                                                          |[P2 proto](http://andnowforelectronics.com/logistics/projects/#project-2-build-an-h-bridge-motor-controller)|
-|  6   | 10/11 | Debugging strategies, PCB fabrication, P2.5 intro       | P1 PCB test             |    Solder components to your P1 PCB and bring to class                                                                     |      |
-|      | 10/13 | Microcontrollers     | Feather set-up    | [Microcontrollers](http://andnowforelectronics.com/notes/microcontrollers/); [Feather hardware](http://andnowforelectronics.com/notes/feather-rp2040-hardware/)     |[P2 PCB](http://andnowforelectronics.com/logistics/projects/#project-2-build-an-h-bridge-motor-controller) |
-|  7   | 10/18 | Digital and analog I/O hardware            | Feather challenges    |    [Feather programming](http://andnowforelectronics.com/notes/feather-programming/)                                                                      |                                                               |
-|      | 10/20 |  PWM for motor control                   | Feather challenges, cont'd       | [Feather programming](http://andnowforelectronics.com/notes/feather-programming/)   |       |
-|  8   | 10/25 | P2.5 testing; P3 intro                   |                               |                                        |   [P2.5 - Due at noon in class](http://andnowforelectronics.com/logistics/projects/#project-25-create-a-secure-motor-attachment)                                                   |
-|      | 10/27 | Stepper motors                  | P2 PCB test; P3 learning goals              |                                                                          |                                                               |
-|  9   | 11/1  | I2C, SPI, serial; State machines                      |                     |                                                                          | [P3 proto due in class](http://andnowforelectronics.com/logistics/projects/#project-3-build-an-electromechanical-game)                                                      |
-|      | 11/3  | Discriminatory design                           |                               |  [Discriminatory design](http://andnowforelectronics.com/notes/discriminatory-design/)                                                                        |    [Pre-class reading](https://canvas.tufts.edu/courses/40094/assignments/287435)                                                           |
-|  10  | 11/8  | No class (Friday schedule)                 |                               |                                                                          |                                                               |
-|      | 11/10 | P3 demo day                  |                               |                                                                          | [P3 final](http://andnowforelectronics.com/logistics/projects/#project-3-build-an-electromechanical-game) |
-|  11  | 11/15 | Raspberry Pi intro                   |  Booting the Raspberry Pi        |  [Raspberry Pi setup](http://andnowforelectronics.com/notes/pi-setup/); [Raspberry Pi programming](http://andnowforelectronics.com/notes/pi-programming/)                                                                         |                                                      |
-|      | 11/17 | Project 4 intro                          | P4 learning goals; Pi challenges |  [Raspberry Pi challenges](http://andnowforelectronics.com/notes/pi-challenges/)     |    Raspberry Pi setup check on Canvas         |
-|  12  | 11/22 | Oscilloscopes; more RPi setup               |                               |                                                                          |[P4 partners (if choosing your own)](http://andnowforelectronics.com/logistics/projects)  |
-|      | 11/24 | No class (Thanksgiving)                    |                               |                                                                          |                                                               |
-|  13  | 11/29 | How does the internet work?               |   P4 planning              |  [Internet](http://andnowforelectronics.com/notes/internet/); [Servers and clients](http://andnowforelectronics.com/notes/servers/)                                                                        |                                                               |
-|      | 12/1  | Project management, BOMs  |    P4 Q & A        |                                                                          |                                                               |
-|  14  | 12/6  | P4 demo day                 |                               |                                                                          |   [P4 final](http://andnowforelectronics.com/logistics/projects)       |
+
+                        |
 |      | 12/8  | Last class, jobs talk                      |                               |                                           |         |
 | (15) | 12/13 |                                   |                               |                                              |                                       |
 |    | 12/15 |   (Finals start)        |                               |                                                                          |[P5 showcase, 12-2pm](http://andnowforelectronics.com/logistics/projects)|
