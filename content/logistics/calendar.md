@@ -16,7 +16,7 @@ draft: false
 |      | 9/27  | Transistors as switches      |  Make a switch with a BJT    | [Low power/high power](http://andnowforelectronics.com/notes/low-power-high-power/)|[P1 PCB](http://andnowforelectronics.com/logistics/projects/#project-1-build-a-breadboard-power-supply)|        |
 |  5   | 10/2  | Intro to P2 (game v1), DC motors, MOSFETs | Run a motor with a MOSFET    | [Motors](http://andnowforelectronics.com/notes/motors/) |              |
 |      | 10/4 | Microcontrollers, CircuitPython     | KB2040 set-up    | [Microcontrollers](http://andnowforelectronics.com/notes/microcontrollers/); [KB2040 hardware](http://andnowforelectronics.com/notes/feather-rp2040-hardware/); Solder pins to your KB2040 and bring to class |       |
-|  6    | 10/9 | NO CLASS   |    |  |        |
+|  6    | 10/9 | NO CLASS   | (Indigenous People's Day)  |  |        |
 |     | 10/11 | Digital and analog I/O hardware            | KB2040 challenges    |    [KB2040 programming](http://andnowforelectronics.com/notes/feather-programming/); [KB2040 challenges](http://andnowforelectronics.com/notes/feather-challenges/)    |   
 |  7    | 10/16  | Intro to P3, H-bridges                                  | Start building an H-bridge    | [H-bridge motor driver](http://andnowforelectronics.com/notes/h-bridge/); [Intro and video for P3](http://andnowforelectronics.com/logistics/projects/#project-2-build-an-h-bridge-motor-controller) |
 |     | 10/18  | More H-bridge details     | More H-bridge work            |               |               |
@@ -29,13 +29,13 @@ draft: false
 |  11   | 11/13  |   |  P4 (game v2) demo day   |    | P4 (game v2) |
 |     | 11/15  | Raspberry Pi intro | Booting the Raspberry Pi     | [Raspberry Pi setup](http://andnowforelectronics.com/notes/pi-setup/); [Raspberry Pi programming](http://andnowforelectronics.com/notes/pi-programming/) |    |
 |  12    | 11/20 | Project 5 intro       | P4 learning goals; Pi challenges |  [Raspberry Pi challenges](http://andnowforelectronics.com/notes/pi-challenges/)     |    Raspberry Pi setup check on Canvas         |
-|      | 11/22 | No class (Thanksgiving)     |        |           |    P5 partners    |
+|      | 11/22 | NO CLASS     | (Thanksgiving)  |           |    P5 partners    |
 |  13  | 11/27 | How does the internet work?               |   P5 planning              |  [Internet](http://andnowforelectronics.com/notes/internet/); [Servers and clients](http://andnowforelectronics.com/notes/servers/)     |             |
 |    | 11/29 | Oscilloscopes  |  P5 Q & A     |               |    |
 |  14 | 12/4  | Project management, BOMs  |  Design ethics  |      |     |
 |     | 12/6  | Project 6 intro  |   P5 demo day  |          |   [P5](http://andnowforelectronics.com/logistics/projects)       |
 |  15    | 12/11  | Career trajectories  |  P6 Q & A   |                                           |         |
-|    | 12/18 |   (ME 30 finals block)        |       |             |[P6 showcase, 3:30-5:30pm](http://andnowforelectronics.com/logistics/projects)|
+|  (16)  | 12/18 |   (ME 30 finals block)        |       |             |[P6 showcase, Dec. 18, 3:30-5:30pm](http://andnowforelectronics.com/logistics/projects)|
 
 
 
