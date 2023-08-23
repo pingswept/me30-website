@@ -52,4 +52,13 @@ new table here
 |     | 10/18  | More H-bridge details     | More H-bridge work            |               |               |
 |  8  | 10/23  | Motor power, debugging strategies  |   Motor measurement; H-bridge debugging   |     |[P3 proto](http://andnowforelectronics.com/logistics/projects/#project-2-build-an-h-bridge-motor-controller)|
 
+more text here
+
+new table here
+| Week | Date  | Class topics  | Hands-on  | What to study | What's due  |
+|:----:|:-----:|--------------------------------------------|-------------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------|
+
+|     | 10/18  | More H-bridge details     | More H-bridge work            |               |               |
+|  8  | 10/23  | Motor power, debugging strategies  |   Motor measurement; H-bridge debugging   |     |[P3 proto](http://andnowforelectronics.com/logistics/projects/#project-2-build-an-h-bridge-motor-controller)|
+
 
