@@ -57,8 +57,27 @@ more text here
 new table here
 | Week | Date  | Class topics  | Hands-on  | What to study | What's due  |
 |:----:|:-----:|--------------------------------------------|-------------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------|
+|      | 10/25  | PCB fabrication   |  P1 PCB test  | Solder components to your P1 PCB and bring to class  | Soldered P1 PCB |
+|  9  | 10/30  | Intro to P4 (game v2), sensors, state machines | More KB2040 challenges  | [KB2040 programming](http://andnowforelectronics.com/notes/feather-programming/); [KB2040 challenges](http://andnowforelectronics.com/notes/feather-challenges/)     | [P3 PCB](http://andnowforelectronics.com/logistics/projects/#project-2-build-an-h-bridge-motor-controller)   |
+|      | 11/1  | PWM for motor control   |  P4 planning  |   |  |
+|  10   | 11/6  | Stepper motors   |  Stepper motors   |    |  |
+|     | 11/8  | Discriminatory design   |         |       |    |
+|  11   | 11/13  |   |  P4 (game v2) demo day   |    | P4 (game v2) |
 
-|     | 10/18  | More H-bridge details     | More H-bridge work            |               |               |
-|  8  | 10/23  | Motor power, debugging strategies  |   Motor measurement; H-bridge debugging   |     |[P3 proto](http://andnowforelectronics.com/logistics/projects/#project-2-build-an-h-bridge-motor-controller)|
+more text here
+
+new table here
+| Week | Date  | Class topics  | Hands-on  | What to study | What's due  |
+|:----:|:-----:|--------------------------------------------|-------------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------|
+|     | 11/15  | Raspberry Pi intro | Booting the Raspberry Pi     | [Raspberry Pi setup](http://andnowforelectronics.com/notes/pi-setup/); [Raspberry Pi programming](http://andnowforelectronics.com/notes/pi-programming/) |    |
+|  12    | 11/20 | Project 5 intro       | Pi challenges |  [Raspberry Pi challenges](http://andnowforelectronics.com/notes/pi-challenges/)     |    Raspberry Pi setup check on Canvas         |
+|      | 11/22 | NO CLASS     | (Thanksgiving)  |           |    P5 partners    |
+|  13  | 11/27 | How does the internet work?               |   P5 planning              |  [Internet](http://andnowforelectronics.com/notes/internet/); [Servers and clients](http://andnowforelectronics.com/notes/servers/)     |             |
+|    | 11/29 | Oscilloscopes  |  P5 Q & A     |               |    |
+|  14 | 12/4  | Project management, BOMs  |  Design ethics  |      |     |
+|     | 12/6  | Project 6 intro  |   P5 demo day  |          |   [P5](http://andnowforelectronics.com/logistics/projects)       |
+|  15    | 12/11  | Career trajectories  |  P6 Q & A   |                                           |         |
+|  (16)  | 12/18 |   (ME 30 finals block)        |       |             |[P6 showcase, Dec. 18, 3:30-5:30pm](http://andnowforelectronics.com/logistics/projects)|
+
 
 
