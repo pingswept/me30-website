@@ -35,12 +35,12 @@ Phase 3 - Instructors Swap Classrooms
 
 | Week | Date  | Class topics  | Hands-on  | What to study | What's due  |
 |:----:|:-----:|--------------------------------------------|-------------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------|
-|      | 10/25  | PCB fabrication   |  P1 PCB test  | Solder components to your P1 PCB and bring to class  | Soldered P1 PCB |
-|  9  | 10/30  | Intro to P4 (game v2), sensors, state machines | More KB2040 challenges  | [KB2040 programming](http://andnowforelectronics.com/notes/feather-programming/); [KB2040 challenges](http://andnowforelectronics.com/notes/feather-challenges/)     | [P3 PCB](http://andnowforelectronics.com/logistics/projects/#project-2-build-an-h-bridge-motor-controller)   |
+|      | 10/25  | Intro to P4 (game v2), PCB fabrication   |  P1 PCB test  | Solder components to your P1 PCB and bring to class  | Soldered P1 PCB |
+|  9  | 10/30  | Sensors, state machines | More KB2040 challenges  | [KB2040 programming](http://andnowforelectronics.com/notes/feather-programming/); [KB2040 challenges](http://andnowforelectronics.com/notes/feather-challenges/)     | [P3 PCB](http://andnowforelectronics.com/logistics/projects/#project-2-build-an-h-bridge-motor-controller)   |
 |      | 11/1  | PWM for motor control   |  P4 planning  |   |  |
 |  10   | 11/6  | Stepper motors   |  Stepper motors   |    |  |
 |     | 11/8  | Discriminatory design   |         |       |    |
-|  11   | 11/13  |   |  P4 (game v2) demo day   |    | P4 (game v2) |
+|  11   | 11/13  | P4 reflection   |  P4 (game v2) demo day   |    | P4 (game v2) |
 
 Phase 4 - Instructors Swap Classrooms
 
@@ -52,8 +52,8 @@ Phase 4 - Instructors Swap Classrooms
 |  13  | 11/27 | How does the internet work?               |   P5 planning              |  [Internet](http://andnowforelectronics.com/notes/internet/); [Servers and clients](http://andnowforelectronics.com/notes/servers/)     |             |
 |    | 11/29 | Oscilloscopes  |  P5 Q & A     |               |    |
 |  14 | 12/4  | Project management, BOMs  |  Design ethics  |      |     |
-|     | 12/6  | Project 6 intro  |   P5 demo day  |          |   [P5](http://andnowforelectronics.com/logistics/projects)       |
-|  15    | 12/11  | Career trajectories  |  P6 Q & A   |                                           |         |
+|     | 12/6  | P5 reflection  |   P5 demo day  |          |   [P5](http://andnowforelectronics.com/logistics/projects)       |
+|  15    | 12/11  | P6 intro, Jobs talk  |  P6 Q & A   |                                           |         |
 |  (16)  | 12/18 |   (ME 30 finals block)        |       |             |[P6 showcase, Dec. 18, 3:30-5:30pm](http://andnowforelectronics.com/logistics/projects)|
 
 
