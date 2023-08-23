@@ -37,3 +37,19 @@ draft: false
 |  15    | 12/11  | Career trajectories  |  P6 Q & A   |                                           |         |
 |  (16)  | 12/18 |   (ME 30 finals block)        |       |             |[P6 showcase, Dec. 18, 3:30-5:30pm](http://andnowforelectronics.com/logistics/projects)|
 
+
+more text here
+
+new table here
+| Week | Date  | Class topics  | Hands-on  | What to study | What's due  |
+|:----:|:-----:|--------------------------------------------|-------------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------|
+|      | 9/27  | Transistors as switches      |  Make a switch with a BJT    | [Low power/high power](http://andnowforelectronics.com/notes/low-power-high-power/)|[P1 PCB](http://andnowforelectronics.com/logistics/projects/#project-1-build-a-breadboard-power-supply)|        |
+|  5   | 10/2  | Intro to P2 (game v1), DC motors, MOSFETs | Run a motor with a MOSFET    | [Motors](http://andnowforelectronics.com/notes/motors/) |              |
+|      | 10/4 | Microcontrollers, CircuitPython     | KB2040 set-up    | [Microcontrollers](http://andnowforelectronics.com/notes/microcontrollers/); [KB2040 hardware](http://andnowforelectronics.com/notes/feather-rp2040-hardware/); Solder pins to your KB2040 and bring to class |       |
+|  6    | 10/9 | NO CLASS   | (Indigenous People's Day)  |  |        |
+|     | 10/11 | Digital and analog I/O hardware            | KB2040 challenges    |    [KB2040 programming](http://andnowforelectronics.com/notes/feather-programming/); [KB2040 challenges](http://andnowforelectronics.com/notes/feather-challenges/)    |   
+|  7    | 10/16  | Intro to P3, H-bridges   | Start building an H-bridge    | [H-bridge motor driver](http://andnowforelectronics.com/notes/h-bridge/); [Intro and video for P3](http://andnowforelectronics.com/logistics/projects/#project-2-build-an-h-bridge-motor-controller) | [P2 (game v1)](http://andnowforelectronics.com/logistics/projects) |
+|     | 10/18  | More H-bridge details     | More H-bridge work            |               |               |
+|  8  | 10/23  | Motor power, debugging strategies  |   Motor measurement; H-bridge debugging   |     |[P3 proto](http://andnowforelectronics.com/logistics/projects/#project-2-build-an-h-bridge-motor-controller)|
+
+
