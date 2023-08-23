@@ -12,10 +12,7 @@ draft: false
 |     | 9/13  | Voltage dividers, voltage regulators, capacitors |  Project 1 start   | [Capacitors](http://andnowforelectronics.com/notes/capacitors/); [Voltage regulators](http://andnowforelectronics.com/notes/voltage-regulation/); [Videos for P1](http://andnowforelectronics.com/notes/demo-videos/#videos-for-project-1)  | Intro post on Canvas |
 |  3   | 9/18  | Voltage regulators |  Debug your voltage regulator   | [Voltage regulators](http://andnowforelectronics.com/notes/voltage-regulation/); [Videos for P1](http://andnowforelectronics.com/notes/demo-videos/#videos-for-project-1)  | [P1   proto](http://andnowforelectronics.com/logistics/projects/#project-1-build-a-breadboard-power-supply) |        |
 |      | 9/20  | KiCad  | KiCad demo; Soldering demo    | [PCB design](http://andnowforelectronics.com/notes/pcb/); Kicad resources; [Adafruit soldering guide](https://learn.adafruit.com/adafruit-guide-excellent-soldering/making-a-good-solder-joint)    |  |
-|   4  | 9/25  | PCB design                     | KiCad Q & A    | [PCB design](http://andnowforelectronics.com/notes/pcb/); Kicad resources    |  |
-
-
-|:----:|:-----:|--------------------------------------------|-------------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------|
+|   4  | 9/25  | PCB design  | KiCad Q & A    | [PCB design](http://andnowforelectronics.com/notes/pcb/); Kicad resources    |  |
 |      | 9/27  | Transistors as switches      |  Make a switch with a BJT    | [Low power/high power](http://andnowforelectronics.com/notes/low-power-high-power/)|[P1 PCB](http://andnowforelectronics.com/logistics/projects/#project-1-build-a-breadboard-power-supply)|        |
 |  5   | 10/2  | Intro to P2 (game v1), DC motors, MOSFETs | Run a motor with a MOSFET    | [Motors](http://andnowforelectronics.com/notes/motors/) |              |
 |      | 10/4 | Microcontrollers, CircuitPython     | KB2040 set-up    | [Microcontrollers](http://andnowforelectronics.com/notes/microcontrollers/); [KB2040 hardware](http://andnowforelectronics.com/notes/feather-rp2040-hardware/); Solder pins to your KB2040 and bring to class |       |
