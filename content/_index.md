@@ -45,11 +45,11 @@ Theresa Nguyen
 ![Anna Quiros](/img/Anna.jpg)
 Anna Quiros
 <--->
-![Zosia Stafford](/img/Zosia.jpg)
-Zosia Stafford, back for round 3
-<--->
 ![Alexa Watson](/img/Alexa.jpg)
 Alexa Watson
+<--->
+![Zosia Stafford](/img/Zosia.jpg)
+Zosia Stafford, back for round 3
 <--->
 {{< /columns >}}
 
