@@ -12,16 +12,17 @@ draft: false
 
 **Some course housekeeping:**
 - We’ll send an organizational email every Sunday evening. But this first week, we're doing it on Tuesday.
-- Don’t forget to bring your electronics kit to every class.
-- The course website is http://andnowforelectronics.com/. It includes:
-1. The syllabus which includes office hour info
+- The course website is http://andnowforelectronics.com/. It serves as the required text for the course. It includes:
+1. The syllabus, which lists office hour info
 2. The calendar of topics, suggested readings, and project work due for each class meeting
 3. Notes and brief videos on key topics
 4. Kit component list and data sheets for all components
-- If you did not get an electronics kit on 9/6, please reach out. The cost is $43, payable by Venmo to @tuftsnolop. If the cost is a hardship, please email an instructor (Brandon or Kristen) or the Mech E department administrator (courtney.russo@tufts.edu), and we will cover the cost.
+- You'll receive your electronics kit in the first class on 9/6. Bring it back for EVERY class.
+- We ask all students to contribute $43 toward kit costs, payable by Venmo to @tuftsnolop. The total value of your kit is ~$120. This requested student contribution represents the cost of its consumable supplies. You'll return the reusable components at the end of the semester. If the $43 is a hardship, please email an instructor (Brandon or Kristen) or the Mech E department administrator (courtney.russo@tufts.edu), and we will cover the cost. Otherwise, please pay the $43 by Wed., 9/13.
+- If you do not get an electronics kit on 9/6, please reach out. 
 
 **Things due in Week 1:**
-- Nothing, but the LED-pushbutton circuit is due next week. Canvas deliverable: Upload a photo of your working LED-pushbutton circuit.
+- Nothing, but your intro video and the LED-pushbutton circuit is due next week. Canvas deliverable: Upload a video introducing yourself and a photo of your working LED-pushbutton circuit.
 
 **Learning goals for Week 1:**
 - Build a working circuit prototype on a breadboard 
@@ -34,8 +35,8 @@ In ME 30 we’re aiming to provide a menu of resources to support your electroni
 
 *For Week 1, these are the resources we’re suggesting:*
 - In-class [exercises](http://andnowforelectronics.com/logistics/exercises/):  Exercise #1 (Power an LED with "wall power") and Exercise #2 (Build voltage dividers)
-- Website notes on concepts: Voltage regulation, Voltage & current*, Series vs. parallel, Resistors, Capacitors*
-- Website notes on skills: Prototyping*
+- Website notes & videos on concepts: Voltage & current, Series vs. parallel, Resistors, LEDs
+- Website notes on skills: Prototyping, Multimeters
 - Electric current and Voltage sections (2.2 and 2.3) of Scherz & Monk textbook (which is optional, and available here from Tisch Library online)
 - Office hours with instructors or LAs
 
