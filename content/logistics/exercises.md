@@ -4,7 +4,7 @@ draft: false
 ---
 # In-class exercises
 
-## 1: Project #0: Power an LED with "wall" power (Sep. 6)
+## 1: Power an LED with "wall" power (Sep. 6, Sep. 11)
 
 This is a warm-up activity to power an LED with "wall" power through our DC power supply and control it with a push button. 
 
@@ -44,13 +44,13 @@ That's trying to tell you that when the jack is empty (i.e. no plug inserted), p
 *For an extension to this exercise, re-arrange your circuit so you have one LED that stays on permanently and another that is powered by the button.*
 
 
-## 2. Build voltage dividers (Sep. 8)
+## 2. Build voltage dividers (Sep. 13)
 
 ![Voltage dividers](/img/voltage-dividers-2022.png)
 
 
 
-## 3: Build a voltage regulation circuit (Sep. 13)
+## 3: Build a voltage regulation circuit (Sep. 13, Sep. 15)
 
 This is an introductory exercise designed to help you get familiar with breadboard prototyping while also building a basic circuit that will be useful for later exercises and projects. It forms the basis for Project #1, but you don't need to think about that yet. If this is all new to you, look at the pages on [breadboard prototyping](/notes/prototyping/) and [multimeters](/notes/multimeters/).
 
@@ -63,7 +63,7 @@ The 4 components are:
 3. Two capacitors
 
 
-## 4. Motor power supply PCB with indicator LED (Sep. 20)
+## 4. Motor power supply PCB with indicator LED (Sep. 25)
 
 The goal of this exercise is to give you more practice with Kicad while also demonstrating how one might use the PCB you've been working on for Project 1.
 
@@ -78,7 +78,7 @@ Today's new PCB has two functions:
 1. It lights an LED to show when 5 V is available on your breadboard, and 
 2. When you push a button, it runs a motor at 12 V, through a screw terminal. 
 
-Pretend that you've already created a breadboard prototype of this motor power supply PCB.  A schematic diagram for your motor power supply shows that it's really just two simple circuits:
+If you were to make a breadboard prototype of this motor power supply PCB, its schematic diagram would show that it's really just two simple circuits:
 
 ![Motor supply schematic](/img/motorsupply-PCB.jpg)
 
@@ -109,7 +109,7 @@ The picture below shows the concept of what you're building. In place of the 24 
 ![Typical BJT circuit](/img/typical-bjt-circuit.png)
 
 
-## 5.5 Determine pin voltages and ideal resistor value for a BJT circuit (Sep. 29)
+## 5.5 Determine pin voltages and ideal resistor value for a BJT circuit (Sep. 27 or Oct. 2)
 
 1. Fill in the table below to indicate the voltage at E, B, and C when the input is (a) at ground and (b) at 3.3 V.
 2. What is an ideal value for the current-limiting resistor?
@@ -121,7 +121,7 @@ The picture below shows the concept of what you're building. In place of the 24 
 |  Input at 3.3 V   |    |   |     |
 
 
-## 6. Control a motor with a MOSFET (Sep. 29)
+## 6. Control a motor with a MOSFET (Oct. 2)
 
 You've used a bipolar junction transistor to control a motor. Now try using the other main class of transistor: a metal oxide semiconductor field effect transistor, or MOSFET.  The main difference between the [two types of transistors](http://andnowforelectronics.com/notes/low-power-high-power/) is that BJTs are current-controlled, and MOSFETs are voltage-controlled.
 
@@ -135,7 +135,15 @@ You need 5 things:
 
 ![MOSFET circuit](/img/mosfet-controller.jpg)
 
-## 7. H-bridge circuit analysis, part 1 (Oct. 4)
+
+## 7. KB2040 microcontroller challenges (Oct. 4 and 11)
+
+Learn to program your KB2040 board by working through these 10 challenges. You'll want to consult the [KB2040 programming](http://andnowforelectronics.com/notes/feather-programming/) resources.
+
+http://andnowforelectronics.com/notes/feather-challenges/
+
+
+## 8. H-bridge circuit analysis, part 1 
 
 You've just wired up the top left corner of an H-bridge circuit using a P-channel MOSFET. You connect the other motor lead to ground so that you can test this corner before wiring up the transistors at any other corners.  If this corner is wired correctly, what should happen to the motor when the MOSFET gate is connected:
 
@@ -156,7 +164,7 @@ Sketch the current path for each of those base states.
 ![add BJT to corner of an H-bridge](/img/Hbridge-corner-BJT.jpg)
 
 
-## 7. H-bridge circuit analysis, part 2 (Oct. 4)
+## 9. H-bridge circuit analysis, part 2 
 
 Please click the link below to view and analyze a full H-bridge circuit, with BJT controllers for the P-channel MOSFETs. This analysis will help you know what to expect and how to test your own full H-bridge prototype.
 
@@ -189,7 +197,7 @@ The top corners (1 and 4) need to both be set to ground to block current flow to
 **Don't do this -  it will short the circuit!!** In this H-bridge, setting a corner input to 3.3 V turns that corner's MOSFET "on," allowing current to across the source-drain pathway. If all 4 MOSFETs are allowing current to flow, then this circuit's easiest path to ground will be down the two sides of the "H."  No current will flow through the highly resistive motor. The motor will not spin, and the rest of the circuit will get very hot.
 {{< /expand >}}
 
-## 8. Measure a DC gearmotor (Power In) (Oct. 6)
+## 10. Measure a DC gearmotor (Power In) 
 
 Here are a few basic measurements you can make to understand your DC gearmotor better. The overall goal is to determine the efficiency of the motor by comparing the electrical power that goes into it ("power in") with the mechanical power it delivers ("power out"). 
 
@@ -204,7 +212,7 @@ When you know the current and the voltage, you can multiply them to find the ele
 
 If you can estimate how much power a task will require, you can start to figure out what voltage this motor would need to deliver that power (assuming perfect efficiency, for now). That's the first step toward deciding whether this is the right motor for whatever you're building.
 
-## 9. Measure a DC gearmotor (Power Out) (Oct. 6)
+## 9. Measure a DC gearmotor (Power Out) 
 
 The next step is to determine how much mechanical power the motor actually delivers ("power out"). One way to do this is to measure the time it takes to perform a certain amount of work (i.e., to add energy to a system).
 
@@ -215,7 +223,7 @@ The next step is to determine how much mechanical power the motor actually deliv
 Post your group's results here: https://docs.google.com/spreadsheets/d/1hPOLsmSsdGBHga9NMayhIXqW0E7COHThiejLpnPMqj8/edit?usp=sharing
 
 
-## 10. Test the current limit of your P1 PCB, plus P2 Q & A (Oct. 11)
+## 10. Test the current limit of your P1 PCB 
 
 The voltage regulators on your P1 PCB are specified (on their data sheets) to be able to handle current at the level of 1.5 A (the 5V regulator) and 0.8 A (the 3.3 V regulator). But the question is - **once soldered into your P1 PCB, can they still perform up to their specified max current limit?**  
 
@@ -227,20 +235,16 @@ General procedure (details left to your group):
 - Monitor the voltage drop across that resistive load - that is, the voltage drop between the output of the regulator and ground
 - Once that voltage drop begins to decrease lower than 3.3 V or 5 V, your regulator has gone into thermal shutdown (you may feel the regulators getting very hot before this happens)
 
-Use this shared doc to post questions about the P1 PCB test and about P2 circuit board design:
+Use this shared doc to post questions about the P1 PCB test and about P3 circuit board design:
 
 https://docs.google.com/document/d/1atNNbe8rjqZZtX7Foj0LWxPWZwktrCwlViqzWgFVHoU/edit?usp=sharing
 
 
-## 11. Feather challenges (Oct. 18 and 20)
 
-Learn to program your Feather by working through these 10 challenges. You'll want to consult the [Feather programming](http://andnowforelectronics.com/notes/feather-programming/) resources.
 
-http://andnowforelectronics.com/notes/feather-challenges/
+## 12. Project 0 motor hub testing (Oct. 25)
 
-## 12. Project 2.5 motor hub testing (Oct. 25)
-
-Form a group of ~8 students. Using water bottles and a scale, create a set of 8 different weights ranging from the weight of an empty bottle to the weight of a full bottle. (Yes, each group of 8 will have a different set of 8 weights, but as long as you have a range, your group will be able to do this activity.)
+Work with your entire lab section. Using water bottles and a scale, create a set of 8 different weights ranging from the weight of an empty bottle to the weight of a full bottle. (Yes, each group of 8 will have a different set of 8 weights, but as long as you have a range, your group will be able to do this activity.)
 
 For each motor hub, begin with the lowest weight and attach it to the hub with a paper clip (through the hole placed ~15 mm from the shaft axis) and a length of string. Supply 12 V to the motor and see if it can lift the weight without slipping of the hub. If it succeeds, move on to the next highest weight. Repeat until you get to a weight that either stalls the motor or makes the hub slip around the motor shaft.  Record this as your "slip/stall weight." 
 
