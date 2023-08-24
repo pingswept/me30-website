@@ -68,6 +68,6 @@ Due dates are staggered for Project 0 to spread out the demand on fabrication to
 | Sunday         |  Sun., Sep. 24      | 
 | Monday         |  Mon., Sep. 25      | 
 | Tuesday        |  Tues., Oct. 1      | 
-| Wednesday      |  Oct. 11            | 
+| Wednesday      |  Wed., Oct. 11      | 
 | Thursday       |  Thurs., Sep. 14    | 
 | Friday         |  Fru., Sep. 15      | 
