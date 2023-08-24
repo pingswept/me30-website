@@ -4,7 +4,7 @@ draft: false
 ---
 # In-class exercises
 
-## 1: Power an LED with "wall" power (Sep. 6, Sep. 11)
+## 1: Power an LED with "wall" power (Sep. 6 & 11)
 
 This is a warm-up activity to power an LED with "wall" power through our DC power supply and control it with a push button. 
 
@@ -50,7 +50,7 @@ That's trying to tell you that when the jack is empty (i.e. no plug inserted), p
 
 
 
-## 3: Build a voltage regulation circuit (Sep. 13, Sep. 15)
+## 3: Build a voltage regulation circuit (Sep. 13 & 15)
 
 This is an introductory exercise designed to help you get familiar with breadboard prototyping while also building a basic circuit that will be useful for later exercises and projects. It forms the basis for Project #1, but you don't need to think about that yet. If this is all new to you, look at the pages on [breadboard prototyping](/notes/prototyping/) and [multimeters](/notes/multimeters/).
 
@@ -109,7 +109,7 @@ The picture below shows the concept of what you're building. In place of the 24 
 ![Typical BJT circuit](/img/typical-bjt-circuit.png)
 
 
-## 5.5 Determine pin voltages and ideal resistor value for a BJT circuit (Sep. 27 or Oct. 2)
+## 6. Determine pin voltages and ideal resistor value for a BJT circuit (Sep. 27 or Oct. 2)
 
 1. Fill in the table below to indicate the voltage at E, B, and C when the input is (a) at ground and (b) at 3.3 V.
 2. What is an ideal value for the current-limiting resistor?
@@ -121,7 +121,7 @@ The picture below shows the concept of what you're building. In place of the 24 
 |  Input at 3.3 V   |    |   |     |
 
 
-## 6. Control a motor with a MOSFET (Oct. 2)
+## 7. Control a motor with a MOSFET (Oct. 2)
 
 You've used a bipolar junction transistor to control a motor. Now try using the other main class of transistor: a metal oxide semiconductor field effect transistor, or MOSFET.  The main difference between the [two types of transistors](http://andnowforelectronics.com/notes/low-power-high-power/) is that BJTs are current-controlled, and MOSFETs are voltage-controlled.
 
@@ -136,14 +136,39 @@ You need 5 things:
 ![MOSFET circuit](/img/mosfet-controller.jpg)
 
 
-## 7. KB2040 microcontroller challenges (Oct. 4 and 11)
+## 8. KB2040 microcontroller challenges (Oct. 4 and 11)
 
 Learn to program your KB2040 board by working through these 10 challenges. You'll want to consult the [KB2040 programming](http://andnowforelectronics.com/notes/feather-programming/) resources.
 
-http://andnowforelectronics.com/notes/feather-challenges/
+http://andnowforelectronics.com/notes/KB2040-challenges/
 
 
-## 8. H-bridge circuit analysis, part 1 
+## 9. Recognizing common errors in KB2040 Challenge #7 
+
+Challenge #7 asks you to control a motor's on/off state with a KB2040 output pin. Below are two approaches to setting up the circuitry. Each has problems that will prevent it from working correctly. What do you think those problems are?
+
+![Feather challenge 7 problems](/img/challenge7.png)
+
+*What are the problems with approach #1?*
+
+{{< expand "See the answer" "..." >}}
+(a) The KB2040 GND pin is not tied to the same ground as the motor circuitry.
+
+(b) There is no current-limiting resistor between the KB2040 output and the BJT base. We want to keep the current through the base-emitter diode to about 10% of the collector-to-emitter current. If the motor is drawing 150 mA, then we want the base-emitter current to be about 15 mA. And we know that when the BJT is on, its base voltage is 0.6 V. Since the KB2040 output supplies 3.3 V, we need a resistor to drop the voltage by 2.7 V and limit the current to 15 mA.
+{{< /expand >}}
+
+*What are the problems with approach #2?*
+
+{{< expand "See the answer" "..." >}}
+(a) The motor is "below" the N-channel MOSFET. When the gate is supplied with voltage, **for a very brief moment** the gate voltage will be higher than the source voltage, and current will flow from drain to source and therefore through the motor.  But once current starts to be drawn through the motor, the voltage at the source will rise to somewhere near 12 V. At this point, the gate voltage of 3.3 V will be less than the source voltage, and the MOSFET will no longer allow current flow to the motor.
+
+(b) The MOSFET gate does not have a pull-down resistor to ground.
+
+(c) The KB2040 GND pin is not tied to the same ground as the motor circuitry.
+
+{{< /expand >}}
+
+## 10. H-bridge circuit analysis, part 1 
 
 You've just wired up the top left corner of an H-bridge circuit using a P-channel MOSFET. You connect the other motor lead to ground so that you can test this corner before wiring up the transistors at any other corners.  If this corner is wired correctly, what should happen to the motor when the MOSFET gate is connected:
 
@@ -164,7 +189,7 @@ Sketch the current path for each of those base states.
 ![add BJT to corner of an H-bridge](/img/Hbridge-corner-BJT.jpg)
 
 
-## 9. H-bridge circuit analysis, part 2 
+## 11. H-bridge circuit analysis, part 2 
 
 Please click the link below to view and analyze a full H-bridge circuit, with BJT controllers for the P-channel MOSFETs. This analysis will help you know what to expect and how to test your own full H-bridge prototype.
 
@@ -197,7 +222,7 @@ The top corners (1 and 4) need to both be set to ground to block current flow to
 **Don't do this -  it will short the circuit!!** In this H-bridge, setting a corner input to 3.3 V turns that corner's MOSFET "on," allowing current to across the source-drain pathway. If all 4 MOSFETs are allowing current to flow, then this circuit's easiest path to ground will be down the two sides of the "H."  No current will flow through the highly resistive motor. The motor will not spin, and the rest of the circuit will get very hot.
 {{< /expand >}}
 
-## 10. Measure a DC gearmotor (Power In) 
+## 12a. Measure a DC gearmotor (Power In) 
 
 Here are a few basic measurements you can make to understand your DC gearmotor better. The overall goal is to determine the efficiency of the motor by comparing the electrical power that goes into it ("power in") with the mechanical power it delivers ("power out"). 
 
@@ -212,7 +237,7 @@ When you know the current and the voltage, you can multiply them to find the ele
 
 If you can estimate how much power a task will require, you can start to figure out what voltage this motor would need to deliver that power (assuming perfect efficiency, for now). That's the first step toward deciding whether this is the right motor for whatever you're building.
 
-## 9. Measure a DC gearmotor (Power Out) 
+## 12b. Measure a DC gearmotor (Power Out) 
 
 The next step is to determine how much mechanical power the motor actually delivers ("power out"). One way to do this is to measure the time it takes to perform a certain amount of work (i.e., to add energy to a system).
 
@@ -223,7 +248,7 @@ The next step is to determine how much mechanical power the motor actually deliv
 Post your group's results here: https://docs.google.com/spreadsheets/d/1hPOLsmSsdGBHga9NMayhIXqW0E7COHThiejLpnPMqj8/edit?usp=sharing
 
 
-## 10. Test the current limit of your P1 PCB 
+## 13. Test the current limit of your P1 PCB 
 
 The voltage regulators on your P1 PCB are specified (on their data sheets) to be able to handle current at the level of 1.5 A (the 5V regulator) and 0.8 A (the 3.3 V regulator). But the question is - **once soldered into your P1 PCB, can they still perform up to their specified max current limit?**  
 
@@ -241,32 +266,9 @@ https://docs.google.com/document/d/1atNNbe8rjqZZtX7Foj0LWxPWZwktrCwlViqzWgFVHoU/
 
 
 
-## 12. Recognizing common errors in Feather Challenge #7 (Oct. 27)
 
-Challenge #7 asks you to control a motor's on/off state with a Feather output pin. Below are two approaches to setting up the circuitry. Each has problems that will prevent it from working correctly. What do you think those problems are?
 
-![Feather challenge 7 problems](/img/challenge7.png)
-
-*What are the problems with approach #1?*
-
-{{< expand "See the answer" "..." >}}
-(a) The Feather GND pin is not tied to the same ground as the motor circuitry.
-
-(b) There is no current-limiting resistor between the Feather output and the BJT base. We want to keep the current through the base-emitter diode to about 10% of the collector-to-emitter current. If the motor is drawing 150 mA, then we want the base-emitter current to be about 15 mA. And we know that when the BJT is on, its base voltage is 0.6 V. Since the Feather output supplies 3.3 V, we need a resistor to drop the voltage by 2.7 V and limit the current to 15 mA.
-{{< /expand >}}
-
-*What are the problems with approach #2?*
-
-{{< expand "See the answer" "..." >}}
-(a) The motor is "below" the N-channel MOSFET. When the gate is supplied with voltage, **for a very brief moment** the gate voltage will be higher than the source voltage, and current will flow from drain to source and therefore through the motor.  But once current starts to be drawn through the motor, the voltage at the source will rise to somewhere near 12 V. At this point, the gate voltage of 3.3 V will be less than the source voltage, and the MOSFET will no longer allow current flow to the motor.
-
-(b) The MOSFET gate does not have a pull-down resistor to ground.
-
-(c) The Feather GND pin is not tied to the same ground as the motor circuitry.
-
-{{< /expand >}}
-
-## 14. How to code your Feather to constantly check an input while also running actuators (Nov. 1)
+## 14. How to code your microcontroller to constantly check an input while also running actuators 
 
 Suppose you want to check for the state of inputs while also running motors, lights, and other actuators. In particular, you want to flash an LED, constantly check for a button press that sets an input pin HIGH, and flash a different LED when the button is pressed.
 
@@ -280,29 +282,29 @@ import board
 import digitalio as dio
 import time
 
-led = dio.DigitalInOut(board.LED)
+led_1 = dio.DigitalInOut(board.D4)
 led.direction = dio.Direction.OUTPUT
 
+led_2 = dio.DigitalInOut(board.D5)
+led_2.direction = dio.Direction.OUTPUT
+    
 button = dio.DigitalInOut(board.D6)
 button.direction = dio.Direction.INPUT
 
-other_led = dio.DigitalInOut(board.D5)
-other_led.direction = dio.Direction.OUTPUT
-
-led.value = False
+led_1.value = False
 
 while True:
-    if led.value is True:
-        led.value = False
+    if led_1.value is True:
+        led_1.value = False
     else:
-        led.value = True
+        led_1.value = True
 
     time.sleep(1.0)
 
     if button.value is True:
-        other_led.value = True
+        led_2.value = True
     else:
-        other_led.value = False
+        led_2.value = False
 </pre>
 {{< /expand >}}
 
@@ -316,41 +318,41 @@ import board
 import digitalio as dio
 import time
 
-led = dio.DigitalInOut(board.LED)
+led_1 = dio.DigitalInOut(board.D4)
 led.direction = dio.Direction.OUTPUT
 
+led_2 = dio.DigitalInOut(board.D5)
+led_2.direction = dio.Direction.OUTPUT
+    
 button = dio.DigitalInOut(board.D6)
 button.direction = dio.Direction.INPUT
-
-other_led = dio.DigitalInOut(board.D5)
-other_led.direction = dio.Direction.OUTPUT
 
 STATE_TOGGLE = 1
 STATE_CHECK_BUTTON = 2
 
 state = STATE_TOGGLE
 next_toggle = 0
-led.value = False
+led_1.value = False
 
 while True:
     if state is STATE_TOGGLE:
-        if led.value is True:
-            led.value = False
+        if led_1.value is True:
+            led_1.value = False
         else:
-            led.value = True
+            led_1.value = True
         next_toggle = time.monotonic() + 1.0
         state = STATE_CHECK_BUTTON
     elif state is STATE_CHECK_BUTTON:
         if button.value is True:
-            other_led.value = True
+            led_2.value = True
         else:
-            other_led.value = False
+            led_2.value = False
         if time.monotonic() > next_toggle:
             state = STATE_TOGGLE
 </pre>
 {{< /expand >}}
 
-## 14. Project 3 Reflection (Nov. 15)
+## 14. Project 4 Reflection 
 
 Whole-class anonymous poll (responses viewable anonymously by the class): https://pollev.com/me30
 
@@ -358,18 +360,18 @@ Your responses: https://tufts.box.com/s/x9fatn1zsfspyp1mi7k9o7qa1rb84o8m
 
 Individual reflection (responses seen only by instructors): https://tufts.qualtrics.com/jfe/form/SV_82I3784cDRJPzX8
 
-## 15. Raspberry Pi setup (Nov. 15)
+## 15. Raspberry Pi setup 
 
 Follow the video and text directions here: http://andnowforelectronics.com/notes/pi-setup/
 
-## 16. Project 4 planning and Raspberry Pi Flask set-up (Nov. 29)
+## 16. Project 4 planning and Raspberry Pi Flask set-up 
 
 (a) Discuss these Project 4 planning questions with your team: https://docs.google.com/document/d/1ulQfKKEcXGVL5VZVITyimeE2d2Y40JnkMOGGLtVdCfo/edit?usp=sharing
 
 (b) Make sure you can complete [Raspberry Pi challenge #9](http://andnowforelectronics.com/notes/pi-challenges/)
 
 
-## 17. Problem-solving reflection (Dec. 8)
+## 17. Problem-solving reflection 
 
 We'll use this document: https://docs.google.com/document/d/1O_xfcv7e3ha_4H89LtY6i9dom4rK-cdWGM7mMMHbSyc/edit?usp=sharing
 
