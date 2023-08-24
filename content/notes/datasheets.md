@@ -26,6 +26,7 @@ draft: false
 ## Motors
 
 * [TJZ37RGa DC gearmotor, 12 V, 200 RPM](/img/tjz37rga-motor-specs.jpg)
+* [NEMA 17 stepper motor, 12 V, 200 step](https://cdn-shop.adafruit.com/product-files/324/C140-A+datasheet.jpg)
 
 ## Resistors
 
