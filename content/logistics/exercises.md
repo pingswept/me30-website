@@ -2,7 +2,7 @@
 title: "Exercises"
 draft: false
 ---
-# In-class exercises
+# In-class exercises for Fall 2023
 
 ## 1: Power an LED with "wall" power (Sep. 6 & 11)
 
