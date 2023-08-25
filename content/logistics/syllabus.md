@@ -11,8 +11,7 @@ ME 30, Electronics & Controls I
 
 Kristen's office hours are:  
 
-* Wednesdays 12-1:15pm,  Nolop
-* Fridays 2:30-4pm, Nolop
+* Fridays 2-4pm, Nolop
 * Thursdays 3-4pm, Zoom: https://tufts.zoom.us/my/kbwendell
 
 Brandon's office hours are:
