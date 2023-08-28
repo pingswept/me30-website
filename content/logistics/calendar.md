@@ -7,7 +7,7 @@ draft: false
 
 Phase 1
 
-| Week | Date  | Class topics  | Hands-on  | What to study | What's due  |
+| Week | Date  | Class topics  | Hands-on  | What to study | What's due before class  |
 |:----:|:-----:|--------------------------------------------|-------------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------|
 |  1   | 9/6   | Course overview, introductions, kit contents    | Breadboard basics; Power an LED with "wall" power  | [Prototyping](http://andnowforelectronics.com/notes/prototyping/); [Voltage and current](http://andnowforelectronics.com/notes/voltage-and-current/); [LEDs](http://andnowforelectronics.com/notes/leds/) |          |
 |   2  | 9/11   | Voltage, current, resistors, LEDs    | LED circuit extensions |  [Series vs. parallel](http://andnowforelectronics.com/notes/series-vs-parallel/); [Resistors](http://andnowforelectronics.com/notes/resistors/); [Multimeters](http://andnowforelectronics.com/notes/multimeter/)   |  |
