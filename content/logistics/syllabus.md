@@ -134,14 +134,11 @@ We have a *very* wide spectrum of experience in this class. Note that the projec
 |-----|--------------------------------------------|
 |  1. |  Build a breadboard power supply that accepts power from a 12 V wall supply and emits 12 V, 5 V, and 3.3 V at the same time.   |
 |  2. |  Build a very basic motorized game, with a motor that spins in only one direction.   |
+|  3. |  Build an H-bridge motor controller to make a motor spin both ways.   |
+|  4. |  Build a more complex electromechanical game including microcontroller, moving mechanical element, and user input.    |
+|  5. |  Build a an internet-connected, electromechanical device that can traverse an obstacle.    |
+|  6. |  Coordinate with other electromechanical devices in an internet-connected system.     |
 
-Over the course of the six projects you will:  
-1. Build a prototype and PCB of a breadboard power supply that accepts power from a 12 V wall supply and emits 12 V, 5 V, and 3.3 V at the same time.  
-2. Build a very basic motorized game, with a motor that spins in only one direction.
-3. Build a prototype and PCB of an H-bridge motor controller to make a motor spin both ways.  
-4. Build a more complex electromechanical game including microcontroller, moving mechanical element, and user input.  
-5. Build a an internet-connected, electromechanical device that can traverse a ramp.
-6. Coordinate with other electromechanical devices in an internet-connected system.  
     
 ### Quizzes (0%)
 
