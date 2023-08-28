@@ -119,12 +119,12 @@ Here's how class will work each Monday and Wednesday.
 ## Assignments and grading
 
 Grades will be based entirely on your project work. There will also be a few short quizzes, which will be ungraded.   
-Projects (6) - 100% of course grade
+Projects (7) - 100% of course grade
 Quizzes (3) - 0% of course grade  
 
 ### Projects (100%)
 
-Each project will be worth 7 points, and then scaled by the number of weeks allocated to complete the project. (So a project 4 weeks in duration is worth twice as much as a project 2 weeks in duration.) Of the 7 points, you can earn 1 point by submitting your project prototype on time for the *prototype deadline.* The other 6 points are awarded if you have attempted all project requirements - and documented those attempts - by the *final project deadline.* For each day (or fraction thereof) a final project is late, you will lose 1 point (before scaling), so a project that is 1 week late is worth 0 points. To receive credit for a project, your project must also clearly make an attempt to meet each of the project requirements, which are published at the start of the project. For example, if a project requires fabrication of a PCB, and you don't make one, you lose credit, roughly in proportion to the fraction of the requirements unsatisfied. For group projects with N people per group, you should do roughly 1/N of the work.
+Each project will be worth 7 points, and then scaled by the number of weeks allocated to complete the project. (So a project 4 weeks in duration is worth twice as much as a project 2 weeks in duration.) You can earn 1 of the 7 points by submitting your project prototype on time for the *prototype deadline.* The other 6 points are awarded if you have attempted all project requirements - and documented those attempts - by the *final project deadline.* For each day (or fraction thereof) a final project is late, you will lose 1 point (before scaling), so a project that is 1 week late is worth 0 points. To receive credit for a project, your project must also clearly make an attempt to meet each of the project requirements, which are published at the start of the project. For example, if a project requires fabrication of a PCB, and you don't make one, you lose credit, roughly in proportion to the fraction of the requirements unsatisfied. For group projects with N people per group, you should do roughly 1/N of the work.
 
 If you complete all the projects on time within the requirements, or at least 95% of that, you have earned an A for your project grade. If you hit around 85%, that's a B. You can calculate the details if you want, but the main message is that you should complete all the projects, and you should do them on time.
 
@@ -132,6 +132,7 @@ We have a *very* wide spectrum of experience in this class. Note that the projec
 
 | Project # | Project Goal  | 
 |-----|--------------------------------------------|
+|  0. |  Build a motor hub that remains securely attached to your DC motor shaft when heavily loaded.   |
 |  1. |  Build a breadboard power supply that accepts power from a 12 V wall supply and emits 12 V, 5 V, and 3.3 V at the same time.   |
 |  2. |  Build a very basic motorized game, with a motor that spins in only one direction.   |
 |  3. |  Build an H-bridge motor controller to make a motor spin both ways.   |
