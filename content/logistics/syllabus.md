@@ -124,21 +124,21 @@ Quizzes (3) - 0% of course grade
 
 ### Projects (100%)
 
-Each project will be worth 7 points, and then scaled by the number of weeks allocated to complete the project. (So a project 4 weeks in duration is worth twice as much as a project 2 weeks in duration.) You can earn 1 of the 7 points by submitting your project prototype on time for the *prototype deadline.* The other 6 points are awarded if you have attempted all project requirements - and documented those attempts - by the *final project deadline.* For each day (or fraction thereof) a final project is late, you will lose 1 point (before scaling), so a project that is 1 week late is worth 0 points. To receive credit for a project, your project must also clearly make an attempt to meet each of the project requirements, which are published at the start of the project. For example, if a project requires fabrication of a PCB, and you don't make one, you lose credit, roughly in proportion to the fraction of the requirements unsatisfied. For group projects with N people per group, you should do roughly 1/N of the work.
+Each project will be worth 7 points, and then scaled by the number of weeks allocated to complete the project. (So a project 4 weeks in duration is worth twice as much as a project 2 weeks in duration.) For projects that have both *prototype* and *final* deadlines, 1 of the 7 points comes from submitting your project prototype on time for the *prototype deadline.* The remaining points (6 or 7, depending on whether there was a prototype deadline) are awarded if you have attempted all project requirements - and documented those attempts - by the *final project deadline.* For each day (or fraction thereof) a final project is late, you will lose 1 point (before scaling), so a project that is 1 week late is worth 0 points. To receive credit for a project, your project must also clearly make an attempt to meet each of the project requirements, which are published at the start of the project. For example, if a project requires fabrication of a PCB, and you don't make one, you lose credit, roughly in proportion to the fraction of the requirements unsatisfied. For group projects with N people per group, you should do roughly 1/N of the work.
 
 If you complete all the projects on time within the requirements, or at least 95% of that, you have earned an A for your project grade. If you hit around 85%, that's a B. You can calculate the details if you want, but the main message is that you should complete all the projects, and you should do them on time.
 
 We have a *very* wide spectrum of experience in this class. Note that the project requirements do not include any kind of performance target (like, "make a robot that can run faster than 18 mph"), but rather broad categorical requirements, like "Your circuit must run off batteries." In this example, we do care whether you made a legitimate attempt to make the circuit run off batteries; we don't care how well your circuit works, because that's based largely on your level of experience relative how ambitious a project you tried to build. Our goal is to get you to try to build ambitious projects in a few broad categories, not cross some arbitrary threshold that would be easy for some of you and intensely difficult for others.
 
-| Project # | Project Goal  | 
-|-----|--------------------------------------------|
-|  0. |  Build a motor hub that remains securely attached to your DC motor shaft when heavily loaded.   |
-|  1. |  Build a breadboard power supply that accepts power from a 12 V wall supply and emits 12 V, 5 V, and 3.3 V at the same time.   |
-|  2. |  Build a very basic motorized game, with a motor that spins in only one direction.   |
-|  3. |  Build an H-bridge motor controller to make a motor spin both ways.   |
-|  4. |  Build a more complex electromechanical game including microcontroller, moving mechanical element, and user input.    |
-|  5. |  Build a an internet-connected, electromechanical device that can traverse an obstacle.    |
-|  6. |  Coordinate with other electromechanical devices in an internet-connected system.     |
+| Project # | Project Goal  | Fraction of Course |
+|-----|--------------------------------------------|----|
+|  0. |  Build a motor hub that remains securely attached to your DC motor shaft when heavily loaded.   | 1/15 |
+|  1. |  Build a breadboard power supply that accepts power from a 12 V wall supply and emits 12 V, 5 V, and 3.3 V at the same time. | 2/15 |
+|  2. |  Build a very basic motorized game, with a motor that spins in only one direction.   | 2/15 |
+|  3. |  Build an H-bridge motor controller to make a motor spin both ways.   | 2/15 |
+|  4. |  Build a more complex electromechanical game including microcontroller, moving mechanical element, and user input.    | 3/15 |
+|  5. |  Build a an internet-connected, electromechanical device that can traverse an obstacle.    | 2/15 |
+|  6. |  Coordinate with other electromechanical devices in an internet-connected system.     | 1/15 |
 
     
 ### Quizzes (0%)
