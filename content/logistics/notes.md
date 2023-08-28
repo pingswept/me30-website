@@ -154,18 +154,17 @@ Important maxim: if a footprint has the right size holes in the right location, 
 
 How PCBs are made, briefly. Copper-clad fiberglass is drilled, exposed to light, etched with acid, and covered in soldermask and silkscreen. Multilayer PCBs contain power planes and rectilinear spaghetti.
 
+
 ## Class 3: Catch-up mini-lecture
 
 Ohm's law and i-v curves
-
-Using a multimeter - 3 ways
 
 Big picture view of Project 1
 
 Q & A about Project 1 breadboard prototypes
 
 
-## Class 2: Build a voltage regulator circuit
+## Class 3: Build a voltage regulator circuit
 
 ### Intro stuff
 
@@ -173,7 +172,8 @@ LA office hours
 
 Notice that we are offering a few different modes of learning. Check which one works for you and go deep on that.
 
-### Re-visit extension/challenge from end of Class 1 (having two LEDs in circuit)
+
+### Re-visit extension/challenge from first exercise (having two LEDs in circuit)
 
 Series vs. Parallel
 
@@ -203,7 +203,7 @@ There are at least two possible topologies: cascade the 3.3 V regulator off the 
 
 
 
-## Class 1: Intro and build an LED circuit
+## Classes 1 and 2: Intro and build an LED circuit
 
 ### Introductions
 
@@ -229,7 +229,7 @@ Sidebar: voltage vs. current. Current is like water flowing in a hose. Voltage i
 
 Our DC power supply converts high (110 V) AC voltage to low (12 V) DC voltage.
 
-### Project 0: Power an LED with "wall" power through our DC power supply. Control it with a pushbutton.
+### Power an LED with "wall" power through our DC power supply. Control it with a pushbutton.
 
 Schematic diagram of what we’re going to build
 - ground symbol
@@ -241,6 +241,8 @@ How the barrel jack works. See that pin 3 is not involved, and then use your mul
 How the LED works
 
 Breadboard connections / pattern layout
+
+Using a multimeter - 3 ways
 
 ### LEDs
 Nonlinear I-V curve means they are not resistorsCurrent flowing in one direction will be stopped, but current flowing in the opposite direction will result in LED emitting light.
