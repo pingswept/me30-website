@@ -20,6 +20,7 @@ draft: false
 8. Make your gearmotor slowly increase in speed for 5 seconds, then slowly decrease in speed for 5 seconds, then repeat, using pin D6.
 9. Use your potentiometer to make a variable voltage. Read the voltage with pin A0, then print the voltage (in volts) to the serial monitor.
 10. Use you potentiometer on pin A0 to control the speed of your gearmotor on pin D6.
+11. Challenge TBD with photoresistor.
 
 
 *** If you're like Kristen and didn't get this cultural reference, here's an explanation: https://knowyourmeme.com/memes/i-for-one-welcome-our-new-insect-overlords
