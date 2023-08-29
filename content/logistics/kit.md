@@ -18,6 +18,7 @@ Each student in the course will receive a kit of project supplies. The contents 
 | 10k ohm resistor                         | Stackpole	             | CFR-25JB-52-10K      |	Digikey	        | CF12JT10K0CT-ND | 5              |
 | 100k ohm resistor                        | Stackpole	             | CFR-25JB-52-100K     |	Digikey	        | CF12JT100KCT-ND | 5              |
 | 10k potentiometer                        | Flutesan                |                      |	Amazon	        | B09L5MGNFZ      | 2              |
+| photoresistor                            | Hiletgo                 | 5528                 |	Amazon	        | B00N1ZJUN4      | 2              |
 | 5mm red LED                              | SunLED	                 | XLUR12D	            | Digikey	        | 1497-1031-ND    | 5              |
 | 5mm green LED                            | SunLED	                 | XLUG12D	            | Digikey	        | 1497-1023-ND    | 5              |
 | pushbutton                               | Taiss                   | 6x6x4.3mm            | Amazon          | B08DRB78MX      | 2              |
