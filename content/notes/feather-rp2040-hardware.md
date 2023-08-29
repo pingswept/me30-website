@@ -1,7 +1,9 @@
 ---
-title: "Feather hardware"
+title: "KB2040 hardware"
 draft: false
 ---
+
+# Still needs to be updated from Feather to KB2040
 
 ![Top view of Adafruit Feather RP2040](/img/feather-rp2040-top-view.jpg)
 
