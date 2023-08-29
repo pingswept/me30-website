@@ -13,7 +13,7 @@ draft: false
 
 *   A computer, plus the admin password to install software
 *   An Adafruit KB2040 microcontroller board
-*   A USB-C cable with the right ends to connect the KB2040 to the computer
+*   A USB-C **data** cable with the right ends to connect the KB2040 to your computer
 
 ## Software check 
 
@@ -33,20 +33,20 @@ The first time you run Mu, you'll need to select its "mode." Choose "CircuitPyth
 
 ## Hardware check 
 
-### Plug in your Feather to your computer
+### Plug in your KB2040 to your computer
 
-The next step is to plug in your KB2040 to your computer with a USB data cable. When you plug it in, you should see a light on the board near the number 13, showing that the KB2040 is getting electricity. **Make sure to use a data cable, not just a power cable!**
+The next step is to plug in your KB2040 to your computer with a USB data cable. When you plug it in, you should see a light on the board near the USB-C jack, showing that the KB2040 is getting electricity. **Make sure to use a data cable, not just a power cable!**
 
-### Install CircuitPython on your Feather
+### Install CircuitPython on your KB2030
 
 Once the board powers up, it's time to load CircuitPython onto it. 
 
 To install CircuitPython on your KB2040, follow the basic steps below. These steps are adapted from Adafruit's CircuitPython tutorial. You can find more details at https://learn.adafruit.com/welcome-to-circuitpython/installing-circuitpython.
 
 1. To your computer, [download](https://circuitpython.org/board/adafruit_kb2040/) the latest version of CircuitPython for the KB2040. Putting CircuitPython on your computer is an intermediate step. You are not going to run CircuitPython onto your computer - your eventual goal is to get CircuitPython onto your KB2040.
-2. Enter the "bootloader" mode on your KB2040 by **holding down the BOOTSEL button as you press and release the RESET button. Continue to hold down the BOOTSEL button until the KB2040's bootloader drive appears as "RPI-RP2" on your computer** (to which the Feather is plugged in). You need your KB2040 board in bootloader mode to install or update Circuit Python.
+2. Enter the "bootloader" mode on your KB2040 by **holding down the BOOTSEL button as you press and release the RESET button. Continue to hold down the BOOTSEL button until the KB2040's bootloader drive appears as "RPI-RP2" on your computer**. You need your KB2040 board in bootloader mode to install or update Circuit Python.
 3. Find the CircuitPython file that you downloaded onto your computer. Drag that file to the KB2040's boot drive (the **RPI-RP2** drive).
-4. Watch for **RPI-RP2** to disappear, and for a new drive to appear on your computer called **CIRCUITPY**.
+4. Watch for **RPI-RP2** to disappear and a new drive to appear on your computer called **CIRCUITPY**.
 5. When you see the **CIRCUITPY** drive, you know that your KB2040 now has CircuitPython installed on it, and it is ready to receive, store, and execute Python files. Congratulations!
 
 ![The CIRCUITPY drive](/img/circuitpy_drive.png)
@@ -63,20 +63,21 @@ You can save code files with other file  names, besides **code.py**, on your KB2
 To create and load your first Feather program, follow these steps:
 1. Open the Mu editor.
 2. Click the Load button, find the **CIRCUITPY** drive, and choose **code.py**.
-3. Copy and paste this code into the Mu editor 
+3. Copy and paste this code into the Mu editor
+
+**Need to add detail hear about importnat neopixel and adafruit_pixelbuf libraries**
 
 <pre class="code">
-import board
-import digitalio
 import time
+import board
+import neopixel
 
-led = digitalio.DigitalInOut(board.LED)
-led.direction = digitalio.Direction.OUTPUT
+pixels = neopixel.NeoPixel(board.NEOPIXEL, 1)
 
 while True:
-    led.value = True
+    pixels.fill((255, 0, 0))
     time.sleep(0.5)
-    led.value = False
+    pixels.fill((0, 0, 0))
     time.sleep(0.5)
 </pre>
 
@@ -88,13 +89,13 @@ To load it onto the KB2040, click the "Save" button in the Mu editor's top menu.
 
 As the code is uploaded, you'll see the larger circular LED on the Feather board flash rapidly green for a moment. 
 
-After the code is saved on the Feather, you should see the on-board red LED blinking once per second.
+After the code is saved on the KB2040, you should see the large on-board NeoPixel LED blinking once per second.
 
 If you've made it this far, your hardware and software are working properly. Congratulations! Go get a drink of cool, delicious water!
 {{< /expand >}}
 
 
-## Alternative Feather programming tutorials
+## Alternative KB2040 programming tutorials
 
 Adafruit's [CircuitPython Tutorials](https://learn.adafruit.com/welcome-to-circuitpython) are great if you're new to this stuff. Please take the time to run through them; it's an investment worth making. Microcontrollers are not going away soon.
 
@@ -104,8 +105,9 @@ The most common problem with microcontrollers is difficulty communicating betwee
 
 In this case, you should hold down the BOOTSEL button while pressing and releasing the RESET button, to make sure your computer sees the Feather's CIRCUITPY drive.
 
-You can also try unplugging the Feather and plugging it in again and restarting the Mu Editor. 
+You can also try unplugging the KB2040 and plugging it in again and restarting the Mu Editor. 
 
+Make sure you are using a cable that can transfer data, not just power. This is the most common source of trouble.
 
 ## So, how do I make this "code" you mention?
 
@@ -117,13 +119,15 @@ Then review and bookmark the [CircuitPython Essentials](https://learn.adafruit.c
 
 - - -
 
-## Using Mu to run code on your Feather
+## Using Mu to run code on your KB2040
 
-Save your Python code as the file code.py on your Feather, and it will start running immediately.  
+Save your Python code as the file code.py on your KB2040, and it will start running immediately.  
 
-To interrupt your Feather and stop the code, open the Mu Serial monitor, click within the Serial  monitor, and use CTRL-C.
+Open the serial monitor in Mu to see any error messages.
 
-To return the Feather to running the code, use CTRL-D in the serial monitor.
+To interrupt your KB2040 and stop the code, click within the Serial  monitor, and use CTRL-C.
+
+To return the KB2040 to running the code, use CTRL-D in the serial monitor.
 
 ## Things to know about Python syntax
 
@@ -188,7 +192,7 @@ To use these commands, include the command “import board” and “import digi
 
 **xyz.value**: the voltage value at the pin for object xyz
 
-**xyz.value = 1**: sets the voltage at the pin for xyz to be “high.” For the Feather, that's 3.3 V
+**xyz.value = 1**: sets the voltage at the pin for xyz to be “high.” For the KB2040, that's 3.3 V
     
 **xyz.value = True**: another way to set the voltage high
 
@@ -206,7 +210,7 @@ creates a new object called “xyz” that will hold all the information about s
 
 **xyz.duty_cycle = 32000**
     
-at whatever Feather pin belongs to the PWM object xyz, changes the duty cycle of the PWM voltage to 32000.  For the RP2040 chip on the Feather, the duty cycle maximum is 65535; max duty cycle means the output is high 100% of the time.
+at whatever KB2040 pin belongs to the PWM object xyz, changes the duty cycle of the PWM voltage to 32000.  For the RP2040 chip on the KB2040, the duty cycle maximum is 65535; max duty cycle means the output is high 100% of the time.
 
 ### ANALOGIO library
 
@@ -228,11 +232,11 @@ while True:
     
 ### Libraries for sensors and stepper motors
     
-If you want to program more specialized devices like stepper motors or particular sensors, you may need to download additional CircuitPython libraries (that don't come with CircuitPython uf2 file itself) onto your Feather. You can learn about how that works at the Welcome to CircuitPython libraries [page](https://learn.adafruit.com/welcome-to-circuitpython/circuitpython-libraries)
+If you want to program more specialized devices like stepper motors or particular sensors, you may need to download additional CircuitPython libraries (that don't come with CircuitPython uf2 file itself) onto your KB2040. You can learn about how that works at the Welcome to CircuitPython libraries [page](https://learn.adafruit.com/welcome-to-circuitpython/circuitpython-libraries)
 
-The full set of CircuitPython libraries for the Feather can be downloaded [here](https://circuitpython.org/libraries).
+The full set of CircuitPython libraries for the KB2040 can be downloaded [here](https://circuitpython.org/libraries).
 
-**NOTE:** I recommend downloading the entire bundle to your **laptop,** and then transferring ONLY the libraries you need for your game to your Feather. Transferring the entire bundle to your Feather will take quite a long time.
+**NOTE:** We recommend downloading the entire bundle to your **laptop,** and then transferring ONLY the libraries you need to your KB2040. Transferring the entire bundle to your KB2040 will take quite a long time.
     
 For distance sensor reading, check out [this page](https://learn.adafruit.com/ultrasonic-sonar-distance-sensors/python-circuitpython) to see what libraries you need.
 
