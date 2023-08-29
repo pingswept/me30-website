@@ -28,6 +28,10 @@ draft: false
 * [TJZ37RGa DC gearmotor, 12 V, 200 RPM](/img/tjz37rga-motor-specs.jpg)
 * [NEMA 17 stepper motor, 12 V, 200 step](https://cdn-shop.adafruit.com/product-files/324/C140-A+datasheet.jpg)
 
+## Photoresistors (light sensors)
+
+* [5mm, 100 mW light dependent resistor](/img/photoresistor_specs.jpeg)
+
 ## Resistors
 
 * [1/4 W resistor](/pdf/resistor-CFM1JTxxxR.pdf)  
