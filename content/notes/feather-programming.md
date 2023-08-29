@@ -1,8 +1,8 @@
 ---
-title: "Feather programming"
+title: "KB2040 programming"
 draft: false
 ---
-## Programming your Feather RP2040 microcontroller
+## Programming your KB2040 microcontroller
 
 - - -
 
@@ -12,12 +12,12 @@ draft: false
 ## Stuff You Need
 
 *   A computer, plus the admin password to install software
-*   An Adafruit Feather RP2040
-*   A USB-C cable with the right ends to connect the Feather to the computer
+*   An Adafruit KB2040 microcontroller board
+*   A USB-C cable with the right ends to connect the KB2040 to the computer
 
 ## Software check 
 
-Before you can actually make a Feather do anything, you have to install a code editor on your computer. We'll use the Mu Editor, which works well with Adafruit CircuitPython boards, including the Feather. 
+Before you can actually make a microcontroller do anything, you have to install a code editor on your computer. We'll use the Mu Editor, which works well with Adafruit CircuitPython boards, including the KB2040. 
 
 To install the Mu Editor, [download it](https://codewith.mu/en/) from the Mu website. 
 
@@ -35,30 +35,30 @@ The first time you run Mu, you'll need to select its "mode." Choose "CircuitPyth
 
 ### Plug in your Feather to your computer
 
-The next step is to plug in your Feather to your computer with a USB data cable. When you plug it in, you should see a  light on the board near the number 13, showing that the Feather is getting electricity. **Make sure to use a data cable, not just a power cable!**
+The next step is to plug in your KB2040 to your computer with a USB data cable. When you plug it in, you should see a light on the board near the number 13, showing that the KB2040 is getting electricity. **Make sure to use a data cable, not just a power cable!**
 
 ### Install CircuitPython on your Feather
 
 Once the board powers up, it's time to load CircuitPython onto it. 
 
-To install CircuitPython on your Feather, follow the basic steps below. These steps are adapted from Adafruit's CircuitPython tutorial. You can find more details at https://learn.adafruit.com/welcome-to-circuitpython/installing-circuitpython.
+To install CircuitPython on your KB2040, follow the basic steps below. These steps are adapted from Adafruit's CircuitPython tutorial. You can find more details at https://learn.adafruit.com/welcome-to-circuitpython/installing-circuitpython.
 
-1. To your computer, [download](https://circuitpython.org/board/adafruit_feather_rp2040/) the latest version of CircuitPython for the Feather RP2040. Putting CircuitPython on your computer is an intermediate step. You are not going to run CircuitPython onto your computer - your eventual goal is to get CircuitPython onto your Feather.
-2. Enter the "bootloader" mode on your Feather by **holding down the BOOTSEL button as you press and release the RESET button. Continue to hold down the BOOTSEL button until the Feather's bootloader drive appears as "RPI-RP2" on your computer** (to which the Feather is plugged in). You need your Feather board in bootloader mode to install or update Circuit Python.
-3. Find the CircuitPython file that you downloaded onto your computer. Drag that file to the Feather's boot drive (the **RPI-RP2** drive).
-4. Watch for the Feather's light to flash again and for **RPI-RP2** to disappear, and for a new drive to appear on your computer called **CIRCUITPY**.
-5. When you see the **CIRCUITPY** drive, you know that your Feather now has CircuitPython installed on it, and it is ready to receive, store, and execute Python files. Congratulations!
+1. To your computer, [download](https://circuitpython.org/board/adafruit_kb2040/) the latest version of CircuitPython for the KB2040. Putting CircuitPython on your computer is an intermediate step. You are not going to run CircuitPython onto your computer - your eventual goal is to get CircuitPython onto your KB2040.
+2. Enter the "bootloader" mode on your KB2040 by **holding down the BOOTSEL button as you press and release the RESET button. Continue to hold down the BOOTSEL button until the KB2040's bootloader drive appears as "RPI-RP2" on your computer** (to which the Feather is plugged in). You need your KB2040 board in bootloader mode to install or update Circuit Python.
+3. Find the CircuitPython file that you downloaded onto your computer. Drag that file to the KB2040's boot drive (the **RPI-RP2** drive).
+4. Watch for **RPI-RP2** to disappear, and for a new drive to appear on your computer called **CIRCUITPY**.
+5. When you see the **CIRCUITPY** drive, you know that your KB2040 now has CircuitPython installed on it, and it is ready to receive, store, and execute Python files. Congratulations!
 
 ![The CIRCUITPY drive](/img/circuitpy_drive.png)
 
 
-### Load a Python program onto your Feather.
+### Load a Python program onto your KB2040.
 
-The next step is to load your first Python program onto your Feather.
+The next step is to load your first Python program onto your KB2040.
 
-With CircuitPython installed, your Feather will look for and execute any Python program named **code.py** that is saved in the **CIRCUITPY** drive. Your Feather will do this on its own every time it starts up or resets. Every time the contents of the **code.py** file are changed, the Feather is triggered to reset -- and therefore to execute the updated code. You do not need to manually run the new code.
+With CircuitPython installed, your KB2040 will look for and execute any Python program named **code.py** that is saved in the **CIRCUITPY** drive. Your KB2040 will do this on its own every time it starts up or resets. Every time the contents of the **code.py** file are changed, the KB2040 is triggered to reset -- and therefore to execute the updated code. You do not need to manually run the new code.
 
-You can save code files with other file  names, besides **code.py**, on your Feather's CIRCUITPY drive, but they won't be executed by your Feather. You will need to change their name to **code.py** in order for them to be run.
+You can save code files with other file  names, besides **code.py**, on your KB2040's CIRCUITPY drive, but they won't be executed by your KB2040. You will need to change their name to **code.py** in order for them to be run.
 
 To create and load your first Feather program, follow these steps:
 1. Open the Mu editor.
@@ -82,7 +82,7 @@ while True:
 
 ![First code.py on Mu](/img/firstcode.png)
 
-To load it onto the Feather, click the "Save" button in the Mu editor's top menu. Navigate to the **CIRCUITPY** drive and save the file as **code.py.**
+To load it onto the KB2040, click the "Save" button in the Mu editor's top menu. Navigate to the **CIRCUITPY** drive and save the file as **code.py.**
 
 ![Saving code.py](/img/save-code-py.png)
 
