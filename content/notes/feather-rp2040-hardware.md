@@ -5,13 +5,13 @@ draft: false
 
 # Still needs to be updated from Feather to KB2040
 
-![Top view of Adafruit Feather RP2040](/img/feather-rp2040-top-view.jpg)
+![Top view of Adafruit KB2040](/img/KB2040_top.jpeg)
 
 ## Reference documents
 
-[Adafruit Feather RP2040 pinout](/pdf/feather-rp2040-pinout.pdf)
+[Adafruit KB2040 pinout](/img/KB2040_Pinout.pdf)
 
-[Adafruit Feather RP2040 schematic](/pdf/feather-rp2040-schematic.pdf)
+[Adafruit Feather RP2040 schematic](/img/KB2040_Schematic.png)
 
 [Adafruit Feather RP2040 complete guide](https://cdn-learn.adafruit.com/downloads/pdf/adafruit-feather-rp2040-pico.pdf)
 
