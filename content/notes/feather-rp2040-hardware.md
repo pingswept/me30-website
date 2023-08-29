@@ -3,7 +3,7 @@ title: "KB2040 hardware"
 draft: false
 ---
 
-# Still needs to be updated from Feather to KB2040
+# Still needs to be fully updated from Feather to KB2040
 
 ![Top view of Adafruit KB2040](/img/KB2040_top.jpeg)
 
@@ -11,11 +11,11 @@ draft: false
 
 [Adafruit KB2040 pinout](/img/KB2040_Pinout.pdf)
 
-[Adafruit Feather RP2040 schematic](/img/KB2040_Schematic.png)
+[Adafruit KB2040 schematic](/img/KB2040_Schematic.png)
 
 [Adafruit Feather RP2040 complete guide](https://cdn-learn.adafruit.com/downloads/pdf/adafruit-feather-rp2040-pico.pdf)
 
-## Adafruit Feather RP2040 hardware overview
+## Adafruit KB2040 hardware overview
 
 Looking at the picture above, you can see 2 large chips, some connectors, and a lot of tiny resistors and capacitors. 
 
