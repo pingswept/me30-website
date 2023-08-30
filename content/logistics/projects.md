@@ -63,7 +63,7 @@ Submit to Canvas both (1) a CAD rendering of your hub design and (2) a photo you
 
 Due dates are staggered for Project 0 to spread out the demand on fabrication tools at Nolop and Bray. Your hub is due at the start of lab time on the date listed for your weekly lab day.
 
-| Your Weekly Lab Day |  You Project 0 Due Date | 
+| Your Weekly Lab Day |  Your Project 0 Due Date | 
 |---------------------|-------------------------|
 | Sunday         |  Sun., Sep. 24      | 
 | Monday         |  Mon., Sep. 25      | 
