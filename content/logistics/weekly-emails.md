@@ -20,25 +20,28 @@ We’ll send an organizational email to the ME 30 class every Sunday evening. Bu
 4. Kit component list and data sheets for all components
 
 **Electronics kit:**
-- You'll receive your electronics kit in the first class on 9/6. Bring it back for EVERY class and lab. You'll return it at the end of the semester. 
+- You'll receive your electronics kit in the first class on 9/6. Bring it back for EVERY class and lab. You'll return it at the end of the semester.
+
+**Labs:**
+- No labs this first week.  They will begino on Wednesday, 9/13, and they will run on a Wednesday-to-Tuesday cycle.
 
 **Things due in Week 1:**
-- Nothing, but your intro video and the LED-pushbutton circuit is due next week. Canvas deliverable: Upload a video introducing yourself and a photo of your working LED-pushbutton circuit.
+- Nothing, but your intro video and the LED-pushbutton circuit is due next week. Canvas deliverable: Upload a video introducing yourself and showing us your LED-pushbutton circuit.
 
 **Learning goals for Week 1:**
 - Build a working circuit prototype on a breadboard 
 - Explain how current flows through the pins on a barrel jack
-- Start to make sense of voltage, current, resistance, and power, as they relate to a simple LED circuit and to a voltage regulator circuit
+- Start to make sense of voltage, current, resistance, and power, as they relate to a simple LED circuit
 
 **Resources for your learning for Week 1:**
 
 In ME 30 we’re aiming to provide a menu of resources to support your electronics learning. We hope you’ll explore and use what works best for you. Some of you may start with the videos we’ve embedded in the website pages; some of you may start by reading a textbook section; some of you may focus on the written website notes; and others may start with broad questions in office hours. Let us know if you’d like help developing a strategy for navigating the different options.
 
 *For Week 1, these are the resources we’re suggesting:*
-- In-class [exercises](http://andnowforelectronics.com/logistics/exercises/):  Exercise #1 (Power an LED with "wall power") and Exercise #2 (Build voltage dividers)
+- In-class [exercises](http://andnowforelectronics.com/logistics/exercises/):  Exercise #1 (Power an LED with "wall power") 
 - Website notes & videos on concepts: Voltage & current, Series vs. parallel, Resistors, LEDs
 - Website notes on skills: Prototyping, Multimeters
 - Electric current and Voltage sections (2.2 and 2.3) of Scherz & Monk textbook (which is optional, and available here from Tisch Library online)
-- Office hours with instructors or LAs
+- Office hours 
 
 NOTE: Many of the website notes pages include mini-lecture videos.
