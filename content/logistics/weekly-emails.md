@@ -10,16 +10,17 @@ draft: false
 
 ## Week 1: Tuesday, 9/5/23
 
-**Some course housekeeping:**
-- We’ll send an organizational email every Sunday evening. But this first week, we're doing it on Tuesday.
+We’ll send an organizational email to the ME 30 class every Sunday evening. But this first week, we're doing it on Tuesday.
+
+**Course website:**
 - The course website is http://andnowforelectronics.com/. It serves as the required text for the course. It includes:
 1. The syllabus, which lists office hour info
 2. The calendar of topics, suggested readings, and project work due for each class meeting
 3. Notes and brief videos on key topics
 4. Kit component list and data sheets for all components
-- You'll receive your electronics kit in the first class on 9/6. Bring it back for EVERY class.
-- We ask all students to contribute $43 toward kit costs, payable by Venmo to @tuftsnolop. The total value of your kit is ~$120. This requested student contribution represents the cost of its consumable supplies. You'll return the reusable components at the end of the semester. If the $43 is a hardship, please email an instructor (Brandon or Kristen) or the Mech E department administrator (courtney.russo@tufts.edu), and we will cover the cost. Otherwise, please pay the $43 by Wed., 9/13.
-- If you do not get an electronics kit on 9/6, please reach out. 
+
+**Electronics kit:**
+- You'll receive your electronics kit in the first class on 9/6. Bring it back for EVERY class and lab. You'll return it at the end of the semester. 
 
 **Things due in Week 1:**
 - Nothing, but your intro video and the LED-pushbutton circuit is due next week. Canvas deliverable: Upload a video introducing yourself and a photo of your working LED-pushbutton circuit.
