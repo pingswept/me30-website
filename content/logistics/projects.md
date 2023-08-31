@@ -65,12 +65,12 @@ Due dates are staggered for Project 0 to spread out the demand on fabrication to
 
 | Your Weekly Lab Day |  Your Project 0 Due Date | 
 |---------------------|-------------------------|
-| Sunday         |  Sun., Sep. 24      | 
+| Sunday         |  Sun., Sep. 17      | 
 | Monday         |  Mon., Sep. 25      | 
-| Tuesday        |  Tues., Oct. 1      | 
+| Tuesday        |  Tues., Oct. 3      | 
 | Wednesday      |  Wed., Oct. 11      | 
-| Thursday       |  Thurs., Sep. 14    | 
-| Friday         |  Fru., Sep. 15      | 
+| Thursday       |  Thurs., Sep. 21    | 
+| Friday         |  Fru., Sep. 29      | 
 
 {{< expand "Click to see procedure for motor hub testing" "..." >}}
 Work with your entire lab section. Using water bottles and a scale, create a set of 8 different weights ranging from the weight of an empty bottle to the weight of a full bottle. (Yes, each group of 8 will have a different set of 8 weights, but as long as you have a range, your group will be able to do this activity.)
