@@ -74,15 +74,19 @@ Due dates are staggered for Project 0 to spread out the demand on fabrication to
 
 
 {{< expand "Click for info on preparing to use the Bray Shop 3D printer, laser cutter, or lathe" "..." >}}
-All students must complete the Bray [safety quiz](https://sites.tufts.edu/brayprivate/safety-quiz-complete-to-access-shop-spaces/) prior to their first visit to Bray. Completing the quiz will give you access to the Bray user site where you can submit appointment requests for training and fabrication time 
+All students must complete the Bray [safety quiz](https://sites.tufts.edu/brayprivate/safety-quiz-complete-to-access-shop-spaces/) prior to their first visit to Bray. Completing the quiz will give you access to the Bray user site where you can submit appointment requests for training and fabrication time. 
+
 Use of the Bray lathe requires lathe-specific training in the red zone, which must be booked by appointment.
+
 Students trained on the 3D printers can access them in Bray Room 109 anytime. 
+
 Students can book an appointment to use the laser cutter or just walk in to use it during shop open hours as long as it is not reserved or in use by someone else.
 {{< /expand >}}
 
 
 {{< expand "Click for info on preparing to use the Nolop 3D printers or laser cutter" "..." >}}
 For more information about the Nolop 3D printers, review the training guide [here](https://nolop.org/3dprint/).
+
 Tutorials on using the Nolop laser cutter are available on the Nolop website [here](https://nolop.org/laser/).
 {{< /expand >}}
 
