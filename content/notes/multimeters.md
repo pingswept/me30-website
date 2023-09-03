@@ -14,7 +14,7 @@ Generally, you can just crank the knob back and forth and try connecting the met
 
 ## Voltage measurement
 
-Voltage measurements are made by connecting the multimeter in parallel with the voltage you want to measure. The multimeter acts like a very high resistance. Inside the meter, the voltage charges up a small capacitor, and the amount of time it takes to charge the capacitor tells us how much voltage we're measuring. (Need to sort out more details here)
+Voltage measurements are made by connecting the multimeter in parallel with the voltage you want to measure. The multimeter acts like a very high resistance. Inside the meter, the voltage charges up a small capacitor, and the amount of time it takes to charge the capacitor tells us how much voltage we're measuring. 
 
 ![measuring voltage](/img/measuring-voltage.png)
 
