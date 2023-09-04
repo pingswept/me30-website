@@ -107,6 +107,8 @@ Here's how class will work each Monday and Wednesday.
 
 ### Labs
 
+Each ME 30 student is also assigned to a lab group that meets weekly in the Nolop Makerspace under the guidance of a Learning Assistant (LA), each of whom is a successful ME 30 alum. The purpose of these scheduled 1-hour lab times is to give students access to a smaller group of peers and a mentor (your LA) for hands-on support with circuits and code. We've worked hard to balance out the lab size for an LA:student ratio of about 10:1, so please attend lab on the day/time in which you are enrolled. Labs begin on Wed., Sep. 13, 2023.
+
 ### Asynchronous elements  
 * 	 **Video mini-lectures** - Created and posted by the instructors. Several on a set of new topics each week.  
 * 	 **Website notes** - Added weekly to the course website to accompany the video mini-lectures.  
@@ -116,6 +118,7 @@ Here's how class will work each Monday and Wednesday.
 ### Synchronous elements
 * 	 **LA and instructor office hours** – See schedule above. 
 * 	 **Class** - See description above.
+* 	 **Labs** - See description above.
 
 ## Assignments and grading
 
