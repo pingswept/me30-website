@@ -105,6 +105,8 @@ Here's how class will work each Monday and Wednesday.
 2. For the first half of the class session, one of the instructors (Kristen or Brandon) will explain something about electronics. There will be one instructor in each classroom.  They will swap classrooms every few weeks so that all students interact with both professors.
 3. For the second half of the class session, we will all build electronics. The LAs will help you and ask you questions to extend your learning, as will Kristen and Brandon.
 
+### Labs
+
 ### Asynchronous elements  
 * 	 **Video mini-lectures** - Created and posted by the instructors. Several on a set of new topics each week.  
 * 	 **Website notes** - Added weekly to the course website to accompany the video mini-lectures.  
@@ -153,7 +155,7 @@ We take honesty very seriously. Not only are we required to report violations of
 ### Use of generative AI tools like ChatGPT
 
 Generative AI tooks like ChatGPT, Google Bard, and GitHub Copilot will certainly response with abundant information if you query them with questions about electronics, Python code for microcontrollers and Raspberry Pis, and other topics related to this course. Our policy on their use is as follows:
-- If you want to learn electronics well, we don't recommend their use on ME 30 project tasks. The perceived efficiency they may provide you will come at a real cost to your learning . If an AI assistant provides you with code or tells how how to wire a circuit, you are sacrificing an opportunity to build your own understanding of the structure of the code or the functioning of the circuit. To become a mechanical engineer is to learn what's under the hood of the designed world. Knowing how to have an AI assistant tell you what to put under the hood is not the same thing as mechanical engineering expertise.  
+- If you want to learn electronics well, we don't recommend their use on ME 30 project tasks. The perceived efficiency they may provide you will come at a real cost to your learning . If an AI assistant provides you with code or tells how how to wire a circuit, you are sacrificing an opportunity to build your own understanding of the structure of the code or the functioning of the circuit. To become a mechanical engineer is to learn what's under the hood of the designed world. Knowing how to get an AI assistant to give you a blueprint is not the same thing as mechanical engineering expertise.  
 - However, if you choose to use a generative AI tool on an ME 30 task, **and you provide attribution to that tool,** there will be no penalty to your grade in ME 30. **If you use generative AI without documenting that you've done so, we will consider that action a violation of academic integrity.**
 
 ## Sharing
