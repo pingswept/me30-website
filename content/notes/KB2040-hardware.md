@@ -1,6 +1,6 @@
 ---
 title: "KB2040 hardware"
-draft: false
+draft: t
 ---
 
 # Still needs to be fully updated from Feather to KB2040
