@@ -13,20 +13,24 @@ draft: false
 We’ll send an organizational email to the ME 30 class every Sunday evening. But this first week, we're doing it on Tuesday.
 
 **Course website:**
-- The course website is http://andnowforelectronics.com/. It serves as the required text for the course. It includes:
+
+The course website is http://andnowforelectronics.com/. It serves as the required text for the course. It includes:
 1. The syllabus, which lists office hour info
 2. The calendar of topics, suggested readings, and project work due for each class meeting
 3. Notes and brief videos on key topics
 4. Kit component list and data sheets for all components
 
 **Electronics kit:**
-- You'll receive your electronics kit in the first class on 9/6. Bring it back for EVERY class and lab. You'll return it at the end of the semester.
+
+You'll receive your electronics kit in the first class on 9/6. Bring it back for EVERY class and lab. You'll return it at the end of the semester.
 
 **Labs:**
-- No labs this first week.  They will begino on Wednesday, 9/13, and they will run on a Wednesday-to-Tuesday cycle.
+
+No labs this first week.  They will begin on Wednesday, 9/13, and they will run on a Wednesday-to-Tuesday cycle.
 
 **Things due in Week 1:**
-- Nothing, but your intro video and the LED-pushbutton circuit is due next week. Canvas deliverable: Upload a video introducing yourself and showing us your LED-pushbutton circuit.
+
+Nothing, but your intro video and the LED-pushbutton circuit is due next week. Canvas deliverable: Upload a video introducing yourself and showing us your LED-pushbutton circuit.
 
 **Learning goals for Week 1:**
 - Build a working circuit prototype on a breadboard 
