@@ -1,6 +1,6 @@
 ---
 title: "Voltage regulation"
-draft: false
+draft: true
 ---
 
 ## Why do we need voltage regulators?
