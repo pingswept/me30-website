@@ -153,7 +153,7 @@ We take honesty very seriously. Not only are we required to report violations of
 ### Use of generative AI tools like ChatGPT
 
 Generative AI tooks like ChatGPT, Google Bard, and GitHub Copilot will certainly response with abundant information if you query them with questions about electronics, Python code for microcontrollers and Raspberry Pis, and other topics related to this course. Our policy on their use is as follows:
-- We don't recommend their use on ME 30 project tasks. The efficiency or ease they may provide you will come at a cost of learning electronics. If an AI assistant provides you with code or tells how how to wire a circuit, you are sacrificing an opportunity to build your own understanding of the structure of the code or the functioning of the circuit.  
+- If you want to learn electronics well, we don't recommend their use on ME 30 project tasks. The perceived efficiency they may provide you will come at a real cost to your learning . If an AI assistant provides you with code or tells how how to wire a circuit, you are sacrificing an opportunity to build your own understanding of the structure of the code or the functioning of the circuit. To become a mechanical engineer is to learn what's under the hood of the designed world. Knowing how to have an AI assistant tell you what to put under the hood is not the same thing as mechanical engineering expertise.  
 - However, if you choose to use a generative AI tool on an ME 30 task, **and you provide attribution to that tool,** there will be no penalty to your grade in ME 30. **If you use generative AI without documenting that you've done so, we will consider that action a violation of academic integrity.**
 
 ## Sharing
