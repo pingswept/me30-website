@@ -352,7 +352,7 @@ while True:
 </pre>
 {{< /expand >}}
 
-## 14. Project 4 Reflection 
+## 14. Games Project Reflection 
 
 Whole-class anonymous poll (responses viewable anonymously by the class): https://pollev.com/me30
 
@@ -364,9 +364,9 @@ Individual reflection (responses seen only by instructors): https://tufts.qualtr
 
 Follow the video and text directions here: http://andnowforelectronics.com/notes/pi-setup/
 
-## 16. Project 4 planning and Raspberry Pi Flask set-up 
+## 16. Project 5 planning and Raspberry Pi Flask set-up 
 
-(a) Discuss these Project 4 planning questions with your team: https://docs.google.com/document/d/1ulQfKKEcXGVL5VZVITyimeE2d2Y40JnkMOGGLtVdCfo/edit?usp=sharing
+(a) Discuss these Project 5 planning questions with your team: https://docs.google.com/document/d/1ulQfKKEcXGVL5VZVITyimeE2d2Y40JnkMOGGLtVdCfo/edit?usp=sharing
 
 (b) Make sure you can complete [Raspberry Pi challenge #9](http://andnowforelectronics.com/notes/pi-challenges/)
 
