@@ -18,9 +18,10 @@ Brandon's office hours are:
 
 * Roughly 9 AM to 5 PM in Nolop, unless he's teaching class or in a meeting, or it's a weekend
 
-Zosia's LA office hours are at Nolop at these times:
+Zosia's LA office hours are:
 
-* TBD
+* Mondays 5-7pm, Nolop
+* Wednesdays 9-10:15am, Nolop
 
 
 ## Course description
@@ -63,7 +64,7 @@ Kristen Wendell, kristen.wendell@tufts.edu
 
 ## Course credit and time expectations
 
-ME 30 is a 4-SHU course with lab. The lab component will consist of a series of four independent projects. At Tufts, each SHU equates to 3 hours of student time per week. 4-SHU courses are expected to require an average of 12 student hours per week. Typically, these hours are divided into about 3 hours of class time and 9 hours of lab/homework/study time. For Fall 2023, you can expect to spend roughly 2.5 hours in class sessions, 1 hour in lab, 2 hours reading/viewing/studying, and the remaining 7 hours on project work each week.
+ME 30 is a 4-SHU course with lab. At Tufts, each SHU equates to 3 hours of student time per week. 4-SHU courses are expected to require an average of 12 student hours per week. Typically, these hours are divided into about 3 hours of class time and 9 hours of lab/homework/study time. For Fall 2023, you can expect to spend roughly 2.5 hours in class sessions, 1 hour in your scheduled lab, 2 hours reading/viewing/studying, and the remaining 7 hours on project work each week.
 
 ## Learning electronics when life is tough (what to do if you miss a class or due date) 
 
@@ -73,13 +74,11 @@ In ME 30 this semester, we hope to cultivate a supportive community of people wh
 
 ### Electronics kits
 
-Essentially, we'll give you a [bunch of stuff](http://andnowforelectronics.com/logistics/kit/) and ask for some payment in return (unless it is a hardship for you). You'll get to keep the "consumables" portion of the kit, and you'll return the re-usable hardware at the end of the semester so next year's students can use them. Please keep track of and take good care of your components and equipment. 
-
-This year the consumable kit cost is $43, payble via Venmo to @tuftsnolop. If the cost is a hardship, the department can help. Please read the section below about financial constraints.
+Essentially, we'll give you a [bunch of stuff](http://andnowforelectronics.com/logistics/kit/) and ask you to return it at the end of the semester. Each kit costs the ME department $160, so please keep track of and take good care of your components and equipment. 
 
 ### Printed circuit board fabrication
 
-For this course, we will order PCBs from [OSHPark](https://docs.oshpark.com/services/two-layer/) in Lake Oswego, Oregon. Each of you will place two, or possibly 3, PCB orders over the course of the semester.
+For this course, you will design and order printed circuit boards (PCBs) from [OSHPark](https://docs.oshpark.com/services/two-layer/) in Lake Oswego, Oregon. Each of you will place 2, or possibly 3, PCB orders over the course of the semester.
 
 Each of the 2 or 3 orders will cost around $10. (The price is actually $5 per square inch. If you can make your boards smaller, they will be cheaper, but most of the boards end up being around 2 square inches.) Shipping is free. 
 
@@ -102,9 +101,9 @@ If, for whatever reason, you cannot afford to pay for the stuff needed for this 
 ### In-class sessions
 
 Here's how class will work each Monday and Wednesday.
-1. You'll show up to class and bring your kit with you.
-2. For the first half of class, the instructors (Kristen and Brandon) will explain something about electronics. 
-3. For the second half of class, we will all build electronics. The LAs will help you and ask you questions to extend your learning, as will Kristen and Brandon.
+1. You'll show up to the classroom to which you are enrolled on SIS, and bring your kit with you.
+2. For the first half of the class session, one of the instructors (Kristen or Brandon) will explain something about electronics. There will be one instructor in each classroom.  They will swap classrooms every few weeks so that all students interact with both professors.
+3. For the second half of the class session, we will all build electronics. The LAs will help you and ask you questions to extend your learning, as will Kristen and Brandon.
 
 ### Asynchronous elements  
 * 	 **Video mini-lectures** - Created and posted by the instructors. Several on a set of new topics each week.  
@@ -124,7 +123,9 @@ Quizzes (3) - 0% of course grade
 
 ### Projects (100%)
 
-Each project will be worth 7 points, and then scaled by the number of weeks allocated to complete the project. (So a project 4 weeks in duration is worth twice as much as a project 2 weeks in duration.) For projects that have both *prototype* and *final* deadlines, 1 of the 7 points comes from submitting your project prototype on time for the *prototype deadline.* The remaining points (6 or 7, depending on whether there was a prototype deadline) are awarded if you have attempted all project requirements - and documented those attempts - by the *final project deadline.* For each day (or fraction thereof) a final project is late, you will lose 1 point (before scaling), so a project that is 1 week late is worth 0 points. To receive credit for a project, your project must also clearly make an attempt to meet each of the project requirements, which are published at the start of the project. For example, if a project requires fabrication of a PCB, and you don't make one, you lose credit, roughly in proportion to the fraction of the requirements unsatisfied. For group projects with N people per group, you should do roughly 1/N of the work.
+Each project will be worth 7 points, and then scaled by the number of weeks allocated to complete the project. (So a project 4 weeks in duration is worth twice as much as a project 2 weeks in duration.) For projects that have both *prototype* and *final* deadlines, 1 of the 7 points comes from submitting your project prototype on time for the *prototype deadline.* The remaining points (6 or 7, depending on whether there was a prototype deadline) are awarded if you have attempted all project requirements - and documented those attempts - by the *final project deadline.* For each day (or fraction thereof) a final project is late, you will lose 1 point (before scaling), so a project that is 1 week late is worth 0 points. 
+
+To receive credit for a project, your project must clearly make an attempt to meet each of the project requirements, which are published at the start of the project. For example, if a project requires fabrication of a PCB, and you don't make one, you lose credit, roughly in proportion to the fraction of the requirements unsatisfied. For group projects with N people per group, you should do roughly 1/N of the work.
 
 If you complete all the projects on time within the requirements, or at least 95% of that, you have earned an A for your project grade. If you hit around 85%, that's a B. You can calculate the details if you want, but the main message is that you should complete all the projects, and you should do them on time.
 
@@ -137,17 +138,23 @@ We have a *very* wide spectrum of experience in this class. Note that the projec
 |  2. |  Build a very basic motorized game, with a motor that spins in only one direction.   | 2/15 |
 |  3. |  Build an H-bridge motor controller to make a motor spin both ways.   | 2/15 |
 |  4. |  Build a more complex electromechanical game including microcontroller, moving mechanical element, and user input.    | 3/15 |
-|  5. |  Build a an internet-connected, electromechanical device that can traverse an obstacle.    | 2/15 |
-|  6. |  Coordinate with other electromechanical devices in an internet-connected system.     | 1/15 |
+|  5. |  Build a an internet-connected, electromechanical device that can traverse an obstacle.    | 2.5/15 |
+|  6. |  Coordinate with other electromechanical devices in an internet-connected system.     | 1.5/15 |
 
     
 ### Quizzes (0%)
 
-There will be three short quizzes, one after each of the Projects 1, 3, and 4. Each quiz will feature open-response questions aimed at checking your understanding of the big ideas of each project.
+Tentatively, we are planning on three short quizzes, one after each of the Projects 1, 3, and 4. Each quiz will feature open-response questions aimed at checking your understanding of the big ideas of each project.
 
 ## Honesty
 
 We take honesty very seriously. Not only are we required to report violations of academic integrity, we see it as an important part of our responsibility as teachers. We are all fortunate to be at Tufts; there is no excuse for squandering that opportunity by representing someone else's work as your own. If you're unsure about the details, read the [Tufts Academic Integrity Policy](https://students.tufts.edu/student-affairs/student-life-policies/academic-integrity-policy).
+
+### Use of generative AI tools like ChatGPT
+
+Generative AI tooks like ChatGPT, Google Bard, and GitHub Copilot will certainly response with abundant information if you query them with questions about electronics, Python code for microcontrollers and Raspberry Pis, and other topics related to this course. Our policy on their use is as follows:
+- We don't recommend their use on ME 30 project tasks. The efficiency or ease they may provide you will come at a cost of learning electronics. If an AI assistant provides you with code or tells how how to wire a circuit, you are sacrificing an opportunity to build your own understanding of the structure of the code or the functioning of the circuit.  
+- However, if you choose to use a generative AI tool on an ME 30 task, **and you provide attribution to that tool,** there will be no penalty to your grade in ME 30. **If you use generative AI without documenting that you've done so, we will consider that action a violation of academic integrity.**
 
 ## Sharing
 
