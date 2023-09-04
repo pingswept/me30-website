@@ -23,8 +23,8 @@ draft: false
     a.	  Build a prototype and PCB of a breadboard power supply that accepts power from a 12 V wall supply and emits 12 V, 5 V, and 3.3 V at the same time.
     b.	  Build a prototype and PCB of an H-bridge motor controller to make a motor spin both ways.
     c.	  Build an electromechanical game including microcontroller, moving mechanical element, and user input.
-    d.	  Build a node including both sensor(s) and actuator(s) in an internet-connected, electronic system.
-    e.	  Combine an internet-connected, electronic system with a moving mechanical element.
+    d.	  Build a an internet-connected, electromechanical device that can traverse an obstacle.
+    e.	  Coordinate with other electromechanical devices in an internet-connected system.
 2.	Distinguish between voltage and current and apply working definitions of voltage and current to explain energy transfer in simple circuits. 
 3.	Describe the relationships among voltage, current, resistance, and power. 
 4.	Gain proficiency with breadboard prototyping.
@@ -45,19 +45,4 @@ draft: false
 19.	Gain exposure to managing a bill of materials, supply chain, and verification vs validation.
 20.	Build engineering ethics fluency by exploring the impact of internet-connected electronic technologies on various stakeholders, including in environmental and societal contexts.
 21.	Define discriminatory design, explain a case where it has occurred, and identify an approach to avoid it.
-
-**Feather RP2040 prep**  
-
-(1) If you are a complete newcomer to microcontrollers, consider attending one of the special office hour tutorials in which we will walk you through the steps outlined below. Schedule for those tutorials are TBD.
-
-(2) Skim the ME 30 website notes [on microcontrollers](http://andnowforelectronics.com/notes/microcontrollers/), the [Feather RP2040](http://andnowforelectronics.com/notes/feather-rp2040-hardware/), and [Feather programming](http://andnowforelectronics.com/notes/feather-programming/). (You'll want to read them in more depth later on; for now, just get a sense for what's there.)  
-
-(3) Download the Mu editor from Adafruit's website and install the Mu editor on your laptop. https://learn.adafruit.com/welcome-to-circuitpython/installing-mu-editor 
-
-(4) Follow the directions for installing Circuit Python on your Feather RP2040. https://learn.adafruit.com/welcome-to-circuitpython/installing-circuitpython
-
-(5) Complete the following initial Feather programming task:
-
-Make your Feather blink its onboard LED once per second. You can find code and instructions in the "Creating Code" section of Adafruit's Circuit Python tutorial website [here](https://learn.adafruit.com/welcome-to-circuitpython/creating-and-editing-code).  
-
 
