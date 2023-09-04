@@ -17,13 +17,13 @@ The good news is that you get to pick. As I have repeatedly told my 7-year-old d
 
 I use the he/him/his pronoun series.
 
-**Kristen:** I similarly understand that the way we act - including what tone of voice we use - is just as important for conveying respect and professionalism as are the words that we use. Technically, Tufts has given me, like Brandon, the title "Professor." If you're more comfortable with formal titles, you can go with "Professor Wendell." It's also completely okay with me if you call me "Kristen."
+**Kristen:** I'm equally comfortable with students calling me "Kristen" or "Professor Wendell." Technically, Tufts has given me the title "Associate Professor." I do have a doctorate so you could call me "Dr. Wendell," but I don't request that because I'm accustomed to saving the title "doctor" for physicians. 
 
 I use the she/her/hers pronoun series.
 
 ### Students
 
-Our practice is to refer to students by their first names. If you'd prefer us to address you differently, please let us know. In addition to working to learn, and frequently use, all of your names, we'll also work to learn your preferred pronouns, if you've posted them to SIS. If we get it wrong, we're very open to your correction - we hope you will let us know!
+Our practice is to refer to students by their first names. If you'd prefer us to address you differently, please let us know. In addition to working to learn, and frequently use, all of your names, we'll also work to learn your preferred pronouns, if you've posted them to SIS or written them on your ME 30 box. If we get it wrong, we're very open to your correction - we hope you will let us know!
 
 ## Does this really matter?
 
