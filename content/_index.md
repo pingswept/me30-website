@@ -14,10 +14,10 @@ You're going to love it.
 
 {{< columns >}}
 ![Kristen Wendell](/img/kristen-wendell.jpg)
-Kristen Wendell
+Kristen Wendell (she/her)
 <--->
 ![Brandon Stafford](/img/brandon-stafford.jpg)
-Brandon Stafford
+Brandon Stafford (he/him)
 <--->
 {{< /columns >}}
 
@@ -25,25 +25,25 @@ Brandon Stafford
 
 {{< columns >}}
 ![Antonio Alphonse](/img/Antonio.jpg)
-Antonio Alphonse
+Antonio Alphonse 
 <--->
 ![Julia Divan](/img/Julia.jpg)
 Julia Divan
 <--->
 ![Suely Garcia Acosta](/img/Suely.jpg)
-Suely Garcia Acosta
+Suely Garcia Acosta (she/her) 
 <--->
 ![Rose Kitz](/img/Rose.jpg)
-Rose Kitz
+Rose Kitz (she/her)
 <--->
 ![Gabe Moussa](/img/Gabe.jpg)
 Gabe Moussa
 <--->
 ![Theresa Nguyen](/img/Theresa.jpg)
-Theresa Nguyen
+Theresa Nguyen (she/her)
 <--->
 ![Anna Quiros](/img/Anna.jpg)
-Anna Quiros
+Anna Quiros (she/her)
 <--->
 ![Alexa Watson](/img/Alexa.jpg)
 Alexa Watson
