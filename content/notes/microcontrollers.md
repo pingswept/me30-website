@@ -1,6 +1,6 @@
 ---
 title: "Microcontrollers"
-draft: false
+draft: true
 ---
 
 ## Microcontroller vs. microprocessor
