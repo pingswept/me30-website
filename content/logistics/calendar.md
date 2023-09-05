@@ -57,11 +57,6 @@ draft: false
 |  (16)  | 12/18 |   (ME 30 finals block)        |       |             |[P6 showcase, Dec. 18, 3:30-5:30pm](http://andnowforelectronics.com/logistics/projects)|
 
 
-## Lab Calendar
-
-| Lab # | Lab dates  | Lab focus  | 
-|:----:|:--------:|----------------------|
-| 1 | 9/13-9/19 | xyz |
 
 
 
