@@ -39,6 +39,12 @@ One part is obvious: the pin in the middle is connected to pin 1.
 But what is that little arrow/bump thing with pins 2 and 3?
 
 That's trying to tell you that when the jack is empty (i.e. no plug inserted), pins 2 and 3 are connected together. When you insert the plug, the barrel pushes on the bump at the end of the pin 2 contact, which bends it away from the pin 3 arrow, breaking the connection to pin 3. It's so that you can detect whether there's a plug inserted or not, which can be useful for battery-powered systems. You don't need to implement that feature on your regulator board; you can just use pins 1 and 2.
+
+In the cross-section view of a barrel plug inserted into the jack, you can see how the outer sheath of the plug makes contact with pin 2 and also how the plug breaks the continuity between pin 3 and pin 2.  
+
+![barrel jack cross section](/img/BarrelJackMultipleViews.jpg)
+
+Image credit: E. Schlaepfer and W. Oskay, 2023, Open Circuits, opencircuitsbook.com
 {{< /hint >}}
 
 *For an extension to this exercise, re-arrange your circuit so you have one LED that stays on permanently and another that is powered by the button.*
