@@ -9,6 +9,7 @@ draft: false
 
 * [DC power (barrel) jack, 2.1 mm x 5.5 mm](/pdf/power-jack-PJ102AH.pdf)
 * [Screw terminal, 5mm pitch](https://www.digikey.com/en/products/detail/cui-devices/TB001-500-02BE/10064058)
+* [Pushbutton tactile switch, 6mm x 6mm](https://www.cuidevices.com/product/resource/ts02.pdf)
 
 ## Capacitors
 
