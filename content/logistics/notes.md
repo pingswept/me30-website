@@ -213,9 +213,9 @@ Nametags and introductions: Instructors and LA's
 
 How class works: short lectures, then build; collaborative community where those with less experience can learn from those with more experience, AND vice versa
 
-Office hours
+Labs
 
-Join [the ME 30 Slack channel](https://tufts-me30.slack.com/)
+Office hours
 
 Failure is success. But aim high and try hard!
 
