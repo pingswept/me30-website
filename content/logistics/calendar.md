@@ -3,9 +3,9 @@ title: "Calendar"
 draft: false
 ---
 
-2023
+# 2023 Class Calendar
 
-Phase 1
+## Phase 1
 
 | Week | Date  | Class topics  | Hands-on  | What to study | What's due before class  |
 |:----:|:-----:|--------------------------------------------|-------------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------|
@@ -17,7 +17,7 @@ Phase 1
 |   4  | 9/25  | PCB design  | KiCad Q & A    | [PCB design](http://andnowforelectronics.com/notes/pcb/); Kicad resources    |  |
 
 
-Phase 2 - Instructors Swap Classrooms
+## Phase 2 - Instructors Swap Classrooms
 
 | Week | Date  | Class topics  | Hands-on  | What to study | What's due  |
 |:----:|:-----:|--------------------------------------------|-------------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------|
@@ -31,7 +31,7 @@ Phase 2 - Instructors Swap Classrooms
 |  8  | 10/23  | Motor power, debugging strategies  |   Motor measurement; H-bridge debugging   |     |[P3 proto](http://andnowforelectronics.com/logistics/projects/#project-2-build-an-h-bridge-motor-controller)|
 
 
-Phase 3 - Instructors Swap Classrooms
+## Phase 3 - Instructors Swap Classrooms
 
 | Week | Date  | Class topics  | Hands-on  | What to study | What's due  |
 |:----:|:-----:|--------------------------------------------|-------------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------|
@@ -42,7 +42,7 @@ Phase 3 - Instructors Swap Classrooms
 |     | 11/8  | Discriminatory design   |         |       |    |
 |  11   | 11/13  | P4 reflection   |  P4 (game v2) demo day   |    | P4 (game v2) |
 
-Phase 4 - Instructors Swap Classrooms
+## Phase 4 - Instructors Swap Classrooms
 
 | Week | Date  | Class topics  | Hands-on  | What to study | What's due  |
 |:----:|:-----:|--------------------------------------------|-------------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------|
@@ -55,6 +55,16 @@ Phase 4 - Instructors Swap Classrooms
 |     | 12/6  | P5 reflection  |   P5 demo day  |          |   [P5](http://andnowforelectronics.com/logistics/projects)       |
 |  15    | 12/11  | P6 intro, Jobs talk  |  P6 Q & A   |                                           |         |
 |  (16)  | 12/18 |   (ME 30 finals block)        |       |             |[P6 showcase, Dec. 18, 3:30-5:30pm](http://andnowforelectronics.com/logistics/projects)|
+
+
+# Lab Calendar
+
+| Lab # | Lab dates  | Lab focus  | 
+|:----:|:--------:|----------------------|
+| 1 | 9/13-9/19 | xyz |
+
+
+
 
 
 
