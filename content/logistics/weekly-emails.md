@@ -10,7 +10,11 @@ draft: false
 
 ## Week 1: Tuesday, 9/5/23
 
-We’ll send an organizational email to the ME 30 class every Sunday evening. But this first week, we're doing it on Tuesday.
+We are excited to start ME 30 with you! Welcome to the course. We’ll send an organizational email to the ME 30 class every Sunday evening. But this first week, we're doing it on Tuesday.
+
+**Course Sections**
+
+Please attend class in the location designated for your section. Each room will be full to capacity with students plus learning assistants. If you attend the section for which you are not enrolled, someone else won't have a seat. Rest assured, Brandon and Kristen will be swapping classrooms over the course of the semester, so all students will be interacting with both course faculty.
 
 **Course website:**
 
