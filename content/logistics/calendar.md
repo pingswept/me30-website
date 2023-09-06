@@ -58,6 +58,21 @@ draft: false
 
 
 
+## Lab Calendar
+
+| Lab # | Lab dates  | Lab focus  | 
+|:----:|:----------:|----------------------|
+| 1 | 9/13-9/19 | Voltage regulator circuits |
+| 2 | 9/20-9/26 | Learn KiCad, and solder your KB2040 pins |
+| 3 | 9/27-10/3 | Control a motor with transistors, and solder your KB2040 pins |
+| 4 | 10/11-10/15 | KB2040 challenges |
+| 5 | 10/18-10/24 | Soldering demo and H-bridges |
+| 6 | 10/25-10/31 | H-bridges |
+| 7 | 11/1-11/7 | More KB2040 challenges |
+| 8 | 11/8-11/14 | Complex motorized games |
+| 9 | 11/15-11/21 | Raspberry Pi setup & challenges |
+| 10 | 11/29-12/3 | Project 5 robots |
+
 
 
 
