@@ -146,6 +146,8 @@ We have a *very* wide spectrum of experience in this class. Note that the projec
 |  5. |  Build a an internet-connected, electromechanical device that can traverse an obstacle.    | 2.5/15 |
 |  6. |  Coordinate with other electromechanical devices in an internet-connected system.     | 1.5/15 |
 
+![semester timeline](/img/SemesterTimeline.jpg)
+
     
 ### Quizzes (0%)
 
