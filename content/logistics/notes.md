@@ -164,11 +164,13 @@ Big picture view of Project 1
 Q & A about Project 1 breadboard prototypes
 
 
-## Class 3: Build a voltage regulator circuit
+## Classes 2 and 3: Build a voltage regulator circuit
 
 ### Intro stuff
 
-LA office hours
+Introduce Project 0: motor hubs - Sunday labs have theirs due Sunday
+
+Office hours
 
 Notice that we are offering a few different modes of learning. Check which one works for you and go deep on that.
 
@@ -179,9 +181,12 @@ Series vs. Parallel
 
 Resistance increases in series and decreases in parallel
 
+Is more current being drawn through circuit when the LEDs are in series or in parallel?
+
 ### Frame Project 1
 We’ve “powered” on LED with 12V from wall, “controlled” with push button.
-By end of semester, you’re going to want to control outputs with portable microcontroller, which handles only 5 V.
+
+But throughout semester, you’re going to want to control outputs with portable microcontroller, which handles only 5 V.
 
 So how do we get 5 V from power supply instead of 12?
 
@@ -191,7 +196,7 @@ Voltage divider exercises (first two)
 
 Uncover the issue with voltage dividers / need for voltage regulation (see if calculated voltage matches measured voltage.)
 
-Attaching load causes sag in voltage from current pull - not the same as voltage regulators
+Attaching a load causes sag in voltage from current pull. Voltage dividers are not the same as voltage regulators
 
 ### Project 1: Voltage regulation
 
@@ -203,7 +208,7 @@ There are at least two possible topologies: cascade the 3.3 V regulator off the 
 
 
 
-## Classes 1 and 2: Intro and build an LED circuit
+## Class 1: Intro and build an LED circuit
 
 ### Introductions
 
