@@ -4,7 +4,7 @@ draft: false
 ---
 # In-class exercises for Fall 2023
 
-## 1: Power an LED with "wall" power (Sep. 6 & 11)
+## 1: Power an LED with "wall" power (Sep. 6)
 
 This is a warm-up activity to power an LED with "wall" power through our DC power supply and control it with a push button. 
 
@@ -50,13 +50,13 @@ Image credit: E. Schlaepfer and W. Oskay, 2023, Open Circuits, opencircuitsbook.
 *For an extension to this exercise, re-arrange your circuit so you have one LED that stays on permanently and another that is powered by the button.*
 
 
-## 2. Build voltage dividers (Sep. 13)
+## 2. Build voltage dividers (Sep. 11)
 
 ![Voltage dividers](/img/voltage-dividers-2022.png)
 
 
 
-## 3: Build a voltage regulation circuit (Sep. 13 & 15)
+## 3: Build a voltage regulation circuit (Sep. 11-15)
 
 This is an introductory exercise designed to help you get familiar with breadboard prototyping while also building a basic circuit that will be useful for later exercises and projects. It forms the basis for Project #1, but you don't need to think about that yet. If this is all new to you, look at the pages on [breadboard prototyping](/notes/prototyping/) and [multimeters](/notes/multimeters/).
 
