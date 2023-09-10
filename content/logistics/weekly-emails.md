@@ -8,15 +8,15 @@ draft: false
 
 ## Week 2: Sunday, 9/10/23
 
-Thanks for a great first day of class last Wednesday. We appreciate how everyone jumped right into circuit-building and how willing you were to lend a hand to classmates once you figured out your own circuit. That spirit of collective learning will take us far this semester.
+Thanks for a great first day of class last Wednesday. We appreciate how willing you were to lend a hand to classmates once you figured out your own circuit. That spirit of collective learning will take us far this semester.
 
 **Course housekeeping:**
 - Remember to **bring your purple box to every class and lab session.**
-- The [Calendar](http://andnowforelectronics.com/logistics/calendar/) page of the course website lets you know what we're doing in class each day and what to study and do every week.
-- Labs begin this week in Nolop on Wednesday, Sep. 13. Labs on 1 hour. You can find your lab day/time on SIS.
+- Check the [Calendar](http://andnowforelectronics.com/logistics/calendar/) page of the course website to see what we're doing in class each day and what to study and do every week.
+- Labs begin this week in Nolop on Wednesday, Sep. 13. Labs are 1 hour. You can find your lab day/time on SIS.
 
 **Things due in Week 2:**
-- "Introductory post" on Canvas: Upload a very brief video introducing yourself and showing us your LED-pushbutton circuit.
+- "Introductory post" on [Canvas](https://canvas.tufts.edu/courses/48775/assignments/356141): By Wed., Sep. 13, upload a very brief video introducing yourself and showing us your LED-pushbutton circuit.
 
 **Learning goals for Week 2:**
 - Describe the different between a voltage *divider* circuit and a voltage *regulator* circuit.
@@ -24,8 +24,9 @@ Thanks for a great first day of class last Wednesday. We appreciate how everyone
 - Measure voltage, current, resistance, and continuity with a multimeter.
 
 **Resources for your learning for Week 2:**
+
 For Week 2, these are the resources we’re suggesting:
-- Website notes on concepts: Voltage regulation, [Series vs. parallel](http://andnowforelectronics.com/notes/series-vs-parallel/), [Capacitors*](http://andnowforelectronics.com/notes/capacitors/)
+- Website notes on concepts: [Voltage regulation](http://andnowforelectronics.com/notes/voltage-regulation/), [Series vs. parallel](http://andnowforelectronics.com/notes/series-vs-parallel/), [Capacitors*](http://andnowforelectronics.com/notes/capacitors/)
 - Website notes on skills: [Demo video of building a voltage regulator](http://andnowforelectronics.com/notes/demo-videos/#building-a-breadboard-prototype)
 - Electric current and Voltage sections (2.2 and 2.3) of Scherz & Monk textbook (which is optional, and available [here](https://tufts-primo.hosted.exlibrisgroup.com/permalink/f/k87dab/TN_cdi_safari_books_9781259587559) from Tisch Library online)
 - Office hours with instructors or LAs
