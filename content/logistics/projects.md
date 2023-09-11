@@ -103,3 +103,5 @@ Take a photo of your motor hub attachment. Place it on the class histogram in th
 https://docs.google.com/spreadsheets/d/1Y_V_8rgQhnSgg5z3wRCmGc2mLD-aFtRIoKs-uJ67k6A/edit?usp=sharing
 {{< /expand >}}
 
+![](/img/motor-hub-examples.png)
+
