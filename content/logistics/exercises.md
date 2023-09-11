@@ -54,7 +54,9 @@ Image credit: E. Schlaepfer and W. Oskay, 2023, Open Circuits, opencircuitsbook.
 
 We've used resistors to limit *current* flow through an LED.  
 
-Let's see how we can also use them to reduce a *voltage* so we can supply a specific lower voltage to a device. 
+Let's see how we can also use them to reduce a *voltage* so we can supply a specific lower voltage to a device. For example, we might be using a 12 V power supply but want to supply only 5 V to an Arduino or other microcontroller. 
+
+Read more [here](http://andnowforelectronics.com/notes/resistors/#typical-application-current-limiter) about using resistors as current limiters and voltage dividers.
 
 For each of the set-ups below, provide 12 V as V_in, and predict the output voltage V_out. 
 
@@ -62,7 +64,6 @@ After you've written down your predictions for V_out, build the circuits and use
 
 ![Voltage dividers](/img/voltage-dividers-2022.png)
 
-Read more [here](http://andnowforelectronics.com/notes/resistors/#typical-application-current-limiter) about using resistors as current limiters and voltage dividers.
 
 ## 3: Build a voltage regulation circuit (Sep. 11-15)
 
