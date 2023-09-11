@@ -52,9 +52,17 @@ Image credit: E. Schlaepfer and W. Oskay, 2023, Open Circuits, opencircuitsbook.
 
 ## 2. Build voltage dividers (Sep. 11)
 
+We've used resistors to limit *current* flow through an LED.  
+
+Let's see how we can also use them to reduce a *voltage* so we can supply a specific lower voltage to a device. 
+
+For each of the set-ups below, provide 12 V as V_in, and predict the output voltage V_out. 
+
+After you've written down your predictions for V_out, build the circuits and use your multimeter to measure V_out. If your predictions were off, try to figure out why
+
 ![Voltage dividers](/img/voltage-dividers-2022.png)
 
-
+Read more [here](http://andnowforelectronics.com/notes/resistors/#typical-application-current-limiter) about using resistors as current limiters and voltage dividers.
 
 ## 3: Build a voltage regulation circuit (Sep. 11-15)
 
