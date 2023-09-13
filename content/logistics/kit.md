@@ -30,7 +30,7 @@ Each student in the course will receive a kit of project supplies. The contents 
 | barrel jack                              | CUI Devices             | PJ-102AH             | Digikey         | CP-102AH-ND     | 1              |
 | 5 V voltage regulator                    | STMicroelectronics      | L7805CV              | Digikey         | 497-1443-5-ND   | 1              |
 | 3.3 V voltage regulator                  | STMicroelectronics      | LD1117V33            | Digikey         | 497-1491-5-ND   | 1              |
-| electrolytic capacitor, 10 uF            | Kemet                   | ESK106M016AC3AA      | Digikey         | 399-6597-ND     | 2              |
+| electrolytic capacitor, 10 uF            | Kemet                   | ESK106M016AC3AA      | Digikey         | 399-6597-ND     | 3              |
 | screw terminals, 5mm pitch               | Wurth Elektronik        | 691137710002         | Digikey         | 732-10955-ND    | 1              |
 |                                          |                         |                      |                 |                 |                |
 | N-channel MOSFET                         | International Rectifier | IRLB8721PBF          | Digikey         | IRLB8721PBF-ND  | 2              |
