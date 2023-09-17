@@ -5,6 +5,26 @@ draft: false
 ## Weekly Update Emails
 
 - - -
+## Week 3: Sunday, 9/17/23
+
+**Course housekeeping:**
+- You’ll need [KiCad software](https://www.kicad.org/download/) installed on your computer to complete Project 1. It's free. We recommend having it installed by class time on Wednesday, 9/20. If you’re having trouble installing it, please reach out to an LA or instructor.
+
+**Things due in Week 3:**
+- Due Wed., 9/20, as photo upload to Canvas: Prototype Circuit for Project 1 (Voltage Regulator/Breadboard Power Supply)
+- Thursday lab group, your [Project 0](http://andnowforelectronics.com/logistics/projects/#project-0) motor hubs are due at lab time on 9/21 
+
+**Learning goals for Week 3:**
+- Deepening your understanding of voltage, current, resistance, and power, as they relate to your Project 1 Breadboard Power Supply circuit (featuring voltage regulators)
+- How to take a breadboard prototype and turn it into a PCB design using KiCad software
+
+**Resources for your learning for Week 3:**
+For Week 3, these are the resources we’re suggesting, in order of priority:
+- [Project 1 description](http://andnowforelectronics.com/logistics/projects/)
+- Website notes on: [Voltage regulation](http://andnowforelectronics.com/notes/voltage-regulation/), [PCB design](http://andnowforelectronics.com/notes/pcb/)
+- Website [KiCad demo videos](http://andnowforelectronics.com/notes/demo-videos/#kicad-for-project-1)
+- PCB design section of Scherz & Monk textbook (available here from [Tisch Library online](https://tufts-primo.hosted.exlibrisgroup.com/permalink/f/k87dab/TN_cdi_safari_books_9781259587559))
+
 
 ## Week 2: Sunday, 9/10/23
 
