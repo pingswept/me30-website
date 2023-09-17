@@ -11,12 +11,12 @@ draft: false
 - You’ll need [KiCad software](https://www.kicad.org/download/) installed on your computer to complete Project 1. It's free. We recommend having it installed by class time on Wednesday, 9/20. If you’re having trouble installing it, please reach out to an LA or instructor.
 
 **Things due in Week 3:**
-- Due Wed., 9/20, as photo upload to Canvas: Prototype Circuit for Project 1 (Voltage Regulator/Breadboard Power Supply)
+- Due Wed., 9/20, as photo upload to Canvas: Prototype Circuit for [Project 1](http://andnowforelectronics.com/logistics/projects/#project-1) (Voltage Regulator/Breadboard Power Supply)
 - Thursday lab group, your [Project 0](http://andnowforelectronics.com/logistics/projects/#project-0) motor hubs are due at lab time on 9/21 
 
 **Learning goals for Week 3:**
-- Deepening your understanding of voltage, current, resistance, and power, as they relate to your Project 1 Breadboard Power Supply circuit (featuring voltage regulators)
-- How to take a breadboard prototype and turn it into a PCB design using KiCad software
+- Deepen your understanding of voltage, current, resistance, and power, as they relate to your Project 1 Breadboard Power Supply circuit (featuring voltage regulators)
+- Take a breadboard prototype and turn it into a PCB design using KiCad software
 
 **Resources for your learning for Week 3:**
 For Week 3, these are the resources we’re suggesting, in order of priority:
