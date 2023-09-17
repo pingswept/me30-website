@@ -1,6 +1,6 @@
 ---
 title: "PCB design/Kicad"
-draft: true
+draft: false
 ---
 
 ## What is a PCB?
