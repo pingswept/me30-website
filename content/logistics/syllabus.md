@@ -20,7 +20,7 @@ Brandon's office hours are:
 
 Zosia's LA office hours are:
 
-* Mondays 5-7pm, Nolop
+* Mondays 5-7pm, temporarily on Zoom for 9/18
 * Wednesdays 9-10:15am, Nolop
 
 
