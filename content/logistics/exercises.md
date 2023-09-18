@@ -99,16 +99,16 @@ For the circuit below, analyze the following first for when the switch is open, 
 ## 6: Safety checks (Sep. 18)
 
 If you feel a circuit component getting hot or starting to smoke, what should you do first?
-(a) call over an LA
-(b) take the component out of the breadboard
-(c) unplug the power supply (e.g., barrel jack) from the breadboard
-(d) use your multimeter to measure the voltage across the component
+a. call over an LA
+b. take the component out of the breadboard
+c. unplug the power supply (e.g., barrel jack) from the breadboard
+d. use your multimeter to measure the voltage across the component
 
 
 What is a possible result if your multimeter dial is turned to the “mA” symbol and you put your multimeter probes between a high and low voltage location on a circuit? 
-(a) you’ll get zero current reading on your multimeter and prevent your circuit from working
-(b) you’ll let too much current go through your multimeter and blow its fuse
-(c) you’ll hear a beeping sound warning you that you should use the “A” symbol and port
+a. you’ll get zero current reading on your multimeter and prevent your circuit from working
+b. you’ll let too much current go through your multimeter and blow its fuse
+c. you’ll hear a beeping sound warning you that you should use the “A” symbol and port
 
 ## KiCad practice (Sep. 25)
 
@@ -140,7 +140,7 @@ Shared doc for posting your work and questions:
 https://docs.google.com/document/d/1ONtsG_-AVNehNyhWbaVRlC9eLj0BGLUVzQcgiZofu24/edit?usp=sharing
 
 
-## 5. Control a motor with a BJT (Sep. 27)
+## 7. Control a motor with a BJT (Sep. 27)
 
 Making a motor spin is pretty simple: apply sufficient voltage across its leads. When we want to control things like motors (or LEDs, buzzers, etc.) electronically, instead of plugging them in to breadboards with our hands, we use transistors. The goal of this exercise is to use a bipolar junction transistor, the 2N3904, to turn on and off a motor.
 
@@ -156,7 +156,7 @@ The picture below shows the concept of what you're building. In place of the 24 
 ![Typical BJT circuit](/img/typical-bjt-circuit.png)
 
 
-## 6. Determine pin voltages and ideal resistor value for a BJT circuit (Sep. 27 or Oct. 2)
+## 8. Determine pin voltages and ideal resistor value for a BJT circuit (Sep. 27 or Oct. 2)
 
 1. Fill in the table below to indicate the voltage at E, B, and C when the input is (a) at ground and (b) at 3.3 V.
 2. What is an ideal value for the current-limiting resistor?
@@ -168,7 +168,7 @@ The picture below shows the concept of what you're building. In place of the 24 
 |  Input at 3.3 V   |    |   |     |
 
 
-## 7. Control a motor with a MOSFET (Oct. 2)
+## 9. Control a motor with a MOSFET (Oct. 2)
 
 You've used a bipolar junction transistor to control a motor. Now try using the other main class of transistor: a metal oxide semiconductor field effect transistor, or MOSFET.  The main difference between the [two types of transistors](http://andnowforelectronics.com/notes/low-power-high-power/) is that BJTs are current-controlled, and MOSFETs are voltage-controlled.
 
@@ -183,14 +183,14 @@ You need 5 things:
 ![MOSFET circuit](/img/mosfet-controller.jpg)
 
 
-## 8. KB2040 microcontroller challenges (Oct. 4 and 11)
+## 10. KB2040 microcontroller challenges (Oct. 4 and 11)
 
 Learn to program your KB2040 board by working through these 10 challenges. You'll want to consult the [KB2040 programming](http://andnowforelectronics.com/notes/feather-programming/) resources.
 
 http://andnowforelectronics.com/notes/KB2040-challenges/
 
 
-## 9. Recognizing common errors in KB2040 Challenge #7 
+## 11. Recognizing common errors in KB2040 Challenge #7 
 
 Challenge #7 asks you to control a motor's on/off state with a KB2040 output pin. Below are two approaches to setting up the circuitry. Each has problems that will prevent it from working correctly. What do you think those problems are?
 
@@ -215,7 +215,7 @@ Challenge #7 asks you to control a motor's on/off state with a KB2040 output pin
 
 {{< /expand >}}
 
-## 10. H-bridge circuit analysis, part 1 
+## 12. H-bridge circuit analysis, part 1 
 
 You've just wired up the top left corner of an H-bridge circuit using a P-channel MOSFET. You connect the other motor lead to ground so that you can test this corner before wiring up the transistors at any other corners.  If this corner is wired correctly, what should happen to the motor when the MOSFET gate is connected:
 
@@ -236,7 +236,7 @@ Sketch the current path for each of those base states.
 ![add BJT to corner of an H-bridge](/img/Hbridge-corner-BJT.jpg)
 
 
-## 11. H-bridge circuit analysis, part 2 
+## 13. H-bridge circuit analysis, part 2 
 
 Please click the link below to view and analyze a full H-bridge circuit, with BJT controllers for the P-channel MOSFETs. This analysis will help you know what to expect and how to test your own full H-bridge prototype.
 
@@ -269,7 +269,7 @@ The top corners (1 and 4) need to both be set to ground to block current flow to
 **Don't do this -  it will short the circuit!!** In this H-bridge, setting a corner input to 3.3 V turns that corner's MOSFET "on," allowing current to across the source-drain pathway. If all 4 MOSFETs are allowing current to flow, then this circuit's easiest path to ground will be down the two sides of the "H."  No current will flow through the highly resistive motor. The motor will not spin, and the rest of the circuit will get very hot.
 {{< /expand >}}
 
-## 12a. Measure a DC gearmotor (Power In) 
+## 14a. Measure a DC gearmotor (Power In) 
 
 Here are a few basic measurements you can make to understand your DC gearmotor better. The overall goal is to determine the efficiency of the motor by comparing the electrical power that goes into it ("power in") with the mechanical power it delivers ("power out"). 
 
@@ -284,7 +284,7 @@ When you know the current and the voltage, you can multiply them to find the ele
 
 If you can estimate how much power a task will require, you can start to figure out what voltage this motor would need to deliver that power (assuming perfect efficiency, for now). That's the first step toward deciding whether this is the right motor for whatever you're building.
 
-## 12b. Measure a DC gearmotor (Power Out) 
+## 14b. Measure a DC gearmotor (Power Out) 
 
 The next step is to determine how much mechanical power the motor actually delivers ("power out"). One way to do this is to measure the time it takes to perform a certain amount of work (i.e., to add energy to a system).
 
@@ -295,7 +295,7 @@ The next step is to determine how much mechanical power the motor actually deliv
 Post your group's results here: https://docs.google.com/spreadsheets/d/1hPOLsmSsdGBHga9NMayhIXqW0E7COHThiejLpnPMqj8/edit?usp=sharing
 
 
-## 13. Test the current limit of your P1 PCB 
+## 15. Test the current limit of your P1 PCB 
 
 The voltage regulators on your P1 PCB are specified (on their data sheets) to be able to handle current at the level of 1.5 A (the 5V regulator) and 0.8 A (the 3.3 V regulator). But the question is - **once soldered into your P1 PCB, can they still perform up to their specified max current limit?**  
 
@@ -315,7 +315,7 @@ https://docs.google.com/document/d/1atNNbe8rjqZZtX7Foj0LWxPWZwktrCwlViqzWgFVHoU/
 
 
 
-## 14. How to code your microcontroller to constantly check an input while also running actuators 
+## 16. How to code your microcontroller to constantly check an input while also running actuators 
 
 Suppose you want to check for the state of inputs while also running motors, lights, and other actuators. In particular, you want to flash an LED, constantly check for a button press that sets an input pin HIGH, and flash a different LED when the button is pressed.
 
@@ -399,7 +399,7 @@ while True:
 </pre>
 {{< /expand >}}
 
-## 14. Games Project Reflection 
+## 17. Games Project Reflection 
 
 Whole-class anonymous poll (responses viewable anonymously by the class): https://pollev.com/me30
 
@@ -407,18 +407,18 @@ Your responses: https://tufts.box.com/s/x9fatn1zsfspyp1mi7k9o7qa1rb84o8m
 
 Individual reflection (responses seen only by instructors): https://tufts.qualtrics.com/jfe/form/SV_82I3784cDRJPzX8
 
-## 15. Raspberry Pi setup 
+## 18. Raspberry Pi setup 
 
 Follow the video and text directions here: http://andnowforelectronics.com/notes/pi-setup/
 
-## 16. Project 5 planning and Raspberry Pi Flask set-up 
+## 19. Project 5 planning and Raspberry Pi Flask set-up 
 
 (a) Discuss these Project 5 planning questions with your team: https://docs.google.com/document/d/1ulQfKKEcXGVL5VZVITyimeE2d2Y40JnkMOGGLtVdCfo/edit?usp=sharing
 
 (b) Make sure you can complete [Raspberry Pi challenge #9](http://andnowforelectronics.com/notes/pi-challenges/)
 
 
-## 17. Problem-solving reflection 
+## 20. Problem-solving reflection 
 
 We'll use this document: https://docs.google.com/document/d/1O_xfcv7e3ha_4H89LtY6i9dom4rK-cdWGM7mMMHbSyc/edit?usp=sharing
 
