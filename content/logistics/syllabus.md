@@ -20,7 +20,7 @@ Brandon's office hours are:
 
 Zosia's LA office hours are:
 
-* Mondays 5-7pm, temporarily on Zoom for 9/18
+* Mondays 5-7pm, temporarily on Zoom for 9/18: https://tufts.zoom.us/my/zstafford
 * Wednesdays 9-10:15am, Nolop
 
 
