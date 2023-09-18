@@ -65,7 +65,7 @@ After you've written down your predictions for V_out, build the circuits and use
 ![Voltage dividers](/img/voltage-dividers-2022.png)
 
 
-## 3: Build a voltage regulation circuit (Sep. 11-15)
+## 3: Build a voltage regulation circuit (Sep. 11)
 
 This is an introductory exercise designed to help you get familiar with breadboard prototyping while also building a basic circuit that will be useful for later exercises and projects. It forms the basis for Project #1, but you don't need to think about that yet. If this is all new to you, look at the pages on [breadboard prototyping](/notes/prototyping/) and [multimeters](/notes/multimeters/).
 
@@ -78,7 +78,25 @@ The 4 components are:
 3. Two capacitors
 
 
-## 4. Motor power supply PCB with indicator LED (Sep. 25)
+## 4: Matching schematics to breadboards (Sep. 18)
+
+Which of these breadboards has the same circuit as the one represented in the schematic?
+
+![Schematic and breadboards](/img/Breadboard_schematic_matching.jpg)
+
+## 5: Review of voltage and current (Sep. 18)
+
+For the circuit below, analyze the following first for when the switch is open, and then for when the switch is closed:
+1. Find sets of labeled points on the circuit where the **current** is the **same**.
+2. Identify any points on the circuit where **no** current is flowing.
+3. List the points in order from **highest current flow to least current flow**.
+4. Find sets of points where the **voltage** is the **same**.
+5. At what points should the voltage be near 0 V (e.g., ground)?
+6. Order the points from highest to lowest voltage.
+  
+![Circuits to analyze](/img/Voltage_current_review.jpg)
+
+## KiCad practice (Sep. 25)
 
 The goal of this exercise is to give you more practice with Kicad while also demonstrating how one might use the PCB you've been working on for Project 1.
 
