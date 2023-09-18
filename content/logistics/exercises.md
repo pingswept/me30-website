@@ -96,6 +96,20 @@ For the circuit below, analyze the following first for when the switch is open, 
   
 ![Circuits to analyze](/img/Voltage_current_review.jpg)
 
+## 6: Safety checks (Sep. 18)
+
+If you feel a circuit component getting hot or starting to smoke, what should you do first?
+(a) call over an LA
+(b) take the component out of the breadboard
+(c) unplug the power supply (e.g., barrel jack) from the breadboard
+(d) use your multimeter to measure the voltage across the component
+
+
+What is a possible result if your multimeter dial is turned to the “mA” symbol and you put your multimeter probes between a high and low voltage location on a circuit? 
+(a) you’ll get zero current reading on your multimeter and prevent your circuit from working
+(b) you’ll let too much current go through your multimeter and blow its fuse
+(c) you’ll hear a beeping sound warning you that you should use the “A” symbol and port
+
 ## KiCad practice (Sep. 25)
 
 The goal of this exercise is to give you more practice with Kicad while also demonstrating how one might use the PCB you've been working on for Project 1.
