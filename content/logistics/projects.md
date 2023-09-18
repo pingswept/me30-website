@@ -38,6 +38,8 @@ Check the datasheets for the components to see which pin is the input pin, which
 
 If you feel like you understand this project pretty well, or if you've made a basic circuitboard before, you could try adding additional features. Look at the open source [Ant breadboard power supply](https://www.crowdsupply.com/digital-cool/ant-bbps) for inspiration. The [schematics are available](https://gitlab.com/DigitalUncool/ant/-/blob/main/Hardware) if you're curious about the details.
 
+![Project 1 main steps](/img/P1_flowchart.jpg)
+
 ### P1 prototype: what you should do before class #5 (before Wed., 9/20)
 
 1. Read and try to make sense of the website notes on [voltage regulation](http://andnowforelectronics.com/notes/voltage-regulation/). Pay special attention to the circuit diagram showing the L7805C voltage regulator.
