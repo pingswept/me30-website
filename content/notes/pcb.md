@@ -36,7 +36,7 @@ Here's a rough summary of how to use Kicad.
 6.  Make a new project.
 7.  Add components to the schematic file.
 8.  Connect the components together in the schematic.
-9.  Associate a footprint with each component.
+9.  Assign a footprint to each component (see the "Tools" menu).
 10.  Generate a netlist from the schematic.
 11.  Read the netlist into the PCB file.
 12.  If your footprints are all in a stack, right-click > Global Spread and Place > Spread out All Footprints
