@@ -34,19 +34,20 @@ Here's a rough summary of how to use Kicad.
 ### Steps with the Software
 5.  Open Kicad
 6.  Make a new project.
-7.  Add components to the schematic file.
-8.  Connect the components together in the schematic.
-9.  Assign a footprint to each component (see the "Tools" menu).
-10.  Generate a netlist from the schematic.
-11.  Read the netlist into the PCB file.
-12.  If your footprints are all in a stack, right-click > Global Spread and Place > Spread out All Footprints
-13.  Make a mechanical outline of the PCB on the Edge.Cuts layer using "Add Graphic Line or Polygon."
-14.  Roughly arrange the parts the way you want them.
-15.  Place mechanically critical components.
-16.  Place the rest of the components and route traces between everything.
-17.  Run a design rule check (DRC). (Kicad calls this an ERC, but nobody else does.)
-18.  Repeat cycle: schematic/footprints -> gen. netlist -> read netlist -> tweak layout -> run DRC
-19.  Submit .kicad_pcb file to OSH Park (or possibly generate Gerber files for another manufacturer).
+7.  Enter the Schematic Editor.
+8.  Add components to the schematic file.
+9.  Wire the components together in the schematic.
+10.  Assign a footprint to each component ("Tools" menu).
+11.  "Update PCB from Schematic" ("Tools" menu) to generate a netlist from the schematic.
+12.  Enter the PCB Editor.
+13.  If your footprints are all in a stack, right-click > Global Spread and Place > Spread out All Footprints
+14.  Make a mechanical outline of the PCB on the Edge.Cuts layer using "Add Graphic Line or Polygon."
+15.  Roughly arrange the parts the way you want them.
+16.  Place mechanically critical components.
+17.  Place the rest of the components and route traces between everything.
+18.  Run a design rule check (DRC). (Kicad calls this an ERC, but nobody else does.)
+19.  Repeat cycle: schematic/footprints -> gen. netlist -> read netlist -> tweak layout -> run DRC
+20.  Submit .kicad_pcb file to OSH Park (or possibly generate Gerber files for another manufacturer).
 
 ### Keyboard Shortcuts
 {{< hint danger >}}
