@@ -40,7 +40,7 @@ draft: false
 
 ## Voltage regulators
 
-* [LM1117 voltage regulator, 800 mA, 3.3 V, TO-220 package](/pdf/regulator-LM1117.pdf)
+* [LD33V/LM1117 voltage regulator, 800 mA, 3.3 V, TO-220 package](/pdf/regulator-LM1117.pdf)
 * [LM7805 voltage regulator, 1.5 A, 5.0 V, TO-220 package](/pdf/regulator-LM7805.pdf)
 
 ## Transistors
