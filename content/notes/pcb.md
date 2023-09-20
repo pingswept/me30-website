@@ -54,6 +54,10 @@ Here's a rough summary of how to use Kicad.
 **Tip: Use the KiCad ["hot key keyboard shortcuts"](/img/KiCAD-hotkeys.pdf) to more easily move, rotate, and label components in your schematic and layout.**
 {{< /hint >}}
 
+![KiCad Schematic Editor flowchart](/img/KiCad_Flowchart1.jpg)
+
+![KiCad PCB Editor flowchart](/img/KiCad_Flowchart2.jpg)
+
 ## Tutorials to get you started
 
 *   [Chris Gammell's video tutorial on Youtube](https://www.youtube.com/watch?v=PlDOnSHkX2c)
