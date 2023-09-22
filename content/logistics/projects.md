@@ -74,7 +74,7 @@ Due dates are staggered for Project 0 to spread out the demand on fabrication to
 | Tuesday        |  Tues., Oct. 3      | 
 | Wednesday      |  Wed., Oct. 11      | 
 | Thursday       |  Thurs., Sep. 21    | 
-| Friday         |  Fru., Sep. 29      | 
+| Friday         |  Fri., Sep. 29      | 
 
 
 {{< expand "Click for info on preparing to use the Bray Shop 3D printer, laser cutter, or lathe" "..." >}}
