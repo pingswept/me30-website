@@ -14,7 +14,7 @@ draft: false
 |     | 9/13  | Voltage regulators, capacitors |  Project 1 start (Also: labs begin)  | [Capacitors](http://andnowforelectronics.com/notes/capacitors/); [Voltage regulators](http://andnowforelectronics.com/notes/voltage-regulation/); [Videos for P1](http://andnowforelectronics.com/notes/demo-videos/#videos-for-project-1)  | Intro post on Canvas |
 |  3   | 9/18  | Voltage regulators; Project 1 |  Debug your voltage regulator; Soldering demo   | [Voltage regulators](http://andnowforelectronics.com/notes/voltage-regulation/); [Videos for P1](http://andnowforelectronics.com/notes/demo-videos/#videos-for-project-1); [Adafruit soldering guide](https://learn.adafruit.com/adafruit-guide-excellent-soldering/making-a-good-solder-joint)    |  |        |
 |      | 9/20  | KiCad  | KiCad demo    | [PCB design](http://andnowforelectronics.com/notes/pcb/); Kicad resources  | [P1   proto](http://andnowforelectronics.com/logistics/projects/#project-1-build-a-breadboard-power-supply) |
-|   4  | 9/25  | PCB design  | KiCad Q & A    | [PCB design](http://andnowforelectronics.com/notes/pcb/); Kicad resources    |  |
+|   4  | 9/25  | PCB design  | KiCad Q & A    | [PCB design](http://andnowforelectronics.com/notes/pcb/); [KiCad demo videos](http://andnowforelectronics.com/notes/demo-videos/#introduction-to-kicad-with-a-simple-led-board)    |  |
 
 
 ## Phase 2 - Instructors Swap Classrooms
