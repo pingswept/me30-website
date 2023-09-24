@@ -101,7 +101,7 @@ For each motor hub, begin with the lowest weight and attach it to the hub with a
 
 Multiply your hub's "slip/stall weight" by the distance between your shaft axis and your paper clip attachment point (it should be 15 mm, but measure just to be sure).  The results is your "slip/stall torque."
 
-Take a photo of your motor hub attachment. Place it on the class histogram in the column find that corresponds approximately to your slip/stall torque.
+Take a photo of your motor hub attachment. Compare it to the class histogram created in Fall 2022. How are Fall 2023 students doing?
 https://docs.google.com/spreadsheets/d/1Y_V_8rgQhnSgg5z3wRCmGc2mLD-aFtRIoKs-uJ67k6A/edit?usp=sharing
 {{< /expand >}}
 
