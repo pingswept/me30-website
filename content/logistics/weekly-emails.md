@@ -7,6 +7,8 @@ draft: false
 - - -
 ## Week 4: Sunday, 9/24/23
 
+This week is a big transition week in ME 30. In Phase 1 of the course, we focused on fundamental circuits concepts, breadboarding skills, and introductory PCB design. Starting on Wednesday, 9/27, we'll move on to Phase 2, when we introduce motors and the tools we use to control them.
+
 **Course housekeeping:**
 
 Anyone is welcome to stop by [office hours](http://andnowforelectronics.com/logistics/syllabus/#office-hours), which should really be called "times when we sit and wait for you to come do KiCad or build circuits with us."
@@ -15,8 +17,8 @@ Anyone is welcome to stop by [office hours](http://andnowforelectronics.com/logi
 - Brandon's office hours are whenever he's in Nolop, M-F, 9a-5p 
 
 **Things due in Week 4:**
-- Due on Canvas by Thurs., 9/28, 11:59pm: [Project 1 PCB](http://andnowforelectronics.com/logistics/projects/#project-1). On the Canvas assignment, you'll see instructions to fill out a Project 1 self-assessment checklist and upload screenshots of your KiCad schematic diagram, PCB layout, and order confirmation.
-- Monday and Friday lab groups, your [Project 0](http://andnowforelectronics.com/logistics/projects/#project-0) motor hubs are due at lab time on 9/25 and 9/29, respectively. 
+- Due on Canvas by Thurs., 9/28, 11:59pm: [Project 1 PCB](http://andnowforelectronics.com/logistics/projects/#project-1). On the [Canvas assignment](https://canvas.tufts.edu/courses/48775/assignments/356142), you'll see instructions to fill out a Project 1 self-assessment checklist and upload screenshots of your KiCad schematic diagram, PCB layout, and order confirmation.
+- Monday and Friday lab groups, your [Project 0](http://andnowforelectronics.com/logistics/projects/#project-0) motor hubs are due at lab time on 9/25 and 9/29, respectively. Don't forget to submit your motor hub work on the [Project 0 Canvas assignment](https://canvas.tufts.edu/courses/48775/assignments/356143).
 
 **Learning goals for Week 4:**
 - Take a breadboard prototype and turn it into a PCB design using KiCad software
@@ -25,7 +27,7 @@ Anyone is welcome to stop by [office hours](http://andnowforelectronics.com/logi
 **Resources for your learning for Week 4:**
 For Week 4, these are the resources we’re suggesting, in order of priority:
 - [Project 1 description](http://andnowforelectronics.com/logistics/projects/)
-- Website notes on: [PCB design](http://andnowforelectronics.com/notes/pcb/), [low power/high power](http://andnowforelectronics.com/notes/low-power-high-power/)
+- Website notes and video on: [PCB design](http://andnowforelectronics.com/notes/pcb/), [low power/high power](http://andnowforelectronics.com/notes/low-power-high-power/)
 - Website [KiCad demo videos](http://andnowforelectronics.com/notes/demo-videos/#kicad-for-project-1)
 - PCB design section of Scherz & Monk textbook (available here from [Tisch Library online](https://tufts-primo.hosted.exlibrisgroup.com/permalink/f/k87dab/TN_cdi_safari_books_9781259587559))
 
