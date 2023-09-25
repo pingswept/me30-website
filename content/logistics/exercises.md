@@ -110,7 +110,7 @@ a. you’ll get zero current reading on your multimeter and prevent your circuit
 b. you’ll let too much current go through your multimeter and blow its fuse
 c. you’ll hear a beeping sound warning you that you should use the “A” symbol and port
 
-## KiCad practice (Sep. 25)
+## KiCad practice (TBD)
 
 The goal of this exercise is to give you more practice with Kicad while also demonstrating how one might use the PCB you've been working on for Project 1.
 
@@ -307,9 +307,7 @@ General procedure (details left to your group):
 - Monitor the voltage drop across that resistive load - that is, the voltage drop between the output of the regulator and ground
 - Once that voltage drop begins to decrease lower than 3.3 V or 5 V, your regulator has gone into thermal shutdown (you may feel the regulators getting very hot before this happens)
 
-Use this shared doc to post questions about the P1 PCB test and about P3 circuit board design:
-
-https://docs.google.com/document/d/1atNNbe8rjqZZtX7Foj0LWxPWZwktrCwlViqzWgFVHoU/edit?usp=sharing
+Use this [shared doc](https://tinyurl.com/ME30questiondoc) to post questions about the P1 PCB test and about P3 circuit board design:
 
 
 
