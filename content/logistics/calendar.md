@@ -21,7 +21,7 @@ draft: false
 
 | Week | Date  | Class topics  | Hands-on  | What to study | What's due  |
 |:----:|:-----:|--------------------------------------------|-------------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------|
-|      | 9/27  | Transistors as switches      |  Make a switch with a BJT    | [Low power/high power](http://andnowforelectronics.com/notes/low-power-high-power/)|[P1 PCB](http://andnowforelectronics.com/logistics/projects/#project-1-build-a-breadboard-power-supply)|        |
+|      | 9/27  | Transistors as switches      |  Make a switch with a BJT    | [Low power/high power](http://andnowforelectronics.com/notes/low-power-high-power/)|[P1 PCB due Thurs. night](http://andnowforelectronics.com/logistics/projects/#project-1-build-a-breadboard-power-supply)|        |
 |  5   | 10/2  | Intro to P2 (game v1), DC motors, MOSFETs | Run a motor with a MOSFET    | [Motors](http://andnowforelectronics.com/notes/motors/) |              |
 |      | 10/4 | Microcontrollers, CircuitPython     | KB2040 set-up    | [Microcontrollers](http://andnowforelectronics.com/notes/microcontrollers/); [KB2040 hardware](http://andnowforelectronics.com/notes/feather-rp2040-hardware/); Solder pins to your KB2040 and bring to class |       |
 |  6    | 10/9 | NO CLASS   | (Indigenous People's Day)  |  |        |
