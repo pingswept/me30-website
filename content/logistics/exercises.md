@@ -156,7 +156,7 @@ The picture below shows the concept of what you're building. In place of the 24 
 ![Typical BJT circuit](/img/typical-bjt-circuit.png)
 
 
-## 8. Determine pin voltages and ideal resistor value for a BJT circuit (Sep. 27 or Oct. 2)
+## 8. Determine pin voltages and ideal resistor value for a BJT circuit (Sep. 27)
 
 1. Fill in the table below to indicate the voltage at E, B, and C when the input is (a) at ground and (b) at 3.3 V.
 2. What is an ideal value for the current-limiting resistor?
