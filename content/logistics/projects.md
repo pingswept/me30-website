@@ -12,7 +12,7 @@ The first project is to build a power supply with the following characteristics:
 *   It accepts power from a 2.1 x 5.5 mm plug from a 12 V wall adapter.
 *   It emits 12 V, 5 V, and 3.3 V (at the same time).
 
-**Due date (for Printed Circuit Board submission): Wednesday, September 27, 10:30AM**
+**Due date (for Printed Circuit Board submission): Thursday, September 28, 11:59PM**
 
 When your design is ready, you should [submit it to the fabricator](https://oshpark.com/), OSH Park. It will cost you around $10\. After you submit it, take a screenshot of your order confirmation and upload it to the Project 1 PCB assignment on Canvas. That will serve as proof that you submitted your project on time.
 
