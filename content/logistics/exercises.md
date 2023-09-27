@@ -124,7 +124,7 @@ You need 4 things:
 
 The picture below shows the concept of what you're building. In place of the 24 V source, we'll use your 12 V source.
 
-![Typical BJT circuit](/img/typical-bjt-circuit.png)
+![Typical BJT circuit](/img/typical-bjt-circuit.jpg)
 
 
 ## 8. Determine pin voltages and ideal resistor value for a BJT circuit (Sep. 27)
