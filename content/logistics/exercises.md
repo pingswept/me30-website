@@ -110,35 +110,6 @@ a. you’ll get zero current reading on your multimeter and prevent your circuit
 b. you’ll let too much current go through your multimeter and blow its fuse
 c. you’ll hear a beeping sound warning you that you should use the “A” symbol and port
 
-## KiCad practice (TBD)
-
-The goal of this exercise is to give you more practice with Kicad while also demonstrating how one might use the PCB you've been working on for Project 1.
-
-Imagine you've received your breadboard power supply PCB (project 1) back from OSH Park, and you've soldered on all of the components. You plug it into one end of your breadboard. With it plugged in, you have one of your positive breadboard rails powered at 5 V, the other positive rail powered at 3.3 V, and a screw terminal powered at 12 V.
-
-Now we'll design a second PCB that will plug into the other end of your breadboard. Let's call this a motor power supply.
-
-**In this exercise, your task is to design the PCB layout for this new board in Kicad so that it works with your P1 PCB.**
-
-Today's new PCB has two functions:
-
-1. It lights an LED to show when 5 V is available on your breadboard, and 
-2. When you push a button, it runs a motor at 12 V, through a screw terminal. 
-
-If you were to make a breadboard prototype of this motor power supply PCB, its schematic diagram would show that it's really just two simple circuits:
-
-![Motor supply schematic](/img/motorsupply-PCB.jpg)
-
-Your new PCB should include the following components:
-* 2 screw terminals
-* some header pins
-* 1 LED
-* 1 resistor
-* 1 push button
-
-Shared doc for posting your work and questions:
-https://docs.google.com/document/d/1ONtsG_-AVNehNyhWbaVRlC9eLj0BGLUVzQcgiZofu24/edit?usp=sharing
-
 
 ## 7. Control a motor with a BJT (Sep. 27)
 
