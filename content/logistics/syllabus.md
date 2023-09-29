@@ -23,6 +23,11 @@ Zosia's LA office hours are:
 * Mondays 5-7pm, Nolop
 * Wednesdays 9-10:15am, Nolop
 
+You can also get help from ME 30 LA's when they are on shift at Nolop.
+
+* Rose Kitz: Mondays, 12-3 PM
+* Alexa Watson: Wednesdays, 12-3 PM
+* Gabe Moussa: Wednesdays, 3-6 PM
 
 ## Course description
 
