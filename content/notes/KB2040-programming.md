@@ -33,11 +33,11 @@ The first time you run Mu, you'll need to select its "mode." Choose "CircuitPyth
 
 ## Hardware check 
 
-### Plug in your KB2040 to your computer
+### (Step 1) Plug in your KB2040 to your computer
 
 The next step is to plug in your KB2040 to your computer with a USB data cable. When you plug it in, you should see a light on the board near the USB-C jack, showing that the KB2040 is getting electricity. **Make sure to use a data cable, not just a power cable!**
 
-### Download CircuitPython and install it on your KB2030
+### (Step 2) Download CircuitPython and install it on your KB2030
 
 Once the board powers up, it's time to load CircuitPython onto it. 
 
@@ -52,7 +52,7 @@ To install CircuitPython on your KB2040, follow the basic steps below. These ste
 ![The CIRCUITPY drive](/img/circuitpy_drive.png)
 
 
-### Load a Python program onto your KB2040.
+### (Step 3) Load a Python program onto your KB2040.
 
 The next step is to load your first Python program onto your KB2040.
 
@@ -60,24 +60,23 @@ With CircuitPython installed, your KB2040 will look for and execute any Python p
 
 You can save code files with other file  names, besides **code.py**, on your KB2040's CIRCUITPY drive, but they won't be executed by your KB2040. You will need to change their name to **code.py** in order for them to be run.
 
-To create and load your first Feather program, follow these steps:
+To create and load your first program, follow these steps:
 1. Open the Mu editor.
 2. Click the Load button, find the **CIRCUITPY** drive, and choose **code.py**.
 3. Copy and paste this code into the Mu editor
 
-**Need to add detail hear about importing neopixel and adafruit_pixelbuf libraries**
-
 <pre class="code">
-import time
 import board
-import neopixel
+import digitalio
+import time
 
-pixels = neopixel.NeoPixel(board.NEOPIXEL, 1)
+led = digitalio.DigitalInOut(board.D5)
+led.direction = digitalio.Direction.OUTPUT
 
 while True:
-    pixels.fill((255, 0, 0))
+    led.value = True
     time.sleep(0.5)
-    pixels.fill((0, 0, 0))
+    led.value = False
     time.sleep(0.5)
 </pre>
 
@@ -87,9 +86,9 @@ To load it onto the KB2040, click the "Save" button in the Mu editor's top menu.
 
 ![Saving code.py](/img/save-code-py.png)
 
-As the code is uploaded, you'll see the larger circular LED on the Feather board flash rapidly green for a moment. 
+As the code is uploaded, you might see the green power LED flash rapidly for a moment. 
 
-After the code is saved on the KB2040, you should see the large on-board NeoPixel LED blinking once per second.
+After the code is saved on the KB2040, if you wire an external LED from pin D5 to the GND pin, you should see it blinking once per second.
 
 If you've made it this far, your hardware and software are working properly. Congratulations! Go get a drink of cool, delicious water!
 {{< /expand >}}
