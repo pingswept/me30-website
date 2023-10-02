@@ -1,9 +1,7 @@
 ---
 title: "KB2040 hardware"
-draft: true
+draft: false
 ---
-
-# Still needs to be fully updated from Feather to KB2040
 
 ![Top view of Adafruit KB2040](/img/KB2040_top.jpeg)
 
@@ -34,11 +32,11 @@ In ME 30, you'll want to be able to plug your KB2040 into a breadboard for stabi
 
 ## Connectors
 
-The board has three different connectors. On the left of the board is a USB-C connector used for power and/or data. You'll connect to your computer through USB-C to install CircuitPython on your KB2040 and to edit code. On the right edge of the board is a STEMMA QT connector, which allows you to connect I2C sensors and breakout boards to the KB2040.
+The board has two different connectors. On the left of the board is a USB-C connector used for power and/or data. You'll connect to your computer through USB-C to install CircuitPython on your KB2040 and to edit code. On the right edge of the board is a STEMMA QT connector, which allows you to connect I2C sensors and breakout boards to the KB2040.
 
 ## Buttons
 
-You'll notice two small black buttons encased in silver boxes. The RESET (RST) button resets the board without disconnecting it from power. The BOOT button is used when you install or update CircuitPython on your KB2040 (press and hold BOOTSEL while plugging the board into USB or pressing RESET). This button is also usable as an input in CircuitPython code, on pin <<board.BUTTON>>. 
+You'll notice two small black buttons encased in silver boxes. The **RST (reset) button** resets the board without disconnecting it from power. The **BOOT (boot select) button** is used when you install or update CircuitPython on your KB2040 (press and hold BOOTSEL while plugging the board into USB or pressing RESET). This button is also usable as an input in CircuitPython code, on pin <<board.BUTTON>>. 
 
 ## LEDs
 
@@ -46,7 +44,7 @@ The KB2040 has two built-in LEDs.
 
 The one above the USB-C connector is the **green power LED** that indicates whether the board is receiving adequate power.
 
-The **NeoPixel LED** to the left of the RESET (RST) button can be programmed to glow in difference colors using the variable board.NEOPIXEL and the code in the NeoPixel library.
+The **NeoPixel LED** to the left of the RESET (RST) button can be programmed to glow in different colors using the variable board.NEOPIXEL and the code in the NeoPixel library.
 
 ## Quirks
 
