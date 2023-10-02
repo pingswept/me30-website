@@ -1,6 +1,6 @@
 ---
 title: "KB2040 programming"
-draft: t
+draft: false
 ---
 ## Programming your KB2040 microcontroller
 
