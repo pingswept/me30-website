@@ -18,10 +18,11 @@ Brandon's office hours are:
 
 * Roughly 9 AM to 5 PM in Nolop, unless he's teaching class or in a meeting, or it's a weekend
 
-Zosia's LA office hours are:
+LA office hours are:
 
-* Mondays 5-7pm, Nolop
-* Wednesdays 9-10:15am, Nolop
+* Zosia: Mondays 5-7pm, Nolop
+* Zosia: Wednesdays 9-10:15am, Nolop
+* Antonio: Thursdays 6-7pm, Nolop
 
 You can also get help from ME 30 LA's when they are on shift at Nolop.
 
