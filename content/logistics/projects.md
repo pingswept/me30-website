@@ -4,46 +4,43 @@ draft: false
 ---
 
 ## Project 2:
-**Build a simple electromechanical game**
+**Build a lame game**
 
 The next project is to use the basic electrical components we've covered in class with some mechanical fabrication to make a game that is at least mildly entertaining. The point here is *NOT* making the best game ever, but to set some goals for testing out your electromechanical skills.
 
-You should bring your game to class on Monday, October 16th.
+This is a solo project, but we'll be brainstorming in groups.
+
+You should bring your game to class on Monday, October 16th to share with your brainstorming group. 
 
 **Due date (for game documentation submission): Monday, October 16, 11:59PM**
 
-You should pick 2 or 3 goals for yourself for this project.
+To keep things simple, there are a few required constraints.
 
-Here are some example goals:
+Your game should:
 
-  * Use the laser cutter (which I have never used before).
+* Use the DC gearmotor in your kit
+* Require user interaction of some sort (e.g., pushing a button, pressing a key, interacting with a physical component)
+* Fit inside a cube 20 cm on a side
+* Be fabricated without 3D printing, except for a motor hub if needed
+
+The point of the constraints is to keep your game simple enough that you can complete it in 2 weeks.
+
+In addition to planning to meet these constraints, you should also pick one learning goal for yourself for this project.
+
+Here are some example learning goals:
+
   * Get more comfortable with cordless drills and at least one other hand tool.
   * Test my system to failure, then rebuild it stronger.
+  * Use only recycled/found materials.
   * Complete my project 24 hours early.
   * Model, predict and subsequently measure at least one mechanical property of my project.
   * Complete the project in less than 6 hours of focused effort.
+  * Use the laser cutter (which I have never used before).
   * Make at least one part out of steel.
   * Turn a part on a lathe at Bray.
   * Spend at least 1/3 of my effort on the aesthetics of the project.
   * Make my most refined 3D print ever.
 
-To keep things simple, there are a few required constraints.
-
-* Your game should use the DC gearmotor in your kit.
-* Your game should require user interaction of some sort (e.g., pushing a button, pressing a key, interacting with a physical component)
-
-You should *ALSO* pick 2 or more constraints from the list below.
-
-Your game is ...
-
-  * sized to fit inside a cube 20 cm on a side
-  * only made from recycled/found materials
-  * only made from wood
-  * only made from cardboard
-  * made without looking at Youtube
-  * inspired by ideas from a younger sibling or friend
-
-The point of the constraints is to keep your game simple enough that you can complete it in 2 weeks.
 
 ## Project 1: 
 **Build a breadboard power supply**
