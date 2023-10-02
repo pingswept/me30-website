@@ -70,7 +70,7 @@ import board
 import digitalio
 import time
 
-led = digitalio.DigitalInOut(board.D5)
+led = digitalio.DigitalInOut(board.D4)
 led.direction = digitalio.Direction.OUTPUT
 
 while True:
@@ -88,7 +88,7 @@ To load it onto the KB2040, click the "Save" button in the Mu editor's top menu.
 
 As the code is uploaded, you might see the green power LED flash rapidly for a moment. 
 
-After the code is saved on the KB2040, if you wire an external LED from pin D5 to the GND pin, you should see it blinking once per second.
+After the code is saved on the KB2040, if you wire an external LED from pin D4 to the GND pin, you should see it blinking once per second.
 
 If you've made it this far, your hardware and software are working properly. Congratulations! Go get a drink of cool, delicious water!
 {{< /expand >}}
