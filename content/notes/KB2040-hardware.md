@@ -17,7 +17,7 @@ draft: false
 
 Looking at the picture above, you can see 2 large chips, some connectors, and a lot of tiny resistors and capacitors. 
 
-The chip just to the right of center is the microcontroller that acts as the brain of the board. It's an [RP2040 chip](https://www.raspberrypi.com/products/rp2040/), which has dual ARM Cortex M0+ cores running at 133 MHz. The 20/43 code on the chip means that this particular chip it was manufactured in week 43 of 2020. The RP means that it is made by Raspberry Pi.
+The chip just to the right of center is the microcontroller that acts as the brain of the board. It's an [RP2040 chip](https://www.raspberrypi.com/products/rp2040/), which has dual ARM Cortex M0+ cores running at 133 MHz. The 21/19 code on the chip means that this particular chip it was manufactured in week 19 of 2021. The RP means that it is made by Raspberry Pi.
 
 The square chip closer to the lower left corner of the board is the Flash memory chip for storing files and code.
 
