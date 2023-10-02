@@ -37,14 +37,14 @@ The first time you run Mu, you'll need to select its "mode." Choose "CircuitPyth
 
 The next step is to plug in your KB2040 to your computer with a USB data cable. When you plug it in, you should see a light on the board near the USB-C jack, showing that the KB2040 is getting electricity. **Make sure to use a data cable, not just a power cable!**
 
-### Install CircuitPython on your KB2030
+### Download CircuitPython and install it on your KB2030
 
 Once the board powers up, it's time to load CircuitPython onto it. 
 
 To install CircuitPython on your KB2040, follow the basic steps below. These steps are adapted from Adafruit's CircuitPython tutorial. You can find more details at https://learn.adafruit.com/welcome-to-circuitpython/installing-circuitpython.
 
 1. To your computer, [download](https://circuitpython.org/board/adafruit_kb2040/) the latest version of CircuitPython for the KB2040. Putting CircuitPython on your computer is an intermediate step. You are not going to run CircuitPython onto your computer - your eventual goal is to get CircuitPython onto your KB2040.
-2. Enter the "bootloader" mode on your KB2040 by **holding down the BOOTSEL button as you press and release the RESET button. Continue to hold down the BOOTSEL button until the KB2040's bootloader drive appears as "RPI-RP2" on your computer**. You need your KB2040 board in bootloader mode to install or update Circuit Python.
+2. Enter the "bootloader" mode on your KB2040 by **holding down the BOOT (boot select) button as you press and release the RST (reset) button. Continue to hold down the BOOT button until the KB2040's bootloader drive appears as "RPI-RP2" on your computer**. You need your KB2040 board in bootloader mode to install or update Circuit Python.
 3. Find the CircuitPython file that you downloaded onto your computer. Drag that file to the KB2040's boot drive (the **RPI-RP2** drive).
 4. Watch for **RPI-RP2** to disappear and a new drive to appear on your computer called **CIRCUITPY**.
 5. When you see the **CIRCUITPY** drive, you know that your KB2040 now has CircuitPython installed on it, and it is ready to receive, store, and execute Python files. Congratulations!
@@ -65,7 +65,7 @@ To create and load your first Feather program, follow these steps:
 2. Click the Load button, find the **CIRCUITPY** drive, and choose **code.py**.
 3. Copy and paste this code into the Mu editor
 
-**Need to add detail hear about importnat neopixel and adafruit_pixelbuf libraries**
+**Need to add detail hear about importing neopixel and adafruit_pixelbuf libraries**
 
 <pre class="code">
 import time
