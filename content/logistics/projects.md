@@ -25,7 +25,7 @@ Your game should:
 
 The point of the constraints is to keep your game simple enough that you can complete it in 2 weeks.
 
-In addition to planning to meet these constraints, you should also pick one learning goal for yourself for this project.
+In addition to planning to meet these constraints, you should also pick one learning goal for yourself for this project. Open-ended projects offer you an opportunity to bend the curriculum into the direction of your interests or to explore a potential new area of interest. 
 
 Here are some example learning goals:
 
