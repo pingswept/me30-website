@@ -11,14 +11,14 @@ Thanks for your hard work learning KiCad for Project 1. We'll be posting points 
 
 **Course housekeeping:**
 - Join the #me30-fall2023 Slack channel!  It’s within the Nolop Slack workspace (nolop.slack.com). Post your ME 30 questions there. If you need help joining the Nolop Slack workspace or finding its ME30 channel, talk to Brandon, Kristen, or a Learning Assistant.
-- In class on Wed., Oct. 4, you will need your KB2040 microcontroller (the small pink circuit board in your kit) and a data-transfer cable that connects your KB2040 USB-C port with your laptop. We have a few extra USB-C data-transfer cables, but if you have one of your own, please bring it. Make sure it can transfer data, not just power.
+- In class on Wed., Oct. 4, you will need your KB2040 microcontroller (the small pink circuit board in your kit) and a data-sync cable that connects your KB2040 USB-C port with your laptop. We have a few extra USB-C data-sync cables, but if you have one of your own, please bring it. Make sure it can transfer data, not just power.
 - In labs happening Wed., Sep. 28 through Tues. Oct. 3, one focus has been soldering pins onto your KB2040 microcontroller. Please do your best to have your pins soldered onto your KB2040 by class time on Wed., Oct. 4. Extra soldering stations have been set up in Nolop. Ask Nolop staff member can help you with soldering any time Nolop is open; just ask!
 
 **Labs in Week 5**
 - From **Wed., Oct. 4 to Tues., Oct. 10, lab attendance will be OPTIONAL** due to the Indigenous People’s Day observance on Mon., Oct. 9.  Learning Assistants will still be in Nolop during your scheduled lab time, and you are welcome to drop in to Nolop for help with anything related to ME 30, but there will be no specific required lab activity.
 
 **Things due in Week 5:**
-- Nothing is due on Canvas, but please read the note above about soldering header pins onto your KB2040 by class time on Wed., Oct. 4, and bringing a USB-C data transfer cable if you have one.
+- Nothing is due on Canvas, but please read the note above about **soldering header pins onto your KB2040 by class time on Wed., Oct. 4,** and bringing a USB-C data-sync cable if you have one.
 
 **Learning goals for Week 5:**
 - Explain how to use both BJT and MOSFET transistors to control high power with low power.
