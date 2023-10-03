@@ -1,6 +1,6 @@
 ---
 title: "KB2040 challenges"
-draft: true
+draft: false
 ---
 
 ## KB2040 challenges
