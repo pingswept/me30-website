@@ -15,23 +15,7 @@ draft: false
 *   An Adafruit KB2040 microcontroller board
 *   A USB-C **data** cable with the right ends to connect the KB2040 to your computer
 
-## Software check 
-
-Before you can actually make a microcontroller do anything, you have to install a code editor on your computer. We'll use the Mu Editor, which works well with Adafruit CircuitPython boards, including the KB2040. 
-
-To install the Mu Editor, [download it](https://codewith.mu/en/) from the Mu website. 
-
-You're on your own for the actual installation, but it consists of pressing "OK" and "Next" and things like that a few times. Adafruit's CircuitPython tutorial provides step-by-step instructions for installing Mu here: https://learn.adafruit.com/welcome-to-circuitpython/installing-mu-editor
-
-Your goal is to see something like the image below on your screen.
-
-![The Mu Editor](/img/Mu_blankeditor.png)
-
-The first time you run Mu, you'll need to select its "mode." Choose "CircuitPython."
-
-![Selecting the Mu mode](/img/Mu_mode.png)
-
-## Hardware check 
+## Hardware setup
 
 ### (Step 1) Plug in your KB2040 to your computer
 
@@ -51,8 +35,25 @@ To install CircuitPython on your KB2040, follow the basic steps below. These ste
 
 ![The CIRCUITPY drive](/img/circuitpy_drive.png)
 
+## Software setup
 
-### (Step 3) Load a Python program onto your KB2040.
+Before you can actually make a microcontroller do anything, you have to install a code editor on your computer. We'll use the Mu Editor, which works well with Adafruit CircuitPython boards, including the KB2040. 
+
+To install the Mu Editor, [download it](https://codewith.mu/en/) from the Mu website. 
+
+You're on your own for the actual installation, but it consists of pressing "OK" and "Next" and things like that a few times. Adafruit's CircuitPython tutorial provides step-by-step instructions for installing Mu here: https://learn.adafruit.com/welcome-to-circuitpython/installing-mu-editor
+
+Your goal is to see something like the image below on your screen.
+
+![The Mu Editor](/img/Mu_blankeditor.png)
+
+The first time you run Mu, you'll need to select its "mode." Choose "CircuitPython."
+
+![Selecting the Mu mode](/img/Mu_mode.png)
+
+## Make the software talk to the hardware
+
+### Load a Python program onto your KB2040.
 
 The next step is to load your first Python program onto your KB2040.
 
