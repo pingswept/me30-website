@@ -19,7 +19,7 @@ draft: false
 
 ### (Step 1) Plug in your KB2040 to your computer
 
-The next step is to plug in your KB2040 to your computer with a USB data cable. When you plug it in, you should see a light on the board near the USB-C jack, showing that the KB2040 is getting electricity. **Make sure to use a data cable, not just a power cable!**
+The next step is to plug in your KB2040 to your computer with a USB data cable. When you plug it in, you should see a green light on the board near the USB-C jack, showing that the KB2040 is getting electricity. **Make sure to use a data cable, not just a power cable!**
 
 ### (Step 2) Download CircuitPython and install it on your KB2030
 
