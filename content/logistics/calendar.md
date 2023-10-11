@@ -66,8 +66,8 @@ draft: false
 | 2 | 9/20-9/26 | Learn KiCad, and solder your KB2040 pins |
 | 3 | 9/27-10/3 | Control a motor with transistors, and solder your KB2040 pins |
 |  |  | (No labs 10/4-10/10)  |
-| 4 | 10/11-10/15 | KB2040 challenges; P2 help |
-| 5 | 10/18-10/24 | Soldering demo and H-bridges |
+| 4 | 10/11-10/17 | KB2040 challenges; P2 help |
+| 5 | 10/18-10/24 | Soldering P1 PCB and H-bridges |
 | 6 | 10/25-10/31 | H-bridges |
 | 7 | 11/1-11/7 | More KB2040 challenges |
 | 8 | 11/8-11/14 | Complex motorized games |
