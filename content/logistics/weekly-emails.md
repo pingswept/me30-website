@@ -5,6 +5,31 @@ draft: false
 ## Weekly Update Emails
 
 - - -
+## Week 6: Tuesday, 10/10/23
+
+**Labs Restart in Week 6**
+- Required labs restart tomorrow, Wednesday, Oct. 11. Labs in this cycle, from Oct. 11 to Oct. 17, will focus on [KB2040 challenges](http://andnowforelectronics.com/notes/kb2040-challenges/) and your work on [Project 2](http://andnowforelectronics.com/logistics/projects/).
+
+**Things due in Week 6:**
+- Nothing is due on Canvas this week, but [Project 2](http://andnowforelectronics.com/logistics/projects/), the "Lame Game," is due in class next week, Monday, Oct. 16. Make sure you've generated a self-identified learning goal for your Project 2 work. You'll be asked to describe that goal in the Canvas documentation you submit for Project 2. Example self-identified learning goals are listed in the [Prject 2 description](http://andnowforelectronics.com/logistics/projects/).
+- We’ll be working on [KB2040 challenges](http://andnowforelectronics.com/notes/kb2040-challenges/) in class this week.
+
+**Learning goals for Week 6:**
+- Gain enough familiarity with Python programming to code the Feather microcontroller to process simple inputs and outputs.
+- Incorporate a DC gearmotor into a simple electromechanical system. 
+
+**Course website (andnowforelectronics.com) pages to study in Week 6:**
+- [Analog vs digital](http://andnowforelectronics.com/notes/analog/)
+- [KB2040 programming](http://andnowforelectronics.com/notes/kb2040-programming/))
+- [KB2040 challenges](http://andnowforelectronics.com/notes/kb2040-challenges/)
+
+**Optional reading for Week 6:**
+- “Chapter 6: Eeny, Meeny, Miny, Motor: Options for Creating and Controlling Motion” (pgs. 123-181) in [Making Things Move](https://tufts-primo.hosted.exlibrisgroup.com/permalink/f/k87dab/TN_cdi_askewsholts_vlebooks_9780071741682) (Dustyn Roberts), available online to Tufts students from Tisch Library
+- Adafruit's guide ["Exploring Your First Circuit Python Program"](https://learn.adafruit.com/welcome-to-circuitpython/exploring-your-first-circuitpython-program)
+
+
+
+
 ## Week 5: Sunday, 10/1/23
 
 Thanks for your hard work learning KiCad for Project 1. We'll be posting points for Project 1 on Canvas soon.
