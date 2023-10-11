@@ -15,12 +15,12 @@ draft: false
 - We’ll be working on [KB2040 challenges](http://andnowforelectronics.com/notes/kb2040-challenges/) in class this week.
 
 **Learning goals for Week 6:**
-- Gain enough familiarity with Python programming to code the Feather microcontroller to process simple inputs and outputs.
+- Gain enough familiarity with Python programming to code the KB2040 microcontroller to process simple inputs and outputs.
 - Incorporate a DC gearmotor into a simple electromechanical system. 
 
 **Course website (andnowforelectronics.com) pages to study in Week 6:**
 - [Analog vs digital](http://andnowforelectronics.com/notes/analog/)
-- [KB2040 programming](http://andnowforelectronics.com/notes/kb2040-programming/))
+- [KB2040 programming](http://andnowforelectronics.com/notes/kb2040-programming/)
 - [KB2040 challenges](http://andnowforelectronics.com/notes/kb2040-challenges/)
 
 **Optional reading for Week 6:**
