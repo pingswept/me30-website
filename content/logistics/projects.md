@@ -21,7 +21,7 @@ Your game should:
 * Use the DC gearmotor in your kit
 * Require user interaction of some sort (e.g., pushing a button, pressing a key, interacting with a physical component)
 * Fit inside a cube 20 cm on a side
-* Be fabricated without 3D printing, except for a motor hub if needed
+* Be fabricated without 3D printing, except for a motor hub if needed (talk to an instructor if you have a particular reason you need to violate this constraint.)
 
 The point of the constraints is to keep your game simple enough that you can complete it in 2 weeks.
 
