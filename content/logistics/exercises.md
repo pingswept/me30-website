@@ -161,9 +161,9 @@ Learn to program your KB2040 board by working through these 10 challenges. You'l
 http://andnowforelectronics.com/notes/KB2040-challenges/
 
 
-## 11. Recognizing common errors in KB2040 Challenge #7 
+## 11. Recognizing common errors in KB2040 Challenge #6 
 
-Challenge #7 asks you to control a motor's on/off state with a KB2040 output pin. Below are two approaches to setting up the circuitry. Each has problems that will prevent it from working correctly. What do you think those problems are?
+Challenge #6 asks you to control a motor's on/off state with a KB2040 output pin. Below are two approaches to setting up the circuitry. Each has problems that will prevent it from working correctly. What do you think those problems are?
 
 ![Feather challenge 7 problems](/img/challenge7.png)
 
