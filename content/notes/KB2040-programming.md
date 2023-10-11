@@ -186,9 +186,9 @@ To use these commands, include the command “import board” and “import digi
 
 **xyz = digitalio.DigitalInOut(board.[pin name or number])**: calls up the digitalio library and creates a new object called xyz that will hold information about a specific pin on a microcontroller board.  The pin names and numbers are on the board’s pinout diagram, e.g, D6, D5, LED, etc.
 
-**xyz.direction = digitalio.Direction.OUTPUT**: tells the Feather to treat the pin for object xyz as a voltage output, not an input
+**xyz.direction = digitalio.Direction.OUTPUT**: tells the KB2040 to treat the pin for object xyz as a voltage output, not an input
 
-**xyz.direction = digitalio.Direction.INPUT**: tells the Feather to treat the pin for object xyz as a voltage input
+**xyz.direction = digitalio.Direction.INPUT**: tells the KB2040 to treat the pin for object xyz as a voltage input
 
 **xyz.value**: the voltage value at the pin for object xyz
 
@@ -199,6 +199,23 @@ To use these commands, include the command “import board” and “import digi
 **xyz.value = 0** sets the voltage for the digital variable xyz to be “low,” i.e., ground or 0 V
     
 **xyz.value = False**: another way to set the voltage low
+
+Here's an example of how you might use commands from the **board** and **digitalio** libraries to set the voltage at pin D4 high (True), then low (False), and repeat.
+
+<pre class="code">
+import board
+import digitalio
+import time
+
+led = digitalio.DigitalInOut(board.D4)
+led.direction = digitalio.Direction.OUTPUT
+
+while True:
+    led.value = True
+    time.sleep(0.5)
+    led.value = False
+    time.sleep(0.5)
+</pre>
 
 ### PWMIO library
 
