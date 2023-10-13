@@ -122,10 +122,13 @@ You need 4 things:
 3. A DC gear motor
 4. An appropriately-sized current-limiting resistor for the BJT
 
-The picture below shows the concept of what you're building. In place of the 24 V source, we'll use your 12 V source.
+The picture below shows the concept of what you're building. 
 
 ![Typical BJT circuit](/img/typical-bjt-circuit.jpg)
 
+**Extension:** Add a potentiometer (a variable resistor) in series with the base and use it to vary the current flowing from base to emitter. Notice how this works as a crude motor speed controller, but also notice (carefully!) how the BJT heats up as more current is drawn through it.
+
+![BJT circuit with potentiometer](/img/bjt-potentiometer.jpg)
 
 ## 8. Determine pin voltages and ideal resistor value for a BJT circuit (Sep. 27)
 
