@@ -192,6 +192,11 @@ Challenge #6 asks you to control a motor's on/off state with a KB2040 output pin
 ![Fixed circuit](/img/Micro_MOSFET_Fixed.jpg)
 {{< /expand >}}
 
+## X. Project 2 Takeaways Reflection
+
+https://docs.google.com/document/d/1VSjbneo4Xpw5H4M3TWTwDIThnnmBpD1ap7IGalLDYks/edit?usp=sharing
+
+
 ## 12. H-bridge circuit analysis, part 1 
 
 You've just wired up the top left corner of an H-bridge circuit using a P-channel MOSFET. You connect the other motor lead to ground so that you can test this corner before wiring up the transistors at any other corners.  If this corner is wired correctly, what should happen to the motor when the MOSFET gate is connected:
