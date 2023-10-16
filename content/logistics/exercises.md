@@ -192,12 +192,20 @@ Challenge #6 asks you to control a motor's on/off state with a KB2040 output pin
 ![Fixed circuit](/img/Micro_MOSFET_Fixed.jpg)
 {{< /expand >}}
 
-## 12. Project 2 Takeaways Reflection
+## 12. Project 2 takeaways reflection (Oct. 16)
+
+What are some problems you encountered along the way of working on your game for Project 2, and what did you learn from them?
 
 https://docs.google.com/document/d/1VSjbneo4Xpw5H4M3TWTwDIThnnmBpD1ap7IGalLDYks/edit?usp=sharing
 
+## 13. Mechanically controlled two-way motor circuit (Oct. 16)
 
-## 13. H-bridge circuit analysis, part 1 
+With a partner or two, build a circuit that will allow you to use pushbutton switches to toggle a 12-V DC motor between the states of (a) OFF (b) ON counterclockwise, and (c) ON clockwise. That means your motor needs to be able to draw current in either direction (only one direction at a time). Your circuit should NOT use transistors. It should include (a) 12 V adapter and barrel jack, (b) DC gearmotor, (c) assorted wires, (d) as many pushbutton switches as you want.
+
+As you work on this challenge, **be careful not to create a situation where you are sending 12 V to ground only through wires.** That's a short circuit and will cause heat and smoke!
+
+
+## 14. H-bridge circuit analysis, part 1 
 
 You've just wired up the top left corner of an H-bridge circuit using a P-channel MOSFET. You connect the other motor lead to ground so that you can test this corner before wiring up the transistors at any other corners.  If this corner is wired correctly, what should happen to the motor when the MOSFET gate is connected:
 
@@ -218,7 +226,7 @@ Sketch the current path for each of those base states.
 ![add BJT to corner of an H-bridge](/img/Hbridge-corner-BJT.jpg)
 
 
-## 14. H-bridge circuit analysis, part 2 
+## 15. H-bridge circuit analysis, part 2 
 
 Please click the link below to view and analyze a full H-bridge circuit, with BJT controllers for the P-channel MOSFETs. This analysis will help you know what to expect and how to test your own full H-bridge prototype.
 
@@ -251,7 +259,7 @@ The top corners (1 and 4) need to both be set to ground to block current flow to
 **Don't do this -  it will short the circuit!!** In this H-bridge, setting a corner input to 3.3 V turns that corner's MOSFET "on," allowing current to across the source-drain pathway. If all 4 MOSFETs are allowing current to flow, then this circuit's easiest path to ground will be down the two sides of the "H."  No current will flow through the highly resistive motor. The motor will not spin, and the rest of the circuit will get very hot.
 {{< /expand >}}
 
-## 15a. Measure a DC gearmotor (Power In) 
+## 16a. Measure a DC gearmotor (Power In) 
 
 Here are a few basic measurements you can make to understand your DC gearmotor better. The overall goal is to determine the efficiency of the motor by comparing the electrical power that goes into it ("power in") with the mechanical power it delivers ("power out"). 
 
@@ -266,7 +274,7 @@ When you know the current and the voltage, you can multiply them to find the ele
 
 If you can estimate how much power a task will require, you can start to figure out what voltage this motor would need to deliver that power (assuming perfect efficiency, for now). That's the first step toward deciding whether this is the right motor for whatever you're building.
 
-## 15b. Measure a DC gearmotor (Power Out) 
+## 16b. Measure a DC gearmotor (Power Out) 
 
 The next step is to determine how much mechanical power the motor actually delivers ("power out"). One way to do this is to measure the time it takes to perform a certain amount of work (i.e., to add energy to a system).
 
@@ -277,7 +285,7 @@ The next step is to determine how much mechanical power the motor actually deliv
 Post your group's results here: https://docs.google.com/spreadsheets/d/1hPOLsmSsdGBHga9NMayhIXqW0E7COHThiejLpnPMqj8/edit?usp=sharing
 
 
-## 16. Test the current limit of your P1 PCB 
+## 17. Test the current limit of your P1 PCB 
 
 The voltage regulators on your P1 PCB are specified (on their data sheets) to be able to handle current at the level of 1.5 A (the 5V regulator) and 0.8 A (the 3.3 V regulator). But the question is - **once soldered into your P1 PCB, can they still perform up to their specified max current limit?**  
 
@@ -295,7 +303,7 @@ Use this [shared doc](https://tinyurl.com/ME30questiondoc) to post questions abo
 
 
 
-## 17. How to code your microcontroller to constantly check an input while also running actuators 
+## 18. How to code your microcontroller to constantly check an input while also running actuators 
 
 Suppose you want to check for the state of inputs while also running motors, lights, and other actuators. In particular, you want to flash an LED, constantly check for a button press that sets an input pin HIGH, and flash a different LED when the button is pressed.
 
@@ -379,7 +387,7 @@ while True:
 </pre>
 {{< /expand >}}
 
-## 18. Games Project Reflection 
+## 19. Games Project Reflection 
 
 Whole-class anonymous poll (responses viewable anonymously by the class): https://pollev.com/me30
 
@@ -387,18 +395,18 @@ Your responses: https://tufts.box.com/s/x9fatn1zsfspyp1mi7k9o7qa1rb84o8m
 
 Individual reflection (responses seen only by instructors): https://tufts.qualtrics.com/jfe/form/SV_82I3784cDRJPzX8
 
-## 19. Raspberry Pi setup 
+## 20. Raspberry Pi setup 
 
 Follow the video and text directions here: http://andnowforelectronics.com/notes/pi-setup/
 
-## 20. Project 5 planning and Raspberry Pi Flask set-up 
+## 21. Project 5 planning and Raspberry Pi Flask set-up 
 
 (a) Discuss these Project 5 planning questions with your team: https://docs.google.com/document/d/1ulQfKKEcXGVL5VZVITyimeE2d2Y40JnkMOGGLtVdCfo/edit?usp=sharing
 
 (b) Make sure you can complete [Raspberry Pi challenge #9](http://andnowforelectronics.com/notes/pi-challenges/)
 
 
-## 21. Problem-solving reflection 
+## 22. Problem-solving reflection 
 
 We'll use this document: https://docs.google.com/document/d/1O_xfcv7e3ha_4H89LtY6i9dom4rK-cdWGM7mMMHbSyc/edit?usp=sharing
 
