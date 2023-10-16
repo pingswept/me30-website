@@ -18,7 +18,7 @@ draft: false
 - Explain how an H-bridge motor controller works.
 
 **Course website (andnowforelectronics.com) pages to study in Week 7:**
-- [H-bridge motor controller](http://andnowforelectronics.com/notes/h-bridges/))
+- [H-bridge motor controller](http://andnowforelectronics.com/notes/h-bridges/)
 - [KB2040 programming](http://andnowforelectronics.com/notes/kb2040-programming/)
 - [KB2040 challenges](http://andnowforelectronics.com/notes/kb2040-challenges/)
 
