@@ -5,6 +5,24 @@ draft: false
 ## Weekly Update Emails
 
 - - -
+## Week 7: Sunday, 10/15/23
+
+**Shift in lab cycles**
+- Starting Mon., Oct. 16, new lab topics will start on Monday and run through Sunday (instead of Wednesday to Tuesday). This shift will allow lab work to better align with the timing of class activities and project due dates.  The new lab topic starting this Monday (tomorrow) is H-bridges for motor control.
+
+**Things due in Week 7:**
+- [Project 2](http://andnowforelectronics.com/logistics/projects/), the "Lame Game," is due in class tomorrow, Monday, Oct. 16. Bring your game to class to share with the people seated near you. Documentation is due on Canvas by 11:59pm Monday night. 
+- If you have not completed Set 1 of the [KB2040 challenges](http://andnowforelectronics.com/notes/kb2040-challenges/), you should finish those this week. Ask an LA, instructor, or classmate for help if needed.
+
+**Learning goal for Week 7:**
+- Explain how an H-bridge motor controller works.
+
+**Course website (andnowforelectronics.com) pages to study in Week 7:**
+- [H-bridge motor controller](http://andnowforelectronics.com/notes/h-bridges/))
+- [KB2040 programming](http://andnowforelectronics.com/notes/kb2040-programming/)
+- [KB2040 challenges](http://andnowforelectronics.com/notes/kb2040-challenges/)
+
+
 ## Week 6: Tuesday, 10/10/23
 
 **Labs Restart in Week 6**
