@@ -43,6 +43,9 @@ You'll notice two small black buttons encased in silver boxes. The **RST (reset)
 The KB2040 has two built-in LEDs. 
 
 The one above the USB-C connector is the **green power LED** that indicates whether the board is receiving adequate power.
+- green blink = code finished; no error
+- red blink = code ended due to Python error
+- yellow blink = safe mode; no user code run; check serial monitor
 
 The **NeoPixel LED** to the left of the RESET (RST) button can be programmed to glow in different colors using the variable board.NEOPIXEL and the code in the NeoPixel library.
 
