@@ -204,6 +204,7 @@ With a partner or two, build a circuit that will allow you to use pushbutton swi
 
 As you work on this challenge, **be careful not to create a situation where you are sending 12 V to ground only through wires.** That's a short circuit and will cause heat and smoke!
 
+![Motor with question marks](/img/Exercise_2waymotor.jpg)
 
 ## 14. H-bridge circuit analysis, part 1 
 
