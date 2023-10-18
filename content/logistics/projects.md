@@ -11,7 +11,7 @@ The third project is to build a motor controller with the following characterist
 *   It has a power LED that lights up when motor power is available.
 *   It can make a DC motor spin in both directions.
 *   The motor current traces can handle 12 V and 5 A continuously without melting.
-*   It can be controlled by logic signals from a KB2040 (but later, not as part of what you submit for P3).  
+*   It can be controlled by logic signals from a KB2040.  
 
 Here is a graphical version of those first two bullet points about connectors.
 
@@ -26,7 +26,7 @@ To get started building your prototype H-bridge, review the [Low Power/high powe
 
 **Due date for PCB submission: Monday, October 30, 11:59 PM**
 
-When your design is ready, you should [submit it to the fabricator](https://oshpark.com/), OSH Park. It will cost you around $10\. (If this cost is a hardship, please let Kristen or Brandon know, and we will help, no questions asked.) After you submit it, take a screenshot of your order confirmation and upload it to the Project 3 PCB assignment on Canvas (proof that you submitted your project on time). Also, take a screenshot of your PCB design in KiCad and upload that as well (it would be a good idea to save this screenshot for your portfolio). 
+When your design is ready, you should [submit it to the fabricator](https://oshpark.com/), OSH Park. It will cost you around $10\. (If this cost is a hardship, please let Kristen or Brandon know, and we will cover the cost by ordering it for you, no questions asked.) After you submit it, take a screenshot of your order confirmation and upload it to the Project 3 PCB assignment on Canvas (proof that you submitted your project on time). Also, take a screenshot of your PCB design in KiCad and upload that as well (it would be a good idea to save this screenshot for your portfolio). 
 
 
 
