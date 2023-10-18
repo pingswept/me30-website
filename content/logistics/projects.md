@@ -11,7 +11,7 @@ The third project is to build a motor controller with the following characterist
 *   It has a power LED that lights up when motor power is available.
 *   It can make a DC motor spin in both directions.
 *   The motor current traces can handle 12 V and 5 A continuously without melting.
-*   It can be controlled by logic signals from a Feather (but later, not as part of what you submit for P2).  
+*   It can be controlled by logic signals from a KB2040 (but later, not as part of what you submit for P3).  
 
 Here is a graphical version of those first two bullet points about connectors.
 
