@@ -208,31 +208,33 @@ As you work on this challenge, **be careful not to create a situation where you 
 
 ## 14. H-bridge circuit analysis, part 1 
 
-You've just wired up the top left corner of an H-bridge circuit using a P-channel MOSFET. You connect the other motor lead to ground so that you can test this corner before wiring up the transistors at any other corners.  If this corner is wired correctly, what should happen to the motor when the MOSFET gate is connected:
+You've just wired up the top left corner of an H-bridge circuit using a P-channel MOSFET. You connect the other motor lead to ground so that you can test this corner before wiring up the transistors at any other corners.  If this corner is wired correctly, 
+
+1. What should happen to the motor when the MOSFET gate is connected:
 
 - to 12 V?  
 - to ground?  
 
-Sketch the current path for each of those gate states.
+2. Sketch the current path for each of those gate states.
 
 ![Top left corner of an H-bridge](/img/Hbridge-corner.png)
 
-Now you add a BJT as a different method for switching on the P-channel MOSFET. Again, you want to test this corner before moving on to other sections of the H-bridge. If the BJT and P-channel MOSFET in this corner are wired correctly, what should happen to the motor when the BJT base is:
+Now you add a BJT as a different method for switching on the P-channel MOSFET. Again, you want to test this corner before moving on to other sections of the H-bridge. If the BJT and P-channel MOSFET in this corner are wired correctly, 
+
+1. What should happen to the motor when the BJT base is:
 
 - at 3.3 V?  
 - at ground?  
 
-Sketch the current path for each of those base states.
+2. Sketch the current path for each of those base states.
+3. What is the voltage at G for each of those base states?
 
 ![add BJT to corner of an H-bridge](/img/Hbridge-corner-BJT.jpg)
 
 
 ## 15. H-bridge circuit analysis, part 2 
 
-Please click the link below to view and analyze a full H-bridge circuit, with BJT controllers for the P-channel MOSFETs. This analysis will help you know what to expect and how to test your own full H-bridge prototype.
-
-https://tufts.qualtrics.com/jfe/form/SV_086kK9vBZbSdqqG
-
+In this exercise, you'll analyze a full H-bridge circuit, with BJT controllers for the P-channel MOSFETs. This analysis will help you know what to expect and how to test your own full H-bridge prototype.
 
 **This H-bridge circuit has four inputs, shown at locations 1, 2, 3, and 4. Each input turns a transistor on or off.**
 
