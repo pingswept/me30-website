@@ -28,14 +28,14 @@ draft: false
 |     | 10/11 | Digital and analog I/O hardware            | KB2040 challenges    |    [KB2040 programming](http://andnowforelectronics.com/notes/feather-programming/); [KB2040 challenges](http://andnowforelectronics.com/notes/feather-challenges/)    |   
 |  7    | 10/16  | Intro to P3, H-bridges   | Start building an H-bridge    | [H-bridge motor driver](http://andnowforelectronics.com/notes/h-bridge/); [Intro and video for P3](http://andnowforelectronics.com/logistics/projects/#project-2-build-an-h-bridge-motor-controller) | [P2 (game v1)](http://andnowforelectronics.com/logistics/projects) |
 |     | 10/18  | More H-bridge details     | More H-bridge work            |               |               |
-|  8  | 10/23  | Motor power, debugging strategies  |   Motor measurement; H-bridge debugging   |     |[P3 proto](http://andnowforelectronics.com/logistics/projects/#project-2-build-an-h-bridge-motor-controller)|
+|  8  | 10/23  | Motor electrical power, detailed PCB design  |   Motor measurement; H-bridge debugging   |     |[P3 proto](http://andnowforelectronics.com/logistics/projects/#project-2-build-an-h-bridge-motor-controller)|
 
 
 ## Phase 3 - Instructors Swap Classrooms
 
 | Week | Date  | Class topics  | Hands-on  | What to study | What's due  |
 |:----:|:-----:|--------------------------------------------|-------------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------|
-|      | 10/25  | PCB design / lessons learned, intro to P4,  limits of your motors   |  P1 PCB test  | Solder components to your P1 PCB and bring to class  | Soldered P1 PCB |
+|      | 10/25  | Motor mechanical power |  More motor measurement; P1 PCB test  | Solder components to your P1 PCB and bring to class  | Soldered P1 PCB |
 |  9  | 10/30  | Sensors, state machines | More KB2040 challenges  | [KB2040 programming](http://andnowforelectronics.com/notes/feather-programming/); [KB2040 challenges](http://andnowforelectronics.com/notes/feather-challenges/)     | [P3 PCB](http://andnowforelectronics.com/logistics/projects/#project-2-build-an-h-bridge-motor-controller)   |
 |      | 11/1  | PWM for motor control   |  P4 planning  |   |  |
 |  10   | 11/6  | Stepper motors   |  Stepper motors   |    |  |
