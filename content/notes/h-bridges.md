@@ -22,7 +22,7 @@ Typically, the lower two MOSFETs in the circuit are N-channel MOSFETs, while the
 
 Yes, you do. The trick that people use is to a low power NPN bipolar junction transistor, like the 2N3904, to turn on the P-channels, and then a pull-up resistor to turn them off. Then you can control the P-channels through the BJT's using 3.3 V or 5 V logic signals from a microcontroller.
 
-<!--![Rough schematic of an H-bridge](/img/h-bridge-schematic.png)-->
+![Rough schematic of an H-bridge](/img/h-bridge-schematic.png)
 
 
 ## But if we have to use a BJT, why not use that instead of the MOSFET? Why both?
