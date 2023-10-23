@@ -7,7 +7,7 @@ draft: false
 - - -
 ## Week 8: Sunday, 10/22/23
 
-This week we'll be digging into the details of PCB design for more complex circuits, like H-bridges, and we'll explore motor power and efficiency. View the course [Calendar](\(http://andnowforelectronics.com/logistics/calendar/) for all upcoming class topics and activities.
+This week we'll be digging into the details of PCB design for more complex circuits, like H-bridges, and we'll explore motor power and efficiency. View the course [Calendar](http://andnowforelectronics.com/logistics/calendar/) for all upcoming class topics and activities.
 
 **Things due in Week 8:**
 - [Breadboard Prototype for Project 3](http://andnowforelectronics.com/logistics/projects/), the H-bridge motor controller, is due tomorrow, Monday, Oct. 22, 11:59pm. The assignment is to upload a photo of your breadboard H-bridge circuit (with 4 MOSFETs and 2 BJTs) to Canvas. 
