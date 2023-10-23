@@ -1,6 +1,6 @@
 ---
 title: "Motors"
-draft: true
+draft: false
 ---
 
 ## Common characteristics
