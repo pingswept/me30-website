@@ -10,7 +10,7 @@ The third project is to build a motor controller with the following characterist
 *   It also accepts power from a 2.1 x 5.5 mm plug from a 12 V wall adapter.
 *   It has a power LED that lights up when motor power is available.
 *   It can make a DC motor spin in both directions.
-*   The motor current traces can handle 12 V and 5 A continuously without melting.
+*   The motor current traces can handle 12 V and 5 A continuously without melting (see notes on PCB [ampacity](http://andnowforelectronics.com/notes/ampacity/))
 *   It can be controlled by logic signals from a KB2040.  
 
 Here is a graphical version of those first two bullet points about connectors.
