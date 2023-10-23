@@ -5,6 +5,31 @@ draft: false
 ## Weekly Update Emails
 
 - - -
+## Week 8: Sunday, 10/22/23
+
+This week we'll be digging into the details of PCB design for more complex circuits, like H-bridges, and we'll explore motor power and efficiency. View the course [Calendar](\(http://andnowforelectronics.com/logistics/calendar/) for all upcoming class topics and activities.
+
+**Things due in Week 8:**
+- [Breadboard Prototype for Project 3](http://andnowforelectronics.com/logistics/projects/), the H-bridge motor controller, is due tomorrow, Monday, Oct. 22, 11:59pm. The assignment is to upload a photo of your breadboard H-bridge circuit (with 4 MOSFETs and 2 BJTs) to Canvas. 
+- Your KiCad PCB design for Project 3 is due next Monday, Oct. 29, 11:59pm.
+
+**Learning goal for Week 8:**
+- Explain how an H-bridge motor controller works.
+- Improve your skills with PCB design strategies and software.
+- Estimate motor power and efficiency using electrical and mechanical measurements
+- Apply the relationship between motor power, speed, and torque to make design decisions
+
+**Course website (andnowforelectronics.com) pages to study in Week 8:**
+- [Project 3 (H-bridge PCB) description](http://andnowforelectronics.com/logistics/projects/)
+- [Motors](http://andnowforelectronics.com/notes/motors/)
+
+**Optional additional reading for Week 8:**
+- Note that both of our optional course textbooks are available online for free from Tisch Library
+- “Chapter 15: Motors” (pgs. 933-945) in [Practical Electronics for Inventors](https://tufts.primo.exlibrisgroup.com/permalink/01TUN_INST/1fml38t/cdi_askewsholts_vlebooks_9781259587559) (Scherz & Monk) 
+- “Chapter 6: Eeny, Meeny, Miny, Motor: Options for Creating and Controlling Motion” (pgs. 123-181) in [Making Things Move](https://tufts.primo.exlibrisgroup.com/permalink/01TUN_INST/1kc9gia/alma991018812025403851) (Dustyn Roberts)
+
+
+
 ## Week 7: Sunday, 10/15/23
 
 **Shift in lab cycles**
