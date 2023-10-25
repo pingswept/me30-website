@@ -174,3 +174,4 @@ https://docs.google.com/spreadsheets/d/1Y_V_8rgQhnSgg5z3wRCmGc2mLD-aFtRIoKs-uJ67
 
 ![](/img/motor-hub-examples.png)
 
+![motor hub collage](/img/MotorHubCollage.jpg)
