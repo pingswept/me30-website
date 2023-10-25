@@ -262,7 +262,7 @@ The top corners (1 and 4) need to both be set to ground to block current flow to
 **Don't do this -  it will short the circuit!!** In this H-bridge, setting a corner input to 3.3 V turns that corner's MOSFET "on," allowing current to across the source-drain pathway. If all 4 MOSFETs are allowing current to flow, then this circuit's easiest path to ground will be down the two sides of the "H."  No current will flow through the highly resistive motor. The motor will not spin, and the rest of the circuit will get very hot.
 {{< /expand >}}
 
-## 16a. Measure a DC gearmotor (Power In) 
+## 16a. Measure a DC gearmotor (Power In) (Oct. 23)
 
 Here are a few basic measurements you can make to understand your DC gearmotor better. The overall goal is to determine the efficiency of the motor by comparing the electrical power that goes into it ("power in") with the mechanical power it delivers ("power out"). 
 
@@ -277,18 +277,35 @@ When you know the current and the voltage, you can multiply them to find the ele
 
 If you can estimate how much power a task will require, you can start to figure out what voltage this motor would need to deliver that power (assuming perfect efficiency, for now). That's the first step toward deciding whether this is the right motor for whatever you're building.
 
-## 16b. Measure a DC gearmotor (Power Out) 
+## 16b. Measure a DC gearmotor (Power Out) (Oct. 25)
 
 The next step is to determine how much mechanical power the motor actually delivers ("power out"). One way to do this is to measure the time it takes to perform a certain amount of work (i.e., to add energy to a system).
 
 1. Use tape and string to hang a water bottle from your motor shaft.
-2. Measure the time it takes your motor to lift around 0.5 kg of water 0.5 m. Compute the amount of work done in lifting the water. With these two values, you can find "power out."
-3. Compare "power in" and "power out" to estimate the motor's efficiency.
+2. Measure the time it takes your motor to lift around 0.5 kg of water 1 m. Compute the amount of work done in lifting the water. With these two values, you can find "power out."
+3. Compare "power in" and "power out" to estimate the motor's efficiency. You may want to measure "power in" at this motor operating point by measuring current while the water is being lifted.
 
 Post your group's results here: https://docs.google.com/spreadsheets/d/1hPOLsmSsdGBHga9NMayhIXqW0E7COHThiejLpnPMqj8/edit?usp=sharing
 
+## 17. Motor speed-torque curve (Oct. 25)
 
-## 17. Test the current limit of your P1 PCB 
+Fill in values in the boxes to complete the motor speed-torque curve for the DC gearmotor in your ME 30 kit.
+
+![speed torque curve](/img/speed-torque.jpg)
+
+## 18. Motor selection cases (Oct. 25)
+
+For each of these potential motorized game designs, determine whether the mechanical power and torque needs are within the capabilities of the DC gearmotor in your ME 30 kit.
+- Can your motor handle these designs with a direct-drive approach (i.e., no gear trains or pulleys)? Why or why not?
+- If your motor can't handle the design via direct-drive, can it do the job with a gear train or pulley transmission? Why or why not?
+
+![motor case 1](/img/motorcase1.jpg)
+
+![motor case 2](/img/motorcase2.jpg)
+
+![motor case 2](/img/motorcase2.jpg)
+
+## 19. Test the current limit of your P1 PCB 
 
 The voltage regulators on your P1 PCB are specified (on their data sheets) to be able to handle current at the level of 1.5 A (the 5V regulator) and 0.8 A (the 3.3 V regulator). But the question is - **once soldered into your P1 PCB, can they still perform up to their specified max current limit?**  
 
@@ -306,7 +323,7 @@ Use this [shared doc](https://tinyurl.com/ME30questiondoc) to post questions abo
 
 
 
-## 18. How to code your microcontroller to constantly check an input while also running actuators 
+## 20. How to code your microcontroller to constantly check an input while also running actuators 
 
 Suppose you want to check for the state of inputs while also running motors, lights, and other actuators. In particular, you want to flash an LED, constantly check for a button press that sets an input pin HIGH, and flash a different LED when the button is pressed.
 
@@ -390,7 +407,7 @@ while True:
 </pre>
 {{< /expand >}}
 
-## 19. Games Project Reflection 
+## 21. Games Project Reflection 
 
 Whole-class anonymous poll (responses viewable anonymously by the class): https://pollev.com/me30
 
@@ -398,18 +415,18 @@ Your responses: https://tufts.box.com/s/x9fatn1zsfspyp1mi7k9o7qa1rb84o8m
 
 Individual reflection (responses seen only by instructors): https://tufts.qualtrics.com/jfe/form/SV_82I3784cDRJPzX8
 
-## 20. Raspberry Pi setup 
+## 21. Raspberry Pi setup 
 
 Follow the video and text directions here: http://andnowforelectronics.com/notes/pi-setup/
 
-## 21. Project 5 planning and Raspberry Pi Flask set-up 
+## 22. Project 5 planning and Raspberry Pi Flask set-up 
 
 (a) Discuss these Project 5 planning questions with your team: https://docs.google.com/document/d/1ulQfKKEcXGVL5VZVITyimeE2d2Y40JnkMOGGLtVdCfo/edit?usp=sharing
 
 (b) Make sure you can complete [Raspberry Pi challenge #9](http://andnowforelectronics.com/notes/pi-challenges/)
 
 
-## 22. Problem-solving reflection 
+## 23. Problem-solving reflection 
 
 We'll use this document: https://docs.google.com/document/d/1O_xfcv7e3ha_4H89LtY6i9dom4rK-cdWGM7mMMHbSyc/edit?usp=sharing
 
