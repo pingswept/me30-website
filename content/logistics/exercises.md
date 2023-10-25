@@ -303,7 +303,7 @@ For each of these potential motorized game designs, determine whether the mechan
 
 ![motor case 2](/img/motorcase2.jpg)
 
-![motor case 2](/img/motorcase2.jpg)
+![motor case 3](/img/motorcase3.jpg)
 
 ## 19. Test the current limit of your P1 PCB 
 
