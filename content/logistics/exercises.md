@@ -282,7 +282,7 @@ If you can estimate how much power a task will require, you can start to figure 
 The next step is to determine how much mechanical power the motor actually delivers ("power out"). One way to do this is to measure the time it takes to perform a certain amount of work (i.e., to add energy to a system).
 
 1. Use tape and string to hang a water bottle from your motor shaft.
-2. Measure the time it takes your motor to lift around 0.5 kg of water 1 m. Compute the amount of work done in lifting the water. With these two values, you can find "power out."
+2. Measure the time it takes your motor to lift a known weight a specific distance (you could try something like 0.5 kg of water, lifted up 1 m). Compute the amount of work done in lifting the water. With these two values (work and time), you can find "power out."
 3. Compare "power in" and "power out" to estimate the motor's efficiency. You may want to measure "power in" at this motor operating point by measuring current while the water is being lifted.
 
 Post your group's results here: https://docs.google.com/spreadsheets/d/1hPOLsmSsdGBHga9NMayhIXqW0E7COHThiejLpnPMqj8/edit?usp=sharing
