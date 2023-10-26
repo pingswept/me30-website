@@ -2,6 +2,28 @@
 title: "Projects"
 draft: false
 ---
+
+<!-- ## Project 4: Build a microcontroller-based motorized game
+
+Your task is to build a game with the following characteristics:
+
+*   It is controlled by a KB2040 microcontroller.
+*   It has at least one electromechanical element with motion driven by a motor
+*   It has some kind of user input (connected to the circuitry?), like buttons, knobs, joysticks, sensors, or the like (no need to spend your own $ - see note below about the ME 30 Nolop tab).
+*   It is at least sort of fun to play. A blinking LED is not a game.
+*   (It does not need to have a custom PCB, but it can if you want. If it has a custom PCB, you must make a working prototype first.)
+
+Where to get materials for your game:
+
+* Feel free to use anything from your ME 30 kit.
+* Nolop has buttons, potentiometers, LEDs, and materials for laser cutting. You do not need to pay personally for these items. You can use Nolop materials for your projects by "charging" it to the ME 30 tab located on a clipboard on the Nolop front table. (That involves writing down the item and your name.)
+* Bray also has materials for fabrication.
+* If you need something not available at Nolop or Bray, please talk to Brandon or Kristen.
+
+**Due date for game demo: Monday, Nov. 13, 10:30am (IN CLASS)**
+Documentation due on Canvas by Mon., Nov. 13, 11:59pm
+Class on November 13th will take place in the SEC Atrium (both sections together) and will consist entirely of us playing each other's games.-->
+
 ## Project 3: Build an H-bridge motor controller
 
 The third project is to build a motor controller with the following characteristics:
