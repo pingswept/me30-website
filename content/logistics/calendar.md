@@ -36,8 +36,8 @@ draft: false
 | Week | Date  | Class topics  | Hands-on  | What to study | What's due  |
 |:----:|:-----:|--------------------------------------------|-------------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------|
 |      | 10/25  | Intro to P4, Motor mechanical power |  More motor measurement; P1 PCB test  | Solder components to your P1 PCB and bring to class  | Soldered P1 PCB |
-|  9  | 10/30  | Sensors, state machines | More KB2040 challenges  | [KB2040 programming](http://andnowforelectronics.com/notes/feather-programming/); [KB2040 challenges](http://andnowforelectronics.com/notes/feather-challenges/)     | [P3 PCB](http://andnowforelectronics.com/logistics/projects/#project-2-build-an-h-bridge-motor-controller)   |
-|      | 11/1  | PWM for motor control   |  P4 planning  |   |  |
+|  9  | 10/30  | Motor modeling, PWM  | P4 planning  |      | [P3 PCB](http://andnowforelectronics.com/logistics/projects/#project-2-build-an-h-bridge-motor-controller)   |
+|      | 11/1  | Sensors, state machines   |  More KB2040 challenges  | [KB2040 programming](http://andnowforelectronics.com/notes/feather-programming/); [KB2040 challenges](http://andnowforelectronics.com/notes/feather-challenges/)  |  |
 |  10   | 11/6  | Stepper motors   |  Stepper motors   |    |  |
 |     | 11/8  | Discriminatory design   |         |       |    |
 |  11   | 11/13  | P4 reflection   |  P4 (game v2) demo day   |    | P4 (game v2) |
