@@ -325,11 +325,19 @@ Use this [shared doc](https://tinyurl.com/ME30questiondoc) to post questions abo
 
 ## 20. How to code your microcontroller to constantly check an input while also running actuators 
 
-Suppose you want to check for the state of inputs while also running motors, lights, and other actuators. In particular, you want to flash an LED, constantly check for a button press that sets an input pin HIGH, and flash a different LED when the button is pressed.
+Suppose you want to check for the state of inputs while also running motors, lights, and other actuators.
+
+In particular, try to do these three tasks at once:
+
+1. flash an LED, 3 seconds on, 3 seconds off.
+2. constantly check for a button press that sets an input pin HIGH.
+3. flash a *different* LED when the button is pressed.
 
 ### The naive approach
 
-Here's how a novice programmer might try to set up a microcontroller to check for input and flesh a second LED when a button is pressed.  Why will this code probably **not work very well** to accomplish the goal stated above?
+Here's a reasonable first attempt by a novice programmer to set up a microcontroller to check for input and flash a second LED when a button is pressed.
+
+Why will this code probably **not work very well** to accomplish the goal stated above?
 
 {{< expand "Click to see the code that won't work very well" "..." >}}
 <pre class="code">
@@ -349,13 +357,16 @@ button.direction = dio.Direction.INPUT
 led_1.value = False
 
 while True:
+    # toggle the first LED
     if led_1.value is True:
         led_1.value = False
     else:
         led_1.value = True
 
-    time.sleep(1.0)
+    # wait the 3 seconds
+    time.sleep(3.0)
 
+    # check the button and toggle the second LED
     if button.value is True:
         led_2.value = True
     else:
@@ -382,8 +393,8 @@ led_2.direction = dio.Direction.OUTPUT
 button = dio.DigitalInOut(board.D6)
 button.direction = dio.Direction.INPUT
 
-STATE_TOGGLE = 1
-STATE_CHECK_BUTTON = 2
+STATE_TOGGLE = 1       # these are just arbitrary constants used to number the states
+STATE_CHECK_BUTTON = 2 # the values 1 and 2 are not significant
 
 state = STATE_TOGGLE
 next_toggle = 0
@@ -395,7 +406,7 @@ while True:
             led_1.value = False
         else:
             led_1.value = True
-        next_toggle = time.monotonic() + 1.0
+        next_toggle = time.monotonic() + 3.0 # this is like setting a timer to expire 3 seconds in the future
         state = STATE_CHECK_BUTTON
     elif state is STATE_CHECK_BUTTON:
         if button.value is True:
