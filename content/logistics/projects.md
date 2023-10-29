@@ -3,26 +3,29 @@ title: "Projects"
 draft: false
 ---
 
-<!-- ## Project 4: Build a microcontroller-based motorized game
+## Project 4: Build a microcontroller-based game
 
 Your task is to build a game with the following characteristics:
 
 *   It is controlled by a KB2040 microcontroller.
-*   It has at least one electromechanical element with motion driven by a motor
-*   It has some kind of user input (connected to the circuitry?), like buttons, knobs, joysticks, sensors, or the like (no need to spend your own $ - see note below about the ME 30 Nolop tab).
+*   It has at least one part that moves, driven by a motor.
+*   It has some kind of user input, like a button, knob, joystick, sensor, or the like. (Read the note below about the ME 30 Nolop tab).
 *   It is at least sort of fun to play. A blinking LED is not a game.
-*   (It does not need to have a custom PCB, but it can if you want. If it has a custom PCB, you must make a working prototype first.)
+*   (It does not need to have a custom PCB, but it can if you want. If you aim to make a custom PCB, you must make a working prototype first.)
 
-Where to get materials for your game:
+### Where to get materials for your game ###
 
-* Feel free to use anything from your ME 30 kit.
-* Nolop has buttons, potentiometers, LEDs, and materials for laser cutting. You do not need to pay personally for these items. You can use Nolop materials for your projects by "charging" it to the ME 30 tab located on a clipboard on the Nolop front table. (That involves writing down the item and your name.)
-* Bray also has materials for fabrication.
-* If you need something not available at Nolop or Bray, please talk to Brandon or Kristen.
+You can use anything from your ME 30 kit. Additionally, Nolop has buttons, potentiometers, LEDs, and other electronic components, as well as materials for laser cutting. You can use Nolop materials for your projects by recording them on the ME 30 tab located on a clipboard on top of the Nolop store. (At the end of the semester, the ME department pays Nolop back for all the parts we use.)
 
-**Due date for game demo: Monday, Nov. 13, 10:30am (IN CLASS)**
-Documentation due on Canvas by Mon., Nov. 13, 11:59pm
-Class on November 13th will take place in the SEC Atrium (both sections together) and will consist entirely of us playing each other's games.-->
+Bray also has materials for fabrication, leaning more toward the metal/nuts/bolts end of the spectrum.
+
+If you need something not available at Nolop or Bray, please talk to Brandon or Kristen as soon as you can.
+
+**Due date for game: Monday, November 13, 10:30 AM (IN CLASS)**
+
+Documentation due on Canvas by Monday, November 13, 11:59 PM
+
+On November 13th, class for both sections of ME 30 will take place in the SEC atrium. The class will consist entirely of us playing each other's games, and marveling at our collective ingenuity and resourcefulness.
 
 ## Project 3: Build an H-bridge motor controller
 
