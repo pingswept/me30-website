@@ -17,7 +17,9 @@ Your task is to build a game with the following characteristics:
 
 As soon as you can manage it, you should formulate and write down one or more personal learning goals for the project. Building games is cool, but the real point here is for you to gain skills and experience that help you grow as an engineer. That works best when your heart is in it; this is your chance to follow where your heart leads. (Okay, that's a bit cheesy, but also true.)
 
-At the end of the project, when you submit your documentation, we'll ask you what your learning goal was and whether you met it.
+**By Wednesday, November 1, 11:59 PM, please complete the learning goal assignment on Canvas.**
+
+At the end of the project, when you submit your documentation, we'll ask you whether you met your learning goal.
 
 ### Where to get materials for your game ###
 
