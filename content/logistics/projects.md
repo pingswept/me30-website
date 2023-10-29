@@ -3,13 +3,13 @@ title: "Projects"
 draft: false
 ---
 
-## Project 4: Build a microcontroller-based game
+## Project 4: Build an electromechanical game
 
 Your task is to build a game with the following characteristics:
 
 *   It is controlled by a KB2040 microcontroller.
-*   It has at least one part that moves, driven by a motor.
-*   It has some kind of user input, like a button, knob, joystick, sensor, or the like. (Read the note below about the ME 30 Nolop tab).
+*   It has some kind of user input, like a button, knob, joystick, sensor, or the like, that talks to the microcontroller. (Read the note below about the ME 30 Nolop tab).
+*   It has at least one part that moves, driven by a motor or a similar actuator.
 *   It is at least sort of fun to play. A blinking LED is not a game.
 *   (It does not need to have a custom PCB, but it can if you want. If you aim to make a custom PCB, you must make a working prototype first.)
 
