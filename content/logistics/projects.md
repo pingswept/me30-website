@@ -13,9 +13,15 @@ Your task is to build a game with the following characteristics:
 *   It is at least sort of fun to play. A blinking LED is not a game.
 *   (It does not need to have a custom PCB, but it can if you want. If you aim to make a custom PCB, you must make a working prototype first.)
 
+### Personal learning goals ###
+
+As soon as you can manage it, you should formulate and write down one or more personal learning goals for the project. Building games is cool, but the real point here is for you to gain skills and experience that help you grow as an engineer. That works best when your heart is in it; this is your chance to follow where your heart leads. (Okay, that's a bit cheesy, but also true.)
+
+At the end of the project, when you submit your documentation, we'll ask you what your learning goal was and whether you met it.
+
 ### Where to get materials for your game ###
 
-You can use anything from your ME 30 kit. Additionally, Nolop has buttons, potentiometers, LEDs, and other electronic components, as well as materials for laser cutting. You can use Nolop materials for your projects by recording them on the ME 30 tab located on a clipboard on top of the Nolop store. (At the end of the semester, the ME department pays Nolop back for all the parts we use.)
+To build the game, you can use anything from your ME 30 kit, as well as anything else you can lay your hands on. Additionally, Nolop has buttons, potentiometers, LEDs, and other electronic components, as well as materials for laser cutting. You can use Nolop materials for your projects by recording them on the ME 30 tab located on a clipboard on top of the Nolop store. (At the end of the semester, the ME department pays Nolop back for all the parts we use.)
 
 Bray also has materials for fabrication, leaning more toward the metal/nuts/bolts end of the spectrum.
 
