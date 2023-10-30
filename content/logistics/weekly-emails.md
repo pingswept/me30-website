@@ -16,7 +16,7 @@ This week we'll introduce more circuitry and coding techniques for use in the ne
 **Learning goals for Week 9:**
 - Apply the relationship between motor power, speed, and torque to make design decisions.
 - Use the PWM module to control motor speed.
-- Continue gaining familiarity with motor control, digital and analog input, and CircuitPython programming.
+- Use the KB2040 to process analog input from a sensor.
 
 **Course website (andnowforelectronics.com) pages to study in Week 9:**
 - [Project 4 (more complex game) description](http://andnowforelectronics.com/logistics/projects/)
@@ -24,9 +24,9 @@ This week we'll introduce more circuitry and coding techniques for use in the ne
 - [KB2040 Challenges, Set 2](http://andnowforelectronics.com/notes/kb2040-challenges/)
 
 **Some good resources for figuring out how to convert the rotational motion of a motor shaft to other useful motion**
-•	“Chapter 8: Combining Simple Machines for Work and Fun” in *Making Things Move* (Dustyn Roberts), available online to Tufts students from Tisch Library
-•	507 Mechanical Movements: http://507movements.com/toc.html
-•	LEGO Technic Mechanisms (you can take inspiration from these even when not building with LEGO): https://www.hispabrickmagazine.com/pdfs/HBM017_EN/HBM017_EN-52-54.pdf
+- “Chapter 8: Combining Simple Machines for Work and Fun” in *Making Things Move* (Dustyn Roberts), available online to Tufts students from Tisch Library
+- 507 Mechanical Movements: http://507movements.com/toc.html
+- LEGO Technic Mechanisms (you can take inspiration from these even when not building with LEGO): https://www.hispabrickmagazine.com/pdfs/HBM017_EN/HBM017_EN-52-54.pdf
 
 
 ## Week 8: Sunday, 10/22/23
