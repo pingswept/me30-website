@@ -5,6 +5,30 @@ draft: false
 ## Weekly Update Emails
 
 - - -
+## Week 9: Sunday, 10/29/23
+
+This week we'll introduce more circuitry and coding techniques for use in the next open-ended project - a more complex electromechanical game. View the course [Calendar](http://andnowforelectronics.com/logistics/calendar/) for all upcoming class topics and activities.
+
+**Things due in Week 9:**
+- [PCB Design for Project 3](http://andnowforelectronics.com/logistics/projects/), the H-bridge motor controller, is due on Canvas tomorrow, Monday, Oct. 30, 11:59pm. You'll need to upload your KiCad circuit schematic, PCB layout, and your OSHPark order confirmation. As with the P1 PCB, if the cost of ordering is a hardship, please reach out to Kristen or Brandon, and they will place the order for you.
+- [Learning Goal and 1-sentence plan for Project 4](http://andnowforelectronics.com/logistics/projects/), the more complext game, is due on Canvas on Wednesday, Nov. 1
+
+**Learning goals for Week 9:**
+- Apply the relationship between motor power, speed, and torque to make design decisions.
+- Use the PWM module to control motor speed.
+- Continue gaining familiarity with motor control, digital and analog input, and CircuitPython programming.
+
+**Course website (andnowforelectronics.com) pages to study in Week 9:**
+- [Project 4 (more complex game) description](http://andnowforelectronics.com/logistics/projects/)
+- [Motors](http://andnowforelectronics.com/notes/motors/)
+- [KB2040 Challenges, Set 2](http://andnowforelectronics.com/notes/kb2040-challenges/)
+
+**Some good resources for figuring out how to convert the rotational motion of a motor shaft to other useful motion**
+•	“Chapter 8: Combining Simple Machines for Work and Fun” in *Making Things Move* (Dustyn Roberts), available online to Tufts students from Tisch Library
+•	507 Mechanical Movements: http://507movements.com/toc.html
+•	LEGO Technic Mechanisms (you can take inspiration from these even when not building with LEGO): https://www.hispabrickmagazine.com/pdfs/HBM017_EN/HBM017_EN-52-54.pdf
+
+
 ## Week 8: Sunday, 10/22/23
 
 This week we'll be digging into the details of PCB design for more complex circuits, like H-bridges, and we'll explore motor power and efficiency. View the course [Calendar](http://andnowforelectronics.com/logistics/calendar/) for all upcoming class topics and activities.
@@ -13,7 +37,7 @@ This week we'll be digging into the details of PCB design for more complex circu
 - [Breadboard Prototype for Project 3](http://andnowforelectronics.com/logistics/projects/), the H-bridge motor controller, is due tomorrow, Monday, Oct. 22, 11:59pm. The assignment is to upload a photo of your breadboard H-bridge circuit (with 4 MOSFETs and 2 BJTs) to Canvas. 
 - Your KiCad PCB design for Project 3 is due next Monday, Oct. 29, 11:59pm.
 
-**Learning goal for Week 8:**
+**Learning goals for Week 8:**
 - Explain how an H-bridge motor controller works.
 - Improve your skills with PCB design strategies and software.
 - Estimate motor power and efficiency using electrical and mechanical measurements
