@@ -217,9 +217,9 @@ while True:
     time.sleep(0.5)
 </pre>
 
-<hr>
 
-### PWMIO library
+
+### PWMIO library for motor speed control
 
 To use these commands, include the command “import pwmio” at the start of your code.
 
@@ -261,7 +261,7 @@ while True:
     time.sleep(3)
 </pre>
 
-<hr>
+
 
 ### ANALOGIO library
 
