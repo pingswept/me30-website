@@ -217,6 +217,8 @@ while True:
     time.sleep(0.5)
 </pre>
 
+<hr>
+
 ### PWMIO library
 
 To use these commands, include the command “import pwmio” at the start of your code.
@@ -228,6 +230,38 @@ creates a new object called “xyz” that will hold all the information about s
 **xyz.duty_cycle = 32000**
     
 at whatever KB2040 pin belongs to the PWM object xyz, changes the duty cycle of the PWM voltage to 32000.  For the RP2040 chip on the KB2040, the duty cycle maximum is 65535; max duty cycle means the output is high 100% of the time.
+ 
+**What is the difference between *frequency* and *duty cycle* in PWM?**
+- Frequency: This CircuitPython parameter refers to the number of motor control cycles (voltage pulse initiations) per second
+Set this to 500 for the KB2040, because its main processing chip can handle outputting that many cycles per second.
+- Duty_cycle: This CircuitPython parameter refers to the duration of time within one motor control cycle at which the voltage is ON or HIGH (i.e., 3.3 V).
+
+For the KB2040, a duty cycle value of 65536 corresponds to the voltage being turned on for 100% of the cycle, which means the motor gets 100% of the voltage available to it.
+
+Because 50% of 65536 is about 32800, a duty cycle of about 32800 corresponds to the voltage being set high for 50% of the cycle, or the motor getting about 50% of the voltage available to it. The motor will spin at half speed.
+
+A duty cycle of about 6500 corresponds to the voltage being set high for 10% of the cycle, or the motor getting about 10% of the voltage available to it.  The motor would spin at 10% speed IF that is enough voltage to overcome its internal friction (you’ll probably find that it’s not enough voltage for the motor to turn at all).
+
+Here is some sample CircuitPython code that uses PWM to run a motor first at full speed, then at half speed, and then at quarter speed. Note that we have to import the pwmio library to run this code, and we have to initiate a pin as a pwmio.PWMOut pin.
+
+<pre class="code">
+import board
+import pwmio
+import time
+
+my_control_pin = pwmio.PWMOut(board.D6, frequency=500, duty_cycle=0)
+# creates a new object called “my_control_pin” that will hold all the information about sending out pulse-width modulation at pin D6
+
+while True:
+    my_control_pin.duty_cycle = 65535
+    time.sleep(3)
+    my_control_pin.duty_cycle = 32800
+    time.sleep(3)
+    my_control_pin.duty_cycle = 16400
+    time.sleep(3)
+</pre>
+
+<hr>
 
 ### ANALOGIO library
 
