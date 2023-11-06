@@ -283,7 +283,7 @@ while True:
     time.sleep(0.1)
 </pre>
     
-### Libraries for sensors and stepper motors
+## Sensors
     
 If you want to program more specialized devices like stepper motors or particular sensors, you may need to download additional CircuitPython libraries (that don't come with CircuitPython uf2 file itself) onto your KB2040. You can learn about how that works at the Welcome to CircuitPython libraries [page](https://learn.adafruit.com/welcome-to-circuitpython/circuitpython-libraries)
 
@@ -293,14 +293,16 @@ The full set of CircuitPython libraries for the KB2040 can be downloaded [here](
     
 For distance sensor reading, check out [this page](https://learn.adafruit.com/ultrasonic-sonar-distance-sensors/python-circuitpython) to see what libraries you need.
 
-For stepper motor control, you'll need the **adafruit_motor library** (and two H-bridges). You can find helpful wiring diagrams [here](https://lastminuteengineers.com/stepper-motor-l298n-arduino-tutorial/).
+## Stepper Motors
+
+For stepper motor control, you'll need the **adafruit_motor library** (and two H-bridges). See note in the Sensors section about downloading libraries. You can find helpful stepper motor wiring diagrams [here](https://lastminuteengineers.com/stepper-motor-l298n-arduino-tutorial/).
     
 {{< expand "Click to see some stepper motor code" "..." >}}
 <pre class="code">
 # SPDX-FileCopyrightText: 2021 ladyada for Adafruit Industries
 # SPDX-License-Identifier: MIT
 
-# Use this example for digital pin control of an H-bridge driver
+# Use this example for digital pin control of a motor driver with two H-bridges
 # like a DRV8833, TB6612 or L298N.
 
 import time
@@ -343,7 +345,7 @@ motor = stepper.StepperMotor(coils[0], coils[1], coils[2], coils[3], microsteps=
 # https://learn.adafruit.com/adafruit-stepper-dc-motor-featherwing/circuitpython
 
 for step in range(STEPS):
-    motor.onestep(direction=stepper.FORWARD, style=stepper.INTERLEAVE)
+    motor.onestep()
     time.sleep(DELAY)
 
 motor.release()
