@@ -180,6 +180,9 @@ To use this command, include the command “import time” at the start of your 
 
 **time.sleep(N)**: do nothing for N seconds
 
+**time.monotonic()**: returns the current time in seconds, related to some unknown reference time
+
+
 ### BOARD and DIGITALIO library
 
 To use these commands, include the command “import board” and “import digitalio” at the start of your code.
@@ -297,7 +300,9 @@ For distance sensor reading, check out [this page](https://learn.adafruit.com/ul
 
 ## Stepper Motors
 
-For stepper motor control, you'll need the **adafruit_motor library** (and two H-bridges). See note in the Sensors section about downloading libraries. You can find helpful stepper motor wiring diagrams [here](https://lastminuteengineers.com/stepper-motor-l298n-arduino-tutorial/).
+For stepper motor control, you'll need the **adafruit_motor library** (and two H-bridges). All CircuitPython libraries for the KB2040 can be downloaded [here](https://circuitpython.org/libraries). Download the entire library bundle to your **laptop,** and then transfer ONLY the libraries you need to your KB2040. 
+
+You can find helpful stepper motor wiring diagrams [here](https://lastminuteengineers.com/stepper-motor-l298n-arduino-tutorial/).
     
 {{< expand "Click to see some stepper motor code" "..." >}}
 <pre class="code">
@@ -305,7 +310,9 @@ For stepper motor control, you'll need the **adafruit_motor library** (and two H
 # SPDX-License-Identifier: MIT
 
 # Use this example for digital pin control of a motor driver with two H-bridges
-# like a DRV8833, TB6612 or L298N.
+# which you can make on two breadboards or find pre-made on a L298N PCB.
+# This code uses the adafruit_motor library, available for download at
+# https://circuitpython.org/libraries
 
 import time
 import board
