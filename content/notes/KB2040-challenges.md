@@ -54,6 +54,8 @@ draft: false
 
 ![py7](/img/challenge7py.jpg)
 
+![py8](/img/challenge8py.jpg)
+
 ![py9](/img/challenge9py.jpg)
 
 ![py10](/img/challenge10py.jpg)
