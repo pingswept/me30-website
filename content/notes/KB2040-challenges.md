@@ -24,12 +24,14 @@ draft: false
 12. Use an H-bridge circuit to make your gearmotor spin clockwise for 5 seconds, then counterclockwise for 5 seconds, using pins D5 and D6.
 
 ### Hints
-{{< expand "Click to see circuit schematics for all the challenges." "..." >}}
+
+{{< expand "Click to see circuit schematics for the challenges" "..." >}}
 
 ![schematics](/img/Challenge_Schematics.jpg)
 {{< /expand >}} 
 
-{{< expand "Click to see wiring diagrams for all the challenges." "..." >}}
+
+{{< expand "Click to see wiring diagrams for the challenges" "..." >}}
 
 ![wiring 1-7](/img/Challenge_Wiring1-7.jpg)
 
