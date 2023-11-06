@@ -250,7 +250,9 @@ import pwmio
 import time
 
 my_control_pin = pwmio.PWMOut(board.D6, frequency=500, duty_cycle=0)
-# creates a new object called “my_control_pin” that will hold all the information about sending out pulse-width modulation at pin D6
+# creates a new object called “my_control_pin” that will hold all 
+    # the information about sending out 
+    # pulse-width modulation at pin D6
 
 while True:
     my_control_pin.duty_cycle = 65535
