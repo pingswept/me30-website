@@ -40,4 +40,28 @@ draft: false
 ![wiring 11-12](/img/Challenge_Wiring11-12.jpg)
 {{< /expand >}} 
 
+{{< expand "Click to see CircuitPython code for the challenges" "..." >}}
+
+![py1](/img/challenge1py.jpg)
+
+![py2](/img/challenge2py.jpg)
+
+![py3](/img/challenge3py.jpg)
+
+![py4](/img/challenge4py.jpg)
+
+![py6](/img/challenge6py.jpg)
+
+![py7](/img/challenge7py.jpg)
+
+![py9](/img/challenge9py.jpg)
+
+![py10](/img/challenge10py.jpg)
+
+![py11](/img/challenge11py.jpg)
+
+![py12](/img/challenge12py.jpg)
+
+{{< /expand >}} 
+
 [^1]: If you're like Kristen and didn't get this cultural reference, here's an explanation: https://knowyourmeme.com/memes/i-for-one-welcome-our-new-insect-overlords
