@@ -25,13 +25,13 @@ draft: false
 
 ### Hints
     {{< expand "Click to see circuit schematics for all the challenges." "..." >}}
-!Challenge_Schematics.jpg
+![schematics](/img/Challenge_Schematics.jpg)
 {{< /expand >}} 
 
     {{< expand "Click to see wiring diagrams for all the challenges." "..." >}}
-!Challenge_Wiring1-7.jpg
-!Challenge_Wiring8-10.jpg
-!Challenge_Wiring11-12.jpg
+![wiring 1-7](/img/Challenge_Wiring1-7.jpg)
+![wiring 8-10](/img/Challenge_Wiring8-10.jpg)
+![wiring 11-12](/img/Challenge_Wiring11-12.jpg)
 {{< /expand >}} 
 
 [^1]: If you're like Kristen and didn't get this cultural reference, here's an explanation: https://knowyourmeme.com/memes/i-for-one-welcome-our-new-insect-overlords
