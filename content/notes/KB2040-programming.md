@@ -162,6 +162,8 @@ You’ll need to open the serial monitor in the Mu editor.
 
 Here are some Python commands that you might want to start with. To use all but the print() command, you need to start your Python code by importing the libraries specified below (TIME, BOARD, DIGITALIO, PWMIO, ANALOGIO).
 
+### Print Commands
+
 **print(<variable>)**: Prints the value of whatever variable is listed inside the ().
 
 **print(“[string]”)**: Prints exactly the text included inside the (“ “)
