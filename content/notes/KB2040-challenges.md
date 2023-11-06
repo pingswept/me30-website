@@ -25,12 +25,16 @@ draft: false
 
 ### Hints
     {{< expand "Click to see circuit schematics for all the challenges." "..." >}}
+
 ![schematics](/img/Challenge_Schematics.jpg)
 {{< /expand >}} 
 
     {{< expand "Click to see wiring diagrams for all the challenges." "..." >}}
+
 ![wiring 1-7](/img/Challenge_Wiring1-7.jpg)
+
 ![wiring 8-10](/img/Challenge_Wiring8-10.jpg)
+
 ![wiring 11-12](/img/Challenge_Wiring11-12.jpg)
 {{< /expand >}} 
 
