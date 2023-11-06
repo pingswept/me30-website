@@ -20,5 +20,18 @@ draft: false
 8. Use your potentiometer to make a variable voltage. Read the voltage with pin A0, then print the voltage (in volts) to the serial monitor.
 9. Use your potentiometer on pin A0 to control the speed of your gearmotor on pin D6.
 10. Use a resistor in series with your photoresistor to make a voltage that changes with light exposure. Use that voltage to control the speed of your gearmotor on pin D6.
+11. Using D6 for motor control, use a pushbutton on pin D5 to trigger when your motor is on and off.
+12. Use an H-bridge circuit to make your gearmotor spin clockwise for 5 seconds, then counterclockwise for 5 seconds, using pins D5 and D6.
+
+### Hints
+    {{< expand "Click to see circuit schematics for all the challenges." "..." >}}
+!Challenge_Schematics.jpg
+{{< /expand >}} 
+
+    {{< expand "Click to see wiring diagrams for all the challenges." "..." >}}
+!Challenge_Wiring1-7.jpg
+!Challenge_Wiring8-10.jpg
+!Challenge_Wiring11-12.jpg
+{{< /expand >}} 
 
 [^1]: If you're like Kristen and didn't get this cultural reference, here's an explanation: https://knowyourmeme.com/memes/i-for-one-welcome-our-new-insect-overlords
