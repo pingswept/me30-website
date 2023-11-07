@@ -40,6 +40,8 @@ Different stakeholders can be located on a 2-dimensional plot of relative intere
 
 **Part A.** For each of the three technologies, assign one student on your team to conduct stakeholder mapping according to Steps 1 and 2 above. Use specific ideas from the provided article or website as sources of evidence for your analysis. You are welcome to conduct additional research on the technology as well.
 
+Record your analysis on the handout provided. Take a photo of your work and upload it to the Canvas assignment for today's activity. (Each student should upload a photo individually.)
+
 **1) Automatic hand soap dispenser**
 https://www.newegg.com/p/0BK-017D-00180
 
@@ -52,9 +54,14 @@ https://rmi.org/the-ev-battery-supply-chain-explained/
 **Part B.** Share your findings across the three technologies. Discuss the question:
 (need to add compare/contrast question here, something about discriminatory benefits/burdens at three different levels or spheres of impact )
 
+After discussion, post your answer in the Canvas quiz for today's activity.
+
 **Part C.** Click the box below to read about a hypothetical design plan. Use stakeolder analysis (Steps 1 and 2 above) to make a recommendation about whether to proceed with this design work.
 
 Kindlevan robot case goes here, in expandable box
+
+After discussion, post your own final recommendation in the Canvas quiz for today's activity.
+
 
 **References / Where to Learn More**
 
@@ -62,6 +69,7 @@ Drones for Good
 
 Donna Riley
 
+etc
 
 
 
