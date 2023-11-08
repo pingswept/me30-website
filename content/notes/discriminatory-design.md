@@ -38,7 +38,7 @@ Different stakeholders can be located on a 2-dimensional plot of relative intere
 
 ## In-Class Exercise for Nov. 8
 
-### Part A.
+### Part A. (20-25 min)
 
 For each of the three technologies, assign one student on your team to conduct stakeholder mapping according to Steps 1 and 2 above. Use specific information from the provided resources as sources of evidence for your analysis. You are welcome to conduct additional research on the technology as well.
 
@@ -72,7 +72,7 @@ Resources:
 - "EV Batteries 101: The Basics." Carreon, A. (Mar., 2023). Rocky Mountain Institute. https://rmi.org/ev-batteries-101-the-basics/
   
 
-### Part B.
+### Part B. (15-20 min)
 
 Within your team, share your findings across the three technologies and discuss the following question:
 
@@ -80,7 +80,7 @@ How does the potential for discriminatory benefits & burdens compare across auto
 
 After your group discussion, post your answer in the Canvas quiz for today's activity.
 
-### Part C.
+### Part C. (~20 min)
 
 Click the box below to read about a technology design proposal. Use stakeholder analysis (Steps 1 and 2 above) to make a recommendation about whether to proceed with this design work.
 
