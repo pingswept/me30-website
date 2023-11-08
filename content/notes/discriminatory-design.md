@@ -70,11 +70,11 @@ If the  MIT Tech Review link doesn't work for you, access a PDF version [here.](
 Resources:
 - "The EV Battery Supply Chain Explained." Carreon, A. (May, 2023). Rocky Mountain Institute. https://rmi.org/the-ev-battery-supply-chain-explained/
 - "EV Batteries 101: The Basics." Carreon, A. (Mar., 2023). Rocky Mountain Institute. https://rmi.org/ev-batteries-101-the-basics/
-- 
+  
 
 ### Part B.
 
-Share your findings across the three technologies and discuss the following question:
+Within your team, share your findings across the three technologies and discuss the following question:
 
 How does the potential for discriminatory benefits & burdens compare across automatic soap dispensers, elder care robots, and EV batteries? To what extent is each of these technologies an example of discriminatory design, if at all?
 
