@@ -24,7 +24,7 @@ As designers identify stakeholders, benefits, and burdens, they consider:
 - accessibility of the technology
 - safety of the technology
 
-![image](static/img/StakeholderAnalysis.jpg)
+![image](/img/StakeholderAnalysis.jpg)
 
 ### Step 2 – Interest and Power Analysis
 
@@ -34,7 +34,7 @@ Different stakeholders can be located on a 2-dimensional plot of relative intere
 
 **Power** means how much influence a stakeholder has on the technology.
 
-![image](static/img/PowerInterest.jpg)
+![image](/img/PowerInterest.jpg)
 
 ## Your Task
 
@@ -71,7 +71,7 @@ After your group discussion, post your answer in the Canvas quiz for today's act
 
 **Part C.** Click the box below to read about a hypothetical design plan. Use stakeholder analysis (Steps 1 and 2 above) to make a recommendation about whether to proceed with this design work.
 
-Kindlevan robot case goes here, in expandable box
+![Kindlevan robot PDF](/pdf/KindlevanRobotCase.pdf)
 
 After your group discussion, post your own final recommendation in the Canvas quiz for today's activity.
 
