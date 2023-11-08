@@ -86,7 +86,7 @@ Click the box below to read about a technology design proposal. Use stakeholder 
 
 {{< expand "Click to see the proposal." "..." >}}
 
-![Kindlevan robot PDF](/pdf/KindlevanRobotCase.pdf)
+[Kindlevan robot PDF](/pdf/KindlevanRobotCase.pdf)
 
 {{< /expand >}} 
 
