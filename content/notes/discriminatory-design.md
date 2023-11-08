@@ -5,7 +5,7 @@ draft: false
 
 # Identifying and mitigating discriminatory design impacts
 
-One goal of ME 30 is to empower you to use tools of electronics and robotics to design new technologies. We acknowledge that with that power comes much responsibility, including the responsibility to understand and reduce the potential for electronic systems to negatively impact some individuals and groups even as they positively impact the lives or work of others.
+One goal of ME 30 is to empower you to use tools of electronics and robotics to design new technologies. We acknowledge that with that power comes much responsibility.
 
 ## Stakeholder Mapping
 
@@ -18,11 +18,11 @@ Analyzing stakeholders is a practice that can help engineers recognize the varie
 The most generative stakeholder analysis, consider not just the direct operation of the technology by a single user but also its production, disposal, and use at scale.
 
 As designers identify stakeholders, benefits, and burdens, they consider: 
-- labor required to produce, operate, and dispose of the technology
-- energy consumption required to produce, operate, and dispose of the technology
-- materials used in the technology
-- accessibility of the technology
-- safety of the technology
+- **labor** required to produce, operate, and dispose of the technology
+- **energy consumption** required to produce, operate, and dispose of the technology
+- **materials** used in the technology
+- **accessibility** of the technology
+- **safety** of the technology
 
 ![image](/img/StakeholderAnalysis.jpg)
 
@@ -36,11 +36,15 @@ Different stakeholders can be located on a 2-dimensional plot of relative intere
 
 ![image](/img/PowerInterest.jpg)
 
-## Your Task
+## In-Class Exercise for Nov. 8
 
-**Part A.** For each of the three technologies, assign one student on your team to conduct stakeholder mapping according to Steps 1 and 2 above. Use specific ideas from the provided article or website as sources of evidence for your analysis. You are welcome to conduct additional research on the technology as well.
+### Part A.
+
+For each of the three technologies, assign one student on your team to conduct stakeholder mapping according to Steps 1 and 2 above. Use specific ideas from the provided article or website as sources of evidence for your analysis. You are welcome to conduct additional research on the technology as well.
 
 Record your analysis on the handout provided. Take a photo of your work and upload it to the Canvas assignment for today's activity. (Each student should upload a photo individually.)
+
+- - -
 
 **Technology #1: Automatic hand soap dispenser**
 
@@ -48,14 +52,18 @@ Resources:
 - Product description: https://www.newegg.com/p/0BK-017D-00180
 - Infrared sensors explained: "The Right Tool for the Job: Active and Passive Infrared Sensors" (2018). Arrow Electronics. https://www.arrow.com/en/research-and-events/articles/understanding-active-and-passive-infrared-sensors
 
+- - -
+
+
 **Technology #2: “Care robot” for elderly people in Japan**
 
 Resources:
 - Product description for the Pepper robot: https://www.aldebaran.com/en/pepper
 - "Inside Japan's long experiment with automating elder care." Wright, J. (Jan., 2023). MIT Technology Review. https://www.technologyreview.com/2023/01/09/1065135/japan-automating-eldercare-robots/
   
-*If the  MIT Tech Review link doesn't work for you, access a PDF version [here.]*(https://www.dropbox.com/scl/fi/kdmyj8q21e3bd72jdqtgj/Wright_TechReview_2023_RobotsJapanElderCare.pdf?rlkey=o3m3qxg921wai6myqk8r3lxi7&dl=0)
+If the  MIT Tech Review link doesn't work for you, access a PDF version [here.](https://www.dropbox.com/scl/fi/kdmyj8q21e3bd72jdqtgj/Wright_TechReview_2023_RobotsJapanElderCare.pdf?rlkey=o3m3qxg921wai6myqk8r3lxi7&dl=0)
 
+- - -
 
 **Technology #3: Electric vehicle batteries**
 
@@ -63,13 +71,18 @@ Resources:
 - "The EV Battery Supply Chain Explained." Carreon, A. (May, 2023). Rocky Mountain Institute. https://rmi.org/the-ev-battery-supply-chain-explained/
 - "EV Batteries 101: The Basics." Carreon, A. (Mar., 2023). Rocky Mountain Institute. https://rmi.org/ev-batteries-101-the-basics/
 - 
-**Part B.** Share your findings across the three technologies and discuss the following question:
+
+### Part B.
+
+Share your findings across the three technologies and discuss the following question:
 
 How does the potential for discriminatory benefits & burdens compare across automatic soap dispensers, elder care robots, and EV batteries?
 
 After your group discussion, post your answer in the Canvas quiz for today's activity.
 
-**Part C.** Click the box below to read about a technology design proposal. Use stakeholder analysis (Steps 1 and 2 above) to make a recommendation about whether to proceed with this design work.
+### Part C.
+
+Click the box below to read about a technology design proposal. Use stakeholder analysis (Steps 1 and 2 above) to make a recommendation about whether to proceed with this design work.
 
 {{< expand "Click to see the proposal." "..." >}}
 
