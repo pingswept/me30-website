@@ -5,9 +5,7 @@ draft: false
 
 # Identifying and mitigating discriminatory design impacts
 
-One goal of ME 30 is to empower you to use tools of electronics and robotics to design new technologies. We acknowledge that with that power comes much responsibility, including the responsibility to "hold paramount the welfare of the public" (Nat. Soc. of Prof. Engineers Code of Ethics).
-
-**What is discriminatory design?** A design can be considered discriminatory if its burdens fall disproportionately on individuals who belong to a marginalized group, such as people of color.
+One goal of ME 30 is to empower you to use tools of electronics and robotics to design new technologies. We acknowledge that with that power comes much responsibility, including the responsibility to avoid discriminatory design -- that is, the creation of a technology whose burdensome impacts fall disproportionately on individuals who belong to a marginalized group, such as people of color.
 
 ## Stakeholder Mapping
 
@@ -30,7 +28,7 @@ As designers identify stakeholders, benefits, and burdens, they consider:
 
 ### Step 2 – Interest and Power Analysis
 
-Different stakeholders can be located on a 2-dimensional plot of relative interest (the importance to stakeholder) vs power (influence over technology). Weighing potential benefits and burdens and considering whether they align with one’s values can help engineers come to a decision on whether or not to pursue a project or design change.
+Different stakeholders can be located on a 2-dimensional plot of relative interest (the importance to stakeholder) vs power (influence over technology). Weighing potential benefits and burdens according to stakeholder position can help engineers come to a decision on whether or not to pursue a project or design change.
 
 **Interest** means how much a stakeholder will be affected by the technology, whether or not they are aware of that impact. 
 
@@ -96,14 +94,15 @@ Click the box below to read about a technology design proposal. Use stakeholder 
 After your group discussion, post your own final recommendation in the Canvas quiz for today's activity.
 
 
-**References / Where to Learn More**
+**References**
 
-Drones for Good
+Benjamin, R. (2019). *Race After Technology: Abolitionist Tools for the New Jim Code.* Polity.
 
-Donna Riley
+O’brolcháin, F., De Colle, S., & Gordijn, B. (2019). The ethics of smart stadia: a stakeholder analysis of the Croke Park project. Science and engineering ethics, 25(3), 737-769.
 
-etc
+Hoople, G. D., & Choi-Fitzpatrick, A. (2022). *Drones for Good: How to Bring Sociotechnical Thinking into the Classroom.* Springer.
 
+Riley, D. (2008). *Engineering and Social Justice.* Morgan Claypool.
 
 
 
