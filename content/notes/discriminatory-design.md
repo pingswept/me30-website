@@ -40,7 +40,7 @@ Different stakeholders can be located on a 2-dimensional plot of relative intere
 
 ### Part A.
 
-For each of the three technologies, assign one student on your team to conduct stakeholder mapping according to Steps 1 and 2 above. Use specific ideas from the provided article or website as sources of evidence for your analysis. You are welcome to conduct additional research on the technology as well.
+For each of the three technologies, assign one student on your team to conduct stakeholder mapping according to Steps 1 and 2 above. Use specific information from the provided resources as sources of evidence for your analysis. You are welcome to conduct additional research on the technology as well.
 
 Record your analysis on the handout provided. Take a photo of your work and upload it to the Canvas assignment for today's activity. (Each student should upload a photo individually.)
 
