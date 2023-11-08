@@ -69,9 +69,14 @@ How does the potential for discriminatory benefits & burdens compare across auto
 
 After your group discussion, post your answer in the Canvas quiz for today's activity.
 
-**Part C.** Click the box below to read about a hypothetical design plan. Use stakeholder analysis (Steps 1 and 2 above) to make a recommendation about whether to proceed with this design work.
+**Part C.** Click the box below to read about a technology design proposal. Use stakeholder analysis (Steps 1 and 2 above) to make a recommendation about whether to proceed with this design work.
+
+{{< expand "Click to see the proposal." "..." >}}
 
 ![Kindlevan robot PDF](/pdf/KindlevanRobotCase.pdf)
+
+{{< /expand >}} 
+
 
 After your group discussion, post your own final recommendation in the Canvas quiz for today's activity.
 
