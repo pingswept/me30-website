@@ -1,6 +1,6 @@
 ---
 title: "Discriminatory design"
-draft: true
+draft: false
 ---
 
 # Identifying and mitigating discriminatory design impacts
