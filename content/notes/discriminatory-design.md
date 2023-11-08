@@ -94,7 +94,7 @@ Click the box below to read about a technology design proposal. Use stakeholder 
 After your group discussion, post your own final recommendation in the Canvas quiz for today's activity.
 
 
-**References**
+## References
 
 Benjamin, R. (2019). *Race After Technology: Abolitionist Tools for the New Jim Code.* Polity.
 
