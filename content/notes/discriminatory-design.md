@@ -5,7 +5,9 @@ draft: false
 
 # Identifying and mitigating discriminatory design impacts
 
-One goal of ME 30 is to empower you to use tools of electronics and robotics to design new technologies. We acknowledge that with that power comes much responsibility.
+One goal of ME 30 is to empower you to use tools of electronics and robotics to design new technologies. We acknowledge that with that power comes much responsibility, including the responsibility to "hold paramount the welfare of the public" (Nat. Soc. of Prof. Engineers Code of Ethics).
+
+**What is discriminatory design?** A design can be considered discriminatory if its burdens fall disproportionately on individuals who belong to a marginalized group, such as people of color.
 
 ## Stakeholder Mapping
 
@@ -76,7 +78,7 @@ Resources:
 
 Share your findings across the three technologies and discuss the following question:
 
-How does the potential for discriminatory benefits & burdens compare across automatic soap dispensers, elder care robots, and EV batteries?
+How does the potential for discriminatory benefits & burdens compare across automatic soap dispensers, elder care robots, and EV batteries? To what extent is each of these technologies an example of discriminatory design, if at all?
 
 After your group discussion, post your answer in the Canvas quiz for today's activity.
 
