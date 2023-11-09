@@ -46,7 +46,7 @@ draft: false
 
 | Week | Date  | Class topics  | Hands-on  | What to study | What's due  |
 |:----:|:-----:|--------------------------------------------|-------------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------|
-|     | 11/15  | P4 demo & reflection |  P4 (game v2) demo day     | P4 (game v2)  |    |
+|     | 11/15  | P4 demo & reflection |  P4 (game v2) demo day     | P4 (game v2)  | P4   |
 |  12    | 11/20 | Project 5 intro       | Pi challenges |  [Raspberry Pi challenges](http://andnowforelectronics.com/notes/pi-challenges/)     |    Raspberry Pi setup check on Canvas         |
 |      | 11/22 | NO CLASS     | (Thanksgiving)  |           |    P5 partners    |
 |  13  | 11/27 | How does the internet work?               |   P5 planning              |  [Internet](http://andnowforelectronics.com/notes/internet/); [Servers and clients](http://andnowforelectronics.com/notes/servers/)     |             |
