@@ -40,13 +40,13 @@ draft: false
 |      | 11/1  | Sensors, state machines   |  More KB2040 challenges  | [KB2040 programming](http://andnowforelectronics.com/notes/feather-programming/); [KB2040 challenges](http://andnowforelectronics.com/notes/feather-challenges/)  |  |
 |  10   | 11/6  | Stepper motors   |  Stepper motors   |    |  |
 |     | 11/8  | Discriminatory design   |         |       |    |
-|  11   | 11/13  | P4 reflection   |  P4 (game v2) demo day   |    | P4 (game v2) |
+|  11   | 11/13  | Raspberry Pi intro    |  Booting the Raspberry Pi   |    | [Raspberry Pi setup](http://andnowforelectronics.com/notes/pi-setup/); [Raspberry Pi programming](http://andnowforelectronics.com/notes/pi-programming/) |
 
 ## Phase 4 - Instructors Swap Classrooms
 
 | Week | Date  | Class topics  | Hands-on  | What to study | What's due  |
 |:----:|:-----:|--------------------------------------------|-------------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------|
-|     | 11/15  | Raspberry Pi intro | Booting the Raspberry Pi     | [Raspberry Pi setup](http://andnowforelectronics.com/notes/pi-setup/); [Raspberry Pi programming](http://andnowforelectronics.com/notes/pi-programming/) |    |
+|     | 11/15  | P4 demo & reflection |  P4 (game v2) demo day     | P4 (game v2)  |    |
 |  12    | 11/20 | Project 5 intro       | Pi challenges |  [Raspberry Pi challenges](http://andnowforelectronics.com/notes/pi-challenges/)     |    Raspberry Pi setup check on Canvas         |
 |      | 11/22 | NO CLASS     | (Thanksgiving)  |           |    P5 partners    |
 |  13  | 11/27 | How does the internet work?               |   P5 planning              |  [Internet](http://andnowforelectronics.com/notes/internet/); [Servers and clients](http://andnowforelectronics.com/notes/servers/)     |             |
