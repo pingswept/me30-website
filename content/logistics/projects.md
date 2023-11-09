@@ -29,11 +29,11 @@ Bray also has materials for fabrication, leaning more toward the metal/nuts/bolt
 
 If you need something not available at Nolop or Bray, please talk to Brandon or Kristen as soon as you can.
 
-**Due date for game: Monday, November 13, 10:30 AM (IN CLASS)**
+**Due date for game: Wednesday, November 15, 10:30 AM (IN CLASS)**
 
-Documentation due on Canvas by Monday, November 13, 11:59 PM
+Documentation due on Canvas by Wednesday, November 15, 11:59 PM
 
-On November 13th, class for both sections of ME 30 will take place in the SEC atrium. The class will consist entirely of us playing each other's games, and marveling at our collective ingenuity and resourcefulness.
+On November 15th, class for both sections of ME 30 will take place in the SEC atrium. The class will consist entirely of us playing each other's games, and marveling at our collective ingenuity and resourcefulness. (Set-up 10:30 to 11:00; sharing starts at 11:00.)
 
 ## Project 3: Build an H-bridge motor controller
 
