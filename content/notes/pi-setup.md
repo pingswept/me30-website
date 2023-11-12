@@ -53,9 +53,9 @@ There are more details about the console cable if you need them in [Adafruit's c
 
 ## The advanced options you should pick
 
-Enable SSH and set the password for the user `pi`.
+Set the password for the user `pi`.
 
-![Raspberry Pi Imager advanced options](/img/pi-imager-advanced-options.png)
+![Raspberry Pi Imager options](/img/pi-imager-options.png)
 
 ## Checklist for Tufts_Wireless
 
