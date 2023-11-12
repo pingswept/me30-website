@@ -26,13 +26,13 @@ To connect the console cable, look at this diagram.
 
 ![RPi console cable connection](/img/rpi-console-cable.png)
 
-There are more details if you need them in [Adafruit's console cable tutorial](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-5-using-a-console-cable/overview). Emily K. also recommends the [Sparkfun tutorial](https://learn.sparkfun.com/tutorials/terminal-basics/all).
+There are more details about the console cable if you need them in [Adafruit's console cable tutorial](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-5-using-a-console-cable/overview). If you want to go deeper on how console cables and terminals work, try the [Sparkfun tutorial](https://learn.sparkfun.com/tutorials/terminal-basics/all).
 
 ## Setup checklist
 
 <ul style="list-style: none;">
   <li><input type="checkbox"> Install the Raspberry Pi Imager from <a href="https://www.raspberrypi.com/software/">the Raspberry Pi Software page</a></li>
-  <li><input type="checkbox"> In the Imager, choose the image "Raspberry Pi OS (other)" --> "Raspberry Pi OS Lite (32-bit)"</li>
+  <li><input type="checkbox"> In the Imager, choose the image "Raspberry Pi OS (other)" --> "Raspberry Pi OS Lite (64-bit)"</li>
   <li><input type="checkbox"> Click the gear menu for Advanced Options to enable SSH and set the password for the user <code>pi</code></li>
   <li><input type="checkbox"> Edit config.txt on micro SD card to include: <code>enable_uart=1</code></li>
     <li><input type="checkbox"> Install the <a href="https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads">SiLabs CP210X USB driver</a> for the console cable</li>
@@ -49,9 +49,7 @@ There are more details if you need them in [Adafruit's console cable tutorial](h
 
 ## What the Imager should look like
 
-The gear menu doesn't appear until after you choose the Raspberry Pi OS Lite (32-bit) image.
-
-![Raspberry Pi Imager OS selection](/img/pi-imager-with-gear-menu.png)
+![Raspberry Pi Imager OS selection](/img/pi-imager-os-selection.png)
 
 ## The advanced options you should pick
 
