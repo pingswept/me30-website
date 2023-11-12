@@ -32,55 +32,27 @@ There are more details about the console cable if you need them in [Adafruit's c
 
 <ul style="list-style: none;">
   <li><input type="checkbox"> Install the Raspberry Pi Imager from <a href="https://www.raspberrypi.com/software/">the Raspberry Pi Software page</a></li>
-  <li><input type="checkbox"> In the Imager, choose the image "Raspberry Pi OS (other)" --> "Raspberry Pi OS Lite (64-bit)"</li>
-  <li><input type="checkbox"> Click the gear menu for Advanced Options to enable SSH and set the password for the user <code>pi</code></li>
-  <li><input type="checkbox"> Edit config.txt on micro SD card to include: <code>enable_uart=1</code></li>
-    <li><input type="checkbox"> Install the <a href="https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads">SiLabs CP210X USB driver</a> for the console cable</li>
-  <li><input type="checkbox"> Connect RPi to laptop with console cable</li>
-  <li><input type="checkbox"> Put micro SD card in slot of Pi</li>
+  <li><input type="checkbox"> Plug your microSD card into your computer.</li>
+  <li><input type="checkbox"> In the Imager, set "Raspberry Pi Device" to "Raspberry Pi 4".</li>
+  <li><input type="checkbox"> Choose the image "Raspberry Pi OS (other)" --> "Raspberry Pi OS Lite (64-bit)"</li>
+  <li><input type="checkbox"> Set "Storage" to be your microSD card. You can identify it by its size, which is probably 32 GB.
+  <li><input type="checkbox"> Click "Next" and then "Edit Settings" in the "Use OS Customisation?" pop-up.
+  <li><input type="checkbox"> Enable SSH and set the password for the user <code>pi</code></li>
+  <li><input type="checkbox"> <b>The moment of truth!</b> Erase the card and write the new OS to the card.
+  <li><input type="checkbox"> Edit config.txt on the microSD card to include on the last line: <code>enable_uart=1</code></li>
+  <li><input type="checkbox"> Install the <a href="https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads">SiLabs CP210X USB driver</a> for the console cable. (You won't need this on a newish Mac.</li>
+  <li><input type="checkbox"> Connect the Pi to your laptop with the console cable</li>
+  <li><input type="checkbox"> Put the microSD card in slot of Pi</li>
   <li><input type="checkbox"> Install <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">PuTTY</a> (Windows) or open Applications > Utilities > Terminal (macOS) or install <a href="https://www.decisivetactics.com/products/serial/">Serial</a> (macOS)</li>
   <li><input type="checkbox"> (macOS only) In Terminal, run <code>ls /dev</code> and find the entry that says <code>tty.usbserial-XXYYZZ</code>. Record the numbers you see instead of XXYYZZ. Then run <code>screen /dev/tty.usbserial-XXYYZ 115200</code> </li>
   <li><input type="checkbox"> (macOS only) If using Serial instead of Terminal, simply open Serial and double click on the USB-serial device that appears</li> 
   <li><input type="checkbox"> (Windows only) In PuTTY, start a serial session at 115200 bps to the Pi</li>
   <li><input type="checkbox"> Connect USB-C power cable. Wait a minute or so for the Pi to boot up</li>
   <li><input type="checkbox"> Log in with username <code>pi</code> and password you set using the Imager</li>
-  <li><input type="checkbox"> Run <code>sudo raspi-config</code> to set up your wireless connection (Tufts_Wireless as SSID; no passphrase)</li>
+  <li><input type="checkbox"> Deal with the heartbreak that is <code>Tufts_Secure</code>.</li>
 </ul>
-
-## What the Imager should look like
-
-![Raspberry Pi Imager OS selection](/img/pi-imager-os-selection.png)
-
-## The advanced options you should pick
-
-Set the password for the user `pi`.
-
-![Raspberry Pi Imager options](/img/pi-imager-options.png)
-
-## Checklist for Tufts_Wireless
-
-<ul style="list-style: none;">
-  <li><input type="checkbox"> Figure out the Pi's MAC address with <code>ifconfig</code>. Be sure you get the MAC for <code>wlan0</code>, not <code>eth0</code>.</li>
-  <li><input type="checkbox"> Register that MAC address with Tufts IT at <a href="http://hostreg.net.tufts.edu/">the Tufts registration page.</a> If using Chrome, you'll probably need to use an Incognito window </li>
-  <li><input type="checkbox"> Wait a few minutes for MAC address permissions to propagate to local wireless access point</li>
-  <li><input type="checkbox"> If you did not use <code>sudo raspi-config</code> to list Tufts_Wireless as the network, then add the network settings below to <code>/etc/wpa_supplicant/wpa_supplicant.conf</code></li>
-  <li><input type="checkbox"> Reboot Pi</li>
-</ul>
-
-
-### Network settings for Tufts_Wireless
-```
-network={
-    ssid="Tufts_Wireless"
-    key_mgmt=NONE
-}
-```
 
 ## Setup for Tufts_Secure
-
-There's a bug in `/lib/dhcpcd/dhcpcd-hooks/10-wpa_supplicant` in the current version of Raspbian OS (based on Debian 10.4, Buster). This post explains how to fix it, but we haven't verified that it works yet: https://medium.com/@iced_burn/raspberry-pi-connected-to-wifi-of-wpa2-enterprise-ddd5a40c0b07
-
-{{< hint danger >}} Read the note above about the bug in `/lib/dhcpcd/dhcpcd-hooks/10-wpa_supplicant`. {{< /hint >}}
 
 The LA's can tell you the Nolop_IOT password; we try to avoid publishing passwords on the internet.
 
@@ -95,6 +67,35 @@ network={
     identity="Nolop_IOT"
     password="YOU PUT THE PASSWORD HERE IN QUOTES"
     phase2="auth=MSCHAPV2"
+}
+```
+
+
+## What the Imager should look like
+
+![Raspberry Pi Imager OS selection](/img/pi-imager-os-selection.png)
+
+## The OS customization options you should pick
+
+Make sure you set the password for the user `pi`. You should probably write it down somewhere else too.
+
+![Raspberry Pi Imager options](/img/pi-imager-options.png)
+
+## Checklist for Tufts_Wireless
+
+<ul style="list-style: none;">
+  <li><input type="checkbox"> Figure out the Pi's MAC address with <code>ifconfig</code>. Be sure you get the MAC for <code>wlan0</code>, not <code>eth0</code>.</li>
+  <li><input type="checkbox"> Register that MAC address with Tufts IT at <a href="http://hostreg.net.tufts.edu/">the Tufts registration page.</a> If using Chrome, you'll probably need to use an Incognito window </li>
+  <li><input type="checkbox"> Wait a few minutes for MAC address permissions to propagate to local wireless access point</li>
+  <li><input type="checkbox"> If you did not use <code>sudo raspi-config</code> to list Tufts_Wireless as the network, then add the network settings below to <code>/etc/wpa_supplicant/wpa_supplicant.conf</code></li>
+  <li><input type="checkbox"> Reboot Pi</li>
+</ul>
+
+### Network settings for Tufts_Wireless
+```
+network={
+    ssid="Tufts_Wireless"
+    key_mgmt=NONE
 }
 ```
 
