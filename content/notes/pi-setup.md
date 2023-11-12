@@ -79,6 +79,8 @@ network={
 
 Make sure you set the password for the user `pi`. You should probably write it down somewhere else too.
 
+You should also enable SSH, but you could also do that later with the command <code>sudo raspi-config</code>.
+
 ![Raspberry Pi Imager options](/img/pi-imager-options.png)
 
 ## Checklist for Tufts_Wireless
