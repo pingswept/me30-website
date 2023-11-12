@@ -1,6 +1,6 @@
 ---
 title: "Raspberry Pi setup"
-draft: true
+draft: false
 ---
 
 ## Raspberry Pi setup
