@@ -5,6 +5,34 @@ draft: false
 ## Weekly Update Emails
 
 - - -
+## Week 11: Sunday, 11/12/23
+
+Staring tomorrow, we begin work with the other small computer in your kit - the Raspberry Pi. This device will be central to the final two projects of the course.
+
+**Things you need in class on Monday 11/13:**
+Please attend class tomorrow (Mon. 11/13) in your regular ME 30 classroom. This will be an essential class session for setting up your Raspberry Pi hardware. Please bring:
+
+- a laptop 
+- your ME 30 kit (including the Raspberry Pi, its power supply, and the SD card)
+- an adapter that will let you connect a USB-A cable into your computer (if you don't have a USB-A port)
+
+**Things due in Week 11:**
+- [Project 4](http://andnowforelectronics.com/logistics/projects/), the (more complex) electromechanical game, is due on Wednesday, Nov. 15 (2-day extension from the original due date). Your game itself is due at class time; you should bring it to the SEC Atrium for set-up between 10:30 and 11:00am, and sharing 11:00-11:45. Documentation is due on Canvas by 11:59pm Wednesday night. 
+
+**Learning goals for Week 11:**
+- Build an electromechanical game including microcontroller, moving mechanical element, and user input.
+- Gain familiarity with Linux basics and explain how they relate to the functioning of a Raspberry Pi.
+- Identify the main components and functions of the Raspberry Pi.
+
+**Course website (andnowforelectronics.com) pages to study in Week 11:**
+- [Project 4 (more complex game) description](http://andnowforelectronics.com/logistics/projects/)
+- [Microcontrollers](http://andnowforelectronics.com/notes/microcontrollers/)
+- [Raspberry Pi Setup](http://andnowforelectronics.com/notes/pi-setup/)
+
+## Week 10: Sunday, 11/5/23
+
+Missed this week! Blaming the time change. 
+
 ## Week 9: Sunday, 10/29/23
 
 This week we'll introduce more circuitry and coding techniques for use in the next open-ended project - a more complex electromechanical game. View the course [Calendar](http://andnowforelectronics.com/logistics/calendar/) for all upcoming class topics and activities.
