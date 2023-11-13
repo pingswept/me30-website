@@ -13,7 +13,7 @@ Staring tomorrow, we begin work with the other small computer in your kit - the 
 Please attend class tomorrow (Mon. 11/13) in your regular ME 30 classroom. This will be an essential class session for setting up your Raspberry Pi hardware. Please bring:
 
 - a laptop 
-- your ME 30 kit (including the Raspberry Pi, its power supply, and the SD card)
+- your ME 30 kit (including the Raspberry Pi, its power supply, the [serial console cable](http://andnowforelectronics.com/notes/pi-setup/#stuff-you-need-all-in-your-kit), and the SD card)
 - an adapter that will let you connect a USB-A cable into your computer (if you don't have a USB-A port)
 
 **Things due in Week 11:**
