@@ -54,7 +54,7 @@ There are more details about the console cable if you need them in [Adafruit's c
 
 ## Setup for Tufts_Secure
 
-The LA's can tell you the Nolop_IOT password; we try to avoid publishing passwords on the internet.
+The LA's can tell you the Nolop_IOT password; we try to avoid publishing passwords on the internet. Use the Nano text editor (opened within the Terminal window) to edit the file at **/etc/wpa_supplicant/wpa_supplicant.conf.** Add the text below to that file.
 
 ### Network settings for Tufts_Secure
 
