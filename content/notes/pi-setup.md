@@ -60,6 +60,7 @@ Use the Nano text editor (opened within the Terminal window) to edit the file at
 - The <code>sudo</code> part sets you as a "super user" with permission to edit the file. Add the text from the gray box below - with the password inserted - to the wpa_supplicant.conf file.
 - Ask an instructor or LA or friend for the Nolop_IOT password; we try to avoid publishing passwords on the internet.
 - The purpose of the text below is to tell your Raspberry Pi to log into the Tufts_Secure network under the username "Nolop_IOT," which the Tufts IT department created just for class purposes like this one. It is okay for many users to be logged in under this Tufts_Secure account.
+- After you've edited the wpa_supplicant.conf file, when you next boot up your Pi, it should log in to Tufts_Secure and be given an IP address. Type `hostname -I` to print the IP address of your Pi.
 
 ### Network settings for Tufts_Secure
 
