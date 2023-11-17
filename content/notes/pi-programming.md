@@ -20,6 +20,10 @@ Then you can install lots of fun stuff.
 sudo pip3 install RPi.GPIO
 ```
 
+KBW note: Think the above needs to be changed to: 
+
+`sudo apt-get install rpi.gpio`
+
 ### **How do I write, edit, and save pieces of code on my Raspberry Pi?**  
 **nano text editor**
 
