@@ -1,6 +1,6 @@
 ---
 title: "Raspberry Pi challenges"
-draft: true
+draft: false
 ---
 
 ## Raspberry Pi challenges
