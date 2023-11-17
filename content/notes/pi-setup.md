@@ -65,8 +65,8 @@ There are more details about the console cable if you need them in [Adafruit's c
 
 ### Connecting to your Pi via SSH instead of serial
 
-Once you have your Pi connected to the wireless network, and you use `ifconfig` or `hostname -I` to find the IP address it has been assigned, you can log into it through SSH instead of through a USB-serial cable. 
-- Have your Pi's IP address handy.
+Once you have your Pi connected to the wireless network, you can log into it through SSH instead of through a USB-serial cable. 
+- Have your Pi's IP address handy (do that when still connected by serial cable; use the `ifconfig` or `hostname -I` command).
 - Make sure your Pi is plugged into power. Do not attach the serial console cable.
 - Open a new terminal window.
 - Type `ssh your_Pi_username@ip_address_of_your_Pi`
