@@ -118,6 +118,10 @@ Once you have your Pi connected to the wireless network, and you use ifconfig to
 
 ## FAQ
 
+### **Is there a way to change my login password when I'm already logged in to my Pi?**
+
+You can change some of your Pi's settings, including its password, with the Raspi-Config application. To run it, type the command `sudo raspi-config`
+
 ### **What operating system should I use on my Pi?**
 
 Unless you have a good reason not to, you should start with the Lite version of Raspberry Pi OS. The Raspberry Pi imager will download it for you. Previously called Raspbian, the OS should be based on Debian Buster or newer (as older versions will not work with a Pi 4).
