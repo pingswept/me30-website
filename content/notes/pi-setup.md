@@ -118,6 +118,10 @@ Once you have your Pi connected to the wireless network, and you use ifconfig to
 
 ## FAQ
 
+### **How do I turn off my Pi?**
+
+Type the command `sudo shutdown -now`
+
 ### **Is there a way to change my login password when I'm already logged in to my Pi?**
 
 You can change some of your Pi's settings, including its password, with the Raspi-Config application. To run it, type the command `sudo raspi-config`
