@@ -22,7 +22,7 @@ sudo pip3 install RPi.GPIO
 
 KBW note: Think the above needs to be changed to: 
 
-`sudo apt-get install RPi.GPIO`
+`sudo apt-get install RPi.GPIO`  or `sudo apt-get install python3-rpi.gpio` also works
 
 ### **How do I write, edit, and save pieces of code on my Raspberry Pi?**  
 **nano text editor**
