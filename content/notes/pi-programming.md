@@ -83,6 +83,7 @@ Here's an example Python 3 script that sets a pin high.
 
 ```python
 import RPi.GPIO as GPIO
+
 GPIO.setmode(GPIO.BOARD)   # use the BOARD pin-numbering system
 GPIO.setup(16, GPIO.OUT)   # like digitalio.DigitalInOut(board.D16)
                             # and digitalio.Direction.OUTPUT
@@ -95,11 +96,12 @@ Here's another script that checks the state of a pin.
 ```python
 import time
 import RPi.GPIO as GPIO
+
 GPIO.setmode(GPIO.BOARD)   # use the BOARD pin-numbering system
 GPIO.setup(16, GPIO.IN)       # like digitalio.DigitalInOut(board.D16)
                                 # and digitalio.Direction.INPUT
 
-while(1):                     # do this forever
+while True:                     # do this forever
     if(GPIO.input(16)):       # like checking digitalio.value
         print("Pin is high.")
     else:
@@ -107,8 +109,28 @@ while(1):                     # do this forever
     time.sleep(0.5)           # sleep for 0.5 s
 ```
 
+The script below sets up pin 16's internal pulldown resistor so its default state is ground. Then it checks its value.
+
+```python
+import time
+import RPi.GPIO as GPIO
+GPIO.setmode(GPIO.BOARD)
+
+# Now set pin 16 as input and tie its internal resistor as pulldown
+GPIO.setup(16, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)       
+
+while True:                     # do this forever
+    if(GPIO.input(16)):       # like checking digitalio.value
+        print("Pin is high.")
+    else:
+        print("Pin is low.")
+    time.sleep(0.5)           # sleep for 0.5 s
+```
+
+### **What about PWM?**
+
 Here is more information about the RPi.GPIO module. Check this out if you are looking to vary the output using PWM:
-- From SourceForge: https://sourceforge.net/p/raspberry-gpio-python/wiki/PWM/
+- From SourceForge: https://sourceforge.net/p/raspberry-gpio-python/wiki/Examples/
 
 
 ### **What if I want to control pins through a web browser?**
