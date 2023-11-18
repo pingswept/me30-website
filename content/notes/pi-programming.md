@@ -57,8 +57,8 @@ Next, you may want a text editor that runs in your terminal window to write, edi
 
 * `hostname -I`: print the IP address of my Pi
 * `which`: show which program gets executed by a command
-* `grep`: search a file for a string of text
-* `|`: pipe the results of one command into another, like `cat server.py | grep Flask`
+* `grep`: search a file for a string of text, like `grep "Flask" server.py"`
+* `|`: pipe the results of one command into another, like `cat server.py | grep "Flask"`
 * `uname -a`: tell me what version of the Linux kernel I am running
 * `netstat -plut`: list what programs are listening on what ports
 * `wget`: download a file from the internet
@@ -84,8 +84,9 @@ Here's an example Python 3 script that sets a pin high.
 ```python
 import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BOARD)   # use the BOARD pin-numbering system
-GPIO.setup(16, GPIO.OUT)   # like pinMode(16, OUTPUT)
-GPIO.output(16, GPIO.HIGH) # like digitalWrite(16, HIGH)
+GPIO.setup(16, GPIO.OUT)   # like digitalio.DigitalInOut(board.D16)
+                            # and digitalio.Direction.OUTPUT
+GPIO.output(16, GPIO.HIGH) # like setting digitalio.value = True
 ```
 You can save this as a file and then run it with `python3 name-of-the-file.py`, or you can paste in each line at a Python prompt if you want to play around with it.
 
@@ -95,9 +96,11 @@ Here's another script that checks the state of a pin.
 import time
 import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BOARD)   # use the BOARD pin-numbering system
-GPIO.setup(16, GPIO.IN)       # like pinMode(16, INPUT)
+GPIO.setup(16, GPIO.IN)       # like digitalio.DigitalInOut(board.D16)
+                                # and digitalio.Direction.INPUT
+
 while(1):                     # do this forever
-    if(GPIO.input(16)):       # like digitalRead(16)
+    if(GPIO.input(16)):       # like checking digitalio.value
         print("Pin is high.")
     else:
         print("Pin is low.")
@@ -126,8 +129,9 @@ def hello_world():
 
 @app.route('/pinon')
 def pin_on():
-    GPIO.setup(16, GPIO.OUT)   # pinMode(16, OUTPUT)
-    GPIO.output(16, GPIO.HIGH) # digitalWrite(16, HIGH)
+    GPIO.setup(16, GPIO.OUT)   # like digitalio.DigitalInOut(board.D16)
+                                # and digitalio.Direction.OUTPUT
+    GPIO.output(16, GPIO.HIGH) # like setting digitalio.value = True
     return 'I turned on the pin.'
 
 # Below we take input from a web browser and channel it to GPIO pin.
@@ -138,12 +142,12 @@ def pin_on():
 def digital_write(pin_name, state):
     pin = int(pin_name)
     if state.upper() in ['1', 'ON', 'HIGH']:
-        GPIO.setup(pin, GPIO.OUT)   # pinMode(pin_name, OUTPUT)
-        GPIO.output(pin, GPIO.HIGH) # digitalWrite(pin_name, HIGH)
+        GPIO.setup(pin, GPIO.OUT)   # make the pin an output
+        GPIO.output(pin, GPIO.HIGH) # turn the pin on
         return 'Set pin {0} to HIGH'.format(pin_name)
     elif state.upper() in ['0', 'OFF', 'LOW']:
-        GPIO.setup(pin, GPIO.OUT)   # pinMode(pin_name, OUTPUT)
-        GPIO.output(pin, GPIO.LOW)  # digitalWrite(pin_name, LOW)
+        GPIO.setup(pin, GPIO.OUT)   # make the pin an output 
+        GPIO.output(pin, GPIO.LOW)  # turn the pin off
         return 'Set pin {0} to LOW'.format(pin_name)
     return 'Something went wrong'
 ```
