@@ -50,7 +50,7 @@ Next, you may want a text editor that runs in your terminal window to write, edi
 * `sudo`: execute a command as a superuser
 * `cat`: print out the contents of a file
 * `<tab>`: try to autocomplete the command I am typing
-* `sudo shutdown -now`: turn off the Pi
+* `sudo shutdown`: turn off the Pi
 
 ### **What about some more obscure commands that could be useful?**
 
