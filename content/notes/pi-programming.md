@@ -46,7 +46,7 @@ Next, you may want a text editor that runs in your terminal window to write, edi
 ### **What other useful commands might I need to know?**
 
 * `ls`: list what's in a directory
-* `cd`: change to a different directory
+* `cd`: change to a different directory. `cd ..` goes up one level of the directory tree.
 * `sudo`: execute a command as a superuser
 * `cat`: print out the contents of a file
 * `<tab>`: try to autocomplete the command I am typing
