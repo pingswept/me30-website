@@ -7,7 +7,7 @@ draft: false
 
 ### **What if I want to install more software and write cool programs?**
 
-First, update the APT package manager, and you'll probably want to install Pip3, which installs modules for Python 3.
+First, update the APT package manager, and you'll probably want to install PIP, which installs modules for Python 3.
 
 ```
 sudo apt update
@@ -17,12 +17,12 @@ sudo apt install python3-pip
 Then you can install lots of fun stuff.
 
 ```
-sudo pip3 install RPi.GPIO
+sudo pip install RPi.GPIO
 ```
 
-KBW note: Think the above needs to be changed to: 
+If you get an error when you try to install GPIO using PIP, try using APT instead: 
 
-`sudo apt-get install RPi.GPIO`  or `sudo apt-get install python3-rpi.gpio` also works
+`sudo apt-get install RPi.GPIO`  or `sudo apt-get install python3-rpi.gpio` 
 
 ### **How do I write, edit, and save pieces of code on my Raspberry Pi?**  
 **nano text editor**
