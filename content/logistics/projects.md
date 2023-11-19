@@ -18,7 +18,7 @@ These requirements will be revealed on Dec. 7.
 
 This is a relatively constrained project compared to the vast open field of P4. Your task is to build a robot that can travel up a ramp, controlled remotely by you.
 
-* Your robot should fit in a circle 30 cm in diameter.
+* Your robot should fit in a circle 45 cm in diameter.
 * Your robot should be less than 30 cm tall.
 * Your robot should be able to (something about the ramp) 
 * You should not touch your robot during its adventures. This probably means that your robot should be remote controlled.
@@ -29,7 +29,9 @@ This is a relatively constrained project compared to the vast open field of P4. 
 
 **Due date: Wednesday, December 6, 10:30am**
 
-In class on December 6, we will test drive the robots through a basic course-- a 30 cm doorway and a ramp. If your robot meets the requirements above, it will do fine. The rough specifications of the ramp are shown in the picture below. Two identical ramps will be available in Nolop for testing by December 1.
+In class on December 6, we will test drive the robots through a basic course-- a 45 cm wide, 30 cm tall doorway and a ramp. If your robot meets the requirements above, it will do fine. The rough specifications of the ramp are shown in the picture below. Two identical ramps will be available in Nolop for testing by December 1.
+
+![P5 ramp diagram](/img/ramp.png)
 
 **Project planning resource:** We suggest discussing this [list of P5 planning questions](https://docs.google.com/document/d/1ulQfKKEcXGVL5VZVITyimeE2d2Y40JnkMOGGLtVdCfo/edit?usp=sharing) with your team. 
 
