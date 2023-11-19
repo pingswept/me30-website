@@ -7,7 +7,8 @@ draft: false
 Projects 5 and 6 are, in a sense, one mega-project. In the first part, P5, you and your team build a robot. In the second part, P6, you and your team modify the robot to deliver a payload under specific diabolical constraints.
 
 ### Requirements for project 6
-### Due Monday, Dec. 18
+
+**Due Monday, December 18, 3:30 PM**
 
 These requirements will be revealed on Dec. 7.
 
