@@ -8,12 +8,14 @@ Projects 5 and 6 are, in a sense, one mega-project. In the first part, P5, you a
 
 ### Requirements for project 6
 
-**Due Monday, December 18, 3:30 PM**
+**Due Monday, December 18, 3:30 PM (but note the P5 due date below!)**
 
 These requirements will be revealed on Dec. 7.
 
 ### Requirements for project 5
-### Build an intrepid robot that travels up a ramp by Wednesday, December 6, 10:30am
+### Build an intrepid robot that travels up a ramp
+
+**Due date: Wednesday, December 6, 10:30am**
 
 This is a relatively constrained project compared to the vast open field of P4. Your task is to build a robot that can travel up a ramp, controlled remotely by you.
 
@@ -25,8 +27,6 @@ This is a relatively constrained project compared to the vast open field of P4. 
 * Your robot cannot fly. (We don't have the space to test drones safely, unfortunately.)
 * Unlike previous years, your robot does NOT need to turn in arbitrary directions. It should be optimized for straight ramp ascension.
 * Note: It would be a good idea to focus on making your robot drive effectively before you worry about any higher level mechanics or control through the internet.
-
-**Due date: Wednesday, December 6, 10:30am**
 
 In class on December 6, we will test drive the robots through a basic course-- a 45 cm wide, 30 cm tall doorway and a ramp. If your robot meets the requirements above, it will do fine. The rough specifications of the ramp are shown in the picture below. Two identical ramps will be available in Nolop for testing by December 1.
 
