@@ -6,12 +6,12 @@ draft: false
 # Projects 5 and 6
 ### Build an intrepid robot
 
-Projects 5 and 6 are, in a sense, one mega-project. In the first part, P5, you and your team build a robot. In the second part, P6, you and your team modify it to deliver a payload under specific constraints.
+Projects 5 and 6 are, in a sense, one mega-project. In the first part, P5, you and your team build a robot. In the second part, P6, you and your team modify the robot to deliver a payload under specific constraints.
 
 ### Requirements for project 6
 ### Due Monday, Dec. 18
 
-These requirements will be added on Dec. 7.
+These requirements will be revealed on Dec. 7.
 
 ### Requirements for project 5
 ### Build something that travels up a ramp by Wednesday, December 6, 10:30am
@@ -24,11 +24,12 @@ This is a relatively constrained project compared to the vast open field of P4. 
 * You should not touch your robot during its adventures. This probably means that your robot should be remote controlled.
 * You should not use an RC car controller. This probably means that your robot should be controlled through wifi from a laptop or phone.
 * Your robot cannot fly. (We don't have the space to test drones safely, unfortunately.)
+* Unlike previous years, your robot does NOT need to turn in arbitrary directions. It should be optimized for straight ramp ascension.
 * Note: It would be a good idea to focus on making your robot drive effectively before you worry about any higher level mechanics or control through the internet.
 
 **Due date: Wednesday, December 6, 10:30am**
 
-In class on December 6, we will test drive the robots through a basic course-- a 30 cm doorway and a ramp. If your robot meets the requirements above, it will do fine. 
+In class on December 6, we will test drive the robots through a basic course-- a 30 cm doorway and a ramp. If your robot meets the requirements above, it will do fine. The rough specifications of the ramp are shown in the picture below. Two identical ramps will be available in Nolop for testing by December 1.
 
 **Project planning resource:** We suggest discussing this [list of P5 planning questions](https://docs.google.com/document/d/1ulQfKKEcXGVL5VZVITyimeE2d2Y40JnkMOGGLtVdCfo/edit?usp=sharing) with your team. 
 
@@ -37,13 +38,13 @@ In class on December 6, we will test drive the robots through a basic course-- a
 **Option 1 – Work in a team of 2 or 3 chosen by you**
 
 **Option 2 – Work in a team of 2 or 3 assigned to you by Kristen and Brandon**
-We’ll pool all the people who would like to be assigned a partner and team you up. We might need to make a team of 4 depending on who is available. 
+We’ll pool all the people who would like to be assigned a partner and team you up. We might need to make a team of 3 depending on who is available. 
 
 By Sunday, Nov. 26, use this survey to indicate your chosen teaming option (list your teammates or indicate you'd like to be placed on a team).
 
 ### More details for projects 5 and 6
 
-* For portable power, Nolop has 5V batteries (for the Raspberry Pis) and 9V and 11V batteries (for motors).
+* For portable power, Nolop has 5 V batteries (for the Raspberry Pis) and 9 V and 11 V batteries (for motors).
 * See the [Raspberry Pi setup](http://andnowforelectronics.com/notes/pi-setup/) page to learn how to control your Pi via serial cable and the Internet.  
 * See the [servers and clients](http://andnowforelectronics.com/notes/servers/) page to learn how to coax your Pi into sending and receiving data through the Internet.
 * See the [client and server setup](http://andnowforelectronics.com/notes/demo-videos/#client-and-server-setup) demo video that walks through the code for Raspberry Pis and Arduinos as clients and servers
