@@ -2,7 +2,6 @@
 title: "Projects"
 draft: false
 ---
-<!--
 # Projects 5 and 6
 ### Build an intrepid robot
 
@@ -51,7 +50,6 @@ By Sunday, Nov. 26, use this survey to indicate your chosen teaming option (list
 * See the [servers and clients](http://andnowforelectronics.com/notes/servers/) page to learn how to coax your Pi into sending and receiving data through the Internet.
 * See the [client and server setup](http://andnowforelectronics.com/notes/demo-videos/#client-and-server-setup) demo video that walks through the code for Raspberry Pis and Arduinos as clients and servers
 * See the [Internet](http://andnowforelectronics.com/notes/internet/) page to find out how IP addresses work.
--->
 
 ## Project 4: Build an electromechanical game
 
