@@ -21,7 +21,7 @@ This is a relatively constrained project compared to the vast open field of P4. 
 
 * Your robot should fit in a circle 45 cm in diameter.
 * Your robot should be less than 30 cm tall.
-* Your robot should be able to (something about the ramp) 
+* Your robot should be able to ascend the ramp without falling off the side.
 * You should not touch your robot during its adventures. This probably means that your robot should be remote controlled.
 * You should not use an RC car controller. This probably means that your robot should be controlled through wifi from a laptop or phone.
 * Your robot cannot fly. (We don't have the space to test drones safely, unfortunately.)
