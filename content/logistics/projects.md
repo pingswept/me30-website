@@ -2,8 +2,7 @@
 title: "Projects"
 draft: false
 ---
-# Projects 5 and 6
-### Build an intrepid robot
+# Projects 5 and 6: Build an intrepid robot
 
 Projects 5 and 6 are, in a sense, one mega-project. In the first part, P5, you and your team build a robot. In the second part, P6, you and your team modify the robot to deliver a payload under specific constraints.
 
@@ -13,7 +12,7 @@ Projects 5 and 6 are, in a sense, one mega-project. In the first part, P5, you a
 These requirements will be revealed on Dec. 7.
 
 ### Requirements for project 5
-### Build something that travels up a ramp by Wednesday, December 6, 10:30am
+### Build an intrepid robot that travels up a ramp by Wednesday, December 6, 10:30am
 
 This is a relatively constrained project compared to the vast open field of P4. Your task is to build a robot that can travel up a ramp, controlled remotely by you.
 
