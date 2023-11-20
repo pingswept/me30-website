@@ -61,6 +61,10 @@ There are more details about the console cable if you need them in [Adafruit's c
   <li><input type="checkbox"> Use <code>sudo raspi-config</code> to list Tufts_Wireless as the network.</li>
   <li><input type="checkbox"> In <code>raspi-config</code>, pick <code>System Options > Wireless LAN</code></li>
   <li><input type="checkbox"> Enter <code>Tufts_Wireless</code> for the SSID and leave the passphrase blank.</li>
+  <li><input type="checkbox"> Exit raspi-config. Use the `ifconfig` or `hostname -I` command to find the IP address assigned to your Pi by Tufts_Wireless.</li>
+  <li><input type="checkbox"> Type `logout` to disconnect your Terminal from your Pi so that you can switch to logging in via SSH.</li>
+
+
 </ul>
 
 
@@ -75,6 +79,8 @@ Once you have your Pi connected to the wireless network, you can log into it thr
 
 
 ## Setup for Tufts_Secure
+
+**Not needed if your Pi is already connected to Tufts_Wireless**
 
 Use the Nano text editor (opened within the Terminal window) to edit the file at **/etc/wpa_supplicant/wpa_supplicant.conf.** 
 
