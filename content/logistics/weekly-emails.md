@@ -5,6 +5,29 @@ draft: false
 ## Weekly Update Emails
 
 - - -
+
+## Week 12: Sunday, 11/19/23
+
+Just one class this week before Thanksgiving break, and we'll use it to get started with Python programming to control pins on your Raspberry Pi. 
+
+**Things you need in class on Monday 11/20:**
+- a laptop 
+- Raspberry Pi, its power supply, the [serial console cable](http://andnowforelectronics.com/notes/pi-setup/#stuff-you-need-all-in-your-kit), and the SD card
+- an adapter that will let you connect the serial console cable into your computer (if you don't have a USB-A port)
+
+**Things due in Week 12:**
+- [Raspberry Pi set-up check](https://canvas.tufts.edu/courses/48775/assignments/356151) is due Monday, Nov. 20.
+- [Projects 5 & 6 Teamming Preference](https://canvas.tufts.edu/courses/48775/assignments/377149). By Sunday, Nov. 26, please indicate your chosen teaming option for [Projects 5 and 6](http://andnowforelectronics.com/logistics/projects/).
+
+**Learning goals for Week 12:**
+- Gain familiarity with Linux basics and explain how they relate to the functioning of a Raspberry Pi.
+- Identify the main components and functions of the Raspberry Pi.
+
+**Course website (andnowforelectronics.com) pages to study in Week 12:**
+- [Raspberry Pi Setup](http://andnowforelectronics.com/notes/pi-setup/)
+- [Raspberry Pi Programming](http://andnowforelectronics.com/notes/pi-programming/)
+- [Raspberry Pi Challenges](http://andnowforelectronics.com/notes/pi-challenges/)
+
 ## Week 11: Sunday, 11/12/23
 
 Staring tomorrow, we begin work with the other small computer in your kit - the Raspberry Pi. This device will be central to the final two projects of the course.
