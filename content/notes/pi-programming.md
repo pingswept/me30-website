@@ -22,7 +22,7 @@ sudo pip install RPi.GPIO
 
 If you get an error when you try to install GPIO using PIP, try using APT instead: 
 
-`sudo apt-get install RPi.GPIO`  or `sudo apt-get install python3-rpi.gpio` 
+`sudo apt install python3-rpi.gpio` 
 
 ### **How do I write, edit, and save pieces of code on my Raspberry Pi?**  
 **nano text editor**
