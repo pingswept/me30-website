@@ -59,7 +59,8 @@ There are more details about the console cable if you need them in [Adafruit's c
   <li><input type="checkbox"> Register that MAC address with Tufts IT at <a href="https://access.tufts.edu/manual-non-browser-device-registration">the Tufts registration page.</a> If using Chrome, you'll probably need to use an Incognito window </li>
   <li><input type="checkbox"> Wait a few minutes for MAC address permissions to propagate to local wireless access point</li>
   <li><input type="checkbox"> Use <code>sudo raspi-config</code> to list Tufts_Wireless as the network.</li>
-  <li><input type="checkbox"> Reboot Pi</li>
+  <li><input type="checkbox"> In <code>raspi-config</code>, pick <code>System Options > Wireless LAN</code></li>
+  <li><input type="checkbox"> Enter <code>Tufts_Wireless</code> for the SSID and leave the passphrase blank.</li>
 </ul>
 
 
