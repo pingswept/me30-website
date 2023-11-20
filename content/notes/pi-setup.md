@@ -55,7 +55,7 @@ There are more details about the console cable if you need them in [Adafruit's c
 ## Checklist for Tufts_Wireless
 
 <ul style="list-style: none;">
-  <li><input type="checkbox"> Figure out the Pi's MAC address with <code>ifconfig</code>. Be sure you get the MAC for <code>wlan0</code>, not <code>eth0</code>.</li>
+  <li><input type="checkbox"> Figure out the Pi's MAC address with <code>ifconfig</code>. Be sure you get the MAC for <code>wlan0</code>, not <code>eth0</code>. The MAC address is something like <code>e4:5f:01:3b:33:fb</code> and appears after the word <code>ether</code>.</li>
   <li><input type="checkbox"> Register that MAC address with Tufts IT at <a href="https://access.tufts.edu/manual-non-browser-device-registration">the Tufts registration page.</a> If using Chrome, you'll probably need to use an Incognito window </li>
   <li><input type="checkbox"> Wait a few minutes for MAC address permissions to propagate to local wireless access point</li>
   <li><input type="checkbox"> Use <code>sudo raspi-config</code> to list Tufts_Wireless as the network.</li>
