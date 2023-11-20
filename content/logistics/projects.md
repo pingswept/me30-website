@@ -41,7 +41,7 @@ In class on December 6, we will test drive the robots through a basic course-- a
 **Option 2 – Work in a team of 2 or 3 assigned to you by Kristen and Brandon**
 We’ll pool all the people who would like to be assigned a partner and team you up. We might need to make a team of 3 depending on who is available. 
 
-By Sunday, Nov. 26, use this survey to indicate your chosen teaming option (list your teammates or indicate you'd like to be placed on a team).
+By Sunday, Nov. 26, use [this survey](https://tufts.qualtrics.com/jfe/form/SV_0cAixyzuN8ok4br) to indicate your chosen teaming option (list your teammates or indicate you'd like to be placed on a team).
 
 ### More details for projects 5 and 6
 
