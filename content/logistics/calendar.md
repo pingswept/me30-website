@@ -73,7 +73,8 @@ draft: false
 | 8 | 11/6-11/12 | Complex motorized games |
 | 9 | 11/13-11/19 | Raspberry Pi setup & challenges |
 |  |  | (No labs 11/20-11/25) |
-| 10 | 11/27-12/3 | Project 5 robots |
+| 10 | 11/27-12/3 | Optional attendance: Project 5 robots |
+| 11 | 12/4-12/10 | Optional attendance: Project 5 robots |
 
 
 
