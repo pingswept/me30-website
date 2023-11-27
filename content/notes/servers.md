@@ -47,7 +47,7 @@ For more details, see the [Flask example on our Raspberry Pi programming page](h
 
 For code, try using the Python library called [Requests](https://requests.readthedocs.io/en/master/).
 
-You can install it with: `sudo apt install requests`
+You can install it with: `sudo apt install python3-requests`
 
 Your code might start like this:
 
