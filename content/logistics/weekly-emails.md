@@ -10,8 +10,8 @@ draft: false
 Hope you all had a restorative Thanksgiving break. You've made it to the home stretch! Two mobile robot projects left to go.
 
 **Course housekeeping:**
-- PLEASE KEEP TRACK OF KIT COMPONENTS, ESPECIALLY YOUR MOTORS, POWER SUPPLIES, AND OTHER NON-CONSUMABLES! We must collect all your components (except those on your PCBs) at the end of the semester so that ME 30 is possible again next year. You'll turn in your kits on the day of the final project showcase, Dec. 18.\
-- **Labs are optional this week and next week (11/27 to 12/10),** and they will focus in Raspberry Pi and Project 5 support.
+- PLEASE KEEP TRACK OF KIT COMPONENTS, ESPECIALLY YOUR MOTORS, POWER SUPPLIES, AND OTHER NON-CONSUMABLES! We must collect all your components (except those you've soldered onto your PCBs) at the end of the semester so that ME 30 is possible again next year. You'll turn in your kits on the day of the final project showcase, Dec. 18.
+- Labs are optional this week and next week (11/27 to 12/10). They will focus in Raspberry Pi and Project 5 support.
 
 **Things due in Week 13:**
 
@@ -25,10 +25,10 @@ Hope you all had a restorative Thanksgiving break. You've made it to the home st
 - Build an internet-connected electromechanical system.
 
 **Course website (andnowforelectronics.com) pages to study in Week 13:**
-- [Raspberry Pi Programming](http://andnowforelectronics.com/notes/pi-programming/)
-- [Raspberry Pi Challenges](http://andnowforelectronics.com/notes/pi-challenges/)
 - [The Internet](http://andnowforelectronics.com/notes/internet/)
 - [Servers and Clients](http://andnowforelectronics.com/notes/servers/)
+- [Raspberry Pi Programming](http://andnowforelectronics.com/notes/pi-programming/)
+- [Raspberry Pi Challenges](http://andnowforelectronics.com/notes/pi-challenges/)
 
   
 ## Week 12: Sunday, 11/19/23
