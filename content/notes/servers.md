@@ -1,6 +1,6 @@
 ---
 title: "Servers and clients"
-draft: true
+draft: false
 ---
 ## Servers and clients
 
@@ -38,7 +38,7 @@ def send_data():
     return 'sensor reading is {0}'.format(reading)
  ```   
     
-For more details, see the [Flask example on our Raspberry Pi setup page](http://andnowforelectronics.com/notes/rpi-setup/#what-if-i-want-to-control-pins-through-a-web-browser-flask).
+For more details, see the [Flask example on our Raspberry Pi programming page](http://andnowforelectronics.com/notes/pi-programming/#what-if-i-want-to-control-pins-through-a-web-browser).
 
 
 ### Raspberry Pi client
@@ -47,7 +47,7 @@ For more details, see the [Flask example on our Raspberry Pi setup page](http://
 
 For code, try using the Python library called [Requests](https://requests.readthedocs.io/en/master/).
 
-You can install it with: `sudo pip3 install requests`
+You can install it with: `sudo apt install requests`
 
 Your code might start like this:
 
