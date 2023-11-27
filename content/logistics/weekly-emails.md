@@ -5,7 +5,32 @@ draft: false
 ## Weekly Update Emails
 
 - - -
+## Week 13: Sunday, 11/26/23
 
+Hope you all had a restorative Thanksgiving break. You've made it to the home stretch! Two mobile robot projects left to go.
+
+**Course housekeeping:**
+- PLEASE KEEP TRACK OF KIT COMPONENTS, ESPECIALLY YOUR MOTORS, POWER SUPPLIES, AND OTHER NON-CONSUMABLES! We must collect all your components (except those on your PCBs) at the end of the semester so that ME 30 is possible again next year. You'll turn in your kits on the day of the final project showcase, Dec. 18.\
+- **Labs are optional this week and next week (11/27 to 12/10),** and they will focus in Raspberry Pi and Project 5 support.
+
+**Things due in Week 13:**
+
+- Nothing is due this week, but the Project 5 due date is coming up soon: next Wednesday, Dec. 6, at 10:30. On that date, each team will be assigned a 5-minute slot (within our 10:30-11:45am class time) to test your robot with Kristen or Brandon.  LAs will be supporting troubleshooting during this time (probably in Nolop).
+- If you haven't yet done so, please indicate your chosen teaming option for [Projects 5 and 6](http://andnowforelectronics.com/logistics/projects/) ASAP.
+
+**Learning goals for Week 13:**
+- Describe how the internet works.
+- Identify the main components and functions of the Raspberry Pi.
+- Gain familiarity with Linux basics and explain how they relate to the functioning of a Raspberry Pi.
+- Build an internet-connected electromechanical system.
+
+**Course website (andnowforelectronics.com) pages to study in Week 13:**
+- [Raspberry Pi Programming](http://andnowforelectronics.com/notes/pi-programming/)
+- [Raspberry Pi Challenges](http://andnowforelectronics.com/notes/pi-challenges/)
+- [The Internet](http://andnowforelectronics.com/notes/internet/)
+- [Servers and Clients](http://andnowforelectronics.com/notes/servers/)
+
+  
 ## Week 12: Sunday, 11/19/23
 
 Just one class this week before Thanksgiving break, and we'll use it to get started with Python programming to control pins on your Raspberry Pi. 
