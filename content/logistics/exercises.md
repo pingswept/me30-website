@@ -452,7 +452,7 @@ p = GPIO.PWM(13, 500)  # channel=13 frequency=500Hz
 p.start(0)
     while True:
         for i in range(0, 11):
-            p.ChangeDutyCycle(10*8)
+            p.ChangeDutyCycle(10*i)
             time.sleep(2)
 </pre>
 
@@ -460,11 +460,11 @@ Suppose the code doesn’t seem to be making the motor behave as predicted.
 
 You decide to troubleshoot the code by monitoring the signal at pin 13 with an oscilloscope.
 
-An oscilloscope is a tool for measuring electrical signals, like a multimeter, but it keeps a record of voltage and current over time. And it displays that record graphically, on a plot of voltage (or current) vs time. It can detect signals at very small time increments, down to nanoseconds.
+An oscilloscope is a tool for measuring electrical signals, like a multimeter, but it keeps a record of voltage and current over time. And it displays that record graphically, on a plot of voltage (or current) vs time. It can detect signals at very small time increments, down to milliseconds.
 
-(1) To see the distinct PWM cycles in the oscilloscope window, to what horizontal and vertical scale should you set the window? i.e., how much time per horizontal division and how many volts per vertical division? Let’s say you want to see 10 distinct cycles displayed on the window at any given point in time.
+(1) To see the distinct PWM cycles in the oscilloscope window, to what horizontal and vertical scale should you set the window? In other words, how much time per horizontal division and how many volts per vertical division? Let’s say you want to see 10 distinct PWM cycles displayed on the window at any given point in time.
 
-(2) Draw a quick sketch of what the signal should look like on the scope window when the code is at the point of i = 5.
+(2) Draw a quick sketch of what the signal should look like on the scope window when the for loop in the code is at i = 5.
 
 (3) Use the oscilloscope simulator to represent what the signal will look like on the scope at i = 5. You’ll need to adjust both the signal generator (the instrument in the top half of the screen) and the scope settings.
 https://www.pzdsp.com/elab/virtual_oscilloscope.html
