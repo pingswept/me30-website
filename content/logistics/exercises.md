@@ -448,12 +448,14 @@ import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BOARD)
 GPIO.setup(13, GPIO.OUT)
 
-p = GPIO.PWM(13, 500)  # channel=13 frequency=500Hz
-p.start(0)
+pin13 = GPIO.PWM(13, 500)  # channel=13 frequency=500Hz
+
     while True:
+        pin13.start(0)  # initial duty cycle of 0
         for i in range(0, 11):
-            p.ChangeDutyCycle(10*i)
+            pin13.ChangeDutyCycle(10*i)
             time.sleep(2)
+        pin13.stop
 </pre>
 
 Suppose the code doesn’t seem to be making the motor behave as predicted.
