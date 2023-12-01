@@ -51,7 +51,7 @@ draft: false
 |      | 11/22 | NO CLASS     | (Thanksgiving)  |           |    P5 partners    |
 |  13  | 11/27 | How does the internet work?               |   P5 planning              |  [Internet](http://andnowforelectronics.com/notes/internet/); [Servers and clients](http://andnowforelectronics.com/notes/servers/)     |             |
 |    | 11/29 | Oscilloscopes  |  P5 Q & A     |               |    |
-|  14 | 12/4  | Project management, BOMs  |  Design ethics  |      |     |
+|  14 | 12/4  | Oscilloscopes (574 section); Client/server troubleshooting  |  P5 Q & A  |      |     |
 |     | 12/6  | P5 reflection  |   P5 demo day  |          |   [P5](http://andnowforelectronics.com/logistics/projects)       |
 |  15    | 12/11  | P6 intro, Jobs talk  |  P6 Q & A   |                                           |         |
 |  (16)  | 12/18 |   (ME 30 finals block)        |       |             |[P6 showcase, Dec. 18, 3:30-5:30pm](http://andnowforelectronics.com/logistics/projects)|
