@@ -235,7 +235,7 @@ flask                            RUNNING   pid 14183, uptime 0:00:09
 
 If Supervisor can't start Flask for whatever reason, it will write error messages in the log files, which you can find in `/var/log/supervisor/`. In general, it's probably a better idea to debug your Flask code pretty thoroughly before you start using Supervisor, but if bugs come up, the log files are your best hope. You can also just stop Flask under Supervisor and going back to running Flask from the console yourself.
 
-### **What if I want to make buttons that send GET HTTP requests?**
+### **What if I want to make web page buttons that send GET HTTP requests?**
 
 Brought to us by a session with ChatGPT, below is a simple HTML page with JavaScript that includes a button. When the button is pressed, it triggers a GET request to the specified URL (the IP address of a Raspberry Pi, which you should replace with your Pi's IP address).
 
