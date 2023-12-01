@@ -234,3 +234,45 @@ flask                            RUNNING   pid 14183, uptime 0:00:09
 ```
 
 If Supervisor can't start Flask for whatever reason, it will write error messages in the log files, which you can find in `/var/log/supervisor/`. In general, it's probably a better idea to debug your Flask code pretty thoroughly before you start using Supervisor, but if bugs come up, the log files are your best hope. You can also just stop Flask under Supervisor and going back to running Flask from the console yourself.
+
+### **What if I want to make buttons that send GET HTTP requests?**
+
+Brought to us by a session with ChatGPT, below is a simple HTML page with JavaScript that includes a button. When the button is pressed, it triggers a GET request to the specified URL (the IP address of a Raspberry Pi, which you should replace with your Pi's IP address).
+
+(Here's the prompt we gave to ChatGPT: *Please write a webpage made of HTML and Javascript that has a big button in the middle that issues a GET request to http://10.247.10.22/drivefast when I press the button.*)
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drive Fast Button</title>
+</head>
+<body>
+  <div style="text-align: center; margin-top: 50px;">
+    <button onclick="issueGetRequest()">Drive Fast</button>
+  </div>
+  <script>
+    function issueGetRequest() {
+      // Create a new XMLHttpRequest object
+      var xhr = new XMLHttpRequest();
+      // Define the GET request and the target URL
+      xhr.open("GET", "http://10.247.10.22/drivefast", true);
+
+      // Set up a callback function to handle the response
+      xhr.onreadystatechange = function() {
+        if (xhr.readyState == 4 && xhr.status == 200) {
+          // You can handle the response here if needed
+          console.log("GET request successful");
+        }
+      };
+      // Send the GET request
+      xhr.send();
+    }
+  </script>
+</body>
+</html>
+```
+
+ChatGPT also tells us: *Save this code in an HTML file, and when you open it in a web browser, you'll see a button labeled "Drive Fast." Clicking this button will trigger a GET request to the specified URL (`http://10.247.10.22/drivefast`). The console will log "GET request successful" if the request is successful. Note that if the target server doesn't allow cross-origin requests, you might need to handle CORS (Cross-Origin Resource Sharing) accordingly.*
