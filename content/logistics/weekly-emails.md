@@ -5,6 +5,35 @@ draft: false
 ## Weekly Update Emails
 
 - - -
+
+## Week 14: Sunday, 12/3/23
+
+Keep up the good work on Project 5!
+
+**Course housekeeping:**
+- PLEASE KEEP TRACK OF KIT COMPONENTS, ESPECIALLY YOUR MOTORS, POWER SUPPLIES, AND OTHER NON-CONSUMABLES. We must collect all your components (except those you've soldered onto your PCBs) at the end of the semester so that ME 30 is possible again next year. You'll turn in your kits on the day of the final project showcase, Dec. 18.
+- Labs are optional this week (12/3 to 12/10). They will focus on Project 5 support.
+
+**Things due in Week 14:**
+
+- [Project 5](http://andnowforelectronics.com/logistics/projects/) robots are due at class time this Wednesday, Dec. 6, 10:30am. That morning, we'll post a schedule with each team's assigned 5-minute slot (within our 10:30-11:45am class time) for robot testing with Kristen or Brandon. Please arrive with your robot for testing in the SEC lobby, one floor up from Kindlevan. We'll have the ramps there. LAs will be in Nolop supporting troubleshooting during this time.
+- There will be no class session in Nelson or 574 on Dec. 6.
+- Project 5 documentation is due by 11:59pm Wednesday night, on Canvas and within the self-assessment/reflection survey.
+
+**Learning goals for Week 14:**
+- Describe how the internet works.
+- Implement digital input and output on the Raspberry Pi.
+- Build an internet-connected electromechanical system.
+
+**Course website (andnowforelectronics.com) pages to study in Week 14:**
+- [Demo videos with client/server implementation](http://andnowforelectronics.com/notes/demo-videos/)
+- [Servers and Clients](http://andnowforelectronics.com/notes/servers/)
+- [Raspberry Pi Programming](http://andnowforelectronics.com/notes/pi-programming/)
+- [Raspberry Pi Challenges](http://andnowforelectronics.com/notes/pi-challenges/)
+
+  
+
+
 ## Week 13: Sunday, 11/26/23
 
 Hope you all had a restorative Thanksgiving break. You've made it to the home stretch! Two mobile robot projects left to go.
