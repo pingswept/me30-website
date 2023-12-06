@@ -31,6 +31,8 @@ As your robot ascends the ramp, your robot can request that its partner speed up
 
 If it's useful, we have several bins of ball bearings in Nolop that you could use to make some kind of tube roller for the front of your robot. Ball bearings may turn out to be unnecessary, but they're available if you need them.
 
+![P6 ramps diagram](/img/ramps-with-tube.png)
+
 ### Requirements for project 5
 ### Build an intrepid robot that travels up a ramp
 
