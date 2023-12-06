@@ -7,15 +7,34 @@ draft: false
 Projects 5 and 6 are, in a sense, one mega-project. In the first part, P5, you and your team build a robot. In the second part, P6, you and your team modify the robot to deliver a payload under specific diabolical constraints.
 
 ### Requirements for project 6
+### Modify your intrepid robots to roll a tube up a ramp in pairs
 
-**Due Monday, December 18, 3:30 PM (but note the P5 due date below!)**
+**Due Monday, December 18, 3:30 PM**
 
-These requirements will be revealed on Dec. 7.
+Your final challenge is to modify your robot's hardware and software so that it can collaborate with another robot to roll a tube up the pair of ramps as quickly as possible. You will know the IP address of the robot you are collaborating with, but your robot should attempt to work with any one of the 40 other robots in the class. On the day of the trials, you can try to work with multiple different robots. The most successful robot is the robot that can work with the largest variety of peers.
+
+* Your robot should still comply with all the constraints from P5.
+* Your robot should receive only one signal from a human: the click of a button to begin operation. After starting, your robot should operate autonomously.
+* Your robot should respond to two URLs: `/start/<delay>` and `/target/<speed>`.
+* Your robot should only make requests where `delay` is an integer in the range 1-10 seconds, and `speed` is an integer in the range 1-1000 mm/second.
+* Your robot should never send HTTP requests at a rate of more than 10 Hz, i.e.. wait at least 100 ms between requests.
+
+### URL details ###
+
+For `/start/<delay>`, your robot should respond `ok` or `no`. After responding `ok`, it should start driving in `delay` seconds. If your robot is not ready, or it has already agreed to a start time, or it is driving, it should respond `no`.
+
+For `/target/<speed>`, your robot should respond `ok` or `no`. After responding `ok`, it should try to ascend the ramp at a rate of `speed` mm/s.
+
+As your robot ascends the ramp, your robot can request that its partner speed up or slow down by requesting new target speeds. Your robot should listen for new target speeds from its partner and should respond in a way to increase the chances of getting the tube up the ramp quickly.
+
+**BONUS: To make sure that friction is not an insurmountable obstacle, the driving surface of the ramps will be covered in grip tape.**
+
+If it's useful, we have several bins of ball bearings in Nolop that you could use to make some kind of tube roller for the front of your robot. Ball bearings may turn out to be unnecessary, but they're available if you need them.
 
 ### Requirements for project 5
 ### Build an intrepid robot that travels up a ramp
 
-**Due date: Wednesday, December 6, 10:30am**
+**Due date: Wednesday, December 6, 10:30 AM**
 
 This is a relatively constrained project compared to the vast open field of P4. Your task is to build a robot that can travel up a ramp, controlled remotely by you.
 
