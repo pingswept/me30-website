@@ -11,7 +11,9 @@ Projects 5 and 6 are, in a sense, one mega-project. In the first part, P5, you a
 
 **Due Monday, December 18, 3:30 PM**
 
-Your final challenge is to modify your robot's hardware and software so that it can collaborate with another robot to roll a tube up the pair of ramps as quickly as possible. You will know the IP address of the robot you are collaborating with, but your robot should attempt to work with any one of the 40 other robots in the class. On the day of the trials, you can try to work with multiple different robots. The most successful robot is the robot that can work with the largest variety of peers.
+Your final challenge is to modify your robot's hardware and software so that it can collaborate with another robot to roll a tube up the pair of ramps as quickly as possible without the tube falling off either ramp. It is the shared responsibility of both robots to control their speed and the tube angle to shepherd the tube to the top of the ramp.
+
+You will know the IP address of the robot you are collaborating with, but your robot should attempt to work with any one of the 40 other robots in the class. On the day of the trials, you can try to work with multiple different robots. The most successful robot is the robot that can work with the largest variety of peers.
 
 * Your robot should still comply with all the constraints from P5.
 * Your robot should receive only one signal from a human: the click of a button to begin operation. After starting, your robot should operate autonomously.
