@@ -35,6 +35,42 @@ If it's useful, we have several bins of ball bearings in Nolop that you could us
 
 ![P6 ramps diagram](/img/ramps-with-tube.png)
 
+### Software architecture ###
+
+Assuming your intrepid robot can drive up the ramp with enough force left to roll the tube, you should figure out how to set up your Pi so that it can collaborate effectively with the robot on the other ramp. The major challenge is that a Python program can only do one thing at a time, so if your Flask server is listening to or responding to a request from another robot, it can't do anything else. The exciting thing is that we have an operating system running on the Pi that allows you to run multiple processes simultaneously.
+
+Before we get into that slightly complicated arrangement, there is a simpler approach that might work, and it will probably be useful for testing.
+
+### The simpler approach ###
+
+Add two routes to Flask that look something like this.
+
+```python
+import requests # a Python library that lets us make HTTP requests of another host
+import time
+
+@app.route('/do-once')
+def do_once():
+    # (This is pseudo code)
+    speed = negotiate_target_speed_with_partner()
+    delay = negotiate_start_delay_with_partner()
+    time.sleep(delay)
+    set_motors_to_target(speed)
+
+@app.route('/control-loop')
+def control_loop():
+    # (This is pseudo code)
+    read_sensors()
+    change_PWM_based_on_sensor_data()
+    maybe_suggest_different_target_speed_to_partner()
+```
+
+If you have those two routes, you could make a webpage served from your Flask templates folder that has 2 buttons: `run_do_once` and `run_control_loop`. Then, to start, you click the `run_do_once` button, which runs the `do_once` function on your Pi. If it works, your robot starts driving.
+
+Then, you mash the `run_control_loop` button repeatedly as fast as you can. This runs the `control_loop` function on your Pi a few times a second.
+
+"BUT WAIT!" you cry in dismay, "That violates the 'only one signal from a human' requirement!" Yes, it does. The next thing to do is to modify your webpage so that it mashes the button for you repeatedly. You can ask ChatGPT about this, and it will explain about the `setInterval` method in Javascript.
+
 ### Requirements for project 5
 ### Build an intrepid robot that travels up a ramp
 
