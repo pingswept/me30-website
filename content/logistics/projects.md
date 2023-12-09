@@ -77,9 +77,13 @@ The simpler approach described above has the strength that it is uses the same t
 
 The good news is that instead of triggering the `control_loop` function repeatedly through the internet, you can run it locally on your Pi, as long as you run it in a separate Python process. There are a few different ways you could do this. Here are a few.
 
-1. It's a bit hacky, but you could log in to your Pi twice in two different SSH sessions. Start Flask in one window and run something like `python3 control-loop.py` in the other. The big challenge here is figuring out how to share information, like the target speed, between the control loop and Flask server. A decent solution would be to have the server write the target speed to a file and then have the control loop read it. ChatGPT can tell you how to read and write from a file in Python. You could also implement a route like `@app.route('/get-target-speed')` which just retrieves the target speed from a global variable held by the Flask server.
+1. It's a bit hacky, but you could log in to your Pi twice in two different SSH sessions. Start Flask in one window and run something like `python3 control-loop.py` in the other. The big challenge here is figuring out how to share information, like the target speed, between the control loop and Flask server. A decent solution would be to have the server write the target speed to a file and then have the control loop read it. ChatGPT can tell you how to read and write from a file in Python. Alternatively, you could also implement a route like `@app.route('/get-target-speed')` which just retrieves the target speed from a global variable held by the Flask server.
 
-2. If you want something less brittle than 2 SSH sessions, you could [run the Flask server using Supervisor](/notes/pi-programming/#thats-cool-but-how-do-i-get-flask-to-start-itself-when-the-pi-boots).
+2. If you want something less brittle than 2 SSH sessions, you could [run the Flask server using Supervisor](/notes/pi-programming/#thats-cool-but-how-do-i-get-flask-to-start-itself-when-the-pi-boots). For a fully autonomous robot, you could also run your control loop using Supervisor.
+
+3. Debugging errors while starting and stopping Supervisor can be cumbersome, so while you're testing, you could also run your control loop on your laptop, as long as you communicate with the Flask process entirely via HTTP rather than files.
+
+4. There are lots of other ways to talk between Python processes, like the [Python multiprocessing module](https://docs.python.org/3/library/multiprocessing.html), [RPyC](https://rpyc.readthedocs.io/en/latest/), or [ZeroMQ](https://zeromq.org/languages/python/).
 
 ## Requirements for project 5
 ### Build an intrepid robot that travels up a ramp
