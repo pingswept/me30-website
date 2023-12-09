@@ -176,7 +176,7 @@ def digital_write(pin_name, state):
 
 You also need to install [Flask](https://pypi.org/project/Flask/) onto your Pi for this to work.
 
-**Wait, how do I install Flask?**
+### **Wait, how do I install Flask?**
 
 ```
 sudo pip3 install flask
@@ -197,7 +197,7 @@ python3 -m flask run --host=0.0.0.0
 
 By default, Flask will listen on port 5000, so check `http://your.rpi.ip.address:5000` to see if it worked.
 
-**That's cool, but how do I get Flask to start itself when the Pi boots?**
+### **That's cool, but how do I get Flask to start itself when the Pi boots?**
 
 If you are logged in to your Pi remotely via SSH, you can just type in the commands above to start Flask and run a python script within it. But if you want Flask to start itself automatically when the Pi boots, then you'll want to install [Supervisor](http://supervisord.org).
 
