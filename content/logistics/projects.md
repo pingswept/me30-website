@@ -71,7 +71,17 @@ Then, you mash the `run_control_loop` button repeatedly as fast as you can. This
 
 "BUT WAIT!" you cry in dismay, "That violates the 'only one signal from a human' requirement!" Yes, it does. The next thing to do is to modify your webpage so that it mashes the button for you repeatedly. You can ask ChatGPT about this, and it will explain about the `setInterval` method in Javascript.
 
-### Requirements for project 5
+### A more advanced approach
+
+The simpler approach described above has the strength that it is uses the same tools we used for robot control in P5 (a single Python process running Flask, a web page sending commands to the Flask server). It has the weakness that it relies on a wifi connection for everything. If the wifi gets laggy, which is likely, your control loop won't execute reliably.
+
+The good news is that instead of triggering the `control_loop` function repeatedly through the internet, you can run it locally on your Pi, as long as you run it in a separate Python process. There are a few different ways you could do this. Here are a few.
+
+1. It's a bit hacky, but you could log in to your Pi twice in two different SSH sessions. Start Flask in one window and run something like `python3 control-loop.py` in the other. The big challenge here is figuring out how to share information, like the target speed, between the control loop and Flask server. A decent solution would be to have the server write the target speed to a file and then have the control loop read it. ChatGPT can tell you how to read and write from a file in Python. You could also implement a route like `@app.route('/get-target-speed')` which just retrieves the target speed from a global variable held by the Flask server.
+
+2. If you want something less brittle than 2 SSH sessions, you could [run the Flask server using Supervisor](/notes/pi-programming/#thats-cool-but-how-do-i-get-flask-to-start-itself-when-the-pi-boots).
+
+## Requirements for project 5
 ### Build an intrepid robot that travels up a ramp
 
 **Due date: Wednesday, December 6, 10:30 AM**
