@@ -17,9 +17,30 @@ You will know the IP address of the robot you are collaborating with, but your r
 
 * Your robot should still comply with all the constraints from P5.
 * Your robot should receive only one signal from a human: the click of a button to begin operation. After starting, your robot should operate autonomously.
-* Your robot should respond to two URLs: `/start/<delay>` and `/target/<speed>`.
+* Your robot should respond to two URLs: `/start/<delay>` and `/target/<speed>`. (See **URL details** below.)
 * Your robot should only make requests where `delay` is an integer in the range 1-10 seconds, and `speed` is an integer in the range 1-1000 mm/second.
 * Your robot should never send HTTP requests at a rate of more than 10 Hz, i.e.. wait at least 100 ms between requests.
+
+### Recommended work plan ###
+
+Project 6 is challenging. We just suggest breaking it down into a sequence of more manageable tasks. Each task involves adding a new capability to your robot until it can achieve all of the project requirements. The key to this method is to focus on one new "robot superpower" at a time. Don't try to add them all at once because each capability influences the others. 
+
+Here's the work plan we recommend:
+
+1. Get your robot to drive up a ramp autonomously. For this task, be sure to consider mechanical solutions. You might add guards or guides to your robot that keep it from veering off the edges of the ramp; you might swap out a swervy caster wheel for a wheel-and-axle assembly that tracks straighter, etc.
+2. Figure out how commands (voltage or PWM) to your robot's motors translate into its linear speed up the ramp (in mm/sec). Also, what is the min/max driving speed for your robot? What kind of start delay works for you?
+3. Get your robot to run Flask and start at a target speed (in mm/sec) after a specific delay (in seconds) based on receiving those values in HTTP requests (i.e., focus on running a server.py script in Flask with @app.route to functions).
+4. Get your robot to send delay and speed requests to a partner (i.e., add code that now also can send HTTP requests).
+5. Decide how to run both of these simultaneously (see **Software Architecture** details below.)
+6. Get your robot to be able to check if the tube is stable (i.e., not sliding off at an angle), perhaps with buttons or other sensors. Understand how the speeds of your robot and your partner's robot should change based on that information about the tube. (e.g., if you sense the tube tilting toward your partner, do you send a target speed request to your partner to speed up or slow down? Do you change your own speed? What if you're alread driving at min or max speed?)
+7. Get your robot to be able to receive target speed requests while driving, so it can get data from its partner's robot.
+
+Minimum viable product:
+* Get your robot to drive up a ramp autonomously.
+* Decide the best speed for your robot.
+* Tell your partner what speed and start delay you need.
+* On the count of three, start your robot.            
+
 
 ### URL details ###
 
