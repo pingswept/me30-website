@@ -131,6 +131,10 @@ See **"A more advanced approah"** above for other ideas.
 In reality, one of those requests will be received a tiny fraction of a second before the other one. You should think about what you want your robot to do if it receives a request from a partner robot just after it has sent out its own request. Is there a way to make your robot respond differently if it "knows" it is still waiting for a response itself? 
 {{< /expand >}}
 
+{{< expand "6. Do we need advanced sensors for this project?" "..." >}}
+No, you don't. You probably need at least some buttons or switches cleverly located, but you can be successful without cameras, distance sensors, etc.
+{{< /expand >}}
+
 ## Requirements for project 5
 ### Build an intrepid robot that travels up a ramp
 
