@@ -109,6 +109,10 @@ The good news is that instead of triggering the `control_loop` function repeated
 
 ### Project 6 FAQs
 
+{{< expand "0. Where do we start?" "..." >}}
+See notes above on **Recommended Work Plan**.
+{{< /expand >}}
+
 {{< expand "1. How big is the tube?" "..." >}}
 3 inches in diameter, 36 inches long
 {{< /expand >}}
@@ -124,7 +128,7 @@ No.
 {{< expand "4. Is there a way to get our Pi to run two Python scripts at the same time?" "..." >}}
 Yes. One way to do this is to log in to your Pi twice in two different SSH sessions. You can type different commands into the two the different sessions.
 
-See **"A more advanced approah"** above for other ideas.
+See **"A more advanced approach"** above for other ideas.
 {{< /expand >}}
 
 {{< expand "5. What happens if two Pis make requests of each other at the same time?" "..." >}}
@@ -133,6 +137,17 @@ In reality, one of those requests will be received a tiny fraction of a second b
 
 {{< expand "6. Do we need advanced sensors for this project?" "..." >}}
 No, you don't. You probably need at least some buttons or switches cleverly located, but you can be successful without cameras, distance sensors, etc.
+{{< /expand >}}
+
+{{< expand "7. When can we get help?" "..." >}}
+Regular lab times have ended, but there are extra office hours in Nolop the week of Dec. 12:
+* Mon., 12/11 - Zosia 5-7pm
+* Tue., 12/12 - Anna 12:30-2:30pm, Zosia 5-7pm
+* Wed., 12/13 - Zosia 1-2:30pm, Julia 7-9pm
+* Thu., 12/14 - Alexa 10:30-11:30am, Anna 2:30-4:30pm, Antonio 5-7pm
+* Fri. 12/15 - Gabe 11am-12pm, Rose 12-2pm, Kristen 2-5pm
+
+And as always, please reach out to an instructor if you want to make a separate appointment for help.
 {{< /expand >}}
 
 ## Requirements for project 5
