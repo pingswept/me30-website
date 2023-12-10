@@ -6,12 +6,12 @@ draft: false
 
 Projects 5 and 6 are, in a sense, one mega-project. In the first part, P5, you and your team build a robot. In the second part, P6, you and your team modify the robot to deliver a payload under specific diabolical constraints.
 
-### Requirements for project 6
+## Requirements for project 6
 ### Modify your intrepid robots to roll a tube up a ramp in pairs
 
-**Due Monday, December 18, 3:30 PM**
+**Due Monday, December 18, 3:30 PM, SEC Atrium**
 
-Your final challenge is to modify your robot's hardware and software so that it can collaborate with another robot to roll a tube up the pair of ramps as quickly as possible without the tube falling off either ramp. It is the shared responsibility of both robots to control their speed and the tube angle to shepherd the tube to the top of the ramp.
+Your final challenge is to modify your robot's hardware and software so that it can collaborate with another robot to roll a tube (cardboard, 3-in diam.) up the pair of ramps as quickly as possible without the tube falling off either ramp. It is the shared responsibility of both robots to control their speed and the tube angle to shepherd the tube to the top of the ramp.
 
 You will know the IP address of the robot you are collaborating with, but your robot should attempt to work with any one of the 40 other robots in the class. On the day of the trials, you can try to work with multiple different robots. The most successful robot is the robot that can work with the largest variety of peers.
 
@@ -23,17 +23,17 @@ You will know the IP address of the robot you are collaborating with, but your r
 
 ### Recommended work plan ###
 
-Project 6 is challenging. We just suggest breaking it down into a sequence of more manageable tasks. Each task involves adding a new capability to your robot until it can achieve all of the project requirements. The key to this method is to focus on one new "robot superpower" at a time. Don't try to add them all at once because each capability influences the others. 
+Project 6 is challenging. We just suggest that you **break it down into a sequence of more manageable tasks.** Each task involves adding a new capability to your robot until it can achieve all of the project requirements. The key to this method is to focus on one new "robot superpower" at a time. Don't try to add them all at once because each capability influences the others. 
 
-Here's the work plan we recommend:
+Here are the Project 6 steps we recommend:
 
-1. Get your robot to drive up a ramp autonomously. For this task, be sure to consider mechanical solutions. You might add guards or guides to your robot that keep it from veering off the edges of the ramp; you might swap out a swervy caster wheel for a wheel-and-axle assembly that tracks straighter, etc.
-2. Figure out how commands (voltage or PWM) to your robot's motors translate into its linear speed up the ramp (in mm/sec). Also, what is the min/max driving speed for your robot? What kind of start delay works for you?
-3. Get your robot to run Flask and start at a target speed (in mm/sec) after a specific delay (in seconds) based on receiving those values in HTTP requests (i.e., focus on running a server.py script in Flask with @app.route to functions).
-4. Get your robot to send delay and speed requests to a partner (i.e., add code that now also can send HTTP requests).
+1. Get your robot to drive up a ramp autonomously. Make sure it can handle the weight of the tube while driving. For this task, be sure to consider mechanical solutions. You might add guards or guides to your robot that keep it from veering off the edges of the ramp; you might swap out a swervy caster wheel for a wheel-and-axle assembly that tracks straighter, etc.
+2. Make decisions about driving speed. Figure out how commands (voltage or PWM) to your robot's motors translate into its linear speed up the ramp (in mm/sec). Also, what is the min/max driving speed for your robot? What kind of start delay works for you?
+3. Get your robot to run Flask and start at a target `speed` (in mm/sec) after a specific `delay` (in seconds) based on receiving those values in HTTP requests (i.e., focus on running a server.py script in Flask with @app.route to functions).
+4. Get your robot to send `delay` and `speed` requests to a partner (i.e., add code that now also can send HTTP requests).
 5. Decide how to run both of these simultaneously (see **Software Architecture** details below.)
-6. Get your robot to be able to check if the tube is stable (i.e., not sliding off at an angle), perhaps with buttons or other sensors. Understand how the speeds of your robot and your partner's robot should change based on that information about the tube. (e.g., if you sense the tube tilting toward your partner, do you send a target speed request to your partner to speed up or slow down? Do you change your own speed? What if you're alread driving at min or max speed?)
-7. Get your robot to be able to receive target speed requests while driving, so it can get data from its partner's robot.
+6. Get your robot to be able to check if the tube is stable (i.e., not sliding off at an angle), perhaps with buttons or other sensors. Understand how the speeds of your robot and your partner's robot should change based on information about the tube. (e.g., If you sense the tube tilting toward your partner, do you send a target speed request to your partner to speed up or slow down? Do you change your own speed? What if you're alread driving at min or max speed?)
+7. Get your robot to be able to receive target `speed` and `delay` requests while driving.
 
 Minimum viable product:
 * Get your robot to drive up a ramp autonomously.
@@ -105,6 +105,10 @@ The good news is that instead of triggering the `control_loop` function repeated
 3. Debugging errors while starting and stopping Supervisor can be cumbersome, so while you're testing, you could also run your control loop on your laptop, as long as you communicate with the Flask process entirely via HTTP rather than files.
 
 4. There are lots of other ways to talk between Python processes, like the [Python multiprocessing module](https://docs.python.org/3/library/multiprocessing.html), [RPyC](https://rpyc.readthedocs.io/en/latest/), or [ZeroMQ](https://zeromq.org/languages/python/).
+
+### Project 6 FAQs
+
+To be added soon....
 
 ## Requirements for project 5
 ### Build an intrepid robot that travels up a ramp
