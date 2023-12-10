@@ -51,7 +51,7 @@ The key to this method is to focus on one new "robot superpower" at a time. Don'
 
 Minimum Viable Product
 
-And if you're overwhelmed by the details, start by aiming for this **minimum viable product**:
+And if you're overwhelmed by the details, start by aiming to:
 * Get your robot to drive up a ramp autonomously.
 * Decide the best speed for your robot.
 * Tell your partner what speed and start delay you need.
