@@ -9,22 +9,19 @@ ME 30, Electronics & Controls I
 
 ## Office hours
 
-Kristen's office hours are:  
+Regular lab times have ended, but there are extra office hours in Nolop the week of Dec. 12:
 
-* Tuesday, Dec. 5, 1-2pm, Nolop
-* Thursday, Dec. 7, 3-4pm, Zoom: https://tufts.zoom.us/my/kbwendell
-* Friday, Dec. 8, 2-4pm, Nolop
-* By appointment (just email kristen.wendell@tufts.edu) 
+* Mon., 12/11 - Zosia 5-7pm
+* Tue., 12/12 - Anna 12:30-2:30pm, Zosia 5-7pm
+* Wed., 12/13 - Zosia 1-2:30pm, Julia 7-9pm
+* Thu., 12/14 - Alexa 10:30-11:30am, Anna 2:30-4:30pm, Antonio 5-7pm
+* Fri. 12/15 - Gabe 11am-12pm, Rose 12-2pm, Kristen 2-5pm
 
-Brandon's office hours are:
+As always, please reach out to an instructor if you want to make a separate appointment for help.
+
+And Brandon's office hours are:
 
 * Roughly 9 AM to 5 PM in Nolop, unless he's teaching class or in a meeting, or it's a weekend
-
-LA office hours are:
-
-* Zosia: Mondays 5-7pm, Nolop
-* Zosia: Wednesdays 9-10:15am, Nolop
-* Antonio: Thursdays 6-7pm, Nolop
 
 You can also get help from ME 30 LA's when they are on shift at Nolop.
 
