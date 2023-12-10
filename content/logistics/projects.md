@@ -17,7 +17,7 @@ You will know the IP address of the robot you are collaborating with, but your r
 
 * Your robot should still comply with all the constraints from P5.
 * Your robot should receive only one signal from a human: the click of a button to begin operation. After starting, your robot should operate autonomously.
-* Your robot should respond to two URLs: `/start/<delay>` and `/target/<speed>`. (See [URL details](logistics/projects/#url-details) below.)
+* Your robot should respond to two URLs: `/start/<delay>` and `/target/<speed>`. (See [URL details](/logistics/projects/#url-details) below.)
 * Your robot should only make requests where `delay` is an integer in the range 1-10 seconds, and `speed` is an integer in the range 1-1000 mm/second.
 * Your robot should never send HTTP requests at a rate of more than 10 Hz, i.e. wait at least 100 ms between requests.
 
