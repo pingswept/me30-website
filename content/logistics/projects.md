@@ -108,7 +108,27 @@ The good news is that instead of triggering the `control_loop` function repeated
 
 ### Project 6 FAQs
 
-To be added soon....
+{{< expand "1. How big is the tube?" "..." >}}
+3 inches in diameter, 36 inches long
+{{< /expand >}}
+
+{{< expand "2. Will we know our partner robot ahead of time?" "..." >}}
+No. On the day of the showcase we'll make random pairings and ask you to try rolling the tube up the ramp together. If it doesn't go well, you can try again with other partners. However, the most successful robot is the one that can collaborate with the most other robots.
+{{< /expand >}}
+
+{{< expand "3. Can we make physical modifications to our partner robot?" "..." >}}
+No. 
+{{< /expand >}}
+
+{{< expand "4. Is there a way to get our Pi to run two Python scripts at the same time?" "..." >}}
+Yes. One way to do this is to log in to your Pi twice in two different SSH sessions. You can type different commands into the two the different sessions.
+
+See **"A more advanced approah"** above for other ideas.
+{{< /expand >}}
+
+{{< expand "5. What happens if two Pis make requests of each other at the same time?" "..." >}}
+In reality, one of those requests will be received a tiny fraction of a second before the other one. You should think about what you want your robot to do if it receives a request from a partner robot just after it has sent out its own request. Is there a way to make your robot respond differently if it "knows" it is still waiting for a response itself? 
+{{< /expand >}}
 
 ## Requirements for project 5
 ### Build an intrepid robot that travels up a ramp
