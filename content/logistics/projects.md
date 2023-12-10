@@ -23,9 +23,7 @@ You will know the IP address of the robot you are collaborating with, but your r
 
 ### Recommended work plan ###
 
-Project 6 is challenging. We just suggest that you **break it down into a sequence of more manageable tasks.** Each task involves adding a new capability to your robot until it can achieve all of the project requirements. The key to this method is to focus on one new "robot superpower" at a time. Don't try to add them all at once because each capability influences the others. 
-
-Here are the Project 6 steps we recommend:
+Project 6 is challenging. We just suggest that you **break it down into the following sequence of more manageable tasks.** Each task involves adding a new capability to your robot until it can achieve all of the project requirements:
 
 1. Get your robot to drive up a ramp autonomously. Make sure it can handle the weight of the tube while driving. For this task, be sure to consider mechanical solutions. You might add guards or guides to your robot that keep it from veering off the edges of the ramp; you might swap out a swervy caster wheel for a wheel-and-axle assembly that tracks straighter, etc.
 2. Make decisions about driving speed. Figure out how commands (voltage or PWM) to your robot's motors translate into its linear speed up the ramp (in mm/sec). Also, what is the min/max driving speed for your robot? What kind of start delay works for you?
@@ -35,7 +33,9 @@ Here are the Project 6 steps we recommend:
 6. Get your robot to be able to check if the tube is stable (i.e., not sliding off at an angle), perhaps with buttons or other sensors. Understand how the speeds of your robot and your partner's robot should change based on information about the tube. (e.g., If you sense the tube tilting toward your partner, do you send a target speed request to your partner to speed up or slow down? Do you change your own speed? What if you're alread driving at min or max speed?)
 7. Get your robot to be able to receive target `speed` and `delay` requests while driving.
 
-Minimum viable product:
+The key to this method is to focus on one new "robot superpower" at a time. Don't try to add them all at once because each capability influences the others. 
+
+And if you're overwhelmed by the details, start by aiming for this **minimum viable product**:
 * Get your robot to drive up a ramp autonomously.
 * Decide the best speed for your robot.
 * Tell your partner what speed and start delay you need.
