@@ -11,15 +11,15 @@ Projects 5 and 6 are, in a sense, one mega-project. In the first part, P5, you a
 
 **Due Monday, December 18, 3:30 PM, SEC Atrium**
 
-Your final challenge is to modify your robot's hardware and software so that it can collaborate with another robot to roll a tube (cardboard, 3-in diam.) up the pair of ramps as quickly as possible without the tube falling off either ramp. It is the shared responsibility of both robots to control their speed and the tube angle to shepherd the tube to the top of the ramp.
+Your final challenge is to modify your robot's hardware and software so that it can collaborate with another robot to roll a tube (cardboard, diameter of 3 in) up the pair of ramps as quickly as possible without the tube falling off either ramp. It is the shared responsibility of both robots to control their speed and the tube angle to shepherd the tube to the top of the ramp.
 
 You will know the IP address of the robot you are collaborating with, but your robot should attempt to work with any one of the 40 other robots in the class. On the day of the trials, you can try to work with multiple different robots. The most successful robot is the robot that can work with the largest variety of peers.
 
 * Your robot should still comply with all the constraints from P5.
 * Your robot should receive only one signal from a human: the click of a button to begin operation. After starting, your robot should operate autonomously.
-* Your robot should respond to two URLs: `/start/<delay>` and `/target/<speed>`. (See **URL details** below.)
+* Your robot should respond to two URLs: `/start/<delay>` and `/target/<speed>`. (See [URL details](logistics/projects/#url-details) below.)
 * Your robot should only make requests where `delay` is an integer in the range 1-10 seconds, and `speed` is an integer in the range 1-1000 mm/second.
-* Your robot should never send HTTP requests at a rate of more than 10 Hz, i.e.. wait at least 100 ms between requests.
+* Your robot should never send HTTP requests at a rate of more than 10 Hz, i.e. wait at least 100 ms between requests.
 
 ### URL details ###
 
@@ -114,7 +114,7 @@ See notes above on **Recommended Work Plan**.
 {{< /expand >}}
 
 {{< expand "1. How big is the tube?" "..." >}}
-3 inches in diameter, 36 inches long
+3 inches in diameter, 52 inches long
 {{< /expand >}}
 
 {{< expand "2. Will we know our partner robot ahead of time?" "..." >}}
@@ -136,7 +136,7 @@ In reality, one of those requests will be received a tiny fraction of a second b
 {{< /expand >}}
 
 {{< expand "6. Do we need advanced sensors for this project?" "..." >}}
-No, you don't. You probably need at least some buttons or switches cleverly located, but you can be successful without cameras, distance sensors, etc.
+No, you don't. You probably need at least some buttons or switches cleverly located, but you can be successful without cameras, distance sensors, or the like.
 {{< /expand >}}
 
 {{< expand "7. When can we get help?" "..." >}}
