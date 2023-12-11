@@ -10,22 +10,30 @@ draft: false
 Great work getting those robots up the ramp. Onward to the final project, #6!
 
 **Location Change for Class on Mon., Dec. 11**
-- For our last regular class session, both sections will be combined in Distler Performance Hall, Granoff Music Building, at our regular 10:30am time. You do not need to bring your electronics kit.
-
-**Project 6 Showcase Dec. 18, 3:30-5:30pm, SEC Atrium**
-- Project 6, the collaborative tube-rolling robot, is due during our final showcase block on Monday, Dec. 18, 3:30-5:30pm in the SEC Atrium. Teams will demo their robot in collaboration with other robots. You'll turn in your ME 30 kit after the robot demos.  We estimate demos from 3:30-4:30pm and kit return from 4:30-5:30pm.
-- Project 6 documentation is due on Canvas by 11:59pm on Mon., Dec. 18.
+- For our last regular class session, please come to Distler Performance Hall, Granoff Music Building, at our regular 10:30am time. Both sections will meet together. You do not need to bring your electronics kit. 
 
 **Project 6 Details and Resources**
 - Please carefully read the updated [Project 6](http://andnowforelectronics.com/logistics/projects/#requirements-for-project-6)  description. We have posted many new resources and ideas for working on Project 6.
 - Take some time to discuss the Project 6 resources with your team. For example, look at the [Recommeded Work Plan](http://andnowforelectronics.com/logistics/projects/#recommended-work-plan) together and decide whether you will follow that sequence of sub-tasks to get the project done.
 
-**Office Hours for Project 6**
-- 
+**Project 6 Showcase Dec. 18, 3:30-5:30pm, SEC Atrium**
+- Project 6, the collaborative tube-rolling robot, is due during the ME 30 final showcase block on Monday, Dec. 18, 3:30-5:30pm in the SEC Atrium. You'll demo your Project 6 robot in collaboration with other robots. Then you'll turn in your ME 30 kit after the robot demos.  We estimate demos from 3:30-4:30pm and kit return from 4:30-5:30pm.
+- Project 6 documentation is due on Canvas by 11:59pm on Mon., Dec. 18.
 
 **Kit Return on Dec. 18**
 - Note that you must return your ME 30 kit (except for any components soldered to your PCBs) on Dec. 18 after robot demos.
 
+**Office Hours for Project 6**
+
+Regular lab times have ended, but there are extra office hours in Nolop the week of Dec. 12:
+
+* Mon., 12/11 - Gabe 1:30-2:30pm, Zosia 5-7pm, Theresa 7-8pm
+* Tue., 12/12 - Anna 12:30-2:30pm, Theresa 3:30-4:30pm, Zosia 5-7pm
+* Wed., 12/13 - Zosia 1-2:30pm, Julia 7-9pm
+* Thu., 12/14 - Alexa 10:30-11:30am, Anna 2:30-4:30pm, Antonio 5-7pm
+* Fri. 12/15 - Rose 12-2pm, Kristen 2-5pm
+
+As always, please reach out to an instructor if you want to make a separate appointment for help.
 
 ## Week 14: Sunday, 12/3/23
 
