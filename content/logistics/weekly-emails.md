@@ -5,6 +5,27 @@ draft: false
 ## Weekly Update Emails
 
 - - -
+## Week 15: Sunday, 12/10/23
+
+Great work getting those robots up the ramp. Onward to the final project, #6!
+
+**Location Change for Class on Mon., Dec. 11**
+- For our last regular class session, both sections will be combined in Distler Performance Hall, Granoff Music Building, at our regular 10:30am time. You do not need to bring your electronics kit.
+
+**Project 6 Showcase Dec. 18, 3:30-5:30pm, SEC Atrium**
+- Project 6, the collaborative tube-rolling robot, is due during our final showcase block on Monday, Dec. 18, 3:30-5:30pm in the SEC Atrium. Teams will demo their robot in collaboration with other robots. You'll turn in your ME 30 kit after the robot demos.  We estimate demos from 3:30-4:30pm and kit return from 4:30-5:30pm.
+- Project 6 documentation is due on Canvas by 11:59pm on Mon., Dec. 18.
+
+**Project 6 Details and Resources**
+- Please carefully read the updated [Project 6](http://andnowforelectronics.com/logistics/projects/#requirements-for-project-6)  description. We have posted many new resources and ideas for working on Project 6.
+- Take some time to discuss the Project 6 resources with your team. For example, look at the [Recommeded Work Plan](http://andnowforelectronics.com/logistics/projects/#recommended-work-plan) together and decide whether you will follow that sequence of sub-tasks to get the project done.
+
+**Office Hours for Project 6**
+- 
+
+**Kit Return on Dec. 18**
+- Note that you must return your ME 30 kit (except for any components soldered to your PCBs) on Dec. 18 after robot demos.
+
 
 ## Week 14: Sunday, 12/3/23
 
