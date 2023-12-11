@@ -14,7 +14,7 @@ Great work getting those robots up the ramp. Onward to the final project, #6!
 
 **Project 6 Details and Resources**
 - Please carefully read the updated [Project 6](http://andnowforelectronics.com/logistics/projects/#requirements-for-project-6)  description. We have posted many new resources and ideas for working on Project 6.
-- Take some time to discuss the Project 6 resources with your team. For example, look at the [Recommeded Work Plan](http://andnowforelectronics.com/logistics/projects/#recommended-work-plan) together and decide whether you will follow that sequence of sub-tasks to get the project done.
+- Take some time to discuss the Project 6 resources with your team. For example, look at the [Recommeded Work Plan](http://andnowforelectronics.com/logistics/projects/#recommended-work-plan) together and decide whether you will follow that sequence of sub-tasks to get the project done. Consider the [Software Architecture](http://andnowforelectronics.com/logistics/projects/#software-architecture) advice and figure out whether you have questions about it.
 
 **Project 6 Showcase Dec. 18, 3:30-5:30pm, SEC Atrium**
 - Project 6, the collaborative tube-rolling robot, is due during the ME 30 final showcase block on Monday, Dec. 18, 3:30-5:30pm in the SEC Atrium. You'll demo your Project 6 robot in collaboration with other robots. Then you'll turn in your ME 30 kit after the robot demos.  We estimate demos from 3:30-4:30pm and kit return from 4:30-5:30pm.
