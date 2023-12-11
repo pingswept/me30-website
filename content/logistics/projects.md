@@ -141,13 +141,14 @@ No, you don't. You probably need at least some buttons or switches cleverly loca
 
 {{< expand "7. When can we get help?" "..." >}}
 Regular lab times have ended, but there are extra office hours in Nolop the week of Dec. 12:
-* Mon., 12/11 - Gabe 1:30-2:30pm, Zosia 5-7pm
-* Tue., 12/12 - Anna 12:30-2:30pm, Zosia 5-7pm
+
+* Mon., 12/11 - Gabe 1:30-2:30pm, Zosia 5-7pm, Theresa 7-8pm
+* Tue., 12/12 - Anna 12:30-2:30pm, Theresa 3:30-4:30pm, Zosia 5-7pm
 * Wed., 12/13 - Zosia 1-2:30pm, Julia 7-9pm
 * Thu., 12/14 - Alexa 10:30-11:30am, Anna 2:30-4:30pm, Antonio 5-7pm
 * Fri. 12/15 - Rose 12-2pm, Kristen 2-5pm
 
-And as always, please reach out to an instructor if you want to make a separate appointment for help.
+As always, please reach out to an instructor if you want to make a separate appointment for help.
 {{< /expand >}}
 
 ## Requirements for project 5
