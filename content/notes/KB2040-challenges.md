@@ -35,13 +35,13 @@ Note that schematics 6, 7, 9, 10, and 11 are missing pull-down resistors between
 
 {{< expand "Click to see wiring diagrams for the challenges" "..." >}}
 
-Note that schematics 6, 7, 9, 10, and 11 are missing pull-down resistors between the MOSFET gate and ground. We'll add those soon. The circuits will basically work without them, but your motor might also spin even when the MOSFET gate is not being intentionally sent 3.3 V.
+Note that circuits 6, 7, 9, 10, and 11 include pull-down resistors between the MOSFET gate and ground. Your circuits would basically work without them, but your motor might spin even when the MOSFET gate is not being intentionally sent 3.3 V.
 
-![wiring 1-7](/img/Challenge_Wiring1-7.jpg)
+![wiring 1-7](/img/Challenge_Wiring1-7new.jpg)
 
-![wiring 8-10](/img/Challenge_Wiring8-10.jpg)
+![wiring 8-10](/img/Challenge_Wiring8-10new.jpg)
 
-![wiring 11-12](/img/Challenge_Wiring11-12.jpg)
+![wiring 11-12](/img/Challenge_Wiring11-12new.jpg)
 {{< /expand >}} 
 
 {{< expand "Click to see CircuitPython code for the challenges" "..." >}}
