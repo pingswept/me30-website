@@ -27,8 +27,6 @@ draft: false
 
 {{< expand "Click to see circuit schematics for the challenges" "..." >}}
 
-Note that schematics 6, 7, 9, 10, and 11 are missing pull-down resistors between the MOSFET gate and ground. We'll add those soon. The circuits will basically work without them, but your motor might also spin even when the MOSFET gate is not being intentionally sent 3.3 V.
-
 ![schematics](/img/Challenge_Schematicsnew.jpg)
 {{< /expand >}} 
 
