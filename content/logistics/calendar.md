@@ -50,7 +50,6 @@ draft: false
 |:----:|:-----:|--------------------------------------------|-------------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------|
 |  12    | 11/18 | Project 5 intro       | Pi challenges |  [Raspberry Pi challenges](http://andnowforelectronics.com/notes/pi-challenges/)     |    Raspberry Pi setup check on Canvas         |
 |     | 11/20 | How does the internet work?               |   P5 planning              |  [Internet](http://andnowforelectronics.com/notes/internet/)     |      |
-
 |  13  | 11/25 | Client/server troubleshooting               |   P5 Q & A              |  [Servers and clients](http://andnowforelectronics.com/notes/servers/)     |      |
 |      | 11/27 | NO CLASS     | (Thanksgiving)  |           |        |
 |  14  | 12/2 | Oscilloscopes  |  Design ethics     |               |    |
