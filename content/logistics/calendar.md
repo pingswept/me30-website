@@ -3,58 +3,62 @@ title: "Calendar"
 draft: false
 ---
 
-# 2023 Class Calendar
+# 2024 Class Calendar
 
-## Phase 1
+## Phase 1: Circuit Basics
 
-| Week | Date  | Class topics  | Hands-on  | What to study | What's due before class  |
+| Week | Date  | Class topics  | Hands-on  | What to study | What's due |
 |:----:|:-----:|--------------------------------------------|-------------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------|
-|  1   | 9/6   | Course overview, introductions, kit contents    | Breadboard basics; Power an LED with "wall" power  | [Prototyping](http://andnowforelectronics.com/notes/prototyping/); [Voltage and current](http://andnowforelectronics.com/notes/voltage-and-current/); [LEDs](http://andnowforelectronics.com/notes/leds/) |          |
-|   2  | 9/11   | Voltage, current, resistors, voltage dividers    | Voltage dividers |  [Series vs. parallel](http://andnowforelectronics.com/notes/series-vs-parallel/); [Resistors](http://andnowforelectronics.com/notes/resistors/); [Multimeters](http://andnowforelectronics.com/notes/multimeter/)   |  |
-|     | 9/13  | Voltage regulators, capacitors |  Project 1 start (Also: labs begin)  | [Capacitors](http://andnowforelectronics.com/notes/capacitors/); [Voltage regulators](http://andnowforelectronics.com/notes/voltage-regulation/); [Videos for P1](http://andnowforelectronics.com/notes/demo-videos/#videos-for-project-1)  | Intro post on Canvas |
-|  3   | 9/18  | Voltage regulators; Project 1 |  Debug your voltage regulator; Soldering demo   | [Voltage regulators](http://andnowforelectronics.com/notes/voltage-regulation/); [Videos for P1](http://andnowforelectronics.com/notes/demo-videos/#videos-for-project-1); [Adafruit soldering guide](https://learn.adafruit.com/adafruit-guide-excellent-soldering/making-a-good-solder-joint)    |  |        |
-|      | 9/20  | KiCad  | KiCad demo    | [PCB design](http://andnowforelectronics.com/notes/pcb/); Kicad resources  | [P1   proto](http://andnowforelectronics.com/logistics/projects/#project-1-build-a-breadboard-power-supply) |
-|   4  | 9/25  | PCB design  | KiCad Q & A    | [PCB design](http://andnowforelectronics.com/notes/pcb/); [KiCad demo videos](http://andnowforelectronics.com/notes/demo-videos/#introduction-to-kicad-with-a-simple-led-board)    |  |
+|  1   | 9/4   | Course overview, introductions, kit contents    | Breadboard basics; Power an LED with "wall" power  | [Prototyping](http://andnowforelectronics.com/notes/prototyping/); [Voltage and current](http://andnowforelectronics.com/notes/voltage-and-current/); [LEDs](http://andnowforelectronics.com/notes/leds/) |          |
+|   2  | 9/9   | Voltage, current, resistors, voltage dividers    | Voltage dividers (Also: labs begin)|  [Series vs. parallel](http://andnowforelectronics.com/notes/series-vs-parallel/); [Resistors](http://andnowforelectronics.com/notes/resistors/); [Multimeters](http://andnowforelectronics.com/notes/multimeter/)   |  |
+|     | 9/11  | Voltage regulators, capacitors |  Project 1 start  | [Capacitors](http://andnowforelectronics.com/notes/capacitors/); [Voltage regulators](http://andnowforelectronics.com/notes/voltage-regulation/); [Videos for P1](http://andnowforelectronics.com/notes/demo-videos/#videos-for-project-1)  | Intro post on Canvas |
+|  3   | 9/16  | Voltage regulators; Project 1 |  Debug your voltage regulator; Soldering demo   | [Voltage regulators](http://andnowforelectronics.com/notes/voltage-regulation/); [Videos for P1](http://andnowforelectronics.com/notes/demo-videos/#videos-for-project-1); [Adafruit soldering guide](https://learn.adafruit.com/adafruit-guide-excellent-soldering/making-a-good-solder-joint)    |  |        |
+|      | 9/18  | KiCad  | KiCad demo    | [PCB design](http://andnowforelectronics.com/notes/pcb/); Kicad resources  | [P1   proto](http://andnowforelectronics.com/logistics/projects/#project-1-build-a-breadboard-power-supply) |
+|   4  | 9/23  | PCB design  | KiCad Q & A    | [PCB design](http://andnowforelectronics.com/notes/pcb/); [KiCad demo videos](http://andnowforelectronics.com/notes/demo-videos/#introduction-to-kicad-with-a-simple-led-board)    |  |
 
 
-## Phase 2 - Instructors Swap Classrooms
+## Phase 2: Motors and Transistors
 
 | Week | Date  | Class topics  | Hands-on  | What to study | What's due  |
 |:----:|:-----:|--------------------------------------------|-------------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------|
-|      | 9/27  | Transistors as switches      |  Make a switch with a BJT    | [Low power/high power](http://andnowforelectronics.com/notes/low-power-high-power/)|[P1 PCB due Thurs. night](http://andnowforelectronics.com/logistics/projects/#project-1-build-a-breadboard-power-supply)|        |
-|  5   | 10/2  | Intro to P2 (game v1), DC motors, MOSFETs | Run a motor with a MOSFET    | [Motors](http://andnowforelectronics.com/notes/motors/) |              |
-|      | 10/4 | Microcontrollers, CircuitPython     | KB2040 set-up    | [Microcontrollers](http://andnowforelectronics.com/notes/microcontrollers/); [KB2040 hardware](http://andnowforelectronics.com/notes/feather-rp2040-hardware/); Solder pins to your KB2040 and bring to class |       |
-|  6    | 10/9 | NO CLASS   | (Indigenous People's Day)  |  |        |
-|     | 10/11 | Digital and analog I/O hardware            | KB2040 challenges    |    [KB2040 programming](http://andnowforelectronics.com/notes/feather-programming/); [KB2040 challenges](http://andnowforelectronics.com/notes/feather-challenges/)    |   
-|  7    | 10/16  | Intro to P3, H-bridges   | Start building an H-bridge    | [H-bridge motor driver](http://andnowforelectronics.com/notes/h-bridge/); [Intro and video for P3](http://andnowforelectronics.com/logistics/projects/#project-2-build-an-h-bridge-motor-controller) | [P2 (game v1)](http://andnowforelectronics.com/logistics/projects) |
-|     | 10/18  | More H-bridge details     | More H-bridge work            |               |               |
-|  8  | 10/23  | Motor electrical power, detailed PCB design  |   Motor measurement; H-bridge debugging   |     |[P3 proto](http://andnowforelectronics.com/logistics/projects/#project-2-build-an-h-bridge-motor-controller)|
+|      | 9/25  | Transistors as switches      |  Make a switch with a BJT    | [Low power/high power](http://andnowforelectronics.com/notes/low-power-high-power/)|[P1 PCB due Friday](http://andnowforelectronics.com/logistics/projects/#project-1-build-a-breadboard-power-supply)|        |
+|  5   | 9/30  | Intro to P2 (game v1), DC motors, MOSFETs | Run a motor with a MOSFET    | [Motors](http://andnowforelectronics.com/notes/motors/) |              |
+|      | 10/2 | Microcontrollers, CircuitPython     | KB2040 set-up    | [Microcontrollers](http://andnowforelectronics.com/notes/microcontrollers/); [KB2040 hardware](http://andnowforelectronics.com/notes/feather-rp2040-hardware/); Solder pins to your KB2040 and bring to class | De-bugging puzzle #1 due Friday     |
+|   6  | 10/7 | Digital and analog I/O hardware            | KB2040 challenges set 1  |    [KB2040 programming](http://andnowforelectronics.com/notes/feather-programming/); [KB2040 challenges](http://andnowforelectronics.com/notes/feather-challenges/)    |   
+|      | 10/9  | Intro to P3, H-bridges   | Start building an H-bridge    | [H-bridge motor driver](http://andnowforelectronics.com/notes/h-bridge/); [Intro and video for P3](http://andnowforelectronics.com/logistics/projects/#project-2-build-an-h-bridge-motor-controller) | [P2 (game v1)](http://andnowforelectronics.com/logistics/projects) due Wed. in class|
+|  7    | 10/14 | NO CLASS   | (Indigenous People's Day)  |  |        |
+|     | 10/16  | More H-bridge details     | More H-bridge work            |               |    De-bugging puzzle #2 due Friday   |
+|  8  | 10/21  | Motor electrical power, detailed PCB design  |   Motor measurement; H-bridge debugging   |     |[P3 proto](http://andnowforelectronics.com/logistics/projects/#project-2-build-an-h-bridge-motor-controller)|
+|      | 10/23  | Intro to P4, Motor mechanical power |  More motor measurement; P1 PCB test  | Solder components to your P1 PCB and bring to class  | Soldered P1 PCB |
 
 
-## Phase 3 - Instructors Swap Classrooms
-
-| Week | Date  | Class topics  | Hands-on  | What to study | What's due  |
-|:----:|:-----:|--------------------------------------------|-------------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------|
-|      | 10/25  | Intro to P4, Motor mechanical power |  More motor measurement; P1 PCB test  | Solder components to your P1 PCB and bring to class  | Soldered P1 PCB |
-|  9  | 10/30  | Motor modeling, PWM  | P4 planning  |      | [P3 PCB](http://andnowforelectronics.com/logistics/projects/#project-2-build-an-h-bridge-motor-controller)   |
-|      | 11/1  | Sensors, state machines   |  More KB2040 challenges  | [KB2040 programming](http://andnowforelectronics.com/notes/feather-programming/); [KB2040 challenges](http://andnowforelectronics.com/notes/feather-challenges/)  |  |
-|  10   | 11/6  | Stepper motors   |  Stepper motors   |    |  |
-|     | 11/8  | Discriminatory design   |         |       |    |
-|  11   | 11/13  | Raspberry Pi intro    |  Booting the Raspberry Pi   |    | [Raspberry Pi setup](http://andnowforelectronics.com/notes/pi-setup/); [Raspberry Pi programming](http://andnowforelectronics.com/notes/pi-programming/) |
-
-## Phase 4 - Instructors Swap Classrooms
+## Phase 3: Sensors and Microcontrollers
 
 | Week | Date  | Class topics  | Hands-on  | What to study | What's due  |
 |:----:|:-----:|--------------------------------------------|-------------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------|
-|     | 11/15  | P4 demo & reflection |  P4 (game v2) demo day     | P4 (game v2)  | P4   |
-|  12    | 11/20 | Project 5 intro       | Pi challenges |  [Raspberry Pi challenges](http://andnowforelectronics.com/notes/pi-challenges/)     |    Raspberry Pi setup check on Canvas         |
-|      | 11/22 | NO CLASS     | (Thanksgiving)  |           |    P5 partners    |
-|  13  | 11/27 | How does the internet work?               |   P5 planning              |  [Internet](http://andnowforelectronics.com/notes/internet/); [Servers and clients](http://andnowforelectronics.com/notes/servers/)     |             |
-|    | 11/29 | Oscilloscopes  |  P5 Q & A     |               |    |
-|  14 | 12/4  | Oscilloscopes (574 section); Client/server troubleshooting  |  P5 Q & A  |      |     |
-|     | 12/6  | P5 reflection  |   P5 demo day  |          |   [P5](http://andnowforelectronics.com/logistics/projects)       |
-|  15    | 12/11  | P6 intro, Jobs talk  |  P6 Q & A   |                                           |         |
-|  (16)  | 12/18 |   (ME 30 finals block)        |       |             |[P6 showcase, Dec. 18, 3:30-5:30pm](http://andnowforelectronics.com/logistics/projects)|
+|  9  | 10/28  | Motor modeling, PWM  | P4 planning  |      | [P3 PCB](http://andnowforelectronics.com/logistics/projects/#project-2-build-an-h-bridge-motor-controller)   |
+|      | 10/30  | Sensors, state machines   |  More KB2040 challenges  | [KB2040 programming](http://andnowforelectronics.com/notes/feather-programming/); [KB2040 challenges](http://andnowforelectronics.com/notes/feather-challenges/)  |  |
+|  10   | 11/4  | Stepper motors   |  Stepper motors   |    |  |
+|     | 11/6  | Discriminatory design   |         |       | Discriminatory design HW due Friday   |
+|   11   | 11/11 | NO CLASS     | (Veteran's Day)  |           |        |
+|     | 11/12  | Raspberry Pi intro    |  Booting the Raspberry Pi   |    | [Raspberry Pi setup](http://andnowforelectronics.com/notes/pi-setup/); [Raspberry Pi programming](http://andnowforelectronics.com/notes/pi-programming/) |
+|     | 11/13  | P4 demo & reflection |  P4 (game v2) demo day     | P4 (game v2)  | P4   |
+
+## Phase 4: Driving Robots with Operating Systems
+
+| Week | Date  | Class topics  | Hands-on  | What to study | What's due  |
+|:----:|:-----:|--------------------------------------------|-------------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------|
+|  12    | 11/18 | Project 5 intro       | Pi challenges |  [Raspberry Pi challenges](http://andnowforelectronics.com/notes/pi-challenges/)     |    Raspberry Pi setup check on Canvas         |
+|     | 11/20 | How does the internet work?               |   P5 planning              |  [Internet](http://andnowforelectronics.com/notes/internet/)     |      |
+
+|  13  | 11/25 | Client/server troubleshooting               |   P5 Q & A              |  [Servers and clients](http://andnowforelectronics.com/notes/servers/)     |      |
+|      | 11/27 | NO CLASS     | (Thanksgiving)  |           |        |
+|  14  | 12/2 | Oscilloscopes  |  Design ethics     |               |    |
+|     | 12/4  | P5 reflection  |   P5 demo day  |          |   [P5](http://andnowforelectronics.com/logistics/projects)       |
+|  15    | 12/11  | Career trajectories, P6 intro  |  P6 Q & A   |                                           |         |
+|  (16)  | 12/17 |   Wendell 10:30 section        |       |             |[P6 showcase, Dec. 17, 3:30-5:30pm](http://andnowforelectronics.com/logistics/projects)|
+|  (16)  | 12/18 |   Wendell 9:00 section        |       |             |[P6 showcase, Dec. 18, 2:00-4:00pm](http://andnowforelectronics.com/logistics/projects)|
+|  (16)  | 12/18 |   Stafford 3:00 section        |       |             |[P6 showcase, Dec. 18, 3:30-5:30pm](http://andnowforelectronics.com/logistics/projects)|
 
 
 
@@ -62,19 +66,18 @@ draft: false
 
 | Lab # | Lab dates  | Lab focus  | 
 |:----:|:----------:|----------------------|
-| 1 | 9/13-9/19 | Voltage regulator circuits |
-| 2 | 9/20-9/26 | Learn KiCad, and solder your KB2040 pins |
-| 3 | 9/27-10/3 | Control a motor with transistors, and solder your KB2040 pins |
-|  |  | (No labs 10/4-10/10)  |
-| 4 | 10/11-10/15 | KB2040 challenges; P2 help |
-| 5 | 10/16-10/22 | Soldering P1 PCB and H-bridges |
-| 6 | 10/23-10/29 | H-bridges |
-| 7 | 10/30-11/5 | More KB2040 challenges |
-| 8 | 11/6-11/12 | Complex motorized games |
-| 9 | 11/13-11/19 | Raspberry Pi setup & challenges |
-|  |  | (No labs 11/20-11/25) |
-| 10 | 11/27-12/3 | Optional attendance: Project 5 robots |
-| 11 | 12/4-12/10 | Optional attendance: Project 5 robots |
+| 1 | 9/19-9/22 | Voltage regulator circuits |
+| 2 | 9/16-9/19 | Learn KiCad, and solder your KB2040 pins |
+| 3 | 9/23-10/26 | Control a motor with transistors, and solder your KB2040 pins |
+| 4 | 9/30-10/3 | P2 help |
+| 5 | 10/7-10/10 | KB2040 challenges set 1 |
+| 6 | 10/15-10/17 | H-bridges and solder P1 PCB (Monday lab students can attend other labs or Friday help) |
+|  | 10/21-10/24 | Optional attendance / make-up for Lab 6 |
+| 7 | 10/28-11/5 | KB2040 challenges set 2 |
+| 8 | 11/4-11/12 | P4 help |
+|  |  | (No labs 11/11-11/14) |
+| 9 | 11/18-12/3 | Raspberry Pi set-up and challenges |
+|  | 11/25-12/4 | Labs shift to drop-in help sessions open to all |
 
 
 
