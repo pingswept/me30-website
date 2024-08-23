@@ -2,9 +2,9 @@
 title: "Exercises"
 draft: false
 ---
-# In-class exercises for Fall 2023
+# In-class exercises for Fall 2024
 
-## 1: Power an LED with "wall" power (Sep. 6)
+## 1: Power an LED with "wall" power (Sep. 4)
 
 This is a warm-up activity to power an LED with "wall" power through our DC power supply and control it with a push button. 
 
@@ -50,7 +50,7 @@ Image credit: E. Schlaepfer and W. Oskay, 2023, Open Circuits, opencircuitsbook.
 *For an extension to this exercise, re-arrange your circuit so you have one LED that stays on permanently and another that is powered by the button.*
 
 
-## 2. Build voltage dividers (Sep. 11)
+## 2. Build voltage dividers (Sep. 9)
 
 We've used resistors to limit *current* flow through an LED.  
 
@@ -65,7 +65,7 @@ After you've written down your predictions for V_out, build the circuits and use
 ![Voltage dividers](/img/voltage-dividers-2022.png)
 
 
-## 3: Build a voltage regulation circuit (Sep. 11)
+## 3: Build a voltage regulation circuit (Sep. 9)
 
 This is an introductory exercise designed to help you get familiar with breadboard prototyping while also building a basic circuit that will be useful for later exercises and projects. It forms the basis for Project #1, but you don't need to think about that yet. If this is all new to you, look at the pages on [breadboard prototyping](/notes/prototyping/) and [multimeters](/notes/multimeters/).
 
@@ -78,13 +78,14 @@ The 4 components are:
 3. Two capacitors
 
 
-## 4: Matching schematics to breadboards (Sep. 18)
+
+## 4: Matching schematics to breadboards (Sep. 16)
 
 Which of these breadboards has the same circuit as the one represented in the schematic?
 
 ![Schematic and breadboards](/img/Breadboard_schematic_matching.jpg)
 
-## 5: Review of voltage and current (Sep. 18)
+## 5: Review of voltage and current (Sep. 16)
 
 For the circuit below, analyze the following first for when the switch is open, and then for when the switch is closed:
 1. Find sets of labeled points on the circuit where the **current** is the **same**.
@@ -96,7 +97,7 @@ For the circuit below, analyze the following first for when the switch is open, 
   
 ![Circuits to analyze](/img/Voltage_current_review.jpg)
 
-## 6: Safety checks (Sep. 18)
+## 6: Safety checks (Sep. 16)
 
 If you feel a circuit component getting hot or starting to smoke, what should you do first?
 a. call over an LA
