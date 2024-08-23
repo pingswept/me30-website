@@ -2,293 +2,6 @@
 title: "Projects"
 draft: false
 ---
-# Projects 5 and 6: Build an intrepid robot
-
-Projects 5 and 6 are, in a sense, one mega-project. In the first part, P5, you and your team build a robot. In the second part, P6, you and your team modify the robot to deliver a payload under specific diabolical constraints.
-
-## Requirements for project 6
-### Modify your intrepid robots to roll a tube up a ramp in pairs
-
-**Due Monday, December 18, 3:30 PM, SEC Atrium**
-
-Your final challenge is to modify your robot's hardware and software so that it can collaborate with another robot to roll a tube (cardboard, diameter of 3 in) up the pair of ramps as quickly as possible without the tube falling off either ramp. It is the shared responsibility of both robots to control their speed and the tube angle to shepherd the tube to the top of the ramp.
-
-You will know the IP address of the robot you are collaborating with, but your robot should attempt to work with any one of the 40 other robots in the class. On the day of the trials, you can try to work with multiple different robots. The most successful robot is the robot that can work with the largest variety of peers.
-
-* Your robot should still comply with all the constraints from P5.
-* Your robot should receive only one signal from a human: the click of a button to begin operation. After starting, your robot should operate autonomously.
-* Your robot should respond to two URLs: `/start/<delay>` and `/target/<speed>`. (See [URL details](/logistics/projects/#url-details) below.)
-* Your robot should only make requests where `delay` is an integer in the range 1-10 seconds, and `speed` is an integer in the range 1-1000 mm/second.
-* Your robot should never send HTTP requests at a rate of more than 10 Hz, i.e. wait at least 100 ms between requests.
-
-### URL details ###
-
-For `/start/<delay>`, your robot should respond `ok` or `no`. After responding `ok`, it should start driving in `delay` seconds. If your robot is not ready, or it has already agreed to a start time, or it is driving, it should respond `no`.
-
-For `/target/<speed>`, your robot should respond `ok` or `no`. After responding `ok`, it should try to ascend the ramp at a rate of `speed` mm/s.
-
-As your robot ascends the ramp, if your robot detects that the tube is tilting or sliding off, your robot can suggest that its partner speed up or slow down by requesting new target speeds. Your robot should listen for new target speeds from its partner and should respond in a way to increase the chances of getting the tube up the ramp quickly. Note that the robot is required to operate autonomously after the start; you cannot have a human in the feedback loop, mashing buttons in desperation.
-
-**BONUS: To make sure that friction is not an insurmountable obstacle, the driving surface of the ramps will be covered in grip tape.**
-
-If it's useful, we have several bins of ball bearings in Nolop that you could use to make some kind of tube roller for the front of your robot. Ball bearings may turn out to be unnecessary, but they're available if you need them.
-
-![P6 ramps diagram](/img/ramps-with-tube.png)
-
-### Recommended work plan ###
-
-Project 6 is challenging. We suggest that you **break it down into the following sequence of more manageable tasks.** Each task involves adding a new capability to your robot until it can achieve all of the project requirements.
-
-1. Get your robot to drive up a ramp autonomously. Make sure it can handle the weight of the tube while driving. For this task, be sure to consider mechanical solutions. You might add guards or guides to your robot that keep it from veering off the edges of the ramp; you might swap out a swervy caster wheel for a wheel-and-axle assembly that tracks straighter; or something else like that. 
-2. Make decisions about driving speed. Figure out how commands (voltage or PWM) to your robot's motors translate into its linear speed up the ramp (in mm/sec). Also, what is the min/max driving speed for your robot? What kind of start delay works for your robot?
-3. Get your robot to run Flask and start at a target `speed` (in mm/sec) after a specific `delay` (in seconds) based on receiving those values in HTTP requests (i.e., focus on running a server.py script in Flask with @app.route to functions).
-4. Get your robot to send `delay` and `speed` requests to a partner (i.e., add code that now also can send HTTP requests).
-5. Decide how to run both of these simultaneously (see [Software Architecture](/logistics/projects/#software-architecture) details below.)
-6. Get your robot to be able to check if the tube is stable (i.e., not sliding off at an angle), perhaps with buttons or other sensors. Understand how the speeds of your robot and your partner's robot should change based on information about the tube. (e.g., If you sense the tube tilting toward your partner, do you send a target speed request to your partner to speed up or slow down? Do you change your own speed? What if you're alread driving at min or max speed?)
-7. Get your robot to be able to receive target `speed` and `delay` requests while driving.
-
-The key to this method is to focus on one new "robot superpower" at a time. Don't try to add them all at once because each capability influences the others. 
-
-### Minimum viable product ###
-
-If you're overwhelmed by the details, start by aiming to:
-* Get your robot to drive up a ramp autonomously.
-* Decide the best speed for your robot.
-* Tell your partner what speed and start delay you need.
-* On the count of three, start your robot.            
-
-### Software architecture ###
-
-Assuming your intrepid robot can drive up the ramp with enough force left to roll the tube, you should figure out how to set up your Pi so that it can collaborate effectively with the robot on the other ramp. The major challenge is that a Python program can only do one thing at a time, so if your Flask server is listening to or responding to a request from another robot, it can't do anything else. The exciting thing is that we have an operating system running on the Pi that allows you to run multiple processes simultaneously.
-
-Before we get into that slightly complicated arrangement, there is a simpler approach that might work, and it will probably be useful for testing.
-
-### The simpler approach ###
-
-Add two routes to Flask that look something like this.
-
-```python
-import requests # a Python library that lets us make HTTP requests of another host
-import time
-
-@app.route('/do-once')
-def do_once():
-    # (This is pseudo code)
-    speed = negotiate_target_speed_with_partner()
-    delay = negotiate_start_delay_with_partner()
-    time.sleep(delay)
-    set_motors_to_target(speed)
-
-@app.route('/control-loop')
-def control_loop():
-    # (This is pseudo code)
-    read_sensors()
-    change_PWM_based_on_sensor_data()
-    maybe_suggest_different_target_speed_to_partner()
-```
-
-If you have those two routes, you could make a webpage served from your Flask templates folder that has 2 buttons: `run_do_once` and `run_control_loop`. Then, to start, you click the `run_do_once` button, which runs the `do_once` function on your Pi. If it works, your robot starts driving.
-
-Then, you mash the `run_control_loop` button repeatedly as fast as you can. This runs the `control_loop` function on your Pi a few times a second.
-
-"BUT WAIT!" you cry in dismay, "That violates the 'only one signal from a human' requirement!" Yes, it does. The next thing to do is to modify your webpage so that it mashes the button for you repeatedly. You can ask ChatGPT about this, and it will explain about the `setInterval` method in Javascript.
-
-### A more advanced approach
-
-The simpler approach described above has the strength that it is uses the same tools we used for robot control in P5 (a single Python process running Flask, a web page sending commands to the Flask server). It has the weakness that it relies on a wifi connection for everything. If the wifi gets laggy, which is likely, your control loop won't execute reliably.
-
-The good news is that instead of triggering the `control_loop` function repeatedly through the internet, you can run it locally on your Pi, as long as you run it in a separate Python process. There are a few different ways you could do this. Here are a few.
-
-1. It's a bit hacky, but you could log in to your Pi twice in two different SSH sessions. Start Flask in one window and run something like `python3 control-loop.py` in the other. The big challenge here is figuring out how to share information, like the target speed, between the control loop and Flask server. A decent solution would be to have the server write the target speed to a file and then have the control loop read it. ChatGPT can tell you how to read and write from a file in Python. Alternatively, you could also implement a route like `@app.route('/get-target-speed')` which just retrieves the target speed from a global variable held by the Flask server.
-
-2. If you want something less brittle than 2 SSH sessions, you could [run the Flask server using Supervisor](/notes/pi-programming/#thats-cool-but-how-do-i-get-flask-to-start-itself-when-the-pi-boots). For a fully autonomous robot, you could also run your control loop using Supervisor.
-
-3. Debugging errors while starting and stopping Supervisor can be cumbersome, so while you're testing, you could also run your control loop on your laptop, as long as you communicate with the Flask process entirely via HTTP rather than files.
-
-4. There are lots of other ways to talk between Python processes, like the [Python multiprocessing module](https://docs.python.org/3/library/multiprocessing.html), [RPyC](https://rpyc.readthedocs.io/en/latest/), or [ZeroMQ](https://zeromq.org/languages/python/).
-
-### Project 6 FAQs
-
-{{< expand "0. Where do we start?" "..." >}}
-See notes above on [Recommended work plan](/logistics/projects/#recommended-work-plan).
-{{< /expand >}}
-
-{{< expand "1. How big is the tube?" "..." >}}
-3 inches in diameter, 52 inches long
-{{< /expand >}}
-
-{{< expand "2. Will we know our partner robot ahead of time?" "..." >}}
-No. On the day of the showcase we'll make random pairings and ask you to try rolling the tube up the ramp together. If it doesn't go well, you can try again with other partners. However, the most successful robot is the one that can collaborate with the most other robots.
-{{< /expand >}}
-
-{{< expand "3. Can we make physical modifications to our partner robot?" "..." >}}
-No. 
-{{< /expand >}}
-
-{{< expand "4. Is there a way to get our Pi to run two Python scripts at the same time?" "..." >}}
-Yes. One way to do this is to log in to your Pi twice in two different SSH sessions. You can type different commands into the two the different sessions.
-
-See [A more advanced approach](/logistics/projects/#a-more-advanced-approach) above for other ideas.
-{{< /expand >}}
-
-{{< expand "5. What happens if two Pis make requests of each other at the same time?" "..." >}}
-In reality, one of those requests will be received a tiny fraction of a second before the other one. You should think about what you want your robot to do if it receives a request from a partner robot just after it has sent out its own request. Is there a way to make your robot respond differently if it "knows" it is still waiting for a response itself? 
-{{< /expand >}}
-
-{{< expand "6. Do we need advanced sensors for this project?" "..." >}}
-No, you don't. You probably need at least some buttons or switches cleverly located, but you can be successful without cameras, distance sensors, or the like.
-{{< /expand >}}
-
-{{< expand "7. When can we get help?" "..." >}}
-Regular lab times have ended, but there are extra office hours in Nolop the week of Dec. 12:
-
-* Mon., 12/11 - Gabe 1:30-2:30pm, Zosia 5-7pm, Theresa 7-8pm
-* Tue., 12/12 - Anna 12:30-2:30pm, Theresa 3:30-4:30pm, Zosia 5-7pm
-* Wed., 12/13 - Zosia 1-2:30pm
-* Thu., 12/14 - Alexa 10:30-11:30am, Anna 2:30-4:30pm, Antonio 5-7pm
-* Fri. 12/15 - Rose 12-2pm, Kristen 2-5pm
-
-As always, please reach out to an instructor if you want to make a separate appointment for help.
-{{< /expand >}}
-
-## Requirements for project 5
-### Build an intrepid robot that travels up a ramp
-
-**Due date: Wednesday, December 6, 10:30 AM**
-
-This is a relatively constrained project compared to the vast open field of P4. Your task is to build a robot that can travel up a ramp, controlled remotely by you.
-
-* Your robot should fit in a circle 45 cm in diameter.
-* Your robot should be less than 30 cm tall.
-* Your robot should be able to ascend the ramp without falling off the side.
-* You should not touch your robot during its adventures. This probably means that your robot should be remote controlled.
-* You should not use an RC car controller. This probably means that your robot should be controlled through wifi from a laptop or phone.
-* Your robot cannot fly. (We don't have the space to test drones safely, unfortunately.)
-* Unlike previous years, your robot does NOT need to turn in arbitrary directions. It should be optimized for straight ramp ascension.
-* Note: It would be a good idea to focus on making your robot drive effectively before you worry about any higher level mechanics or control through the internet.
-
-In class on December 6, we will test drive the robots through a basic course-- a 45 cm wide, 30 cm tall doorway and a ramp. If your robot meets the requirements above, it will do fine. The rough specifications of the ramp are shown in the picture below. Two identical ramps will be available in Nolop for testing by December 1.
-
-![P5 ramp diagram](/img/ramp.png)
-
-**Project planning resource:** We suggest discussing this [list of P5 planning questions](https://docs.google.com/document/d/1ulQfKKEcXGVL5VZVITyimeE2d2Y40JnkMOGGLtVdCfo/edit?usp=sharing) with your team. 
-
-### Team options for projects 5 and 6
-
-**Option 1 – Work in a team of 2 or 3 chosen by you**
-
-**Option 2 – Work in a team of 2 or 3 assigned to you by Kristen and Brandon**
-We’ll pool all the people who would like to be assigned a partner and team you up. We might need to make a team of 3 depending on who is available. 
-
-By Sunday, Nov. 26, use [this survey](https://tufts.qualtrics.com/jfe/form/SV_0cAixyzuN8ok4br) to indicate your chosen teaming option (list your teammates or indicate you'd like to be placed on a team).
-
-### More details for projects 5 and 6
-
-* For portable power, Nolop has 5 V batteries (for the Raspberry Pis) and 9 V and 11 V batteries (for motors).
-* See the [Raspberry Pi setup](http://andnowforelectronics.com/notes/pi-setup/) page to learn how to control your Pi via serial cable and the Internet.  
-* See the [servers and clients](http://andnowforelectronics.com/notes/servers/) page to learn how to coax your Pi into sending and receiving data through the Internet.
-* See the [client and server setup](http://andnowforelectronics.com/notes/demo-videos/#client-and-server-setup) demo video that walks through the code for Raspberry Pis and Arduinos as clients and servers
-* See the [Internet](http://andnowforelectronics.com/notes/internet/) page to find out how IP addresses work.
-
-## Project 4: Build an electromechanical game
-
-Your task is to build a game with the following characteristics:
-
-*   It is controlled by a KB2040 microcontroller.
-*   It has some kind of user input, like a button, knob, joystick, sensor, or the like, that talks to the microcontroller. (Read the note below about the ME 30 Nolop tab).
-*   It has at least one part that moves, driven by one of the motors in your kit. (You can use both motors if you want. Servo motors are prohibited.)
-*   It is at least sort of fun to play. A blinking LED is not a game.
-*   (It does not need to have a custom PCB, but it can if you want. If you aim to make a custom PCB, you must make a working prototype first.)
-
-### Personal learning goals ###
-
-As soon as you can manage it, you should formulate and write down one or more personal learning goals for the project. Building games is cool, but the real point here is for you to gain skills and experience that help you grow as an engineer. That works best when your heart is in it; this is your chance to follow where your heart leads. (Okay, that's a bit cheesy, but also true.)
-
-**By Wednesday, November 1, 11:59 PM, please complete the learning goal assignment on Canvas.**
-
-At the end of the project, when you submit your documentation, we'll ask you whether you met your learning goal.
-
-### Where to get materials for your game ###
-
-To build the game, you can use anything from your ME 30 kit, as well as anything else you can lay your hands on. Additionally, Nolop has buttons, potentiometers, LEDs, and other electronic components, as well as materials for laser cutting. You can use Nolop materials for your projects by recording them on the ME 30 tab located on a clipboard on top of the Nolop store. (At the end of the semester, the ME department pays Nolop back for all the parts we use.)
-
-Bray also has materials for fabrication, leaning more toward the metal/nuts/bolts end of the spectrum.
-
-If you need something not available at Nolop or Bray, please talk to Brandon or Kristen as soon as you can.
-
-**Due date for game: Wednesday, November 15, 10:30 AM (IN CLASS)**
-
-Documentation due on Canvas by Wednesday, November 15, 11:59 PM
-
-On November 15th, class for both sections of ME 30 will take place in the SEC atrium. The class will consist entirely of us playing each other's games, and marveling at our collective ingenuity and resourcefulness. (Set-up 10:30 to 11:00; sharing starts at 11:00.)
-
-## Project 3: Build an H-bridge motor controller
-
-The third project is to build a motor controller with the following characteristics:
-
-*   It consists of a PCB with connectors for a motor, plus power and control lines.
-*   It also accepts power from a 2.1 x 5.5 mm plug from a 12 V wall adapter.
-*   It has a power LED that lights up when motor power is available.
-*   It can make a DC motor spin in both directions.
-*   The motor current traces can handle 12 V and 5 A continuously without melting (see notes on PCB [ampacity](http://andnowforelectronics.com/notes/ampacity/))
-*   It can be controlled by logic signals from a KB2040.  
-
-Here is a graphical version of those first two bullet points about connectors.
-
-![P2 connectors](/img/P3-connectors.jpg)
-
-
-<!-- <iframe id="kaltura_player" src="https://cdnapisec.kaltura.com/p/1813261/sp/181326100/embedIframeJs/uiconf_id/26203331/partner_id/1813261?iframeembed=true&playerId=kaltura_player&entry_id=1_708qmkve&flashvars[streamerType]=auto&amp;flashvars[localizationCode]=en&amp;flashvars[leadWithHTML5]=true&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=1_mtijm1x6" width="400" height="285" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" frameborder="0" title="Kaltura Player"></iframe>  -->
-
-**Due date for prototype: Monday, October 23, 11:59 PM**
-
-To get started building your prototype H-bridge, review the [Low Power/high power](http://andnowforelectronics.com/notes/low-power-high-power/) and the H-bridge(http://andnowforelectronics.com/notes/h-bridges/) pages, including their mini-lecture videos on BJT and MOSFET transistors. After that, if you're stuck, consult the [H-bridge testing](http://andnowforelectronics.com/notes/demo-videos/#testing-an-h-bridge) demo video.  Note that this video is not intended to give you step-by-step building or testing instructions, but rather to give you a feel for the kind of approach you might take to building and testing this circuit. If your H-bridge prototype isn't working by the deadline for this prototype, don't worry!  Just submit to Canvas a photo of what you have, working or not.  
-
-**Due date for PCB submission: Monday, October 30, 11:59 PM**
-
-When your design is ready, you should [submit it to the fabricator](https://oshpark.com/), OSH Park. It will cost you around $10\. (If this cost is a hardship, please let Kristen or Brandon know, and we will cover the cost by ordering it for you, no questions asked.) After you submit it, take a screenshot of your order confirmation and upload it to the Project 3 PCB assignment on Canvas (proof that you submitted your project on time). Also, take a screenshot of your PCB design in KiCad and upload that as well (it would be a good idea to save this screenshot for your portfolio). 
-
-
-
-
-## Project 2:
-**Build a lame game**
-
-The next project is to use the basic electrical components we've covered in class with some mechanical fabrication to make a game that is at least mildly entertaining. The point here is *NOT* making the best game ever, but to set some goals for testing out your electromechanical skills.
-
-This is a solo project, but we'll be brainstorming in groups.
-
-You should bring your game to class on Monday, October 16th to share with your brainstorming group. 
-
-**Due date (for game documentation submission): Monday, October 16, 11:59PM**
-
-To keep things simple, there are a few required constraints.
-
-Your game should:
-
-* Use the DC gearmotor in your kit
-* Require user interaction of some sort (e.g., pushing a button, pressing a key, interacting with a physical component)
-* Fit inside a cube 20 cm on a side
-* Be fabricated without 3D printing, except for a motor hub if needed (talk to an instructor if you have a particular reason you need to violate this constraint.)
-
-The point of the constraints is to keep your game simple enough that you can complete it in 2 weeks.
-
-In addition to planning to meet these constraints, you should also pick one learning goal for yourself for this project. Open-ended projects offer you an opportunity to bend the curriculum into the direction of your interests or to explore a potential new area of interest. 
-
-Here are some example learning goals:
-
-  * Get more comfortable with cordless drills and at least one other hand tool.
-  * Test my system to failure, then rebuild it stronger.
-  * Use only recycled/found materials.
-  * Complete my project 24 hours early.
-  * Model, predict and subsequently measure at least one mechanical property of my project.
-  * Complete the project in less than 6 hours of focused effort.
-  * Use the laser cutter (which I have never used before).
-  * Make at least one part out of steel.
-  * Turn a part on a lathe at Bray.
-  * Spend at least 1/3 of my effort on the aesthetics of the project.
-  * Make my most refined 3D print ever.
-
 
 ## Project 1: 
 **Build a breadboard power supply**
@@ -299,11 +12,11 @@ The first project is to build a power supply with the following characteristics:
 *   It accepts power from a 2.1 x 5.5 mm plug from a 12 V wall adapter.
 *   It emits 12 V, 5 V, and 3.3 V (at the same time).
 
-**Due date (for Printed Circuit Board submission): Thursday, September 28, 11:59PM**
+**Due date (for Printed Circuit Board submission): Friday, September 25, 6:00PM**
 
 When your design is ready, you should [submit it to the fabricator](https://oshpark.com/), OSH Park. It will cost you around $10\. After you submit it, take a screenshot of your order confirmation and upload it to the Project 1 PCB assignment on Canvas. That will serve as proof that you submitted your project on time. If this cost is a hardship, please email your KiCad files to Brandon or Kristen, and we will order it for you.
 
-### More details for project 1
+### More details for Project 1
 
 First of all, we're not trying to build anything revolutionary in this project. None of you have ever made a PCB before, so the point is to make something fairly simple to get comfortable with the process. If you search Amazon for "breadboard power supply", you'll see that you can buy various versions of things like this, though none with a 12 V passthrough, so far as we're aware.
 
@@ -327,13 +40,13 @@ If you feel like you understand this project pretty well, or if you've made a ba
 
 ![Project 1 main steps](/img/P1_flowchart.jpg)
 
-### P1 prototype: what you should do before class #5 (before Wed., 9/20)
+### P1 prototype: what you should do before class #5 (before Wed., 9/18)
 
 1. Read and try to make sense of the website notes on [voltage regulation](http://andnowforelectronics.com/notes/voltage-regulation/). Pay special attention to the circuit diagram showing the L7805C voltage regulator.
 2. Try your best to make a breadboard circuit so that 12 V goes into your circuit and 5 V comes out, as shown on the [website diagram](http://andnowforelectronics.com/notes/voltage-regulation/). You'll need to use your [5V voltage regulator component](http://andnowforelectronics.com/notes/datasheets/#voltage-regulators).
 3. Install Kicad.
 4. Watch the Kicad demo videos, a total of 5 minutes, 59 seconds for [the first two demo videos](http://andnowforelectronics.com/notes/demo-videos/)
-5. If you can absorb material from books efficiently, read as much of chapter 2 from the Practical Electronics textbook as you can.
+5. Read as much of chapter 2 from the Practical Electronics textbook as you can.
 
 
 ## Project 0: 
@@ -350,26 +63,26 @@ Your task in Project 0 is to design and build a motor hub that meets the followi
 
 ![](/img/motor-hub-diagram.jpg)
 
-Submit to Canvas both (1) a CAD rendering of your hub design and (2) a photo your actual hub, and bring it to lab on your designated due date. We will compile everyone’s results into histogram showing the range of torques applied before the hubs either (a) slip on their motor shaft or (b) successfully stall the motor.
+Submit to Canvas both (1) a CAD rendering of your hub design and (2) a photo your actual hub.
+
+Bring your hub to lab on your designated due date. We hope to compile everyone’s results into a histogram showing the range of torques applied before the hubs either (a) slip on their motor shaft or (b) successfully stall the motor.
 
 Due dates are staggered for Project 0 to spread out the demand on fabrication tools at Nolop and Bray. Your hub is due at the start of lab time on the date listed for your weekly lab day.
 
 | Your Weekly Lab Day |  Your Project 0 Due Date | 
 |---------------------|-------------------------|
-| Sunday         |  Sun., Sep. 17      | 
-| Monday         |  Mon., Sep. 25      | 
-| Tuesday        |  Tues., Oct. 3      | 
-| Wednesday      |  Wed., Oct. 11      | 
-| Thursday       |  Thurs., Sep. 21    | 
-| Friday         |  Fri., Sep. 29      | 
+| Monday         |  Mon., Oct. 7      | 
+| Tuesday        |  Tues., Oct. 1      | 
+| Wednesday      |  Wed., Sep. 25      | 
+| Thursday       |  Thurs., Sep. 19    | 
 
 
-{{< expand "Click for info on preparing to use the Bray Shop 3D printer, laser cutter, or lathe" "..." >}}
+{{< expand "Click for info on preparing to use the Bray Shop 3D printers, laser cutter, or lathe" "..." >}}
 All students must complete the Bray [safety quiz](https://sites.tufts.edu/brayprivate/safety-quiz-complete-to-access-shop-spaces/) prior to their first visit to Bray. Completing the quiz will give you access to the Bray user site where you can submit appointment requests for training and fabrication time. 
 
 Use of the Bray lathe requires lathe-specific training in the red zone, which must be booked by appointment.
 
-Students trained on the 3D printers can access them in Bray Room 109 anytime. 
+ME and HFE students can use the Bray 3D printers anytime using their Bray building access. 
 
 Students can book an appointment to use the laser cutter or just walk in to use it during shop open hours as long as it is not reserved or in use by someone else.
 {{< /expand >}}
@@ -388,12 +101,12 @@ For each motor hub, begin with the lowest weight and attach it to the hub with a
 
 Multiply your hub's "slip/stall weight" by the distance between your shaft axis and your paper clip attachment point (it should be 15 mm, but measure just to be sure).  The results is your "slip/stall torque."
 
-Take a photo of your motor hub attachment. Compare it to the class histogram created in Fall 2022. 
+Take a photo of your motor hub attachment. Compare it to the class histogram created in a previous semester. 
 https://docs.google.com/spreadsheets/d/1Y_V_8rgQhnSgg5z3wRCmGc2mLD-aFtRIoKs-uJ67k6A/edit?usp=sharing
 {{< /expand >}}
 
 ![](/img/motor-hub-examples.png)
 
-Fall 2023 Examples
+Prior Student Examples
 
 ![motor hub collage](/img/MotorHubCollage.jpg)
