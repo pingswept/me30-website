@@ -1,6 +1,6 @@
 ---
 title: "Raspberry Pi programming"
-draft: false
+draft: true
 ---
 
 ## Raspberry Pi programming
