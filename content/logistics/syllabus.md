@@ -9,25 +9,10 @@ ME 30, Electronics & Controls I
 
 ## Office hours
 
-Regular lab times have ended, but there are extra office hours in Nolop the week of Dec. 12:
+* Kristen: Fridays 2:15 to 4:15pm, in Nolop
+* Brandon: Roughly 9 AM to 5 PM in Nolop, unless he's teaching class or in a meeting, or it's a weekend
 
-* Mon., 12/11 - Gabe 1:30-2:30pm, Zosia 5-7pm, Theresa 7-8pm
-* Tue., 12/12 - Anna 12:30-2:30pm, Theresa 3:30-4:30pm, Zosia 5-7pm
-* Wed., 12/13 - Zosia 1-2:30pm
-* Thu., 12/14 - Alexa 10:30-11:30am, Anna 2:30-4:30pm, Antonio 5-7pm
-* Fri. 12/15 - Rose 12-2pm, Kristen 2-5pm
-
-As always, please reach out to an instructor if you want to make a separate appointment for help.
-
-And Brandon's office hours are:
-
-* Roughly 9 AM to 5 PM in Nolop, unless he's teaching class or in a meeting, or it's a weekend
-
-You can also get help from ME 30 LA's when they are on shift at Nolop.
-
-* Rose Kitz: Mondays, 12-3 PM
-* Alexa Watson: Wednesdays, 12-3 PM
-* Gabe Moussa: Wednesdays, 3-6 PM
+As always, please reach out to an LA or an instructor if you want to make a separate appointment for help.
 
 ## Course description
 
@@ -69,7 +54,7 @@ Kristen Wendell, kristen.wendell@tufts.edu
 
 ## Course credit and time expectations
 
-ME 30 is a 4-SHU course with lab. At Tufts, each SHU equates to 3 hours of student time per week. 4-SHU courses are expected to require an average of 12 student hours per week. Typically, these hours are divided into about 3 hours of class time and 9 hours of lab/homework/study time. For Fall 2023, you can expect to spend roughly 2.5 hours in class sessions, 1 hour in your scheduled lab, 2 hours reading/viewing/studying, and the remaining 7 hours on project work each week.
+ME 30 is a 4-SHU course with lab. At Tufts, each SHU equates to 3 hours of student time per week. 4-SHU courses are expected to require an average of 12 student hours per week. Typically, these hours are divided into about 3 hours of class time and 9 hours of lab/homework/study time. For Fall 2024, you can expect to spend roughly 2.5 hours in class sessions, 1 hour in your scheduled lab, 2 hours reading/viewing/studying, and the remaining 7 hours on project work each week.
 
 ## What to do if you need to miss a class or due date 
 
@@ -79,15 +64,15 @@ In ME 30 this semester, we hope to cultivate a supportive community of people wh
 
 ### Electronics kits
 
-Essentially, we'll give you a [bunch of stuff](http://andnowforelectronics.com/logistics/kit/) and ask you to return it at the end of the semester. Each kit costs the ME department $160, so please keep track of and take good care of your components and equipment. 
+Essentially, we'll loan you a [bunch of stuff](http://andnowforelectronics.com/logistics/kit/) and ask you to return it at the end of the semester. Each kit costs the ME department $160, so please keep track of and take good care of your components and equipment. 
 
 ### Printed circuit board fabrication
 
-For this course, you will design and order printed circuit boards (PCBs) from [OSHPark](https://docs.oshpark.com/services/two-layer/) in Lake Oswego, Oregon. Each of you will place 2, or possibly 3, PCB orders over the course of the semester.
+For this course, you will design and order printed circuit boards (PCBs) from [OSHPark](https://docs.oshpark.com/services/two-layer/) in Lake Oswego, Oregon. Each of you will place 2 PCB orders over the course of the semester.
 
-Each of the 2 or 3 orders will cost around $10. (The price is actually $5 per square inch. If you can make your boards smaller, they will be cheaper, but most of the boards end up being around 2 square inches.) Shipping is free. 
+Each of the 2 orders will cost around $10. (The price is actually $5 per square inch. If you can make your boards smaller, they will be cheaper, but most of the boards end up being around 2 square inches.) Shipping is free. 
 
-If the PCB cost is a hardship, the department can help. Please read the section below about financial constraints.
+If the PCB cost is a hardship, for whatever reason, the Mechanical Engineering department can cover the costs. Please let one of the teachers or the ME department administrator Courtney Russo (courtney.russo@tufts.edu) know, either in person or via email. 
 
 
 ### Textbooks
@@ -97,22 +82,18 @@ There are two recommended textbooks for the class. You are not required to buy e
 1. [Practical Electronics for Inventors, Fourth Edition, by Paul Scherz and Simon Monk](https://www.amazon.com/Practical-Electronics-Inventors-Fourth-Scherz/dp/1259587541/), $22.49 in print, and also available as a free [e-book from Tisch Library](https://tufts-primo.hosted.exlibrisgroup.com/permalink/f/k87dab/TN_cdi_askewsholts_vlebooks_9781259587559)
 2. [Making Things Move by Dustyn Roberts](https://www.amazon.com/Making-Mechanisms-Inventors-Hobbyists-Artists/dp/0071741674/), $19.79 in print, and also available as a free [e-book from Tisch Library](https://www-accessengineeringlibrary-com.ezproxy.library.tufts.edu/content/book/9780071741675)
 
-## Financial constraints
-
-If, for whatever reason, you cannot afford to pay for the stuff needed for this class, please let one of the teachers or the ME department administrator Courtney Russo (courtney.russo@tufts.edu) know, either in person or via email. In virtually all cases, the Mechanical Engineering Department will pay for whatever you can't afford; if they can't, we will. Under no circumstances should your education suffer because you don't have the right tools or supplies.
-
 ## Modes of instruction
 
 ### In-class sessions
 
 Here's how class will work each Monday and Wednesday.
 1. You'll show up to the classroom to which you are enrolled on SIS, and bring your kit with you.
-2. For the first half of the class session, one of the instructors (Kristen or Brandon) will explain something about electronics. There will be one instructor in each classroom.  They will swap classrooms every few weeks so that all students interact with both professors.
-3. For the second half of the class session, we will all build electronics. The LAs will help you and ask you questions to extend your learning, as will Kristen and Brandon.
+2. For roughly the first half of the class session, your instructor (Kristen or Brandon) will explain something about electronics or facilitate a class discussion about the design of an electronic system.
+3. For the second half of the class session, we will all build electronics. The Learning Assistants (LAs) will help you and ask you questions to extend your learning, as will Kristen or Brandon.
 
 ### Labs
 
-Each ME 30 student is also assigned to a lab group that meets weekly in the Nolop Makerspace under the guidance of a Learning Assistant (LA), each of whom is a successful ME 30 alum. The purpose of these scheduled 1-hour lab times is to give students access to a smaller group of peers and a mentor (your LA) for hands-on support with circuits and code. We've worked hard to balance out the lab size for an LA:student ratio of about 10:1, so please attend lab on the day/time in which you are enrolled. Labs begin on Wed., Sep. 13, 2023.
+Each ME 30 student is also assigned to a lab group that meets weekly in the Nolop Makerspace under the guidance of a Learning Assistant (LA), each of whom is a successful ME 30 alum. The purpose of these scheduled 1-hour lab times is to give students access to a smaller group of peers and a mentor (your LA) for hands-on support with circuits and code. We've worked hard to balance out the lab size for an LA:student ratio of about 8:1, so please attend lab on the day/time in which you are enrolled. Labs begin on Monday, Sep. 9, 2024.
 
 ### Asynchronous elements  
 * 	 **Video mini-lectures** - Created and posted by the instructors. Several on a set of new topics each week.  
@@ -121,17 +102,17 @@ Each ME 30 student is also assigned to a lab group that meets weekly in the Nolo
 * 	 **Canvas** - We'll use the ME 30 Canvas site to manage project submissions and grades.  
 
 ### Synchronous elements
-* 	 **LA and instructor office hours** – See schedule above. 
+* 	 **LA and instructor office hours** – See schedule above.  
 * 	 **Class** - See description above.
 * 	 **Labs** - See description above.
 
 ## Assignments and grading
 
-Grades will be based entirely on your project work. There will also be a few short quizzes, which will be ungraded.   
-Projects (7) - 100% of course grade
-Quizzes (3) - 0% of course grade  
+Grades will be based almost entirely on your project work. There will also be a two short quizzes in which we ask you to troubleshoot a circuit or its code.   
+Projects (7) - 90% of course grade
+Quizzes (2) - 10% of course grade  
 
-### Projects (100%)
+### Projects (90%)
 
 Each project will be worth 7 points, and then scaled by the number of weeks allocated to complete the project. (So a project 4 weeks in duration is worth twice as much as a project 2 weeks in duration.) For projects that have both *prototype* and *final* deadlines, 1 of the 7 points comes from submitting your project prototype on time for the *prototype deadline.* The remaining points (6 or 7, depending on whether there was a prototype deadline) are awarded if you have attempted all project requirements - and documented those attempts - by the *final project deadline.* For each day (or fraction thereof) a final project is late, you will lose 1 point (before scaling), so a project that is 1 week late is worth 0 points. 
 
@@ -154,9 +135,9 @@ We have a *very* wide spectrum of experience in this class. Note that the projec
 ![semester timeline](/img/SemesterTimeline.jpg)
 
     
-### Quizzes (0%)
+### Quizzes (10%)
 
-Tentatively, we are planning on three short quizzes, one after each of the Projects 1, 3, and 4. Each quiz will feature open-response questions aimed at checking your understanding of the big ideas of each project.
+Tentatively, we are planning on two quizzes, one after each of the Projects 1 and 2. Each quiz will feature a non-functional circuit and will ask you to diagnose what's wrong with it and propose a way to fix it.
 
 ## Honesty
 
@@ -195,7 +176,7 @@ This course address all 7 student outcomes required by ABET, the accrediting bod
 |  1.	an ability to identify, formulate, and solve complex engineering problems by applying principles of engineering, science, and mathematics |  Course video lectures, reading assignments, and class activities involve circuit analysis problems  |
 | 2.	an ability to apply engineering design to produce solutions that meet specified needs with consideration of public health, safety, and welfare, as well as global, cultural, social, environmental, and economic factors  |  •	Course revolves around six hands-on circuit design projects that progress in difficulty and in complexity of requirements and constraints  |
 |  3.	an ability to communicate effectively with a range of audiences |  Video-recorded and live presentations of projects  |
-|  4.	an ability to recognize ethical and professional responsibilities in engineering situations and make informed judgments, which must consider the impact of engineering solutions in global, economic, environmental, and societal contexts | Discussion of safety considerations with high power circuits; Macroethics and discriminatory design addressed in Project 4 reflection assignment   |
+|  4.	an ability to recognize ethical and professional responsibilities in engineering situations and make informed judgments, which must consider the impact of engineering solutions in global, economic, environmental, and societal contexts | Discussion of safety considerations with high power circuits; Macroethics and discriminatory design addressed in project reflection assignments   |
 |  5.	an ability to function effectively on a team whose members together provide leadership, create a collaborative and inclusive environment, establish goals, plan tasks, and meet objectives  | Students work in teams for Projects 5 and 6   |
 |  6.	an ability to develop and conduct appropriate experimentation, analyze and interpret data, and use engineering judgment to draw conclusions | Frequent opportunities to analyze circuit behavior with digital multimeter; Troubleshooting and debugging of circuits emphasized  |
 | 7.	an ability to acquire and apply new knowledge as needed, using appropriate learning strategies  |  Open-ended nature of Projects 4, 5, and 6 requires students to find and apply learning resources applicable to the components and behaviors they wish to incorporate  |
