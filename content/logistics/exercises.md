@@ -77,7 +77,7 @@ The 4 components are:
 2. One L7805CV voltage regulator
 3. Two capacitors
 
-
+<! ---
 
 ## 4: Matching schematics to breadboards (Sep. 16)
 
@@ -476,5 +476,5 @@ https://www.pzdsp.com/elab/virtual_oscilloscope.html
 
 We'll use this document: https://docs.google.com/document/d/1O_xfcv7e3ha_4H89LtY6i9dom4rK-cdWGM7mMMHbSyc/edit?usp=sharing
 
-
+-->
 
