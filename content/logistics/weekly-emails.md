@@ -44,7 +44,7 @@ In ME 30 we’re aiming to provide a menu of resources to support your electroni
 - In-class [exercises](http://andnowforelectronics.com/logistics/exercises/):  Exercise #1 (Power an LED with "wall power") 
 - Website notes & videos on concepts: Voltage & current, Series vs. parallel, Resistors, LEDs
 - Website notes on skills: Prototyping, Multimeters
-- Electric current and Voltage sections (2.2 and 2.3) of Scherz & Monk textbook (which is optional, and available here from Tisch Library online)
+- Electric current and Voltage sections (2.2 and 2.3) of Scherz & Monk textbook (which is optional, and available [here](https://tufts-primo.hosted.exlibrisgroup.com/permalink/f/k87dab/TN_cdi_askewsholts_vlebooks_9781259587559) from Tisch Library online)
 - Office hours 
 
 NOTE: Many of the website notes pages include mini-lecture videos.
