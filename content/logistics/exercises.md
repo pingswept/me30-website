@@ -6,7 +6,7 @@ draft: false
 
 ## 1: Power an LED with "wall" power (Sep. 4)
 
-This is a warm-up activity to power an LED with "wall" power through our DC power supply and control it with a push button. 
+For a warm-up activity, let's power an LED with "wall" power and control it with a push button. 
 
 Your goal is to create a circuit on your breadboard that lights up an LED with power from the wall, directed through your kit's DC power supply. This circuit should have the following characteristics:
 
@@ -60,7 +60,7 @@ Read more [here](http://andnowforelectronics.com/notes/resistors/#typical-applic
 
 For each of the set-ups below, provide 12 V as V_in, and predict the output voltage V_out. 
 
-After you've written down your predictions for V_out, build the circuits and use your multimeter to measure V_out. If your predictions were off, try to figure out why
+After you've written down your predictions for V_out, build the circuits and use your multimeter to measure V_out. If your predictions were off, try to figure out why.
 
 ![Voltage dividers](/img/voltage-dividers-2022.png)
 
