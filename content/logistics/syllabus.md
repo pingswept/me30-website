@@ -114,11 +114,13 @@ Quizzes (2) - 10% of course grade
 
 ### Projects (90%)
 
-Each project will be worth 7 points, and then scaled by the number of weeks allocated to complete the project. (So a project 4 weeks in duration is worth twice as much as a project 2 weeks in duration.) For projects that have both *prototype* and *final* deadlines, 1 of the 7 points comes from submitting your project prototype on time for the *prototype deadline.* The remaining points (6 or 7, depending on whether there was a prototype deadline) are awarded if you have attempted all project requirements - and documented those attempts - by the *final project deadline.* For each day (or fraction thereof) a final project is late, you will lose 1 point (before scaling), so a project that is 1 week late is worth 0 points. 
+Each project will be worth 7 points, and then scaled by the number of weeks allocated to complete the project. (So a project 4 weeks in duration is worth twice as much as a project 2 weeks in duration.) For projects that have both *prototype* and *final* deadlines, 1 of the 7 points comes from submitting your project prototype on time for the *prototype deadline.* Most of the remaining points (4 or 5, depending on whether there was a prototype deadline) are awarded if you have *attempted* all project requirements - and documented those attempts - by the *final project deadline.* The final 2 remaining points are awarded if your project meets the stated minimum functional requirements, like "emits 5 volts" or "spins in 2 directions." If you have a last-minute failure at meeting functional requirements on the day the project is due, you can try again for those 2 points at office hours within the next week.
 
-To receive credit for a project, your project must clearly make an attempt to meet each of the project requirements, which are published at the start of the project. For example, if a project requires fabrication of a PCB, and you don't make one, you lose credit, roughly in proportion to the fraction of the requirements unsatisfied. For group projects with N people per group, you should do roughly 1/N of the work.
+For each day (or fraction thereof) a final project is late, you will lose 1 point (before scaling), so a project that is 1 week late is worth 0 points (unless you've reached out to your instructor about missing a due date).
 
-If you complete all the projects on time within the requirements, or at least 95% of that, you have earned an A for your project grade. If you hit around 85%, that's a B. You can calculate the details if you want, but the main message is that you should complete all the projects, and you should do them on time.
+For group projects with N people per group, you should do roughly 1/N of the work.
+
+Here's the gist of this grading scheme: if you *attempt* all project requirements on time, you'll earn at least a C for your project grade. If you also *meet* the minimum functional requirements for each project, you'll shift up to an A for your project grade. You can calculate the details if you want, but the main message is that you should complete all the projects, and you should do them on time.
 
 We have a *very* wide spectrum of experience in this class. Note that the project requirements do not include any kind of performance target (like, "make a robot that can run faster than 18 mph"), but rather broad categorical requirements, like "Your circuit must run off batteries." In this example, we do care whether you made a legitimate attempt to make the circuit run off batteries; we don't care how well your circuit works, because that's based largely on your level of experience relative how ambitious a project you tried to build. Our goal is to get you to try to build ambitious projects in a few broad categories, not cross some arbitrary threshold that would be easy for some of you and intensely difficult for others.
 
@@ -135,9 +137,9 @@ We have a *very* wide spectrum of experience in this class. Note that the projec
 ![semester timeline](/img/SemesterTimeline.jpg)
 
     
-### Quizzes (10%)
+### De-bugging challenges (10%)
 
-Tentatively, we are planning on two quizzes, one after each of the Projects 1 and 2. Each quiz will feature a non-functional circuit and will ask you to diagnose what's wrong with it and propose a way to fix it.
+Tentatively, we are planning on two de-bugging challenges, one after each of the Projects 1 and 2. Each will feature a non-functional circuit and will ask you to diagnose what's wrong with it and propose a way to fix it.
 
 ## Honesty
 
