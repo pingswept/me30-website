@@ -55,9 +55,9 @@ draft: false
 |  14  | 12/2 | Oscilloscopes  |  Design ethics     |               |    |
 |     | 12/4  | P5 reflection  |   P5 demo day  |          |   [P5](http://andnowforelectronics.com/logistics/projects)       |
 |  15    | 12/11  | Career trajectories, P6 intro  |  P6 Q & A   |                                           |         |
-|  (16)  | 12/17 |   Wendell 10:30 section        |       |             |[P6 showcase, Dec. 17, 3:30-5:30pm](http://andnowforelectronics.com/logistics/projects)|
-|  (16)  | 12/18 |   Wendell 9:00 section        |       |             |[P6 showcase, Dec. 18, 2:00-4:00pm](http://andnowforelectronics.com/logistics/projects)|
-|  (16)  | 12/18 |   Stafford 3:00 section        |       |             |[P6 showcase, Dec. 18, 3:30-5:30pm](http://andnowforelectronics.com/logistics/projects)|
+|  (16)  | 12/17 |   Wendell 10:30 section        |       |             |[P6 showcase, 3:30pm](http://andnowforelectronics.com/logistics/projects)|
+|  (16)  | 12/18 |   Wendell 9:00 section        |       |             |[P6 showcase, 2:00pm](http://andnowforelectronics.com/logistics/projects)|
+|  (16)  | 12/18 |   Stafford 3:00 section        |       |             |[P6 showcase, 3:30pm](http://andnowforelectronics.com/logistics/projects)|
 
 
 
