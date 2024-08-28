@@ -41,7 +41,7 @@ draft: false
 |  10   | 11/4  | Stepper motors   |  Stepper motors   |    |  |
 |     | 11/6  | Discriminatory design   |         |       | Discriminatory design HW due Friday   |
 |   11   | 11/11 | NO CLASS     | (Veteran's Day)  |           |        |
-|     | 11/12  | Raspberry Pi intro    |  Booting the Raspberry Pi   |    | [Raspberry Pi setup](http://andnowforelectronics.com/notes/pi-setup/); [Raspberry Pi programming](http://andnowforelectronics.com/notes/pi-programming/) |
+|     | 11/12  | Raspberry Pi intro    |  Booting the Raspberry Pi   |[Raspberry Pi setup](http://andnowforelectronics.com/notes/pi-setup/); [Raspberry Pi programming](http://andnowforelectronics.com/notes/pi-programming/)   |      |
 |     | 11/13  | P4 demo & reflection |  P4 (game v2) demo day     | P4 (game v2)  | [P4](http://andnowforelectronics.com/logistics/projects)   |
 
 ## Phase 4: Driving Robots with Operating Systems
