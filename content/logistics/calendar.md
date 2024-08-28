@@ -23,11 +23,11 @@ draft: false
 |:----:|:-----:|--------------------------------------------|-------------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------|
 |      | 9/25  | Transistors as switches      |  Make a switch with a BJT    | [Low power/high power](http://andnowforelectronics.com/notes/low-power-high-power/)|[P1 PCB due Friday](http://andnowforelectronics.com/logistics/projects/#project-1-build-a-breadboard-power-supply)|        |
 |  5   | 9/30  | Intro to P2 (game v1), DC motors, MOSFETs | Run a motor with a MOSFET    | [Motors](http://andnowforelectronics.com/notes/motors/) |              |
-|      | 10/2 | Microcontrollers, CircuitPython     | KB2040 set-up    | [Microcontrollers](http://andnowforelectronics.com/notes/microcontrollers/); [KB2040 hardware](http://andnowforelectronics.com/notes/feather-rp2040-hardware/); Solder pins to your KB2040 and bring to class | De-bugging puzzle #1 due Friday     |
-|   6  | 10/7 | Digital and analog I/O hardware            | KB2040 challenges set 1  |    [KB2040 programming](http://andnowforelectronics.com/notes/feather-programming/); [KB2040 challenges](http://andnowforelectronics.com/notes/feather-challenges/)    |   
+|      | 10/2 | Microcontrollers, CircuitPython     | KB2040 set-up    | [Microcontrollers](http://andnowforelectronics.com/notes/microcontrollers/); [KB2040 hardware](http://andnowforelectronics.com/notes/feather-rp2040-hardware/); Solder pins to your KB2040 and bring to class |      |
+|   6  | 10/7 | Digital and analog I/O hardware            | De-bugging challenge #1; KB2040 challenges set 1  |    [KB2040 programming](http://andnowforelectronics.com/notes/feather-programming/); [KB2040 challenges](http://andnowforelectronics.com/notes/feather-challenges/)    |   
 |      | 10/9  | Intro to P3, H-bridges   | Start building an H-bridge    | [H-bridge motor driver](http://andnowforelectronics.com/notes/h-bridge/); [Intro and video for P3](http://andnowforelectronics.com/logistics/projects/#project-2-build-an-h-bridge-motor-controller) | [P2 (game v1)](http://andnowforelectronics.com/logistics/projects) due Wed. in class|
 |  7    | 10/14 | NO CLASS   | (Indigenous People's Day)  |  |        |
-|     | 10/16  | More H-bridge details     | More H-bridge work            |               |    De-bugging puzzle #2 due Friday   |
+|     | 10/16  | More H-bridge details     | De-bugging challenge #2; More H-bridge work            |               |       |
 |  8  | 10/21  | Motor electrical power, detailed PCB design  |   Motor measurement; H-bridge debugging   |     |[P3 proto](http://andnowforelectronics.com/logistics/projects/#project-2-build-an-h-bridge-motor-controller)|
 |      | 10/23  | Intro to P4, Motor mechanical power |  More motor measurement; P1 PCB test  | Solder components to your P1 PCB and bring to class  | Soldered P1 PCB |
 
