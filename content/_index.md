@@ -24,32 +24,32 @@ Brandon Stafford (he/him)
 ## Learning assistants
 
 {{< columns >}}
-![Antonio Alphonse](/img/Antonio.jpg)
-Antonio Alphonse 
+![ReAnna Barclay](/img/ReAnna.jpg)
+ReAnna Barclay
 <--->
-![Julia Divan](/img/Julia.jpg)
-Julia Divan
+![Kimberly Eng](/img/Kimberly.jpg)
+Kimberly Eng
 <--->
-![Suely Garcia Acosta](/img/Suely.jpg)
-Suely Garcia Acosta (she/her) 
+![Brian Gutierrez](/img/Brian.jpg)
+Brian Gutierrez
 <--->
-![Rose Kitz](/img/Rose.jpg)
-Rose Kitz (she/her)
+![Josh Lamothe](/img/Josh.jpg)
+Josh Lamothe
 <--->
-![Gabe Moussa](/img/Gabe.jpg)
-Gabe Moussa
+![Natalie Long](/img/NatalieL.jpg)
+Natalie Long
 <--->
-![Theresa Nguyen](/img/Theresa.jpg)
-Theresa Nguyen (she/her)
+![Natalie Nicoletti](/img/NatalieN.jpg)
+Natalie Nicoletti
 <--->
-![Anna Quiros](/img/Anna.jpg)
-Anna Quiros (she/her)
+![Arcadia Ohnemus](/img/Arcadia.jpg)
+Arcadia Ohnemus
 <--->
-![Alexa Watson](/img/Alexa.jpg)
-Alexa Watson
+![Calvin Seeg](/img/Calvin.jpg)
+Calvin Seeg
 <--->
-![Zosia Stafford](/img/Zosia.jpg)
-Zosia Stafford, back for round 3
+![Chris Yen](/img/Chris.jpg)
+Chris Yen 
 <--->
 {{< /columns >}}
 
