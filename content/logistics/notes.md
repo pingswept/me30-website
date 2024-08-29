@@ -265,7 +265,9 @@ Importance of considering how much power resistors are rated for or they will bu
 
 Which resistor for your LED circuit, and why?
 
-V - V_f = V_r.  V_r = iR.   R = V_r / i.  Aim for current of 0.001 A and assume V_f of 3V.
+First foray into data sheets - look at sheet for LED. 
+
+V - V_f = V_r.  V_r = iR.   R = V_r / i.  
 
 
 ### Extension/challenge: Re-arrange your circuit so you have one LED that stays on permanently and another that is powered by the switch
