@@ -57,8 +57,8 @@ Chris Yen
 
 ![project showcase in atrium](/img/atrium-project-showcase-2021-11-16.jpg)
 
-2021 project showcase in the Science and Engineering Center atrium
+Project showcase in the Science and Engineering Center atrium
 
 ![game demos in Cummings Center](/img/GameDemos_2022.JPG)
 
-2022 project demos in the Cummings Center
+Project demos in the Cummings Center
