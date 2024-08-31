@@ -6,7 +6,7 @@ draft: false
 ## Project 1: 
 **Build a breadboard power supply**
 
-The first project is to build a power supply with the following characteristics:
+The first project is to build a power supply that meets the following requirements:
 
 *   It consists of a PCB that plugs directly into a breadboard.
 *   It accepts power from a 2.1 x 5.5 mm plug from a 12 V wall adapter.
@@ -54,12 +54,13 @@ If you feel like you understand this project pretty well, or if you've made a ba
 
 Later this semester, Projects 2 and 4 will require using a motor to actuate some part of an interactive game, and Projects 5 and 6 will involve motor-driven wheels. So in Project 0, you’ll building some knowledge about how to attach a part securely to a motor.
 
-Your task in Project 0 is to design and build a motor hub that meets the following specifications:
+Your task in Project 0 is to design and build a motor hub that meets the following requirements:
 
--	Fits on and attaches to your DC motor shaft
--	Includes a 3 mm hole located 15 mm from the central axis of your DC motor shaft (you’ll insert a paper clip with a weighted string into this hole) 
--	Stays attached securely enough to handle the amount of torque (load applied to hub) that stalls the motor when it is operating at 12 V
--	Shaped like a spool or lever arm or anything (i.e., shape is up to you)
+*	  It fits on and attaches to your DC motor shaft
+*	  It includes a 3 mm hole located 15 mm from the central axis of your DC motor shaft (you’ll insert a paper clip with a weighted string into this hole)
+*	  It stays attached securely enough to handle the amount of torque (load applied to hub) that stalls the motor when it is operating at 12 V
+
+Your motor hub can be shaped like a spool, lever arm, or anything; the details are up to you.
 
 ![](/img/motor-hub-diagram.jpg)
 
