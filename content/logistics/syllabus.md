@@ -109,20 +109,18 @@ Each ME 30 student is also assigned to a lab group that meets weekly in the Nolo
 ## Assignments and grading
 
 Grades will be based almost entirely on your project work. There will also be a two short quizzes in which we ask you to troubleshoot a circuit or its code.   
-Projects (7) - 90% of course grade
-Quizzes (2) - 10% of course grade  
+*    Projects (7) - 90% of course grade
+*    Quizzes (2) - 10% of course grade  
 
 ### Projects (90%)
 
-Each project will be worth 7 points, and then scaled by the number of weeks allocated to complete the project. (So a project 4 weeks in duration is worth twice as much as a project 2 weeks in duration.) For projects that have both *prototype* and *final* deadlines, 1 of the 7 points comes from submitting your project prototype on time for the *prototype deadline.* Most of the remaining points (4 or 5, depending on whether there was a prototype deadline) are awarded if you have *attempted* all project requirements - and documented those attempts - by the *final project deadline.* The final 2 remaining points are awarded if your project meets the stated minimum functional requirements, like "emits 5 volts" or "spins in 2 directions." If you have a last-minute failure at meeting functional requirements on the day the project is due, you can try again for those 2 points at office hours within the next week.
+Here's the gist of this grading scheme: if you *attempt* all project requirements on time, you'll earn at least a C for your project grade. If you also *meet* the minimum functional requirements for each project, you'll shift up to an A for your project grade. You can calculate the details if you want, but the main message is that you should complete all the projects, and you should do them on time.
+
+Each project will be worth 7 points, and then scaled by the number of weeks allocated to complete the project. (So a project 2 weeks in duration is worth twice as much as a project 1 week in duration.) For projects that have both *prototype* and *final* deadlines, 1 of the 7 points comes from submitting your project prototype on time for the *prototype deadline.* Most of the remaining points (4 or 5, depending on whether there was a prototype deadline) are awarded if you have *attempted* all project requirements - and documented those attempts - by the *final project deadline.* The final 2 remaining points are awarded if your project meets the minimum functional requirements, like "circuit emits 5 volts" or "motor spins in 2 directions." If you have a last-minute failure on the day the project is due, you can try again for those 2 points at office hours within the next week.
 
 For each day (or fraction thereof) a final project is late, you will lose 1 point (before scaling), so a project that is 1 week late is worth 0 points (unless you've reached out to your instructor about missing a due date).
 
 For group projects with N people per group, you should do roughly 1/N of the work.
-
-Here's the gist of this grading scheme: if you *attempt* all project requirements on time, you'll earn at least a C for your project grade. If you also *meet* the minimum functional requirements for each project, you'll shift up to an A for your project grade. You can calculate the details if you want, but the main message is that you should complete all the projects, and you should do them on time.
-
-We have a *very* wide spectrum of experience in this class. Note that the project requirements do not include any kind of performance target (like, "make a robot that can run faster than 18 mph"), but rather broad categorical requirements, like "Your circuit must run off batteries." In this example, we do care whether you made a legitimate attempt to make the circuit run off batteries; we don't care how well your circuit works, because that's based largely on your level of experience relative how ambitious a project you tried to build. Our goal is to get you to try to build ambitious projects in a few broad categories, not cross some arbitrary threshold that would be easy for some of you and intensely difficult for others.
 
 | Project # | Project Goal  | Fraction of Course |
 |-----|--------------------------------------------|----|
@@ -137,9 +135,9 @@ We have a *very* wide spectrum of experience in this class. Note that the projec
 ![semester timeline](/img/SemesterTimeline.jpg)
 
     
-### De-bugging challenges (10%)
+### Debugging challenges (10%)
 
-Tentatively, we are planning on two de-bugging challenges, one after each of the Projects 1 and 2. Each will feature a non-functional circuit and will ask you to diagnose what's wrong with it and propose a way to fix it.
+Tentatively, we are planning on two debugging challenges, one after each of the Projects 1 and 2. Each will feature a non-functional circuit and will ask you to diagnose what's wrong with it and propose a way to fix it.
 
 ## Honesty
 
