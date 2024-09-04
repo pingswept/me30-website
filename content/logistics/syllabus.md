@@ -45,12 +45,11 @@ The point of the course is to force students to gain experience with the practic
 * Career trajectories and how to find a job
 
 
-## Co-teachers
+## Teachers
 
-Brandon Stafford, brandon.stafford@tufts.edu
+Morning sections: Kristen Wendell, kristen.wendell@tufts.edu
 
-Kristen Wendell, kristen.wendell@tufts.edu
-
+Afternoon section: Brandon Stafford, brandon.stafford@tufts.edu
 
 ## Course credit and time expectations
 
