@@ -64,7 +64,7 @@ Your motor hub can be shaped like a spool, lever arm, or anything; the details a
 
 ![](/img/motor-hub-diagram.jpg)
 
-Submit to Canvas both (1) a CAD rendering of your hub design and (2) a photo your actual hub.
+Submit to Canvas (1) a photo of your motor hub and (2) a brief video (max 90 seconds) demonstrating that your motor hub meets the requirements above.
 
 Bring your hub to lab on your designated due date. We hope to compile everyone’s results into a histogram showing the range of torques applied before the hubs either (a) slip on their motor shaft or (b) successfully stall the motor.
 
