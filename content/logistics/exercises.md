@@ -64,6 +64,7 @@ After you've written down your predictions for V_out, build the circuits and use
 
 ![Voltage dividers](/img/voltage-dividers-2022.png)
 
+Which one of these resistors do you think we refer to as a "pull-down resistor" (gently tugging down)?
 
 ## 3: Build a voltage regulation circuit (Sep. 9)
 
