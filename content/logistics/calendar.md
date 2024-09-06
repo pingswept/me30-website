@@ -65,7 +65,7 @@ draft: false
 
 | Lab # | Lab dates  | Lab focus  | 
 |:----:|:----------:|----------------------|
-| 1 | 9/19-9/22 | Voltage regulator circuits |
+| 1 | 9/19-9/22 | Voltage divider & voltage regulator circuits |
 | 2 | 9/16-9/19 | Learn KiCad, and solder your KB2040 pins |
 | 3 | 9/23-10/26 | Control a motor with transistors, and solder your KB2040 pins |
 | 4 | 9/30-10/3 | P2 help |
