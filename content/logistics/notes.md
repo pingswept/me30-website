@@ -198,9 +198,11 @@ Uncover the issue with voltage dividers / need for voltage regulation (see if ca
 
 Attaching a load causes sag in voltage from current pull. Voltage dividers are not the same as voltage regulators
 
-### Project 1: Voltage regulation
+Which resistor do we refer to as a "pull-down resistor"?
 
-We need 4 components: two capacitors, one regulator, and one power jack, plus various wires and a breadboard.
+### Project 1: Voltage regulation 
+
+We need 5 components: three capacitors, one regulator, and one power jack, plus various wires and a breadboard.
 
 12 V in, leading to 3 outputs: 12 V passing through on a screw terminal, 5 V from an L7805CV, and 3.3 V from an LM1117.
 
