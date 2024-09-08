@@ -33,7 +33,7 @@ For Week 2, these are the resources we’re suggesting:
 
 **Office hours**
 - [Office hours](http://andnowforelectronics.com/logistics/syllabus/#office-hours) should really be called "times when we sit and wait for you to come build circuits with us"
-- Kristen's office hours are Fri. 2-4pm in Nolop
+- Kristen's office hours are Fri. 2:15-4:15pm in Nolop
 - Brandon's office hours are whenever he's in Nolop, M-F, 9a-5p 
 
 
