@@ -19,19 +19,17 @@ Thanks for a great first day of class last Wednesday. We appreciate how willing 
 - "Introductory post" on Canvas: By Wed., Sep. 11, upload a very brief video introducing yourself and showing us your LED-pushbutton circuit.
 
 **Learning goals for Week 2:**
-- Describe the different between a voltage *divider* circuit and a voltage *regulator* circuit.
+- Describe the difference between a voltage *divider* circuit and a voltage *regulator* circuit.
 - Deepen your understanding of voltage, current, resistance, and power, as they relate to voltage divider and voltage regulator circuits.
 - Measure voltage, current, resistance, and continuity with a multimeter.
 
 **Resources for your learning for Week 2:**
 
 For Week 2, these are the resources we’re suggesting:
-- Website notes on concepts: [Series vs. parallel](http://andnowforelectronics.com/notes/series-vs-parallel/), [Voltage regulation](http://andnowforelectronics.com/notes/voltage-regulation/), [Capacitors*](http://andnowforelectronics.com/notes/capacitors/)
+- Website notes on concepts: [Series vs. parallel](http://andnowforelectronics.com/notes/series-vs-parallel/), [Voltage regulation](http://andnowforelectronics.com/notes/voltage-regulation/), [Capacitors](http://andnowforelectronics.com/notes/capacitors/) (includes mini-lecture video)
 - Website notes on skills: [Multimeters](http://andnowforelectronics.com/notes/multimeters/), [Demo video of building a voltage regulator](http://andnowforelectronics.com/notes/demo-videos/#building-a-breadboard-prototype)
 - Electric current and Voltage sections (2.2 and 2.3) of Scherz & Monk textbook (which is optional, and available [here](https://tufts-primo.hosted.exlibrisgroup.com/permalink/f/k87dab/TN_cdi_askewsholts_vlebooks_9781259587559) from Tisch Library online)
 - Office hours 
-
-* These pages include mini-lecture videos.
 
 **Office hours**
 - [Office hours](http://andnowforelectronics.com/logistics/syllabus/#office-hours) should really be called "times when we sit and wait for you to come build circuits with us"
