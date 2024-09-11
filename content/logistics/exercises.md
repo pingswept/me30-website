@@ -64,8 +64,6 @@ After you've written down your predictions for V_out, build the circuits and use
 
 ![Voltage dividers](/img/voltage-dividers-2022.png)
 
-Which one of these resistors do you think we refer to as a "pull-down resistor" (gently tugging down)?
-
 ## 3: Build a voltage regulation circuit (Sep. 9 & 11)
 
 This is an introductory exercise designed to help you get familiar with breadboard prototyping while also building a basic circuit that will be useful for later exercises and projects. It forms the basis for Project #1, but you don't need to think about that yet. If this is all new to you, look at the pages on [breadboard prototyping](/notes/prototyping/) and [multimeters](/notes/multimeters/).
