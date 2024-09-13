@@ -76,3 +76,34 @@ The 4 components are:
 2. One L7805CV voltage regulator
 3. Two capacitors
 
+## 4: Matching schematics to breadboards (Sep. 18)
+
+Which of these breadboards has the same circuit as the one represented in the schematic?
+
+![Schematic and breadboards](/img/Breadboard_schematic_matching.jpg)
+
+## 5: Review of voltage and current (Sep. 18)
+
+For the circuit below, analyze the following first for when the switch is open, and then for when the switch is closed:
+1. Find sets of labeled points on the circuit where the **current** is the **same**.
+2. Identify any points on the circuit where **no** current is flowing.
+3. List the points in order from **highest current flow to least current flow**.
+4. Find sets of points where the **voltage** is the **same**.
+5. At what points should the voltage be near 0 V (e.g., ground)?
+6. Order the points from highest to lowest voltage.
+  
+![Circuits to analyze](/img/Voltage_current_review.jpg)
+
+## 6: Safety checks (Sep. 18)
+
+If you feel a circuit component getting hot or starting to smoke, what should you do first?
+a. call over an LA
+b. take the component out of the breadboard
+c. unplug the power supply (e.g., barrel jack) from the breadboard
+d. use your multimeter to measure the voltage across the component
+
+
+What is a possible result if your multimeter dial is turned to the “mA” symbol and you put your multimeter probes between a high and low voltage location on a circuit? 
+a. you’ll get zero current reading on your multimeter and prevent your circuit from working
+b. you’ll let too much current go through your multimeter and blow its fuse
+c. you’ll hear a beeping sound warning you that you should use the “A” symbol and port
