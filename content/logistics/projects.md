@@ -100,9 +100,9 @@ Work with your entire lab section. Using water bottles and a scale, create a set
 
 For each motor hub, begin with the lowest weight and attach it to the hub with a paper clip (through the hole placed ~15 mm from the shaft axis) and a length of string. Supply 12 V to the motor and see if it can lift the weight without slipping of the hub. If it succeeds, move on to the next highest weight. Repeat until you get to a weight that either stalls the motor or makes the hub slip around the motor shaft.  Record this as your "slip/stall weight." 
 
-Multiply your hub's "slip/stall weight" by the distance between your shaft axis and your paper clip attachment point (it should be 15 mm, but measure just to be sure).  The results is your "slip/stall torque."
+Multiply your hub's "slip/stall weight" by the distance between your shaft axis and your paper clip attachment point (it should be 15 mm, but measure just to be sure).  The result is your "slip/stall torque."
 
-Take a photo of your motor hub attachment. Compare it to the class histogram created in a previous semester. 
+Submit to Canvas a photo of your motor hub attachment and a video of it lifting weights. Compare its performance to this class histogram created in a previous semester: 
 https://docs.google.com/spreadsheets/d/1Y_V_8rgQhnSgg5z3wRCmGc2mLD-aFtRIoKs-uJ67k6A/edit?usp=sharing
 {{< /expand >}}
 
