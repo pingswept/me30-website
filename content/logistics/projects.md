@@ -45,7 +45,7 @@ If you feel like you understand this project pretty well, or if you've made a ba
 1. Read and try to make sense of the website notes on [voltage regulation](http://andnowforelectronics.com/notes/voltage-regulation/). Pay special attention to the circuit diagram showing the L7805C voltage regulator.
 2. Try your best to make a breadboard circuit so that 12 V goes into your circuit and 5 V comes out, as shown on the [website diagram](http://andnowforelectronics.com/notes/voltage-regulation/). You'll need to use your [5V voltage regulator component](http://andnowforelectronics.com/notes/datasheets/#voltage-regulators).
 3. Install Kicad.
-4. Watch the Kicad demo videos, a total of 5 minutes, 59 seconds for [the first two demo videos](http://andnowforelectronics.com/notes/demo-videos/)
+4. Watch Brandon and Kristen's Kicad [demo videos](http://andnowforelectronics.com/notes/demo-videos/#kicad-for-project-1) 
 5. Read as much of chapter 2 from the Practical Electronics textbook as you can.
 
 
