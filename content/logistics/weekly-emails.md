@@ -6,6 +6,27 @@ draft: false
 
 - - -
 
+## Week 3: Sunday, 9/16/24
+
+This is the week that Project 1 work picks up, with the introduction of (free!) circuit board design software called [KiCad](https://www.kicad.org/). We'll use KiCad to translate your temporary breadboard circuits into permanent circuit boards. We'll preview KiCad in class on Monday and recommend that you have it installed on your computer by class time on Wednesday, 9/18. If you’re having trouble installing it, please reach out to an LA or instructor.
+
+**Things due in Week 3:**
+- Due Wed., 9/18, as photo upload to Canvas: Prototype Circuit for [Project 1](http://andnowforelectronics.com/logistics/projects/#project-1) (Voltage Regulator/Breadboard Power Supply)
+- Thursday lab groups, your [Project 0](http://andnowforelectronics.com/logistics/projects/#project-0) motor hubs are due at lab time on 9/19 
+
+**Learning goals for Week 3:**
+- Deepen your understanding of voltage, current, resistance, and power, as they relate to your Project 1 Breadboard Power Supply circuit (featuring voltage regulators)
+- Take a breadboard prototype and turn it into a PCB design using KiCad software
+
+**Course website (andnowforelectronics.com) pages to study in Week 3:**
+- [Project 1 description](http://andnowforelectronics.com/logistics/projects/)
+- [Voltage regulation](http://andnowforelectronics.com/notes/voltage-regulation/)
+- [PCB design](http://andnowforelectronics.com/notes/pcb/)
+- [KiCad demo videos](http://andnowforelectronics.com/notes/demo-videos/#kicad-for-project-1)
+
+**Optional reading for Week 3:**
+- PCB design section of Scherz & Monk textbook (available here from [Tisch Library online](https://tufts-primo.hosted.exlibrisgroup.com/permalink/f/k87dab/TN_cdi_askewsholts_vlebooks_9781259587559)
+
 ## Week 2: Sunday, 9/8/24
 
 Thanks for a great first day of class last Wednesday. We appreciate how willing you were to lend a hand to classmates once you figured out your own circuit. That spirit of collective learning will take us far this semester.
