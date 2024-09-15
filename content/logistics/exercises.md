@@ -76,13 +76,13 @@ The 4 components are:
 2. One L7805CV voltage regulator
 3. Two capacitors
 
-## 4: Matching schematics to breadboards (Sep. 18)
+## 4: Matching schematics to breadboards (Sep. 16)
 
 Which of these breadboards has the same circuit as the one represented in the schematic?
 
 ![Schematic and breadboards](/img/Breadboard_schematic_matching.jpg)
 
-## 5: Review of voltage and current (Sep. 18)
+## 5: Review of voltage and current (Sep. 16)
 
 For the circuit below, analyze the following first for when the switch is open, and then for when the switch is closed:
 1. Find sets of labeled points on the circuit where the **current** is the **same**.
@@ -94,7 +94,7 @@ For the circuit below, analyze the following first for when the switch is open, 
   
 ![Circuits to analyze](/img/Voltage_current_review.jpg)
 
-## 6: Safety checks (Sep. 18)
+## 6: Safety check (Sep. 16)
 
 If you feel a circuit component getting hot or starting to smoke, what should you do first?
 a. call over an LA
