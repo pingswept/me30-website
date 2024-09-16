@@ -66,9 +66,9 @@ draft: false
 | Lab # | Lab dates  | Lab focus  | 
 |:----:|:----------:|----------------------|
 | 1 | 9/19-9/22 | Voltage divider & voltage regulator circuits |
-| 2 | 9/16-9/19 | Learn KiCad, and solder your KB2040 pins |
-| 3 | 9/23-10/26 | Control a motor with transistors, and solder your KB2040 pins |
-| 4 | 9/30-10/3 | P2 help |
+| 2 | 9/16-9/19 | Troubleshoot P1 circuits, start to learn KiCad, and practice soldering |
+| 3 | 9/23-9/26 | KiCad tips & tricks, and solder your KB2040 pins |
+| 4 | 9/30-10/3 | Control a motor with transistors, P2 help |
 | 5 | 10/7-10/10 | KB2040 challenges set 1 |
 | 6 | 10/15-10/17 | H-bridges and solder P1 PCB (Monday lab students can attend other labs or Friday help) |
 |  | 10/21-10/24 | Optional attendance / make-up for Lab 6 |
