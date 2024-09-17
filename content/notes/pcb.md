@@ -67,7 +67,7 @@ Here's a rough summary of how to use Kicad.
 *   [Digikey's Intro to KiCad playlist on Youtube](https://www.youtube.com/watch?v=vaCVh2SAZY4) 
 
 Note that the first two tutorials above were created before the latest version of KiCad was released, so a few aspects of your KiCad interface might look slightly different. The main steps remain the same, however. For the most up-to-date written tutorial, try KiCad's own "Getting Started in KiCad":
-*   [KiCad's Getting Started tutorial](https://docs.kicad.org/6.0/en/getting_started_in_kicad/getting_started_in_kicad.html)
+*   [KiCad's Getting Started tutorial](https://docs.kicad.org/7.0/en/getting_started_in_kicad/getting_started_in_kicad.html)
 
 
 ## General PCB checklist (not applicable to every project)
