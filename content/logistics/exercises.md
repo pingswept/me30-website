@@ -107,3 +107,35 @@ What is a possible result if your multimeter dial is turned to the “mA” symb
 a. you’ll get zero current reading on your multimeter and prevent your circuit from working
 b. you’ll let too much current go through your multimeter and blow its fuse
 c. you’ll hear a beeping sound warning you that you should use the “A” symbol and port
+
+## 7. Control a motor with a BJT (Sep. 25)
+
+Making a motor spin is pretty simple: apply sufficient voltage across its leads. When we want to control things like motors (or LEDs, buzzers, etc.) electronically, instead of plugging them in to breadboards with our hands, we use transistors. The goal of this exercise is to use a bipolar junction transistor, the 2N3904, to turn on and off a motor.
+
+You need 4 things:
+
+1. A 5 V voltage source, like the voltage regulation circuit you built previously
+2. A 2N3904 transistor (or really any transistor is fine, if you know the pinout)
+3. A DC gear motor
+4. An appropriately-sized current-limiting resistor for the BJT
+
+The picture below shows the concept of what you're building. 
+
+![Typical BJT circuit](/img/typical-bjt-circuit.jpg)
+
+**Extension:** Add a potentiometer (a variable resistor) in series with the base and use it to vary the current flowing from base to emitter. Notice how this works as a crude motor speed controller, but also notice (carefully!) how the BJT heats up as more current is drawn through it.
+
+![BJT circuit with potentiometer](/img/bjt-potentiometer.jpg)
+
+## 8. Determine pin voltages and ideal resistor value for a BJT circuit (Sep. 25)
+
+1. Fill in the table below to indicate the voltage at E, B, and C when the input is (a) at ground and (b) at 3.3 V.
+2. What is an ideal value for the current-limiting resistor?
+
+
+|  | V_E  | V_B   | V_C |
+|:----:|:-----:|:----:|:----:|
+|  Input at O V   |    |   |     |
+|  Input at 3.3 V   |    |   |     |
+
+
