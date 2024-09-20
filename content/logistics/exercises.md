@@ -112,9 +112,9 @@ c. you’ll hear a beeping sound warning you that you should use the “A” sym
 
 Making a motor spin is pretty simple: apply sufficient voltage across its leads. When we want to control things like motors (or LEDs, buzzers, etc.) electronically, instead of plugging them in to breadboards with our hands, we use transistors. The goal of this exercise is to use a bipolar junction transistor, the 2N3904, to turn on and off a motor.
 
-You need 4 things:
+You need 5 things in addition to the usual 12 V power supply and barrel jack:
 
-1. A 5 V voltage source, like the voltage regulation circuit you built previously
+1. A 3.3 V voltage source, like the voltage regulation circuit you built previously
 2. A 2N3904 transistor (or really any transistor is fine, if you know the pinout)
 3. A DC gear motor
 4. An appropriately-sized current-limiting resistor for the BJT
