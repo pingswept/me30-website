@@ -5,6 +5,34 @@ draft: false
 ## Weekly Update Emails
 
 - - -
+## Week 4: Sunday, 9/22/24
+
+This week is a big transition week in ME 30. In Phase 1 of the course, we focused on fundamental circuits concepts, breadboarding skills, and introductory PCB design. Starting on Wednesday, 9/25, we'll move on to Phase 2, which introduces the components and circuits used to control motors.
+
+**Course housekeeping:**
+
+If you miss class, please check both the [Calendar](http://andnowforelectronics.com/logistics/calendar/) section of the website to see what we did in class the day(s) you missed. Reach out to an instructor or Learning Assistant if you have questions.
+
+Anyone is welcome to stop by [office hours](http://andnowforelectronics.com/logistics/syllabus/#office-hours), which should really be called "times when we sit and wait for you to come do KiCad or build circuits with us."
+- This week, Kristen's office hours are Thurs. 9/26, 3-4:30pm in Nolop
+- Learning Assistants ReAnna and Chris will do Friday office hours in Nolop on 9/27, 2-5pm
+- Brandon's office hours are whenever he's in Nolop, M-F, 9am-5pm 
+
+**Things due in Week 4:**
+- Due on Canvas by Fri., 9/27, 6:00pm: [Project 1 PCB](http://andnowforelectronics.com/logistics/projects/#project-1). On the Project 1 Canvas assignment, you'll see instructions to fill out a Project 1 self-assessment checklist, upload a brief video, and upload screenshots of your KiCad schematic diagram, PCB layout, and order confirmation.
+- Wednesday lab groups, your [Project 0](http://andnowforelectronics.com/logistics/projects/#project-0) motor hubs are due at lab time on 9/25. Don't forget to submit your motor hub work on the Project 0 Canvas assignment.
+
+**Learning goals for Week 4:**
+- Improve your skills at creating schematics and laying out PCBs on Kicad
+- Explain how to use transistors to control high power with low power.
+- Begin to build circuits incorporating motors.
+
+**Course website (andnowforelectronics.com) pages to study in Week 4:**
+- [PCB design](http://andnowforelectronics.com/notes/pcb/), 
+- [Low power/high power](http://andnowforelectronics.com/notes/low-power-high-power/)
+
+**Optional reading for Week 4:**
+- "Transistors" section of Scherz & Monk textbook (available here from [Tisch Library online](https://tufts-primo.hosted.exlibrisgroup.com/permalink/f/k87dab/TN_cdi_askewsholts_vlebooks_9781259587559))
 
 ## Week 3: Sunday, 9/16/24
 
