@@ -9,7 +9,8 @@ ME 30, Electronics & Controls I
 
 ## Office hours
 
-* Kristen for Week 4: Thursday, 9/26, 3-5pm in Nolop
+* Learning Assisants: Friday, 9/27, 2-5pm in Nolop
+* Kristen for Week 4: Thursday, 9/26, 3-4:30pm in Nolop
 * Brandon: Roughly 9 AM to 5 PM in Nolop, unless he's teaching class or in a meeting, or it's a weekend
 
 As always, please reach out to an LA or an instructor if you want to make a separate appointment for help.
