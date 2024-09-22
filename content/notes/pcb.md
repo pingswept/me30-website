@@ -45,7 +45,7 @@ Here's a rough summary of how to use Kicad.
 15.  Roughly arrange the parts the way you want them.
 16.  Place mechanically critical components.
 17.  Place the rest of the components and route traces between everything.
-18.  Run a design rule check (DRC). (Kicad calls this an ERC, but nobody else does.)
+18.  Run a design rule check (DRC) from the "Inspect" menu. 
 19.  Repeat cycle: schematic/footprints -> gen. netlist -> read netlist -> tweak layout -> run DRC
 20.  Submit .kicad_pcb file to OSH Park (or possibly generate Gerber files for another manufacturer).
 
