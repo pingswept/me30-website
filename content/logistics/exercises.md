@@ -129,8 +129,8 @@ The picture below shows the concept of what you're building.
 
 ## 8. Determine pin voltages and ideal resistor value for a BJT circuit (Sep. 25 & Sep. 30)
 
-1. Fill in the table below to indicate the voltage at E, B, and C when the input is (a) at ground and (b) at 3.3 V.
-2. What is an ideal value for the current-limiting resistor between 3.3 V and the base of the transistor?
+1. For the circuit shown in Exercise #7, fill in the table below to indicate the voltage at E, B, and C when the base resistor is connected to (a) 0 V and (b) 3.3 V.
+2. To run your kit's gear motor, what is an ideal value for the resistor between 3.3 V and the base of the transistor?
 
 
 |  | V_E  | V_B   | V_C |
