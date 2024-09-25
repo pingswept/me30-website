@@ -127,10 +127,10 @@ The picture below shows the concept of what you're building.
 
 ![BJT circuit with potentiometer](/img/bjt-potentiometer.jpg)
 
-## 8. Determine pin voltages and ideal resistor value for a BJT circuit (Sep. 25)
+## 8. Determine pin voltages and ideal resistor value for a BJT circuit (Sep. 25 & Sep. 30)
 
 1. Fill in the table below to indicate the voltage at E, B, and C when the input is (a) at ground and (b) at 3.3 V.
-2. What is an ideal value for the current-limiting resistor?
+2. What is an ideal value for the current-limiting resistor between 3.3 V and the base of the transistor?
 
 
 |  | V_E  | V_B   | V_C |
@@ -138,4 +138,16 @@ The picture below shows the concept of what you're building.
 |  Input at O V   |    |   |     |
 |  Input at 3.3 V   |    |   |     |
 
+## 9. Control a motor with a MOSFET (Sep. 30)
 
+You've used a bipolar junction transistor to control a motor. Now try using the other main class of transistor: a metal oxide semiconductor field effect transistor, or MOSFET.  The main difference between the [two types of transistors](http://andnowforelectronics.com/notes/low-power-high-power/) is that BJTs are current-controlled, and MOSFETs are voltage-controlled.
+
+You need 5 things:
+
+1. 3.3 V voltage source, which you can make using the 3.3V regulator in your kit
+2. 12 V voltage source
+3. An N-channel MOSFET
+4. A DC gear motor
+5. A pull-down resistor for the MOSFET
+
+![MOSFET circuit](/img/mosfet-controller.jpg)
