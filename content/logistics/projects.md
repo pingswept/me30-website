@@ -3,6 +3,40 @@ title: "Projects"
 draft: false
 ---
 
+## Project 2:
+**Build a simple game**
+
+The next project is to use the basic electrical components we've covered in class with some mechanical fabrication to make a game that is at least mildly entertaining. The point here is NOT making the best game ever, but to set some goals for testing out your electromechanical skills. For your circuit for this project, use your breadboard. No PCBs needed.
+
+This is a solo project, but we'll be brainstorming in groups.
+
+You should bring your game to class on Wednesday, October 9th to share with your brainstorming group.
+
+Due date (for game documentation submission): Wednesday, October 9th, 11:59PM
+
+To keep things simple, there are a few required constraints.
+Your game should:
+* Use the DC gearmotor in your kit
+* Use at least one transistor 
+* Require user interaction of some sort (e.g., pushing a button, pressing a key, interacting with a physical component)
+* Fit inside a cube 20 cm on a side
+* Be fabricated without 3D printing, except for a motor hub if needed (talk to an instructor if you have a particular reason you need to violate this constraint.)
+
+The point of the constraints is to keep your game simple enough that you can complete it in 1.5 weeks.
+
+In addition to planning to meet these constraints, you should also pick one learning goal for yourself for this project. Open-ended projects offer you an opportunity to bend the curriculum into the direction of your interests or to explore a potential new area of interest.
+
+Here are some example learning goals:
+* Get more comfortable with cordless drills and at least one other hand tool.
+* Test my system to failure, then rebuild it stronger.
+* Use only recycled/found materials.
+* Complete my project 24 hours early.
+* Model, predict and subsequently measure at least one mechanical property of my project.
+* Use the laser cutter (which I have never used before).
+* Make at least one part out of steel.
+* Turn a part on a lathe at Bray.
+* Spend at least 1/3 of my effort on the aesthetics of the project.
+
 ## Project 1: 
 **Build a breadboard power supply**
 
