@@ -1,6 +1,6 @@
 ---
 title: "KB2040 hardware"
-draft: true
+draft: false
 ---
 
 ![Top view of Adafruit KB2040](/img/KB2040_top.jpeg)
