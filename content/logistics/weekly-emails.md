@@ -5,6 +5,38 @@ draft: false
 ## Weekly Update Emails
 
 - - -
+
+## Week 5: Sunday, 9/29/24
+
+Thanks for your hard work learning KiCad for Project 1. Looking forward to seeing you put those PCBs in action for later projects!
+
+**Course housekeeping:**
+- In class on Wed., Oct. 2, you will need your KB2040 microcontroller (the small pink circuit board in your kit) and a data-sync cable that connects your KB2040 USB-C port with your laptop. We have a few extra USB-C data-sync cables, but if you have one of your own, please bring it. Make sure it can transfer data, not just power.
+- In labs, one focus has been soldering pins onto your KB2040 microcontroller. Please have your pins soldered onto your KB2040 by class time on Wed., Oct. 2. Ask Nolop staff member can help you with soldering any time Nolop is open; just ask!
+
+**Labs in Week 5**
+- Labs this week will focus on trouble-shooting transistor circuits and planning for Project 2. Tuesday groups will test out their motor hubs.
+
+**Things due in Week 5:**
+- Nothing is due on Canvas, but please read the note above about **soldering header pins onto your KB2040 by class time on Wed., Oct. 2,** and bringing a USB-C data-sync cable if you have one.
+
+**Learning goals for Week 5:**
+- Explain how to use both BJT and MOSFET transistors to control high power with low power.
+- Build circuits incorporating motors.
+- Gain basic familiarity with microcontroller hardware.
+- Learn to set up the KB2040 microcontroller to run very simple Python code.
+
+**Course website (andnowforelectronics.com) pages to study in Week 5:**
+- [Low power/high power[(http://andnowforelectronics.com/notes/low-power-high-power/) (includes mini-lecture videos on BJT and MOSFET transistors) 
+- [Microcontrollers](http://andnowforelectronics.com/notes/microcontrollers/)
+- [KB2040 hardware](http://andnowforelectronics.com/notes/kb2040-hardware/)
+
+**Optional reading for Week 5:**
+- “Section 13.5: Interfacing with Microcontrollers” (pgs. 874-895) in Practical Electronics for Inventors (Scherz & Monk) (available here from [Tisch Library online](https://tufts-primo.hosted.exlibrisgroup.com/permalink/f/k87dab/TN_cdi_askewsholts_vlebooks_9781259587559))
+- Adafruit’s Guide to CircuitPython for KB2040: (https://learn.adafruit.com/adafruit-kb2040/circuitpython)
+
+
+
 ## Week 4: Sunday, 9/22/24
 
 This week is a big transition week in ME 30. In Phase 1 of the course, we focused on fundamental circuits concepts, breadboarding skills, and introductory PCB design. Starting on Wednesday, 9/25, we'll move on to Phase 2, which introduces the components and circuits used to control motors.
