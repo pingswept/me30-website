@@ -1,6 +1,6 @@
 ---
 title: "KB2040 programming"
-draft: true
+draft: false
 ---
 ## Programming your KB2040 microcontroller
 
@@ -103,7 +103,7 @@ Adafruit's [CircuitPython Tutorials](https://learn.adafruit.com/welcome-to-circu
 
 The most common problem with microcontrollers is difficulty communicating between the computer and the microcontroller. You might see messages like "Circuit Python device not connected."
 
-In this case, you should hold down the BOOTSEL button while pressing and releasing the RESET button, to make sure your computer sees the Feather's CIRCUITPY drive.
+In this case, you should hold down the BOOTSEL button while pressing and releasing the RESET button, to make sure your computer sees the KB2040's CIRCUITPY drive.
 
 You can also try unplugging the KB2040 and plugging it in again and restarting the Mu Editor. 
 
@@ -187,7 +187,7 @@ To use this command, include the command “import time” at the start of your 
 
 To use these commands, include the command “import board” and “import digitalio” at the start of your code.
 
-**dir(board)**: spits out the names of the all the pins available on your Feather
+**dir(board)**: spits out the names of the all the pins available on your KB2040
 
 **xyz = digitalio.DigitalInOut(board.[pin name or number])**: calls up the digitalio library and creates a new object called xyz that will hold information about a specific pin on a microcontroller board.  The pin names and numbers are on the board’s pinout diagram, e.g, D6, D5, LED, etc.
 
