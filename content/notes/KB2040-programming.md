@@ -6,10 +6,9 @@ draft: false
 
 - - -
 
-## Set-Up Procedure
-{{< expand "Click to see the set-up steps" "..." >}}
+## Set-up procedure
 
-## Stuff You Need
+## Stuff you need
 
 *   A computer, plus the admin password to install software
 *   An Adafruit KB2040 microcontroller board
@@ -17,19 +16,27 @@ draft: false
 
 ## Hardware setup
 
-### (Step 1) Plug in your KB2040 to your computer
+### Step 1: plug in your KB2040 to your computer
 
-The next step is to plug in your KB2040 to your computer with a USB data cable. When you plug it in, you should see a green light on the board near the USB-C jack, showing that the KB2040 is getting electricity. **Make sure to use a data cable, not just a power cable!**
+The next step is to plug in your KB2040 to your computer with a USB data cable. When you plug it in, you should see a green light on the board near the USB C jack, showing that the KB2040 is getting electricity. **Make sure to use a data cable, not just a power cable!**
 
-### (Step 2) Download CircuitPython and install it on your KB2030
+Once the board powers up, it's time to load CircuitPython onto it.
 
-Once the board powers up, it's time to load CircuitPython onto it. 
+### Step 2: download CircuitPython to your laptop
 
-1. To your computer, [download](https://circuitpython.org/board/adafruit_kb2040/) the latest version of CircuitPython for the KB2040. Putting CircuitPython on your computer is an intermediate step. You are not going to run CircuitPython onto your computer - your eventual goal is to get CircuitPython onto your KB2040.
-2. Enter the "bootloader" mode on your KB2040 by **holding down the BOOT (boot select) button as you press and release the RST (reset) button. Continue to hold down the BOOT button until the KB2040's bootloader drive appears as "RPI-RP2" on your computer**. You need your KB2040 board in bootloader mode to install or update Circuit Python.
-3. Find the CircuitPython file that you downloaded onto your computer. Drag that file to the KB2040's boot drive (the **RPI-RP2** drive).
-4. Watch for **RPI-RP2** to disappear and a new drive to appear on your computer called **CIRCUITPY**.
-5. When you see the **CIRCUITPY** drive, you know that your KB2040 now has CircuitPython installed on it, and it is ready to receive, store, and execute Python files. Congratulations!
+To your computer, [download](https://circuitpython.org/board/adafruit_kb2040/) the latest version of CircuitPython for the KB2040. Putting CircuitPython on your computer is an intermediate step. You are not going to run CircuitPython onto your computer - your eventual goal is to get CircuitPython onto your KB2040.
+
+### Step 3: enter bootloader mode
+
+Enter the "bootloader" mode on your KB2040 by **holding down the BOOT (boot select) button as you press and release the RST (reset) button. Continue to hold down the BOOT button until the KB2040's bootloader drive appears as "RPI-RP2" on your computer**. You need your KB2040 board in bootloader mode to install or update Circuit Python.
+
+### Step 4: copy CircuitPython onto your KB2040
+
+Find the CircuitPython file that you downloaded onto your computer. Drag that file to the KB2040's boot drive (the **RPI-RP2** drive).
+
+### Step 5: be patient
+
+Watch for **RPI-RP2** to disappear and a new drive to appear on your computer called **CIRCUITPY**. When you see the **CIRCUITPY** drive, you know that your KB2040 now has CircuitPython installed on it, and it is ready to receive, store, and execute Python files. Congratulations!
 
 ![The CIRCUITPY drive](/img/circuitpy_drive.png)
 
