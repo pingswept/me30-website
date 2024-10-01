@@ -8,7 +8,7 @@ draft: false
 
 ## Set-up procedure
 
-## Stuff you need
+### Stuff you need
 
 *   A computer, plus the admin password to install software
 *   An Adafruit KB2040 microcontroller board
@@ -99,8 +99,6 @@ As the code is uploaded, you might see the green power LED flash rapidly for a m
 After the code is saved on the KB2040, if you wire an external LED from pin D4 to the GND pin, you should see it blinking once per second.
 
 If you've made it this far, your hardware and software are working properly. Congratulations! Go get a drink of cool, delicious water!
-{{< /expand >}}
-
 
 ## Alternative KB2040 programming tutorials
 
