@@ -118,9 +118,12 @@ Here's the gist of this grading scheme: if you *attempt* all project requirement
 
 Each project will be worth 7 points, and then scaled by the number of weeks allocated to complete the project. (So a project 2 weeks in duration is worth twice as much as a project 1 week in duration.) For projects that have both *prototype* and *final* deadlines, 1 of the 7 points comes from submitting your project prototype on time for the *prototype deadline.* Most of the remaining points (4 or 5, depending on whether there was a prototype deadline) are awarded if you have *attempted* all project requirements - and documented those attempts - by the *final project deadline.* The final 2 remaining points are awarded if your project meets the requirements, like "circuit emits 5 volts" or "motor spins in 2 directions." If you have a last-minute failure on the day the project is due, you can try again for those 2 points at office hours within the next week.
 
+For group projects with N people per group, you should do roughly 1/N of the work.
+
+**Late Work Penalty**
+
 For each day (or fraction thereof) a final project is late, you will lose 1 point (before scaling), so a project that is 1 week late is worth 0 points (unless you've reached out to your instructor about missing a due date).
 
-For group projects with N people per group, you should do roughly 1/N of the work.
 
 | Project # | Project Goal  | Fraction of Course |
 |-----|--------------------------------------------|----|
