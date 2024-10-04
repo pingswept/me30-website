@@ -1,6 +1,6 @@
 ---
 title: "KB2040 challenges"
-draft: true
+draft: false
 ---
 
 ## KB2040 challenges
@@ -23,46 +23,7 @@ draft: true
 11. Use a pushbutton on pin D5 to control when your motor is on and off, using D6 for motor control.
 12. Use an H-bridge circuit to make your gearmotor spin clockwise for 5 seconds, then counterclockwise for 5 seconds, using pins D5 and D6.
 
-### Hints
 
-{{< expand "Click to see circuit schematics for the challenges" "..." >}}
-
-![schematics](/img/Challenge_Schematicsnew.jpg)
-{{< /expand >}} 
-
-
-{{< expand "Click to see wiring diagrams for the challenges" "..." >}}
-
-Note that circuits 6, 7, 9, 10, and 11 include pull-down resistors between the MOSFET gate and ground. Your circuits would basically work without them, but your motor might spin even when the MOSFET gate is not being intentionally sent 3.3 V.
-
-![wiring 1-7](/img/Challenge_Wiring1-7new.jpg)
-
-![wiring 8-10](/img/Challenge_Wiring8-10new.jpg)
-
-![wiring 11-12](/img/Challenge_Wiring11-12new.jpg)
-{{< /expand >}} 
-
-{{< expand "Click to see CircuitPython code for the challenges" "..." >}}
-
-![py1](/img/challenge1py.jpg)
-
-![py2](/img/challenge2py.jpg)
-
-![py3](/img/challenge3py.jpg)
-
-![py4](/img/challenge4py.jpg)
-
-![py6](/img/challenge6py.jpg)
-
-![py7](/img/challenge7py.jpg)
-
-![py8](/img/challenge8py.jpg)
-
-![py9](/img/challenge9py.jpg)
-
-![py10](/img/challenge10py.jpg)
-
-![py11](/img/challenge11py.jpg)
 
 ![py12](/img/challenge12py.jpg)
 
