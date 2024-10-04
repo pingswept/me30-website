@@ -25,8 +25,4 @@ draft: false
 
 
 
-![py12](/img/challenge12py.jpg)
-
-{{< /expand >}} 
-
 [^1]: If you're like Kristen and didn't get this cultural reference, here's an explanation: https://knowyourmeme.com/memes/i-for-one-welcome-our-new-insect-overlords
