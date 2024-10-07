@@ -5,6 +5,28 @@ draft: false
 ## Weekly Update Emails
 
 - - -
+## Week 6: Monday, 10/7/24
+
+**Things due in Week 6:**
+- [Project 2](http://andnowforelectronics.com/logistics/projects/), the "Simple Game," is due in class Wednesday, Oct. 9. Make sure you've generated a self-identified learning goal for your Project 2 work. You'll be asked to describe that goal in the Canvas documentation you submit for Project 2. Example self-identified learning goals are listed in the [Prject 2 description](http://andnowforelectronics.com/logistics/projects/).
+
+**Learning goals for Week 6:**
+- Gain enough familiarity with Python programming to code the KB2040 microcontroller to process simple inputs and outputs.
+- Incorporate a DC gearmotor into a simple electromechanical system. 
+
+**Labs in Week 6**
+- Labs this week will focus on [KB2040 challenges](http://andnowforelectronics.com/notes/kb2040-challenges/) and your work on [Project 2](http://andnowforelectronics.com/logistics/projects/). (And Monday labs will test out their Project 0 motor hubs.)
+
+**Course website (andnowforelectronics.com) pages to study in Week 6:**
+- [Analog vs digital](http://andnowforelectronics.com/notes/analog/)
+- [KB2040 programming](http://andnowforelectronics.com/notes/kb2040-programming/)
+- [KB2040 challenges](http://andnowforelectronics.com/notes/kb2040-challenges/)
+
+**Optional reading for Week 6:**
+- “Chapter 6: Eeny, Meeny, Miny, Motor: Options for Creating and Controlling Motion” (pgs. 123-181) in [Making Things Move](https://tufts-primo.hosted.exlibrisgroup.com/permalink/f/k87dab/TN_cdi_askewsholts_vlebooks_9780071741682) (Dustyn Roberts), available online to Tufts students from Tisch Library
+- Adafruit's guide ["Exploring Your First Circuit Python Program"](https://learn.adafruit.com/welcome-to-circuitpython/exploring-your-first-circuitpython-program)
+
+
 
 ## Week 5: Sunday, 9/29/24
 
