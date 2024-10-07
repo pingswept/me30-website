@@ -12,7 +12,8 @@ draft: false
 
 **Learning goals for Week 6:**
 - Gain enough familiarity with Python programming to code the KB2040 microcontroller to process simple inputs and outputs.
-- Incorporate a DC gearmotor into a simple electromechanical system. 
+- Incorporate a DC gearmotor into a simple electromechanical system.
+- Explain how an H-bridge motor controller works.
 
 **Labs in Week 6**
 - Labs this week will focus on [KB2040 challenges](http://andnowforelectronics.com/notes/kb2040-challenges/) and your work on [Project 2](http://andnowforelectronics.com/logistics/projects/). (And Monday labs will test out their Project 0 motor hubs.)
@@ -21,11 +22,11 @@ draft: false
 - [Analog vs digital](http://andnowforelectronics.com/notes/analog/)
 - [KB2040 programming](http://andnowforelectronics.com/notes/kb2040-programming/)
 - [KB2040 challenges](http://andnowforelectronics.com/notes/kb2040-challenges/)
+- [H-bridge motor controller](http://andnowforelectronics.com/notes/h-bridges/)
 
 **Optional reading for Week 6:**
 - “Chapter 6: Eeny, Meeny, Miny, Motor: Options for Creating and Controlling Motion” (pgs. 123-181) in [Making Things Move](https://tufts-primo.hosted.exlibrisgroup.com/permalink/f/k87dab/TN_cdi_askewsholts_vlebooks_9780071741682) (Dustyn Roberts), available online to Tufts students from Tisch Library
 - Adafruit's guide ["Exploring Your First Circuit Python Program"](https://learn.adafruit.com/welcome-to-circuitpython/exploring-your-first-circuitpython-program)
-
 
 
 ## Week 5: Sunday, 9/29/24
