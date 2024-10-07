@@ -163,3 +163,9 @@ Your Circuit 2 responses - https://tufts.qualtrics.com/jfe/form/SV_3WAXKdT2tT7u0
 Your Circuit 3 responses- https://tufts.qualtrics.com/jfe/form/SV_3WAXKdT2tT7u0rc
 
 Your Circuit 4 responses- https://tufts.qualtrics.com/jfe/form/SV_3sFQF0NE8VbxI58
+
+## 11. KB2040 microcontroller challenges set 1 (Oct. 7 and labs)
+
+Learn to program your KB2040 board by working through the first 6 of these 12 challenges. You'll want to consult the [KB2040 programming](http://andnowforelectronics.com/notes/kb2040-programming/) resources.
+
+http://andnowforelectronics.com/notes/KB2040-challenges/
