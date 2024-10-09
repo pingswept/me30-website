@@ -169,9 +169,9 @@ http://andnowforelectronics.com/notes/kb2040-challenges/
 
 ## 12. Project 2 takeaways reflection (Oct. 9)
 
-What are some problems you encountered along the way of working on your game for Project 2, and what did you learn from them?
+(a) What are some problems you encountered along the way of working on your game for Project 2, and what did you learn from them? Let's collectively document those [here](https://docs.google.com/document/d/1yKv0bKWhP53wHEWxWcOBskjrUdKzZLRV_DfW0eVWal0/edit?usp=sharing).
 
-Take a moment to fill out the [self-assessment for Project 2](https://tufts.qualtrics.com/jfe/form/SV_7PAFa4Tk6kXRZ1s), if you have not done so already.
+(b) Take a moment to fill out the [self-assessment for Project 2](https://tufts.qualtrics.com/jfe/form/SV_7PAFa4Tk6kXRZ1s), if you have not done so already.
 
 ## 13. Mechanically controlled two-way motor circuit (Oct. 9)
 
