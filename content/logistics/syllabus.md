@@ -108,11 +108,11 @@ Each ME 30 student is also assigned to a lab group that meets weekly in the Nolo
 
 ## Assignments and grading
 
-Grades will be based almost entirely on your project work. There will also be a two short quizzes in which we ask you to troubleshoot a circuit or its code.   
-*    Projects (7) - 90% of course grade
-*    Quizzes (2) - 10% of course grade  
+Grades will be based  entirely on your project work. There will also be a two short quizzes in which we ask you to troubleshoot a circuit or its code, but they will not count toward your grade.   
+*    Projects (7) - 100% of course grade
+*    Debugging Quizzes (2) - not counted toward course grade  
 
-### Projects (90%)
+### Projects (100%)
 
 Here's the gist of this grading scheme: if you *attempt* all project requirements on time, you'll earn at least a C for your project grade. If you also *meet* the requirements for each project, you'll shift up to an A for your project grade. You can calculate the details if you want, but the main message is that you should complete all the projects, and you should do them on time.
 
@@ -138,7 +138,7 @@ For each day (or fraction thereof) a final project is late, you will lose 1 poin
 ![semester timeline](/img/SemesterTimeline.jpg)
 
     
-### Debugging challenges (10%)
+### Debugging challenges (0%)
 
 Tentatively, we are planning on two debugging challenges, one after each of the Projects 1 and 2. Each will feature a non-functional circuit and will ask you to diagnose what's wrong with it and propose a way to fix it.
 
