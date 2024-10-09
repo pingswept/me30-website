@@ -157,11 +157,8 @@ You need 5 things:
 Images of circuits: https://tufts.box.com/s/8al3jwc3l81ewtb16ridfo2ewqbjtc3v
 
 Your Circuit 1 responses - https://tufts.qualtrics.com/jfe/form/SV_bdOn4VWl8YvNoQm
-
 Your Circuit 2 responses - https://tufts.qualtrics.com/jfe/form/SV_3WAXKdT2tT7u0rc
-
 Your Circuit 3 responses- https://tufts.qualtrics.com/jfe/form/SV_3t9Kl4NmGOak5JY
-
 Your Circuit 4 responses- https://tufts.qualtrics.com/jfe/form/SV_3sFQF0NE8VbxI58
 
 ## 11. KB2040 microcontroller challenges set 1 (Oct. 7 and labs)
