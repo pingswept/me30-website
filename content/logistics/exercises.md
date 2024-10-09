@@ -157,15 +157,20 @@ You need 5 things:
 Images of circuits: https://tufts.box.com/s/8al3jwc3l81ewtb16ridfo2ewqbjtc3v
 
 Your Circuit 1 responses - https://tufts.qualtrics.com/jfe/form/SV_bdOn4VWl8YvNoQm
+
 Your Circuit 2 responses - https://tufts.qualtrics.com/jfe/form/SV_3WAXKdT2tT7u0rc
+
 Your Circuit 3 responses- https://tufts.qualtrics.com/jfe/form/SV_3t9Kl4NmGOak5JY
+
 Your Circuit 4 responses- https://tufts.qualtrics.com/jfe/form/SV_3sFQF0NE8VbxI58
 
 ## 11. KB2040 microcontroller challenges set 1 (Oct. 7 and labs)
 
-Learn to program your KB2040 board by working through the first 6 of these 12 challenges. You'll want to consult the [KB2040 programming](http://andnowforelectronics.com/notes/kb2040-programming/) resources.
+Learn to program your KB2040 board by working through the first 6 of these 12 challenges: http://andnowforelectronics.com/notes/kb2040-challenges/
 
-http://andnowforelectronics.com/notes/kb2040-challenges/
+You'll want to consult the [KB2040 programming](http://andnowforelectronics.com/notes/kb2040-programming/) resources.
+
+For Kristen's 1-page summary of the most important Circuit Python commands for your KB2040, click [here](https://tufts.box.com/s/lczswqulqewphbxyku1zpvazp73govzi).
 
 ## 12. Project 2 takeaways reflection (Oct. 9)
 
