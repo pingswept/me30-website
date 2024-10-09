@@ -166,3 +166,21 @@ Your Circuit 4 responses- https://tufts.qualtrics.com/jfe/form/SV_3sFQF0NE8VbxI5
 Learn to program your KB2040 board by working through the first 6 of these 12 challenges. You'll want to consult the [KB2040 programming](http://andnowforelectronics.com/notes/kb2040-programming/) resources.
 
 http://andnowforelectronics.com/notes/kb2040-challenges/
+
+## 12. Project 2 takeaways reflection (Oct. 9)
+
+What are some problems you encountered along the way of working on your game for Project 2, and what did you learn from them?
+
+Take a moment to fill out the [self-assessment for Project 2](https://tufts.qualtrics.com/jfe/form/SV_7PAFa4Tk6kXRZ1s), if you have not done so already.
+
+## 13. Mechanically controlled two-way motor circuit (Oct. 9)
+
+With a partner or two, build a circuit that will allow you to use pushbutton switches to toggle a 12-V DC motor between the states of (a) OFF (b) ON counterclockwise, and (c) ON clockwise. That means your motor needs to be able to draw current in either direction (only one direction at a time). Your circuit should NOT use transistors. It should include (a) 12 V adapter and barrel jack, (b) DC gearmotor, (c) assorted wires, (d) as many pushbutton switches as you want.
+
+As you work on this challenge, **be careful not to create a situation where you are sending 12 V to ground only through wires.** That's a short circuit and will cause heat and smoke!
+
+![Motor with question marks](/img/Exercise_2waymotor.jpg)
+
+## 14. Recognizing common errors in KB2040 Challenge #6 (Oct. 16)
+
+To be added...
