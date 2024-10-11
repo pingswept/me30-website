@@ -27,8 +27,8 @@ draft: false
 |   6  | 10/7 | Digital and analog I/O hardware            | De-bugging challenge #1; KB2040 challenges set 1  |    [KB2040 programming](http://andnowforelectronics.com/notes/feather-programming/); [KB2040 challenges](http://andnowforelectronics.com/notes/feather-challenges/)    |   
 |      | 10/9  | Intro to P3, H-bridges   | Start building an H-bridge    | [H-bridge motor driver](http://andnowforelectronics.com/notes/h-bridge/); [Intro and video for P3](http://andnowforelectronics.com/logistics/projects/#project-2-build-an-h-bridge-motor-controller) | [P2 (game v1)](http://andnowforelectronics.com/logistics/projects) due Wed. in class|
 |  7    | 10/14 | NO CLASS   | (Indigenous People's Day)  |  |        |
-|     | 10/16  | More H-bridge details     | De-bugging challenge #2; More H-bridge work            |               |       |
-|  8  | 10/21  | Motor electrical power, detailed PCB design  |   Motor measurement; H-bridge debugging   |     |[P3 proto](http://andnowforelectronics.com/logistics/projects/#project-2-build-an-h-bridge-motor-controller)|
+|     | 10/16  | More H-bridge details     | More H-bridge work            |               |       |
+|  8  | 10/21  | Motor electrical power, detailed PCB design  |   Motor measurement; Run your H-bridge with your KB2040   |     |[P3 proto](http://andnowforelectronics.com/logistics/projects/#project-2-build-an-h-bridge-motor-controller)|
 |      | 10/23  | Intro to P4, Motor mechanical power |  More motor measurement; P1 PCB test  | Solder components to your P1 PCB and bring to class  | Soldered P1 PCB |
 
 
@@ -37,7 +37,7 @@ draft: false
 | Week | Date  | Class topics  | Hands-on  | What to study | What's due  |
 |:----:|:-----:|--------------------------------------------|-------------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------|
 |  9  | 10/28  | Motor modeling, PWM  | P4 planning  |      | [P3 PCB](http://andnowforelectronics.com/logistics/projects/#project-2-build-an-h-bridge-motor-controller)   |
-|      | 10/30  | Sensors, state machines   |  More KB2040 challenges  | [KB2040 programming](http://andnowforelectronics.com/notes/feather-programming/); [KB2040 challenges](http://andnowforelectronics.com/notes/feather-challenges/)  |  |
+|      | 10/30  | Sensors, state machines   |  KB2040 challenges, set 2  | [KB2040 programming](http://andnowforelectronics.com/notes/feather-programming/); [KB2040 challenges](http://andnowforelectronics.com/notes/feather-challenges/)  |  |
 |  10   | 11/4  | Stepper motors   |  Stepper motors   |    |  |
 |     | 11/6  | Discriminatory design   |         |       | HW TBD due Fri.   |
 |   11   | 11/11 | NO CLASS     | (Veteran's Day)  |           |        |
