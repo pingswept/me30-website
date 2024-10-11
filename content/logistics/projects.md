@@ -2,7 +2,8 @@
 title: "Projects"
 draft: false
 ---
-## Project 3: Build an H-bridge motor controller
+## Project 3: H-bridge
+**Build an H-bridge motor controller**
 
 The third project is to build a motor controller to meet the following requirements:
 
@@ -24,14 +25,16 @@ Here is a graphical version of those first two bullet points about connectors.
 
 To get started building your prototype H-bridge, review the [Low Power/high power](http://andnowforelectronics.com/notes/low-power-high-power/) and the H-bridge(http://andnowforelectronics.com/notes/h-bridges/) pages, including their mini-lecture videos on BJT and MOSFET transistors. After that, if you're stuck, consult the [H-bridge testing](http://andnowforelectronics.com/notes/demo-videos/#testing-an-h-bridge) demo video.  Note that this video is not intended to give you step-by-step building or testing instructions, but rather to give you a feel for the kind of approach you might take to building and testing this circuit. If your H-bridge prototype isn't working by the deadline for this prototype, don't worry!  Just submit to Canvas a photo of what you have, working or not.  
 
-**Due date for PCB submission: Monday, October 28, 11:59 PM**
+**Due date for functional breadboard H-bridge and PCB submission: Monday, October 28, 11:59 PM**
 
-When your design is ready, you should [submit it to the fabricator](https://oshpark.com/), OSH Park. It will cost you around $10\. (If this cost is a hardship, please let Kristen or Brandon know, and we will cover the cost by ordering it for you, no questions asked.) After you submit it, take a screenshot of your order confirmation and upload it to the Project 3 PCB assignment on Canvas (proof that you submitted your project on time). Also, take a screenshot of your PCB design in KiCad and upload that as well (it would be a good idea to save this screenshot for your portfolio). 
+When your PCB design is ready, you should [submit it to the fabricator](https://oshpark.com/), OSH Park. It will cost you around $10\. (If this cost is a hardship, please let Kristen or Brandon know, and we will cover the cost by ordering it for you, no questions asked.) After you submit it, take a screenshot of your order confirmation and upload it to the Project 3 PCB assignment on Canvas (proof that you submitted your project on time). Also, take a screenshot of your PCB design in KiCad and upload that as well (it would be a good idea to save this screenshot for your portfolio). 
+
+For this final submission to Canvas, you will also need to submit evidence that your H-bridge circuit is functional. So, once you do get your breadboard H-bridge working, take a video that shows it making the motor spin in both directions, controlled by a KB2040. You'll need that video for your P3 final Canvas submission.
 
 
 
 
-## Project 2:
+## Project 2: Simple game
 **Build a simple game**
 
 The next project is to use the basic electrical components we've covered in class with some mechanical fabrication to make a game that is at least mildly entertaining. The point here is NOT making the best game ever, but to set some goals for testing out your electromechanical skills. For your circuit for this project, use your breadboard. No PCBs needed.
@@ -65,7 +68,7 @@ Here are some example learning goals:
 * Turn a part on a lathe at Bray.
 * Spend at least 1/3 of my effort on the aesthetics of the project.
 
-## Project 1: 
+## Project 1: Power supply
 **Build a breadboard power supply**
 
 The first project is to build a power supply that meets the following requirements:
@@ -115,7 +118,7 @@ If you feel like you understand this project pretty well, or if you've made a ba
 5. Read as much of chapter 2 from the Practical Electronics textbook as you can.
 
 
-## Project 0: 
+## Project 0: Motor hub
 **Create a secure motor attachment**
 
 Later this semester, Projects 2 and 4 will require using a motor to actuate some part of an interactive game, and Projects 5 and 6 will involve motor-driven wheels. So in Project 0, you’ll building some knowledge about how to attach a part securely to a motor.
