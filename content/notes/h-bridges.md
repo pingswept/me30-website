@@ -18,6 +18,8 @@ For small, low-power motors, you can get chips that contain all 4 switches in a 
 
 Typically, the lower two MOSFETs in the circuit are N-channel MOSFETs, while the upper two are P-channel. (If the upper ones were N-channel, you would need a higher gate voltage to turn them on, which is inconvenient.) A good starting point would be the IRLB8721 MOSFET for the N-channels and the FQP27P06 MOSFET for the P-channels. Both MOSFETs are cheap (around $0.80 from a US distributor) and widely available. They can handle 25-30 A when on and withstand 60 V when off.
 
+![H-bridge with MOSFETs only](/img/mosfet-h-bridge.jpg)
+
 ## Don't I still need high voltage to turn off the P-channels?
 
 Yes, you do. The trick that people use is to a low power NPN bipolar junction transistor, like the 2N3904, to turn on the P-channels, and then a pull-up resistor to turn them off. Then you can control the P-channels through the BJT's using 3.3 V or 5 V logic signals from a microcontroller.
