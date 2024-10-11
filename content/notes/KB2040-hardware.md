@@ -49,10 +49,12 @@ The one above the USB-C connector is the **green power LED** that indicates whet
 
 The **NeoPixel LED** to the left of the RESET (RST) button can be programmed to glow in different colors using the variable board.NEOPIXEL and the code in the NeoPixel library.
 
-## Quirks
+## Current Limits
 
-### To be added as we encounter them (e.g., current limits per pin; serial port delay)
-
+The KB2040 has two current limits you should be aware of.
+- The default current limit per pin is 4 mA. Note that 3V divided by 100 ohms draws a current of 30 mA, which is more than 4 mA.
+- The total current limit across all pins is 50 mA.
+- For more info on the current limit per pin, search the [RP2040 datasheet](https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf) for "drive strength."
 
 ## Learning to program your KB2040
 
