@@ -14,6 +14,10 @@ draft: false
 5. Make an LED attached to pin D6 send Morse code for "TUFTS".
 6. Turn your gearmotor on for 5 seconds, then off for 5 seconds, then repeat, using pin D6. You'll probably need a transistor for this.
 
+### KB2040 + H-bridge
+Use an H-bridge circuit to make your gearmotor spin clockwise for 5 seconds, then counterclockwise for 5 seconds, using pins D5 and D6.
+
+
 ### Set 2
 
 7. Make your gearmotor slowly increase in speed for 5 seconds, then slowly decrease in speed for 5 seconds, then repeat, using pin D6.
@@ -21,7 +25,7 @@ draft: false
 9. Use your potentiometer on pin A0 to control the speed of your gearmotor on pin D6.
 10. Use a resistor in series with your photoresistor to make a voltage that changes with light exposure. Use that voltage to control the speed of your gearmotor on pin D6.
 11. Use a pushbutton on pin D5 to control when your motor is on and off, using D6 for motor control.
-12. Use an H-bridge circuit to make your gearmotor spin clockwise for 5 seconds, then counterclockwise for 5 seconds, using pins D5 and D6.
+
 
 
 
