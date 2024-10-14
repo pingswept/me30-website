@@ -188,7 +188,31 @@ As you work on this challenge, **be careful not to create a situation where you 
 
 ## 14. Recognizing common errors in KB2040 Challenge #6 (Oct. 16)
 
-To be added...
+Challenge #6 asks you to control a motor's on/off state with a KB2040 output pin. Below are two approaches to setting up the circuitry. Each has problems that will prevent it from working correctly. What do you think those problems are?
+
+![Microcontroller problems](/img/Micro_with_transistors_flawed.jpg)
+
+*What are the problems with approach #1?*
+
+{{< expand "See the answer" "..." >}}
+(a) The KB2040 GND pin is not tied to the same ground as the motor circuitry.
+
+(b) There is no current-limiting resistor between the KB2040 output and the BJT base. We want to keep the current through the base-emitter diode to about 10% of the collector-to-emitter current. If the motor is drawing 150 mA, then we want the base-emitter current to be about 15 mA. And we know that when the BJT is on, its base voltage is 0.6 V. Since the KB2040 output supplies 3.3 V, we need a resistor to drop the voltage by 2.7 V and limit the current to 15 mA.
+
+![Fixed circuit](/img/Micro_BJT_Fixed.jpg)
+{{< /expand >}}
+
+*What are the problems with approach #2?*
+
+{{< expand "See the answer" "..." >}}
+(a) The motor is "below" the N-channel MOSFET. When the gate is supplied with voltage, **for a very brief moment** the gate voltage will be higher than the source voltage, and current will flow from drain to source and therefore through the motor.  But once current starts to be drawn through the motor, the voltage at the source will rise to somewhere near 12 V. At this point, the gate voltage of 3.3 V will be less than the source voltage, and the MOSFET will no longer allow current flow to the motor.
+
+(b) The MOSFET gate does not have a pull-down resistor to ground.
+
+(c) The KB2040 GND pin is not tied to the same ground as the motor circuitry.
+
+![Fixed circuit](/img/Micro_MOSFET_Fixed.jpg)
+{{< /expand >}}
 
 ## 15. H-bridge circuit analysis  (Oct. 16)
 
