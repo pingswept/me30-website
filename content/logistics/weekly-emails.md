@@ -5,6 +5,27 @@ draft: false
 ## Weekly Update Emails
 
 - - -
+## Week 7: Monday, 10/14/24
+
+Thanks for your creativity and resourcefulness on Project 2 games! Now that you're familiar with the basics of transistor circuits, we're moving on to using transistors in combination with your KB2040 microcontroller for bi-directional motor control.
+
+**Labs this week (no Monday lab due to holiday)**
+- The main activity for lab this week is to solder components onto your Project 1 PCBs. You can also get help with Set 1 of the KB2040 challenges.
+- No Monday labs tonight due to the holiday. Monday lab students can hop into any other lab this week or stop by Nolop anytime to do their soldering. Feel free to ask a Nolop staff member for help with soldering.
+
+**Things due in Week 7:**
+- Nothing is due on Canvas, bu if you have not completed Set 1 of the [KB2040 challenges](http://andnowforelectronics.com/notes/kb2040-challenges/), you should finish those this week. Ask an LA, instructor, or classmate for help if needed.
+
+**Learning goal for Week 7:**
+- Explain how an H-bridge motor controller works.
+
+**Course website (andnowforelectronics.com) pages to study in Week 7:**
+- [H-bridge motor controller](http://andnowforelectronics.com/notes/h-bridges/)
+- [Project 3: H-bridge](http://andnowforelectronics.com/logistics/projects/)
+- [KB2040 programming](http://andnowforelectronics.com/notes/kb2040-programming/)
+- [KB2040 challenges](http://andnowforelectronics.com/notes/kb2040-challenges/)
+
+
 ## Week 6: Monday, 10/7/24
 
 **Things due in Week 6:**
