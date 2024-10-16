@@ -197,7 +197,7 @@ Challenge #6 asks you to control a motor's on/off state with a KB2040 output pin
 {{< expand "See the answer" "..." >}}
 (a) The KB2040 GND pin is not tied to the same ground as the motor circuitry.
 
-(b) There is no current-limiting resistor between the KB2040 output and the BJT base. We want to keep the current through the base-emitter diode to about 10% of the collector-to-emitter current. If the motor is drawing 150 mA, then we want the base-emitter current to be about 15 mA. And we know that when the BJT is on, its base voltage is 0.6 V. Since the KB2040 output supplies 3.3 V, we need a resistor to drop the voltage by 2.7 V and limit the current to 15 mA.
+(b) There is no current-limiting resistor between the KB2040 output and the BJT base. We want to keep the current through the base-emitter diode to about 10% of the collector-to-emitter current. If the motor is drawing 150 mA, then we want the base-emitter current to be about 15 mA. And we know that when the BJT is on, its base voltage is 0.6 V. Since the KB2040 output supplies 3.3 V, we need a resistor to drop the voltage by 2.7 V and limit the current to something closer to 15 mA. A resistor somewhere between 100 and 1000 ohms should do it.
 
 ![Fixed circuit](/img/Micro_BJT_Fixed.jpg)
 {{< /expand >}}
