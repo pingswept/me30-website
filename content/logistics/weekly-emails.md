@@ -5,6 +5,32 @@ draft: false
 ## Weekly Update Emails
 
 - - -
+## Week 8: Sunday, 10/20/24
+
+This week we'll be digging into the details of PCB design for more complex circuits, like H-bridges, and we'll explore motor power and efficiency. View the course [Calendar](http://andnowforelectronics.com/logistics/calendar/) for all upcoming class topics and activities.
+
+**Things due in Week 8:**
+- [Breadboard Prototype for Project 3](http://andnowforelectronics.com/logistics/projects/), the H-bridge motor controller, is due tomorrow, Monday, Oct. 21, 11:59pm. The assignment is to upload a photo of your breadboard H-bridge circuit (with 4 MOSFETs and 2 BJTs) to Canvas. 
+- Your KiCad PCB design for Project 3 is due next Monday, Oct. 28, 11:59pm.
+
+**Learning goals for Week 8:**
+- Explain how an H-bridge motor controller works.
+- Improve your skills with PCB design strategies and software.
+- Estimate motor power and efficiency using electrical and mechanical measurements
+- Apply the relationship between motor power, speed, and torque to make design decisions
+
+**Course website (andnowforelectronics.com) pages to study in Week 8:**
+- [Project 3 (H-bridge PCB) description](http://andnowforelectronics.com/logistics/projects/)
+- [H-bridge motor controller](http://andnowforelectronics.com/notes/h-bridges/)
+- [Motors](http://andnowforelectronics.com/notes/motors/)
+
+**Optional additional reading for Week 8:**
+- Note that both of our optional course textbooks are available online for free from Tisch Library
+- “Chapter 15: Motors” (pgs. 933-945) in Practical Electronics for Inventors (Scherz & Monk) (available here from [Tisch Library online](https://tufts-primo.hosted.exlibrisgroup.com/permalink/f/k87dab/TN_cdi_askewsholts_vlebooks_9781259587559))
+- “Chapter 6: Eeny, Meeny, Miny, Motor: Options for Creating and Controlling Motion” (pgs. 123-181) in [Making Things Move](https://tufts-primo.hosted.exlibrisgroup.com/permalink/f/k87dab/TN_cdi_askewsholts_vlebooks_9780071741682) (Dustyn Roberts)
+
+
+
 ## Week 7: Monday, 10/14/24
 
 Thanks for your creativity and resourcefulness on Project 2 games! Now that you're familiar with the basics of transistor circuits, we're moving on to using transistors in combination with your KB2040 microcontroller for bi-directional motor control.
