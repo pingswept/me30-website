@@ -239,8 +239,19 @@ Now you add a BJT as a different method for switching on the P-channel MOSFET. A
 
 ![add BJT to corner of an H-bridge](/img/Hbridge-corner-BJT.jpg)
 
+## 16. H-bridge circuit analysis, part 2 (Oct. 21)
 
-## 16a. Measure a DC gearmotor (Power In) (Oct. 21)
+**This H-bridge circuit has four inputs, shown at locations 1, 2, 3, and 4. Each input turns a transistor on or off.**
+
+*If all four switches were connected to 3.3 V (as shown below), what would happen and why?*  
+
+![H-bridge inputs all at 3.3 V](/img/Hbridge_all3v.jpeg)
+
+{{< expand "See the answer" "..." >}}
+**Don't do this -  it will short the circuit!!** In this H-bridge, setting a corner input to 3.3 V turns that corner's MOSFET "on," allowing current to across the source-drain pathway. If all 4 MOSFETs are allowing current to flow, then this circuit's easiest path to ground will be down the two sides of the "H."  No current will flow through the highly resistive motor. The motor will not spin, and the rest of the circuit will get very hot.
+{{< /expand >}}
+
+## 17a. Measure a DC gearmotor (Power In) (Oct. 21)
 
 Here are a few basic measurements you can make to understand your DC gearmotor better. The overall goal is to determine the efficiency of the motor by comparing the electrical power that goes into it ("power in") with the mechanical power it delivers ("power out"). 
 
@@ -255,7 +266,7 @@ When you know the current and the voltage, you can multiply them to find the ele
 
 If you can estimate how much power a task will require, you can start to figure out what voltage this motor would need to deliver that power (assuming perfect efficiency, for now). That's the first step toward deciding whether this is the right motor for whatever you're building.
 
-## 16b. Measure a DC gearmotor (Power Out) (Oct. 23)
+## 17b. Measure a DC gearmotor (Power Out) (Oct. 23)
 
 The next step is to determine how much mechanical power the motor actually delivers ("power out"). One way to do this is to measure the time it takes to perform a certain amount of work (i.e., to add energy to a system).
 
@@ -263,7 +274,7 @@ The next step is to determine how much mechanical power the motor actually deliv
 2. Measure the time it takes your motor to lift a known weight a specific distance (you could try something like 0.5 kg of water, lifted up 1 m). Compute the amount of work done in lifting the water. With these two values (work and time), you can find "power out."
 3. Compare "power in" and "power out" to estimate the motor's efficiency. You may want to measure "power in" at this motor operating point by measuring current while the water is being lifted.
 
-## 17. Test the current limit of your P1 PCB (Oct. 23)
+## 18. Test the current limit of your P1 PCB (Oct. 23)
 
 The voltage regulators on your P1 PCB are specified (on their data sheets) to be able to handle current at the level of 1.5 A (the 5V regulator) and 0.8 A (the 3.3 V regulator). But the question is - **once soldered into your P1 PCB, can they still perform up to their specified max current limit?**  
 
@@ -275,5 +286,5 @@ General procedure (details left to your group):
 - Monitor the voltage drop across that resistive load - that is, the voltage drop between the output of the regulator and ground
 - Once that voltage drop begins to decrease lower than 3.3 V or 5 V, your regulator has gone into thermal shutdown (you may feel the regulators getting very hot before this happens)
 
-Use this [shared doc](https://tinyurl.com/ME30questiondoc) to post questions about the P1 PCB test and about P3 circuit board design:
+Use this [shared doc](https://tinyurl.com/ME30questiondoc) to post questions about the P1 PCB test and about P3 circuit board design.
 
