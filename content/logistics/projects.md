@@ -2,6 +2,40 @@
 title: "Projects"
 draft: false
 ---
+## Project 4: Build an electromechanical game
+
+Your task is to build a game with the following characteristics:
+
+*   It is controlled by a KB2040 microcontroller.
+*   It uses your H-bridge prototype to drive a motor in at least one direction. (If you need a second H-bridge, you can use any motor driver that will work.) 
+*   It has some kind of user input, like a button, knob, joystick, sensor, or the like, that talks to the microcontroller. (Read the note below about the ME 30 Nolop tab).
+*   It has at least one part that moves, driven by one of the motors in your kit. (You can use both motors if you want. Servo motors are prohibited.)
+*   It is at least sort of fun to play. A blinking LED is not a game.
+
+For 1 of the 7 project points you will also need to respond to the project reflection questions linked from Canvas.
+
+### Personal learning goals ###
+
+As soon as you can manage it, you should formulate and submit to Canvas one or more personal learning goals for the project. Building games is cool, but the real point here is for you to gain skills and experience that help you grow as an engineer. That works best when your heart is in it; this is your chance to follow where your heart leads. (Okay, that's a bit cheesy, but also true.)
+
+**By Wednesday, October 30, 11:59 PM, please describe your learning goal on Canvas.**
+
+At the end of the project, one of the reflection questions will ask you whether you met your learning goal.
+
+### Where to get materials for your game ###
+
+To build the game, you can use anything from your ME 30 kit, as well as anything else you can lay your hands on. Additionally, Nolop has buttons, potentiometers, LEDs, and other electronic components, as well as materials for laser cutting. You can use Nolop materials for your projects by recording them on the ME 30 tab located on a clipboard on top of the Nolop store. (At the end of the semester, the ME department pays Nolop back for all the parts we use.)
+
+Bray also has materials for fabrication, leaning more toward the metal/nuts/bolts end of the spectrum.
+
+If you need something not available at Nolop or Bray, please talk to Brandon or Kristen as soon as you can.
+
+**Due date for game: Wednesday, November 13, IN CLASS**
+
+Documentation due on Canvas by Wednesday, November 13, 11:59 PM
+
+On November 13th, class will consist entirely of us playing each other's games, and marveling at our collective ingenuity and resourcefulness. 
+
 ## Project 3: H-bridge
 **Build an H-bridge motor controller**
 
