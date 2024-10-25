@@ -11,6 +11,8 @@ Your task is to build a game with the following characteristics:
 *   It has some kind of user input, like a button, knob, joystick, sensor, or the like, that talks to the microcontroller. (Read the note below about the ME 30 Nolop tab).
 *   It has at least one part that moves, driven by one of the motors in your kit. (You can use both motors if you want. Servo motors are prohibited.)
 *   It is at least sort of fun to play. A blinking LED is not a game.
+*   It includes no 3D printed components whose STL files were downloaded from the internet.
+*   Its major structural components are NOT 3D printed.
 
 For 1 of the 7 project points you will also need to respond to the project reflection questions linked from Canvas.
 
