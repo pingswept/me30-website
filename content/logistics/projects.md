@@ -18,7 +18,7 @@ For 1 of the 7 project points you will also need to respond to the project refle
 
 As soon as you can manage it, you should formulate and submit to Canvas one or more personal learning goals for the project. Building games is cool, but the real point here is for you to gain skills and experience that help you grow as an engineer. That works best when your heart is in it; this is your chance to follow where your heart leads. (Okay, that's a bit cheesy, but also true.)
 
-**By Wednesday, October 30, 11:59 PM, please describe your learning goal on Canvas.**
+**By Tuesday, October 29, 11:59 PM, please describe your learning goal on Canvas.**
 
 At the end of the project, one of the reflection questions will ask you whether you met your learning goal.
 
