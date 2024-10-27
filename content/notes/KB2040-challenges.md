@@ -27,6 +27,26 @@ Use an H-bridge circuit to make your gearmotor spin clockwise for 5 seconds, the
 11. Use a pushbutton on pin D5 to control when your motor is on and off, using D6 for motor control.
 
 
+### Solutions for Set 1
+
+{{< expand "See the schematic diagrams for 1 to 6" "..." >}}
+
+images here
+
+{{< /expand >}}
+
+{{< expand "See breadboard wiring sketches for 1 to 6" "..." >}}
+
+images here
+
+{{< /expand >}}
+
+{{< expand "See CircuitPython code for 1 to 6" "..." >}}
+
+images here
+
+{{< /expand >}}
+
 
 
 [^1]: If you're like Kristen and didn't get this cultural reference, here's an explanation: https://knowyourmeme.com/memes/i-for-one-welcome-our-new-insect-overlords
