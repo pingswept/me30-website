@@ -31,19 +31,31 @@ Use an H-bridge circuit to make your gearmotor spin clockwise for 5 seconds, the
 
 {{< expand "See the schematic diagrams for 1 to 6" "..." >}}
 
-images here
+![Schematics for challenges 1 to 6](/img/Challenge_Schematic_1-6.jpg)
 
 {{< /expand >}}
+
 
 {{< expand "See breadboard wiring sketches for 1 to 6" "..." >}}
 
-images here
+![Schematics for challenges 1 to 6](/img/Challenge_Wiring_1-6.jpg)
 
 {{< /expand >}}
 
+
 {{< expand "See CircuitPython code for 1 to 6" "..." >}}
 
-images here
+![Code for 1](/img/challenge1py.jpg)
+
+![Code for 2](/img/challenge2py.jpg)
+
+![Code for 3](/img/challenge3py.jpg)
+
+![Code for 4](/img/challenge4py.jpg)
+
+![Code for 5](/img/challenge5py.jpg)
+
+![Code for 6](/img/challenge6py.jpg)
 
 {{< /expand >}}
 
