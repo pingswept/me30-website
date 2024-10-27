@@ -53,8 +53,6 @@ Use an H-bridge circuit to make your gearmotor spin clockwise for 5 seconds, the
 
 ![Code for 4](/img/challenge4py.jpg)
 
-![Code for 5](/img/challenge5py.jpg)
-
 ![Code for 6](/img/challenge6py.jpg)
 
 {{< /expand >}}
