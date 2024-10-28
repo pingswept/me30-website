@@ -303,9 +303,9 @@ For each of these potential motorized game designs, determine whether the mechan
 Work in a small group and post your answers to this google doc:
 https://docs.google.com/spreadsheets/d/18il0YS9v-0mt79J7DdHGnpuPw71HNZ7vh3b1nPuhzdM/edit?usp=sharing
 
-![motor case 1](/img/motorcase1.jpg)
+<! -- ![motor case 1](/img/motorcase1.jpg) -->
 
-![motor case 2](/img/motorcase2.jpg)
+<! -- ![motor case 2](/img/motorcase2.jpg) -->
 
-![motor case 3](/img/motorcase3.jpg)
+<! -- ![motor case 3](/img/motorcase3.jpg) -->
 
