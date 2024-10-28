@@ -303,3 +303,6 @@ For each of these potential motorized game designs, determine whether the mechan
 Work in a small group and post your answers to this google doc:
 https://docs.google.com/spreadsheets/d/18il0YS9v-0mt79J7DdHGnpuPw71HNZ7vh3b1nPuhzdM/edit?usp=sharing
 
+![banana launcher case](/img/motorcase1.jpg)
+![claw assembly case](/img/motorcase2.jpg)
+![popcorn launcher case](/img/motorcase3.jpg)
