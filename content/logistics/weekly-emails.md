@@ -5,6 +5,31 @@ draft: false
 ## Weekly Update Emails
 
 - - -
+## Week 9: Sunday, 10/27/24
+
+We've been observing some impressive persistence in de-bugging H-bridges over the past week. Thanks for your hard work on Project 3 and the ways you are supporting each other. If you have questions about your P3 circuit or PCB design, please bring them to class tomorrow or reach out to us ASAP.
+
+In class this week we'll introduce more circuitry and coding techniques for use in the next open-ended project - a more complex electromechanical game. View the course [Calendar](http://andnowforelectronics.com/logistics/calendar/) for all upcoming class topics and activities.
+
+**Things due in Week 9:**
+- [Project 3](http://andnowforelectronics.com/logistics/projects/), the H-bridge motor controller, is due on Canvas tomorrow, Monday, Oct. 28, 11:59pm. You'll need to upload your KiCad circuit schematic, PCB layout, and a  video (max 90 seconds) demonstrating that your H-bridge breadboard prototype meets the minimum functional requirements for this circuit. You should also upload your OSHPark order confirmation. As with the P1 PCB, if the cost of ordering is a hardship, please reach out to Kristen or Brandon, and they will place the order for you.
+- [Learning Goal and 1-sentence plan for Project 4](http://andnowforelectronics.com/logistics/projects/), the more complex game, is due on Canvas on Tuesday, Oct. 30
+
+**Learning goals for Week 9:**
+- Apply the relationship between motor power, speed, and torque to make design decisions.
+- Use the PWM module to control motor speed.
+- Use the KB2040 to process analog input from a sensor.
+
+**Course website (andnowforelectronics.com) pages to study in Week 9:**
+- [Project 4 (more complex game) description](http://andnowforelectronics.com/logistics/projects/)
+- [Motors](http://andnowforelectronics.com/notes/motors/)
+- [KB2040 Challenges, Set 2](http://andnowforelectronics.com/notes/kb2040-challenges/)
+
+**Some good resources for figuring out how to convert the rotational motion of a motor shaft to other useful motion**
+- “Chapter 8: Combining Simple Machines for Work and Fun” in *Making Things Move* (Dustyn Roberts), available online to Tufts students from Tisch Library
+- 507 Mechanical Movements: http://507movements.com/toc.html
+- LEGO Technic Mechanisms (you can take inspiration from these even when not building with LEGO): https://www.hispabrickmagazine.com/pdfs/HBM017_EN/HBM017_EN-52-54.pdf
+
 ## Week 8: Sunday, 10/20/24
 
 This week we'll be digging into the details of PCB design for more complex circuits, like H-bridges, and we'll explore motor power and efficiency. View the course [Calendar](http://andnowforelectronics.com/logistics/calendar/) for all upcoming class topics and activities.
