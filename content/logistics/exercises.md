@@ -288,13 +288,13 @@ General procedure (details left to your group):
 
 Use this [shared doc](https://tinyurl.com/ME30questiondoc) to post questions about the P1 PCB test and about P3 circuit board design.
 
-## 17. Motor speed-torque curve (Oct. 28)
+## 19. Motor speed-torque curve (Oct. 28)
 
 Fill in values in the boxes to complete the motor speed-torque curve for the DC gearmotor in your ME 30 kit.
 
 ![speed torque curve](/img/speed-torque.jpg)
 
-## 18. Motor selection cases (Oct. 28)
+## 20. Motor selection cases (Oct. 28)
 
 For each of these potential motorized game designs, determine whether the mechanical power and torque needs are within the capabilities of the DC gearmotor in your ME 30 kit.
 - Can your motor handle these designs with a direct-drive approach (i.e., no gear trains or pulleys)? Why or why not?
