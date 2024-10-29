@@ -32,11 +32,11 @@ Bray also has materials for fabrication, leaning more toward the metal/nuts/bolt
 
 If you need something not available at Nolop or Bray, please talk to Brandon or Kristen as soon as you can.
 
-**Due date for game: Wednesday, November 13, IN CLASS**
+**Due date for game: Monday, November 18, IN CLASS**
 
-Documentation due on Canvas by Wednesday, November 13, 11:59 PM
+Documentation due on Canvas by Monday, November 18, 11:59 PM
 
-On November 13th, class will consist entirely of us playing each other's games, and marveling at our collective ingenuity and resourcefulness. 
+On November 18th, class will consist entirely of us playing each other's games, and marveling at our collective ingenuity and resourcefulness. 
 
 ## Project 3: H-bridge
 **Build an H-bridge motor controller**
