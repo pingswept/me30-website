@@ -42,13 +42,13 @@ draft: false
 |     | 11/6  | Microcontrollers in greater depth   |  KB2040 work       |       |    |
 |   11   | 11/11 | NO CLASS     | (Veteran's Day)  |           |        |
 |     | 11/12  | Raspberry Pi intro    |  Booting the Raspberry Pi   |[Raspberry Pi setup](http://andnowforelectronics.com/notes/pi-setup/); [Raspberry Pi programming](http://andnowforelectronics.com/notes/pi-programming/)   |      |
-|     | 11/13  | P4 demo  |  P4 (game v2) demo day     | P4 (game v2)  | [P4](http://andnowforelectronics.com/logistics/projects)   |
+|     | 11/13  | Raspberry Pi programming  |  Pi challenges     | Pi challenges  | [Raspberry Pi challenges](http://andnowforelectronics.com/notes/pi-challenges/)   | 
 
 ## Phase 4: Driving Robots with Operating Systems
 
 | Week | Date  | Class topics  | Hands-on  | What to study | What's due  |
 |:----:|:-----:|--------------------------------------------|-------------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------|
-|  12    | 11/18 | P4 reflection; Project 5 intro       | Pi challenges |  [Raspberry Pi challenges](http://andnowforelectronics.com/notes/pi-challenges/)     |    Raspberry Pi setup check on Canvas         |
+|  12    | 11/18 | P4 reflection; Project 5 intro       | P4 demo day | [P4](http://andnowforelectronics.com/logistics/projects)      |             |
 |     | 11/20 | How does the internet work?               |   P5 planning              |  [Internet](http://andnowforelectronics.com/notes/internet/)     |      |
 |  13  | 11/25 | Client/server troubleshooting               |   P5 Q & A              |  [Servers and clients](http://andnowforelectronics.com/notes/servers/)     |      |
 |      | 11/27 | NO CLASS     | (Thanksgiving)  |           |        |
