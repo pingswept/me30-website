@@ -306,3 +306,112 @@ https://docs.google.com/spreadsheets/d/18il0YS9v-0mt79J7DdHGnpuPw71HNZ7vh3b1nPuh
 ![banana launcher case](/img/motorcase1.jpg)
 ![claw assembly case](/img/motorcase2.jpg)
 ![popcorn launcher case](/img/motorcase3.jpg)
+
+## 21. Analog and digital sensors (Oct. 30)
+
+Circuits A and B show different ways to send a varying input to a KB2040 pin. Circuit A uses a photoresistor, a component whose resistance depends on the amount of light shining on it. Circuit B uses a simple pushbutton. 
+
+1. Which of the set-ups below involves *analog* input to the microcontroller, and which involves *digital* input? Why?  What will need to be different about your KB2040 code to measure voltage at A0 (in the photoresistor circuit) versus measuring voltage at D6 (in the push-button circuit)?
+
+Build each of the circuits below and program your KB2040 to measure the input voltage from the point specified in the circuit. Answer the questions below.
+
+2. For Circuit A, vary the light level, and explore the range of voltages that your KB2040 pin receives (at the point specified in the schematic).
+3. How does the voltage at A0 relate to the light level (i.e., as the light level increases, does voltage at A0 increase or decrease)?
+4. How does the photoresistor's resistance relate to the light level (i.e., as the light level increases, does its resistance increase or decrease)?
+
+
+## 22. How to code your microcontroller to constantly check an input while also running actuators (Oct. 30)
+
+Suppose you want to check for the state of inputs while also running motors, lights, and other actuators.
+
+In particular, try to do these three tasks at once:
+
+1. flash an LED, 3 seconds on, 3 seconds off.
+2. constantly check for a button press that sets an input pin HIGH.
+3. flash a *different* LED when the button is pressed.
+
+### The naive approach
+
+Here's a reasonable first attempt by a novice programmer to set up a microcontroller to check for input and flash a second LED when a button is pressed.
+
+Why will this code probably **not work very well** to accomplish the goal stated above?
+
+{{< expand "Click to see the code that won't work very well" "..." >}}
+<pre class="code">
+import board
+import digitalio as dio
+import time
+
+led_1 = dio.DigitalInOut(board.D4)
+led.direction = dio.Direction.OUTPUT
+
+led_2 = dio.DigitalInOut(board.D5)
+led_2.direction = dio.Direction.OUTPUT
+    
+button = dio.DigitalInOut(board.D6)
+button.direction = dio.Direction.INPUT
+
+led_1.value = False
+
+while True:
+    # toggle the first LED
+    if led_1.value is True:
+        led_1.value = False
+    else:
+        led_1.value = True
+
+    # wait the 3 seconds
+    time.sleep(3.0)
+
+    # check the button and toggle the second LED
+    if button.value is True:
+        led_2.value = True
+    else:
+        led_2.value = False
+</pre>
+{{< /expand >}}
+
+### Try a state machine instead!
+
+Writing code for “state machines” is a better technique for this situation. At this [link](https://gist.github.com/pingswept/1d37a74943f73a6266688db44f3e382d) (and in the box below) is one way to set up state machines in CircuitPython. 
+
+{{< expand "Click to see the state machine code" "..." >}}
+<pre class="code">
+import board
+import digitalio as dio
+import time
+
+led_1 = dio.DigitalInOut(board.D4)
+led.direction = dio.Direction.OUTPUT
+
+led_2 = dio.DigitalInOut(board.D5)
+led_2.direction = dio.Direction.OUTPUT
+    
+button = dio.DigitalInOut(board.D6)
+button.direction = dio.Direction.INPUT
+
+STATE_TOGGLE = 1       # these are just arbitrary constants used to number the states
+STATE_CHECK_BUTTON = 2 # the values 1 and 2 are not significant
+
+state = STATE_TOGGLE
+next_toggle = 0
+led_1.value = False
+
+while True:
+    if state is STATE_TOGGLE:
+        if led_1.value is True:
+            led_1.value = False
+        else:
+            led_1.value = True
+        next_toggle = time.monotonic() + 3.0 # this is like setting a timer to expire 3 seconds in the future
+        state = STATE_CHECK_BUTTON
+    elif state is STATE_CHECK_BUTTON:
+        if button.value is True:
+            led_2.value = True
+        else:
+            led_2.value = False
+        if time.monotonic() > next_toggle:
+            state = STATE_TOGGLE
+</pre>
+{{< /expand >}}
+
