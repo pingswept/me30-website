@@ -319,6 +319,8 @@ Build each of the circuits below and program your KB2040 to measure the input vo
 3. How does the voltage at A0 relate to the light level (i.e., as the light level increases, does voltage at A0 increase or decrease)?
 4. How does the photoresistor's resistance relate to the light level (i.e., as the light level increases, does its resistance increase or decrease)?
 
+![photoresistor and push-button voltage dividers](/img/Sensors_Exercise.jpg)
+
 
 ## 22. How to code your microcontroller to constantly check an input while also running actuators (Oct. 30)
 
