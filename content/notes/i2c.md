@@ -1,6 +1,6 @@
 ---
 title: "I2C"
-draft: true
+draft: false
 ---
 # I<sup>2</sup>C: a digital communication protocol
 
