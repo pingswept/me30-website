@@ -24,7 +24,7 @@ draft: false
 |      | 9/25  | Transistors as switches      |  Make a switch with a BJT    | [Low power/high power](http://andnowforelectronics.com/notes/low-power-high-power/)|[P1 PCB due Friday](http://andnowforelectronics.com/logistics/projects/#project-1-build-a-breadboard-power-supply)|        |
 |  5   | 9/30  | Intro to P2 (game v1), DC motors, MOSFETs | Run a motor with a MOSFET    | [Motors](http://andnowforelectronics.com/notes/motors/) |              |
 |      | 10/2 | Microcontrollers, CircuitPython     | KB2040 set-up    | [Microcontrollers](http://andnowforelectronics.com/notes/microcontrollers/); [KB2040 hardware](http://andnowforelectronics.com/notes/feather-rp2040-hardware/); Solder pins to your KB2040 and bring to class |      |
-|   6  | 10/7 | Digital and analog I/O hardware            | De-bugging challenge #1; KB2040 challenges set 1  |    [KB2040 programming](http://andnowforelectronics.com/notes/feather-programming/); [KB2040 challenges](http://andnowforelectronics.com/notes/feather-challenges/)    |   
+|   6  | 10/7 | Digital and analog I/O hardware            | De-bugging challenge #1; KB2040 challenges set 1  |    [KB2040 programming](http://andnowforelectronics.com/notes/kb2040-programming/); [KB2040 challenges](http://andnowforelectronics.com/notes/kb2040-challenges/)    |   
 |      | 10/9  | H-bridges   | Start building an H-bridge    | [H-bridge motor driver](http://andnowforelectronics.com/notes/h-bridge/); [Intro and video for P3](http://andnowforelectronics.com/logistics/projects/#project-2-build-an-h-bridge-motor-controller) | [P2 (game v1)](http://andnowforelectronics.com/logistics/projects) due Wed. in class|
 |  7    | 10/14 | NO CLASS   | (Indigenous People's Day)  |  |        |
 |     | 10/16  | Intro to P3, More H-bridge details     | More H-bridge work            |               |       |
@@ -37,9 +37,9 @@ draft: false
 | Week | Date  | Class topics  | Hands-on  | What to study | What's due  |
 |:----:|:-----:|--------------------------------------------|-------------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------|
 |  9  | 10/28  | Motor modeling, PWM  | P4 planning  |      | [P3 PCB](http://andnowforelectronics.com/logistics/projects/#project-2-build-an-h-bridge-motor-controller)   |
-|      | 10/30  | Sensors, state machines   |  KB2040 challenges, set 2  | [KB2040 programming](http://andnowforelectronics.com/notes/feather-programming/); [KB2040 challenges](http://andnowforelectronics.com/notes/feather-challenges/)  |  |
-|  10   | 11/4  | Stepper motors   |  Stepper motors   |    |  |
-|     | 11/6  | Microcontrollers in greater depth   |  KB2040 work       |       |    |
+|      | 10/30  | Sensors, state machines intro   |  KB2040 challenges, set 2  | [KB2040 programming](http://andnowforelectronics.com/notes/kb2040-programming/); [KB2040 challenges](http://andnowforelectronics.com/notes/kb2040-challenges/)  |  |
+|  10   | 11/4  | State machines, Stepper motors   |  KB2040 challenges, set 2   |    |  |
+|     | 11/6  | Microcontrollers in greater depth   |  P4 work       | [I2C sensors](http://andnowforelectronics.com/notes/i2c/) |    |
 |   11   | 11/11 | NO CLASS     | (Veteran's Day)  |           |        |
 |     | 11/12  | Raspberry Pi intro    |  Booting the Raspberry Pi   |[Raspberry Pi setup](http://andnowforelectronics.com/notes/pi-setup/); [Raspberry Pi programming](http://andnowforelectronics.com/notes/pi-programming/)   |      |
 |     | 11/13  | Raspberry Pi programming  |  Pi challenges     | [Raspberry Pi challenges](http://andnowforelectronics.com/notes/pi-challenges/)  |    | 
@@ -72,8 +72,8 @@ draft: false
 | 5 | 10/7-10/10 | KB2040 challenges set 1 |
 | 6 | 10/15-10/17 | Solder your P1 PCB (Monday lab students can attend other labs or Friday help) |
 |  | 10/21-10/24 | H-bridges, P3 help |
-| 7 | 10/28-11/5 | KB2040 challenges set 2 |
-| 8 | 11/4-11/12 | P4 help |
+| 7 | 10/28-10/31 | KB2040 challenges set 2 |
+| 8 | 11/4-11/7 | P4 help |
 |  |  | (No labs 11/11-11/14) |
 | 9 | 11/18-12/3 | Raspberry Pi set-up and challenges |
 |  | 11/25-12/4 | Labs shift to drop-in help sessions open to all |
