@@ -5,6 +5,38 @@ draft: false
 ## Weekly Update Emails
 
 - - -
+## Week 10, Monday, 11/4/24
+
+In class this week, we'll work through strategies for wiring and coding your KB2040 to handle outputs and inputs at the same time. We'll also talk about how to use your kit's stepper motor in case you need precise motor rotation for your Project 4 game. That project is due on Nov. 18, a week after the Veteran's Day holiday.
+
+Labs this week will focus on supporting Project 4 planning and circuit set-up.
+ 
+**Things due in Week 10:**
+- Nothing is due this week, but if you have not posted your personal learning goal for Project 4, please do that on Canvas.
+- This week you should be developing a solid plan for your Project 4 game. Before you sink time into building structure and moving parts, figure out your circuit and code. Make sure you can get your KB2040 to reliably receive voltage signals from your input(s) and send voltage signals out to your H-bridge(s). Remember that we are not grading you based on how beautiful or sophisticated your game is (though we appreciate those qualities); we are looking for you to meet the [posted project requirements](http://andnowforelectronics.com/logistics/projects/).
+- If you have not yet tried out Set 2 of the KB2040 Challenges, aim to do that this week. Solutions will be posted next week.
+ 
+**Learning goal for Week 10:**
+- Continue gaining familiarity with motor control, digital and analog input, and CircuitPython programming.
+ 
+**Course website (andnowforelectronics.com) pages to study in Week 10:**
+- [Project 4 (more complex game) description](http://andnowforelectronics.com/logistics/projects/)
+- [KB2040 Challenges, Set 2](http://andnowforelectronics.com/notes/kb2040-challenges/)
+- [I2C digital communication](http://andnowforelectronics.com/notes/i2c/)
+
+**FAQs about resources for Project 4:**
+
+*Where can I find example code for programming KB2040 inputs and outputs?*
+- ME 30 website's KB2040 Programming page: http://andnowforelectronics.com/notes/kb2040-programming/
+- Solutions to KB2040 Challenges Set 1: http://andnowforelectronics.com/notes/kb2040-challenges/
+- Adafruit’s CircuitPython Essentials site: https://learn.adafruit.com/circuitpython-essentials/circuitpython-essentials
+ 
+*How do I figure out how to convert the motor shaft’s rotational motion into other useful motion?*
+- “Chapter 8: Combining Simple Machines for Work and Fun” in Making Things Move (Dustyn Roberts), available online to Tufts students from Tisch Library
+- 507 Mechanical Movements: http://507movements.com/toc.html
+- LEGO Technic Mechanisms (you can take inspiration from these even when not building with LEGO): https://www.hispabrickmagazine.com/pdfs/HBM017_EN/HBM017_EN-52-54.pdf
+
+
 ## Week 9: Sunday, 10/27/24
 
 We've been observing some impressive persistence in de-bugging H-bridges over the past week. Thanks for your hard work on Project 3 and the ways you are supporting each other. If you have questions about your P3 circuit or PCB design, please bring them to class tomorrow or reach out to us ASAP.
