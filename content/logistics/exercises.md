@@ -321,7 +321,7 @@ Build each of the circuits below and program your KB2040 to measure the input vo
 
 ![photoresistor and push-button voltage dividers](/img/Sensors_Exercise.jpg)
 
-# 22. More practice with sensors and PWM (Nov. 4)
+## 22. More practice with sensors and PWM (Nov. 4)
 
 Set up KB2040 challenge #10, with guidance provided in class by instructor if needed. (Use a resistor in series with your photoresistor to make a voltage that changes with light exposure. Use that voltage to control the speed of your gearmotor on pin D6.) 
 
@@ -429,7 +429,7 @@ In the diagram below, add labels to the arrows to represent the rules for moving
 
 ![state machine diagram](/img/StateMachineDiagram.jpg)
 
-## 24. Using state machine with a motor (Nov. 4)
+## 24. Using a state machine with a motor (Nov. 4)
 
 Imagine a Project 4 game with a 1-foot arm attached to the DC gearmotor shaft. Mounted at the end of the arm is a bowl. The motor switches directions every two seconds in order to move the bowl back and forth, switching directions every 2 seconds, as the player tries to toss a bean bag into the bowl.   In the base of the bowl is a button whose purpose is to sense the presence of the bean bag. When the button gets pressed by the bean bag, the player wins! The motor stops moving and a celebratory green LED light blinks quickly 10 times.
 
@@ -443,7 +443,7 @@ Draft the Circuit Python code to implement this state machine.
 
 Sketch a circuit diagram that shows how you would wire up all the components.
 
-# 25. More complex state machine (Nov. 4)
+## 25. Using a state machine with two inputs (Nov. 4)
 
 Set up KB2040 challenge #10 (where the speed of a gearmotor on pin D6 is controlled by the light exposure on a photoresistor).
 
