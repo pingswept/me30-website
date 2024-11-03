@@ -38,7 +38,7 @@ draft: false
 |:----:|:-----:|--------------------------------------------|-------------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------|
 |  9  | 10/28  | Motor modeling, PWM  | P4 planning  |      | [P3 PCB](http://andnowforelectronics.com/logistics/projects/#project-2-build-an-h-bridge-motor-controller)   |
 |      | 10/30  | Sensors, state machines intro   |  KB2040 challenges, set 2  | [KB2040 programming](http://andnowforelectronics.com/notes/kb2040-programming/); [KB2040 challenges](http://andnowforelectronics.com/notes/kb2040-challenges/)  |  |
-|  10   | 11/4  | State machines, Stepper motors   |  KB2040 challenges, set 2   |    |  |
+|  10   | 11/4  | State machines, Stepper motors   |  KB2040 challenges, set 2   | [KB2040 programming](http://andnowforelectronics.com/notes/kb2040-programming/); [KB2040 challenges](http://andnowforelectronics.com/notes/kb2040-challenges/)|  |
 |     | 11/6  | Microcontrollers in greater depth   |  P4 work       | [I2C sensors](http://andnowforelectronics.com/notes/i2c/) |    |
 |   11   | 11/11 | NO CLASS     | (Veteran's Day)  |           |        |
 |     | 11/12  | Raspberry Pi intro    |  Booting the Raspberry Pi   |[Raspberry Pi setup](http://andnowforelectronics.com/notes/pi-setup/); [Raspberry Pi programming](http://andnowforelectronics.com/notes/pi-programming/)   |      |
