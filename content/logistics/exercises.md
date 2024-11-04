@@ -323,7 +323,9 @@ Build each of the circuits below and program your KB2040 to measure the input vo
 
 ## 22. More practice with sensors and PWM (Nov. 4)
 
-Set up KB2040 challenge #10, with guidance provided in class by instructor if needed. (Use a resistor in series with your photoresistor to make a voltage that changes with light exposure. Use that voltage to control the speed of your gearmotor on pin D6.) 
+Set up KB2040 challenge #10: 
+
+Use a resistor in series with your photoresistor to make a voltage that changes with light exposure. Use that voltage to control the speed of your gearmotor on pin D6. 
 
 Now try to add an LED whose brightness also varies with the light exposure to the photoresistor.  Think carefully both about the code and the circuit components that you need to make this addition.
 
