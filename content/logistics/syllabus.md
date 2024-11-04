@@ -7,14 +7,9 @@ draft: false
 
 ME 30, Electronics & Controls I
 
-## Office hours week of 10/28 (in Nolop)
+## Office hours week of 11/4 (in Nolop)
 
-Mon. 10/28
-* 12-1pm: Kimberly
-* 7-9pm: ReAnna
-
-Fri. 11/1
-* 2:15-4:15pm: Kristen
+To be posted...
 
 Brandon is also usually in Nolop 9 AM to 5 PM, unless he's teaching class or in a meeting, or it's a weekend
 
