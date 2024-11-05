@@ -445,7 +445,7 @@ Draft the Circuit Python code to implement this state machine.
 
 Sketch a circuit diagram that shows how you would wire up all the components.
 
-## 25. Using a state machine with two inputs (Nov. 4)
+## 25. Using a state machine with two inputs (Nov. 6)
 
 Set up KB2040 challenge #10 (where the speed of a gearmotor on pin D6 is controlled by the light exposure on a photoresistor).
 
