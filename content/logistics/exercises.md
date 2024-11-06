@@ -391,7 +391,7 @@ import digitalio as dio
 import time
 
 led_1 = dio.DigitalInOut(board.D4)
-led.direction = dio.Direction.OUTPUT
+led_1.direction = dio.Direction.OUTPUT
 
 led_2 = dio.DigitalInOut(board.D5)
 led_2.direction = dio.Direction.OUTPUT
