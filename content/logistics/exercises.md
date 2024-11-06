@@ -451,6 +451,20 @@ Set up KB2040 challenge #10 (where the speed of a gearmotor on pin D6 is control
 
 Now, add a button that switches which direction the motor is going. How could a state machine help you implement this feature?
 
+## 26. Stepper motor set-up (Nov. 6)
+
+With one or two partners, set up two working breadboard H-bridges. Choose one KB2040 and one stepper motor to use for this exercise. Hook up each coil of the stepper motor to one H-bridge. Connect one KB2040 digital output pin to each "diagonal" pair of H-bridge corners. You'll use four KB2040 output pins in total.  Control the motor using the code provided here: http://andnowforelectronics.com/notes/kb2040-programming/#stepper-motors
+
+Note that you will need the adafruit_motor library. All CircuitPython libraries for the KB2040 can be downloaded [here](https://circuitpython.org/libraries). Download the entire library bundle to your laptop, and then transfer ONLY the libraries you need to your KB2040.
+
+## 27. More sensors and actuators (Nov. 6)
+
+1. **Potentiometer for input; motor speed for output.** Send the voltage output from a potentiometer (knob- or dial-like variable resistor) to an analog input pin on your KB2040. Use that varying voltage to vary the speed of a motor. **Extension:** Add a button that switches the direction of the motor (you'll likely need state machine code for this.)
+
+3. **Ultrasonic distance sensor for input; motor direction for output.** Send the output voltage from a distance sensor to an analog input pin on your KB2040. Use that distance signal to trigger whether your motor spins clockwise or counter clockwise. You get to decide on the distance threshold for switching directions.
+
+4. **Pushbutton for input; piezo buzzer for output.** Use a pushbutton to send either 3.3 V or 0 V to a digital input pin on your KB2040. Use that button signal to trigger the sound of a buzzer. Power the buzzer with PWM. Explore different frequency and duty cycle values, and see how that changes the sound of the button.
+
 
 
 
