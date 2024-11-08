@@ -74,8 +74,8 @@ draft: false
 |  | 10/21-10/24 | H-bridges, P3 help |
 | 7 | 10/28-10/31 | KB2040 challenges set 2 |
 | 8 | 11/4-11/7 | P4 help |
-|  |  | (No labs 11/11-11/14) |
-| 9 | 11/18-12/3 | Raspberry Pi set-up and challenges |
+| 9 | 11/11-11/14 | P4 help (Both Mon. and Tues. labs meet on Tues. 11/12) |
+| 10 | 11/18-12/3 | Raspberry Pi set-up and challenges |
 |  | 11/25-12/4 | Labs shift to drop-in help sessions open to all |
 
 
