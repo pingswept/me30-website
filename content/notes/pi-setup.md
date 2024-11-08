@@ -42,11 +42,11 @@ There are more details about the console cable if you need them in [Adafruit's c
   <li><input type="checkbox"> In the "Services" tab, enable SSH. <code>pi</code></li>
   <li><input type="checkbox"> <b>The moment of truth!</b> Erase the card and write the new OS to the card.
   <li><input type="checkbox"> Edit config.txt on the microSD card to include on the last line: <code>enable_uart=1</code></li>
-  <li><input type="checkbox"> Install the <a href="https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads">SiLabs CP210X USB driver</a> for the console cable. (You won't need this on a newish Mac.</li>
+  <li><input type="checkbox"> Install the <a href="https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads">SiLabs CP210X USB driver</a> for the console cable. (You won't need this on a newish Mac.)</li>
   <li><input type="checkbox"> Connect the Pi to your laptop with the console cable</li>
   <li><input type="checkbox"> Put the microSD card in slot of Pi</li>
   <li><input type="checkbox"> Install <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">PuTTY</a> (Windows) or open Applications > Utilities > Terminal (macOS) or install <a href="https://www.decisivetactics.com/products/serial/">Serial</a> (macOS)</li>
-  <li><input type="checkbox"> (macOS only) In Terminal, run <code>ls /dev</code> and find the entry that says <code>tty.usbserial-XXYYZZ</code>. Record the numbers you see instead of XXYYZZ. Then run <code>screen /dev/tty.usbserial-XXYYZ 115200</code> </li>
+  <li><input type="checkbox"> (macOS only) In Terminal, run <code>ls /dev</code> and find the entry that says <code>tty.usbserial-XXYYZZ</code>. Record the numbers you see instead of XXYYZZ. Then run <code>screen /dev/tty.usbserial-XXYYZZ 115200</code> </li>
   <li><input type="checkbox"> (macOS only) If using Serial instead of Terminal, simply open Serial and double click on the USB-serial device that appears</li> 
   <li><input type="checkbox"> (Windows only) In PuTTY, start a serial session at 115200 bps to the Pi</li>
   <li><input type="checkbox"> Connect USB-C power cable. Wait a minute or so for the Pi to boot up</li>
