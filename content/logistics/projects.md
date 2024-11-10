@@ -7,8 +7,8 @@ draft: false
 Your task is to build a game with the following characteristics:
 
 *   It is controlled by a KB2040 microcontroller.
-*   It uses your H-bridge prototype to drive a motor in at least one direction. (If you need a second H-bridge, you can use any motor driver that will work.) 
-*   It has some kind of user input, like a button, knob, joystick, sensor, or the like, that talks to the microcontroller. (Read the note below about the ME 30 Nolop tab).
+*   It uses your H-bridge prototype to drive a motor in at least one direction. (If you need a second H-bridge, you can make another one or use any motor driver that will work.) 
+*   It has some kind of user input, like a button, knob, joystick, sensor, or the like, that talks to the KB2040 microcontroller. (Read the note below about the ME 30 Nolop tab).
 *   It has at least one part that moves, driven by one of the motors in your kit. (You can use both motors if you want. Servo motors are prohibited.)
 *   It is at least sort of fun to play. A blinking LED is not a game.
 *   It includes no 3D printed components whose STL files were downloaded from the internet.
@@ -36,7 +36,7 @@ If you need something not available at Nolop or Bray, please talk to Brandon or 
 
 Documentation due on Canvas by Monday, November 18, 11:59 PM
 
-On November 18th, class will consist entirely of us playing each other's games, and marveling at our collective ingenuity and resourcefulness. 
+On November 18th, class will consist of us playing each other's games, marveling at our collective ingenuity and resourcefulness, and introducing Project 5. 
 
 ## Project 3: H-bridge
 **Build an H-bridge motor controller**
