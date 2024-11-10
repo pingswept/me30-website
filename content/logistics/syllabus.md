@@ -7,11 +7,15 @@ draft: false
 
 ME 30, Electronics & Controls I
 
-## Office hours week of 11/4 (in Nolop)
+## Office hours week of 11/11 (in Nolop)
 
-To be posted...
+Kristen: 
+* Tues. 11/12, 3:30-5pm
+* Fri. 11/15, 2:15-4:45pm
 
-Brandon is also usually in Nolop 9 AM to 5 PM, unless he's teaching class or in a meeting, or it's a weekend
+Additional LA office hours to be posted on 11/11
+
+Brandon: usually in Nolop 9 AM to 5 PM, unless he's teaching class or in a meeting, or it's a weekend
 
 Please reach out to an LA or an instructor if you want to make a separate appointment for help.
 
