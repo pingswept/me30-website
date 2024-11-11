@@ -5,6 +5,43 @@ draft: false
 ## Weekly Update Emails
 
 - - -
+
+## Week 11: Monday, 11/11/24
+
+With Tufts running a Monday schedule Tuesday this week, we'll have ME 30 two days in a row. Across these two class sessions, our goal is for all students to set up and start using the other small computer in your kit - the Raspberry Pi. This device will be central to the final two projects of the course.
+
+**Things you need in class on Tues. & Wed., Nov. 12 & 13:**
+These class sessions will be crucial for setting up your Raspberry Pi hardware. Please bring:
+
+- a laptop 
+- your ME 30 kit (including the Raspberry Pi, its power supply, the [serial console cable](http://andnowforelectronics.com/notes/pi-setup/#stuff-you-need-all-in-your-kit), and the SD card)
+- an adapter that will let you connect a USB-A cable into your computer (if you don't have a USB-A port)
+- an SD card reader if you have one (though we will also bring some to share)
+
+**Things due in Week 11:**
+- Nothing due this week, but [Project 4](http://andnowforelectronics.com/logistics/projects/), the (more complex) electromechanical game, is due on Monday, Nov. 18. Your game itself is due at class time. Documentation is due on Canvas by 11:59pm Monday night. 
+
+**Labs in Week 11:**
+- Labs this week will focus on Project 4 work and support. Both Monday and Tuesday night lab groups will meet on Tuesday night. If you are in a Tuesday lab but can't make it Tuesday night because it's a Monday schedule, you are welcome to attend any lab on Wednesday or Thursday.
+
+**Learning goals for Week 11:**
+- Build an electromechanical game including a moving mechanical element and both input and output from a microcontroller.
+- Identify the main components and functions of the Raspberry Pi.
+- Gain familiarity with Linux basics and explain how they relate to the functioning of a Raspberry Pi.
+
+**Course website (andnowforelectronics.com) pages to study in Week 11:**
+- [Project 4 (more complex game) description](http://andnowforelectronics.com/logistics/projects/)
+- [Microcontrollers](http://andnowforelectronics.com/notes/microcontrollers/)
+- [Raspberry Pi Setup](http://andnowforelectronics.com/notes/pi-setup/)
+
+**Extra office hours this week**
+- Tues., 11/12: 3:30-5pm (Kristen)
+- Tues., 11/12: 6-8pm (Calvin)
+- Thu., 11/14: 7-9pm (Kimberly)
+- Fri., 11/15: 2:15-4:45pm (Kristen)
+- Sun., 11/17: 11am-1pm (Arcadia)
+- Sun., 11/18: 6-9pm (Brian and Natalie L.)
+
 ## Week 10, Monday, 11/4/24
 
 In class this week, we'll work through strategies for wiring and coding your KB2040 to handle outputs and inputs at the same time. We'll also talk about how to use your kit's stepper motor in case you need precise motor rotation for your Project 4 game. That project is due on Nov. 18, a week after the Veteran's Day holiday.
