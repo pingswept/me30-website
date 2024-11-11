@@ -34,7 +34,7 @@ These class sessions will be crucial for setting up your Raspberry Pi hardware. 
 - [Microcontrollers](http://andnowforelectronics.com/notes/microcontrollers/)
 - [Raspberry Pi Setup](http://andnowforelectronics.com/notes/pi-setup/)
 
-**Extra office hours this week**
+**Extra office hours this week:**
 - Tues., 11/12: 3:30-5pm (Kristen)
 - Tues., 11/12: 6-8pm (Calvin)
 - Thu., 11/14: 7-9pm (Kimberly)
