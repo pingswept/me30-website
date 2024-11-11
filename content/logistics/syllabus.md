@@ -9,13 +9,13 @@ ME 30, Electronics & Controls I
 
 ## Office hours week of 11/11 (in Nolop)
 
-Kristen: 
-* Tues. 11/12, 3:30-5pm
-* Fri. 11/15, 2:15-4:45pm
-
-Additional LA office hours to be posted on 11/11
-
-Brandon: usually in Nolop 9 AM to 5 PM, unless he's teaching class or in a meeting, or it's a weekend
+- Tues., 11/12: 3:30-5pm (Kristen)
+- Tues., 11/12: 6-8pm (Calvin)
+- Thu., 11/14: 7-9pm (Kimberly)
+- Fri., 11/15: 2:15-4:45pm (Kristen)
+- Sun., 11/17: 11am-1pm (Arcadia)
+- Sun., 11/18: 6-9pm (Brian and Natalie L.)
+- Most days: Brandon is usually in Nolop 9 AM to 5 PM, unless he's teaching class or in a meeting, or it's a weekend
 
 Please reach out to an LA or an instructor if you want to make a separate appointment for help.
 
