@@ -28,7 +28,7 @@ To connect the console cable, look at this diagram.
 
 There are more details about the console cable if you need them in [Adafruit's console cable tutorial](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-5-using-a-console-cable/overview). If you want to go deeper on how console cables and terminals work, try the [Sparkfun tutorial](https://learn.sparkfun.com/tutorials/terminal-basics/all).
 
-## Setup checklist
+## Setup checklist 1: "Image" the OS to the SD card
 
 <ul style="list-style: none;">
   <li><input type="checkbox"> Install the Raspberry Pi Imager from <a href="https://www.raspberrypi.com/software/">the Raspberry Pi Software page</a></li>
@@ -42,6 +42,11 @@ There are more details about the console cable if you need them in [Adafruit's c
   <li><input type="checkbox"> In the "Services" tab, enable SSH. <code>pi</code></li>
   <li><input type="checkbox"> <b>The moment of truth!</b> Erase the card and write the new OS to the card.
   <li><input type="checkbox"> Edit config.txt on the microSD card to include on the last line: <code>enable_uart=1</code></li>
+</ul>
+
+## Setup checklist 2: Connect to your Pi via serial console cable
+
+<ul style="list-style: none;">
   <li><input type="checkbox"> Install the <a href="https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads">SiLabs CP210X USB driver</a> for the console cable. (You won't need this on a newish Mac.)</li>
   <li><input type="checkbox"> Connect the Pi to your laptop with the console cable</li>
   <li><input type="checkbox"> Put the microSD card in slot of Pi</li>
@@ -51,11 +56,11 @@ There are more details about the console cable if you need them in [Adafruit's c
   <li><input type="checkbox"> (Windows only) Use Device Manager to determine what COM port your serial cable is communicating with</li>
   <li><input type="checkbox"> (Windows only) In PuTTY, start a serial session at 115200 bps to the Pi</li>
   <li><input type="checkbox"> Connect USB-C power cable. Wait a minute or so for the Pi to boot up</li>
-  <li><input type="checkbox"> Log in with username <code>pi</code> and password you set using the Imager</li>
+  <li><input type="checkbox"> Log in with the username <code>pi</code> and password you set using the Imager</li>
   <li><input type="checkbox"> Follow the steps below for connecting to the <code>Tufts_Wireless</code> network.</li>
 </ul>
 
-## Checklist for Tufts_Wireless
+## Set-up checklist 3: Get your Pi on IP address on Tufts_Wireless
 
 <ul style="list-style: none;">
   <li><input type="checkbox"> Figure out the Pi's MAC address with <code>ifconfig</code>. Be sure you get the MAC for <code>wlan0</code>, not <code>eth0</code>. The MAC address is something like <code>e4:5f:01:3b:33:fb</code> and appears after the word <code>ether</code>.</li>
@@ -63,15 +68,13 @@ There are more details about the console cable if you need them in [Adafruit's c
   <li><input type="checkbox"> Wait a few minutes for MAC address permissions to propagate to local wireless access point</li>
   <li><input type="checkbox"> Use <code>sudo raspi-config</code> to list Tufts_Wireless as the network.</li>
   <li><input type="checkbox"> In <code>raspi-config</code>, pick <code>System Options > Wireless LAN</code></li>
-  <li><input type="checkbox"> Enter <code>Tufts_Wireless</code> for the SSID and leave the passphrase blank.</li>
-  <li><input type="checkbox"> Exit raspi-config. Use the `ifconfig` or `hostname -I` command to find the IP address assigned to your Pi by Tufts_Wireless.</li>
+  <li><input type="checkbox"> Enter <code>Tufts_Wireless</code> for the SSID and leave the passphrase blank. Exit raspi-config. </li>
+  <li><input type="checkbox"> Use the `ifconfig` or `hostname -I` command to find the IP address assigned to your Pi by Tufts_Wireless.</li>
   <li><input type="checkbox"> Type `logout` to disconnect your Terminal from your Pi so that you can switch to logging in via SSH.</li>
-
-
 </ul>
 
 
-### Connecting to your Pi via SSH instead of serial
+## Set-up checklist 4: Connect to your Pi via SSH instead of serial
 
 Once you have your Pi connected to the wireless network, you can log into it through SSH instead of through a USB-serial cable. 
 - Have your Pi's IP address handy (do that when still connected by serial cable; use the `ifconfig` or `hostname -I` command).
