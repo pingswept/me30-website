@@ -371,7 +371,62 @@ motor.release()
     
 ## State Machine Code
 
-Often when using a microcontroller within a electromechanical system, you need to be able to check for the state of inputs while also running motors, lights, and other actuators. Writing code for "state machines" is a useful technique for this situation.  [At this link](https://gist.github.com/pingswept/1d37a74943f73a6266688db44f3e382d) is one way to set up state machines in CircuitPython. This code flashes an LED, constantly checks for a button press, and flashes a different LED when the button is pressed.     
+Often when using a microcontroller within a electromechanical system, you need to be able to check for the state of inputs while also running motors, lights, and other actuators. Writing code for "state machines" is a useful technique for this situation. Below is code that shows one way to set up state machines in CircuitPython.     
+
+This code carries out these two tasks at once:
+
+1. flash one LED, 3 seconds on, 3 seconds off.
+2. constantly check for a button press that sets an input pin HIGH.
+3. flash a *different* LED when the button is pressed.
+
+
+{{< expand "Click to see the state machine code" "..." >}}
+<pre class="code">
+
+# This purpose of this code is to carry out two tasks at once:
+# 1. Repeatedly flash a green LED, 3 seconds on, 3 seconds off.
+# 2. Constantly check for a button press that sets an input pin HIGH.
+# and flash a *different* LED when the button is pressed.
+
+import board
+import digitalio as dio
+import time
+
+led_green = dio.DigitalInOut(board.D4)
+led_green.direction = dio.Direction.OUTPUT
+
+led_red = dio.DigitalInOut(board.D5)
+led_red.direction = dio.Direction.OUTPUT
+    
+button = dio.DigitalInOut(board.D6)
+button.direction = dio.Direction.INPUT
+
+STATE_TOGGLE = 1       # these are just arbitrary constants used to number the states
+STATE_CHECK_BUTTON = 2 # the values 1 and 2 are not significant
+
+state = STATE_TOGGLE
+next_toggle = 0
+led_1.value = False
+
+while True:
+    if state is STATE_TOGGLE:
+        if led_green.value is True:
+            led_green.value = False
+        else:
+            led_green.value = True
+        next_toggle = time.monotonic() + 3.0 # this is like setting a timer to expire 3 seconds in the future
+        state = STATE_CHECK_BUTTON
+    elif state is STATE_CHECK_BUTTON:
+        if button.value is True:
+            led_red.value = True
+        else:
+            led_red.value = False
+        if time.monotonic() > next_toggle:
+            state = STATE_TOGGLE
+</pre>
+{{< /expand >}}
+
+
 
     
 ## CircuitPython Reference Pages
