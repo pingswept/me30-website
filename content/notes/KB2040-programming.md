@@ -386,7 +386,7 @@ This code carries out these two tasks at once:
 # This purpose of this code is to carry out two tasks at once:
 # 1. Repeatedly flash a green LED, 3 seconds on, 3 seconds off.
 # 2. Constantly check for a button press that sets an input pin HIGH.
-# and flash a *different* LED when the button is pressed.
+# and flash a *different* (red) LED when the button is pressed.
 
 import board
 import digitalio as dio
