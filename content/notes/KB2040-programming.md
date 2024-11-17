@@ -421,7 +421,7 @@ while True:
             led_red.value = True
         else:
             led_red.value = False
-        if time.monotonic() > next_toggle:
+        if time.monotonic() > next_toggle: # this is like checking that 3-second timer we set above
             state = STATE_TOGGLE
 </pre>
 {{< /expand >}}
