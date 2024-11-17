@@ -44,7 +44,7 @@ There are more details about the console cable if you need them in [Adafruit's c
   <li><input type="checkbox"> Edit config.txt on the microSD card to include on the last line: <code>enable_uart=1</code></li>
 </ul>
 
-## Setup checklist 2: Connect to your Pi via serial console cable
+## Setup checklist 2: Connect to your Pi via serial console cable, and find out your Pi's MAC address
 
 <ul style="list-style: none;">
   <li><input type="checkbox"> Install the <a href="https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads">SiLabs CP210X USB driver</a> for the console cable. (You won't need this on a newish Mac.)</li>
@@ -57,13 +57,14 @@ There are more details about the console cable if you need them in [Adafruit's c
   <li><input type="checkbox"> (Windows only) In PuTTY, start a serial session at 115200 bps to the Pi</li>
   <li><input type="checkbox"> Connect USB-C power cable. Wait a minute or so for the Pi to boot up</li>
   <li><input type="checkbox"> Log in with the username <code>pi</code> and password you set using the Imager</li>
-  <li><input type="checkbox"> Follow the steps below for connecting to the <code>Tufts_Wireless</code> network.</li>
+  <li><input type="checkbox"> To figure out the Pi's MAC address, type the command <code>ifconfig</code>. Be sure you get the MAC for <code>wlan0</code>, not <code>eth0</code>. As shown in the screenshot below, the MAC address is something like <code>e4:5f:01:3b:33:fb</code> and appears after the word <code>ether</code>.</li>
 </ul>
+
+![MAC address screenshot](/img/findingMACaddress.jpg)
 
 ## Set-up checklist 3: Get your Pi on IP address on Tufts_Wireless
 
 <ul style="list-style: none;">
-  <li><input type="checkbox"> Figure out the Pi's MAC address with <code>ifconfig</code>. Be sure you get the MAC for <code>wlan0</code>, not <code>eth0</code>. The MAC address is something like <code>e4:5f:01:3b:33:fb</code> and appears after the word <code>ether</code>.</li>
   <li><input type="checkbox"> Register that MAC address with Tufts IT at <a href="https://access.tufts.edu/manual-non-browser-device-registration">the Tufts registration page.</a> If using Chrome, you'll probably need to use an Incognito window </li>
   <li><input type="checkbox"> Wait a few minutes for MAC address permissions to propagate to local wireless access point</li>
   <li><input type="checkbox"> Use <code>sudo raspi-config</code> to list Tufts_Wireless as the network.</li>
