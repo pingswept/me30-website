@@ -67,12 +67,11 @@ There are more details about the console cable if you need them in [Adafruit's c
 <ul style="list-style: none;">
   <li><input type="checkbox"> Register that MAC address with Tufts IT at <a href="https://access.tufts.edu/manual-non-browser-device-registration">the Tufts registration page.</a> If using Chrome, you'll probably need to use an Incognito window </li>
   <li><input type="checkbox"> Wait a few minutes for MAC address permissions to propagate to local wireless access point</li>
-  <li><input type="checkbox"> Use <code>sudo raspi-config</code> to list Tufts_Wireless as the network.</li>
-  <li><input type="checkbox"> In <code>raspi-config</code>, pick <code>System Options > Wireless LAN</code></li>
-  <li><input type="checkbox"> Enter <code>Tufts_Wireless</code> for the SSID and leave the passphrase blank. Exit raspi-config. </li>
   <li><input type="checkbox"> Use the `ifconfig` or `hostname -I` command to find the IP address assigned to your Pi by Tufts_Wireless.</li>
   <li><input type="checkbox"> Type `logout` to disconnect your Terminal from your Pi so that you can switch to logging in via SSH.</li>
 </ul>
+
+![IP address screenshot](/img/findingIPaddress.jpg)
 
 
 ## Set-up checklist 4: Connect to your Pi via SSH instead of serial
@@ -130,6 +129,16 @@ You should also enable SSH, but you could also do that later with the command <c
 ### **How do I turn off my Pi?**
 
 Type the command `sudo shutdown`
+
+
+### **What if I forgot to choose Tufts_Wireless as my network when I imaged my SD card?**
+
+<ul style="list-style: none;">
+  <li><input type="checkbox"> Follow checklist 2 above to log into your Pi with a serial console cable.
+  <li><input type="checkbox"> Type the command <code>sudo raspi-config</code> to list Tufts_Wireless as the network.</li>
+  <li><input type="checkbox"> In <code>raspi-config</code>, pick <code>System Options > Wireless LAN</code></li>
+  <li><input type="checkbox"> Enter <code>Tufts_Wireless</code> for the SSID and leave the passphrase blank. Exit raspi-config. </li>
+</ul>
 
 ### **Is there a way to change my login password when I'm already logged in to my Pi?**
 
