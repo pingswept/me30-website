@@ -335,9 +335,9 @@ Suppose you want to check for the state of inputs while also running motors, lig
 
 In particular, try to do these three tasks at once:
 
-1. flash an LED, 3 seconds on, 3 seconds off.
+1. flash an LED ("led_1" in the code), 3 seconds on, 3 seconds off.
 2. constantly check for a button press that sets an input pin HIGH.
-3. flash a *different* LED when the button is pressed.
+3. flash a *different* LED ("led_2" in the code) when the button is pressed.
 
 ### The naive approach
 
@@ -419,7 +419,7 @@ while True:
             led_2.value = True
         else:
             led_2.value = False
-        if time.monotonic() > next_toggle:
+        if time.monotonic() > next_toggle: # this is like checking the timer we set above
             state = STATE_TOGGLE
 </pre>
 {{< /expand >}}
