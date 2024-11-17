@@ -131,9 +131,11 @@ while True:                     # do this forever
 
 The RPi.GPIO module in Python allows you to vary the output to a pin using PWM. Make sure you choose a pin that is enabled for PWM. On the Pi 4, those pins are 12, 32, 33, and 35, but you can check the [Raspberry Pi pinout diagram](https://pinout.xyz/pinout/pwm) to be sure.
 
-# This code is adapted from SourceForge: https://sourceforge.net/p/raspberry-gpio-python/wiki/Examples/
 
 ```python
+
+# This code is adapted from SourceForge: https://sourceforge.net/p/raspberry-gpio-python/wiki/Examples/
+
 import time
 import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BOARD)
