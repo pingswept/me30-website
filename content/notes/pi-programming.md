@@ -129,9 +129,30 @@ while True:                     # do this forever
 
 ### **What about PWM?**
 
-Here is more information about the RPi.GPIO module. Check this out if you are looking to vary the output using PWM:
-- From SourceForge: https://sourceforge.net/p/raspberry-gpio-python/wiki/Examples/
+The RPi.GPIO module in Python allows you to vary the output to a pin using PWM. Make sure you choose a pin that is enabled for PWM. On the Pi 4, those pins are 12, 32, 33, and 35, but you can check the [Raspberry Pi pinout diagram](https://pinout.xyz/pinout/pwm) to be sure.
 
+# This code is adapted from SourceForge: https://sourceforge.net/p/raspberry-gpio-python/wiki/Examples/
+
+```python
+import time
+import RPi.GPIO as GPIO
+GPIO.setmode(GPIO.BOARD)
+GPIO.setup(12, GPIO.OUT)
+
+pin = GPIO.PWM(12, 500)  # channel=12; frequency=500Hz
+pin.start(0)            # initializes the duty cycle at 0; (0.0 <= duty cycle <= 100.0)
+
+while True:
+    pin.ChangeDutyCycle(25)  # changes the duty cycle to 25% (quarter power)
+    time.sleep(3)
+    pin.ChangeDutyCycle(50)  # changes the duty cycle to 50% (half power)
+    time.sleep(3)
+    pin.ChangeDutyCycle(100) # changes the duty cycle to 100% (full power)
+    time.sleep(3)
+    pin.stop()               # ends the PWM function of the pin
+    GPIO.cleanup()           # the cleanup() function resets the mode of all pins to input, 
+                                # to avoid leaving some pins as output, which can damage the Pi
+```
 
 ### **What if I want to control pins through a web browser?**
 
@@ -173,10 +194,13 @@ def pin_on():
     GPIO.output(16, GPIO.HIGH) # like setting digitalio.value = True
     return 'I turned on the pin.'
 
-# Below we take input from a web browser and channel it to GPIO pin.
-# app.route refers to your Pi's IP address, which you'll type into a web browser URL line when you want to control this code.
-# For example, to set pin 16 on your Pi to HIGH, in your web browser you'll type [your Pi IP address]/digital/write/16/HIGH.
+# Below, we take input from a web browser and channel it to GPIO pin.
+# app.route refers to your Pi's IP address, which you'll type into
+# a web browser URL line when you want to control this code.
+# For example, to set pin 16 on your Pi to HIGH, you'll type
+# [your Pi IP address]/digital/write/16/HIGH into your web browser. 
 # Make sure the line below has the correct angle brackets in it.
+
 @app.route('/digital/write/<pin_name>/<state>')
 def digital_write(pin_name, state):
     pin = int(pin_name)
