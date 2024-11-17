@@ -136,7 +136,24 @@ Here is more information about the RPi.GPIO module. Check this out if you are lo
 ### **What if I want to control pins through a web browser?**
 
 Try using the Flask web framework.   
-You can use the python script below, which uses Flask to take input from a web browser and then uses that input to set a Raspberry Pi pin either HIGH or LOW. You could create this script and save it as server.py.
+
+First, you need to install [Flask](https://pypi.org/project/Flask/) onto your Pi for this to work.
+
+**Wait, how do I install Flask?**
+
+```
+sudo pip3 install flask
+```
+
+or
+
+```
+sudo apt install python3-flask
+```
+
+**What kind of Python script should I create?**
+
+To create a server, you can use the python script below. It uses Flask to take input from a web browser and then uses that input to set a Raspberry Pi pin either HIGH or LOW. You could create this script and save it as server.py.
 
 ```python
 from flask import Flask
@@ -174,21 +191,9 @@ def digital_write(pin_name, state):
     return 'Something went wrong'
 ```
 
-You also need to install [Flask](https://pypi.org/project/Flask/) onto your Pi for this to work.
+**How do I get this Python script to run as a server on the internet?**
 
-### **Wait, how do I install Flask?**
-
-```
-sudo pip3 install flask
-```
-
-or
-
-```
-sudo apt install python3-flask
-```
-
-Then, start the server by typing the commands below (into your Terminal, assuming you are logged into your Pi). We're assuming your code is in a file on your Pi called `server.py`. The `--host=0.0.0.0` in the command below means that your Flask instance (on your Pi) will listen on whatever IP addresses it has, instead of just for connections from itself, which is the default for testing. 
+Finally (assuming you've installed Flask in your Pi), start the server by typing the commands below (into your Terminal, assuming you are logged into your Pi). We're assuming your code is in a file on your Pi called `server.py`. The `--host=0.0.0.0` in the command below means that your Flask instance (on your Pi) will listen on whatever IP addresses it has, instead of just for connections from itself, which is the default for testing. 
 
 ```
 export FLASK_APP=server.py
