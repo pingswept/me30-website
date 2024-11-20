@@ -43,7 +43,7 @@ Use [this survey](https://tufts.qualtrics.com/jfe/form/SV_0cAixyzuN8ok4br) to in
 * For portable power, Nolop has 5 V batteries (for the Raspberry Pis) and 9 V and 11 V batteries (for motors).
 * See the [Raspberry Pi setup](http://andnowforelectronics.com/notes/pi-setup/) page to learn how to control your Pi via serial cable and the Internet.  
 * See the [servers and clients](http://andnowforelectronics.com/notes/servers/) page to learn how to coax your Pi into sending and receiving data through the Internet.
-* See the [client and server setup](http://andnowforelectronics.com/notes/demo-videos/#client-and-server-setup) demo video that walks through the code for Raspberry Pis and Arduinos as clients and servers
+* See the [client and server setup](http://andnowforelectronics.com/notes/demo-videos/#client-and-server-setup) demo video that walks through the code for Raspberry Pis as clients and servers (it also shows Arduino code from previous semesters, but you should ignore that)
 * See the [Internet](http://andnowforelectronics.com/notes/internet/) page to find out how IP addresses work.
 
 
