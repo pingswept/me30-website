@@ -14,8 +14,8 @@ Projects 5 and 6 are, in a sense, one mega-project. In the first part, P5, you a
 
 This is a relatively constrained project compared to the vast open field of P4. Your task is to build a robot that can travel up a ramp, controlled remotely by you.
 
-* Your robot should fit in a circle 45 cm in diameter.
-* Your robot should be less than 30 cm tall.
+* Your robot should fit in a circle 18 inches in diameter.
+* Your robot should be less than 12 inches tall.
 * Your robot should be able to ascend the ramp without falling off the side.
 * You should not touch your robot during its adventures. This probably means that your robot should be remote controlled.
 * You should not use an RC car controller. This probably means that your robot should be controlled through wifi from a laptop or phone.
@@ -23,7 +23,7 @@ This is a relatively constrained project compared to the vast open field of P4. 
 * Unlike previous years, your robot does NOT need to turn in arbitrary directions. It should be optimized for straight ramp ascension.
 * Note: It would be a good idea to focus on making your robot drive effectively before you worry about any higher level mechanics or control through the internet.
 
-In class on the due date, we will test drive the robots through a basic course-- a 45 cm wide, 30 cm tall doorway and a ramp. If your robot meets the requirements above, it will do fine. The rough specifications of the ramp are shown in the picture below. Two identical ramps will be available in Nolop for testing.
+In class on the due date, we will test drive the robots through a basic course-- a 18 inch wide, 12 inch tall doorway and a ramp. If your robot meets the requirements above, it will do fine. The rough specifications of the ramp are shown in the picture below. Two identical ramps will be available in Nolop for testing.
 
 ![P5 ramp diagram](/img/ramp.png)
 
