@@ -27,7 +27,7 @@ In class on the due date, we will test drive the robots through a basic course--
 
 ![P5 ramp diagram]
 
-**Project planning resource:** We suggest discussing this [list of P5 planning questions](https://docs.google.com/document/d/1ulQfKKEcXGVL5VZVITyimeE2d2Y40JnkMOGGLtVdCfo/edit?usp=sharing) with your team. 
+**Project planning resource:** We suggest discussing this [list of P5 planning questions](https://tufts.box.com/s/hs2supj34cp4mar33w4fsitflc4m4o6c) with your team. 
 
 ### Team options for projects 5 and 6
 
