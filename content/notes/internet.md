@@ -17,7 +17,7 @@ So your computer sends off the UDP packet saying, "Hey, where can I find [andnow
 
 But again, despite the site's worldwide popularity, Comcast has no idea where to find it, so it makes a request to the authoritative name server for all the domain names that end in .com. If Comcast's server didn't know where to find that server, it could ask one of the 13 root name servers; those servers' addresses are hard-coded into the Comcast server's memory, but Comcast has seen bajillions of requests for .com addresses before, so it surely has the .com name server address cached.
 
-Finally, the .com server sends Comcast over to the authoritative server for andnowforelectronics.com, which is a server run by a domain name registrar in Paris, France, called gandi.net. Their name server, ns1.gandi.net, at long last, answers the question! They do this because I paid them to register the domain name and provide these DNS services, and they know the right IP address because I typed it into their website last summer.
+Finally, the .com server sends Comcast over to the authoritative server for andnowforelectronics.com, which is a server run by a domain name registrar in Paris, France, called gandi.net. Their name server, ns1.gandi.net, at long last, answers the question! They do this because I paid them to register the domain name and provide these DNS services, and they know the right IP address because I typed it into their website when I started this course.
 
 Here's what the Gandi name server sends back:
 
