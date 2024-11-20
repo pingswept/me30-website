@@ -25,7 +25,7 @@ This is a relatively constrained project compared to the vast open field of P4. 
 
 In class on the due date, we will test drive the robots through a basic course-- a 45 cm wide, 30 cm tall doorway and a ramp. If your robot meets the requirements above, it will do fine. The rough specifications of the ramp are shown in the picture below. Two identical ramps will be available in Nolop for testing.
 
-![P5 ramp diagram](ramp.png)
+![P5 ramp diagram](/img/ramp.png)
 
 **Project planning resource:** We suggest discussing this [list of P5 planning questions](https://tufts.box.com/s/hs2supj34cp4mar33w4fsitflc4m4o6c) with your team. 
 
