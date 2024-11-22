@@ -50,16 +50,16 @@ draft: false
 |:----:|:-----:|--------------------------------------------|-------------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------|
 |  12    | 11/18 | P4 reflection; Project 5 intro       | P4 demo day |       |   [P4](http://andnowforelectronics.com/logistics/projects)  |
 |     | 11/20 | How does the internet work?               |   P5 planning              |  [Internet](http://andnowforelectronics.com/notes/internet/)     |      |
-|  13  | 11/25 | Client/server troubleshooting               |   P5 Q & A              |  [Servers and clients](http://andnowforelectronics.com/notes/servers/)     |      |
+|  13  | 11/25 | Oscilloscopes               |   Oscilloscope sim; P5 Q & A              |  [Servers and clients](http://andnowforelectronics.com/notes/servers/)     |      |
 |      | 11/27 | NO CLASS     | (Thanksgiving)  |           |        |
-|  14  | 12/2 | Oscilloscopes  |  Oscilloscope simulation     |               |    |
+|  14  | 12/2 | Pi challenges  |  P5 work time     |               |    |
 |     | 12/4  | P5 reflection  |   P5 demo day  |          |   [P5](http://andnowforelectronics.com/logistics/projects)       |
 |  15    | 12/11  | Career trajectories, P6 intro  |  P6 Q & A   |                                           |         |
-|  (16)  | 12/17 |   Wendell 10:30 section        |       |             |[P6 showcase, 3:30pm](http://andnowforelectronics.com/logistics/projects)|
-|  (16)  | 12/18 |   Wendell 9:00 section        |       |             |[P6 showcase, 2:00pm](http://andnowforelectronics.com/logistics/projects)|
-|  (16)  | 12/18 |   Stafford 3:00 section        |       |             |[P6 showcase, 3:30pm](http://andnowforelectronics.com/logistics/projects)|
+|  (16)  | 12/17 |   3:30pm - P6 demo option 1*        |       |             |[P6 showcase, 3:30pm](http://andnowforelectronics.com/logistics/projects)|
+|  (16)  | 12/18 |   2:00pm - P6 demo option 2*       |       |             |[P6 showcase, 2:00pm](http://andnowforelectronics.com/logistics/projects)|
+|  (16)  | 12/18 |   3:30pm - P6 demo option 3*        |       |             |[P6 showcase, 3:30pm](http://andnowforelectronics.com/logistics/projects)|
 
-
+* All teams are welcome to demo their Project 6 at any of the demo sessions on 12/17 or 12/18. If you finish earlier, and you can find another team to demo with you, you can come to Nolop for an early demo on 12/13, 3pm or 12/16, 3pm.
 
 ## Lab Calendar
 
@@ -76,7 +76,8 @@ draft: false
 | 8 | 11/4-11/7 | P4 help |
 | 9 | 11/11-11/14 | P4 help (Both Mon. and Tues. labs meet on Tues. 11/12) |
 | 10 | 11/18-11/21 | Raspberry Pi set-up and challenges |
-|  | 11/25-12/4 | Labs shift to drop-in help sessions open to all |
+|  | 11/25-11/26 | No labs (Thanksgiving week) |
+|  | 12/2-12/10 | Labs shift to drop-in help sessions open to all |
 
 
 
