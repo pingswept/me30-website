@@ -118,7 +118,7 @@ This week we'll be digging into the details of PCB design for more complex circu
 - [H-bridge motor controller](http://andnowforelectronics.com/notes/h-bridges/)
 - [Motors](http://andnowforelectronics.com/notes/motors/)
 
-**Optional additional reading for Week 8:**
+**Textbook reading for Week 8:**
 - Note that both of our optional course textbooks are available online for free from Tisch Library
 - “Chapter 15: Motors” (pgs. 933-945) in Practical Electronics for Inventors (Scherz & Monk) (available here from [Tisch Library online](https://tufts-primo.hosted.exlibrisgroup.com/permalink/f/k87dab/TN_cdi_askewsholts_vlebooks_9781259587559))
 - “Chapter 6: Eeny, Meeny, Miny, Motor: Options for Creating and Controlling Motion” (pgs. 123-181) in [Making Things Move](https://tufts-primo.hosted.exlibrisgroup.com/permalink/f/k87dab/TN_cdi_askewsholts_vlebooks_9780071741682) (Dustyn Roberts)
@@ -165,7 +165,7 @@ Thanks for your creativity and resourcefulness on Project 2 games! Now that you'
 - [KB2040 challenges](http://andnowforelectronics.com/notes/kb2040-challenges/)
 - [H-bridge motor controller](http://andnowforelectronics.com/notes/h-bridges/)
 
-**Optional reading for Week 6:**
+**Textbook reading for Week 6:**
 - “Chapter 6: Eeny, Meeny, Miny, Motor: Options for Creating and Controlling Motion” (pgs. 123-181) in [Making Things Move](https://tufts-primo.hosted.exlibrisgroup.com/permalink/f/k87dab/TN_cdi_askewsholts_vlebooks_9780071741682) (Dustyn Roberts), available online to Tufts students from Tisch Library
 - Adafruit's guide ["Exploring Your First Circuit Python Program"](https://learn.adafruit.com/welcome-to-circuitpython/exploring-your-first-circuitpython-program)
 
@@ -195,7 +195,7 @@ Thanks for your hard work learning KiCad for Project 1. Looking forward to seein
 - [Microcontrollers](http://andnowforelectronics.com/notes/microcontrollers/)
 - [KB2040 hardware](http://andnowforelectronics.com/notes/kb2040-hardware/)
 
-**Optional reading for Week 5:**
+**Textbook reading for Week 5:**
 - “Section 13.5: Interfacing with Microcontrollers” (pgs. 874-895) in Practical Electronics for Inventors (Scherz & Monk) (available here from [Tisch Library online](https://tufts-primo.hosted.exlibrisgroup.com/permalink/f/k87dab/TN_cdi_askewsholts_vlebooks_9781259587559))
 - Adafruit’s Guide to CircuitPython for KB2040: (https://learn.adafruit.com/adafruit-kb2040/circuitpython)
 
@@ -227,7 +227,7 @@ Anyone is welcome to stop by [office hours](http://andnowforelectronics.com/logi
 - [PCB design](http://andnowforelectronics.com/notes/pcb/), 
 - [Low power/high power](http://andnowforelectronics.com/notes/low-power-high-power/)
 
-**Optional reading for Week 4:**
+**Textbook reading for Week 4:**
 - "Transistors" section of Scherz & Monk textbook (available here from [Tisch Library online](https://tufts-primo.hosted.exlibrisgroup.com/permalink/f/k87dab/TN_cdi_askewsholts_vlebooks_9781259587559))
 
 ## Week 3: Sunday, 9/16/24
@@ -248,7 +248,7 @@ This is the week that Project 1 work picks up, with the introduction of (free!) 
 - [PCB design](http://andnowforelectronics.com/notes/pcb/)
 - [KiCad demo videos](http://andnowforelectronics.com/notes/demo-videos/#kicad-for-project-1)
 
-**Optional reading for Week 3:**
+**Textbook reading for Week 3:**
 - PCB design section of Scherz & Monk textbook (available here from [Tisch Library online](https://tufts-primo.hosted.exlibrisgroup.com/permalink/f/k87dab/TN_cdi_askewsholts_vlebooks_9781259587559)
 
 ## Week 2: Sunday, 9/8/24
