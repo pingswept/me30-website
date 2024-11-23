@@ -11,15 +11,15 @@ draft: false
 Thanks for your creative and hard work on Project 4. We enjoyed playing your games, seeing your collaboration and support for each other, and noting how much progress you've made with H-bridges and microcontroller input/output. Now we're on to the last phase of the course, which focuses on mobile robots (i.e., internet-connected electromechanical systems). 
 
 **Course housekeeping:**
-- PLEASE KEEP TRACK OF KIT COMPONENTS, ESPECIALLY YOUR MOTORS, POWER SUPPLIES, AND OTHER NON-CONSUMABLES! We must collect all your components (except those you've soldered onto your PCBs) at the end of the semester so that ME 30 is possible again next year. You'll turn in your kits on the day you demo your final project (Project 6).
-- No labs the week of 11/25.
-- Labs shift to drop-in help sessions staring on 12/2. Any student can drop in to any lab time. Times are 6-9pm, Mon-Thur, 12/2-12/5, and Mon-Tue, 12/9-12/10.
+- PLEASE KEEP TRACK OF KIT COMPONENTS, ESPECIALLY YOUR MOTORS, POWER SUPPLIES, AND OTHER NON-CONSUMABLES! We must collect all your components (except those you've soldered onto your PCBs) at the end of the semester so that ME 30 is possible again next year. **You'll turn in your kits immediately after you demo P6 robot.**
+- **No labs the week of 11/25.**
+- Labs shift to drop-in help sessions starting on 12/2. Any student can drop in to any lab time. Times are 6-9pm, Mon-Thur, 12/2-12/5, and Mon-Tue, 12/9-12/10.
 - Project 5 and 6 teams:  If you requested that Brandon and Kristen form a team for you, we'll have that information to you by Monday, 11/25.
-- **Mark your calendar for Project 6 (final project) demo sessions** Project 6 will be announced and explained on the last day of class, Monday Dec. 9. In this final project, you'll modify your Project 5 robot to deliver a payload under specific diabolical constraints. Your final deliverable for Project 6 is to demonstrate your robot (and then return your electronics kit) during one of our scheduled final demo sessions on Tuesday, 12/17 (3:30pm) or Wednesday, 12/18 (2:00 or 3:30pm). These are the university-scheduled times scheduled for ME 30 finals. All teams, from all ME 30 sections, are welcome at any of these demo sessions. However, if you finish earlier, and you can find another team to demo with you, you can come to Nolop for an early demo on Friday, 12/13, 3pm or Monday, 12/16, 3pm.
+- **Dates for Project 6 (final project) demo sessions** Project 6 will be announced and explained on the last day of class, Monday Dec. 9. In P6, you'll modify your P5 robot to deliver a payload under specific diabolical constraints. Your final deliverable is to demonstrate your robot (and then return your electronics kit) during one of our scheduled final demo sessions on Tuesday, 12/17 (3:30pm) or Wednesday, 12/18 (2:00 or 3:30pm). These are the university-scheduled times scheduled for ME 30 finals. All teams, from all ME 30 sections, are welcome at any of these demo sessions. However, if you finish P6 earlier and you can find another team to demo with you, you can come to Nolop for an early demo on Friday, 12/13, 3pm or Monday, 12/16, 3pm.
 
 **Class this week and P5 due next week:**
-- On Monday, 11/25, we'll be working on PWM (for variable motor speed) with the Raspberry Pi and exploring the oscilloscope as a de-bugging tool. We'll also do Project 5 Q & A, so bring your questions about robot design and RPi programming.
-- Nothing is due during Thanksgiving week, but **the Project 5 due date is coming up soon: next Wednesday, Dec. 4,** with required robot demos during class.
+- On Monday, 11/25, we'll explore the oscilloscope as a de-bugging tool. We'll apply it to PWM (for variable motor speed) signals on the Raspberry Pi. We'll also do Project 5 Q & A, so bring your questions about robot design and RPi programming.
+- Nothing is due during Thanksgiving week, but **the Project 5 due date is coming up soon: next Wednesday, Dec. 4, with required robot demos during class.**
 
 **Learning goals for Week 13:**
 - Describe how the internet works.
