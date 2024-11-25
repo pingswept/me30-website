@@ -151,9 +151,7 @@ while True:
     time.sleep(3)
     pin.ChangeDutyCycle(100) # changes the duty cycle to 100% (full power)
     time.sleep(3)
-    pin.stop()               # ends the PWM function of the pin
-    GPIO.cleanup()           # the cleanup() function resets the mode of all pins to input, 
-                                # to avoid leaving some pins as output, which can damage the Pi
+
 ```
 
 ### **What if I want to control pins through a web browser?**
