@@ -466,6 +466,46 @@ Note that you will need the adafruit_motor library. All CircuitPython libraries 
 4. **Pushbutton for input; piezo buzzer for output.** Use a pushbutton to send either 3.3 V or 0 V to a digital input pin on your KB2040. Use that button signal to trigger the sound of a buzzer. Power the buzzer with PWM. Explore different frequency and duty cycle values, and see how that changes the sound of the button.
 
 
+## 28. Oscilloscopes and PWM signals (Nov. 25)
+
+Consider the following Python code, which powers pin 12 on a Raspberry Pi with the pulse-width modulation (PWM) protocol. The goal of this code is to gradually increase the speed of a motor, 2 seconds per speed increment, until it is running at full speed.
+
+<pre class="code">
+import RPi.GPIO as GPIO
+GPIO.setmode(GPIO.BOARD)
+GPIO.setup(12, GPIO.OUT)
+
+pin12 = GPIO.PWM(12, 500)  # channel=12 frequency=500Hz
+
+    while True:
+        pin12.start(0)  # initial duty cycle of 0
+        for i in range(0, 11):
+            pin12.ChangeDutyCycle(10*i)
+            time.sleep(2)
+        pin12.stop
+</pre>
+
+Suppose the code doesn’t seem to be making the motor behave as predicted.
+
+You decide to troubleshoot the code by monitoring the signal at pin 12 with an oscilloscope.
+
+An oscilloscope is a tool for measuring electrical signals, like a multimeter, but it keeps a record of voltage and current over time. And it displays that record graphically, on a plot of voltage (or current) vs time. It can detect signals at very small time increments, down to milliseconds.
+
+(1) To see the distinct PWM cycles in the oscilloscope window, to what horizontal and vertical scale should you set the window? In other words, how much time per horizontal division and how many volts per vertical division? Let’s say you want to see 10 distinct PWM cycles displayed on the window at any given point in time.
+
+(2) Draw a quick sketch of what the signal should look like on the scope window when the for loop in the code is at i = 5.
+
+(3) Use the oscilloscope simulator to represent what the signal will look like on the scope at i = 5. You’ll need to adjust both the signal generator (the instrument in the top half of the screen) and the scope settings.
+https://www.pzdsp.com/elab/virtual_oscilloscope.html
+
+
+## 29. Project 5 planning, Q & A, and Raspberry Pi Flask set-up (Nov. 25)
+
+(a) Discuss these Project 5 planning questions with your team: https://tufts.box.com/s/hs2supj34cp4mar33w4fsitflc4m4o6c
+
+(b) Use this [shared doc](https://tinyurl.com/ME30questiondoc) to post questions about Project 5.
+
+(c) Make sure you can complete [Raspberry Pi challenges #7, #8, and #9](http://andnowforelectronics.com/notes/pi-challenges/)
 
 
 
