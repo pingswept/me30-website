@@ -491,7 +491,7 @@ You decide to troubleshoot the code by monitoring the signal at pin 12 with an o
 
 An oscilloscope is a tool for measuring electrical signals, like a multimeter, but it keeps a record of voltage and current over time. And it displays that record graphically, on a plot of voltage (or current) vs time. It can detect signals at very small time increments, down to milliseconds.
 
-(1) To see the distinct PWM cycles in the oscilloscope window, to what horizontal and vertical scale should you set the window? In other words, how much time per horizontal division and how many volts per vertical division? Let’s say you want to see 10 distinct PWM cycles displayed on the window at any given point in time.
+(1) To see the distinct PWM cycles in the oscilloscope window, to what horizontal and vertical scale should you set the window? Let’s say you want to see 5 distinct PWM cycles displayed on the window at any given point in time. What should be the settings for time per horizontal division and volts per vertical division? 
 
 (2) Draw a quick sketch of what the signal should look like on the scope window when the for loop in the code is at i = 5.
 
