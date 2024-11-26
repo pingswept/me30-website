@@ -29,13 +29,22 @@ In class on the due date, we will test drive the robots through a basic course--
 
 **Project planning resource:** We suggest discussing this [list of P5 planning questions](https://tufts.box.com/s/hs2supj34cp4mar33w4fsitflc4m4o6c) with your team. 
 
-### Batteries for projects 5 and 6
+### **Batteries for projects 5 and 6**
 
-* For portable power, Nolop has 5 V batteries (for the Raspberry Pis) and 9 V and 11 V batteries (for motors).
+For portable power, Nolop has 5 V batteries (for the Raspberry Pis) and 9 V and 11 V batteries (for motors).
 
 ![battery safety](/img/11volt_battery_safety.jpg)
 
-### More details for projects 5 and 6
+### **H-bridges for projects 5 and 6**
+
+The goal is for you to use your Project 3 H-bridge PCBs for your robot motor control. However, as a last resort, if no one on your team can get their P3 PCBs to work, you can find a dual-H-bridge PCB (called an L298 motor driver) in the Nolop store.
+
+Please see the sketch below for details on how to wire the L298 dual H-bridge board.
+
+![L298 wiring](/img/L298_Wiring.jpg)
+
+
+### **More details for projects 5 and 6**
 
 * See the [Raspberry Pi setup](http://andnowforelectronics.com/notes/pi-setup/) page to learn how to control your Pi via serial cable and the Internet.
 * See the [Raspberry Pi programming](http://andnowforelectronics.com/notes/pi-programming/) page for snippets of Python code to control the pins on your Pi. 
@@ -45,9 +54,9 @@ In class on the due date, we will test drive the robots through a basic course--
 
 ### Team options for projects 5 and 6
 
-**Option 1 – Work in a team of 2 or 3 chosen by you**
+Option 1 – Work in a team of 2 or 3 chosen by you
 
-**Option 2 – Work in a team of 2 or 3 assigned to you by Kristen and Brandon**
+Option 2 – Work in a team of 2 or 3 assigned to you by Kristen and Brandon
 We’ll pool all the people who would like to be assigned a partner and team you up. We might need to make a team of 3 depending on who is available. 
 
 Use [this survey](https://tufts.qualtrics.com/jfe/form/SV_0cAixyzuN8ok4br) to indicate your chosen teaming option (list your teammates or indicate you'd like to be placed on a team).
