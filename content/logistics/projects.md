@@ -23,11 +23,25 @@ This is a relatively constrained project compared to the vast open field of P4. 
 * Unlike previous years, your robot does NOT need to turn in arbitrary directions. It should be optimized for straight ramp ascension.
 * Note: It would be a good idea to focus on making your robot drive effectively before you worry about any higher level mechanics or control through the internet.
 
-In class on the due date, we will test drive the robots through a basic course-- a 18 inch wide, 12 inch tall doorway and a ramp. If your robot meets the requirements above, it will do fine. The rough specifications of the ramp are shown in the picture below. Two identical ramps will be available in Nolop for testing.
+In class on the due date, we will test drive the robots through a basic course-- a 18 inch wide, 12 inch tall doorway and a ramp. If your robot meets the requirements above, it will do fine. The rough specifications of the ramp are shown in the picture below. The ramp is available in Nolop for testing.
 
 ![P5 ramp diagram](/img/ramp.png)
 
 **Project planning resource:** We suggest discussing this [list of P5 planning questions](https://tufts.box.com/s/hs2supj34cp4mar33w4fsitflc4m4o6c) with your team. 
+
+### Batteries for projects 5 and 6
+
+* For portable power, Nolop has 5 V batteries (for the Raspberry Pis) and 9 V and 11 V batteries (for motors).
+
+![battery safety](/img/11volt_battery_safety.jpg)
+
+### More details for projects 5 and 6
+
+* See the [Raspberry Pi setup](http://andnowforelectronics.com/notes/pi-setup/) page to learn how to control your Pi via serial cable and the Internet.
+* See the [Raspberry Pi programming](http://andnowforelectronics.com/notes/pi-programming/) page for snippets of Python code to control the pins on your Pi. 
+* See the [servers and clients](http://andnowforelectronics.com/notes/servers/) page to learn how to coax your Pi into sending and receiving data through the Internet.
+* See the [client and server setup](http://andnowforelectronics.com/notes/demo-videos/#client-and-server-setup) demo video that walks through the code for Raspberry Pis as clients and servers (it also shows Arduino code from previous semesters, but you should ignore that)
+* See the [Internet](http://andnowforelectronics.com/notes/internet/) page to find out how IP addresses work.
 
 ### Team options for projects 5 and 6
 
@@ -37,15 +51,6 @@ In class on the due date, we will test drive the robots through a basic course--
 We’ll pool all the people who would like to be assigned a partner and team you up. We might need to make a team of 3 depending on who is available. 
 
 Use [this survey](https://tufts.qualtrics.com/jfe/form/SV_0cAixyzuN8ok4br) to indicate your chosen teaming option (list your teammates or indicate you'd like to be placed on a team).
-
-### More details for projects 5 and 6
-
-* For portable power, Nolop has 5 V batteries (for the Raspberry Pis) and 9 V and 11 V batteries (for motors).
-* See the [Raspberry Pi setup](http://andnowforelectronics.com/notes/pi-setup/) page to learn how to control your Pi via serial cable and the Internet.  
-* See the [servers and clients](http://andnowforelectronics.com/notes/servers/) page to learn how to coax your Pi into sending and receiving data through the Internet.
-* See the [client and server setup](http://andnowforelectronics.com/notes/demo-videos/#client-and-server-setup) demo video that walks through the code for Raspberry Pis as clients and servers (it also shows Arduino code from previous semesters, but you should ignore that)
-* See the [Internet](http://andnowforelectronics.com/notes/internet/) page to find out how IP addresses work.
-
 
 ## Project 4: Build an electromechanical game
 
