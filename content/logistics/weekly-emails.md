@@ -6,6 +6,31 @@ draft: false
 
 - - -
 
+## Week 14: Sunday, 12/1/24
+
+**Course housekeeping:**
+- PLEASE KEEP TRACK OF KIT COMPONENTS, ESPECIALLY YOUR MOTORS, POWER SUPPLIES, AND OTHER NON-CONSUMABLES. We must collect all your components (except those you've soldered onto your PCBs) at the end of the semester so that ME 30 is possible again next year. You'll turn in your kits on the day you demo your Project 6 robot.
+- Labs shift to drop-in help sessions starting on 12/2. Any student can drop in to any lab time. Times are 6-9pm, Mon-Thur, 12/2-12/5, and Mon-Tue, 12/9-12/10.
+- Dates for final project demo sessions: In Project 6, you'll modify your P5 robot to deliver a payload under specific diabolical constraints. Your final deliverable for ME 30 is to demonstrate your P6 robot (and then return your electronics kit) during one of our scheduled final demo sessions on Tuesday, 12/17 (3:30pm) or Wednesday, 12/18 (2:00 or 3:30pm). These are the university-scheduled times scheduled for ME 30 finals. All teams, from all ME 30 sections, are welcome at any of these demo sessions. However, if you finish P6 earlier and you can find another team to demo with you, you can come to Nolop for an early demo on Friday, 12/13, 3pm or Monday, 12/16, 3pm.
+
+**Things due in Week 14:**
+- [Project 5](http://andnowforelectronics.com/logistics/projects/) robots are due at class time this Wednesday, Dec. 4. Please arrive with your robot for testing on the ramp during class time. 
+- Project 5 documentation is due by 11:59pm Wednesday night, on Canvas and in the reflection on Qualtrics (linked from Canvas).
+
+**Rechargeable battery safety:**
+- When using a 11.1 V rechargeable battery, please keep the leads disconnected from the battery unless you have clamped them into screw terminals and they have no way of shorting each other. *Do not let the battery leads touch each other when connected to the battery!!* They will short out the battery, discharge it rapidly, and create a fire hazard.
+
+**Learning goals for Week 14:**
+- Describe how the internet works.
+- Implement digital input and output on the Raspberry Pi.
+- Build an internet-connected electromechanical system.
+
+**Course website (andnowforelectronics.com) pages to study in Week 14:**
+- [Project 5 (intrepid robot) description](http://andnowforelectronics.com/logistics/projects/)
+- [Raspberry Pi Programming](http://andnowforelectronics.com/notes/pi-programming/)
+- [Raspberry Pi Challenges](http://andnowforelectronics.com/notes/pi-challenges/)
+- [Servers and Clients](http://andnowforelectronics.com/notes/servers/)
+
 ## Week 13: Saturday, 11/23/24
 
 Thanks for your creative and hard work on Project 4. We enjoyed playing your games, seeing your collaboration and support for each other, and noting how much progress you've made with H-bridges and microcontroller input/output. Now we're on to the last phase of the course, which focuses on mobile robots (i.e., internet-connected electromechanical systems). 
