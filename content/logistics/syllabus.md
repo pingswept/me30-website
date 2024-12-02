@@ -13,6 +13,8 @@ Kristen: Fridays, 2:15-4:15pm
 
 Brandon: is usually in Nolop 9 AM to 5 PM, unless he's teaching class or in a meeting, or it's a weekend
 
+Learning Assistants: 6-9pm on 12/2-12/5, and 12/9-12/10.
+
 Please reach out to an LA or an instructor if you want to make a separate appointment for help.
 
 ## Course description
