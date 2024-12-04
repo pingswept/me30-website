@@ -13,13 +13,13 @@ Projects 5 and 6 are, in a sense, one mega-project. In the first part, P5, you a
 
 **Due during your final exam block, SEC Atrium**
 
-Final demo sessions on Tuesday, 12/17 (3:30pm) or Wednesday, 12/18 (2:00 or 3:30pm). These are the university-scheduled times scheduled for ME 30 finals.
+Final demo sessions are on Tuesday, 12/17 (3:30pm) or Wednesday, 12/18 (2:00 or 3:30pm). These are the university-scheduled times scheduled for ME 30 finals.
 
 All teams, from all ME 30 sections, are welcome at any of these demo sessions. However, if you finish P6 earlier and you can find another team to demo with you, you can come to Nolop for an early demo on Friday, 12/13, 3pm or Monday, 12/16, 3pm.
 
 ### The challenge ###
 
-Your final challenge is to modify your robot's hardware and software so that it can collaborate with another robot to roll a tube (cardboard, diameter of 3 in) up the pair of ramps as quickly as possible without the tube falling off either ramp. It is the shared responsibility of both robots to control their speed and the tube angle to shepherd the tube to the top of the ramp.
+Your final challenge is to modify your robot's hardware and software so that it can collaborate with another robot to roll a tube (plastic, diameter of 3 in) up the pair of ramps as quickly as possible without the tube falling off either ramp. It is the shared responsibility of both robots to control their speed and the tube angle to shepherd the tube to the top of the ramp.
 
 You will know the IP address of the robot you are collaborating with, but your robot should attempt to work with any one of the 40 other robots in the class. On the day of the trials, you can try to work with multiple different robots. The most successful robot is the robot that can work with the largest variety of peers.
 
