@@ -7,6 +7,152 @@ draft: false
 
 Projects 5 and 6 are, in a sense, one mega-project. In the first part, P5, you and your team build a robot. In the second part, P6, you and your team modify the robot to deliver a payload under specific diabolical constraints.
 
+## Requirements for project 6
+### Modify your intrepid robots to roll a tube up a ramp in pairs
+
+**Due during your final exam block, SEC Atrium**
+
+Final demo sessions are on Tuesday, 12/17 (3:30pm) or Wednesday, 12/18 (2:00 or 3:30pm). These are the university-scheduled times scheduled for ME 30 finals.
+
+All teams, from all ME 30 sections, are welcome at any of these demo sessions. However, if you finish P6 earlier and you can find another team to demo with you, you can come to Nolop for an early demo on Friday, 12/13, 3pm or Monday, 12/16, 3pm.
+
+### The challenge ###
+
+Your final challenge is to modify your robot's hardware and software so that it can collaborate with another robot to roll a tube (plastic, diameter of 3 in) up the pair of ramps as quickly as possible without the tube falling off either ramp. It is the shared responsibility of both robots to control their speed and the tube angle to shepherd the tube to the top of the ramp.
+
+You will know the IP address of the robot you are collaborating with, but your robot should attempt to work with any one of the 40 other robots in the class. On the day of the trials, you can try to work with multiple different robots. The most successful robot is the robot that can work with the largest variety of peers.
+
+* Your robot should still comply with all the constraints from P5.
+* Your robot should receive only one signal from a human: the click of a button to begin operation. After starting, your robot should operate autonomously.
+* Your robot should respond to two URLs: `/start/<delay>` and `/target/<speed>`. (See [URL details](/logistics/projects/#url-details) below.)
+* Your robot should only make requests where `delay` is an integer in the range 1-10 seconds, and `speed` is an integer in the range 1-1000 mm/second.
+* Your robot should never send HTTP requests at a rate of more than 10 Hz, i.e. wait at least 100 ms between requests.
+
+### URL details ###
+
+For `/start/<delay>`, your robot should respond `ok` or `no`. After responding `ok`, it should start driving in `delay` seconds. If your robot is not ready, or it has already agreed to a start time, or it is driving, it should respond `no`.
+
+For `/target/<speed>`, your robot should respond `ok` or `no`. After responding `ok`, it should try to ascend the ramp at a rate of `speed` mm/s.
+
+As your robot ascends the ramp, if your robot detects that the tube is tilting or sliding off, your robot can suggest that its partner speed up or slow down by requesting new target speeds. Your robot should listen for new target speeds from its partner and should respond in a way to increase the chances of getting the tube up the ramp quickly. Note that the robot is required to operate autonomously after the start; you cannot have a human in the feedback loop, mashing buttons in desperation.
+
+![P6 ramps diagram](/img/ramps-with-tube.png)
+
+### Recommended work plan ###
+
+Project 6 is challenging. We suggest that you **break it down into the following sequence of more manageable tasks.** Each task involves adding a new capability to your robot until it can achieve all of the project requirements.
+
+1. Get your robot to drive up a ramp autonomously. Make sure it can handle the weight of the tube while driving. For this task, be sure to consider mechanical solutions. You might add guards or guides to your robot that keep it from veering off the edges of the ramp; you might swap out a swervy caster wheel for a wheel-and-axle assembly that tracks straighter; or something else like that. 
+2. Make decisions about driving speed. Figure out how commands (voltage or PWM) to your robot's motors translate into its linear speed up the ramp (in mm/sec). Also, what is the min/max driving speed for your robot? What kind of start delay works for your robot?
+3. Get your robot to run Flask and start at a target `speed` (in mm/sec) after a specific `delay` (in seconds) based on receiving those values in HTTP requests (i.e., focus on running a server.py script in Flask with @app.route to functions).
+4. Get your robot to send `delay` and `speed` requests to a partner (i.e., add code that now also can send HTTP requests).
+5. Decide how to run both of these simultaneously (see [Software Architecture](/logistics/projects/#software-architecture) details below.)
+6. Get your robot to be able to check if the tube is stable (i.e., not sliding off at an angle), perhaps with buttons or other sensors. Understand how the speeds of your robot and your partner's robot should change based on information about the tube. (e.g., If you sense the tube tilting toward your partner, do you send a target speed request to your partner to speed up or slow down? Do you change your own speed? What if you're alread driving at min or max speed?)
+7. Get your robot to be able to receive target `speed` and `delay` requests while driving.
+
+The key to this method is to focus on one new "robot superpower" at a time. Don't try to add them all at once because each capability influences the others. 
+
+### Minimum viable product ###
+
+If you're overwhelmed by the details, start by aiming to:
+* Get your robot to drive up a ramp autonomously.
+* Decide the best speed for your robot.
+* Tell your partner what speed and start delay you need.
+* On the count of three, start your robot.            
+
+### Software architecture ###
+
+Assuming your intrepid robot can drive up the ramp with enough force left to roll the tube, you should figure out how to set up your Pi so that it can collaborate effectively with the robot on the other ramp. The major challenge is that a Python program can only do one thing at a time, so if your Flask server is listening to or responding to a request from another robot, it can't do anything else. The exciting thing is that we have an operating system running on the Pi that allows you to run multiple processes simultaneously.
+
+Before we get into that slightly complicated arrangement, there is a simpler approach that might work, and it will probably be useful for testing.
+
+### The simpler approach ###
+
+Add two routes to Flask that look something like this.
+
+```python
+import requests # a Python library that lets us make HTTP requests of another host
+import time
+
+@app.route('/do-once')
+def do_once():
+    # (This is pseudo code)
+    speed = negotiate_target_speed_with_partner()
+    delay = negotiate_start_delay_with_partner()
+    time.sleep(delay)
+    set_motors_to_target(speed)
+
+@app.route('/control-loop')
+def control_loop():
+    # (This is pseudo code)
+    read_sensors()
+    change_PWM_based_on_sensor_data()
+    maybe_suggest_different_target_speed_to_partner()
+```
+
+If you have those two routes, you could make a webpage served from your Flask templates folder that has 2 buttons: `run_do_once` and `run_control_loop`. Then, to start, you click the `run_do_once` button, which runs the `do_once` function on your Pi. If it works, your robot starts driving.
+
+Then, you mash the `run_control_loop` button repeatedly as fast as you can. This runs the `control_loop` function on your Pi a few times a second.
+
+"BUT WAIT!" you cry in dismay, "That violates the 'only one signal from a human' requirement!" Yes, it does. The next thing to do is to modify your webpage so that it mashes the button for you repeatedly. You can ask ChatGPT about this, and it will explain about the `setInterval` method in Javascript.
+
+### A more advanced approach
+
+The simpler approach described above has the strength that it is uses the same tools we used for robot control in P5 (a single Python process running Flask, a web page sending commands to the Flask server). It has the weakness that it relies on a wifi connection for everything. If the wifi gets laggy, which is likely, your control loop won't execute reliably.
+
+The good news is that instead of triggering the `control_loop` function repeatedly through the internet, you can run it locally on your Pi, as long as you run it in a separate Python process. There are a few different ways you could do this. Here are a few.
+
+1. It's a bit hacky, but you could log in to your Pi twice in two different SSH sessions. Start Flask in one window and run something like `python3 control-loop.py` in the other. The big challenge here is figuring out how to share information, like the target speed, between the control loop and Flask server. A decent solution would be to have the server write the target speed to a file and then have the control loop read it. ChatGPT can tell you how to read and write from a file in Python. Alternatively, you could also implement a route like `@app.route('/get-target-speed')` which just retrieves the target speed from a global variable held by the Flask server.
+
+2. If you want something less brittle than 2 SSH sessions, you could [run the Flask server using Supervisor](/notes/pi-programming/#thats-cool-but-how-do-i-get-flask-to-start-itself-when-the-pi-boots). For a fully autonomous robot, you could also run your control loop using Supervisor.
+
+3. Debugging errors while starting and stopping Supervisor can be cumbersome, so while you're testing, you could also run your control loop on your laptop, as long as you communicate with the Flask process entirely via HTTP rather than files.
+
+4. There are lots of other ways to talk between Python processes, like the [Python multiprocessing module](https://docs.python.org/3/library/multiprocessing.html), [RPyC](https://rpyc.readthedocs.io/en/latest/), or [ZeroMQ](https://zeromq.org/languages/python/).
+
+### Project 6 FAQs
+
+{{< expand "0. Where do we start?" "..." >}}
+See notes above on [Recommended work plan](/logistics/projects/#recommended-work-plan).
+{{< /expand >}}
+
+{{< expand "1. How big is the tube?" "..." >}}
+3 inches in diameter, around 52 inches long
+{{< /expand >}}
+
+{{< expand "2. Will we know our partner robot ahead of time?" "..." >}}
+No. On the day of the showcase we'll make random pairings and ask you to try rolling the tube up the ramp together. If it doesn't go well, you can try again with other partners. However, the most successful robot is the one that can collaborate with the most other robots.
+{{< /expand >}}
+
+{{< expand "3. Can we make physical modifications to our partner robot?" "..." >}}
+No. 
+{{< /expand >}}
+
+{{< expand "4. Is there a way to get our Pi to run two Python scripts at the same time?" "..." >}}
+Yes. One way to do this is to log in to your Pi twice in two different SSH sessions. You can type different commands into the two the different sessions.
+
+See [A more advanced approach](/logistics/projects/#a-more-advanced-approach) above for other ideas.
+{{< /expand >}}
+
+{{< expand "5. What happens if two Pis make requests of each other at the same time?" "..." >}}
+In reality, one of those requests will be received a tiny fraction of a second before the other one. You should think about what you want your robot to do if it receives a request from a partner robot just after it has sent out its own request. Is there a way to make your robot respond differently if it "knows" it is still waiting for a response itself? 
+{{< /expand >}}
+
+{{< expand "6. Do we need advanced sensors for this project?" "..." >}}
+No, you don't. You probably need at least some buttons or switches cleverly located, but you can be successful without cameras, distance sensors, or the like.
+{{< /expand >}}
+
+{{< expand "7. When can we get help?" "..." >}}
+Regular labs have ended, but there will be extra office hours in Nolop the week of Dec. 9.
+
+<!--* Mon., 12/11 - Gabe 1:30-2:30pm, Zosia 5-7pm, Theresa 7-8pm
+* Tue., 12/12 - Anna 12:30-2:30pm, Theresa 3:30-4:30pm, Zosia 5-7pm
+* Wed., 12/13 - Zosia 1-2:30pm
+* Thu., 12/14 - Alexa 10:30-11:30am, Anna 2:30-4:30pm, Antonio 5-7pm
+* Fri. 12/15 - Rose 12-2pm, Kristen 2-5pm-->
+
+{{< /expand >}}
+
 ## Requirements for project 5
 ### Build an intrepid robot that travels up a ramp
 
