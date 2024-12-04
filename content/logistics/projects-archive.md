@@ -11,7 +11,13 @@ Projects 5 and 6 are, in a sense, one mega-project. In the first part, P5, you a
 ## Requirements for project 6
 ### Modify your intrepid robots to roll a tube up a ramp in pairs
 
-**Due Monday, December 18, 3:30 PM, SEC Atrium**
+**Due during your final exam block, SEC Atrium**
+
+Final demo sessions on Tuesday, 12/17 (3:30pm) or Wednesday, 12/18 (2:00 or 3:30pm). These are the university-scheduled times scheduled for ME 30 finals.
+
+All teams, from all ME 30 sections, are welcome at any of these demo sessions. However, if you finish P6 earlier and you can find another team to demo with you, you can come to Nolop for an early demo on Friday, 12/13, 3pm or Monday, 12/16, 3pm.
+
+### The challenge ###
 
 Your final challenge is to modify your robot's hardware and software so that it can collaborate with another robot to roll a tube (cardboard, diameter of 3 in) up the pair of ramps as quickly as possible without the tube falling off either ramp. It is the shared responsibility of both robots to control their speed and the tube angle to shepherd the tube to the top of the ramp.
 
@@ -30,10 +36,6 @@ For `/start/<delay>`, your robot should respond `ok` or `no`. After responding `
 For `/target/<speed>`, your robot should respond `ok` or `no`. After responding `ok`, it should try to ascend the ramp at a rate of `speed` mm/s.
 
 As your robot ascends the ramp, if your robot detects that the tube is tilting or sliding off, your robot can suggest that its partner speed up or slow down by requesting new target speeds. Your robot should listen for new target speeds from its partner and should respond in a way to increase the chances of getting the tube up the ramp quickly. Note that the robot is required to operate autonomously after the start; you cannot have a human in the feedback loop, mashing buttons in desperation.
-
-**BONUS: To make sure that friction is not an insurmountable obstacle, the driving surface of the ramps will be covered in grip tape.**
-
-If it's useful, we have several bins of ball bearings in Nolop that you could use to make some kind of tube roller for the front of your robot. Ball bearings may turn out to be unnecessary, but they're available if you need them.
 
 ![P6 ramps diagram](/img/ramps-with-tube.png)
 
@@ -144,11 +146,11 @@ No, you don't. You probably need at least some buttons or switches cleverly loca
 {{< expand "7. When can we get help?" "..." >}}
 Regular lab times have ended, but there are extra office hours in Nolop the week of Dec. 12:
 
-* Mon., 12/11 - Gabe 1:30-2:30pm, Zosia 5-7pm, Theresa 7-8pm
+<!--* Mon., 12/11 - Gabe 1:30-2:30pm, Zosia 5-7pm, Theresa 7-8pm
 * Tue., 12/12 - Anna 12:30-2:30pm, Theresa 3:30-4:30pm, Zosia 5-7pm
 * Wed., 12/13 - Zosia 1-2:30pm
 * Thu., 12/14 - Alexa 10:30-11:30am, Anna 2:30-4:30pm, Antonio 5-7pm
-* Fri. 12/15 - Rose 12-2pm, Kristen 2-5pm
+* Fri. 12/15 - Rose 12-2pm, Kristen 2-5pm-->
 
 As always, please reach out to an instructor if you want to make a separate appointment for help.
 {{< /expand >}}
