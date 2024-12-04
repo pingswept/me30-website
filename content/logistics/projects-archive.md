@@ -118,7 +118,7 @@ See notes above on [Recommended work plan](/logistics/projects/#recommended-work
 {{< /expand >}}
 
 {{< expand "1. How big is the tube?" "..." >}}
-3 inches in diameter, 52 inches long
+3 inches in diameter, around 52 inches long
 {{< /expand >}}
 
 {{< expand "2. Will we know our partner robot ahead of time?" "..." >}}
