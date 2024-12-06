@@ -134,7 +134,18 @@ See [A more advanced approach](/logistics/projects/#a-more-advanced-approach) ab
 {{< /expand >}}
 
 {{< expand "5. How do you send an HTTP request (like for a target speed) from within a Python script?" "..." >}}
-See info on the Python requests library [here](https://requests.readthedocs.io/en/latest/user/quickstart/#make-a-request).
+Let's say you want to use an HTTP request to send a target speed value to another Pi, at IP address 10.123.12.12.  For this example, let's say the target speed value is 50.
+```python
+import requests
+
+r = requests.get(10.123.12.12/target/50)  #this sends out "http://10.123.12.12/target/50"
+print(r.text)   # prints whatever response you get from the server (the Pi at 10.123.12.12)
+                # the variable 'r' stores all the information related to the HTTP request that you made
+                # r.text is the content of the response from the server
+```
+Then you could do something like `if r.text == 'ok'` or `if r.text != 'ok'` to compare the server's response to the string 'ok.'
+
+See more info on the Python requests library [here](https://requests.readthedocs.io/en/latest/user/quickstart/#make-a-request).
 {{< /expand >}}
 
 {{< expand "6. What happens if two Pis make requests of each other at the same time?" "..." >}}
