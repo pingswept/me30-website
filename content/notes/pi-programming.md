@@ -223,46 +223,9 @@ Finally (assuming you've installed Flask in your Pi), start the server by typing
 export FLASK_APP=server.py
 python3 -m flask run --host=0.0.0.0
 ```
+**How do I send a request to this server from another computer on the internet?**
 
-By default, Flask will listen on port 5000, so check `http://your.rpi.ip.address:5000` to see if it worked.
-
-### **That's cool, but how do I get Flask to start itself when the Pi boots?**
-
-If you are logged in to your Pi remotely via SSH, you can just type in the commands above to start Flask and run a python script within it. But if you want Flask to start itself automatically when the Pi boots, then you'll want to install [Supervisor](http://supervisord.org).
-
-```
-sudo apt install supervisor
-```
-
-Check that Supervisor is installed properly and running.
-
-```
-pi@raspberrypi:~$ sudo supervisorctl
-supervisor> status
-supervisor> exit
-```
-
-Tell supervisor that you want it to run Flask for you by adding something like the lines below to `/etc/supervisor/supervisord.conf` (You'll need to change directories to go up to the highest level directory on your Pi. Once you get to the /etc/supervisor directory, use `sudo nano` to open and edit the file.)
-
-```
-[program:flask]
-directory=/home/pi
-environment=FLASK_APP="server.py"
-command=python3 -m flask run --host=0.0.0.0
-```
-
-Then, make Supervisor read the config file.
-
-```
-sudo supervisorctl
-supervisor> update flask
-flask: stopped
-flask: updated process group
-supervisor> status
-flask                            RUNNING   pid 14183, uptime 0:00:09
-```
-
-If Supervisor can't start Flask for whatever reason, it will write error messages in the log files, which you can find in `/var/log/supervisor/`. In general, it's probably a better idea to debug your Flask code pretty thoroughly before you start using Supervisor, but if bugs come up, the log files are your best hope. You can also just stop Flask under Supervisor and going back to running Flask from the console yourself.
+By default, Flask will listen on port 5000, so type `http://your.rpi.ip.address:5000` into any web browser to see if it worked.
 
 ### **What if I want to make web page buttons that send GET HTTP requests?**
 
@@ -305,3 +268,58 @@ Brought to us by a session with ChatGPT, below is a simple HTML page with JavaSc
 ```
 
 ChatGPT also tells us: *Save this code in an HTML file, and when you open it in a web browser, you'll see a button labeled "Drive Fast." Clicking this button will trigger a GET request to the specified URL (`http://10.247.10.22/drivefast`). The console will log "GET request successful" if the request is successful. Note that if the target server doesn't allow cross-origin requests, you might need to handle CORS (Cross-Origin Resource Sharing) accordingly.*
+
+### **How do I send a GET HTTP request from within a Python script?**
+
+Let's say you want to use an HTTP request to send a target speed value to another Pi, at IP address 10.123.12.12.  For this example, let's say the target speed value is 50.
+
+```python
+import requests
+
+r = requests.get(10.123.12.12/target/50)  #this sends out "http://10.123.12.12/target/50"
+print(r.text)   # prints whatever response you get from the server (the Pi at 10.123.12.12)
+                # the variable 'r' stores all the information related to the HTTP request that you made
+                # r.text is the content of the response from the server
+```
+
+Then you could do something like `if r.text == 'ok'` or `if r.text != 'ok'` to compare the server's response to the string 'ok.'
+
+### **Is there a way to get Flask to start itself when the Pi boots?**
+
+If you want Flask to start itself automatically when the Pi boots, then you'll want to install [Supervisor](http://supervisord.org).
+
+```
+sudo apt install supervisor
+```
+
+Check that Supervisor is installed properly and running.
+
+```
+pi@raspberrypi:~$ sudo supervisorctl
+supervisor> status
+supervisor> exit
+```
+
+Tell supervisor that you want it to run Flask for you by adding something like the lines below to `/etc/supervisor/supervisord.conf` (You'll need to change directories to go up to the highest level directory on your Pi. Once you get to the /etc/supervisor directory, use `sudo nano` to open and edit the file.)
+
+```
+[program:flask]
+directory=/home/pi
+environment=FLASK_APP="server.py"
+command=python3 -m flask run --host=0.0.0.0
+```
+
+Then, make Supervisor read the config file.
+
+```
+sudo supervisorctl
+supervisor> update flask
+flask: stopped
+flask: updated process group
+supervisor> status
+flask                            RUNNING   pid 14183, uptime 0:00:09
+```
+
+If Supervisor can't start Flask for whatever reason, it will write error messages in the log files, which you can find in `/var/log/supervisor/`. In general, it's probably a better idea to debug your Flask code pretty thoroughly before you start using Supervisor, but if bugs come up, the log files are your best hope. You can also just stop Flask under Supervisor and going back to running Flask from the console yourself.
+
+<!--sample commented text-->
