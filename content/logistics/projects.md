@@ -45,7 +45,7 @@ Project 6 is challenging. We suggest that you **break it down into the following
 1. Get your robot to drive up a ramp autonomously. Make sure it can handle the weight of the tube while driving. For this task, be sure to consider mechanical solutions. You might add guards or guides to your robot that keep it from veering off the edges of the ramp; you might swap out a swervy caster wheel for a wheel-and-axle assembly that tracks straighter; or something else like that. 
 2. Make decisions about driving speed. Figure out how commands (voltage or PWM) to your robot's motors translate into its linear speed up the ramp (in mm/sec). Also, what is the min/max driving speed for your robot? What kind of start delay works for your robot?
 3. Get your robot to run Flask and start at a target `speed` (in mm/sec) after a specific `delay` (in seconds) based on receiving those values in HTTP requests (i.e., focus on running a server.py script in Flask with @app.route to functions).
-4. Get your robot to send `delay` and `speed` requests to a partner (i.e., add code that now also can send HTTP requests).
+4. Get your robot to send `delay` and `speed` requests to a partner (i.e., add code that now also can send HTTP requests). Info on how to send an HTTP request from within a Python script is here.
 5. Decide how to run both of these simultaneously (see [Software Architecture](/logistics/projects/#software-architecture) details below.)
 6. Get your robot to be able to check if the tube is stable (i.e., not sliding off at an angle), perhaps with buttons or other sensors. Understand how the speeds of your robot and your partner's robot should change based on information about the tube. (e.g., If you sense the tube tilting toward your partner, do you send a target speed request to your partner to speed up or slow down? Do you change your own speed? What if you're alread driving at min or max speed?)
 7. Get your robot to be able to receive target `speed` and `delay` requests while driving.
@@ -134,16 +134,23 @@ Yes. One way to do this is to log in to your Pi twice in two different SSH sessi
 See [A more advanced approach](/logistics/projects/#a-more-advanced-approach) above for other ideas.
 {{< /expand >}}
 
-{{< expand "5. What happens if two Pis make requests of each other at the same time?" "..." >}}
+{{< expand "5. How do you send an HTTP request (like for a target speed) from within a Python script?" "..." >}}
+See info on the Python requests library here.
+{{< /expand >}}
+
+{{< expand "6. What happens if two Pis make requests of each other at the same time?" "..." >}}
 In reality, one of those requests will be received a tiny fraction of a second before the other one. You should think about what you want your robot to do if it receives a request from a partner robot just after it has sent out its own request. Is there a way to make your robot respond differently if it "knows" it is still waiting for a response itself? 
 {{< /expand >}}
 
-{{< expand "6. Do we need advanced sensors for this project?" "..." >}}
+{{< expand "7. Do we need advanced sensors for this project?" "..." >}}
 No, you don't. You probably need at least some buttons or switches cleverly located, but you can be successful without cameras, distance sensors, or the like.
 {{< /expand >}}
 
-{{< expand "7. When can we get help?" "..." >}}
-Regular labs have ended, but there will be extra office hours in Nolop the week of Dec. 9.
+{{< expand "8. When can we get help?" "..." >}}
+Regular labs have ended, but there will be office hours in Nolop:
+* Mon., 12/9, 6-9pm (LAs)
+* Tues., 12/10, 6-9pm (LAs)
+* Fri., 12/13, 2-5pm (Kristen)
 
 <!--* Mon., 12/11 - Gabe 1:30-2:30pm, Zosia 5-7pm, Theresa 7-8pm
 * Tue., 12/12 - Anna 12:30-2:30pm, Theresa 3:30-4:30pm, Zosia 5-7pm
