@@ -56,9 +56,8 @@ The key to this method is to focus on one new "robot superpower" at a time. Don'
 
 If you're overwhelmed by the details, start by aiming to:
 * Get your robot to drive up a ramp autonomously.
-* Decide the best speed for your robot.
-* Tell your partner what speed and start delay you need.
-* On the count of three, start your robot.            
+* Have your robot be able to sense the tube and adjust its speed as needed to get the tube up the ramp.
+      
 
 ### Software architecture ###
 
@@ -135,7 +134,7 @@ See [A more advanced approach](/logistics/projects/#a-more-advanced-approach) ab
 {{< /expand >}}
 
 {{< expand "5. How do you send an HTTP request (like for a target speed) from within a Python script?" "..." >}}
-See info on the Python requests library here.
+See info on the Python requests library [here](https://requests.readthedocs.io/en/latest/user/quickstart/#make-a-request).
 {{< /expand >}}
 
 {{< expand "6. What happens if two Pis make requests of each other at the same time?" "..." >}}
