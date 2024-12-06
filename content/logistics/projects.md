@@ -30,9 +30,9 @@ You will know the IP address of the robot you are collaborating with, but your r
 
 ### URL details ###
 
-For `/start/<delay>`, your robot should respond `ok` or `no`. After responding `ok`, it should start driving in `delay` seconds. If your robot is not ready, or it has already agreed to a start time, or it is driving, it should respond `no`.
+For `/target/<speed>`, your robot should respond `ok` or `no`. After responding `ok`, it should get ready to ascend the ramp at a rate of `speed` mm/s.
 
-For `/target/<speed>`, your robot should respond `ok` or `no`. After responding `ok`, it should try to ascend the ramp at a rate of `speed` mm/s.
+For `/start/<delay>`, your robot should respond `ok` or `no`. After responding `ok`, it should start driving in `delay` seconds. If your robot is not ready, or it has already agreed to a start time, or it is driving, it should respond `no`.
 
 As your robot ascends the ramp, if your robot detects that the tube is tilting or sliding off, your robot can suggest that its partner speed up or slow down by requesting new target speeds. Your robot should listen for new target speeds from its partner and should respond in a way to increase the chances of getting the tube up the ramp quickly. Note that the robot is required to operate autonomously after the start; you cannot have a human in the feedback loop, mashing buttons in desperation.
 
@@ -76,17 +76,17 @@ import time
 @app.route('/do-once')
 def do_once():
     # (This is pseudo code)
-    speed = negotiate_target_speed_with_partner()
-    delay = negotiate_start_delay_with_partner()
+    speed = negotiate_target_speed_with_partner()   # pseduo code;  you would need to fill in the details here
+    delay = negotiate_start_delay_with_partner()     # pseduo code;  you would need to fill in the details here
     time.sleep(delay)
-    set_motors_to_target(speed)
+    set_motors_to_target(speed)    # pseudo code; fill in the details here
 
 @app.route('/control-loop')
 def control_loop():
     # (This is pseudo code)
-    read_sensors()
-    change_PWM_based_on_sensor_data()
-    maybe_suggest_different_target_speed_to_partner()
+    read_sensors()        # pseudo code; fill in the details here
+    change_PWM_based_on_sensor_data()   # pseudo code; fill in the details here
+    maybe_suggest_different_target_speed_to_partner()   # pseudo code; fill in the details here
 ```
 
 If you have those two routes, you could make a webpage served from your Flask templates folder that has 2 buttons: `run_do_once` and `run_control_loop`. Then, to start, you click the `run_do_once` button, which runs the `do_once` function on your Pi. If it works, your robot starts driving.
