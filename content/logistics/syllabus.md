@@ -9,9 +9,11 @@ ME 30, Electronics & Controls I
 
 ## Office hours for week of Dec. 9 (in Nolop)
 
-LAs: Mon-Tues, 12/9-12/10, 6-9pm
-
-Kristen: Friday, 12/13, 2-5pm
+* Mon., 12/9, 6-9pm (LAs)
+* Mon., 12/9, 4-5pm (Kristen)
+* Tue., 12/10, 6-9pm (LAs)
+* Wed., 12/11, 11am-1pm (Kristen)
+* Fri., 12/13, 2:30-4:30pm (Kristen)
 
 Brandon: is usually in Nolop 9 AM to 5 PM, unless he's teaching class or in a meeting, or it's a weekend
 
