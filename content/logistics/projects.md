@@ -158,9 +158,12 @@ No, you don't. You probably need at least some buttons or switches cleverly loca
 
 {{< expand "8. When can we get help?" "..." >}}
 Regular labs have ended, but there will be office hours in Nolop:
+
 * Mon., 12/9, 6-9pm (LAs)
-* Tues., 12/10, 6-9pm (LAs)
-* Fri., 12/13, 2-5pm (Kristen)
+* Mon., 12/9, 4-5pm (Kristen)
+* Tue., 12/10, 6-9pm (LAs)
+* Wed., 12/11, 11am-1pm (Kristen)
+* Fri., 12/13, 2:30-4:30pm (Kristen)
 
 <!--* Mon., 12/11 - Gabe 1:30-2:30pm, Zosia 5-7pm, Theresa 7-8pm
 * Tue., 12/12 - Anna 12:30-2:30pm, Theresa 3:30-4:30pm, Zosia 5-7pm
