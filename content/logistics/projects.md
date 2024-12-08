@@ -94,7 +94,55 @@ If you have those two routes, you could make a webpage served from your Flask te
 
 Then, you mash the `run_control_loop` button repeatedly as fast as you can. This runs the `control_loop` function on your Pi a few times a second.
 
-"BUT WAIT!" you cry in dismay, "That violates the 'only one signal from a human' requirement!" Yes, it does. The next thing to do is to modify your webpage so that it mashes the button for you repeatedly. You can ask ChatGPT about this, and it will explain about the `setInterval` method in Javascript.
+"BUT WAIT!" you cry in dismay, "That violates the 'only one signal from a human' requirement!" Yes, it does. The next thing to do is to modify your webpage so that it mashes the button for you repeatedly. You can ask ChatGPT about this, and it will explain about the `setInterval` method in Javascript, or you can adapt the example code we've provided below, courtesy of a session with ChatGPT:
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GET Requests</title>
+</head>
+<body>
+    <button id="runOnceButton">Run Once</button>
+
+    <script>
+        function runOnce() {
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', 'http://http://192.168.1.162:5000/run_do_once', true);
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState === XMLHttpRequest.DONE) {
+                    if (xhr.status === 200) {
+                        console.log('Request to run_do_once completed');
+                    } else {
+                        console.error('Error triggering run_do_once:', xhr.status);
+                    }
+                }
+            };
+            xhr.send();
+        }
+
+        function runControlLoop() {
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', 'http://192.168.1.162:5000/run_control_loop', true);
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState === XMLHttpRequest.DONE) {
+                    if (xhr.status === 200) {
+                        console.log('Request to run_control_loop completed');
+                    } else {
+                        console.error('Error in run_control_loop:', xhr.status);
+                    }
+                }
+            };
+            xhr.send();
+        }
+
+        document.getElementById('runOnceButton').addEventListener('click', runOnce);
+
+        setInterval(runControlLoop, 1000);
+    </script>
+</body>
+</html>
+```
 
 ### A more advanced approach
 
