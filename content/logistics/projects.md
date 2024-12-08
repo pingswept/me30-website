@@ -30,11 +30,12 @@ You will know the IP address of the robot you are collaborating with, but your r
 
 ### URL details ###
 
-For `/target/<speed>`, your robot should respond `ok` or `no`. After responding `ok`, it should get ready to ascend the ramp at a rate of `speed` mm/s.
-
 For `/start/<delay>`, your robot should respond `ok` or `no`. After responding `ok`, it should start driving in `delay` seconds. If your robot is not ready, or it has already agreed to a start time, or it is driving, it should respond `no`.
 
+For `/target/<speed>`, your robot should respond `ok` or `no`. After responding `ok`, it should try to ascend the ramp at a rate of `speed` mm/s.
+
 As your robot ascends the ramp, if your robot detects that the tube is tilting or sliding off, your robot can suggest that its partner speed up or slow down by requesting new target speeds. Your robot should listen for new target speeds from its partner and should respond in a way to increase the chances of getting the tube up the ramp quickly. Note that the robot is required to operate autonomously after the start; you cannot have a human in the feedback loop, mashing buttons in desperation.
+
 
 ![P6 ramps diagram](/img/ramps-with-tube.png)
 
