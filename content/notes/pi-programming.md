@@ -276,11 +276,16 @@ Let's say you want to use an HTTP request to send a target speed value to anothe
 ```python
 import requests
 
-r = requests.get(10.123.12.12/target/50)  #this sends out "http://10.123.12.12/target/50"
+desired_speed = 50
+partner_url = "http://10.123.12.12:5000/"  #don't forget the 5000 for the port at which Flask is listening
+
+r = requests.get(partner_url + "/target/" + str(desired_speed))  #this sends out "http://10.123.12.12:5000/target/50"
+
+# another way to make that same request is r = requests.get(10.123.12.12:5000/target/50)
+
 print(r.text)   # prints whatever response you get from the server (the Pi at 10.123.12.12)
                 # the variable 'r' stores all the information related to the HTTP request that you made
-                # r.text is the content of the response from the server
-```
+                # r.text is the content of the response from the server```
 
 Then you could do something like `if r.text == 'ok'` or `if r.text != 'ok'` to compare the server's response to the string 'ok.'
 
