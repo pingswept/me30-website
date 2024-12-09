@@ -6,6 +6,34 @@ draft: false
 
 - - -
 
+## Week 15: Sunday, 12/8/24
+
+Great work getting those robots up the ramp. Onward to the final project, #6!
+
+**Last Class Session Mon., Dec. 11**
+- For our last regular class session, we'll talk about career trajectories and we'll go over approaches and resources for Project 6. 
+
+**Project 6 Details and Resources**
+- Please carefully read the updated [Project 6](http://andnowforelectronics.com/logistics/projects/#requirements-for-project-6)  description. We have posted many new resources and ideas for working on Project 6.
+- Take some time to discuss the Project 6 resources with your team. For example, look at the [Recommended Work Plan](http://andnowforelectronics.com/logistics/projects/#recommended-work-plan) together and decide whether you will follow that sequence of sub-tasks to get the project done. Consider the [Software Architecture](http://andnowforelectronics.com/logistics/projects/#software-architecture) advice and figure out whether you have questions about it.
+
+**Project 6 Showcase Sessionsm**
+- Project 6 is due during the ME 30 final blocks Tuesday, 12/17 (3:30pm) or Wednesday, 12/18 (2:00 or 3:30pm). These are the university-scheduled times scheduled for ME 30 finals. All teams, from all ME 30 sections, are welcome at any of these sessions. However, if you finish P6 earlier and you can find another team to demo with you, you can come to Nolop for an early demo on Friday, 12/13, 3pm or Monday, 12/16, 3pm.
+- Project 6 documentation is due on Canvas by 11:59pm on Mon., Dec. 18.
+
+**Kit Return**
+- Note that you must return your ME 30 kit (except for any components soldered to your PCBs) after P6 robot demos.
+
+**Office Hours for Project 6**
+
+* Mon., 12/9, 6-9pm (LAs)
+* Mon., 12/9, 4-5pm (Kristen)
+* Tue., 12/10, 6-9pm (LAs)
+* Wed., 12/11, 11am-1pm (Kristen)
+* Fri., 12/13, 2:30-4:30pm (Kristen)
+* Brandon is usually in Nolop 9 AM to 5 PM, unless he’s teaching class or in a meeting, or it’s a weekend
+
+
 ## Week 14: Sunday, 12/1/24
 
 **Course housekeeping:**
