@@ -10,7 +10,7 @@ draft: false
 
 Great work getting those robots up the ramp. Onward to the final project, #6!
 
-**Last Class Session Mon., Dec. 11**
+**Last Class Session Mon., Dec. 9**
 - For our last regular class session, we'll talk about career trajectories and we'll go over approaches and resources for Project 6. 
 
 **Project 6 Details and Resources**
@@ -19,7 +19,7 @@ Great work getting those robots up the ramp. Onward to the final project, #6!
 
 **Project 6 Required Demo Sessions**
 - Project 6 is due during the ME 30 final blocks Tuesday, 12/17 (3:30pm) or Wednesday, 12/18 (2:00 or 3:30pm). These are the university-scheduled times scheduled for ME 30 finals. All teams, from all ME 30 sections, are welcome at any of these sessions. However, if you finish P6 earlier and you can find another team to demo with you, you can come to Nolop for an early demo on Friday, 12/13, 3pm or Monday, 12/16, 3pm.
-- Project 6 documentation is due on Canvas by 11:59pm on Mon., Dec. 18.
+- Project 6 documentation is due on Canvas by 11:59pm on Wed., 12/18.
 
 **Kit Return**
 - Note that you must return your ME 30 kit (except for any components soldered to your PCBs) after P6 robot demos.
