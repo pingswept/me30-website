@@ -508,6 +508,9 @@ https://www.pzdsp.com/elab/virtual_oscilloscope.html
 (c) Make sure you can complete [Raspberry Pi challenges #7, #8, and #9](http://andnowforelectronics.com/notes/pi-challenges/)
 
 
+## 30. ME 30 career connections and Project 6 planning (Dec. 9)
+
+We'll use these slides today: https://docs.google.com/presentation/d/1KQUk6XxwHb4ZOj-VtnntzEh-BJyFNbJ3YQ1TYeTOjiQ/edit?usp=sharing
 
 
 
