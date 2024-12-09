@@ -17,7 +17,7 @@ Great work getting those robots up the ramp. Onward to the final project, #6!
 - Please carefully read the updated [Project 6](http://andnowforelectronics.com/logistics/projects/#requirements-for-project-6)  description. We have posted many new resources and ideas for working on Project 6.
 - Take some time to discuss the Project 6 resources with your team. For example, look at the [Recommended Work Plan](http://andnowforelectronics.com/logistics/projects/#recommended-work-plan) together and decide whether you will follow that sequence of sub-tasks to get the project done. Consider the [Software Architecture](http://andnowforelectronics.com/logistics/projects/#software-architecture) advice and figure out whether you have questions about it.
 
-**Project 6 Showcase Sessionsm**
+**Project 6 Required Demo Sessions**
 - Project 6 is due during the ME 30 final blocks Tuesday, 12/17 (3:30pm) or Wednesday, 12/18 (2:00 or 3:30pm). These are the university-scheduled times scheduled for ME 30 finals. All teams, from all ME 30 sections, are welcome at any of these sessions. However, if you finish P6 earlier and you can find another team to demo with you, you can come to Nolop for an early demo on Friday, 12/13, 3pm or Monday, 12/16, 3pm.
 - Project 6 documentation is due on Canvas by 11:59pm on Mon., Dec. 18.
 
