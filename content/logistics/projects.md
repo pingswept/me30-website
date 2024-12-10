@@ -144,6 +144,8 @@ Then, you mash the `run_control_loop` button repeatedly as fast as you can. This
 </html>
 ```
 
+If you feel queasy about ChatGPT code, you could take this opportunity to gloat about ChatGPT's apparent ignorance of the [Fetch API[(https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch).
+
 ### A more advanced approach
 
 The simpler approach described above has the strength that it is uses the same tools we used for robot control in P5 (a single Python process running Flask, a web page sending commands to the Flask server). It has the weakness that it relies on a wifi connection for everything. If the wifi gets laggy, which is likely, your control loop won't execute reliably.
