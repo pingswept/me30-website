@@ -144,7 +144,7 @@ Then, you mash the `run_control_loop` button repeatedly as fast as you can. This
 </html>
 ```
 
-If you feel queasy about ChatGPT code, you could take this opportunity to gloat about ChatGPT's apparent ignorance of the [Fetch API[(https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch).
+If you feel queasy about ChatGPT code, you could take this opportunity to gloat about ChatGPT's apparent ignorance of the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch).
 
 ### A more advanced approach
 
