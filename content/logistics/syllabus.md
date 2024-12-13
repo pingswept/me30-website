@@ -14,6 +14,7 @@ ME 30, Electronics & Controls I
 * Tue., 12/10, 6-9pm (LAs)
 * Wed., 12/11, 11am-1pm (Kristen)
 * Fri., 12/13, 2-5pm (Kristen)
+* Mon., 12/16, 3-5pm (Kristen)
 
 Brandon: is usually in Nolop 9 AM to 5 PM, unless he's teaching class or in a meeting, or it's a weekend
 
