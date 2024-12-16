@@ -285,7 +285,8 @@ r = requests.get(partner_url + "/target/" + str(desired_speed))  #this sends out
 
 print(r.text)   # prints whatever response you get from the server (the Pi at 10.123.12.12)
                 # the variable 'r' stores all the information related to the HTTP request that you made
-                # r.text is the content of the response from the server```
+                # r.text is the content of the response from the server
+```
 
 Then you could do something like `if r.text == 'ok'` or `if r.text != 'ok'` to compare the server's response to the string 'ok.'
 
