@@ -135,7 +135,7 @@ For each day (or fraction thereof) a final project is late, you will lose 1 poin
 |  0. |  Build a motor hub that remains securely attached to your DC motor shaft when heavily loaded.   | 1/15 |
 |  1. |  Build a breadboard power supply that accepts power from a 12 V wall supply and emits 12 V, 5 V, and 3.3 V at the same time. | 2/15 |
 |  2. |  Build a very basic motorized game, with a motor that spins in only one direction.   | 2/15 |
-|  3. |  Build an H-bridge motor controller to make a motor spin both ways.   | 2/15 |
+|  3. |  Build an H-bridge motor controller to make a motor spin both ways.   | 3/15 |
 |  4. |  Build a more complex electromechanical game including microcontroller, moving mechanical element, and user input.    | 3/15 |
 |  5. |  Build a an internet-connected, electromechanical device that can traverse an obstacle.    | 2.5/15 |
 |  6. |  Coordinate with other electromechanical devices in an internet-connected system.     | 1.5/15 |
