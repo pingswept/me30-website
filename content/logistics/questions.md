@@ -1,5 +1,5 @@
 ---
-title: "Crucial questions"
+title: "Learning goals"
 draft: false
 ---
 
@@ -19,7 +19,7 @@ draft: false
 
 ## Learning objectives
 
-1.	Complete five hands-on circuit design projects:
+1.	Complete a series of hands-on circuit design projects:
     a.	  Build a prototype and PCB of a breadboard power supply that accepts power from a 12 V wall supply and emits 12 V, 5 V, and 3.3 V at the same time.
     b.	  Build a prototype and PCB of an H-bridge motor controller to make a motor spin both ways.
     c.	  Build an electromechanical game including microcontroller, moving mechanical element, and user input.
@@ -27,22 +27,23 @@ draft: false
     e.	  Coordinate with other electromechanical devices in an internet-connected system.
 2.	Distinguish between voltage and current and apply working definitions of voltage and current to explain energy transfer in simple circuits. 
 3.	Describe the relationships among voltage, current, resistance, and power. 
-4.	Gain proficiency with breadboard prototyping.
-5.	Turn a breadboard prototype into a printed circuit board using PCB design software.
-6.	Explain how to use transistors to control high power with low power.
-7.	Compare and contrast different types of motors (DC, stepper, and servo) and build circuits incorporating each kind.
-8.	Explain how an H-bridge motor controller works.
-9.	Learn the basic code/upload/test/debug cycle for microcontrollers. 
-10.	Gain basic familiarity with microcontroller hardware.
-11.	Gain familiarity with incorporating microcontroller hardware peripherals into circuit designs, including the i2C module, PWM module, and serial port module.
-12.	Gain enough familiarity with Python programming to code an electromechanical game controlled by an RP2040 microcontroller.
-13.	Describe how the internet works.
-14.	Gain familiarity with Linux basics and explain how they relate to the functioning of a Raspberry Pi. 
-15.	Identify the main components and functions of the Raspberry Pi.
-16.	Describe the basics types of control in the context of the motor(s) used in course projects, and RP2040 or RPi.
-17.	Become familiar with the frequency domain and digital filters.
-18.	Reflect on strengths and weaknesses of one’s project management approach in an open-ended design project. 
-19.	Gain exposure to managing a bill of materials, supply chain, and verification vs validation.
-20.	Build engineering ethics fluency by exploring the impact of internet-connected electronic technologies on various stakeholders, including in environmental and societal contexts.
-21.	Define discriminatory design, explain a case where it has occurred, and identify an approach to avoid it.
+4.  Find and use credible sources of engineering documentation.
+5.	Gain proficiency with breadboard prototyping.
+6.	Turn a breadboard prototype into a printed circuit board using PCB design software.
+7.	Explain how to use transistors to control high power with low power.
+8.	Compare and contrast different types of motors (DC, stepper, and servo) and build circuits incorporating each kind.
+9.	Explain how an H-bridge motor controller works.
+10.	Learn the basic code/upload/test/debug cycle for microcontrollers. 
+11.	Gain basic familiarity with microcontroller hardware.
+12.	Gain familiarity with incorporating microcontroller hardware peripherals into circuit designs, including the i2C module, PWM module, and serial port module.
+13.	Gain enough familiarity with Python programming to code an electromechanical game controlled by an RP2040 microcontroller.
+14.	Describe how the internet works.
+15.	Gain familiarity with Linux basics and explain how they relate to the functioning of a Raspberry Pi. 
+16.	Identify the main components and functions of the Raspberry Pi.
+17.	Describe the basics types of control in the context of the motor(s) used in course projects, and RP2040 or RPi.
+18.	Process input from sensors as part of an electromechanical system.
+19.	Reflect on strengths and weaknesses of one’s project management approach in an open-ended design project. 
+20.	Gain exposure to managing a bill of materials, supply chain, and verification vs validation.
+21.	Build engineering ethics fluency by exploring the impact of internet-connected electronic technologies on various stakeholders, including in environmental and societal contexts.
+22.	Define discriminatory design, explain a case where it has occurred, and identify an approach to avoid it.
 
