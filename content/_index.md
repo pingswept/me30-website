@@ -20,7 +20,7 @@ Kristen Wendell (she/her)
 Brandon Stafford (he/him)
 <--->
 ![Zosia Stafford](/img/zosia-stafford.jpg)
-Zosia Stafford (he/him)
+Zosia Stafford (she/her)
 {{< /columns >}}
 
 Note: Brandon Stafford and Zosia Stafford are not related to each other. We are merely two people with the same last name.
