@@ -31,7 +31,7 @@ Note: Brandon Stafford and Zosia Stafford are not related to each other. We are 
 ![Sol Brizuela](/img/sol-brizuela.jpg)
 Sol Brizuela
 <--->
-![Kimberly Eng](/img/Kimberly.jpg)
+![Kimberly Eng](/img/kimberly-eng.jpg)
 Kimberly Eng
 <--->
 ![Paul Galvan](/img/paul-galvan.jpg)
