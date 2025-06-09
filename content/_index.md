@@ -19,37 +19,41 @@ Kristen Wendell (she/her)
 ![Brandon Stafford](/img/brandon-stafford.jpg)
 Brandon Stafford (he/him)
 <--->
+![Zosia Stafford](/img/zosia-stafford.jpg)
+Zosia Stafford (he/him)
 {{< /columns >}}
+
+Note: Brandon Stafford and Zosia Stafford are not related to each other. We are merely two people with the same last name.
 
 ## Learning assistants
 
 {{< columns >}}
-![ReAnna Barclay](/img/ReAnna.jpg)
-ReAnna Barclay
+![Sol Brizuela](/img/sol-brizuela.jpg)
+Sol Brizuela
 <--->
 ![Kimberly Eng](/img/Kimberly.jpg)
 Kimberly Eng
 <--->
-![Brian Gutierrez](/img/Brian.jpg)
-Brian Gutierrez
+![Paul Galvan](/img/paul-galvan.jpg)
+Paul Galvan
 <--->
-![Josh Lamothe](/img/Josh.jpg)
-Josh Lamothe
+![Leia Hannes](/img/leia-hannes.jpg)
+Leia Hannes
 <--->
-![Natalie Long](/img/NatalieL.jpg)
-Natalie Long
+![Katie Kostak](/img/katie-kostak.jpg)
+Katie Kostak
 <--->
-![Natalie Nicoletti](/img/NatalieN.jpg)
-Natalie Nicoletti
+![Colette Laliberte](/img/colette-laliberte.jpg)
+Colette Laliberte
 <--->
-![Arcadia Ohnemus](/img/Arcadia.jpg)
-Arcadia Ohnemus
+![Theo Prince](/img/theo-prince.jpg)
+Theo Prince
 <--->
-![Calvin Seeg](/img/Calvin.jpg)
-Calvin Seeg
+![Cade Smith](/img/cade-smith.jpg)
+Cade Smith
 <--->
-![Chris Yen](/img/Chris.jpg)
-Chris Yen 
+![Rachel Woo](/img/rachel-woo.jpg)
+Rachel Woo
 <--->
 {{< /columns >}}
 
