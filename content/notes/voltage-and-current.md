@@ -1,5 +1,5 @@
 ---
-title: "Voltage and current"
+title: "Class 1: Voltage and current"
 draft: false
 ---
 ## What's the difference between voltage and current?

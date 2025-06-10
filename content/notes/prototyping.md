@@ -1,5 +1,5 @@
 ---
-title: "Prototyping"
+title: "Class 1: Prototyping"
 draft: false
 ---
 ## Breadboards vs. protoboards vs. PCBs

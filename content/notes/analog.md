@@ -1,5 +1,5 @@
 ---
-title: "Analog vs. digital"
+title: "Digital vs. analog"
 draft: false
 ---
 ## Analog vs digital

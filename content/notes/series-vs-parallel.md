@@ -1,5 +1,5 @@
 ---
-title: "Series vs. parallel"
+title: "Class 2: Series vs. parallel"
 draft: false
 ---
 

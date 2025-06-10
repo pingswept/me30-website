@@ -1,5 +1,5 @@
 ---
-title: "Brief history of electronics"
+title: "History of electronics"
 draft: false
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Ampacity"
+title: "Current capacity"
 draft: false
 ---
 ## Ampacity
