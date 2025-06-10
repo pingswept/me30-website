@@ -8,8 +8,8 @@ draft: false
 ## Connectors
 
 * [DC power (barrel) jack, 2.1 mm x 5.5 mm](/pdf/power-jack-PJ102AH.pdf)
-* [Screw terminal, 5mm pitch](https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/691137710002/6644051)
-* [Pushbutton tactile switch, 6mm x 6mm](https://www.cuidevices.com/product/resource/ts02.pdf)
+* [Screw terminal, 5mm pitch](/pdf/screw-terminal-691137710002.pdf)
+* [Pushbutton tactile switch, 6mm x 6mm](/pdf/pushbutton-ts02.pdf)
 
 ## Capacitors
 
@@ -27,11 +27,11 @@ draft: false
 ## Motors
 
 * [TJZ37RGa DC gearmotor, 12 V, 200 RPM](/img/tjz37rga-motor-specs.jpg)
-* [NEMA 17 stepper motor, 12 V, 200 step](https://cdn-shop.adafruit.com/product-files/324/C140-A+datasheet.jpg)
+* [NEMA 17 stepper motor, 12 V, 200 step](/img/stepper-motor-XY42STH34-0354A.jpg)
 
 ## Photoresistors (light sensors)
 
-* [5mm, 100 mW light dependent resistor](/img/photoresistor-specs.jpg)
+* [5mm, 100 mW light dependent resistor](/img/photoresistor-5528.jpg)
 
 ## Resistors
 
@@ -40,7 +40,7 @@ draft: false
 
 ## Voltage regulators
 
-* [LD33V/LM1117 voltage regulator, 800 mA, 3.3 V, TO-220 package](/pdf/LD33V_Datasheet.pdf)
+* [LD33V/LM1117 voltage regulator, 800 mA, 3.3 V, TO-220 package](/pdf/regulator-LD33V.pdf)
 * [LM7805 voltage regulator, 1.5 A, 5.0 V, TO-220 package](/pdf/regulator-LM7805.pdf)
 
 ## Transistors
@@ -51,4 +51,4 @@ draft: false
 
 ## Trimmer potentiometers (variable resistors)
 
-* [10k trimmer potentiometer](https://www.nidec-copal-electronics.com/e/catalog/trimmer/ct-6.pdf)
+* [10k trimmer potentiometer](/pdf/potentiometer-ct6.pdf)
