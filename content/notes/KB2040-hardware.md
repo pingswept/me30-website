@@ -3,13 +3,13 @@ title: "KB2040 hardware"
 draft: false
 ---
 
-![Top view of Adafruit KB2040](/img/KB2040_top.jpeg)
+![Top view of Adafruit KB2040](/img/kb2040-top.jpeg)
 
 ## Reference documents
 
-[Adafruit KB2040 pinout](/img/KB2040_Pinout.pdf)
+[Adafruit KB2040 pinout](/img/KB2040_pinout.pdf)
 
-[Adafruit KB2040 schematic](/img/KB2040_Schematic.png)
+[Adafruit KB2040 schematic](/img/KB2040_schematic.png)
 
 [Adafruit KB2040 complete guide](https://cdn-learn.adafruit.com/downloads/pdf/adafruit-kb2040.pdf)
 

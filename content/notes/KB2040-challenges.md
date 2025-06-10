@@ -31,14 +31,14 @@ Use an H-bridge circuit to make your gearmotor spin clockwise for 5 seconds, the
 
 {{< expand "See the schematic diagrams for 1 to 6" "..." >}}
 
-![Schematics for challenges 1 to 6](/img/Challenge_Schematic_1-6.jpg)
+![Schematics for challenges 1 to 6](/img/challenge-schematic-1-6.jpg)
 
 {{< /expand >}}
 
 
 {{< expand "See breadboard wiring sketches for 1 to 6" "..." >}}
 
-![Schematics for challenges 1 to 6](/img/Challenge_Wiring_1-6.jpg)
+![Schematics for challenges 1 to 6](/img/challenge-wiring-1-6.jpg)
 
 {{< /expand >}}
 
@@ -61,15 +61,15 @@ Use an H-bridge circuit to make your gearmotor spin clockwise for 5 seconds, the
 
 {{< expand "See the schematic diagrams for Set 2" "..." >}}
 
-![Schematic for challenges 8 to 11](/img/Challenge_Schematic_8-11.jpg)
+![Schematic for challenges 8 to 11](/img/challenge-schematic-8-11.jpg)
 
 {{< /expand >}}
 
 
 {{< expand "See breadboard wiring sketches for H-Bridge and Set 2" "..." >}}
 
-![Schematics for challenges 8 to 10](/img/Challenge_Wiring_8-10.jpg)
-![Schematics for challenges 11 and H-bridge](/img/Challenge_Wiring_11-Hbridge.jpg)
+![Schematics for challenges 8 to 10](/img/challenge-wiring-8-10.jpg)
+![Schematics for challenges 11 and H-bridge](/img/challenge-wiring-11-h-bridge.jpg)
 
 
 {{< /expand >}}
@@ -85,7 +85,7 @@ Use an H-bridge circuit to make your gearmotor spin clockwise for 5 seconds, the
 
 ![Code for 11](/img/challenge11py.jpg)
 
-![Code for H-bridge](/img/challengeHbridgepy.jpg)
+![Code for H-bridge](/img/challenge-h-bridgepy.jpg)
 
 {{< /expand >}}
 

@@ -60,7 +60,7 @@ There are more details about the console cable if you need them in [Adafruit's c
   <li><input type="checkbox"> To figure out the Pi's MAC address, type the command <code>ifconfig</code>. Be sure you get the MAC for <code>wlan0</code>, not <code>eth0</code>. As shown in the screenshot below, the MAC address is something like <code>e4:5f:01:3b:33:fb</code> and appears after the word <code>ether</code>.</li>
 </ul>
 
-![MAC address screenshot](/img/findingMACaddress.jpg)
+![MAC address screenshot](/img/finding-mac-address.jpg)
 
 ## Set-up checklist 3: Get your Pi on IP address on Tufts_Wireless
 
@@ -71,7 +71,7 @@ There are more details about the console cable if you need them in [Adafruit's c
   <li><input type="checkbox"> Type `logout` to disconnect your Terminal from your Pi so that you can switch to logging in via SSH.</li>
 </ul>
 
-![IP address screenshot](/img/findingIPaddress.jpg)
+![IP address screenshot](/img/finding-ip-address.jpg)
 
 
 ## Set-up checklist 4: Connect to your Pi via SSH instead of serial

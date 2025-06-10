@@ -38,7 +38,7 @@ Find the CircuitPython file that you downloaded onto your computer. Drag that fi
 
 Watch for **RPI-RP2** to disappear and a new drive to appear on your computer called **CIRCUITPY**. When you see the **CIRCUITPY** drive, you know that your KB2040 now has CircuitPython installed on it, and it is ready to receive, store, and execute Python files. Congratulations!
 
-![The CIRCUITPY drive](/img/circuitpy_drive.png)
+![The CIRCUITPY drive](/img/circuitpy-drive.png)
 
 The steps above are adapted from Adafruit's CircuitPython tutorial. You can find more details at https://learn.adafruit.com/welcome-to-circuitpython/installing-circuitpython.
 
@@ -52,11 +52,11 @@ You're on your own for the actual installation, but it consists of pressing "OK"
 
 Your goal is to see something like the image below on your screen.
 
-![The Mu Editor](/img/Mu_blankeditor.png)
+![The Mu Editor](/img/mu-blank-editor.png)
 
 The first time you run Mu, you'll need to select its "mode." Choose "CircuitPython."
 
-![Selecting the Mu mode](/img/Mu_mode.png)
+![Selecting the Mu mode](/img/mu-mode.png)
 
 ## Make the software talk to the hardware
 
@@ -88,7 +88,7 @@ while True:
     time.sleep(0.5)
 </pre>
 
-![First code.py on Mu](/img/firstcode.png)
+![First code.py on Mu](/img/first-code.png)
 
 To load it onto the KB2040, click the "Save" button in the Mu editor's top menu. Navigate to the **CIRCUITPY** drive and save the file as **code.py.**
 

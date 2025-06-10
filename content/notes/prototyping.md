@@ -25,7 +25,7 @@ Here are a few facts about breadboards that are not immediately obvious.
 * If you stick something really fat into the holes, like a screwdriver or a big diode leg, you might damage the connection inside.
 
 
-![Electrical connections on a breadboard](/img/breadboard_diagram.jpg)
+![Electrical connections on a breadboard](/img/breadboard-diagram.jpg)
 
 This video demonstrates prototyping a simple LED circuit, powered by laptop power routed through an Arduino's Vcc output pin. Your KB2040 3.3V output pin is similar to the Arduino Vcc output pin.
 

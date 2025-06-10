@@ -24,7 +24,7 @@ As designers identify stakeholders, benefits, and burdens, they consider:
 - **accessibility** of the technology
 - **safety** of the technology
 
-![image](/img/StakeholderAnalysis.jpg)
+![image](/img/stakeholder-analysis.jpg)
 
 ### Step 2 – Interest and Power Analysis
 
@@ -34,7 +34,7 @@ Different stakeholders can be located on a 2-dimensional plot of relative intere
 
 **Power** means how much influence a stakeholder has on the technology.
 
-![image](/img/PowerInterest.jpg)
+![image](/img/power-interest.jpg)
 
 ## In-Class Exercise for Nov. 8
 
@@ -86,7 +86,7 @@ Click the box below to read about a technology design proposal. Use stakeholder 
 
 {{< expand "Click to see the proposal." "..." >}}
 
-[Kindlevan robot PDF](/pdf/KindlevanRobotCase.pdf)
+[Kindlevan robot PDF](/pdf/kindlevan-robot-case.pdf)
 
 {{< /expand >}} 
 

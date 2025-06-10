@@ -12,12 +12,12 @@ A client is a program that makes requests of servers.
 
 There are zillions of ways to write servers and clients-- lots of different programming languages, architectures, and libraries you could use. But, to narrow things down a little bit, here are a few places to start with the Raspberry Pi.
 
-![server-client architecture options](/img/Client-server-table.jpeg)
+![server-client architecture options](/img/client-server-table.jpg)
 
 
 ### Raspberry Pi server
 
-![Pi as server set up](/img/Pi-as-server.jpeg)
+![Pi as server set up](/img/pi-as-server.jpg)
 
 For code, try writing a function that executes if a specific HTTP request is made, like the `/senddata` example below. 
 
@@ -43,7 +43,7 @@ For more details, see the [Flask example on our Raspberry Pi programming page](h
 
 ### Raspberry Pi client
 
-![Pi-as-client set up](/img/Pi-as-client.jpeg)
+![Pi-as-client set up](/img/pi-as-client.jpg)
 
 For code, try using the Python library called [Requests](https://requests.readthedocs.io/en/master/).
 

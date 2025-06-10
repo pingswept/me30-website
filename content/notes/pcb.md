@@ -56,9 +56,9 @@ Here's a rough summary of how to use Kicad.
 
 ### Overview of KiCad Workflow
 
-![KiCad Schematic Editor flowchart](/img/KiCad_Flowchart1.jpg)
+![KiCad Schematic Editor flowchart](/img/kicad-flowchart1.jpg)
 
-![KiCad PCB Editor flowchart](/img/KiCad_Flowchart2.jpg)
+![KiCad PCB Editor flowchart](/img/kicad-flowchart2.jpg)
 
 ## Tutorials to get you started
 
