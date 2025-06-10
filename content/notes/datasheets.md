@@ -31,7 +31,7 @@ draft: false
 
 ## Photoresistors (light sensors)
 
-* [5mm, 100 mW light dependent resistor](/img/photoresistor_specs.jpeg)
+* [5mm, 100 mW light dependent resistor](/img/photoresistor-specs.jpg)
 
 ## Resistors
 
