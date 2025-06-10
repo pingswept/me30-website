@@ -1,5 +1,5 @@
 ---
-title: "KB2040 challenges"
+title: "Class 10: KB2040 challenges"
 draft: false
 ---
 

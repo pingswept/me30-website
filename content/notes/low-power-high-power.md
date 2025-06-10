@@ -1,5 +1,5 @@
 ---
-title: "Low power/high power"
+title: "Class 7: Low power/high power"
 draft: false
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Raspberry Pi setup"
+title: "Class 19: Raspberry Pi setup"
 draft: false
 ---
 

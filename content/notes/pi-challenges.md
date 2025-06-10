@@ -1,5 +1,5 @@
 ---
-title: "Raspberry Pi challenges"
+title: "Class 20: Raspberry Pi challenges"
 draft: false
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "The Internet"
+title: "Class 22: The Internet"
 draft: false
 ---
 

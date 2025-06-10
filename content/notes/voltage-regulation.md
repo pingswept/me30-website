@@ -1,5 +1,5 @@
 ---
-title: "Voltage regulation"
+title: "Class 3: Voltage regulators"
 draft: false
 ---
 

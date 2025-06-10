@@ -1,5 +1,5 @@
 ---
-title: "Servers and clients"
+title: "Class 23: Servers and clients"
 draft: false
 ---
 ## Servers and clients

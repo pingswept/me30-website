@@ -1,5 +1,5 @@
 ---
-title: "H-bridge motor driver"
+title: "Class 11: H-bridge motor driver"
 draft: false
 ---
 # The H-bridge motor driver
