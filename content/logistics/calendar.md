@@ -9,21 +9,21 @@ draft: false
 
 | Class | Date  | Class topics  | Hands-on  | What to study | What's due |
 |:-----:|:-----:|--------------------------------------------|-------------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------|
-|   1   | 9/3   | Course overview, introductions, kit contents    | Breadboard basics; Power an LED with "wall" power  | [Prototyping](/notes/prototyping/); [Voltage and current](/notes/voltage-and-current/); [LEDs](/notes/leds/) |          |
-|   2   | 9/8   | Voltage, current, resistors, voltage dividers    | Voltage dividers; Project 0 intro|  [Series vs. parallel](/notes/series-vs-parallel/); [Resistors](/notes/resistors/); [Multimeters](/notes/multimeter/)   |  |
-|   3   | 9/10  | Voltage regulators, capacitors |  Project 1 start; labs begin  | [Capacitors](/notes/capacitors/); [Voltage regulators](/notes/voltage-regulation/); [Videos for P1](/notes/demo-videos/#videos-for-project-1)  | Intro post on Canvas |
-|   4   | 9/15  | Voltage regulators; Project 1 |  Debug your voltage regulator; Soldering demo   | [Voltage regulators](/notes/voltage-regulation/); [Videos for P1](/notes/demo-videos/#videos-for-project-1); [Adafruit soldering guide](https://learn.adafruit.com/adafruit-guide-excellent-soldering/making-a-good-solder-joint)    |  |        |
-|   5   | 9/17  | KiCad  | KiCad demo    | [PCB design](/notes/pcb/); Kicad resources  | [P1   proto](/logistics/projects/#project-1-build-a-breadboard-power-supply) |
-|   6   | 9/22  | PCB design  | KiCad Q & A    | [PCB design](/notes/pcb/); [KiCad demo videos](/notes/demo-videos/#introduction-to-kicad-with-a-simple-led-board)    |  |
+|   01  | 9/3   | Course overview, introductions, kit contents    | Breadboard basics; Power an LED with "wall" power  | [Prototyping](/notes/prototyping/); [Voltage and current](/notes/voltage-and-current/); [LEDs](/notes/leds/) |          |
+|   02  | 9/8   | Voltage, current, resistors, voltage dividers    | Voltage dividers; Project 0 intro|  [Series vs. parallel](/notes/series-vs-parallel/); [Resistors](/notes/resistors/); [Multimeters](/notes/multimeter/)   |  |
+|   03  | 9/10  | Voltage regulators, capacitors |  Project 1 start; labs begin  | [Capacitors](/notes/capacitors/); [Voltage regulators](/notes/voltage-regulation/); [Videos for P1](/notes/demo-videos/#videos-for-project-1)  | Intro post on Canvas |
+|   04  | 9/15  | Voltage regulators; Project 1 |  Debug your voltage regulator; Soldering demo   | [Voltage regulators](/notes/voltage-regulation/); [Videos for P1](/notes/demo-videos/#videos-for-project-1); [Adafruit soldering guide](https://learn.adafruit.com/adafruit-guide-excellent-soldering/making-a-good-solder-joint)    |  |        |
+|   05  | 9/17  | KiCad  | KiCad demo    | [PCB design](/notes/pcb/); Kicad resources  | [P1   proto](/logistics/projects/#project-1-build-a-breadboard-power-supply) |
+|   06  | 9/22  | PCB design  | KiCad Q & A    | [PCB design](/notes/pcb/); [KiCad demo videos](/notes/demo-videos/#introduction-to-kicad-with-a-simple-led-board)    |  |
 
 
 ## Phase 2: Motors and Transistors
 
 | Class | Date  | Class topics  | Hands-on  | What to study | What's due  |
 |:-----:|:-----:|--------------------------------------------|-------------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------|
-|   7   | 9/24  | Transistors as switches      |  Make a switch with a BJT    | [Low power/high power](/notes/low-power-high-power/)|[P1 PCB due Friday](/logistics/projects/#project-1-build-a-breadboard-power-supply)|        |
-|   8   | 9/29  | Intro to P2 (game v1), DC motors, MOSFETs | Run a motor with a MOSFET    | [Motors](/notes/motors/) |              |
-|   9   | 10/1  | Microcontrollers, CircuitPython     | KB2040 set-up    | [Microcontrollers](/notes/microcontrollers/); [KB2040 hardware](/notes/feather-rp2040-hardware/); Solder pins to your KB2040 and bring to class |      |
+|   07  | 9/24  | Transistors as switches      |  Make a switch with a BJT    | [Low power/high power](/notes/low-power-high-power/)|[P1 PCB due Friday](/logistics/projects/#project-1-build-a-breadboard-power-supply)|        |
+|   08  | 9/29  | Intro to P2 (game v1), DC motors, MOSFETs | Run a motor with a MOSFET    | [Motors](/notes/motors/) |              |
+|   09  | 10/1  | Microcontrollers, CircuitPython     | KB2040 set-up    | [Microcontrollers](/notes/microcontrollers/); [KB2040 hardware](/notes/feather-rp2040-hardware/); Solder pins to your KB2040 and bring to class |      |
 |   10  | 10/6  | Digital and analog I/O hardware            | De-bugging challenge #1; KB2040 challenges set 1  |    [KB2040 programming](/notes/kb2040-programming/); [KB2040 challenges](/notes/kb2040-challenges/)    |   
 |   11  | 10/8  | H-bridges   | Start building an H-bridge    | [H-bridge motor driver](/notes/h-bridge/); [Intro and video for P3](/logistics/projects/#project-2-build-an-h-bridge-motor-controller) | [P2 (game v1)](/logistics/projects) due Wed. in class|
 |       | 10/13 | NO CLASS   | (Indigenous People's Day)  |  |        |
