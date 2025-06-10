@@ -41,17 +41,17 @@ draft: false
 |   17  | 11/3  | State machines, Stepper motors   |  KB2040 challenges, set 2   | [KB2040 programming](/notes/kb2040-programming/); [KB2040 challenges](/notes/kb2040-challenges/)|  |
 |   18  | 11/5  | Microcontrollers in greater depth   |  P4 work       | [I2C sensors](/notes/i2c/) |    |
 |   19  | 11/10 | Raspberry Pi intro    |  Booting the Raspberry Pi   |[Raspberry Pi setup](/notes/pi-setup/); [Raspberry Pi programming](/notes/pi-programming/)   |      |
-|   20  | 11/12 | Raspberry Pi programming  |  Pi challenges     | [Raspberry Pi challenges](/notes/pi-challenges/)  |    | 
+|   20  | 11/12 | P4 reflection; Project 5 intro       | P4 demo day |       |   [P4](/logistics/projects)  |
 
 ## Phase 4: Driving Robots with Operating Systems
 
 | Class | Date  | Class topics  | Hands-on  | What to study | What's due  |
 |:-----:|:-----:|--------------------------------------------|-------------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------|
-|   21  | 11/17 | P4 reflection; Project 5 intro       | P4 demo day |       |   [P4](/logistics/projects)  |
-|   22  | 11/19 | How does the internet work?               |   P5 planning              |  [Internet](/notes/internet/)     |      |
-|   23  | 11/24 | Oscilloscopes               |   Oscilloscope sim; P5 Q & A              |  [Servers and clients](/notes/servers/)     |      |
+|   21  | 11/17 | Raspberry Pi programming  |  Pi challenges     | [Raspberry Pi challenges](/notes/pi-challenges/)  |    | 
+|   22  | 11/19 | Sensor amplification      | New sensor activity              | [Sensor amplification](/notes/amplification)     |      |
+|   23  | 11/24 | Oscilloscopes               |   Oscilloscope sim; P5 Q & A              |       |      |
 |       | 11/26 | NO CLASS     | (Thanksgiving)  |           |        |
-|   24  | 12/1  | Pi challenges  |  P5 work time     |               |    |
+|   24  | 12/1  | How does the internet work?  |  P5 work time     | [Internet](/notes/internet/); [Servers and clients](/notes/servers/)              |    |
 |   25  | 12/3  | P5 reflection  |   P5 demo day  |          |   [P5](/logistics/projects)       |
 |   26  | 12/8  | Career trajectories, P6 intro  |  P6 Q & A   |                                           |         |
 |       | 12/18 |   1:00pm - P6 demo option 1        |       |             |[P6 showcase, 1:00pm](/logistics/projects)|
@@ -68,11 +68,11 @@ draft: false
 |   4   | 10/1-10/5   | Control a motor with transistors, P2 help |
 |   5   | 10/8-10/12  | KB2040 challenges set 1 |
 |   6   | 10/15-10/19 | Solder your P1 PCB (Monday lab students can attend other labs, flex labs, or office hours) |
-|       | 10/22-10/26 | H-bridges, P3 help |
-|   7   | 10/29-11/2  | KB2040 challenges set 2 |
-|   8   | 11/5-11/9   | P4 help |
-|   9   | 11/12-11/16 | P4 help |
-|   10  | 11/19-11/23 | Raspberry Pi set-up and challenges |
+|   7   | 10/22-10/26 | H-bridges, P3 help |
+|   8   | 10/29-11/2  | KB2040 challenges set 2 |
+|   9   | 11/5-11/9   | P4 help |
+|   10  | 11/12-11/16 | Sensor amplifier |
+|   11  | 11/19-11/23 | Raspberry Pi set-up and challenges |
 |       | 11/26-11/30 | No labs (Thanksgiving week) |
 |       | 12/3-12/7   | Labs shift to drop-in help sessions open to all |
 
