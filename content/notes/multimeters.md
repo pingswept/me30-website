@@ -1,5 +1,5 @@
 ---
-title: "Class 2: Multimeters"
+title: "Class 02: Multimeters"
 draft: false
 ---
 ## Multimeters
