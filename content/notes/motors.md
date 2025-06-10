@@ -1,5 +1,5 @@
 ---
-title: "Class 8: Motors"
+title: "Class 08: Motors"
 draft: false
 ---
 

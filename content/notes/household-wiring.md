@@ -1,6 +1,6 @@
 ---
 title: "Household wiring"
-draft: true
+draft: false
 ---
 ## How does electricity work in your house?
 

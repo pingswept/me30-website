@@ -1,6 +1,6 @@
 ---
 title: "Frequency domain"
-draft: true
+draft: false
 ---
 
 ## The time domain vs. the frequency domain

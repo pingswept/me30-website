@@ -1,5 +1,5 @@
 ---
-title: "Class 5: PCB design/Kicad"
+title: "Class 05: PCB design/Kicad"
 draft: false
 ---
 

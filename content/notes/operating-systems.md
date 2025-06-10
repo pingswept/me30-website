@@ -1,6 +1,6 @@
 ---
 title: "Operating systems"
-draft: true
+draft: false
 ---
 
 So far, we've been programming the KB2040 microcontroller, which comes with some software on it, but not an operating system. We're now starting with the Raspberry Pi, which runs the operating system called Linux. You'll be familiar with a few other operating systems: Windows and macOS for laptops and iOS and Android for phones.

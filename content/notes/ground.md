@@ -1,6 +1,6 @@
 ---
 title: "Ground"
-draft: true
+draft: false
 ---
 ## What does "ground" mean, anyway?
 

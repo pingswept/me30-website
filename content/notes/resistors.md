@@ -1,5 +1,5 @@
 ---
-title: "Class 2: Resistors"
+title: "Class 02: Resistors"
 draft: false
 ---
 If we're thinking about electricity like it's water flowing in a pipe, then a resistor is like a narrow restriction in a pipe that limits the amount of current that can flow through.

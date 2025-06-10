@@ -1,5 +1,5 @@
 ---
-title: "Class 3: Capacitors"
+title: "Class 03: Capacitors"
 draft: false
 ---
 

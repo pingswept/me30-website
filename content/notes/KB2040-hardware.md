@@ -1,5 +1,5 @@
 ---
-title: "Class 9: KB2040 hardware"
+title: "Class 09: KB2040 hardware"
 draft: false
 ---
 

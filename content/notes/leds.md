@@ -1,5 +1,5 @@
 ---
-title: "Class 1: LEDs"
+title: "Class 01: LEDs"
 draft: false
 ---
 
