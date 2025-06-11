@@ -1,5 +1,5 @@
 ---
-title: "Class 18: I2C"
+title: "Class 22: I2C"
 draft: false
 ---
 # I<sup>2</sup>C: a digital communication protocol
