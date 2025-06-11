@@ -1,5 +1,7 @@
 ---
 title: "Class 22: Sensor amplification"
+params:
+  math: true
 draft: false
 ---
 ## Sensor amplification
