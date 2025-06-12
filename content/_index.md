@@ -40,7 +40,7 @@ Paul Galvan
 ![Leia Hannes](/img/leia-hannes.jpg)
 Leia Hannes
 <--->
-![Katie Kostak](/img/katie-kostak.jpg)
+![Katie Kostak](/img/katie-kostak.png)
 Katie Kostak
 <--->
 ![Colette Laliberte](/img/colette-laliberte.jpg)
