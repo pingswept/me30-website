@@ -18,6 +18,16 @@ To make the signal bigger, we'll use an amplifier. You can buy a strain gauge am
 
 The technique we'll use is called a Wheatstone bridge (invented in 1833 by Samuel H. Christie; Wheatstone just blathered on about it). The idea is to add a second pair of resistors in parallel with the original voltage divider and then measure the voltage difference between the two central nodes. It's like our voltage is a bridge across the middle of the circuit.
 
+The Wheatstone bridge has two major advantages.
+
+1. Resistors change resistance when they heat up, which means that your sensor signal will slowly drift with the temperature in the room, and it gets worse because the current running through the resistors heats them up even more. When comparing the two sides of the bridge, they are both at roughly the same temperature, so the temperature drift is the same on both sides, which means it cancels out in the difference.
+
+2. It is easier to measure small voltages accurately than large voltages. Every op-amp has the unfortunate property that it responds slightly nonlinearly to input voltage. If we just try to amplify a 1.65 V voltage relative to ground ........ acch, not sure how to explain this well yet. This is called the common-mode rejection ratio, or CMRR. The LM324 opamps that we will be using have a CMRR of around 10,000 (80 dB).
+
+## Circuit explanation ##
+
+
+
 {{< katex display >}}
 V_{in} = V_{out} * \frac{R_1}{(R_1 + R_2)}
 {{< /katex >}}
