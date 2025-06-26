@@ -67,7 +67,7 @@ draft: false
 |   3   | 9/24-9/28   | KiCad tips & tricks, and solder your KB2040 pins |
 |   4   | 10/1-10/5   | Control a motor with transistors, P2 help |
 |   5   | 10/8-10/12  | KB2040 challenges set 1 |
-|   6   | 10/15-10/19 | Solder your P1 PCB (Monday lab students can attend other labs, flex labs, or office hours) |
+|   6   | 10/15-10/19 | Solder your P1 PCB |
 |   7   | 10/22-10/26 | H-bridges, P3 help |
 |   8   | 10/29-11/2  | KB2040 challenges set 2 |
 |   9   | 11/5-11/9   | P4 help |
