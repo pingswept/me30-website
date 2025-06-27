@@ -71,8 +71,8 @@ draft: false
 |   7   | 10/22-10/26 | Solder your P1 PCB, H-bridge PCB help |
 |   8   | 10/29-11/2  | KB2040 challenges set 2 |
 |   9   | 11/5-11/9   | P4 help |
-|   10  | 11/12-11/16 | Sensor amplifier |
-|   11  | 11/19-11/23 | Raspberry Pi set-up and challenges |
+|   10  | 11/12-11/16 | Raspberry Pi set-up and challenges |
+|   11  | 11/19-11/23 | Sensor amplifier |
 |       | 11/26-11/30 | No labs (Thanksgiving week) |
 |       | 12/3-12/7   | Labs shift to drop-in help sessions open to all |
 
