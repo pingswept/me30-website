@@ -12,8 +12,8 @@ draft: false
 |   01  | 9/3   | Course overview, introductions, kit contents  | Breadboard basics; power an LED with wall power | [LEDs](/notes/leds/); [Prototyping](/notes/prototyping/); [Voltage and current](/notes/voltage-and-current/) |          |
 |   02  | 9/8   | Voltage, current, resistors, voltage dividers | Voltage dividers; Project 0 intro               | [Multimeters](/notes/multimeter/); [Resistors](/notes/resistors/); [Series vs. parallel](/notes/series-vs-parallel/) | Intro post on Canvas |
 |   03  | 9/10  | Voltage regulators, capacitors                | Project 1 start; labs begin                     | [Capacitors](/notes/capacitors/); [Voltage regulators](/notes/voltage-regulation/); [Videos for P1](/notes/demo-videos/#videos-for-project-1)  |  |
-|   04  | 9/15  | Voltage regulators, Project 1                 | Debug your voltage regulator; Soldering demo    | [Voltage regulators](/notes/voltage-regulation/); [Videos for P1](/notes/demo-videos/#videos-for-project-1); [Adafruit soldering guide](https://learn.adafruit.com/adafruit-guide-excellent-soldering/making-a-good-solder-joint)    |  |        |
-|   05  | 9/17  | KiCad                                         | KiCad demo                                      | [PCB design](/notes/pcb/); Kicad resources  | [P1   proto](/logistics/projects/#project-1-build-a-breadboard-power-supply) |
+|   04  | 9/15  | Voltage regulators, Project 1                 | Debug your voltage regulator; Soldering demo    | [Voltage regulators](/notes/voltage-regulation/); [Videos for P1](/notes/demo-videos/#videos-for-project-1); [Adafruit soldering guide](https://learn.adafruit.com/adafruit-guide-excellent-soldering/making-a-good-solder-joint)    | [P1   proto](/logistics/projects/#project-1-build-a-breadboard-power-supply) |        |
+|   05  | 9/17  | KiCad                                         | KiCad demo                                      | [PCB design](/notes/pcb/); Kicad resources  |  |
 |   06  | 9/22  | PCB design                                    | KiCad Q & A                                     | [PCB design](/notes/pcb/); [KiCad demo videos](/notes/demo-videos/#introduction-to-kicad-with-a-simple-led-board)    |  |
 
 
@@ -21,7 +21,7 @@ draft: false
 
 | Class | Date  | Class topics                                  | Hands-on                        | What to study                                                            | What's due                                                    |
 |:-----:|:-----:|-----------------------------------------------|---------------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------|
-|   07  | 9/24  | Transistors as switches                       | Make a switch with a BJT        | [Low power/high power](/notes/low-power-high-power/)|[P1 PCB due Friday](/logistics/projects/#project-1-build-a-breadboard-power-supply)|        |
+|   07  | 9/24  | Transistors as switches                       | Make a switch with a BJT        | [Low power/high power](/notes/low-power-high-power/)|[P1 PCB](/logistics/projects/#project-1-build-a-breadboard-power-supply)|        |
 |   08  | 9/29  | Intro to P2 (game v1), DC motors, MOSFETs     | Run a motor with a MOSFET       | [Motors](/notes/motors/) |              |
 |   09  | 10/1  | Microcontrollers, CircuitPython               | KB2040 set-up                   | [KB2040 hardware](/notes/feather-rp2040-hardware/); [Microcontrollers](/notes/microcontrollers/); Solder pins to your KB2040 and bring to class |      |
 |   10  | 10/6  | Digital and analog I/O hardware               | De-bugging challenge #1; KB2040 challenges set 1  |    [KB2040 programming](/notes/kb2040-programming/); [KB2040 challenges](/notes/kb2040-challenges/)    |   
@@ -63,8 +63,8 @@ draft: false
 | Lab # | Lab dates   | Lab focus  | 
 |:-----:|:-----------:|----------------------|
 |   1   | 9/10-9/14   | Voltage divider & voltage regulator circuits |
-|   2   | 9/17-9/21   | Troubleshoot P1 circuits, start to learn KiCad, and practice soldering |
-|   3   | 9/24-9/28   | KiCad tips & tricks, and solder your KB2040 pins |
+|   2   | 9/17-9/21   | Learn KiCad |
+|   3   | 9/24-9/28   | Solder your KB2040 pins |
 |   4   | 10/1-10/5   | Control a motor with transistors, P2 help |
 |   5   | 10/8-10/12  | KB2040 challenges set 1 |
 |   6   | 10/15-10/19 | Solder your P1 PCB |
