@@ -7,18 +7,13 @@ draft: false
 
 ME 30, Electronics & Controls I
 
-## Office hours for week of Dec. 9 (in Nolop)
+## Office hours
 
-* Mon., 12/9, 6-9pm (LAs)
-* Mon., 12/9, 4-5pm (Kristen)
-* Tue., 12/10, 6-9pm (LAs)
-* Wed., 12/11, 11am-1pm (Kristen)
-* Fri., 12/13, 2-5pm (Kristen)
-* Mon., 12/16, 3-5pm (Kristen)
+* TBD
 
 Brandon: is usually in Nolop 9 AM to 5 PM, unless he's teaching class or in a meeting, or it's a weekend
 
-Please reach out to Kristen or Brandon if you want to make a separate appointment for help.
+Please reach out to Kristen, Brandon, or Zosia if you want to make a separate appointment for help.
 
 ## Course description
 
@@ -57,6 +52,8 @@ Morning sections: Kristen Wendell, kristen.wendell@tufts.edu
 
 Afternoon section: Brandon Stafford, brandon.stafford@tufts.edu
 
+Evening section: Zosia Stafford, zosia.stafford@tufts.edu
+
 ## Course credit and time expectations
 
 ME 30 is a 4-SHU course with lab. At Tufts, each SHU equates to 3 hours of student time per week. 4-SHU courses are expected to require an average of 12 student hours per week. Typically, these hours are divided into about 3 hours of class time and 9 hours of lab/homework/study time. For Fall 2024, you can expect to spend roughly 2.5 hours in class sessions, 1 hour in your scheduled lab, 2 hours reading/viewing/studying, and the remaining 7 hours on project work each week.
@@ -94,11 +91,11 @@ There are two recommended textbooks for the class. You are not required to buy e
 Here's how class will work each Monday and Wednesday.
 1. You'll show up to the classroom to which you are enrolled on SIS, and bring your kit with you.
 2. For roughly the first half of the class session, your instructor (Kristen or Brandon) will explain something about electronics or facilitate a class discussion about the design of an electronic system.
-3. For the second half of the class session, we will all build electronics. The Learning Assistants (LAs) will help you and ask you questions to extend your learning, as will Kristen or Brandon.
+3. For the second half of the class session, we will all build electronics. The Learning Assistants (LAs) will help you and ask you questions to extend your learning, as will Kristen, Brandon, or Zosia.
 
 ### Labs
 
-Each ME 30 student is also assigned to a lab group that meets weekly in the Nolop Makerspace under the guidance of a Learning Assistant (LA), each of whom is a successful ME 30 alum. The purpose of these scheduled 1-hour lab times is to give students access to a smaller group of peers and a mentor (your LA) for hands-on support with circuits and code. We've worked hard to balance out the lab size for an LA:student ratio of about 8:1, so please attend lab on the day/time in which you are enrolled. Labs begin on Monday, Sep. 9, 2024.
+Each ME 30 student is also assigned to a lab group that meets weekly in the Nolop Makerspace under the guidance of a Learning Assistant (LA), each of whom is a successful ME 30 alum. The purpose of these scheduled 1-hour lab times is to give students access to a smaller group of peers and a mentor (your LA) for hands-on support with circuits and code. We've worked hard to balance out the lab size for an LA:student ratio of about 8:1, so please attend lab on the day/time in which you are enrolled. Labs begin on Wednesday, Sep. 10, 2025.
 
 ### Asynchronous elements  
 * 	 **Video mini-lectures** - Created and posted by the instructors. Several on a set of new topics each week.  
