@@ -57,7 +57,13 @@ Will the LEDs in these circuits light when the button is pressed, all the time, 
 
 (Include pictures)
 
-## 3: Safety check (Class 2)
+Does it matter if the resistor is above or below the LED?
+
+## 3. Safety check (Class 2)
+
+Which of these three circuits can you safely build on your breadboard?
+
+(Include pictures - short circuit, 1k ohm resistor, and 1k ohm resistors in parallel)
 
 If you feel a circuit component getting hot or starting to smoke, what should you do first?
 a. call over an LA
