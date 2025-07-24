@@ -6,7 +6,7 @@ draft: false
 
 # ME 30: Electronics & Controls I
 
-ME 30 is an course in electronics at Tufts University co-taught by Kristen Wendell and Brandon Stafford.
+ME 30 is an course in electronics at Tufts University co-taught by Kristen Wendell, Brandon Stafford, and Zosia Stafford.
 
 You're going to love it.
 
