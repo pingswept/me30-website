@@ -96,7 +96,13 @@ After you've written down your predictions for V_out, build the circuits and use
 
 ![Voltage dividers](/img/voltage-dividers-2022.png)
 
-## 6: Build a voltage regulation circuit (Class 2 and 3)
+## 6: Matching schematics to breadboards (Class 3)
+
+Which of these breadboards has the same circuit as the one represented in the schematic?
+
+![Schematic and breadboards](/img/Breadboard_schematic_matching.jpg)
+
+## 7: Build a voltage regulation circuit (Class 3)
 
 This is an introductory exercise designed to help you get familiar with breadboard prototyping while also building a basic circuit that will be useful for later exercises and projects. It forms the basis for Project #1, but you don't need to think about that yet. If this is all new to you, look at the pages on [breadboard prototyping](/notes/prototyping/) and [multimeters](/notes/multimeters/).
 
@@ -107,12 +113,6 @@ The 4 components are:
 1. One power jack
 2. One L7805CV voltage regulator
 3. Two capacitors
-
-## 7: Matching schematics to breadboards (Class 3)
-
-Which of these breadboards has the same circuit as the one represented in the schematic?
-
-![Schematic and breadboards](/img/Breadboard_schematic_matching.jpg)
 
 ## 8: Review of voltage and current (Class 3 and 4)
 
@@ -125,7 +125,6 @@ For the circuit below, analyze the following first for when the switch is open, 
 6. Order the points from highest to lowest voltage.
   
 ![Circuits to analyze](/img/Voltage_current_review.jpg)
-
 
 ## 9. Control a motor with a BJT (Class 7)
 
@@ -197,15 +196,7 @@ For Kristen's 1-page summary of the most important Circuit Python commands for y
 
 (b) Take a moment to fill out the [self-assessment for Project 2](https://tufts.qualtrics.com/jfe/form/SV_7PAFa4Tk6kXRZ1s), if you have not done so already.
 
-## 15. Mechanically controlled two-way motor circuit (Class 11)
-
-With a partner or two, build a circuit that will allow you to use pushbutton switches to toggle a 12-V DC motor between the states of (a) OFF (b) ON counterclockwise, and (c) ON clockwise. That means your motor needs to be able to draw current in either direction (only one direction at a time). Your circuit should NOT use transistors. It should include (a) 12 V adapter and barrel jack, (b) DC gearmotor, (c) assorted wires, (d) as many pushbutton switches as you want.
-
-As you work on this challenge, **be careful not to create a situation where you are sending 12 V to ground only through wires.** That's a short circuit and will cause heat and smoke!
-
-![Motor with question marks](/img/Exercise_2waymotor.jpg)
-
-## 16. Recognizing common errors in KB2040 Challenge #6 (Class 11)
+## 15. Recognizing common errors in KB2040 Challenge #6 (Class 11)
 
 Challenge #6 asks you to control a motor's on/off state with a KB2040 output pin. Below are two approaches to setting up the circuitry. Each has problems that will prevent it from working correctly. What do you think those problems are?
 
@@ -232,6 +223,14 @@ Challenge #6 asks you to control a motor's on/off state with a KB2040 output pin
 
 ![Fixed circuit](/img/Micro_MOSFET_Fixed.jpg)
 {{< /expand >}}
+
+## 16. Mechanically controlled two-way motor circuit (Class 11)
+
+With a partner or two, build a circuit that will allow you to use pushbutton switches to toggle a 12-V DC motor between the states of (a) OFF (b) ON counterclockwise, and (c) ON clockwise. That means your motor needs to be able to draw current in either direction (only one direction at a time). Your circuit should NOT use transistors. It should include (a) 12 V adapter and barrel jack, (b) DC gearmotor, (c) assorted wires, (d) as many pushbutton switches as you want.
+
+As you work on this challenge, **be careful not to create a situation where you are sending 12 V to ground only through wires.** That's a short circuit and will cause heat and smoke!
+
+![Motor with question marks](/img/Exercise_2waymotor.jpg)
 
 ## 17. H-bridge circuit analysis  (Class 12)
 
@@ -270,7 +269,21 @@ Now you add a BJT as a different method for switching on the P-channel MOSFET. A
 **Don't do this -  it will short the circuit!!** In this H-bridge, setting a corner input to 3.3 V turns that corner's MOSFET "on," allowing current to across the source-drain pathway. If all 4 MOSFETs are allowing current to flow, then this circuit's easiest path to ground will be down the two sides of the "H."  No current will flow through the highly resistive motor. The motor will not spin, and the rest of the circuit will get very hot.
 {{< /expand >}}
 
-## 19a. Measure a DC gearmotor (Power In) (Class 13)
+## 19. Test the current limit of your P1 PCB (Class 14)
+
+The voltage regulators on your P1 PCB are specified (on their data sheets) to be able to handle current at the level of 1.5 A (the 5V regulator) and 0.8 A (the 3.3 V regulator). But the question is - **once soldered into your P1 PCB, can they still perform up to their specified max current limit?**  
+
+**Test your P1 PCB by determining how much current your regulators can actually send out to loads at your output pins before going into thermal shutdown.**
+
+General procedure (details left to your group):
+- Determine the resistance (it will be a low value!) you should attach to your 3.3 V and 5 V output so that something close to the specified max current is drawn (0.8 A or 1.5 A, respectively)
+- Attach those low-ohm resistors to the output. These resistors stand in for a motor or other load to which you would want to supply 3.3 V or 5 V
+- Monitor the voltage drop across that resistive load - that is, the voltage drop between the output of the regulator and ground
+- Once that voltage drop begins to decrease lower than 3.3 V or 5 V, your regulator has gone into thermal shutdown (you may feel the regulators getting very hot before this happens)
+
+Use this [shared doc](https://tinyurl.com/ME30questiondoc) to post questions about the P1 PCB test and about P3 circuit board design.
+
+## 20a. Measure a DC gearmotor (Power In) (Class 14)
 
 Here are a few basic measurements you can make to understand your DC gearmotor better. The overall goal is to determine the efficiency of the motor by comparing the electrical power that goes into it ("power in") with the mechanical power it delivers ("power out"). 
 
@@ -285,27 +298,13 @@ When you know the current and the voltage, you can multiply them to find the ele
 
 If you can estimate how much power a task will require, you can start to figure out what voltage this motor would need to deliver that power (assuming perfect efficiency, for now). That's the first step toward deciding whether this is the right motor for whatever you're building.
 
-## 19b. Measure a DC gearmotor (Power Out) (Class 14)
+## 20b. Measure a DC gearmotor (Power Out) (Class 14)
 
 The next step is to determine how much mechanical power the motor actually delivers ("power out"). One way to do this is to measure the time it takes to perform a certain amount of work (i.e., to add energy to a system).
 
 1. Use tape and string to hang a water bottle from your motor shaft.
 2. Measure the time it takes your motor to lift a known weight a specific distance (you could try something like 0.5 kg of water, lifted up 1 m). Compute the amount of work done in lifting the water. With these two values (work and time), you can find "power out."
 3. Compare "power in" and "power out" to estimate the motor's efficiency. You may want to measure "power in" at this motor operating point by measuring current while the water is being lifted.
-
-## 20. Test the current limit of your P1 PCB (Class 14)
-
-The voltage regulators on your P1 PCB are specified (on their data sheets) to be able to handle current at the level of 1.5 A (the 5V regulator) and 0.8 A (the 3.3 V regulator). But the question is - **once soldered into your P1 PCB, can they still perform up to their specified max current limit?**  
-
-**Test your P1 PCB by determining how much current your regulators can actually send out to loads at your output pins before going into thermal shutdown.**
-
-General procedure (details left to your group):
-- Determine the resistance (it will be a low value!) you should attach to your 3.3 V and 5 V output so that something close to the specified max current is drawn (0.8 A or 1.5 A, respectively)
-- Attach those low-ohm resistors to the output. These resistors stand in for a motor or other load to which you would want to supply 3.3 V or 5 V
-- Monitor the voltage drop across that resistive load - that is, the voltage drop between the output of the regulator and ground
-- Once that voltage drop begins to decrease lower than 3.3 V or 5 V, your regulator has gone into thermal shutdown (you may feel the regulators getting very hot before this happens)
-
-Use this [shared doc](https://tinyurl.com/ME30questiondoc) to post questions about the P1 PCB test and about P3 circuit board design.
 
 ## 21. Motor speed-torque curve (Class 15)
 
@@ -488,15 +487,15 @@ Note that you will need the adafruit_motor library. All CircuitPython libraries 
 
 Make sure you can complete [Raspberry Pi challenges #7, #8, and #9](http://andnowforelectronics.com/notes/pi-challenges/)
 
-## 31. Project 5 planning, Q & A (Class 21 and 23)
+## 31. Amplify a strain gauge (Class 22)
+
+Add details later
+
+## 32. Project 5 planning, Q & A (Class 22 and 23)
 
 (a) Discuss these Project 5 planning questions with your team: https://tufts.box.com/s/hs2supj34cp4mar33w4fsitflc4m4o6c
 
 (b) Use this [shared doc](https://tinyurl.com/ME30questiondoc) to post questions about Project 5.
-
-## 32. Amplify a strain gauge (Class 22)
-
-Add details later
 
 ## 33. Oscilloscopes and PWM signals (Class 23)
 
