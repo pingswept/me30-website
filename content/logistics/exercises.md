@@ -77,7 +77,12 @@ a. you’ll get zero current reading on your multimeter and prevent your circuit
 b. you’ll let too much current go through your multimeter and blow its fuse
 c. you’ll hear a beeping sound warning you that you should use the “A” symbol and port
 
-## 4. Build voltage dividers (Class 2)
+## 4. Current limiting resistors (Class 2)
+
+Which circuit gives the brightest LED? Check the circuit with multimeter.
+(Include pictures of circuits)
+
+## 5. Build voltage dividers (Class 2)
 
 We've used resistors to limit *current* flow through an LED.  
 
@@ -91,7 +96,7 @@ After you've written down your predictions for V_out, build the circuits and use
 
 ![Voltage dividers](/img/voltage-dividers-2022.png)
 
-## 5: Build a voltage regulation circuit (Class 2 and 3)
+## 6: Build a voltage regulation circuit (Class 2 and 3)
 
 This is an introductory exercise designed to help you get familiar with breadboard prototyping while also building a basic circuit that will be useful for later exercises and projects. It forms the basis for Project #1, but you don't need to think about that yet. If this is all new to you, look at the pages on [breadboard prototyping](/notes/prototyping/) and [multimeters](/notes/multimeters/).
 
@@ -103,13 +108,13 @@ The 4 components are:
 2. One L7805CV voltage regulator
 3. Two capacitors
 
-## 6: Matching schematics to breadboards (Class 3)
+## 7: Matching schematics to breadboards (Class 3)
 
 Which of these breadboards has the same circuit as the one represented in the schematic?
 
 ![Schematic and breadboards](/img/Breadboard_schematic_matching.jpg)
 
-## 7: Review of voltage and current (Class 3 and 4)
+## 8: Review of voltage and current (Class 3 and 4)
 
 For the circuit below, analyze the following first for when the switch is open, and then for when the switch is closed:
 1. Find sets of labeled points on the circuit where the **current** is the **same**.
@@ -122,7 +127,7 @@ For the circuit below, analyze the following first for when the switch is open, 
 ![Circuits to analyze](/img/Voltage_current_review.jpg)
 
 
-## 8. Control a motor with a BJT (Class 7)
+## 9. Control a motor with a BJT (Class 7)
 
 Making a motor spin is pretty simple: apply sufficient voltage across its leads. When we want to control things like motors (or LEDs, buzzers, etc.) electronically, instead of plugging them in to breadboards with our hands, we use transistors. The goal of this exercise is to use a bipolar junction transistor, the 2N3904, to turn on and off a motor.
 
@@ -141,7 +146,7 @@ The picture below shows the concept of what you're building.
 
 ![BJT circuit with potentiometer](/img/bjt-potentiometer.jpg)
 
-## 9. Determine pin voltages and ideal resistor value for a BJT circuit (Class 7 and 8)
+## 10. Determine pin voltages and ideal resistor value for a BJT circuit (Class 7 and 8)
 
 1. For the circuit shown in Exercise #7, fill in the table below to indicate the voltage at E, B, and C when the base resistor is connected to (a) 0 V and (b) 3.3 V.
 2. To run your kit's gear motor, what is an ideal value for the resistor between 3.3 V and the base of the transistor?
@@ -152,7 +157,7 @@ The picture below shows the concept of what you're building.
 |  Input at O V   |    |   |     |
 |  Input at 3.3 V   |    |   |     |
 
-## 10. Control a motor with a MOSFET (Class 8)
+## 11. Control a motor with a MOSFET (Class 8)
 
 You've used a bipolar junction transistor to control a motor. Now try using the other main class of transistor: a metal oxide semiconductor field effect transistor, or MOSFET.  The main difference between the [two types of transistors](http://andnowforelectronics.com/notes/low-power-high-power/) is that BJTs are current-controlled, and MOSFETs are voltage-controlled.
 
@@ -166,7 +171,7 @@ You need 5 things:
 
 ![MOSFET circuit](/img/mosfet-controller.jpg)
 
-## 11. De-bugging challenges set 1 (Class 10)
+## 12. De-bugging challenges set 1 (Class 10)
 
 Images of circuits: https://tufts.box.com/s/8al3jwc3l81ewtb16ridfo2ewqbjtc3v
 
@@ -178,7 +183,7 @@ Your Circuit 3 responses- https://tufts.qualtrics.com/jfe/form/SV_3t9Kl4NmGOak5J
 
 Your Circuit 4 responses- https://tufts.qualtrics.com/jfe/form/SV_3sFQF0NE8VbxI58
 
-## 12. KB2040 microcontroller challenges set 1 (Class 10 and labs)
+## 13. KB2040 microcontroller challenges set 1 (Class 10 and labs)
 
 Learn to program your KB2040 board by working through the first 6 of these 12 challenges: http://andnowforelectronics.com/notes/kb2040-challenges/
 
@@ -186,13 +191,13 @@ You'll want to consult the [KB2040 programming](http://andnowforelectronics.com/
 
 For Kristen's 1-page summary of the most important Circuit Python commands for your KB2040, click [here](https://tufts.box.com/s/lczswqulqewphbxyku1zpvazp73govzi).
 
-## 13. Project 2 takeaways reflection (Class 11)
+## 14. Project 2 takeaways reflection (Class 11)
 
 (a) What are some problems you encountered along the way of working on your game for Project 2, and what did you learn from them? Let's collectively document those [here](https://docs.google.com/document/d/1yKv0bKWhP53wHEWxWcOBskjrUdKzZLRV_DfW0eVWal0/edit?usp=sharing).
 
 (b) Take a moment to fill out the [self-assessment for Project 2](https://tufts.qualtrics.com/jfe/form/SV_7PAFa4Tk6kXRZ1s), if you have not done so already.
 
-## 14. Mechanically controlled two-way motor circuit (Class 11)
+## 15. Mechanically controlled two-way motor circuit (Class 11)
 
 With a partner or two, build a circuit that will allow you to use pushbutton switches to toggle a 12-V DC motor between the states of (a) OFF (b) ON counterclockwise, and (c) ON clockwise. That means your motor needs to be able to draw current in either direction (only one direction at a time). Your circuit should NOT use transistors. It should include (a) 12 V adapter and barrel jack, (b) DC gearmotor, (c) assorted wires, (d) as many pushbutton switches as you want.
 
@@ -200,7 +205,7 @@ As you work on this challenge, **be careful not to create a situation where you 
 
 ![Motor with question marks](/img/Exercise_2waymotor.jpg)
 
-## 15. Recognizing common errors in KB2040 Challenge #6 (Class 11)
+## 16. Recognizing common errors in KB2040 Challenge #6 (Class 11)
 
 Challenge #6 asks you to control a motor's on/off state with a KB2040 output pin. Below are two approaches to setting up the circuitry. Each has problems that will prevent it from working correctly. What do you think those problems are?
 
@@ -228,7 +233,7 @@ Challenge #6 asks you to control a motor's on/off state with a KB2040 output pin
 ![Fixed circuit](/img/Micro_MOSFET_Fixed.jpg)
 {{< /expand >}}
 
-## 16. H-bridge circuit analysis  (Class 12)
+## 17. H-bridge circuit analysis  (Class 12)
 
 You've just wired up the top left corner of an H-bridge circuit using a P-channel MOSFET. You connect the other motor lead to ground so that you can test this corner before wiring up the transistors at any other corners.  If this corner is wired correctly, 
 
@@ -253,7 +258,7 @@ Now you add a BJT as a different method for switching on the P-channel MOSFET. A
 
 ![add BJT to corner of an H-bridge](/img/Hbridge-corner-BJT.jpg)
 
-## 17. H-bridge circuit analysis, part 2 (Class 13)
+## 18. H-bridge circuit analysis, part 2 (Class 13)
 
 **This H-bridge circuit has four inputs, shown at locations 1, 2, 3, and 4. Each input turns a transistor on or off.**
 
@@ -265,7 +270,7 @@ Now you add a BJT as a different method for switching on the P-channel MOSFET. A
 **Don't do this -  it will short the circuit!!** In this H-bridge, setting a corner input to 3.3 V turns that corner's MOSFET "on," allowing current to across the source-drain pathway. If all 4 MOSFETs are allowing current to flow, then this circuit's easiest path to ground will be down the two sides of the "H."  No current will flow through the highly resistive motor. The motor will not spin, and the rest of the circuit will get very hot.
 {{< /expand >}}
 
-## 18a. Measure a DC gearmotor (Power In) (Class 13)
+## 19a. Measure a DC gearmotor (Power In) (Class 13)
 
 Here are a few basic measurements you can make to understand your DC gearmotor better. The overall goal is to determine the efficiency of the motor by comparing the electrical power that goes into it ("power in") with the mechanical power it delivers ("power out"). 
 
@@ -280,7 +285,7 @@ When you know the current and the voltage, you can multiply them to find the ele
 
 If you can estimate how much power a task will require, you can start to figure out what voltage this motor would need to deliver that power (assuming perfect efficiency, for now). That's the first step toward deciding whether this is the right motor for whatever you're building.
 
-## 18b. Measure a DC gearmotor (Power Out) (Class 14)
+## 19b. Measure a DC gearmotor (Power Out) (Class 14)
 
 The next step is to determine how much mechanical power the motor actually delivers ("power out"). One way to do this is to measure the time it takes to perform a certain amount of work (i.e., to add energy to a system).
 
@@ -288,7 +293,7 @@ The next step is to determine how much mechanical power the motor actually deliv
 2. Measure the time it takes your motor to lift a known weight a specific distance (you could try something like 0.5 kg of water, lifted up 1 m). Compute the amount of work done in lifting the water. With these two values (work and time), you can find "power out."
 3. Compare "power in" and "power out" to estimate the motor's efficiency. You may want to measure "power in" at this motor operating point by measuring current while the water is being lifted.
 
-## 19. Test the current limit of your P1 PCB (Class 14)
+## 20. Test the current limit of your P1 PCB (Class 14)
 
 The voltage regulators on your P1 PCB are specified (on their data sheets) to be able to handle current at the level of 1.5 A (the 5V regulator) and 0.8 A (the 3.3 V regulator). But the question is - **once soldered into your P1 PCB, can they still perform up to their specified max current limit?**  
 
@@ -302,13 +307,13 @@ General procedure (details left to your group):
 
 Use this [shared doc](https://tinyurl.com/ME30questiondoc) to post questions about the P1 PCB test and about P3 circuit board design.
 
-## 20. Motor speed-torque curve (Class 15)
+## 21. Motor speed-torque curve (Class 15)
 
 Fill in values in the boxes to complete the motor speed-torque curve for the DC gearmotor in your ME 30 kit.
 
 ![speed torque curve](/img/speed-torque.jpg)
 
-## 21. Motor selection cases (Class 15)
+## 22. Motor selection cases (Class 15)
 
 For each of these potential motorized game designs, determine whether the mechanical power and torque needs are within the capabilities of the DC gearmotor in your ME 30 kit.
 - Can your motor handle these designs with a direct-drive approach (i.e., no gear trains or pulleys)? Why or why not?
@@ -321,7 +326,7 @@ https://docs.google.com/spreadsheets/d/18il0YS9v-0mt79J7DdHGnpuPw71HNZ7vh3b1nPuh
 ![claw assembly case](/img/motorcase2.jpg)
 ![popcorn launcher case](/img/motorcase3.jpg)
 
-## 22. Analog and digital sensors (Class 16)
+## 23. Analog and digital sensors (Class 16)
 
 Circuits A and B show different ways to send a varying input to a KB2040 pin. Circuit A uses a photoresistor, a component whose resistance depends on the amount of light shining on it. Circuit B uses a simple pushbutton. 
 
@@ -335,7 +340,7 @@ Build each of the circuits below and program your KB2040 to measure the input vo
 
 ![photoresistor and push-button voltage dividers](/img/Sensors_Exercise.jpg)
 
-## 23. More practice with sensors and PWM (Class 16)
+## 24. More practice with sensors and PWM (Class 16)
 
 Set up KB2040 challenge #10: 
 
@@ -343,7 +348,7 @@ Use a resistor in series with your photoresistor to make a voltage that changes 
 
 Now try to add an LED whose brightness also varies with the light exposure to the photoresistor.  Think carefully both about the code and the circuit components that you need to make this addition.
 
-## 24. How to code your microcontroller to constantly check an input while also running actuators (Class 16)
+## 25. How to code your microcontroller to constantly check an input while also running actuators (Class 16)
 
 Suppose you want to check for the state of inputs while also running motors, lights, and other actuators.
 
@@ -445,7 +450,7 @@ In the diagram below, add labels to the arrows to represent the rules for moving
 
 ![state machine diagram](/img/StateMachineDiagram.jpg)
 
-## 25. Using a state machine with a motor (Class 17)
+## 26. Using a state machine with a motor (Class 17)
 
 Imagine a Project 4 game with a 1-foot arm attached to the DC gearmotor shaft. Mounted at the end of the arm is a bowl. The motor switches directions every two seconds in order to move the bowl back and forth, switching directions every 2 seconds, as the player tries to toss a bean bag into the bowl.   In the base of the bowl is a button whose purpose is to sense the presence of the bean bag. When the button gets pressed by the bean bag, the player wins! The motor stops moving and a celebratory green LED light blinks quickly 10 times.
 
@@ -459,19 +464,19 @@ Draft the Circuit Python code to implement this state machine.
 
 Sketch a circuit diagram that shows how you would wire up all the components.
 
-## 26. Using a state machine with two inputs (Class 17)
+## 27. Using a state machine with two inputs (Class 17)
 
 Set up KB2040 challenge #10 (where the speed of a gearmotor on pin D6 is controlled by the light exposure on a photoresistor).
 
 Now, add a button that switches which direction the motor is going. How could a state machine help you implement this feature?
 
-## 27. Stepper motor set-up (Class 17)
+## 28. Stepper motor set-up (Class 17)
 
 With one or two partners, set up two working breadboard H-bridges. Choose one KB2040 and one stepper motor to use for this exercise. Hook up each coil of the stepper motor to one H-bridge. Connect one KB2040 digital output pin to each "diagonal" pair of H-bridge corners. You'll use four KB2040 output pins in total.  Control the motor using the code provided here: http://andnowforelectronics.com/notes/kb2040-programming/#stepper-motors
 
 Note that you will need the adafruit_motor library. All CircuitPython libraries for the KB2040 can be downloaded [here](https://circuitpython.org/libraries). Download the entire library bundle to your laptop, and then transfer ONLY the libraries you need to your KB2040.
 
-## 28. More sensors and actuators (Class 17)
+## 29. More sensors and actuators (Class 17)
 
 1. **Potentiometer for input; motor speed for output.** Send the voltage output from a potentiometer (knob- or dial-like variable resistor) to an analog input pin on your KB2040. Use that varying voltage to vary the speed of a motor. **Extension:** Add a button that switches the direction of the motor (you'll likely need state machine code for this.)
 
@@ -479,21 +484,21 @@ Note that you will need the adafruit_motor library. All CircuitPython libraries 
 
 4. **Pushbutton for input; piezo buzzer for output.** Use a pushbutton to send either 3.3 V or 0 V to a digital input pin on your KB2040. Use that button signal to trigger the sound of a buzzer. Power the buzzer with PWM. Explore different frequency and duty cycle values, and see how that changes the sound of the button.
 
-## 29. Raspberry Pi Flask set-up and challenges (Class 19)
+## 30. Raspberry Pi Flask set-up and challenges (Class 19)
 
 Make sure you can complete [Raspberry Pi challenges #7, #8, and #9](http://andnowforelectronics.com/notes/pi-challenges/)
 
-## 30. Project 5 planning, Q & A (Class 21 and 23)
+## 31. Project 5 planning, Q & A (Class 21 and 23)
 
 (a) Discuss these Project 5 planning questions with your team: https://tufts.box.com/s/hs2supj34cp4mar33w4fsitflc4m4o6c
 
 (b) Use this [shared doc](https://tinyurl.com/ME30questiondoc) to post questions about Project 5.
 
-## 31. Amplify a strain gauge (Class 22)
+## 32. Amplify a strain gauge (Class 22)
 
 Add details later
 
-## 32. Oscilloscopes and PWM signals (Class 23)
+## 33. Oscilloscopes and PWM signals (Class 23)
 
 Consider the following Python code, which powers pin 12 on a Raspberry Pi with the pulse-width modulation (PWM) protocol. The goal of this code is to gradually increase the speed of a motor, 2 seconds per speed increment, until it is running at full speed.
 
@@ -525,7 +530,7 @@ An oscilloscope is a tool for measuring electrical signals, like a multimeter, b
 (3) Use the oscilloscope simulator to represent what the signal will look like on the scope at i = 5. You’ll need to adjust both the signal generator (the instrument in the top half of the screen) and the scope settings.
 https://www.pzdsp.com/elab/virtual_oscilloscope.html
 
-## 32. ME 30 career connections and Project 6 planning (Class 26)
+## 34. ME 30 career connections and Project 6 planning (Class 26)
 
 We'll use these slides today: https://docs.google.com/presentation/d/1KQUk6XxwHb4ZOj-VtnntzEh-BJyFNbJ3YQ1TYeTOjiQ/edit?usp=sharing
 
