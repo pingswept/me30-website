@@ -2,7 +2,7 @@
 title: "Exercises"
 draft: false
 ---
-# In-class exercises for Fall 2024
+# In-class exercises for Fall 2025
 
 ## 1: Power an LED with "wall" power (Class 1)
 
@@ -49,15 +49,18 @@ Image credit: E. Schlaepfer and W. Oskay, 2023, Open Circuits, opencircuitsbook.
 
 *For an extension to this exercise, re-arrange your circuit so you have one LED that stays on permanently and another that is powered by the button.*
 
-## 2. Flawed circuits (Class 2)
+## 2. LED circuit details (Class 2)
 
 Would the functioning of Circuit A (left) be any different than that of Circuit B (right)? Why or why not? What evidence would prove your answer?
 
+![LEDs with resistors](/img/led-resistor-location-exercise.jpg)
+
+Does it matter if the resistor is "above" or "below" the LED?
+
 Will the LEDs in these circuits light when the button is pressed, all the time, or not at all? 
 
-(Include pictures)
+![Voltage dividers](/img/led-series-parallel-exercise.jpg)
 
-Does it matter if the resistor is above or below the LED?
 
 ## 3. Safety check (Class 2)
 
@@ -173,14 +176,6 @@ You need 5 things:
 ## 12. De-bugging challenges set 1 (Class 10)
 
 Images of circuits: https://tufts.box.com/s/8al3jwc3l81ewtb16ridfo2ewqbjtc3v
-
-Your Circuit 1 responses - https://tufts.qualtrics.com/jfe/form/SV_bdOn4VWl8YvNoQm
-
-Your Circuit 2 responses - https://tufts.qualtrics.com/jfe/form/SV_3WAXKdT2tT7u0rc
-
-Your Circuit 3 responses- https://tufts.qualtrics.com/jfe/form/SV_3t9Kl4NmGOak5JY
-
-Your Circuit 4 responses- https://tufts.qualtrics.com/jfe/form/SV_3sFQF0NE8VbxI58
 
 ## 13. KB2040 microcontroller challenges set 1 (Class 10 and labs)
 
