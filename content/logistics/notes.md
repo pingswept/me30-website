@@ -218,15 +218,12 @@ Nametags and introductions: Instructors and LA's
 
 [andnowforelectronics.com](http://andnowforelectronics.com)
 
-How class works: short lectures, then build; collaborative community where those with less experience can learn from those with more experience, AND vice versa
-
-Labs
-
-Office hours
-
-Failure is success. But aim high and try hard!
-
-Grading is on project completion, not any performance threshold.
+- How class works: short lectures, then build; collaborative community where those with less experience can learn from those with more experience, AND vice versa
+- Goals for the class
+- Labs
+- Office hours
+- Failure is success. But aim high and try hard!
+- Grading is primarily on project completion, with part credit for meeting requirements.
 
 ### Voltage and current
 
@@ -245,11 +242,15 @@ Schematic diagram of what we’re going to build
 
 How the barrel jack works. See that pin 3 is not involved, and then use your multimeter to check polarity on pins 1 and 2. All of our power supplies are center-positive, but center-negative power supplies exist in the world. (In our supplies, postive is the center metal lining, which goes to pin 1, at closed end of barrel. Ground/negative is the outer metal shell, which goes to pin 2, closer to open end.)
 
+Circuit as energy conservation to light and heat
+
 How the LED works
 
 Breadboard connections / pattern layout
 
 Using a multimeter - 3 ways
+
+Brief safety talk - things shouldn't get hot. If you're messing with the circuit, unplug the power
 
 ### LEDs
 Nonlinear I-V curve means they are not resistorsCurrent flowing in one direction will be stopped, but current flowing in the opposite direction will result in LED emitting light.
@@ -273,4 +274,5 @@ V - V_f = V_r.  V_r = iR.   R = V_r / i.
 
 
 ### Extension/challenge: Re-arrange your circuit so you have one LED that stays on permanently and another that is powered by the switch
+
 
