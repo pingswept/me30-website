@@ -179,7 +179,7 @@ Notice that we are offering a few different modes of learning. Check which one w
 
 Series vs. Parallel 
 
-Resistance increases in series and decreases in parallel (here[https://tufts.box.com/s/3be929z4oalfle5flmf8e42estcnnpkz] are algebraic and conceptual explanations for this)
+Resistance increases in series and decreases in parallel ([here](https://tufts.box.com/s/3be929z4oalfle5flmf8e42estcnnpkz) are Kristen's algebraic and conceptual explanations for this)
 
 Is more current being drawn through circuit when the LEDs are in series or in parallel?
 
