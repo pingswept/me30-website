@@ -1,7 +1,11 @@
 ---
-title: "Datasheets"
+title: "Datasheets & schematics"
 draft: false
 ---
+
+## Circuit schematic symbols
+
+To see how to draw the circuit schematic symbol for common parts, check out this [Sparkfun reference sheet](https://learn.sparkfun.com/tutorials/how-to-read-a-schematic)
 
 ## Datasheets for useful parts
 
