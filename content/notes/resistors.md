@@ -64,15 +64,15 @@ The usual calculation for a 5 V system goes like this:
 
 A voltage divider is merely two resistors stacked in series. As current flows through the resistors, the voltage drops in proportion to the fraction of the total resistance passed through.
 
-![Divider with equal resistors](/img/voltage_divider_equation.jpg)
+![Divider with equal resistors](/img/Voltage_divider_equation.jpg)
 
 If you have, say, two 10k resistors stacked with 5 V applied, the voltage at the point between them will be 2.5 V.
 
-![Divider with equal resistors](/img/voltage_divider_equal.jpg)
+![Divider with equal resistors](/img/Voltage_divider_equal.jpg)
 
 If you have, say, a 3.9k and a 1k resistor stacked with 5 V applied, the voltage at the point between them will be around 1 V.
 
-![Divider with unequal resistors](/img/voltage_divider_unequal.jpg)
+![Divider with unequal resistors](/img/Voltage_divider_unequal.jpg)
 
 You might think that all that matters about a voltage divider is the ratio of the two resistors. Usually, you would be right. But, the purpose of the voltage divider is often to supply a reference voltage to another device. If that device draws off some current, the voltage between the resistors will start to sag, because less current is flowing through the lower resistor. To prevent this, make sure that the current drawn off into your device is at least 100x less than the current flowing through the divider itself. Alternatively, if the sag is predictable, you could just set the divider a little higher and let it sag to the original target.
 
