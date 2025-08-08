@@ -17,6 +17,9 @@ Above, you see 3 resistors, R1, R2, and R3, connected in series.
 
 {{< expand "See the answer" "..." >}} Hey, 2 mA is right! If each resistor had a resistance of 1k, the total resistance of the three in series would be 3k. Our old friend, Ohm's law, tells us that {{< katex >}}V / R = I{{< /katex >}}, and {{< katex >}}6 / 3000 = 0.002{{< /katex >}}. {{< /expand >}}
 
+![series effective resistance](/img/Resistors_series_math.jpg)
+
+
 ## Parallel connections
 
 Things that are connected in parallel are connected such that they share a common input as well as a common output.
@@ -30,3 +33,6 @@ Above, you see two resistors, R1 and R2, connected in parallel.
 **If, as above, each resistor had a resistance of 1k, and the battery above supplied 6 V to the resistors, how much current would flow?**
 
 {{< expand "See the answer" "..." >}} Hey, 12 mA is right! If each resistor had a resistance of 1k, the total resistance of the two in parallel would be 500 ohms. Ohm's law tells us that {{< katex >}}V / R = I{{< /katex >}}, and {{< katex >}}6 / 500 = 0.012{{< /katex >}}. {{< /expand >}}
+
+![series effective resistance](/img/Resistors_parallel_math.jpg)
+
