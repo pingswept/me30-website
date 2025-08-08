@@ -76,6 +76,9 @@ If you have, say, a 3.9k and a 1k resistor stacked with 5 V applied, the voltage
 
 You might think that all that matters about a voltage divider is the ratio of the two resistors. Usually, you would be right. But, the purpose of the voltage divider is often to supply a reference voltage to another device. If that device draws off some current, the voltage between the resistors will start to sag, because less current is flowing through the lower resistor. To prevent this, make sure that the current drawn off into your device is at least 100x less than the current flowing through the divider itself. Alternatively, if the sag is predictable, you could just set the divider a little higher and let it sag to the original target.
 
+![Divider with equal resistors](/img/Voltage_divider_load.jpg)
+
+
 ## Typical application: pull-up or pull-down
 
 With microcontrollers and MOSFETs, you often have pins that you want to tie to a certain voltage. For example, most microcontrollers have a reset pin; when you apply 0 V to the pin, the microcontroller is reset. Here's a convenient circuit for that situation.
