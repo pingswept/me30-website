@@ -65,16 +65,16 @@ Will the LEDs in these circuits light when the button is pressed, all the time, 
 ## 3. Safety check (Class 2)
 
 1. If you feel a circuit component getting hot or starting to smoke, what should you do first?
-a. call over an LA
-b. take the component out of the breadboard
-c. unplug the power supply (e.g., barrel jack) from the breadboard
-d. use your multimeter to measure the voltage across the component
+(a) call over an LA
+(b) take the component out of the breadboard
+(c) unplug the power supply (e.g., barrel jack) from the breadboard
+(d) use your multimeter to measure the voltage across the component
 
 
 2. What is a possible result if your multimeter dial is turned to the “mA” symbol and you put your multimeter probes between a high and low voltage location on a circuit? 
-a. you’ll get zero current reading on your multimeter and prevent your circuit from working
-b. you’ll let too much current go through your multimeter and blow its fuse
-c. you’ll hear a beeping sound warning you that you should use the “A” symbol and port
+(a) you’ll get zero current reading on your multimeter and prevent your circuit from working
+(b) you’ll let too much current go through your multimeter and blow its fuse
+(c) you’ll hear a beeping sound warning you that you should use the “A” symbol and port
 
 3. Which of these three circuits can you safely build on your breadboard?
 
