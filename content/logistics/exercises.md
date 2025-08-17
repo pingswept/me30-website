@@ -66,18 +66,24 @@ Will the LEDs in these circuits light when the button is pressed, all the time, 
 
 1. If you feel a circuit component getting hot or starting to smoke, what should you do first?
 
-  - Call over an LA
-  - Take the component out of the breadboard
-  - Unplug the power supply (e.g., barrel jack) from the breadboard
-  - Use your multimeter to measure the voltage across the component
+      a) Call over an LA
+  
+      b) Take the component out of the breadboard
+  
+      c) Unplug the power supply (e.g., barrel jack) from the breadboard
+  
+      d) Use your multimeter to measure the voltage across the component
 
 
 2. What is a possible result if your multimeter dial is turned to the “mA” symbol and you put your multimeter probes between a high and low voltage location on a circuit?
-  - You’ll get zero current reading on your multimeter and prevent your circuit from working
-  - You’ll let too much current go through your multimeter and blow its fuse
-  - You’ll hear a beeping sound warning you that you should use the “A” symbol and port
 
-3. Which of these three circuits can you safely build on your breadboard?
+      a) You’ll get zero current reading on your multimeter and prevent your circuit from working
+
+      b) You’ll let too much current go through your multimeter and blow its fuse
+
+      c) You’ll hear a beeping sound warning you that you should use the “A” symbol and port
+
+4. Which of these three circuits can you safely build on your breadboard?
 
 (Include diagram of a short circuit, 1k ohm resistor to ground, and two 1k ohm resistors in parallel)
 
