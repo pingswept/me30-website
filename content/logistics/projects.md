@@ -498,5 +498,6 @@ https://docs.google.com/spreadsheets/d/1Y_V_8rgQhnSgg5z3wRCmGc2mLD-aFtRIoKs-uJ67
 ![](/img/motor-hub-examples.png)
 
 Prior Student Examples
+NOTE: Not all of these examples meet the requirement of a channel or groove for the string to travel - that's new for 2025!
 
 ![motor hub collage](/img/MotorHubCollage.jpg)
