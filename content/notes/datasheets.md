@@ -57,4 +57,4 @@ To see how to draw the circuit schematic symbol for common parts, check out this
 
 * [10k trimmer potentiometer](/pdf/potentiometer-ct6.pdf)
 
-![circuit symbols commonly used](img/circuit_symbols_cheatsheet.jpg)
+![circuit symbols commonly used](/img/circuit_symbols_cheatsheet.jpg)
