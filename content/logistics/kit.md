@@ -44,7 +44,7 @@ Each student in the course will receive a kit of project supplies. The contents 
 | 32 GB microSD card                       | Samsung                 | MB-MC32GA            | Amazon          | B07NP96DX5      | 1 from 5 pack  |
 | USB to TTL serial cable                  | Adafruit                | 954                  | Adafruit        | 954             | 1              |
 
-In 2023, we assembled 125 kits: 114 for students, 9 for learning assistants, and 2 for professors. (In 2022, we assembled 92: 83 for students, 7 for learning assistants, and 2 for professors.) The cost per kit was $160, split $43 for consumables and $117 for durable parts that we hope to reuse next year. Historically, our recovery rate for durables has been around 65%, so we estimate the annual durables replacement cost to the department at 35% of $117, or $41 per student.
+In 2025, we assembled 137 kits: 125 for students, 9 for learning assistants, and 3 for professors. (For reference, in 2022, we assembled 92: 83 for students, 7 for learning assistants, and 2 for professors.) The cost per kit was $170, split $40 for consumables and $130 for durable parts that we plan to reuse next year. Historically, our recovery rate for durables has been around 65%, so we estimate the annual durables replacement cost to the department at 35% of $130, or $45 per student.
 
 
 
