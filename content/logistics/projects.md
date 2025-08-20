@@ -445,24 +445,26 @@ Your task in Project 0 is to design and build a motor hub that meets the followi
 
 *	  It fits on and attaches to your DC motor shaft
 *	  It includes a 3 mm hole located 15 mm from the central axis of your DC motor shaft (you’ll insert a paper clip with a weighted string into this hole)
+*	  Around its circumference, it includes a channel or groove for winding up a string
 *	  It stays attached securely enough to handle the amount of torque (load applied to hub) that stalls the motor when it is operating at 12 V
 
-Your motor hub can be shaped like a spool, lever arm, or anything; the details are up to you.
+Your motor hub can be shaped however you like as long as it meets these requirements; the details are up to you.
 
 ![](/img/motor-hub-diagram.jpg)
 
 Submit to Canvas (1) a photo of your motor hub and (2) a brief video (max 90 seconds) demonstrating that your motor hub meets the requirements above.
 
-Bring your hub to lab on your designated due date. We hope to compile everyone’s results into a histogram showing the range of torques applied before the hubs either (a) slip on their motor shaft or (b) successfully stall the motor.
+Bring your hub to lab on your designated due date. We hope to compile everyone’s results indicating the range of torques applied before the hubs either (a) slip on their motor shaft or (b) successfully stall the motor.
 
 Due dates are staggered for Project 0 to spread out the demand on fabrication tools at Nolop and Bray. Your hub is due at the start of lab time on the date listed for your weekly lab day.
 
 | Your Weekly Lab Day |  Your Project 0 Due Date | 
 |---------------------|-------------------------|
-| Monday         |  Mon., Oct. 7      | 
-| Tuesday        |  Tues., Oct. 1      | 
-| Wednesday      |  Wed., Sep. 25      | 
-| Thursday       |  Thurs., Sep. 19    | 
+
+| Wednesday      |  Wed., Oct. 1      | 
+| Thursday       |  Thurs., Oct. 2    | 
+| Friday         |  Fri., Oct. 3      | 
+| Sunday         |  Sun., Oct. 5    | 
 
 
 {{< expand "Click for info on preparing to use the Bray Shop 3D printers, laser cutter, or lathe" "..." >}}
