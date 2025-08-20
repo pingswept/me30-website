@@ -1,5 +1,5 @@
 ---
-title: "Class 07: Low power/high power"
+title: "Class 07: Low power/high power (transistors)"
 draft: false
 ---
 
