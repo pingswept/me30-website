@@ -27,6 +27,10 @@ The image below is a circuit diagram representation of what you're building.
 
 ![Wall-powered LED circuit](/img/project0_circuit.png)
 
+
+**For an extension to this exercise,** re-arrange your circuit so you have one LED that stays on permanently and another that is powered by the button.
+
+
 {{< hint danger >}}
 **Important note: the pins on the power jack are weird! More details below.**
 
@@ -47,7 +51,6 @@ In the cross-section view of a barrel plug inserted into the jack, you can see h
 Image credit: E. Schlaepfer and W. Oskay, 2023, Open Circuits, opencircuitsbook.com
 {{< /hint >}}
 
-*For an extension to this exercise, re-arrange your circuit so you have one LED that stays on permanently and another that is powered by the button.*
 
 ## 2. LED circuit details (Class 2)
 
