@@ -30,6 +30,7 @@ The point of the course is to force students to gain experience with the practic
 * Multimeters
 * Prototyping
 * LEDs
+* Resistors, capacitors
 * Voltage regulation
 * PCB design
 * Transistors
@@ -37,9 +38,9 @@ The point of the course is to force students to gain experience with the practic
 * Motors
 * Microcontroller hardware
 * Microcontroller programming
-* Analog input/sensors
+* Analog input/sensors & sensor amplification
 * Microcontroller peripherals: PWM module, serial port module, I2C module
-* Frequency domain and digital filter basics
+* Introduction to frequency domain and feedback control concepts
 * IoT basics
 * Raspberry Pi hardware
 * Raspberry Pi programming
@@ -56,17 +57,17 @@ Evening section: Zosia Stafford, zosia.stafford@tufts.edu
 
 ## Course credit and time expectations
 
-ME 30 is a 4-SHU course with lab. At Tufts, each SHU equates to 3 hours of student time per week. 4-SHU courses are expected to require an average of 12 student hours per week. Typically, these hours are divided into about 3 hours of class time and 9 hours of lab/homework/study time. For Fall 2024, you can expect to spend roughly 2.5 hours in class sessions, 1 hour in your scheduled lab, 2 hours reading/viewing/studying, and the remaining 7 hours on project work each week.
+ME 30 is a 4-SHU course with lab. At Tufts, each SHU equates to 3 hours of student time per week. 4-SHU courses are expected to require an average of 12 student hours per week. Typically, these hours are divided into about 3 hours of class time and 9 hours of lab/homework/study time. For Fall 2025, you can expect to spend roughly 2.5 hours in class sessions, 1 hour in your scheduled lab, 2 hours reading/viewing/studying, and the remaining 7 hours on project work each week.
 
 ## What to do if you need to miss a class or due date 
 
-In ME 30 this semester, we hope to cultivate a supportive community of people who are helping each other take things one day at a time while also learning some electronics along the way. To create a learning community, we need you to be present in class and lab and to contribute your ideas and work to the larger group. However, as your instructors, we aim to be flexible when illness, family emergencies, or religious holy days arise (see calendar and policy [here](https://students.tufts.edu/registrar/courses-and-calendars/academic-calendar#paragraph-22371)), and to support you in taking care of yourselves and loved ones. If you need to miss a class or a due date, please reach out to Kristen or Brandon via email as early as possible. If you stay in contact, we will work with you to amend due dates and find solutions that won’t negatively impact your learning of electronics or your grade in the course. If we don't hear from you, it will be difficult for us to support your learning.
+In ME 30 this semester, we hope to cultivate a supportive community of people who are helping each other take things one day at a time while also learning some electronics along the way. To create a learning community, we need you to be present in class and lab and to contribute your ideas and work to the larger group. However, as your instructors, we aim to be flexible when illness, family emergencies, or religious holy days arise (see calendar and policy [here](https://students.tufts.edu/registrar/courses-and-calendars/academic-calendar#paragraph-22371)), and to support you in taking care of yourselves and loved ones. If you need to miss a class or a due date, please reach out to your ME 30 instructor via email as early as possible. If you stay in contact, we will work with you to amend due dates and find solutions that won’t negatively impact your learning of electronics or your grade in the course. If we don't hear from you, it will be difficult for us to support your learning.
 
 ## Course expenses
 
 ### Electronics kits
 
-Essentially, we'll loan you a [bunch of stuff](http://andnowforelectronics.com/logistics/kit/) and ask you to return it at the end of the semester. Each kit costs the ME department $160, so please keep track of and take good care of your components and equipment. 
+Essentially, we'll loan you a [bunch of stuff](http://andnowforelectronics.com/logistics/kit/) and ask you to return it at the end of the semester. Each kit costs the ME department $170, so please keep track of and take good care of your components and equipment. 
 
 ### Printed circuit board fabrication
 
@@ -74,7 +75,7 @@ For this course, you will design and order printed circuit boards (PCBs) from [O
 
 Each of the 2 orders will cost around $10. (The price is actually $5 per square inch. If you can make your boards smaller, they will be cheaper, but most of the boards end up being around 2 square inches.) Shipping is free. 
 
-If the PCB cost is a hardship, for whatever reason, the Mechanical Engineering department can cover the costs. Please let one of the teachers or the ME department administrator Courtney Russo (courtney.russo@tufts.edu) know, either in person or via email. 
+If the PCB cost is a hardship, for whatever reason, the Mechanical Engineering department can cover the costs. Please let one of the instructors or the ME department administrator Courtney Russo (courtney.russo@tufts.edu) know, either in person or via email. 
 
 
 ### Textbooks
@@ -90,7 +91,7 @@ There are two recommended textbooks for the class. You are not required to buy e
 
 Here's how class will work each Monday and Wednesday.
 1. You'll show up to the classroom to which you are enrolled on SIS, and bring your kit with you.
-2. For roughly the first half of the class session, your instructor (Kristen or Brandon) will explain something about electronics or facilitate a class discussion about the design of an electronic system.
+2. For roughly the first half of the class session, your instructor will explain something about electronics or facilitate a class discussion about the design of an electronic system.
 3. For the second half of the class session, we will all build electronics. The Learning Assistants (LAs) will help you and ask you questions to extend your learning, as will Kristen, Brandon, or Zosia.
 
 ### Labs
@@ -111,20 +112,24 @@ Each ME 30 student is also assigned to a lab group that meets weekly in the Nolo
 ## Assignments and grading
 
 Grades will be based  entirely on your project work. There will also be a two short quizzes in which we ask you to troubleshoot a circuit or its code, but they will not count toward your grade.   
-*    Projects (7) - 100% of course grade
-*    Debugging Quizzes (2) - not counted toward course grade  
+*    Projects (7) - 90% of course grade
+*    In-Class Activities (20) - 10% of course grade  
 
-### Projects (100%)
+### Projects (90%)
 
 Here's the gist of this grading scheme: if you *attempt* all project requirements on time, you'll earn at least a C for your project grade. If you also *meet* the requirements for each project, you'll shift up to an A for your project grade. You can calculate the details if you want, but the main message is that you should complete all the projects, and you should do them on time.
 
-Each project will be worth 7 points, and then scaled by the number of weeks allocated to complete the project. (So a project 2 weeks in duration is worth twice as much as a project 1 week in duration.) For projects that have both *prototype* and *final* deadlines, 1 of the 7 points comes from submitting your project prototype on time for the *prototype deadline.* Most of the remaining points (4 or 5, depending on whether there was a prototype deadline) are awarded if you have *attempted* all project requirements - and documented those attempts - by the *final project deadline.* The final 2 remaining points are awarded if your project meets the requirements, like "circuit emits 5 volts" or "motor spins in 2 directions." If you have a last-minute failure on the day the project is due, you can try again for those 2 points at office hours within the next week.
+Each project will be worth 7 points, and then scaled by the number of weeks allocated to complete the project. (So a project 2 weeks in duration is worth twice as much as a project 1 week in duration.) For projects that have both *prototype* and *final* deadlines, 1 of the 7 points comes from submitting your project prototype on time for the *prototype deadline.* Most of the remaining points (4 or 5, depending on whether there was a prototype deadline) are awarded if you have *attempted* all project requirements - and documented those attempts - by the *final project deadline.* The final 2 remaining points are awarded if your project meets the requirements, like "circuit emits 5 volts" or "motor spins in 2 directions." 
 
 For group projects with N people per group, you should do roughly 1/N of the work.
 
 **Late Work Penalty**
 
-For each day (or fraction thereof) a final project is late, you will lose 1 point (before scaling), so a project that is 1 week late is worth 0 points (unless you've reached out to your instructor about missing a due date).
+Each project will have a posted due date and time. If your work is submitted after the posted due date, an automatic late submission deduction of 1 point per day will be applied. However, there is a 48-hour grace period before the penalty kicks in. The grace period means that if a project is 47.9 hours late, no points will be deducted, but once 48 hours have passed, you're already at a 2-point deduction. Beyond 4 days late, the best you will do is half of the points for that project.
+
+If you are unable to meet a deadline because you are experiencing serious illness or a family emergency, the policy above will apply unless you communicate with your ME 30 instructor about your illness or emergency BEFORE the deadline. We will work with you to adjust due dates in a way that won’t negatively impact your learning. 
+<img width="468" height="125" alt="image" src="https://github.com/user-attachments/assets/ca11a6bc-dca8-4fc4-a469-07d7c02ef662" />
+
 
 
 | Project # | Project Goal  | Fraction of Course |
@@ -140,9 +145,9 @@ For each day (or fraction thereof) a final project is late, you will lose 1 poin
 ![semester timeline](/img/SemesterTimeline.jpg)
 
     
-### Debugging challenges (0%)
+### Class exercises (10%)
 
-Tentatively, we are planning on two debugging challenges, one after each of the Projects 1 and 2. Each will feature a non-functional circuit and will ask you to diagnose what's wrong with it and propose a way to fix it.
+We'll work together on hands-on, [in-class exercises](http://andnowforelectronics.com/logistics/exercises/) during each class period. For each class period, Canvas will indicate the exercise for which you should upload a photo or other documentation. Canvas submissions for in-class exercises are due by the end of the class period. These submissions are graded for effort and completion, either 0 or 1 point.
 
 ## Honesty
 
