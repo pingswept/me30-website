@@ -9,9 +9,9 @@ ME 30, Electronics & Controls I
 
 ## Office hours
 
-* TBD
-
-Brandon: is usually in Nolop 9 AM to 5 PM, unless he's teaching class or in a meeting, or it's a weekend
+* Kristen: Fridays 3-5 PM in Nolop (except NOT on Fri. Sep. 12)
+* Zosia: TBD
+* Brandon: is usually in Nolop 9 AM to 5 PM, unless he's teaching class or in a meeting, or it's a weekend
 
 Please reach out to Kristen, Brandon, or Zosia if you want to make a separate appointment for help.
 
