@@ -128,8 +128,6 @@ For group projects with N people per group, you should do roughly 1/N of the wor
 Each project will have a posted due date and time. If your work is submitted after the posted due date, an automatic late submission deduction of 1 point per day will be applied. However, there is a 48-hour grace period before the penalty kicks in. The grace period means that if a project is 47.9 hours late, no points will be deducted, but once 48 hours have passed, you're already at a 2-point deduction. Beyond 4 days late, the best you will do is half of the points for that project.
 
 If you are unable to meet a deadline because you are experiencing serious illness or a family emergency, the policy above will apply unless you communicate with your ME 30 instructor about your illness or emergency BEFORE the deadline. We will work with you to adjust due dates in a way that won’t negatively impact your learning. 
-<img width="468" height="125" alt="image" src="https://github.com/user-attachments/assets/ca11a6bc-dca8-4fc4-a469-07d7c02ef662" />
-
 
 
 | Project # | Project Goal  | Fraction of Course |
