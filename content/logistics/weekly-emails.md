@@ -29,7 +29,7 @@ No labs this first week.  They will begin on Wednesday, 9/10.
 
 **Things due in Week 1:**
 
-Nothing, but your intro video and the LED-pushbutton circuit is due next week. Canvas deliverable: Upload a video introducing yourself and showing us your LED-pushbutton circuit.
+Your first Canvas deliverable for an in-class exercise: Upload a video from Class #1 introducing yourself and showing us your LED-pushbutton circuit.
 
 **Learning goals for Week 1:**
 - Build a working circuit prototype on a breadboard 
