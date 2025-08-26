@@ -460,7 +460,6 @@ Due dates are staggered for Project 0 to spread out the demand on fabrication to
 
 | Your Weekly Lab Day |  Your Project 0 Due Date | 
 |---------------------|-------------------------|
-
 | Wednesday      |  Wed., Oct. 1      | 
 | Thursday       |  Thurs., Oct. 2    | 
 | Friday         |  Fri., Oct. 3      | 
