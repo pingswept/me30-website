@@ -3,7 +3,7 @@ title: "Projects"
 draft: false
 ---
 
-# Projects 5 and 6: Build an intrepid robot
+<!--- # Projects 5 and 6: Build an intrepid robot
 
 Projects 5 and 6 are, in a sense, one mega-project. In the first part, P5, you and your team build a robot. In the second part, P6, you and your team modify the robot to deliver a payload under specific diabolical constraints.
 
@@ -384,7 +384,7 @@ Here are some example learning goals:
 * Use the laser cutter (which I have never used before).
 * Make at least one part out of steel.
 * Turn a part on a lathe at Bray.
-* Spend at least 1/3 of my effort on the aesthetics of the project.
+* Spend at least 1/3 of my effort on the aesthetics of the project.  --->
 
 ## Project 1: Power supply
 **Build a breadboard power supply**
