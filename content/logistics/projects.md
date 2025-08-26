@@ -3,7 +3,7 @@ title: "Projects"
 draft: false
 ---
 
-<!--- # Projects 5 and 6: Build an intrepid robot
+[# Projects 5 and 6: Build an intrepid robot
 
 Projects 5 and 6 are, in a sense, one mega-project. In the first part, P5, you and your team build a robot. In the second part, P6, you and your team modify the robot to deliver a payload under specific diabolical constraints.
 
@@ -347,7 +347,7 @@ To get started building your prototype H-bridge, review the [Low Power/high powe
 
 When your PCB design is ready, you should [submit it to the fabricator](https://oshpark.com/), OSH Park. It will cost you around $10\. (If this cost is a hardship, please let Kristen or Brandon know, and we will cover the cost by ordering it for you, no questions asked.) After you submit it, take a screenshot of your order confirmation and upload it to the Project 3 PCB assignment on Canvas (proof that you submitted your project on time). Also, take a screenshot of your PCB design in KiCad and upload that as well (it would be a good idea to save this screenshot for your portfolio). 
 
-For this final submission to Canvas, you will also need to submit evidence that your H-bridge circuit is functional. So, once you do get your breadboard H-bridge working, take a video that shows it making the motor spin in both directions, controlled by a KB2040. You'll need that video for your P3 final Canvas submission.
+For this final submission to Canvas, you will also need to submit evidence that your H-bridge circuit is functional. So, once you do get your breadboard H-bridge working, take a video that shows it making the motor spin in both directions, controlled by a KB2040. You'll need that video for your P3 final Canvas submission.]: #
 
 
 
