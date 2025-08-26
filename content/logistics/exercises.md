@@ -60,9 +60,6 @@ Would the functioning of Circuit A (left) be any different than that of Circuit 
 
 Does it matter if the resistor is "above" or "below" the LED?
 
-Will the LEDs in these circuits light when the button is pressed, all the time, or not at all? 
-
-![Voltage dividers](/img/led-series-parallel-exercise.jpg)
 
 
 ## 3. Safety check (Class 2)
@@ -92,7 +89,7 @@ Will the LEDs in these circuits light when the button is pressed, all the time, 
 
 ## 4. Current limiting resistors (Class 2)
 
-Which circuit gives the brightest LED? Check the circuit with multimeter.
+Which circuit gives the brightest LED? 
 (Include pictures of circuits)
 
 ## 5. Build voltage dividers (Class 2)
