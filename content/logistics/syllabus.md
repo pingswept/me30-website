@@ -10,7 +10,7 @@ ME 30, Electronics & Controls I
 ## Office hours
 
 * Kristen: Fridays 3-5 PM in Nolop (except NOT on Fri. Sep. 12)
-* Zosia: TBD
+* Zosia: Mondays 2:30-4:30 PM
 * Brandon: is usually in Nolop 9 AM to 5 PM, unless he's teaching class or in a meeting, or it's a weekend
 
 Please reach out to Kristen, Brandon, or Zosia if you want to make a separate appointment for help.
@@ -153,7 +153,7 @@ We take honesty very seriously. Not only are we required to report violations of
 
 ### Use of generative AI tools like ChatGPT
 
-If you query them with questions about circuit components, Python code for microcontrollers and Raspberry Pis, and other topics related to this course, generative AI tooks like ChatGPT, Google Bard, and GitHub Copilot will certainly respond with abundant information. Our policy on their use is as follows:
+If you query them with questions about circuit components, Python code for microcontrollers and Raspberry Pis, and other topics related to this course, generative AI tools like ChatGPT, Google Bard, and GitHub Copilot will certainly respond with abundant information. Our policy on their use is as follows:
 - If you want to learn electronics well, we don't recommend the use of generative AI tools on ME 30 project tasks. The perceived efficiency they may provide you likely comes at a real cost to your learning. If an AI assistant provides you with CircuitPython code or tells how how to wire a circuit, you may be sacrificing an opportunity to build your own understanding of the structure of the code, the functioning of the circuit, or the community of living, breathing experts on a topic. To study mechanical engineering is to learn what's under the hood of the designed world. Figuring out how to get an AI assistant to give you a design plan is not the same thing as developing mechanical engineering expertise.  
 - However, there will be no penalty to your grade in ME 30 if you choose to use a generative AI tool on an ME 30 task **and you provide attribution to that tool** in your project submission.  **If you use a generative AI tool for an ME 30 project without documenting that you've done so, we will consider that action a violation of academic integrity.**
 
