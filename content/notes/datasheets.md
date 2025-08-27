@@ -29,6 +29,7 @@ To see more about how to draw the circuit schematic symbol for common parts, che
 
 * [P-channel FQP27P06 MOSFET, 27 A, 60 V, TO-220 package](/pdf/mosfet-FQP27P06.pdf)
 * [N-channel IRLB8721 MOSFET, 30 A, 60 V, TO-220 package](/pdf/mosfet-IRLB8721.pdf)
+* [N-channel IRLZ44N MOSFET, 47 A, 55 V, TO-220 package](/pdf/mosfet-IRLZ44N.pdf)
 
 ## Motors
 
