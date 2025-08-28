@@ -85,7 +85,7 @@ Does it matter if the resistor is "above" or "below" the LED?
 
 4. Which of these three circuits can you safely build on your breadboard?
 
-(Include diagram of a short circuit, 1k ohm resistor to ground, and two 1k ohm resistors in parallel)
+![Current Limiting Circuit](/img/Safety_circuits.png)
 
 ## 4. Current limiting resistors (Class 2)
 
