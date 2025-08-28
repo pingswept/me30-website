@@ -90,7 +90,7 @@ Does it matter if the resistor is "above" or "below" the LED?
 ## 4. Current limiting resistors (Class 2)
 
 Which circuit gives the brightest LED? 
-(Include pictures of circuits)
+![Current Limiting Circuit](/img/current_limiting_circuits.png)
 
 ## 5. Build voltage dividers (Class 2)
 
