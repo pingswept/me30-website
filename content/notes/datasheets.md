@@ -1,5 +1,5 @@
 ---
-title: "Datasheets & schematics"
+title: "Class 01: Datasheets & schematics"
 draft: false
 ---
 
