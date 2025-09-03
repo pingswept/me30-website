@@ -7,11 +7,14 @@ draft: false
 
 ME 30, Electronics & Controls I
 
-## Office hours
+## Office hours (in Nolop)
 
-* Kristen: Fridays 3-5 PM in Nolop (except NOT on Fri. Sep. 12)
+* Kristen: Fridays 3-5 PM in Nolop (except NOT on Fri. Sep. 12, when they'll be 12-2PM)
 * Zosia: Mondays 2:30-4:30 PM
 * Brandon: is usually in Nolop 9 AM to 5 PM, unless he's teaching class or in a meeting, or it's a weekend
+* LA Katie Kostak: Mondays 6-7 PM
+* LA Paul Galvan: Tuesdays 8-10 PM
+* TA Sibeli Schneider: Thursdays 4-6 PM
 
 Please reach out to Kristen, Brandon, or Zosia if you want to make a separate appointment for help.
 
