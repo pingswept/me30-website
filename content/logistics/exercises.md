@@ -136,7 +136,7 @@ For the circuit below, analyze the following first for when the switch is open, 
   
 ![Circuits to analyze](/img/Voltage_current_review.jpg)
 
-## 9: Discharge a capacitor and observe the RC time constant (Class 4 or 5)
+## 9: Discharge a capacitor and observe the RC time constant (Class 4)
 
 ![capacitor discharge circuit](/img/capacitor_discharge.jpg)
 
