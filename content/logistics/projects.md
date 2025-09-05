@@ -13,7 +13,8 @@ The first project is to build a power supply that meets the following requiremen
 *   It accepts power from a 2.1 x 5.5 mm plug from a 12 V wall adapter.
 *   It emits 12 V, 5 V, and 3.3 V (at the same time).
 
-**Due date (for Printed Circuit Board submission): Wednesday, September 24, 6:00PM**
+**Due date for Printed Circuit Board submission: Wednesday, September 24, 6:00PM**
+**Due date for prototype on breadboard: Monday, September 15, 11:59PM**
 
 When your design is ready, you should [submit it to the fabricator](https://oshpark.com/), OSH Park. It will cost you around $10\. After you submit it, take a screenshot of your order confirmation. You'll need to upload it to the Project 1 PCB assignment on Canvas. That will serve as proof that you submitted your project on time. If this cost is a hardship, please email your KiCad files to your ME 30 instructor, and we will order it for you.
 
@@ -45,13 +46,11 @@ If you feel like you understand this project pretty well, or if you've made a ba
 
 ![Project 1 main steps](/img/P1_flowchart.jpg)
 
-### P1 prototype: what you should do before class #4 (before Wed., 9/15)
+### P1 prototype: what you should try before class #4 (photo of prototype due to Canvas 11:59pm, Wed., 9/15)
 
 1. Read and try to make sense of the website notes on [voltage regulation](http://andnowforelectronics.com/notes/voltage-regulation/). Pay special attention to the circuit diagram showing the L7805C voltage regulator.
 2. Try your best to make a breadboard circuit so that 12 V goes into your circuit and 5 V and 3.3 V come out. To get started, see the [schematic on the Voltage Regulators web page](http://andnowforelectronics.com/notes/voltage-regulation/). You'll need to use your [5V and 3.3V voltage regulator components](http://andnowforelectronics.com/notes/datasheets/#voltage-regulators).
-3. Install Kicad, [version 7.0.11](https://www.kicad.org/blog/2024/02/KiCad-7.0.11-Release/) for the most bug-free experience.
-4. Watch Brandon and Kristen's Kicad [demo videos](http://andnowforelectronics.com/notes/demo-videos/#kicad-for-project-1) 
-5. Read as much of chapter 2 from the Practical Electronics textbook as you can.
+3. Read as much of chapter 2 from the Practical Electronics textbook as you can.
 
 
 ## Project 0: Motor hub
