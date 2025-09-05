@@ -24,7 +24,7 @@ Voltage has an “energy” definition and a “practical” definition. The ene
 1 V = 1 J / 1 C
 {{< /katex >}}
 
-If 1 volt is applied, 1 joule of energy will be supplied by each coulomb that flows in a circuit. That’s like giving each charge enough energy to lift 1 newton up a distance of 1 meter, if the system could convert the energy with perfect efficiency.
+If 1 volt is applied, 1 joule of energy will be supplied by each coulomb that flows in a circuit. That’s like giving each coulomb of electrons enough energy to lift 1 newton up a distance of 1 meter in 1 second, if the system could convert the energy with perfect efficiency.
 
 The practical definition of 1 volt is 1 watt per 1 amp. It's the power consumed per unit of current drawn by a device. If 1 volt is applied, 1 watt of power will be consumed for each 1 amp of current.
 
