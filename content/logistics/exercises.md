@@ -104,7 +104,7 @@ For each of the set-ups below, provide 12 V as V_in, and predict the output volt
 
 After you've written down your predictions for V_out, build the circuits and use your multimeter to measure V_out. If your predictions were off, try to figure out why.
 
-![Voltage dividers](/img/voltage-dividers-2022.png)
+![Voltage dividers](/img/voltage_dividers.jpg)
 
 ## 6: Matching schematics to breadboards (Class 3)
 
