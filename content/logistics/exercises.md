@@ -138,7 +138,7 @@ For the circuit below, analyze the following first for when the switch is open, 
 
 ## 9: Discharge a capacitor and observe the RC time constant (Class 4 or 5)
 
-![capacitor charge/discharge circuit](img/capacitor_discharge.jpg)
+![capacitor discharge circuit](/img/capacitor_discharge.jpg)
 
 1. What sequence of button presses makes the LED flash, and then fade out?
 2. From the R and C values you can create with your kit, what combination of R and C will produce the slowest rate of fade for the LED (that you can observe)? The fastest rate of fade (still observable)?
