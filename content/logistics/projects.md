@@ -88,7 +88,7 @@ All students must complete the Bray [safety quiz](https://sites.tufts.edu/braypr
 
 Use of the Bray lathe requires lathe-specific training in the red zone, which must be booked by appointment.
 
-ME and HFE students can use the Bray 3D printers anytime using their Bray building access. 
+ME and HFE students can use the Bray 3D printers and Bray design studio anytime using their Bray building access, which is 8am-midnight every day. 
 
 Students can book an appointment to use the laser cutter or just walk in to use it during shop open hours as long as it is not reserved or in use by someone else.
 {{< /expand >}}
