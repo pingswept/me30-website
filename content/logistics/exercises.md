@@ -83,7 +83,7 @@ Does it matter if the resistor is "above" or "below" the LED?
 
       c) You’ll hear a beeping sound warning you that you should use the “A” symbol and port
 
-4. Which of these three circuits can you safely build on your breadboard? (hint: the resistor power rating is 0.25W)
+4. Which of these three circuits can you safely build on your breadboard? (hint: the resistor power rating is 0.5W)
 
 ![Current Limiting Circuit](/img/Safety_circuits.png)
 
