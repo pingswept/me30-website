@@ -62,7 +62,7 @@ Your task in Project 0 is to design and build a motor hub that meets the followi
 
 *	It fits on and attaches to your DC motor shaft
 *	It includes a 3 mm hole located 15 mm from the central axis of your DC motor shaft (you’ll insert a paper clip with a weighted string into this hole)
-*	Around its circumference, it includes a channel or groove for winding up a string
+*	Around its circumference, it includes a channel or groove for winding up 1 meter of string
 *	It stays attached securely enough to handle the amount of torque (load applied to hub) that stalls the motor when it is operating at 12 V
 
 Your motor hub can be shaped however you like as long as it meets these requirements; the details are up to you.
