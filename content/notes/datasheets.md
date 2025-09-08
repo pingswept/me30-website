@@ -42,7 +42,7 @@ To see more about how to draw the circuit schematic symbol for common parts, che
 
 ## Resistors
 
-* [1/4 W resistor](/pdf/resistor-CFM1JTxxxR.pdf)  
+* [1/2 W resistor](/pdf/resistor-CFM1JTxxxR.pdf)  
 * [Resistor color code chart](https://cdn.sparkfun.com/assets/learn_tutorials/6/4/Resistors.png)
 
 ## Voltage regulators
