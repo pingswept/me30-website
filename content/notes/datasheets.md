@@ -39,7 +39,7 @@ To see more about how to draw the circuit schematic symbol for common parts, che
 
 ## Photoresistors (light sensors)
 
-* [5mm, 100 mW light dependent resistor](/img/photoresistor-5528.jpg)
+* [5mm, 100 mW light dependent resistor](/img/ldr_5mm.pdf)
 
 ## Resistors
 
