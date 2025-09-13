@@ -19,6 +19,7 @@ To see more about how to draw the circuit schematic symbol for common parts, che
 
 ## Capacitors
 
+* [10 uF aluminum electrolytic capacitor](https://search.kemet.com/download/datasheet/ESK106M016AC3AA)
 * [100 uF aluminum electrolytic capacitor](/pdf/capacitor-100uf.pdf)
 
 ## LEDs
