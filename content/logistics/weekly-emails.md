@@ -21,7 +21,7 @@ We’ll also further explore capacitors in class on Monday.
 
 **Course website (andnowforelectronics.com) pages to study in Week 3:**
 - [Project 1 description](http://andnowforelectronics.com/logistics/projects/)
-- [Capacitors](http://](http://andnowforelectronics.com/notes/capacitors/)
+- [Capacitors](http://andnowforelectronics.com/notes/capacitors/)
 - [Voltage regulation](http://andnowforelectronics.com/notes/voltage-regulation/)
 - [PCB design](http://andnowforelectronics.com/notes/pcb/)
 - [KiCad demo videos](http://andnowforelectronics.com/notes/demo-videos/#kicad-for-project-1)
