@@ -14,6 +14,7 @@ The first project is to build a power supply that meets the following requiremen
 *   It emits 12 V, 5 V, and 3.3 V (at the same time).
 
 **Due date for Printed Circuit Board submission: Wednesday, September 24, 6:00PM**
+
 **Due date for prototype on breadboard: Monday, September 15, 11:59PM**
 
 When your design is ready, you should [submit it to the fabricator](https://oshpark.com/), OSH Park. It will cost you around $10\. After you submit it, take a screenshot of your order confirmation. You'll need to upload it to the Project 1 PCB assignment on Canvas. That will serve as proof that you submitted your project on time. If this cost is a hardship, please email your KiCad files to your ME 30 instructor, and we will order it for you.
