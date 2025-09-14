@@ -6,6 +6,32 @@ draft: false
 
 - - -
 
+## Week 3: Sunday, 9/14/25
+
+This is the week that Project 1 work clicks into place, with the introduction of (free!) circuit board design software called [KiCad](https://www.kicad.org/). We'll use KiCad to translate your temporary breadboard circuits into permanent circuit boards. We'll preview KiCad in class on Monday and recommend that you have it installed on your computer by class time on Wednesday, 9/17. If you’re having trouble installing it, please reach out to an LA or instructor.
+We’ll also further explore capacitors in class on Monday.
+
+**Things due in Week 3:**
+- Due Mon., 9/15, 11:59pm, as photo upload to Canvas: Prototype Circuit for [Project 1](http://andnowforelectronics.com/logistics/projects/#project-1) (Voltage Regulator/Breadboard Power Supply)
+
+**Learning goals for Week 3:**
+- Deepen your understanding of voltage, current, resistance, and power, as they relate to your Project 1 Breadboard Power Supply circuit (featuring voltage regulators)
+- Build a capacitor charge/discharge circuit and choose resistance and capacitance values to increase its time constant
+- Take a breadboard prototype and turn it into a PCB design using KiCad software
+
+**Course website (andnowforelectronics.com) pages to study in Week 3:**
+- [Project 1 description](http://andnowforelectronics.com/logistics/projects/)
+- [Capacitors](http://](http://andnowforelectronics.com/notes/capacitors/)
+- [Voltage regulation](http://andnowforelectronics.com/notes/voltage-regulation/)
+- [PCB design](http://andnowforelectronics.com/notes/pcb/)
+- [KiCad demo videos](http://andnowforelectronics.com/notes/demo-videos/#kicad-for-project-1)
+
+**Textbook reading for Week 3:**
+- From the Scherz & Monk textbook (available here from [Tisch Library online](https://tufts-primo.hosted.exlibrisgroup.com/permalink/f/k87dab/TN_cdi_askewsholts_vlebooks_9781259587559)
+- Section 3.6 “Capacitors” 
+- Section 7.2 “Constructing Circuits” (featuring info on printed circuit board design and construction)
+
+
 ## Week 2: Monday, 9/8/25
 
 Thanks for a great first day of class last Wednesday. We appreciate how willing you were to lend a hand to classmates once you figured out your own circuit. That spirit of collective learning will take us far this semester.
