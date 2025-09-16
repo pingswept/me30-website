@@ -12,9 +12,9 @@ draft: false
 |   01  | 9/3   | Course overview, introductions, kit contents  | Breadboard basics; power an LED with wall power | [LEDs](/notes/leds/); [Prototyping](/notes/prototyping/); [Voltage and current](/notes/voltage-and-current/) |          |
 |   02  | 9/8   | Voltage, current, resistors, voltage dividers | Voltage dividers               | [Multimeters](/notes/multimeter/); [Resistors](/notes/resistors/); [Series vs. parallel](/notes/series-vs-parallel/) |  |
 |   03  | 9/10  | Voltage regulators, capacitors, Project 0 intro                | Project 1 start; labs begin                     | [Capacitors](/notes/capacitors/); [Voltage regulators](/notes/voltage-regulation/); [Videos for P1](/notes/demo-videos/#videos-for-project-1)  |  |
-|   04  | 9/15  | Voltage regulators, Project 1                 | Debug your voltage regulator; Soldering demo    | [Voltage regulators](/notes/voltage-regulation/); [Videos for P1](/notes/demo-videos/#videos-for-project-1); [Adafruit soldering guide](https://learn.adafruit.com/adafruit-guide-excellent-soldering/making-a-good-solder-joint)    | [P1   proto](/logistics/projects/#project-1-build-a-breadboard-power-supply) |        |
+|   04  | 9/15  | Voltage regulators, Project 1                 | Debug your voltage regulator, capacitor circuit     | [Voltage regulators](/notes/voltage-regulation/); [Videos for P1](/notes/demo-videos/#videos-for-project-1); [Adafruit soldering guide](https://learn.adafruit.com/adafruit-guide-excellent-soldering/making-a-good-solder-joint)    | [P1   proto](/logistics/projects/#project-1-build-a-breadboard-power-supply) |        |
 |   05  | 9/17  | KiCad                                         | KiCad demo                                      | [PCB design](/notes/pcb/); Kicad resources  |  |
-|   06  | 9/22  | PCB design                                    | KiCad Q & A                                     | [PCB design](/notes/pcb/); [KiCad demo videos](/notes/demo-videos/#introduction-to-kicad-with-a-simple-led-board)    |  |
+|   06  | 9/22  | PCB design                                    | KiCad Q & A; Soldering demo                                     | [PCB design](/notes/pcb/); [KiCad demo videos](/notes/demo-videos/#introduction-to-kicad-with-a-simple-led-board)    |  |
 
 
 ## Phase 2: Motors and transistors
