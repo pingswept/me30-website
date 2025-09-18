@@ -51,9 +51,9 @@ draft: false
 |   22  | 11/19 | Sensor amplification          | Amplify a strain gauge     | [I2C sensors](/notes/i2c/); [Sensor amplification](/notes/amplification)      |      |
 |   23  | 11/24 | Oscilloscopes                 | Oscilloscope sim; P5 Q & A |       | P5 sensor amp due     |
 |       | 11/26 | NO CLASS                      | (Thanksgiving)             |           |        |
-|   24  | 12/1  | How does the internet work?   | P5 work time               | [Internet](/notes/internet/); [Servers and clients](/notes/servers/)              |    |
-|   25  | 12/3  | P5 reflection                 | P5 demo day                |          |   [P5](/logistics/projects)       |
-|   26  | 12/8  | Career trajectories, P6 intro | P6 Q & A                   |                               |         |
+|   24  | 12/1  | How does the internet work?   | P5 work time               | [Internet](/notes/internet/); [Servers and clients](/notes/servers/)              |  [P5](/logistics/projects)   |
+|   25  | 12/3  | P6 intro                 | P5 reflection                |          |         |
+|   26  | 12/8  | Career trajectories | P6 Q & A                   |                               |         |
 |       | 12/11 | noon - P6 demo option 1       |                            |             |[P6 showcase, noon](/logistics/projects)|
 |       | 12/12 | 3:30 PM - P6 demo option 2    |                            |             |[P6 showcase, 3:30 PM](/logistics/projects)|
 |       | 12/15 | noon - P6 demo option 3       |                            |             |[P6 showcase, noon](/logistics/projects)|
