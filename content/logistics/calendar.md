@@ -52,7 +52,7 @@ draft: false
 |   23  | 11/24 | Oscilloscopes                 | Oscilloscope sim; P5 Q & A |       | P5 sensor amp due     |
 |       | 11/26 | NO CLASS                      | (Thanksgiving)             |           |        |
 |   24  | 12/1  | How does the internet work?   | P5 work time               | [Internet](/notes/internet/); [Servers and clients](/notes/servers/)              |   |
-|   25  | 12/3  | P6 intro                 | P5 reflection                |          | [P5](/logistics/projects)   |
+|   25  | 12/3  | P6 intro                 | P5 reflection                |          | [P5](/logistics/projects) due Tues. night  |
 |   26  | 12/8  | Career trajectories | P6 Q & A                   |                               |         |
 |       | 12/11 | noon - P6 demo option 1       |                            |             |[P6 showcase, noon](/logistics/projects)|
 |       | 12/12 | 3:30 PM - P6 demo option 2    |                            |             |[P6 showcase, 3:30 PM](/logistics/projects)|
