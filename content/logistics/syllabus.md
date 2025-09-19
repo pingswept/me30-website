@@ -15,6 +15,7 @@ ME 30, Electronics & Controls I
 * TA Sibeli Schneider: Thursdays 4-6 PM
 * LA Katie Kostak: Mondays 6-7 PM
 * LA Paul Galvan: Tuesdays 8-10 PM
+* LA Kimberly Eng: Sundays 9-10 PM
 
 Please reach out to Kristen, Brandon, or Zosia if you want to make a separate appointment for help.
 
