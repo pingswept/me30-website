@@ -6,6 +6,28 @@ draft: false
 
 - - -
 
+## Week 4: Sunday, 9/21/25
+
+Happy autumn! This week is a big transition week in ME 30. In Phase 1 of the course, we focused on fundamental circuits concepts, breadboarding skills, and introductory PCB design. In class on Monday, we’ll talk about the physical construction of printed circuit boards and how to order yours from OSH Park. Then we'll provide time for KiCad questions and troubleshooting. Starting on Wednesday, 9/24, we'll move on to Phase 2, which introduces the components and circuits used to control motors.
+
+**Office hours:**
+- Anyone is welcome to stop by, which should really be called "times when we sit and wait for you to come do KiCad or build circuits with us.”  Note that in addition to Kristen, Brandon, and Zosia’s office hours, the LAs and TAs have office hours on Mon, Tues, Thurs, and Sun evenings. http://andnowforelectronics.com/logistics/syllabus/
+
+**Things due in Week 4:**
+- Due on Canvas by Wed., 9/24, 11:59pm: [Project 1 PCB](http://andnowforelectronics.com/logistics/projects/#project-1). On the Project 1 Canvas assignment, you'll see instructions to fill out a Project 1 self-assessment checklist, upload a brief video, and upload screenshots of your KiCad schematic diagram, PCB layout, and order confirmation. OSH Park charges by the square inch, and you should be able to keep costs to about $10, but if this cost is a hardship, please reach out to me or the ME department administrator Courtney Russo, and we will cover it, no questions asked.
+
+**Learning goals for Week 4:**
+- Improve your skills at creating schematics and laying out PCBs on Kicad
+- Explain how to use transistors to control high power with low power.
+- Begin to build circuits incorporating motors.
+
+**Course website (andnowforelectronics.com) pages to study in Week 4:**
+- [PCB design](http://andnowforelectronics.com/notes/pcb/)
+- [Low power/high power: transistors](http://andnowforelectronics.com/notes/low-power-high-power/)
+
+**Optional reading for Week 4:**
+- “Section 4.3: Transistors" section of Scherz & Monk textbook (available here from [Tisch Library online](https://tufts-primo.hosted.exlibrisgroup.com/permalink/f/k87dab/TN_cdi_askewsholts_vlebooks_9781259587559))
+
 ## Week 3: Sunday, 9/14/25
 
 This is the week that Project 1 work clicks into place, with the introduction of (free!) circuit board design software called [KiCad](https://www.kicad.org/). We'll use KiCad to translate your temporary breadboard circuits into permanent circuit boards. We'll preview KiCad in class on Monday and recommend that you have it installed on your computer by class time on Wednesday, 9/17. If you’re having trouble installing it, please reach out to an LA or instructor.
