@@ -27,67 +27,6 @@ Use an H-bridge circuit to make your gearmotor spin clockwise for 5 seconds, the
 11. Use a pushbutton on pin D5 to control when your motor is on and off, using D6 for motor control.
 
 
-<! --- ### Solutions for Set 1 --->
-
-{{< expand "See the schematic diagrams for 1 to 6" "..." >}}
-
-![Schematics for challenges 1 to 6](/img/challenge-schematic-1-6.jpg)
-
-{{< /expand >}}
-
-
-{{< expand "See breadboard wiring sketches for 1 to 6" "..." >}}
-
-![Schematics for challenges 1 to 6](/img/challenge-wiring-1-6.jpg)
-
-{{< /expand >}}
-
-
-{{< expand "See CircuitPython code for 1 to 6" "..." >}}
-
-![Code for 1](/img/challenge1py.jpg)
-
-![Code for 2](/img/challenge2py.jpg)
-
-![Code for 3](/img/challenge3py.jpg)
-
-![Code for 4](/img/challenge4py.jpg)
-
-![Code for 6](/img/challenge6py.jpg)
-
-{{< /expand >}}
-
-### Solutions for H-bridge and Set 2
-
-{{< expand "See the schematic diagrams for Set 2" "..." >}}
-
-![Schematic for challenges 8 to 11](/img/challenge-schematic-8-11.jpg)
-
-{{< /expand >}}
-
-
-{{< expand "See breadboard wiring sketches for H-Bridge and Set 2" "..." >}}
-
-![Schematics for challenges 8 to 10](/img/challenge-wiring-8-10.jpg)
-![Schematics for challenges 11 and H-bridge](/img/challenge-wiring-11-h-bridge.jpg)
-
-
-{{< /expand >}}
-
-
-{{< expand "See CircuitPython code for H-bridge and Set 2" "..." >}}
-
-![Code for 8](/img/challenge8py.jpg)
-
-![Code for 9](/img/challenge9py.jpg)
-
-![Code for 10](/img/challenge10py.jpg)
-
-![Code for 11](/img/challenge11py.jpg)
-
-![Code for H-bridge](/img/challenge-h-bridgepy.jpg)
-
-{{< /expand >}}
 
 
 [^1]: If you're like Kristen and didn't get this cultural reference, here's an explanation: https://knowyourmeme.com/memes/i-for-one-welcome-our-new-insect-overlords
