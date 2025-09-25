@@ -27,7 +27,7 @@ Use an H-bridge circuit to make your gearmotor spin clockwise for 5 seconds, the
 11. Use a pushbutton on pin D5 to control when your motor is on and off, using D6 for motor control.
 
 
-### Solutions for Set 1
+<! --- ### Solutions for Set 1 --->
 
 {{< expand "See the schematic diagrams for 1 to 6" "..." >}}
 
