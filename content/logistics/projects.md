@@ -3,6 +3,39 @@ title: "Projects"
 draft: false
 ---
 
+## Project 2: Simple game
+**Build a simple game**
+
+The next project is to use the basic electrical components we've covered in class with some mechanical fabrication to make a game that is at least mildly entertaining. The point here is NOT making the best game ever, but to set some goals for testing out your electromechanical skills. For your circuit for this project, use your breadboard. No PCBs needed.
+
+This is a solo project, but we'll be brainstorming in groups.
+
+You should bring your game to class on Wednesday, October 8th to share with your brainstorming group.
+
+Due date (for game documentation submission): Wednesday, October 8th, 11:59PM
+
+To keep things simple, there are a few required constraints.
+Your game should:
+* Use the DC gearmotor in your kit
+* Use at least one transistor 
+* Require user interaction of some sort (e.g., pushing a button, pressing a key, interacting with a physical component)
+* Fit inside a cube 20 cm on a side
+* Be fabricated without 3D printing, except for a motor hub if needed (talk to an instructor if you have a particular reason you need to violate this constraint.)
+
+The point of the constraints is to keep your game simple enough that you can complete it in 1.5 weeks.
+
+In addition to planning to meet these constraints, you should also pick one learning goal for yourself for this project. Open-ended projects offer you an opportunity to bend the curriculum into the direction of your interests or to explore a potential new area of interest.
+
+Here are some example learning goals:
+* Get more comfortable with cordless drills and at least one other hand tool.
+* Test my system to failure, then rebuild it stronger.
+* Use only recycled/found materials.
+* Complete my project 24 hours early.
+* Model, predict and subsequently measure at least one mechanical property of my project.
+* Use the laser cutter (which I have never used before).
+* Make at least one part out of steel.
+* Turn a part on a lathe at Bray.
+* Spend at least 1/3 of my effort on the aesthetics of the project.
 
 ## Project 1: Power supply
 **Build a breadboard power supply**
@@ -102,11 +135,11 @@ Tutorials on using the Nolop laser cutter are available on the Nolop website [he
 {{< /expand >}}
 
 {{< expand "Click to see procedure for motor hub testing" "..." >}}
-Grab a water bottle and be ready to add or remove water as needed. The goal is to find the max weight your motor + hub can lift without the hub slipping or the motor stalling. Start with some water in the bottle. Attach it to the hub with a paper clip (through the hole placed ~15 mm from the shaft axis) and a length of string. Supply 12 V to the motor and see if it can lift the weight without slipping of the hub. Repeat until you get to a weight that either stalls the motor or makes the hub slip around the motor shaft.  Record this as your "slip/stall weight." 
+Grab a few water bottles and be ready to add or remove water as needed. The goal is to find the max weight your motor + hub can lift without the hub slipping or the motor stalling. Start with some water in a bottle. Attach it to the hub with a paper clip (through the hole placed ~15 mm from the shaft axis) and a length of string. Supply 12 V to the motor and see if it can lift the weight without slipping of the hub. Repeat (adjusting the amount of water each time) until you get to a weight that either stalls the motor or makes the hub slip around the motor shaft.  Record this as your "slip/stall weight." 
 
 How can you use your "slip/stall weight" and the distance between your shaft axis and paper clip attachment point to find your slip/stall TORQUE?
 
-Submit to Canvas a photo of your motor hub attachment and a video of it lifting weights. Compare its performance to this class histogram created in a previous semester: 
+Submit to Canvas a photo of your motor hub attachment and a video of it lifting weight. Compare its performance to this class histogram created in a previous semester: 
 https://docs.google.com/spreadsheets/d/1Y_V_8rgQhnSgg5z3wRCmGc2mLD-aFtRIoKs-uJ67k6A/edit?usp=sharing
 {{< /expand >}}
 
