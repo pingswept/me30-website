@@ -137,9 +137,10 @@ Tutorials on using the Nolop laser cutter are available on the Nolop website [he
 {{< expand "Click to see procedure for motor hub testing" "..." >}}
 Grab a few water bottles and be ready to add or remove water as needed. The goal is to find the max weight your motor + hub can lift without the hub slipping or the motor stalling. Start with some water in a bottle. Attach it to the hub with a paper clip (through the hole placed ~15 mm from the shaft axis) and a length of string. Supply 12 V to the motor and see if it can lift the weight without slipping of the hub. Repeat (adjusting the amount of water each time) until you get to a weight that either stalls the motor or makes the hub slip around the motor shaft.  Record this as your "slip/stall weight." 
 
-How can you use your "slip/stall weight" and the distance between your shaft axis and paper clip attachment point to find your slip/stall TORQUE?
+How can you use your "slip/stall weight" and the distance between your shaft axis and paper clip attachment point to find your slip/stall TORQUE? 
+You’ll need to enter this torque value in your Project 0 reflection (link provided in the Project 0 Canvas assignment).
 
-Submit to Canvas a photo of your motor hub attachment and a video of it lifting weight. Compare its performance to this class histogram created in a previous semester: 
+For your Canvas submission, be sure to take a photo of your motor hub attachment and a video of it lifting weight. Compare its slip/stall torque performance to this class histogram created in a previous semester: 
 https://docs.google.com/spreadsheets/d/1Y_V_8rgQhnSgg5z3wRCmGc2mLD-aFtRIoKs-uJ67k6A/edit?usp=sharing
 {{< /expand >}}
 
