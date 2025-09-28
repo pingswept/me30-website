@@ -25,7 +25,7 @@ Here's what an Arduino Uno looks like.
 
 In previous offerings of this course, we have used an [Arduino MKR 1010 Wifi](/notes/arduino-mkr-wifi-1010-hardware/) which is like the Uno, but more faster, smaller, and with wifi.
 
-In Fall 2024, you have an [Adafruit KB2040](https://learn.adafruit.com/adafruit-kb2040) in your project kit, which is also like the Arduino, but made by a different company and with a different central processing chip - called an RP2040.
+In Fall 2025, you have an [Adafruit KB2040](https://learn.adafruit.com/adafruit-kb2040) in your project kit, which is also like the Arduino, but made by a different company and with a different central processing chip - called an RP2040.
 
 ### Category 2: has an operating system
 
