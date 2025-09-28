@@ -165,7 +165,7 @@ The picture below shows the concept of what you're building.
 
 ## 11. Determine pin voltages and ideal resistor value for a BJT circuit (Class 7 and 8)
 
-1. For the circuit shown in Exercise #7, fill in the table below to indicate the voltage at E, B, and C when the base resistor is connected to (a) 0 V and (b) 3.3 V.
+1. For the circuit shown in Exercise #10, fill in the table below to indicate the voltage at E, B, and C when the base resistor is connected to (a) 0 V and (b) 3.3 V.
 2. To run your kit's gear motor, what is an ideal value for the resistor between 3.3 V and the base of the transistor?
 
 
@@ -188,7 +188,7 @@ You need 5 things:
 
 ![MOSFET circuit](/img/mosfet-controller.jpg)
 
-## 13. De-bugging challenges set 1 (Class 10)
+## 13. De-bugging challenges (Class 9)
 
 Images of circuits: https://tufts.box.com/s/8al3jwc3l81ewtb16ridfo2ewqbjtc3v
 
