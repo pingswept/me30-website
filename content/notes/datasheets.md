@@ -26,12 +26,6 @@ To see more about how to draw the circuit schematic symbol for common parts, che
 
 * [5 mm LED](/pdf/LED-QBL8XX15C.pdf)
 
-## MOSFETs
-
-* [P-channel FQP27P06 MOSFET, 27 A, 60 V, TO-220 package](/pdf/mosfet-FQP27P06.pdf)
-* [N-channel IRLB8721 MOSFET, 30 A, 60 V, TO-220 package](/pdf/mosfet-IRLB8721.pdf)
-* [N-channel IRLZ44N MOSFET, 47 A, 55 V, TO-220 package](/pdf/mosfet-IRLZ44N.pdf)
-
 ## Motors
 
 * [TJZ37RGa DC gearmotor, 12 V, 200 RPM](/img/tjz37rga-motor-specs.jpg)
@@ -56,6 +50,12 @@ To see more about how to draw the circuit schematic symbol for common parts, che
 * [PN2222 NPN transistor, 600 mA, 30 V, TO-92 package](/pdf/transistor-PN2222.pdf)
 * [2N3904 NPN transistor, 200 mA, 40 V, TO-92 package](/pdf/transistor-2N3904.pdf)
 * [PN2907 PNP transistor, 800 mA, 40 V, TO-92 package](/pdf/transistor-PN2907.pdf)
+
+  
+* [P-channel FQP27P06 MOSFET, 27 A, 60 V, TO-220 package](/pdf/mosfet-FQP27P06.pdf)
+* [N-channel IRLB8721 MOSFET, 30 A, 60 V, TO-220 package](/pdf/mosfet-IRLB8721.pdf)
+* [N-channel IRLZ44N MOSFET, 47 A, 55 V, TO-220 package](/pdf/mosfet-IRLZ44N.pdf)
+
 
 ## Trimmer potentiometers (variable resistors)
 
