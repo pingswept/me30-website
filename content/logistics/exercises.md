@@ -188,9 +188,9 @@ You need 5 things:
 
 ![MOSFET circuit](/img/mosfet-controller.jpg)
 
-## 13. De-bugging challenges (Class 9)
+## 13. De-bugging challenges (Class 8 or 9)
 
-Images of circuits: https://tufts.box.com/s/8al3jwc3l81ewtb16ridfo2ewqbjtc3v
+Study the three circuits pictured here. Identify the errors preventing them from working: https://tufts.box.com/s/ggy1y8svs4tuulywfwx7mzdyxvlrjcyo
 
 ## 14. KB2040 microcontroller challenges set 1 (Class 10 and labs)
 
