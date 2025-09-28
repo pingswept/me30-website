@@ -29,12 +29,12 @@ Thanks for your hard work learning KiCad for Project 1. Looking forward to seein
 - Learn to set up the KB2040 microcontroller to run very simple Python code.
 
 **Course website (andnowforelectronics.com) pages to study in Week 5:**
-- [Low power/high power[(http://andnowforelectronics.com/notes/low-power-high-power/) (includes mini-lecture videos on BJT and MOSFET transistors) 
+- [Low power/high power](http://andnowforelectronics.com/notes/low-power-high-power/) (includes mini-lecture videos on BJT and MOSFET transistors) 
 - [Microcontrollers](http://andnowforelectronics.com/notes/microcontrollers/)
 - [KB2040 hardware](http://andnowforelectronics.com/notes/kb2040-hardware/)
 
 **Suggested reading for Week 5:**
-- “Section 13.5: Interfacing with Microcontrollers” (pgs. 874-895) in Practical Electronics for Inventors (Scherz & Monk) available [here](https://tufts-primo.hosted.exlibrisgroup.com/permalink/f/k87dab/TN_cdi_askewsholts_vlebooks_9781259587559](https://learning.oreilly.com/library/view/practical-electronics-for/9781259587559/?sso_link=yes&sso_link_from=tufts-university) from Tisch Library online
+- “Section 13.5: Interfacing with Microcontrollers” (pgs. 874-895) in Practical Electronics for Inventors (Scherz & Monk) available [here](https://learning.oreilly.com/library/view/practical-electronics-for/9781259587559/?sso_link=yes&sso_link_from=tufts-university) from Tisch Library online
 - Adafruit’s Guide to CircuitPython for KB2040: (https://learn.adafruit.com/adafruit-kb2040/circuitpython)
 
 
