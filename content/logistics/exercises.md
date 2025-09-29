@@ -168,6 +168,12 @@ The picture below shows the concept of what you're building.
 1. For the circuit shown in Exercise #10, fill in the table below to indicate the voltage at E, B, and C when the base resistor is connected to (a) 0 V and (b) 3.3 V.
 2. To run your kit's gear motor, what is an ideal value for the resistor between 3.3 V and the base of the transistor?
 
+Useful info: 
+
+- Your motor draws 150 mA of current when spinning unloaded, and on the BJT data sheet you can find the "current gain" of the BJT (between its B-E path and C-E path).
+- You can find the "saturation" voltage of the BJT B-E junction on its data sheet.
+- "Saturation" is the state when a transistor has enough energy at its base for the electrons to flow through the C-E (collector-emitter) pathway. **In other words, saturation = ON.**
+
 
 |  | V_E  | V_B   | V_C |
 |:----:|:-----:|:----:|:----:|
