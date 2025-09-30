@@ -99,6 +99,10 @@ After the code is saved on the KB2040, if you wire an external LED from pin D4 t
 
 If you've made it this far, your hardware and software are working properly. Congratulations! Go get a drink of cool, delicious water!
 
+## More about Python programs for the KB2040
+
+Check out our [KB2040 programming page](http://andnowforelectronics.com/notes/kb2040-programming/) to learn the CircuitPython commands most often used to control motors and LEDs.
+
 ## Alternative KB2040 programming tutorials
 
 Adafruit's [CircuitPython Tutorials](https://learn.adafruit.com/welcome-to-circuitpython) are great if you're new to this stuff. Please take the time to run through them; it's an investment worth making. Microcontrollers are not going away soon.
