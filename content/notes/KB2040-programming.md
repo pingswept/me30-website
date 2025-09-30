@@ -1,5 +1,5 @@
 ---
-title: "Class 10: KB2040 programming"
+title: "Class 9: KB2040 programming"
 draft: false
 ---
 ## Programming your KB2040 microcontroller
