@@ -66,6 +66,7 @@ With CircuitPython installed, your KB2040 will look for and execute any Python p
 
 You can save code files with other file  names, besides **code.py**, on your KB2040's CIRCUITPY drive, but they won't be executed by your KB2040. You will need to change their name to **code.py** in order for them to be run.
 
+
 To create and load your first program, follow these steps:
 1. Open the Mu editor.
 2. Click the Load button, find the **CIRCUITPY** drive, and choose **code.py**.
