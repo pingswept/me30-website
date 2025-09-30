@@ -1,10 +1,12 @@
-## Programming your KB2040 microcontroller
+---
+title: "Class 09: KB2040 setup"
+draft: false
+---
+## Setting up your KB2040 microcontroller
 
 - - -
 
-## Set-up procedure
-
-### Stuff you need
+## Stuff you need
 
 *   A computer, plus the admin password to install software
 *   An Adafruit KB2040 microcontroller board
