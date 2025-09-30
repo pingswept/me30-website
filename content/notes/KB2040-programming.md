@@ -1,10 +1,23 @@
 ---
-title: "Class 09: KB2040 programming"
+title: "Class 10: KB2040 programming"
 draft: false
 ---
 ## Programming your KB2040 microcontroller
 
 - - -
+
+## Using Mu to run CircuitPython code on your KB2040
+
+Make sure you have CircuitPython installed on your KB2040. See the [setup instructions](http://andnowforelectronics.com/notes/kb2040-setup/) if you don't.
+
+Save your Python code as the file code.py on your KB2040, and it will start running immediately.  
+
+Open the serial monitor in Mu to see any error messages.
+
+To interrupt your KB2040 and stop the code, click within the Serial  monitor, and use CTRL-C.
+
+To return the KB2040 to running the code, use CTRL-D in the serial monitor.
+
 
 ## How to learn the basics of CircuitPython
 
@@ -14,17 +27,6 @@ Learn the [basics of Python syntax](https://www.w3schools.com/python/python_synt
 
 Then review and bookmark the [CircuitPython Essentials](https://learn.adafruit.com/circuitpython-essentials/circuitpython-essentials) page from Adafruit.
 
-- - -
-
-## Using Mu to run code on your KB2040
-
-Save your Python code as the file code.py on your KB2040, and it will start running immediately.  
-
-Open the serial monitor in Mu to see any error messages.
-
-To interrupt your KB2040 and stop the code, click within the Serial  monitor, and use CTRL-C.
-
-To return the KB2040 to running the code, use CTRL-D in the serial monitor.
 
 ## Things to know about Python syntax
 
