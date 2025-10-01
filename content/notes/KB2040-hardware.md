@@ -5,11 +5,11 @@ draft: false
 
 ![Top view of Adafruit KB2040](/img/kb2040-top.jpeg)
 
-## Reference documents
+## Reference document
 
-[Adafruit KB2040 pinout](/img/KB2040_pinout.pdf)
+[Adafruit KB2040 pinout]((https://learn.adafruit.com/adafruit-kb2040/pinouts)
 
-[Adafruit KB2040 schematic](/img/KB2040_schematic.png)
+[Adafruit KB2040 schematic](https://learn.adafruit.com/adafruit-kb2040/downloads)
 
 [Adafruit KB2040 complete guide](https://cdn-learn.adafruit.com/downloads/pdf/adafruit-kb2040.pdf)
 
