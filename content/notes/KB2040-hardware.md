@@ -7,7 +7,7 @@ draft: false
 
 ## Reference document
 
-[Adafruit KB2040 pinout]((https://learn.adafruit.com/adafruit-kb2040/pinouts)
+[Adafruit KB2040 pinout](https://learn.adafruit.com/adafruit-kb2040/pinouts)
 
 [Adafruit KB2040 schematic](https://learn.adafruit.com/adafruit-kb2040/downloads)
 
