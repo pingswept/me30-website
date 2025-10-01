@@ -87,8 +87,6 @@ while True:
     time.sleep(0.5)
 </pre>
 
-![First code.py on Mu](/img/first-code.png)
-
 To load it onto the KB2040, click the "Save" button in the Mu editor's top menu. Navigate to the **CIRCUITPY** drive and save the file as **code.py.**
 
 ![Saving code.py](/img/save-code-py.png)
