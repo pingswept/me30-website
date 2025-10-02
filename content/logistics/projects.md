@@ -17,7 +17,7 @@ Due date (for game documentation submission): Wednesday, October 8th, 11:59PM
 To keep things simple, there are a few required constraints.
 Your game should:
 * Use the DC gearmotor in your kit
-* Use at least one transistor 
+* Use at least one transistor from your kit (can be a BJT or MOSFET)
 * Require user interaction of some sort (e.g., pushing a button, pressing a key, interacting with a physical component)
 * Fit inside a cube 20 cm on a side
 * Be fabricated without 3D printing, except for a motor hub if needed (talk to an instructor if you have a particular reason you need to violate this constraint.)
