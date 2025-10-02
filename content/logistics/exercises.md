@@ -208,7 +208,10 @@ For Kristen's 1-page summary of the most important Circuit Python commands for y
 
 ## 15. Project 2 takeaways reflection (Class 11)
 
-(a) What are some problems you encountered along the way of working on your game for Project 2, and what did you learn from them? Let's collectively document those [here](https://docs.google.com/document/d/1yKv0bKWhP53wHEWxWcOBskjrUdKzZLRV_DfW0eVWal0/edit?usp=sharing).
+(a) What are some problems you encountered along the way of working on your game for Project 2, and what did you learn from them? Let's collectively document those.
+- [Morning sections](https://docs.google.com/document/d/1UU6AcytbkmLdxBSLcctiW4OjgAi3-AhYWyQGw_gHBQY/edit?usp=sharing)
+- [3pm section](https://docs.google.com/document/d/1WUewNWy1QDab5JxhR-gFhtlAe6kD9OXxnvTb6hcjKTA/edit?usp=sharing)
+- [4:30pm section](https://docs.google.com/document/d/1vtkICXmVOQMKhThoXSFqZUW-rmKqNWhomKPnk9mHlTw/edit?usp=sharing)
 
 (b) Take a moment to fill out the [self-assessment for Project 2](https://tufts.qualtrics.com/jfe/form/SV_7PAFa4Tk6kXRZ1s), if you have not done so already.
 
