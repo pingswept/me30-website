@@ -24,7 +24,7 @@ draft: false
 |   07  | 9/24  | Transistors as switches                       | Make a switch with a BJT        | [Low power/high power](/notes/low-power-high-power/)|[P1 PCB](/logistics/projects/#project-1-build-a-breadboard-power-supply)|        |
 |   08  | 9/29  | Intro to P2 (game v1), DC motors, MOSFETs     | Run a motor with a MOSFET       | [Motors](/notes/motors/) |              |
 |   09  | 10/1  | Microcontrollers, CircuitPython               | KB2040 set-up                   | [KB2040 hardware](/notes/feather-rp2040-hardware/); [Microcontrollers](/notes/microcontrollers/); Solder pins to your KB2040 and bring to class |  P0 motor hubs in labs    |
-|   10  | 10/6  | Digital and analog I/O hardware               | De-bugging challenge #1; KB2040 challenges set 1  |    [KB2040 programming](/notes/kb2040-programming/); [KB2040 challenges](/notes/kb2040-challenges/)    |   
+|   10  | 10/6  | Digital and analog I/O hardware               | De-bugging challenges; KB2040 challenges set 1  |    [KB2040 programming](/notes/kb2040-programming/); [KB2040 challenges](/notes/kb2040-challenges/)    |   
 |   11  | 10/8  | H-bridges                                     | Start building an H-bridge      | [H-bridge motor driver](/notes/h-bridge/); [Intro and video for P3](/logistics/projects/#project-2-build-an-h-bridge-motor-controller) | [P2 (game v1)](/logistics/projects) due Wed. in class|
 |       | 10/13 | NO CLASS                                      | (Indigenous People's Day)       |  |        |
 |   12  | 10/15 | Intro to P3, More H-bridge details            | More H-bridge work              |               |       |
@@ -39,7 +39,7 @@ draft: false
 |   15  | 10/27 | Motor modeling, PWM                | P4 planning              |      | [P3 PCB](/logistics/projects/#project-2-build-an-h-bridge-motor-controller)   |
 |   16  | 10/29 | Sensors, state machines intro      | KB2040 challenges, set 2 | [KB2040 challenges](/notes/kb2040-challenges/); [KB2040 programming](/notes/kb2040-programming/) |  |
 |   17  | 11/3  | State machines, Stepper motors     | KB2040 challenges, set 2 | [KB2040 challenges](/notes/kb2040-challenges/); [KB2040 programming](/notes/kb2040-programming/)|  |
-|   18  | 11/5  | Ethical quandaries, engineering, working in teams?  | P4 work                  | |    |
+|   18  | 11/5  | Ethical quandaries in engineering, working in teams?  | P4 work                  | |    |
 |   19  | 11/10 | Raspberry Pi intro                 | Booting the Raspberry Pi | [Raspberry Pi programming](/notes/pi-programming/); [Raspberry Pi setup](/notes/pi-setup/)   |      |
 |   20  | 11/12 | P4 reflection; Project 5 intro     | P4 demo day              |       |   [P4](/logistics/projects)  |
 
