@@ -21,7 +21,7 @@ To return the KB2040 to running the code, use CTRL-D in the serial monitor.
 
 ## How to get started with CircuitPython
 
-In addition to exploring this page, we recommend you check out the CircuitPython tutorial provided by Adafruit, starting at the page [Exploring Your First CircuitPython Progarm](https://learn.adafruit.com/welcome-to-circuitpython/exploring-your-first-circuitpython-program) and working through the next several pages.
+In addition to exploring this page, we recommend you check out the CircuitPython tutorial provided by Adafruit, starting at the page [Exploring Your First CircuitPython Program](https://learn.adafruit.com/welcome-to-circuitpython/exploring-your-first-circuitpython-program) and working through the next several pages.
 
 Learn the [basics of Python syntax](https://www.w3schools.com/python/python_syntax.asp) at the easy-to-follow Python W3 Schools website.
 
