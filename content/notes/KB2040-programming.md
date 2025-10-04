@@ -27,6 +27,8 @@ Learn the [basics of Python syntax](https://www.w3schools.com/python/python_synt
 
 Then review and bookmark the [CircuitPython Essentials](https://learn.adafruit.com/circuitpython-essentials/circuitpython-essentials) page from Adafruit.
 
+For a 1-page summary of the most important Circuit Python commands for your KB2040, click [here](https://tufts.box.com/s/zd2yzy3zu0fs0cgmzu6ft8gjn5exzdbp).
+
 
 ## Things to know about Python syntax
 
