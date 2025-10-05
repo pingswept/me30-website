@@ -10,7 +10,7 @@ An H-bridge is a simple, commonly used circuit that can make motors spin in both
 
 Conceptually, the circuit consists of 4 switches. When they're all off, the motor is stopped. When you turn on the upper left and lower right, current flows one way, and the motor spins. When you turn on the upper right and lower left, current flows the other way, so the motor reverses.
 
-![H-bridge concept with switches](/img/h-bridge-concept.png)
+<!-- ![H-bridge concept with switches](/img/h-bridge-concept.png) -->
 
 For small, low-power motors, you can get chips that contain all 4 switches in a single package. As motors get bigger, we start using 4 separate MOSFETs for the 4 switches. In ME 30, we're going to build an H-bridge using 4 separate MOSFETs, because that's what we can prototype on a breadboard.
 
