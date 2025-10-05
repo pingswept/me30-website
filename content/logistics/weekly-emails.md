@@ -6,6 +6,34 @@ draft: false
 
 - - -
 
+## Week 6: Sunday, 10/5/2025
+
+**Things due in Week 6:**
+- Bring your [Project 2](http://andnowforelectronics.com/logistics/projects/) simple game to class on Wednesday, Oct. 8. We’ll devote some class time to play games and reflect on your work. Canvas documentation for Project 2 is due on Wednesday night, 11:59pm. 
+- Looking for a place to work on Project 2? Nolop and Blake are both great locations, and you’re also welcome to work in the Bray Design Studio. It’s the workshop room across the hall from the machine shop, and you’ll find soldering irons, hand tools, and 5 workshop tables there. (And it’s next to Bray’s 3D printer room.)
+
+**Learning goals for Week 6:**
+- Incorporate a DC gearmotor into a simple electromechanical system.
+- Gain enough familiarity with Python programming to code the KB2040 microcontroller to process simple inputs and outputs.
+- (Begin to) explain how an H-bridge motor controller works.
+
+**Labs are OPTIONAL in Week 6 (and Sunday 10/12 labs cancelled)**
+- Labs on 10/8, 10/9, and 10/10 (Wed/Th/Fri) are OPTIONAL. They will focus on the [KB2040 challenges](http://andnowforelectronics.com/notes/kb2040-challenges/). Our goal is to support students who are newer to programming microcontrollers. If writing code for the KB2040 feels totally new to you, please come and work through the challenges with LA support.
+- Due to the holiday weekend, labs on Sunday, 10/12 are cancelled. 
+- There will still be office hours on Sunday from 8-9pm, focusing on KB2040 Challenges support. 
+
+**Course website (andnowforelectronics.com) pages to study in Week 6:**
+- [Analog vs digital](http://andnowforelectronics.com/notes/analog/)
+- [KB2040 hardware](http://andnowforelectronics.com/notes/kb2040-hardware/)
+- [KB2040 programming](http://andnowforelectronics.com/notes/kb2040-programming/)
+- [KB2040 challenges](http://andnowforelectronics.com/notes/kb2040-challenges/)
+
+
+**Suggested reading for Week 6:**
+- “Chapter 6: Eeny, Meeny, Miny, Motor: Options for Creating and Controlling Motion” (pgs. 123-181) in [Making Things Move](https://learning.oreilly.com/library/view/making-things-move/9780071741682/?sso_link=yes&sso_link_from=tufts-university) (Dustyn Roberts), available online to Tufts students from Tisch Library
+- Adafruit's guide ["Exploring Your First Circuit Python Program"](https://learn.adafruit.com/welcome-to-circuitpython/exploring-your-first-circuitpython-program)
+
+
 ## Week 5: Sunday, 9/28/25
 
 Thanks for your hard work learning KiCad for Project 1. Looking forward to seeing you put those PCBs in action for later projects.
