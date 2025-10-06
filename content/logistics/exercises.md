@@ -211,7 +211,9 @@ Learn to program your KB2040 board by working through the first 6 of these 12 ch
 
 You'll want to consult the [KB2040 programming](http://andnowforelectronics.com/notes/kb2040-programming/) resources.
 
-For a 1-page summary of the most important Circuit Python commands for your KB2040, click [here](https://tufts.box.com/s/zd2yzy3zu0fs0cgmzu6ft8gjn5exzdbp).
+For a 1-page summary of the most important Circuit Python commands for your KB2040, click:
+
+https://tufts.box.com/s/lczswqulqewphbxyku1zpvazp73govzi
 
 ## 15. Project 2 takeaways reflection (Class 11)
 
