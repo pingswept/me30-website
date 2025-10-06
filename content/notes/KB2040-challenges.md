@@ -14,6 +14,9 @@ draft: false
 5. Make an LED attached to pin D6 send Morse code for "TUFTS".
 6. Turn your gearmotor on for 5 seconds, then off for 5 seconds, then repeat, using pin D6. You'll need a transistor for this.
 
+## Resource: 1-page summary of basic CircuitPython commands - https://tufts.app.box.com/file/1668047159100?s=zd2yzy3zu0fs0cgmzu6ft8gjn5exzdbp
+
+
 ### KB2040 + H-bridge challenge
 Use an H-bridge circuit to make your gearmotor spin clockwise for 5 seconds, then counterclockwise for 5 seconds, using pins D5 and D6.
 
