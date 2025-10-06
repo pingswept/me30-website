@@ -6,6 +6,11 @@ draft: false
 
 - - -
 
+## 1-page summary of basic CircuitPython commands:
+
+https://tufts.app.box.com/file/1668047159100?s=zd2yzy3zu0fs0cgmzu6ft8gjn5exzdbp
+
+
 ## Using Mu to run CircuitPython code on your KB2040
 
 Make sure you have CircuitPython installed on your KB2040. See the [setup instructions](http://andnowforelectronics.com/notes/kb2040-setup/) if you don't.
