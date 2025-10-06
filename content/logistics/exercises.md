@@ -194,7 +194,14 @@ You need 5 things:
 
 ![MOSFET circuit](/img/mosfet-controller.jpg)
 
-## 13. De-bugging challenges (Class 10)
+## 13a. P0 takeaways (Class 10)
+
+Add a thought to this shared doc:
+
+https://docs.google.com/document/d/1WWe9YpnqQwaxn9oNP9B09x3XFFOUSrDopJ1wqWNpExg/edit?usp=sharing
+
+
+## 13b. De-bugging challenges (Class 10)
 
 Study the three circuits pictured here. Identify the errors preventing them from working: https://tufts.box.com/s/ggy1y8svs4tuulywfwx7mzdyxvlrjcyo
 
