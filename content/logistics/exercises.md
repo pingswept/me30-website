@@ -231,7 +231,7 @@ Challenge #6 asks you to control a motor's on/off state with a KB2040 output pin
 
 ![Microcontroller problems](/img/Micro_with_transistors_flawed.jpg)
 
-*What are the problems with approach #1?*
+[comment](*What are the problems with approach #1?*
 
 {{< expand "See the answer" "..." >}}
 (a) The KB2040 GND pin is not tied to the same ground as the motor circuitry.
@@ -251,7 +251,7 @@ Challenge #6 asks you to control a motor's on/off state with a KB2040 output pin
 (c) The KB2040 GND pin is not tied to the same ground as the motor circuitry.
 
 ![Fixed circuit](/img/Micro_MOSFET_Fixed.jpg)
-{{< /expand >}}
+{{< /expand >}})
 
 ## 17. Mechanically controlled two-way motor circuit (Class 11)
 
