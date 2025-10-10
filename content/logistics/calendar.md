@@ -25,9 +25,9 @@ draft: false
 |   08  | 9/29  | Intro to P2 (game v1), DC motors, MOSFETs     | Run a motor with a MOSFET       | [Motors](/notes/motors/) |              |
 |   09  | 10/1  | Microcontrollers, CircuitPython               | KB2040 set-up                   | [KB2040 hardware](/notes/feather-rp2040-hardware/); [Microcontrollers](/notes/microcontrollers/); Solder pins to your KB2040 and bring to class |  P0 motor hubs in labs    |
 |   10  | 10/6  | Digital and analog I/O hardware               | De-bugging challenges; KB2040 challenges set 1  |    [KB2040 programming](/notes/kb2040-programming/); [KB2040 challenges](/notes/kb2040-challenges/)    |   
-|   11  | 10/8  | H-bridges                                     | Start building an H-bridge      | [H-bridge motor driver](/notes/h-bridge/); [Intro and video for P3](/logistics/projects/#project-2-build-an-h-bridge-motor-controller) | [P2 (game v1)](/logistics/projects) due Wed. in class|
+|   11  | 10/8  | H-bridges                                     | Start building an H-bridge      | [H-bridge motor driver](/notes/h-bridge/) | [P2 (game v1)](/logistics/projects) due Wed. in class|
 |       | 10/13 | NO CLASS                                      | (Indigenous People's Day)       |  |        |
-|   12  | 10/15 | Intro to P3, More H-bridge details            | More H-bridge work              |               | [KB2040 challenge #6](http://andnowforelectronics.com/notes/kb2040-challenges/)      |
+|   12  | 10/15 | Intro to P3, More H-bridge details            | More H-bridge work              | [H-bridge motor driver](/notes/h-bridge/); [Intro and video for P3](/logistics/projects/#project-2-build-an-h-bridge-motor-controller)             | [KB2040 challenge #6](http://andnowforelectronics.com/notes/kb2040-challenges/)      |
 |   13  | 10/20 | Motor electrical power, detailed PCB design   | Motor measurement; Run your H-bridge with your KB2040   |     |[P3 proto](/logistics/projects/#project-2-build-an-h-bridge-motor-controller)|
 |   14  | 10/22 | Intro to P4, Motor mechanical power           | More motor measurement; P1 PCB test  | Solder components to your P1 PCB and bring to class  | Soldered P1 PCB |
 
