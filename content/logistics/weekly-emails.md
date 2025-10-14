@@ -6,6 +6,27 @@ draft: false
 
 - - -
 
+## Week 7: Tuesday, 10/14/25
+
+Thanks for your creativity and resourcefulness on Project 2 games! Now that you're familiar with the basics of transistor circuits, we're moving on to using transistors in combination with your KB2040 microcontroller for bi-directional motor control.
+
+**Things due in Week 7:**
+- If you have not completed Challenge #6 the KB2040 challenges, you should finish that this week and upload a video to Canvas. Ask an LA, instructor, or classmate for help if needed.
+- Not due this week, but looking ahead:  Project 3 (H-bridge) breadboard prototype attempt due Monday night (10/20), and we’d like everyone to solder components onto your Project 1 PCB by 10/26 at the latest.
+
+**Learning goal for Week 7:**
+- Explain how an H-bridge motor controller works.
+
+**Class and labs this week**
+- The main activity for lab this week is to wire and test a breadboard H-bridge circuit, which we will begin in class on Wednesday, 10/15.
+
+**Course website (andnowforelectronics.com) pages to study in Week 7:**
+- [H-bridge motor driver](http://andnowforelectronics.com/notes/h-bridges/)
+- [Project 3: H-bridge](http://andnowforelectronics.com/logistics/projects/)
+- [KB2040 programming](http://andnowforelectronics.com/notes/kb2040-programming/)
+- [KB2040 challenges](http://andnowforelectronics.com/notes/kb2040-challenges/)
+
+
 ## Week 6: Sunday, 10/5/2025
 
 **Things due in Week 6:**
