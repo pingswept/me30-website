@@ -26,6 +26,11 @@ Typically, the lower two MOSFETs in the circuit are N-channel MOSFETs, while the
 
 Yes, you do. The trick that people use is to a low power NPN bipolar junction transistor, like the 2N3904, to turn on the P-channels, and then a pull-up resistor to turn them off. Then you can control the P-channels through the BJT's using 3.3 V or 5 V logic signals from a microcontroller.
 
+V_motor is the higher voltage needed for the motor to run at desired speed. This semester we've been using 12 V.
+
+V_A and V_B are either 0 volts or the low positive voltage (typically 3.3 V or 5 V) needed to switch on their respective transistors. These voltages are usually sent out by a microcontroller.
+
+
 ![Rough schematic of an H-bridge](/img/h-bridge-schematic.png)
 
 
