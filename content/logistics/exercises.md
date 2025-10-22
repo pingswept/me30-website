@@ -305,10 +305,11 @@ The voltage regulators on your P1 PCB are specified (on their data sheets) to be
 **Test your P1 PCB by determining how much current your regulators can actually send out to loads at your output pins before going into thermal shutdown.**
 
 General procedure (details left to your group):
-- Determine the resistance (it will be a low value!) you should attach to your 3.3 V and 5 V output so that something close to the specified max current is drawn (0.8 A or 1.5 A, respectively)
-- Attach those low-ohm resistors to the output. These resistors stand in for a motor or other load to which you would want to supply 3.3 V or 5 V
+- Determine the resistance (it will be a low value!) you should attach to your 3.3 V and 5 V output so that something close to the specified max current is drawn (0.8 A or 1.5 A, respectively). Also compute the power that will be drawn through the circuit at these voltage and current conditions.
+- Find a way to create that resistance using a combination of provided resistors (in series and/or parallel). You must also be sure that your resistor set-up provides enough have enough power dissipation capacity. For example, if you need to be able to handle 1 W, and your resistors are 0.5-Watt resistors, you need at least two resistors.
+- Attach your resistor set-up to the output. These resistors stand in for a motor or other load to which you would want to supply 3.3 V or 5 V
 - Monitor the voltage drop across that resistive load - that is, the voltage drop between the output of the regulator and ground
-- Once that voltage drop begins to decrease lower than 3.3 V or 5 V, your regulator has gone into thermal shutdown (you may feel the regulators getting very hot before this happens)
+- If that voltage drop begins to decrease lower than 3.3 V or 5 V, your regulator has gone into thermal shutdown (you may feel the regulators getting very hot before this happens).
 
 Use this [shared doc](https://tinyurl.com/ME30questiondoc) to post questions about the P1 PCB test and about P3 circuit board design.
 
