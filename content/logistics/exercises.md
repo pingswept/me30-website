@@ -313,7 +313,7 @@ General procedure (details left to your group):
 
 Use this [shared doc](https://tinyurl.com/ME30questiondoc) to post questions about the P1 PCB test and about P3 circuit board design.
 
-## 21a. Measure a DC gearmotor efficiency (Power Out and Power In) (Class 14)
+## 21. Measure a DC gearmotor efficiency (Power Out and Power In) (Class 14)
 
 Here are a few basic measurements you can make to understand your DC gearmotor better. The overall goal is to determine the efficiency of the motor by comparing the electrical power that goes into it ("power in") with the mechanical power it delivers ("power out"). 
 
@@ -322,19 +322,25 @@ Here are a few basic measurements you can make to understand your DC gearmotor b
 Determine how much mechanical power the motor actually delivers ("power out"). One way to do this is to measure the time it takes to perform a certain amount of work (i.e., to add energy to a system).
 
 1. Use tape and string to hang a water bottle from your motor shaft.
-2. Measure the time it takes your motor to lift a known weight a specific distance (you could try something like 0.5 or 1.0 kg of water, lifted up 1 m). Compute the amount of work done in lifting the water. With these two values (work and time), you can find "power out."
+2. Connect your motor directly to your 12 V DC power supply using alligator clips. 
+3. Measure the time it takes your motor to lift a known weight a specific distance (you could try something like 0.5 or 1.0 kg of water, lifted up 1 m). Compute the amount of work done in lifting the water. With these two values (work and time), you can find "power out."
 
 **Power In (Electrical Power)**
 
-Connect your motor directly to your 12 V DC power supply using alligator clips. Then, measure the current the motor draws (with the weight from above) by putting your multimeter in series with the motor. You should switch your multimeter to the A setting (for Amps), and move the red lead to the port on the left side of the meter that is labeled "A". The black lead stays in the black port labeled "COM".
-
-While we're at this, let's also determine the maximum current that the motor draws.
-
-Find the resistance of your motor when not powered - thus not moving (using your multimeter).  Divide voltage by resistance to get max current drawn.
+Measure the current the motor draws (using the same weight from above) by putting your multimeter in series with the motor. You should switch your multimeter to the A setting (for Amps), and move the red lead to the port on the left side of the meter that is labeled "A". The black lead stays in the black port labeled "COM".
 
 **Efficiency**
 
 Compare "power in" and "power out" to estimate the motor's efficiency. 
+
+
+**Max Motor Power (Electrical)** 
+
+While we're at this, let's also determine the maximum current that the motor draws.
+
+Your motor draws max current when it's working as hard as it can but not able to move its shaft anymore - that's called motor stall. When stalled, your motor behaves like a resistor. 
+
+Use your multimeter to measure the resistance of your motor when not powered - i.e., when not moving.  Divide voltage by resistance to get max current drawn.
 
 Note that if you can estimate how much power a task will require, you can start to figure out what voltage this motor would need to deliver that power (assuming perfect efficiency, for now). That's the first step toward deciding whether this is the right motor for whatever you're building.
 
