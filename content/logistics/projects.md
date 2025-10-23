@@ -15,8 +15,6 @@ Your task is to build a game with the following characteristics:
 *   It includes no 3D printed components whose STL files were downloaded from the internet.
 *   Its major structural components are NOT 3D printed.
 
-For 1 of the 7 project points you will also need to respond to the project reflection questions linked from Canvas.
-
 ### Personal learning goals ###
 
 As soon as you can manage it, you should formulate and submit to Canvas one or more personal learning goals for the project. Building games is cool, but the real point here is for you to gain skills and experience that help you grow as an engineer. That works best when your heart is in it; this is your chance to follow where your heart leads. (Okay, that's a bit cheesy, but also true.)
