@@ -13,28 +13,28 @@ Each student in the course will receive a kit of project supplies. The contents 
 | hook-up wire kit                         | Global Specialties      | WK-3                 | Digikey         | BKWK-3-ND       | 1              |
 | pin-socket jumper wires                	 | Edgelec	               | ED-DP_L15_M-F_120pcs |	Amazon          | B07GD2869Z	    | 10             |
 | alligator-alligator jumper wires         | Kitronik                | 2407                 | Digikey         | 1927-1085-ND    | 2 from 10 pack |
-| 100 ohm resistor                         | Stackpole	             | CFR-25JB-52-100R     |	Digikey	        | CF12JT100RCT-ND | 5              |
-| 1k ohm resistor                          | Stackpole	             | CFR-25JB-52-1K       |	Digikey	        | CF12JT1K00CT-ND | 5              |
-| 10k ohm resistor                         | Stackpole	             | CFR-25JB-52-10K      |	Digikey	        | CF12JT10K0CT-ND | 5              |
-| 100k ohm resistor                        | Stackpole	             | CFR-25JB-52-100K     |	Digikey	        | CF12JT100KCT-ND | 5              |
+| 100 ohm resistor                         | Stackpole	             | CFR-25JB-52-100R     |	Digikey	        | CF12JT100RCT-ND | 10             |
+| 1k ohm resistor                          | Stackpole	             | CFR-25JB-52-1K       |	Digikey	        | CF12JT1K00CT-ND | 10             |
+| 10k ohm resistor                         | Stackpole	             | CFR-25JB-52-10K      |	Digikey	        | CF12JT10K0CT-ND | 10             |
+| 100k ohm resistor                        | Stackpole	             | CFR-25JB-52-100K     |	Digikey	        | CF12JT100KCT-ND | 10             |
 | 10k potentiometer                        | Flutesan                |                      |	Amazon	        | B09L5MGNFZ      | 2              |
 | photoresistor                            | Hiletgo                 | 5528                 |	Amazon	        | B00N1ZJUN4      | 2              |
 | 5mm red LED                              | SunLED	                 | XLUR12D	            | Digikey	        | 1497-1031-ND    | 5              |
 | 5mm green LED                            | SunLED	                 | XLUG12D	            | Digikey	        | 1497-1023-ND    | 5              |
-| pushbutton                               | Taiss                   | 6x6x4.3mm            | Amazon          | B08DRB78MX      | 2              |
+| pushbutton                               | Taiss                   | 6x6x4.3mm            | Amazon          | B08DRB78MX      | 6              |
 | ziploc bag                               | Ziploc                  | 1089057              | Amazon          | B00MR1TK4C      | 1              |
 | cardboard box, 10 x 8 x 4 in             | Packlane                |                      | Packlane        |                 | 1              |
 |                                          |                         |                      |                 |                 |                |
-| barrel jack                              | CUI Devices             | PJ-102AH             | Digikey         | CP-102AH-ND     | 1              |
-| 5 V voltage regulator                    | STMicroelectronics      | L7805CV              | Digikey         | 497-1443-5-ND   | 1              |
-| 3.3 V voltage regulator                  | STMicroelectronics      | LD1117V33            | Digikey         | 497-1491-5-ND   | 1              |
-| electrolytic capacitor, 10 uF            | Kemet                   | ESK106M016AC3AA      | Digikey         | 399-6597-ND     | 3              |
-| screw terminals, 5mm pitch               | Wurth Elektronik        | 691137710002         | Digikey         | 732-10955-ND    | 1              |
+| barrel jack                              | CUI Devices             | PJ-102AH             | Digikey         | CP-102AH-ND     | 2              |
+| 5 V voltage regulator                    | STMicroelectronics      | L7805CV              | Digikey         | 497-1443-5-ND   | 2              |
+| 3.3 V voltage regulator                  | STMicroelectronics      | LD1117V33            | Digikey         | 497-1491-5-ND   | 2              |
+| electrolytic capacitor, 10 uF            | Kemet                   | ESK106M016AC3AA      | Digikey         | 399-6597-ND     | 4              |
+| screw terminals, 5mm pitch               | Wurth Elektronik        | 691137710002         | Digikey         | 732-10955-ND    | 2              |
 |                                          |                         |                      |                 |                 |                |
-| N-channel MOSFET                         | International Rectifier | IRLB8721PBF          | Digikey         | IRLB8721PBF-ND  | 2              |
-| P-channel MOSFET                         | Fairchild               | FQP27P06             | Newark          | 58K1524         | 2              |
+| N-channel MOSFET                         | International Rectifier | IRLB8721PBF          | Digikey         | IRLB8721PBF-ND  | 4              |
+| P-channel MOSFET                         | Fairchild               | FQP27P06             | Newark          | 58K1524         | 3              |
 | NPN transistor                           | On Semiconductor        | 2N3904               | Digikey         | 2N3904FS-ND     | 2              |
-| DC gearmotor                             | Plumia                  | TJZ37RGa             | Amazon          |                 | 1              |
+| DC gearmotor                             | Plumia                  | TJZ37RGa             | Amazon          |                 | 4              |
 | NEMA 17 stepper motor, 350 mA@12 V       | Adafruit                | 324                  | Adafruit        | 324             | 1              |
 |                                          |                         |                      |                 |                 |                |
 | Adafruit KB2040 microcontroller board    | Adafruit                | 5302                 | Adafruit        | 5302            | 1              |
