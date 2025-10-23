@@ -21,7 +21,7 @@ Please reach out to Kristen, Brandon, or Zosia if you want to make a separate ap
 
 ## Course description
 
-A project-based hands-on electronics boot camp, focusing on the design and fabrication of printed circuit boards and interfacing with microcontrollers from the Raspberry Pi family.
+A project-based hands-on electronics boot camp focusing on the design and fabrication of electromechanical systems, including DC motors, printed circuit boards, and microcontrollers from the Raspberry Pi family.
 
 ## Course goals
 
@@ -35,11 +35,12 @@ The point of the course is to force students to gain experience with the practic
 * Prototyping
 * LEDs
 * Resistors, capacitors
+* Voltage dividers 
 * Voltage regulation
 * PCB design
 * Transistors
 * H-bridge motor controllers
-* Motors
+* Motors (DC gearmotors, stepper motors)
 * Microcontroller hardware
 * Microcontroller programming
 * Analog input/sensors & sensor amplification
