@@ -36,7 +36,7 @@ draft: false
 
 | Class | Date  | Class topics                       | Hands-on                 | What to study | What's due  |
 |:-----:|:-----:|------------------------------------|--------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------|
-|   15  | 10/27 | Motor modeling, PWM                | P4 planning              |      | [P3 PCB](/logistics/projects/#project-2-build-an-h-bridge-motor-controller)   |
+|   15  | 10/27 | Motor modeling, PWM                | KB2040 challenge #7; P4 planning              |      | [P3 PCB](/logistics/projects/#project-2-build-an-h-bridge-motor-controller)   |
 |   16  | 10/29 | Sensors, state machines intro      | KB2040 challenges, set 2 | [KB2040 challenges](/notes/kb2040-challenges/); [KB2040 programming](/notes/kb2040-programming/) |  |
 |   17  | 11/3  | State machines, Stepper motors     | KB2040 challenges, set 2 | [KB2040 challenges](/notes/kb2040-challenges/); [KB2040 programming](/notes/kb2040-programming/)|  |
 |   18  | 11/5  | Ethical quandaries in engineering, working in teams?  | P4 work                  | |    |
