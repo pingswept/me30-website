@@ -24,11 +24,14 @@ var x = 0,
     intervalID,
     INTERVAL_LENGTH = 200; // ms
 
+const urlParams = new URLSearchParams(window.location.search);
+const ip = urlParams.get('ip');
+
 // define console as a noop if not defined
 if (typeof console === 'undefined') console = { log: function() {} };
 
 function sendJoystickPosition() {
-  $.get('http://' + $('#ip-address').val() + '/joystick/' + x.toFixed(2) + '/' + y.toFixed(2));
+  $.get('http://' + ip + '/joystick/' + x.toFixed(2) + '/' + y.toFixed(2));
 }
 
 function startSending() {
