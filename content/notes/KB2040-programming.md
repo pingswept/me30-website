@@ -178,16 +178,16 @@ while True:
 
 ## ANALOGIO library - to read input at gradually varying voltages
 
-**xyz = analogio.AnalogIn(board.A1)**: creates an object called xyz and connects xyz to A1 as an analog input.
+**xyz = analogio.AnalogIn(board.A1)**: creates an object called xyz and connects xyz to A0 as an analog input.
 
-The code below will plot the value of the voltage coming in at analog input pin A1.
+The code below will plot the value of the voltage coming in at analog input pin A0.
 
 <pre class="code">
 import time
 import analogio
 import board
 
-inputvoltage = analogio.AnalogIn(board.A1)
+inputvoltage = analogio.AnalogIn(board.A0)
 
 while True:
     print((inputvoltage.value,))
