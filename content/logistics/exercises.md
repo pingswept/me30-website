@@ -386,7 +386,7 @@ Use a resistor in series with your photoresistor to make a voltage that changes 
 
 Now try to add an LED whose brightness also varies with the light exposure to the photoresistor.  Think carefully both about the code and the circuit components that you need to make this addition.
 
-## 26. How to code your microcontroller to constantly check an input while also running actuators (Class 16)
+## 26. How to code your microcontroller to constantly check an input while also running actuators (Class 17)
 
 Suppose you want to check for the state of inputs while also running motors, lights, and other actuators.
 
@@ -514,7 +514,7 @@ With one or two partners, set up two working breadboard H-bridges. Choose one KB
 
 Note that you will need the adafruit_motor library. All CircuitPython libraries for the KB2040 can be downloaded [here](https://circuitpython.org/libraries). Download the entire library bundle to your laptop, and then transfer ONLY the libraries you need to your KB2040.
 
-## 30. More sensors and actuators (Class 17)
+## 30. More sensors and actuators (Optional)
 
 1. **Potentiometer for input; motor speed for output.** Send the voltage output from a potentiometer (knob- or dial-like variable resistor) to an analog input pin on your KB2040. Use that varying voltage to vary the speed of a motor. **Extension:** Add a button that switches the direction of the motor (you'll likely need state machine code for this.)
 
