@@ -6,6 +6,64 @@ draft: false
 
 - - -
 
+## Week 10: Sunday, 11/2/25
+
+In class this week, we'll work through strategies for wiring and coding your KB2040 to handle outputs and inputs at the same time. We'll also talk about how to use your kit's stepper motor in case you need precise motor rotation for your Project 4 game. Finally, we’ll look at some ethical quandaries faced by anyone using or creating electronic systems. 
+
+**Labs this week** will focus on supporting Project 4 planning and circuit set-up. Project 4 is due next Wednesday, Nov. 12.
+ 
+**Things due in Week 10:**
+- Nothing is due this week, but if you have not posted your personal learning goal for Project 4, please do that on Canvas. 
+- This week you should be developing a solid plan for your Project 4 game. Before you sink time into building structure and moving parts, figure out your circuit and code. Make sure you can get your KB2040 to reliably receive voltage signals from your input(s) and send voltage signals out to your H-bridge(s). Remember that we are not grading you based on how beautiful or sophisticated your game is (though we appreciate those qualities); we are looking for you to meet the posted project requirements.
+- If you have not yet tried out Set 2 of the KB2040 Challenges, aim to do that this week. Solutions will be posted mid-week.
+ 
+**Learning goals for Week 10:**
+- Continue gaining familiarity with motor control, digital and analog input, and CircuitPython programming.
+- Build engineering ethics fluency by exploring the impact of electronic technologies on various stakeholders, including in environmental and societal contexts.
+
+**Course website (andnowforelectronics.com) pages to study in Week 10:**
+- [Project 4 description](http://andnowforelectronics.com/logistics/projects/)
+- [KB2040 Challenges, Set 2](http://andnowforelectronics.com/notes/kb2040-challenges/)
+
+**Resources for Project 4:**
+- Where can you find example code for programming KB2040 inputs and outputs?
+- ME 30 website's KB2040 Programming page: http://andnowforelectronics.com/notes/kb2040-programming/
+- Solutions to KB2040 Challenges Set 1: http://andnowforelectronics.com/notes/kb2040-challenges/
+- Adafruit’s CircuitPython Essentials site: https://learn.adafruit.com/circuitpython-essentials/circuitpython-essentials
+
+**Where can you get ideas on out how to convert the motor shaft’s rotational motion into other useful motion?**
+- “Chapter 8: Combining Simple Machines for Work and Fun” in Making Things Move (Dustyn Roberts), available online to Tufts students from Tisch Library
+- 507 Mechanical Movements: http://507movements.com/toc.html
+- LEGO Technic Mechanisms (you can take inspiration from these even when not building with LEGO): https://www.hispabrickmagazine.com/pdfs/HBM017_EN/HBM017_EN-52-54.pdf
+
+## Week 9: Sunday, 10/26/25
+
+We've been observing some impressive persistence in de-bugging H-bridges over the past week. Thanks for your hard work on Project 3 and the ways you are supporting each other. If you have questions about your P3 circuit or PCB design, please bring them to class tomorrow, plan on visiting office hours, or reach out to me.
+
+In class this week we'll introduce more circuitry and coding techniques for use in the next open-ended project - a more complex electromechanical game. View the course Calendar for all upcoming class topics and activities.
+
+**Things due in Week 9:**
+- Project 3, the H-bridge motor controller, is due on Canvas tomorrow, Monday, Oct. 27, 11:59pm. You'll need to upload your KiCad circuit schematic, PCB layout, and a  video (max 90 seconds) demonstrating that your H-bridge breadboard prototype meets the minimum functional requirements for this circuit. You should also upload your OSHPark order confirmation. As with the P1 PCB, if the cost of ordering is a hardship, please reach out to me or Courtney Russo in the Mech E office, and we will place the order for you.
+- Learning Goal for Project 4, the more complex game, is due on Canvas on Wednesday, Oct. 29.
+
+**Learning goals for Week 9:**
+- Apply the relationship between motor power, speed, and torque to make design decisions.
+- Use the PWM module to control motor speed.
+- Use the KB2040 to process analog input from a sensor.
+
+**Course website (andnowforelectronics.com) pages to study in Week 9:**
+- Project 4 (more complex game) description
+- Motors
+- KB2040 Challenges, Set 2
+- Exercises 24 & 25
+- CircuitPython PWM commands for motor speed control
+
+**Some good resources for figuring out how to convert the rotational motion of a motor shaft to other useful motion**
+- “Chapter 8: Combining Simple Machines for Work and Fun” in *Making Things Move* (Dustyn Roberts), available online to Tufts students from Tisch Library
+- 507 Mechanical Movements: http://507movements.com/toc.html
+- LEGO Technic Mechanisms (you can take inspiration from these even when not building with LEGO): https://www.hispabrickmagazine.com/pdfs/HBM017_EN/HBM017_EN-52-54.pdf
+
+
 ## Week 8: Sunday, 10/19/25
 
 This week we'll support H-bridge de-bugging. We’ll also dig into the details of PCB design for more complex circuits (including your H-bridge), and we'll explore motor power and efficiency. View the course Calendar for all upcoming class topics and activities.
