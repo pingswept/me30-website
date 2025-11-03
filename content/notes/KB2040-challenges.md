@@ -5,7 +5,11 @@ draft: false
 
 ## KB2040 challenges
 
-### Set 1
+## Resource: 1-page summary of basic CircuitPython commands: 
+
+https://tufts.box.com/s/lczswqulqewphbxyku1zpvazp73govzi
+
+### Challenges Set 1
 
 1. Make your KB2040 flash an external LED so there are 2 flashes per second, controlled by pin D5.
 2. Make your KB2040 send the text, "I, for one, welcome our new insect overlords." to your serial monitor once per second.[^1]
@@ -14,15 +18,10 @@ draft: false
 5. Make an LED attached to pin D6 send Morse code for "TUFTS".
 6. Turn your gearmotor on for 5 seconds, then off for 5 seconds, then repeat, using pin D6. You'll need a transistor for this.
 
-## Resource: 1-page summary of basic CircuitPython commands: 
-
-https://tufts.box.com/s/lczswqulqewphbxyku1zpvazp73govzi
-
 ### KB2040 + H-bridge challenge
 Use an H-bridge circuit to make your gearmotor spin clockwise for 5 seconds, then counterclockwise for 5 seconds, using pins D5 and D6.
 
-
-### Set 2
+### Challenges Set 2
 
 7. Make your gearmotor slowly increase in speed for 5 seconds, then slowly decrease in speed for 5 seconds, then repeat, using pin D6.
 8. Use your potentiometer to make a variable voltage. Read the voltage with pin A0, then print the voltage (in volts) to the serial monitor.
@@ -30,7 +29,34 @@ Use an H-bridge circuit to make your gearmotor spin clockwise for 5 seconds, the
 10. Use a resistor in series with your photoresistor to make a voltage that changes with light exposure. Use that voltage to control the speed of your gearmotor on pin D6.
 11. Use a pushbutton on pin D5 to control when your motor is on and off, using D6 for motor control.
 
+### Solutions for Set 1
+
+{{< expand "See the schematic diagrams for 1 to 6" "..." >}}
+
+![Schematics for challenges 1 to 6](/img/challenge-schematic-1-6.jpg)
+
+{{< /expand >}}
 
 
+{{< expand "See breadboard wiring sketches for 1 to 6" "..." >}}
+
+![Schematics for challenges 1 to 6](/img/challenge-wiring-1-6.jpg)
+
+{{< /expand >}}
+
+
+{{< expand "See CircuitPython code for 1 to 6" "..." >}}
+
+![Code for 1](/img/challenge1py.jpg)
+
+![Code for 2](/img/challenge2py.jpg)
+
+![Code for 3](/img/challenge3py.jpg)
+
+![Code for 4](/img/challenge4py.jpg)
+
+![Code for 6](/img/challenge6py.jpg)
+
+{{< /expand >}}
 
 [^1]: If you're like Kristen and didn't get this cultural reference, here's an explanation: https://knowyourmeme.com/memes/i-for-one-welcome-our-new-insect-overlords
