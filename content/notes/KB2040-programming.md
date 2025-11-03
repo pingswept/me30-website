@@ -207,8 +207,6 @@ For distance sensor reading, check out [this page](https://learn.adafruit.com/ul
 ## Stepper Motors
 
 For stepper motor control, you'll need the **adafruit_motor library** (and two H-bridges). All CircuitPython libraries for the KB2040 can be downloaded [here](https://circuitpython.org/libraries). Download the entire library bundle to your **laptop,** and then transfer ONLY the libraries you need to your KB2040. 
-
-You can find helpful stepper motor wiring diagrams [here](https://lastminuteengineers.com/stepper-motor-l298n-arduino-tutorial/).
     
 {{< expand "Click to see some stepper motor code" "..." >}}
 <pre class="code">
@@ -225,15 +223,18 @@ import board
 import digitalio
 from adafruit_motor import stepper
 
-# Set DELAY as the length of time that the motor runs for each step. Adafruit suggests 0.01, but ME 30 folks have found this delay value needs to be much shorter. If 0.01 doesn't work, try something as short as 0.005.
+# Set DELAY as the length of time that the motor runs for each step. To change the speed at which your stepper motor rotates, change the DELAY time.
+# Adafruit suggests 0.01, but ME 30 folks have found this delay value needs to be much shorter. If 0.01 doesn't work, try something as short as 0.005.  
 
 DELAY = 0.01
 
-# Set the number of steps for one rotation of the motor. For the stepper motor in the ME 30 kit, one rotation takes 200 steps.
+# Set the number of steps you want your motor to take. For the stepper motor in the ME 30 kit, one rotation takes 200 steps.
 
 STEPS = 200
 
-# You can use any available GPIO pin on a microcontroller.
+# Use 4 microcontroller output pins to control the 4 H-bridge "corners".
+# That means you'll use 2 pins to control one set of motor coils,
+# and 2 pins to control the other set of motor coils.
 # The following pins are simply a suggestion. If you use different pins, 
 # update the following code to use your chosen pins.
 
@@ -254,14 +255,15 @@ for coil in coils:
 
 motor = stepper.StepperMotor(coils[0], coils[1], coils[2], coils[3], microsteps=None)
 
-# The for loop below represents just one approach to taking a step. 
-# For more info on the arguments for the 'onestep' command, see 
+# The for loop below uses the 'onestep' approach to taking a step. 
+# For more info on the arguments for the 'onestep' command, and
+# for other approaches to making your stepper motor take a step, see 
 # the "Stepper Motors" section of this page: 
 # https://learn.adafruit.com/adafruit-stepper-dc-motor-featherwing/circuitpython
 
-for step in range(STEPS):
+for step in range(STEPS):  #STEPS dictates how far your motor rotates
     motor.onestep()
-    time.sleep(DELAY)
+    time.sleep(DELAY)       #DELAY dictates the speed of rotation
 
 motor.release()
 
