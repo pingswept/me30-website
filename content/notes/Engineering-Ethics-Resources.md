@@ -1,17 +1,21 @@
 ---
 title: "Class 18: Resources on Engineering Ethics"
-draft: true
+draft: false
 ---
+# Class Articles on Ethical Issues in Electrical Manufacturing
+- Lithium Mining in NV:
+    - [MIT Terrascope Radio segment](https://terrascope.mit.edu/radio/a-rock-in-a-hard-place-the-lithium-conundrum-in-nevada/)
+    - [NY Times Magazine Jan. 2025 piece](https://www.nytimes.com/2025/01/24/magazine/nevada-lithium-mines.html),
+    - [BBC piece on EVs](https://www.sciencefocus.com/news/electric-vehicle-lithium-roadblock-in-5-years)
+- Cobalt Mining
+    - [NPR Segment on Congo Cobalt Mining](https://www.npr.org/sections/goatsandsoda/2023/02/01/1152893248/red-cobalt-congo-drc-mining-siddharth-kara)
+- Conflict Minerals
+    - [Organization for Economic Cooperation and Development (OECD) Conflict Minerals Report](https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/02/the-role-of-traceability-in-critical-mineral-supply-chains_4e5cc44a/edb0a451-en.pdf)
+    - [EU Trade and Economic Security: Conflict Mineral Regulations](https://policy.trade.ec.europa.eu/development-and-sustainability/conflict-minerals-regulation/regulation-explained_en)
 
-# Further Resources
+# Further Resources on Engineering Ethics
 
 ## Note: Some of these articles are sourced from ES 2 labs and Phil 57
-
-Sociotechnical Tenets:
-
-- **Technology is not inevitable and does not always improve society.** Engineering and computing are subjective, require judgment, and require tolerating uncertainty – there is never one right solution or decision.
-- **Data, algorithms, and technology are neither neutral nor objective.** Technology embodies the dominant values of the society and the creators who design it, which tends to reproduce and/or exacerbate existing inequalities.
-- **The effects of technology are unevenly felt across groups of people and more-than-human actors.** Who/what benefits and who/what is harmed typically aligns with historical power imbalances.
     
 Courses at Tufts: 
 - Phil 24: Introduction to Ethics
