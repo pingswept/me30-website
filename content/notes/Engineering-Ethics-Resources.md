@@ -1,6 +1,6 @@
 ---
 title: "Class 18: Resources on Engineering Ethics"
-draft: false
+draft: true
 ---
 
 # Further Resources
