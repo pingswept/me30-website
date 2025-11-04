@@ -24,8 +24,8 @@ Courses at Tufts:
 - [List of Phil Spring 2026 Courses](https://tufts.app.box.com/v/phil-course-desc-2026spring)
 
 Articles:
-- [Disrupting the Gospel of Tech Solutionism to Build Tech Justice](https://ssir.org/articles/entry/disrupting_the_gospel_of_tech_solutionism_to_build_tech_justice)
 - [The Culture of Engineering Overlooks the People it’s Supposed to Serve](https://www.scientificamerican.com/article/the-culture-of-engineering-overlooks-the-people-its-supposed-to-serve/)
+- [Disrupting the Gospel of Tech Solutionism to Build Tech Justice](https://ssir.org/articles/entry/disrupting_the_gospel_of_tech_solutionism_to_build_tech_justice)
 - [Crash Test Dummies Made Cars Safer (For Average-Size Men)](https://www.nytimes.com/2021/12/27/business/car-safety-women.html)
 - [Disability Design: We are the Original Lifehackers](https://www.nytimes.com/2018/05/30/opinion/disability-design-lifehacks.html)
 - [Design Practice: Nothing About Us Without Us](https://designjustice.mitpress.mit.edu/pub/cfohnud7/release/4)
