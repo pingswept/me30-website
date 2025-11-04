@@ -15,7 +15,7 @@ draft: false
 
 # Further Resources on Engineering Ethics
 
-## Note: Some of these articles are sourced from ES 2 labs and Phil 57
+## Note: Some articles are sourced from ES 2 labs and Phil 57
     
 Courses at Tufts: 
 - Phil 24: Introduction to Ethics
