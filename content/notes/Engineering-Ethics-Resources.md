@@ -5,6 +5,7 @@ draft: false
 # Class Articles on Ethical Issues in Electrical Manufacturing
 - Lithium Mining in NV:
     - [MIT Terrascope Radio segment](https://terrascope.mit.edu/radio/a-rock-in-a-hard-place-the-lithium-conundrum-in-nevada/)
+    - [MIT Terrascope Final Presentation](https://web.mit.edu/webcast/terrascope2028/)
     - [NY Times Magazine Jan. 2025 piece](https://www.nytimes.com/2025/01/24/magazine/nevada-lithium-mines.html)
     - [BBC piece on EVs](https://www.sciencefocus.com/news/electric-vehicle-lithium-roadblock-in-5-years)
 - Cobalt Mining
