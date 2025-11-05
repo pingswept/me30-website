@@ -490,7 +490,7 @@ In the diagram below, add labels to the arrows to represent the rules for moving
 
 ## 27. Using a state machine with a motor (Class 17)
 
-Imagine a Project 4 game with a 1-foot arm attached to the DC gearmotor shaft. Mounted at the end of the arm is a bowl. The motor switches directions every two seconds in order to move the bowl back and forth, switching directions every 2 seconds, as the player tries to toss a bean bag into the bowl.   In the base of the bowl is a button whose purpose is to sense the presence of the bean bag. When the button gets pressed by the bean bag, the player wins! The motor stops moving and a celebratory green LED light blinks quickly 10 times.
+Imagine a Project 4 game with a 1-foot arm attached to the DC gearmotor shaft. Mounted at the end of the arm is a bowl. The motor moves the bowl back and forth, switching directions every 2 seconds, as the player tries to toss a bean bag into the bowl.   In the base of the bowl is a button whose purpose is to sense the presence of the bean bag. When the button gets pressed by the bean bag, the player wins! The motor stops moving and a celebratory green LED light blinks quickly 10 times.
 
 Let's set up a state machine for the code for this game.
 
