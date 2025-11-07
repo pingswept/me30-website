@@ -43,6 +43,12 @@ Next, you may want a text editor that runs in your terminal window to write, edi
 
 ![nano window](/img/nano-editor.png)
 
+### **What were those commands again?**
+
+* `pwd`: show the working directory (what folder am I currently in?)
+* `mkdir`: make a new directory with a specific name
+* `nano`: open the text editor
+  
 ### **What other useful commands might I need to know?**
 
 * `ls`: list what's in a directory
