@@ -522,21 +522,34 @@ Note that you will need the adafruit_motor library. All CircuitPython libraries 
 
 4. **Pushbutton for input; piezo buzzer for output.** Use a pushbutton to send either 3.3 V or 0 V to a digital input pin on your KB2040. Use that button signal to trigger the sound of a buzzer. Power the buzzer with PWM. Explore different frequency and duty cycle values, and see how that changes the sound of the button.
 
-## 31. Raspberry Pi Flask set-up and challenges (Class 21)
+## 31. Electronics materials: stakeholders & impacts (Class 18)
+
+See http://andnowforelectronics.com/notes/engineering-ethics-resources/ and worksheet handed out in class.
+
+## 32. Accessible design reflection (Class 20 or 21)
+
+Think about what kind of person could play your Project 4 game. 
+For example, consider how a disability (e.g., color blindness, other visual impairment, audio impairment) or a specific personal background (e.g., knowledge of a cultural reference) might influence someone’s opportunity to play or their enjoyment of playing. The goal of this exercise is not to prompt you to persuade us that your game is universally accessible. Instead, we are asking you to conduct an honest analysis of the usability of an engineered system by different potential users. 
+
+- Who couldn’t play your game as fully as most people? 
+- Why?
+
+
+## 33. Raspberry Pi Flask set-up and challenges (Class 21)
 
 Make sure you can complete [Raspberry Pi challenges #7, #8, and #9](http://andnowforelectronics.com/notes/pi-challenges/)
 
-## 32. Amplify a strain gauge (Class 22)
+## 34. Amplify a strain gauge (Class 22)
 
 Add details later
 
-## 33. Project 5 planning, Q & A (Class 22 and 23)
+## 35. Project 5 planning, Q & A (Class 22 and 23)
 
 (a) Discuss these Project 5 planning questions with your team: https://tufts.box.com/s/hs2supj34cp4mar33w4fsitflc4m4o6c
 
 (b) Use this [shared doc](https://tinyurl.com/ME30questiondoc) to post questions about Project 5.
 
-## 34. Oscilloscopes and PWM signals (Class 23)
+## 36. Oscilloscopes and PWM signals (Class 23)
 
 Consider the following Python code, which powers pin 12 on a Raspberry Pi with the pulse-width modulation (PWM) protocol. The goal of this code is to gradually increase the speed of a motor, 2 seconds per speed increment, until it is running at full speed.
 
@@ -568,7 +581,7 @@ An oscilloscope is a tool for measuring electrical signals, like a multimeter, b
 (3) Use the oscilloscope simulator to represent what the signal will look like on the scope at i = 5. You’ll need to adjust both the signal generator (the instrument in the top half of the screen) and the scope settings.
 https://www.pzdsp.com/elab/virtual_oscilloscope.html
 
-## 35. ME 30 career connections and Project 6 planning (Class 26)
+## 37. ME 30 career connections and Project 6 planning (Class 26)
 
 We'll use these slides today: https://docs.google.com/presentation/d/1KQUk6XxwHb4ZOj-VtnntzEh-BJyFNbJ3YQ1TYeTOjiQ/edit?usp=sharing
 
