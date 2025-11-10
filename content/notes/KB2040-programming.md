@@ -270,7 +270,9 @@ motor.release()
 </pre>
 {{< /expand >}}
 
-
+{{< expand "Click to see how to wire a stepper motor to H-bridges" "..." >}}
+![stepper motor wired to H-bridges](/img/StepperMotorWiring.jpg)
+{{< /expand >}}
     
 ## State Machine Code
 
