@@ -72,7 +72,7 @@ Use an H-bridge circuit to make your gearmotor spin clockwise for 5 seconds, the
 {{< expand "See breadboard wiring sketches for H-Bridge and Set 2" "..." >}}
 
 ![Schematics for challenges 8 to 10](/img/challenge-wiring-8-10.jpg)
-![Schematics for challenges 11 and H-bridge](/img/challenge-wiring-11-h-bridge.jpg)
+![Schematics for challenges 11 and H-bridge](/img/challenge-wiring-11-hbridge.jpg)
 
 
 {{< /expand >}}
@@ -88,7 +88,7 @@ Use an H-bridge circuit to make your gearmotor spin clockwise for 5 seconds, the
 
 ![Code for 11](/img/challenge11py.jpg)
 
-![Code for H-bridge](/img/challenge-h-bridgepy.jpg)
+![Code for H-bridge](/img/challenge-hbridgepy.jpg)
 
 {{< /expand >}}
 
