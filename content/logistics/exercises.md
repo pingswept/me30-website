@@ -514,6 +514,10 @@ With one or two partners, set up two working breadboard H-bridges. Choose one KB
 
 Note that you will need the adafruit_motor library. All CircuitPython libraries for the KB2040 can be downloaded [here](https://circuitpython.org/libraries). Download the entire library bundle to your laptop, and then transfer ONLY the libraries you need to your KB2040.
 
+And here's what the wiring should look like:
+
+![stepper motor wired to H-bridges](/img/StepperMotorWiring.jpg)
+
 ## 30. More sensors and actuators (Optional)
 
 1. **Potentiometer for input; motor speed for output.** Send the voltage output from a potentiometer (knob- or dial-like variable resistor) to an analog input pin on your KB2040. Use that varying voltage to vary the speed of a motor. **Extension:** Add a button that switches the direction of the motor (you'll likely need state machine code for this.)
