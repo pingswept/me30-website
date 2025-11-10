@@ -52,8 +52,8 @@ There are more details about the console cable if you need them in [Adafruit's c
   <li><input type="checkbox"> Connect the Pi to your laptop with the console cable</li>
   <li><input type="checkbox"> Put the microSD card in slot of Pi</li>
   <li><input type="checkbox"> Open Applications > Utilities > Terminal (macOS)</li>
-  <li><input type="checkbox"> In Terminal, run <code>ls /dev</code> and find the entry that says <code>tty.usbserial-XXYYZZ</code>.</li> 
-  <li><input type="checkbox"> Record the numbers you see instead of XXYYZZ. Then run <code>screen /dev/tty.usbserial-XXYYZZ 115200</code> </li>
+  <li><input type="checkbox"> In Terminal, run <code>ls /dev</code> and find the entry that says <code>tty.usbserial-[some numbers]</code>.</li> 
+  <li><input type="checkbox"> Record the numbers you see after "usbserial." Then run <code>screen /dev/tty.usbserial-[those numbers] 115200</code> </li>
   <li><input type="checkbox"> Connect USB-C power cable. Wait a minute or so for the Pi to boot up</li>
   <li><input type="checkbox"> Log in with the username <code>pi</code> and password you set using the Imager </li>
   <li><input type="checkbox"> To figure out the Pi's MAC address, type the command <code>ifconfig</code>. Be sure you get the MAC for <code>wlan0</code>, not <code>eth0</code>. As shown in the screenshot below, the MAC address is something like <code>e4:5f:01:3b:33:fb</code> and appears after the word <code>ether</code>.</li>
