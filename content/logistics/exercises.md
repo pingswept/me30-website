@@ -522,7 +522,7 @@ Note that you will need the adafruit_motor library. All CircuitPython libraries 
 
 4. **Pushbutton for input; piezo buzzer for output.** Use a pushbutton to send either 3.3 V or 0 V to a digital input pin on your KB2040. Use that button signal to trigger the sound of a buzzer. Power the buzzer with PWM. Explore different frequency and duty cycle values, and see how that changes the sound of the button.
 
-## 31. Raspberry Pi Flask set-up and challenges (Class 19)
+## 31. Raspberry Pi Flask set-up and challenges (Class 21)
 
 Make sure you can complete [Raspberry Pi challenges #7, #8, and #9](http://andnowforelectronics.com/notes/pi-challenges/)
 
