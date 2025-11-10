@@ -37,7 +37,7 @@ There are more details about the console cable if you need them in [Adafruit's c
   <li><input type="checkbox"> Choose the image "Raspberry Pi OS (other)" --> "Raspberry Pi OS Lite (64-bit)"</li>
   <li><input type="checkbox"> Set "Storage" to be your microSD card. You can identify it by its size, which is probably 32 GB.
   <li><input type="checkbox"> Click "Next" and then "Edit Settings" in the "Use OS Customisation?" pop-up.
-  <li><input type="checkbox"> In the "General" tab, set the username as <code>pi</code> and set a password of your choice.</li>
+  <li><input type="checkbox"> In the "General" tab, set the username as <code>pi</code> and set the password to <code>ME30</code>.</li>
   <li><input type="checkbox"> Also in the "General" tab, check the "Configure wireless LAN" box and set the SSID to "Tufts_Wireless."</li>
   <li><input type="checkbox"> In the "Services" tab, enable SSH. <code>pi</code></li>
   <li><input type="checkbox"> <b>The moment of truth!</b> Erase the card and write the new OS to the card.
