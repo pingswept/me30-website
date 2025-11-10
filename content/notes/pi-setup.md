@@ -46,18 +46,33 @@ There are more details about the console cable if you need them in [Adafruit's c
 
 ## Setup checklist 2: Connect to your Pi via serial console cable, and find out your Pi's MAC address
 
+### Mac laptops
+
+<ul style="list-style: none;">
+  <li><input type="checkbox"> Connect the Pi to your laptop with the console cable</li>
+  <li><input type="checkbox"> Put the microSD card in slot of Pi</li>
+  <li><input type="checkbox"> Open Applications > Utilities > Terminal (macOS)</li>
+  <li><input type="checkbox"> In Terminal, run <code>ls /dev</code> and find the entry that says <code>tty.usbserial-XXYYZZ</code>.</li> 
+  <li><input type="checkbox"> Record the numbers you see instead of XXYYZZ. Then run <code>screen /dev/tty.usbserial-XXYYZZ 115200</code> </li>
+  <li><input type="checkbox"> Connect USB-C power cable. Wait a minute or so for the Pi to boot up</li>
+  <li><input type="checkbox"> Log in with the username <code>pi</code> and password you set using the Imager </li>
+  <li><input type="checkbox"> To figure out the Pi's MAC address, type the command <code>ifconfig</code>. Be sure you get the MAC for <code>wlan0</code>, not <code>eth0</code>. As shown in the screenshot below, the MAC address is something like <code>e4:5f:01:3b:33:fb</code> and appears after the word <code>ether</code>.</li>
+</ul>
+
+### PC/Windows laptops
+
 <ul style="list-style: none;">
   <li><input type="checkbox"> Install the <a href="https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads">SiLabs CP210X USB driver</a> for the console cable. (You won't need this on a newish Mac.)</li>
   <li><input type="checkbox"> Connect the Pi to your laptop with the console cable</li>
   <li><input type="checkbox"> Put the microSD card in slot of Pi</li>
-  <li><input type="checkbox"> Install <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">PuTTY</a> (Windows) or open Applications > Utilities > Terminal (macOS)</li>
-  <li><input type="checkbox"> (macOS only) In Terminal, run <code>ls /dev</code> and find the entry that says <code>tty.usbserial-XXYYZZ</code>. Record the numbers you see instead of XXYYZZ. Then run <code>screen /dev/tty.usbserial-XXYYZZ 115200</code> </li>
-  <li><input type="checkbox"> (Windows only) Use Device Manager to determine what COM port your serial cable is communicating with</li>
-  <li><input type="checkbox"> (Windows only) In PuTTY, start a serial session at 115200 bps to the Pi</li>
+  <li><input type="checkbox"> Install <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">PuTTY</a> (Windows)</li>
+  <li><input type="checkbox"> Use Device Manager to determine what COM port your serial cable is communicating with</li>
+  <li><input type="checkbox"> In PuTTY, start a serial session at 115200 bps to the Pi</li>
   <li><input type="checkbox"> Connect USB-C power cable. Wait a minute or so for the Pi to boot up</li>
   <li><input type="checkbox"> Log in with the username <code>pi</code> and password you set using the Imager</li>
   <li><input type="checkbox"> To figure out the Pi's MAC address, type the command <code>ifconfig</code>. Be sure you get the MAC for <code>wlan0</code>, not <code>eth0</code>. As shown in the screenshot below, the MAC address is something like <code>e4:5f:01:3b:33:fb</code> and appears after the word <code>ether</code>.</li>
 </ul>
+
 
 ![MAC address screenshot](/img/finding-mac-address.jpg)
 
