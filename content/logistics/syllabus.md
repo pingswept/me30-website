@@ -12,7 +12,7 @@ ME 30, Electronics & Controls I
 * Kristen: Fridays 3-5 PM in Nolop
 * Zosia: Mondays 2:30-4:30 PM in Nolop
 * Brandon: is usually in Nolop 9 AM to 5 PM, unless he's teaching class or in a meeting, or it's a weekend
-* TA Sibeli Schneider: Thursdays 4-6 PM (except Thurs. 10/9, 3:30-5:30pm)
+* TA Sibeli Schneider: Thursdays 4-6 PM **in Blake**
 * LA Katie Kostak: Mondays 6-7 PM
 * LA Paul Galvan: Tuesdays 8-10 PM
 * LA Kimberly Eng: Sundays 9-10 PM
