@@ -40,7 +40,8 @@ There are more details about the console cable if you need them in [Adafruit's c
   <li><input type="checkbox"> In the "General" tab, set the username as <code>pi</code> and set the password to <code>ME30</code>.</li>
   <li><input type="checkbox"> Also in the "General" tab, check the "Configure wireless LAN" box and set the SSID to "Tufts_Wireless."</li>
   <li><input type="checkbox"> In the "Services" tab, enable SSH. </li>
-  <li><input type="checkbox"> <b>The moment of truth!</b> Erase the card and write the new OS to the card.
+  <li><input type="checkbox"> <b>The moment of truth!</b> Erase the card and write the new OS to the card.</li>
+  <li><input type="checkbox"> Eject the SD card and then re-insert it into your laptop.</li>
   <li><input type="checkbox"> Edit config.txt on the microSD card to include on the last line: <code>enable_uart=1</code></li>
 </ul>
 
