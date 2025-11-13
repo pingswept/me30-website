@@ -19,7 +19,7 @@ If we put the strain gauge in series with a normal 120 ohm resistor to make a vo
 
 Strain gauges tell you how much a material is deforming by changing their resistance when bent. The strain gauge we'll use to explore sensor amplification is made up of tiny wire laid down like a zig-zag so there is a change in its resistance when it is stretched or compressed - that is, when strain occurs. This type of strain gauge usually has a baseline resistance of something like 120Ω or 350Ω.
 
-![diagram and photo of a strain gauge](img/strain_gauge.jpg)
+![diagram and photo of a strain gauge](img/strain_gauge.JPG)
 
 A strain gauge's "GF," or gauge factor, is the ratio of fractional change in electrical resistance to the fractional change in length (strain). A GF of 2 is typical for strain gauges made of tiny metal wire, like ours.
 
@@ -33,13 +33,13 @@ In the load cell we are using in Fall 2025 in ME 30, there are four strain gauge
 
 The diagram below shows a Wheatstone bridge with four strain gauges -- four variable resistors. They all have the same baseline resistance, R (their resistance when not strained). When all the resistance values are the same, VL is equal to VR, and the voltage difference across the "bridge" is 0. However, when the beam is bent, all the gauges are strained. The gauges on the top of the beam increase in resistance by delta. The gauges on the bottom decrease in resistance by delta. Now VL and VR differ from each other. That means the "bridge voltage," V_L - V_R, will be nonzero. 
 
-![four_gauge_wheatstone.jpg](img/four_gauge_wheatstone.jpg)
+![four_gauge_wheatstone.jpg](img/four_gauge_wheatstone.JPG)
 
 How does that bridge voltage relate to the change in resistance (delta) caused by the strain?
 
 We can use the voltage divider principle to find out:
 
-![four_gauge_math.jpg](img/four_gauge_math.jpg)
+![four_gauge_math.jpg](img/four_gauge_math.JPG)
 
 
 ## The need for amplification
@@ -57,9 +57,9 @@ Enter: the op amp.
 ## Using op amps to amplify the difference between two voltage points
 
 
-![op amp circuit](img/difference_op_amp.jpg)
+![op amp circuit](img/difference_op_amp.JPG)
 
-![op amp math](img/op_amp_math.jpg)
+![op amp math](img/op_amp_math.JPG)
 
 
 
