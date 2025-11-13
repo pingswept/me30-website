@@ -5,7 +5,7 @@ draft: false
 
 So far, we've been programming the KB2040 microcontroller, which comes with some software on it, but not an operating system. We're now starting with the Raspberry Pi, which runs the operating system called Linux. You'll be familiar with a few other operating systems: Windows and macOS for laptops and iOS and Android for phones.
 
-## On the Feather microcontroller
+## On the KB2040 microcontroller
 
 When you take the KB2040 out of the bag, it has a small chunk of code on it that makes it appear like a USB drive when you plug it in. All it does is listen for USB traffic and return a list of the files stored on the KB2040. It can also return the contents of those files and receive new files for storage. That's it.
 
