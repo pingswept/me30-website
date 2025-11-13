@@ -15,27 +15,19 @@ A strain gauge's "GF," or gauge factor, is the ratio of fractional change in ele
 
 When a strain gauge is stretched or compressed, its resistance changes. If we could measure the resistance change directly, using the gauge factor, we could easily compute the value of the strain on one gauge.  However, for a sensor circuit to be "read" by a microcontroller (like an Arduino or KB2040), the sensor's output needs to be a voltage value, not a resistance. How can we convert a resistance change into a voltage measurement?
 
-The solution is called a Wheatstone bridge. It's a network of four resistors - at least one of which which has an unknown resistance value, which you want to know.
+The solution is called a Wheatstone bridge. It's a network of four resistors - at least one of which which has an unknown resistance value, which you want to know.  
 
-In the diagram below of a Wheatstone bridge, Rx represents the strain gauge. We choose R1, R2, and R3 so that they are the same as the gauge's baseline resistance (its resistance when it's not strained). When all the resistance values are the same, VL is equal to VR, and the voltage difference across the "bridge" is 0. However, when the gauge is strained, Rx changes, and VL and VR differ from each other. That means the "bridge voltage" will be nonzero. 
+In the load cell we are using in Fall 2025 in ME 30, there are two strain gauges and two resistors arranged in a Wheatstone bridge.
 
-How does that bridge voltage relate to Rx? We can use the voltage divider equation to find out.
+The diagram below shows a Wheatstone bridge with four strain gauges. Assume that two of them are placed on the bottom of a beam, and two are placed on the top of the same beam. Each resistor shown in the Wheatsone bridge is one of these strain gauges. They all have the same baseline resistance, R (resistance when not strained). When all the resistance values are the same, VL is equal to VR, and the voltage difference across the "bridge" is 0. However, when the beam is bent, all the gauges are strained. The gauges on the top of the beam increase in resistance by delta. The gauges on the bottom decrease in resistance by delta. Now VL and VR differ from each other. That means the "bridge voltage," V_L - V_R, will be nonzero. 
 
-By voltage divider principles:
+four_gauge_wheatstone.jpg
 
-![equations for VL and VR]
+How does that bridge voltage relate to the change in resistance (delta) caused by the strain?
 
-So the voltage across the bridge, or VL - VR, is:
+We can use the voltage divider principle to find out:
 
-![equation for Vbridge]
-
-Solving for Rx in terms of Vbridge, we can get:
-
-![solution for Rx]
-
-And if the three known resistances are the same, things simplify greatly:
-
-![solution for Rx with 3 equal resistors]
+four_gauge_math.jpg
 
 ## The need for amplification
 
@@ -45,9 +37,13 @@ Let's take a piece of metal that experiences a strain of 500µε, or 0.0005ε. W
 
 That's only a 0.1% change in resistance!  
 
-If the baseline resistance of the gauge is 120Ω, its resistance change at 500µε would be only 0.12Ω. The bridge voltage produced by that resistance would not be detected accurately by our multimeters or microcontrollers.  That means we need a device that can take a very small bridge voltage and amplify it into a voltage we can measure accurately.
+If the baseline resistance of the gauge is 120Ω, its resistance change at 500µε would be only 0.12Ω. The bridge voltage produced by that resistance change would not be detected accurately by our multimeters or microcontrollers.  That means we need a device that can take a very small bridge voltage and amplify it into a voltage we can measure accurately.
 
 Enter: the op amp.
 
 ## Using op amps to amplify the difference between two voltage points
 
+
+op_amp_difference_amp.jpg
+
+op_amp_math.jpg
