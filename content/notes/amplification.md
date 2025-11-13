@@ -1,6 +1,6 @@
 ---
 title: "Class 22: Sensor amplification"
-draft: false
+draft: true
 ---
 ## Sensor amplification
 
@@ -13,7 +13,7 @@ A strain gauge is a small wire that changes resistance when it is stretched. The
 If we put the strain gauge in series with a normal 120 ohm resistor to make a voltage divider supplied with 3.3 V, the voltage between the two resistors will be around 1.65 V. The voltage will go up and down in proportion to strain, but the voltage change is so small that it will be hard to detect.
 
 
-## Kristen attempt below ##
+## another attempt below ##
 
 ## Strain gauges
 
@@ -63,7 +63,7 @@ Enter: the op amp.
 
 
 
-## Brandon text below ##
+## earlier text below ##
 ## Amplification ##
 
 To make the signal bigger, we'll use an amplifier. You can buy a strain gauge amplifier like the HX711, but we're going to build one using a chip called an operational amplifier, or op-amp. We're also going to deploy a technique that will make the sensor more accurate.
