@@ -19,7 +19,7 @@ If we put the strain gauge in series with a normal 120 ohm resistor to make a vo
 
 Strain gauges tell you how much a material is deforming by changing their resistance when bent. The strain gauge we'll use to explore sensor amplification is made up of tiny wire laid down like a zig-zag so there is a change in its resistance when it is stretched or compressed - that is, when strain occurs. This type of strain gauge usually has a baseline resistance of something like 120Ω or 350Ω.
 
-![diagram and photo of a strain gauge]
+![diagram and photo of a strain gauge](img/strain_gauge.jpg)
 
 A strain gauge's "GF," or gauge factor, is the ratio of fractional change in electrical resistance to the fractional change in length (strain). A GF of 2 is typical for strain gauges made of tiny metal wire, like ours.
 
@@ -29,17 +29,18 @@ When a strain gauge is stretched or compressed, its resistance changes. If we co
 
 The solution is called a Wheatstone bridge. It's a network of four resistors - at least one of which which has an unknown resistance value, which you want to know.  
 
-In the load cell we are using in Fall 2025 in ME 30, there are two strain gauges and two resistors arranged in a Wheatstone bridge.
+In the load cell we are using in Fall 2025 in ME 30, there are four strain gauges arranged in a Wheatstone bridge. Two of the resistors are placed on the bottom of a short beam, called a load cell, and two are placed on the top of the same beam. 
 
-The diagram below shows a Wheatstone bridge with four strain gauges. Assume that two of them are placed on the bottom of a beam, and two are placed on the top of the same beam. Each resistor shown in the Wheatsone bridge is one of these strain gauges. They all have the same baseline resistance, R (resistance when not strained). When all the resistance values are the same, VL is equal to VR, and the voltage difference across the "bridge" is 0. However, when the beam is bent, all the gauges are strained. The gauges on the top of the beam increase in resistance by delta. The gauges on the bottom decrease in resistance by delta. Now VL and VR differ from each other. That means the "bridge voltage," V_L - V_R, will be nonzero. 
+The diagram below shows a Wheatstone bridge with four strain gauges -- four variable resistors. They all have the same baseline resistance, R (their resistance when not strained). When all the resistance values are the same, VL is equal to VR, and the voltage difference across the "bridge" is 0. However, when the beam is bent, all the gauges are strained. The gauges on the top of the beam increase in resistance by delta. The gauges on the bottom decrease in resistance by delta. Now VL and VR differ from each other. That means the "bridge voltage," V_L - V_R, will be nonzero. 
 
-![four_gauge_wheatstone.jpg]
+![four_gauge_wheatstone.jpg](img/four_gauge_wheatstone.jpg)
 
 How does that bridge voltage relate to the change in resistance (delta) caused by the strain?
 
 We can use the voltage divider principle to find out:
 
-![four_gauge_math.jpg]
+![four_gauge_math.jpg](img/four_gauge_math.jpg)
+
 
 ## The need for amplification
 
@@ -56,9 +57,10 @@ Enter: the op amp.
 ## Using op amps to amplify the difference between two voltage points
 
 
-![difference_op_amp.jpg]
+![op amp circuit](img/difference_op_amp.jpg)
 
-![op_amp_math.jpg]
+![op amp math](img/op_amp_math.jpg)
+
 
 
 ## Brandon text below ##
