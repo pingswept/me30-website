@@ -3,6 +3,77 @@ title: "Projects"
 draft: false
 ---
 
+# Projects 5 and 6: Build an intrepid robot
+
+Projects 5 and 6 are, in a sense, one mega-project. In the first part, P5, you and your team build a robot. In the second part, P6, you and your team modify the robot to deliver a payload under specific diabolical constraints.
+
+# THIS IS JUST A DRAFT! DO NOT TRUST IT YET! #
+
+## Requirements for project 5
+### Build an intrepid robot that can lift a hefty payload
+
+**Due date: Tuesday, December 2, 11:59 PM**
+
+This is a relatively constrained project compared to the vast open field of P4. Your task is to build a robot that can drive on level surfaces while carrying a payload, controlled remotely by you.
+
+* Your robot should fit in a circle 45 cm in diameter.
+* Your robot should be less than 45 cm tall.
+* Your robot should be able to lift a hefty payload, as shown in the diagram below. Your robot only needs to lift it high enough to carry it.
+* Your robot should still be able to maneuver while carrying the payload. Specifically, it should not tip over.
+* This is a tricky requirement: for P6, your robot will need to measure the mass of the payload it is carrying, using a load cell. For P5, you need only to include the load cell in your lifting mechanism; you don't have to connect it yet. (We'll do that in labs next week.)
+* You should not touch your robot during its adventures. This probably means that your robot should be remote controlled.
+* You should not use an RC car controller. This probably means that your robot should be controlled through wifi from a laptop or phone.
+* Your robot cannot fly. (We don't have the space to test drones safely, unfortunately.)
+* Note: It would be a good idea to focus on making your robot drive effectively before you worry about any higher level mechanics or control through the internet.
+
+(The payload diagram goes here, but we still need the dimensions.)
+
+### Payload specifications ###
+
+* Maximum weight: 1 kg +/-10%
+* CAD model of the payload available here: https://cad.onshape.com/documents/dc378c67d38d4fa845a7e22c/w/e9e96efc287cc2ab77fdccee/e/9c0f0d79fea43c7bbd834401?renderMode=0&uiState=6916591057b57914d88f4236
+
+On the due date, your team will test drive the robot through a basic course: drive up to a loading dock, lift the payload, drive to another loading dock, and drop the payload there. If your robot meets the requirements above, it will do fine. The payload and a loading dock will be available in Nolop for testing.
+
+### Materials each team will be given ###
+
+* A load cell (actually, one per team member, but you only need one)
+* A steel bar, approximately 12.5 x 3.2 x 460 mm, easily stiff enough to lift the payload, with a little hook in the end
+
+**Project planning resource:** We suggest discussing this [list of P5 planning questions](https://tufts.box.com/s/hs2supj34cp4mar33w4fsitflc4m4o6c) with your team. 
+
+### **Batteries for projects 5 and 6**
+
+For portable power, Nolop has 5 V batteries (for the Raspberry Pis) and 9 V and 11 V batteries (for motors).
+
+![battery safety](/img/11volt_battery_safety.jpg)
+
+### **H-bridges for projects 5 and 6**
+
+The goal is for you to use your Project 3 H-bridge PCBs for your robot motor control. However, as a last resort, if no one on your team can get their P3 PCBs to work, you can find a dual-H-bridge PCB (called an L298N motor driver) in the Nolop store.
+
+Please see the sketch below for details on how to wire the L298N dual H-bridge board.
+
+![L298N wiring](/img/L298_Wiring.jpg)
+
+### **More details for projects 5 and 6**
+
+* See the [Raspberry Pi setup](http://andnowforelectronics.com/notes/pi-setup/) page to learn how to control your Pi via serial cable and the Internet.
+* See the [Raspberry Pi programming](http://andnowforelectronics.com/notes/pi-programming/) page for snippets of Python code to control the pins on your Pi. 
+* See the [servers and clients](http://andnowforelectronics.com/notes/servers/) page to learn how to coax your Pi into sending and receiving data through the Internet.
+* See the [client and server setup](http://andnowforelectronics.com/notes/demo-videos/#client-and-server-setup) demo video that walks through the code for Raspberry Pis as clients and servers (it also shows Arduino code from previous semesters, but you should ignore that)
+* See the [Internet](http://andnowforelectronics.com/notes/internet/) page to find out how IP addresses work.
+
+### Team options for projects 5 and 6
+
+Option 1 – Work in a team of 2 or 3 chosen by you
+
+Option 2 – Work in a team of 2 or 3 assigned to you by Kristen and Brandon
+We’ll pool all the people who would like to be assigned a partner and team you up. We might need to make a team of 3 depending on who is available. 
+
+Use [this survey](https://tufts.qualtrics.com/jfe/form/SV_0cAixyzuN8ok4br) to indicate your chosen teaming option (list your teammates or indicate you'd like to be placed on a team).
+
+
 ## Project 4: Build an electromechanical game
 
 Your task is to build a game with the following characteristics:
