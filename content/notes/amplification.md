@@ -45,17 +45,19 @@ V_{bridge} &= \text{voltage across the outputs of the bridge}\\
 {{< /katex >}}
 
 {{< katex display >}}
-\begin{aligned}
-V_{L} &= \frac{R + \Delta}{(R + \Delta) + (R - \Delta)} * V_{source} \\
-V_{R} &= \frac{R - \Delta}{(R - \Delta) + (R + \Delta)} * V_{source}
-\end{aligned}
+\begin{split}
+V_{L} = \frac{R + \Delta}{(R + \Delta) + (R - \Delta)} * V_{source}
+\hspace{24pt}
+V_{R} = \frac{R - \Delta}{(R - \Delta) + (R + \Delta)} * V_{source}
+\end{split}
 {{< /katex >}}
 
 {{< katex display >}}
-\begin{aligned}
-V_{L} &= \frac{R + \Delta}{2R} * V_{source}
-V_{R} &= \frac{R - \Delta}{2R} * V_{source}
-\end{aligned}
+\begin{split}
+V_{L} = \frac{R + \Delta}{2R} * V_{source}
+\hspace{24pt}
+V_{R} = \frac{R - \Delta}{2R} * V_{source}
+\end{split}
 {{< /katex >}}
 
 {{< katex display >}}
