@@ -33,9 +33,32 @@ In the load cell we are using in Fall 2025 in ME 30, there are four strain gauge
 
 The diagram below shows a Wheatstone bridge with four strain gauges -- four variable resistors. They all have the same baseline resistance, R (their resistance when not strained). When all the resistance values are the same, VL is equal to VR, and the voltage difference across the "bridge" is 0. However, when the beam is bent, all the gauges are strained. The gauges on the top of the beam increase in resistance by delta. The gauges on the bottom decrease in resistance by delta. Now VL and VR differ from each other. That means the "bridge voltage," V_L - V_R, will be nonzero. 
 
+{{< katex display >}}
+V_{source} = source voltage (12 V for our circuit)
+R = baseline resistance of strain gauge
+\Delta = change in resistance of gauge due to strain
+V_{L} = voltage relative to ground on the left side of the bridge
+V_{R} = voltage relative to ground on the right side of the bridge
+V_{bridge} = V_{L} - V_{R} = voltage across the outputs of the bridge
+{{< /katex >}}
+
+{{< katex display >}}
+V_{L} = \frac{R + \Delta}{(R + \Delta) + (R - \Delta)} * V_{source}
+V_{R} = \frac{R - \Delta}{(R - \Delta) + (R + \Delta)} * V_{source}
+{{< /katex >}}
+
+{{< katex display >}}
+V_{L} = \frac{R + \Delta}{2R} * V_{source}
+V_{R} = \frac{R - \Delta}{2R} * V_{source}
+{{< /katex >}}
+
+{{< katex display >}}
+V_{bridge} = V_{L} - V_{R} = \frac{(R + \Delta) - (R - \Delta)}{2R} * V_{source}
+V_{bridge} = \frac{2\Delta}{2R} * V_{source}
+\frac{V_{bridge}}{V_{source}} = \frac{\Delta}{R}
+{{< /katex >}}
+
 ![four_gauge_wheatstone.jpg](/img/four_gauge_wheatstone.JPG)
-
-
 
 How does that bridge voltage relate to the change in resistance (delta) caused by the strain?
 
@@ -79,8 +102,6 @@ The Wheatstone bridge has two major advantages.
 2. It is easier to measure small voltages accurately than large voltages. Every op-amp has the unfortunate property that it responds slightly nonlinearly to input voltage. If we just try to amplify a 1.65 V voltage relative to ground ........ acch, not sure how to explain this well yet. This is called the common-mode rejection ratio, or CMRR. The LM324 opamps that we will be using have a CMRR of around 10,000 (80 dB).
 
 ## Circuit explanation ##
-
-
 
 {{< katex display >}}
 V_{in} = V_{out} * \frac{R_1}{(R_1 + R_2)}
