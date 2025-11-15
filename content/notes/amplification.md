@@ -34,28 +34,36 @@ In the load cell we are using in Fall 2025 in ME 30, there are four strain gauge
 The diagram below shows a Wheatstone bridge with four strain gauges -- four variable resistors. They all have the same baseline resistance, R (their resistance when not strained). When all the resistance values are the same, VL is equal to VR, and the voltage difference across the "bridge" is 0. However, when the beam is bent, all the gauges are strained. The gauges on the top of the beam increase in resistance by delta. The gauges on the bottom decrease in resistance by delta. Now VL and VR differ from each other. That means the "bridge voltage," V_L - V_R, will be nonzero. 
 
 {{< katex display >}}
-V_{source} = \text{source voltage (12 V for our circuit)}\\
-R = \text{baseline resistance of strain gauge}\\
-\Delta = \text{change in resistance of gauge due to strain}\\
-V_{L} = \text{voltage relative to ground on the left side of the bridge}\\
-V_{R} = \text{voltage relative to ground on the right side of the bridge}\\
-V_{bridge} = V_{L} - V_{R} = \text{voltage across the outputs of the bridge}\\
+\begin{align}
+V_{source} &= \text{source voltage (12 V for our circuit)}\\
+R &= \text{baseline resistance of strain gauge}\\
+\Delta &= \text{change in resistance of gauge due to strain}\\
+V_{L} &= \text{voltage relative to ground on the left side of the bridge}\\
+V_{R} &= \text{voltage relative to ground on the right side of the bridge}\\
+V_{bridge} &= \text{voltage across the outputs of the bridge}\\
+\end{align}
 {{< /katex >}}
 
 {{< katex display >}}
-V_{L} = \frac{R + \Delta}{(R + \Delta) + (R - \Delta)} * V_{source}
-V_{R} = \frac{R - \Delta}{(R - \Delta) + (R + \Delta)} * V_{source}
+\begin{align}
+V_{L} &= \frac{R + \Delta}{(R + \Delta) + (R - \Delta)} * V_{source} \\
+V_{R} &= \frac{R - \Delta}{(R - \Delta) + (R + \Delta)} * V_{source}
+\end{align}
 {{< /katex >}}
 
 {{< katex display >}}
-V_{L} = \frac{R + \Delta}{2R} * V_{source}
-V_{R} = \frac{R - \Delta}{2R} * V_{source}
+\begin{align}
+V_{L} &= \frac{R + \Delta}{2R} * V_{source}
+V_{R} &= \frac{R - \Delta}{2R} * V_{source}
+\end{align}
 {{< /katex >}}
 
 {{< katex display >}}
-V_{bridge} = V_{L} - V_{R} = \frac{(R + \Delta) - (R - \Delta)}{2R} * V_{source}
-V_{bridge} = \frac{2\Delta}{2R} * V_{source}
-\frac{V_{bridge}}{V_{source}} = \frac{\Delta}{R}
+\begin{align}
+V_{bridge} &= V_{L} - V_{R} = \frac{(R + \Delta) - (R - \Delta)}{2R} * V_{source}
+V_{bridge} &= \frac{2\Delta}{2R} * V_{source}
+\frac{V_{bridge}}{V_{source}} &= \frac{\Delta}{R}
+\end{align}
 {{< /katex >}}
 
 ![four_gauge_wheatstone.jpg](/img/four_gauge_wheatstone.JPG)
