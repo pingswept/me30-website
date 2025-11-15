@@ -87,11 +87,16 @@ If you have set up your op amp properly, it will obey these two rules:
 1. No current flows in or out of its inputs, V<sub>1</sub> and V<sub>2</sub>
 2. The op amp adjusts its output voltage to make the voltages at V<sub>1</sub> and V<sub>2</sub> equal to each other.
 
-We can represent the circuit above as two voltage dividers. 
+We can represent the circuit above as two voltage dividers.
+
+{{< katex display >}}
+\begin{aligned}
+\frac{V_{R} - V_{1}}{R_{small}} &= \frac{V_{R} - V_{out}}{R_{big}}\\
+\frac{V_{L} - V_{2}}{R_{small}} &= \frac{V_{2}}{R_{big}}\\
+\end{aligned}
+{{< /katex >}}
 
 ![op amp math](/img/op_amp_math.JPG)
-
-
 
 ## earlier text below ##
 ## Amplification ##
@@ -105,21 +110,3 @@ The Wheatstone bridge has two major advantages.
 1. Resistors change resistance when they heat up, which means that your sensor signal will slowly drift with the temperature in the room, and it gets worse because the current running through the resistors heats them up even more. When comparing the two sides of the bridge, they are both at roughly the same temperature, so the temperature drift is the same on both sides, which means it cancels out in the difference.
 
 2. It is easier to measure small voltages accurately than large voltages. Every op-amp has the unfortunate property that it responds slightly nonlinearly to input voltage. If we just try to amplify a 1.65 V voltage relative to ground ........ acch, not sure how to explain this well yet. This is called the common-mode rejection ratio, or CMRR. The LM324 opamps that we will be using have a CMRR of around 10,000 (80 dB).
-
-## Circuit explanation ##
-
-{{< katex display >}}
-V_{in} = V_{out} * \frac{R_1}{(R_1 + R_2)}
-{{< /katex >}}
-
-{{< katex display >}}
-\frac{V_{in}}{V_{out}} = \frac{R_1}{(R_1 + R_2)}
-{{< /katex >}}
-
-{{< katex display >}}
-Gain = \frac{V_{out}}{V_{in}} = \frac{(R_1 + R_2)}{R_1}
-{{< /katex >}}
-
-{{< katex display >}}
-Gain = 1 + \frac{R_2}{R_1}
-{{< /katex >}}
