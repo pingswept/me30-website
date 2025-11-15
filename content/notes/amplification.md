@@ -95,7 +95,9 @@ We can represent the circuit above as two voltage dividers.
 \frac{V_{L} - V_{2}}{R_{small}} &= \frac{V_{2}}{R_{big}}\\
 
 V_{1} &= \frac{V_{R}R_{big} + V_{out}R_{small}}{R_{big} + R_{small}}\\
-V_{2} &= \frac{R_{big}V_{L}}{R_{big} + R_{small}}\\
+V_{2} &= \frac{V_{L}R_{big}}{R_{big} + R_{small}}\\
+
+\text{But recall that} V_{1} = V_{2} \text{, so } V_{R}R_{big} + V_{out}R_{small} &= V_{L}R_{big}
 
 V_{out} &= \frac{R_{big}}{R_{small}}(V_{L} - V_{R}) = \frac{R_{big}}{R_{small}}V_{bridge}\\
 \frac{V_{out}}{V_{bridge}} &= \frac{R_{big}}{R_{small}}\\
