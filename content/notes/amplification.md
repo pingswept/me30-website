@@ -10,7 +10,8 @@ Sensors produce real small voltages, so we need to amplify them.
 
 A strain gauge is a small wire that changes resistance when it is stretched. The strain gauges we'll use in ME 30 are made of constantan, an alloy of copper and nickel. The constantan is attached in a serpentine shape to a polyimide film. The 14 sections in the serpentine shape means that the wire behaves like 14 resistors in series, each of which increases in resistance by a few ohms when stretched, and decreases in resistance when compressed. 
 
-![diagram and photo of a strain gauge](/img/strain_gauge.JPG)
+![Photo of a strain gauge](/img/strain_gauge.JPG)
+Photo credit: Pleriche - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=61871859
 
 A strain gauge's "GF," or gauge factor, is the ratio of fractional change in electrical resistance to the fractional change in length (strain). A GF of 2 is typical for strain gauges made of tiny metal wire, like ours. If we could measure the gauge's resistance change directly, we could use the GF to easily compute the value of the strain.  However, for a sensor circuit to be detectable by a microcontroller (like an Arduino or KB2040), the sensor's output needs to be a voltage value, not a resistance. How can we convert a resistance change into a voltage measurement? Remember voltage dividers?
 
@@ -36,7 +37,7 @@ In the strain sensor we are using in Fall 2025 in ME 30, there are four strain g
 
 ![photo of a load cell](/img/load_cell.JPG)
 
-All four strain gauges have the same baseline resistance, R (their resistance when not strained). When all the resistance values are the same, V<sub>L</sub> is equal to V<sub>R</sub>, and the voltage difference across the "bridge" is 0. However, when the beam is bent, all the gauges are strained. The gauges on the top of the beam increase in resistance by delta. The gauges on the bottom decrease in resistance by delta. Now V<sub>L</sub> and V<sub>R</sub> differ from each other. That means the "bridge voltage," V<sub>L</sub> - V<sub>R</sub>, will be nonzero. 
+All four strain gauges have the same baseline resistance, R (their resistance when not strained). When all the resistance values are the same, V<sub>L</sub> is equal to V<sub>R</sub>, and the voltage difference across the "bridge" is 0. However, when the beam is bent, all the gauges are strained. Based on their placement on the beam, two of the gauges stretch, and they increase in resistance by delta. The other two gauges are compressed, and they decrease in resistance by delta. Now V<sub>L</sub> and V<sub>R</sub> differ from each other. That means the "bridge voltage," V<sub>L</sub> - V<sub>R</sub>, will be nonzero. 
 
 ![four_gauge_wheatstone.jpg](/img/four_gauge_wheatstone.JPG)
 
