@@ -34,12 +34,12 @@ In the load cell we are using in Fall 2025 in ME 30, there are four strain gauge
 The diagram below shows a Wheatstone bridge with four strain gauges -- four variable resistors. They all have the same baseline resistance, R (their resistance when not strained). When all the resistance values are the same, VL is equal to VR, and the voltage difference across the "bridge" is 0. However, when the beam is bent, all the gauges are strained. The gauges on the top of the beam increase in resistance by delta. The gauges on the bottom decrease in resistance by delta. Now VL and VR differ from each other. That means the "bridge voltage," V_L - V_R, will be nonzero. 
 
 {{< katex display >}}
-V_{source} = source voltage (12 V for our circuit)
-R = baseline resistance of strain gauge
-\Delta = change in resistance of gauge due to strain
-V_{L} = voltage relative to ground on the left side of the bridge
-V_{R} = voltage relative to ground on the right side of the bridge
-V_{bridge} = V_{L} - V_{R} = voltage across the outputs of the bridge
+V_{source} = \text{source voltage (12 V for our circuit)}\\
+R = \text{baseline resistance of strain gauge}\\
+\Delta = \text{change in resistance of gauge due to strain}\\
+V_{L} = \text{voltage relative to ground on the left side of the bridge}\\
+V_{R} = \text{voltage relative to ground on the right side of the bridge}\\
+V_{bridge} = V_{L} - V_{R} = \text{voltage across the outputs of the bridge}\\
 {{< /katex >}}
 
 {{< katex display >}}
