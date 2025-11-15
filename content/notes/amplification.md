@@ -10,11 +10,13 @@ Sensors produce real small voltages, so we need to amplify them.
 
 A strain gauge is a small wire that changes resistance when it is stretched. The strain gauges we'll use in ME 30 are made of constantan, an alloy of copper and nickel. The constantan is attached in a serpentine shape to a polyimide film. The 14 sections in the serpentine shape means that the wire behaves like 14 resistors in series, each of which increases in resistance by a few ohms when stretched, and decreases in resistance when compressed. 
 
-![diagram and photo of a strain gauge](img/strain_gauge.JPG)
+![diagram and photo of a strain gauge](/img/strain_gauge.JPG)
 
 A strain gauge's "GF," or gauge factor, is the ratio of fractional change in electrical resistance to the fractional change in length (strain). A GF of 2 is typical for strain gauges made of tiny metal wire, like ours. If we could measure the gauge's resistance change directly, we could use the GF to easily compute the value of the strain.  However, for a sensor circuit to be detectable by a microcontroller (like an Arduino or KB2040), the sensor's output needs to be a voltage value, not a resistance. How can we convert a resistance change into a voltage measurement? Remember voltage dividers?
 
 If we put the strain gauge in series with a normal resistor (of the same number of ohms) to make a voltage divider supplied with 3.3 V, the voltage between the two resistors will be around 1.65 V. The voltage will go up and down in proportion to strain, so we could use that voltage value as our signal. The problem, however, is that the voltage change is so small that it will be hard to detect.
+
+![strain gauge in series with resistor.jpg](/img/strain_gauge_divided.jpg)
 
 ## Amplification ##
 
@@ -32,7 +34,7 @@ The Wheatstone bridge has two major advantages.
 
 In the strain sensor we are using in Fall 2025 in ME 30, there are four strain gauges arranged in a Wheatstone bridge. Two of the resistors are placed on the bottom of a short beam and two are placed on the top of the same beam. This whole apparatus is called a load cell. 
 
-![photo of a load cell](img/load_cell.JPG)
+![photo of a load cell](/img/load_cell.JPG)
 
 All four strain gauges have the same baseline resistance, R (their resistance when not strained). When all the resistance values are the same, V<sub>L</sub> is equal to V<sub>R</sub>, and the voltage difference across the "bridge" is 0. However, when the beam is bent, all the gauges are strained. The gauges on the top of the beam increase in resistance by delta. The gauges on the bottom decrease in resistance by delta. Now V<sub>L</sub> and V<sub>R</sub> differ from each other. That means the "bridge voltage," V<sub>L</sub> - V<sub>R</sub>, will be nonzero. 
 
@@ -87,6 +89,8 @@ If you have set up your op amp properly, it will obey these two rules:
 2. The op amp adjusts its output voltage to make the voltages at V<sub>1</sub> and V<sub>2</sub> equal to each other.
 
 We can represent the circuit above as two voltage dividers.
+
+![op amp circuit represented as two voltage dividers.jpg](/img/op_amp_dividers.jpg)
 
 {{< katex display >}}
 \begin{aligned}
