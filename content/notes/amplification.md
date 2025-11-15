@@ -46,11 +46,11 @@ V_{bridge} &= \text{voltage across the outputs of the bridge}\\
 
 {{< katex display >}}
 \begin{aligned}
-V_{L} = \frac{R + \Delta}{(R + \Delta) + (R - \Delta)} * V_{source}\\
-V_{R} = \frac{R - \Delta}{(R - \Delta) + (R + \Delta)} * V_{source}\\
+V_{L} &= \frac{R + \Delta}{(R + \Delta) + (R - \Delta)} * V_{source}\\
+V_{R} &= \frac{R - \Delta}{(R - \Delta) + (R + \Delta)} * V_{source}\\
 
-V_{L} = \frac{R + \Delta}{2R} * V_{source}\\
-V_{R} = \frac{R - \Delta}{2R} * V_{source}\\
+V_{L} &= \frac{R + \Delta}{2R} * V_{source}\\
+V_{R} &= \frac{R - \Delta}{2R} * V_{source}\\
 
 V_{bridge} &= V_{L} - V_{R} = \frac{(R + \Delta) - (R - \Delta)}{2R} * V_{source}\\
 V_{bridge} &= \frac{2\Delta}{2R} * V_{source}\\
