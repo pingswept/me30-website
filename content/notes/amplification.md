@@ -81,6 +81,14 @@ Enter: the op amp.
 
 ![op amp circuit](/img/difference_op_amp.JPG)
 
+## The golden rules of op amps ##
+
+If you have set up your op amp properly, it will obey these two rules:
+1. No current flows in or out of its inputs, $$V_1$$ and $$V_2$$
+2. The op amp adjusts its output voltage to make the voltages at V_1 and V_2 equal to each other.
+
+We can represent the circuit above as two voltage dividers. 
+
 ![op amp math](/img/op_amp_math.JPG)
 
 
