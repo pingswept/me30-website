@@ -107,9 +107,6 @@ V_{out} &= \frac{R_{big}}{R_{small}}(V_{L} - V_{R}) = \frac{R_{big}}{R_{small}}V
 \end{aligned}
 {{< /katex >}}
 
-![op amp math](/img/op_amp_math.JPG)
-
-
 We'll use the LM358 op-amp, which has the pin-out shown below. It includes two op-amps, but we'll just use one of them. 
 - The IN1- and IN1+ pins are the points labeled "-" and "+" in the op-amp schematic symbol above. Those are the pins where the strain gauges' Wheatstone bridge outputs come in (through the small resistors).
 - The OUT1 pin is the same as V<sub>out</sub>.
