@@ -33,6 +33,12 @@ In the load cell we are using in Fall 2025 in ME 30, there are four strain gauge
 
 The diagram below shows a Wheatstone bridge with four strain gauges -- four variable resistors. They all have the same baseline resistance, R (their resistance when not strained). When all the resistance values are the same, VL is equal to VR, and the voltage difference across the "bridge" is 0. However, when the beam is bent, all the gauges are strained. The gauges on the top of the beam increase in resistance by delta. The gauges on the bottom decrease in resistance by delta. Now VL and VR differ from each other. That means the "bridge voltage," V_L - V_R, will be nonzero. 
 
+![four_gauge_wheatstone.jpg](/img/four_gauge_wheatstone.JPG)
+
+How does that bridge voltage relate to the change in resistance (delta) caused by the strain?
+
+We can use the voltage divider principle to find out.
+
 {{< katex display >}}
 \begin{aligned}
 V_{source} &= \text{source voltage (12 V for our circuit)}\\
@@ -57,15 +63,6 @@ V_{bridge} &= \frac{2\Delta}{2R} * V_{source}\\
 \frac{V_{bridge}}{V_{source}} &= \frac{\Delta}{R}\\
 \end{aligned}
 {{< /katex >}}
-
-![four_gauge_wheatstone.jpg](/img/four_gauge_wheatstone.JPG)
-
-How does that bridge voltage relate to the change in resistance (delta) caused by the strain?
-
-We can use the voltage divider principle to find out:
-
-![four_gauge_math.jpg](/img/four_gauge_math.JPG)
-
 
 ## The need for amplification
 
