@@ -76,7 +76,7 @@ Strain usually occurs in quantities of millistrain or microstrain, something lik
 
 Let's take a piece of metal that experiences a strain of 500µε, or 0.0005ε. With a gauge factor of 2, the change in resistance will be only twice that: 0.001, or 0.1%! 
 
-If the baseline resistance of the gauge is 1000Ω, its resistance change at 500µε would be only 1Ω. The bridge voltage produced by that resistance change would be 0.012 V, not easily to detect accurately by our microcontrollers. We need a device that can take a very small bridge voltage and amplify it into a voltage we can measure accurately.
+If the baseline resistance of the gauge is 1000 Ω, its resistance change at 500µε would be only 1 Ω. The bridge voltage produced by that resistance change would be 0.012 V, not easily to detect accurately by our microcontrollers. We need a device that can take a very small bridge voltage and amplify it into a voltage we can measure accurately.
 
 ### **Differential amplifier: Using an op amp with negative feedback to amplify a voltage difference**
 
@@ -113,5 +113,6 @@ We'll use the [LM358 op-amp](https://www.ti.com/lit/gpn/lm358), which has the pi
 - The IN1- and IN1+ pins are the points labeled "-" and "+" in the op-amp schematic symbol above. Those are the pins where the strain gauges' Wheatstone bridge outputs come in (through the small resistors).
 - The OUT1 pin is the same as V<sub>out</sub>.
 - V+ and V- are where you connect 12 V and ground.
+- To get the signal from the Adafruit load cell to be detectable within the KB2040's input range of 0 to 3.3 V, we want our amplifier circuit to provide a gain of 500. So use R<sub>big</sub> = 500k Ω and R<sub>big</sub> = 1k Ω.
 
 ![LM358 pinout diagram](/img/LM358pinout.JPG)
