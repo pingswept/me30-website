@@ -25,7 +25,7 @@ The solution is to combine two classic circuits: a Wheatstone bridge and a diffe
 
 ### Wheatstone bridge: Using voltage measurements to determine resistance change
 
-A Wheatstone bridge (invented in 1833 by Samuel H. Christie; Wheatstone just blathered on about it) is a network of four resistors - at least one of which which has an unknown resistance value, which you want to know.  The idea is to add a second pair of resistors in parallel with the original voltage divider and then measure the voltage difference between the two central nodes. It's like our voltage is a bridge across the middle of the circuit.
+A Wheatstone bridge (invented in 1833 by Samuel H. Christie; Wheatstone just blathered on about it) is a network of four resistors - at least one of which has an unknown resistance value that you'd like to know.  The idea is to add a second pair of resistors in parallel with the original voltage divider and then measure the voltage difference between the two central nodes. It's like our voltage is a bridge across the middle of the circuit.
 
 The Wheatstone bridge has two major advantages.
 
@@ -33,7 +33,7 @@ The Wheatstone bridge has two major advantages.
 
 2. It is easier to measure small voltages accurately than large voltages. Every op-amp has the unfortunate property that it responds slightly nonlinearly to input voltage. If we just try to amplify a 1.65 V voltage relative to ground ........ acch, not sure how to explain this well yet. This is called the common-mode rejection ratio, or CMRR. The LM324 opamps that we will be using have a CMRR of around 10,000 (80 dB).
 
-In the strain sensor we are using in Fall 2025 in ME 30, there are four strain gauges arranged in a Wheatstone bridge. Two of the resistors are placed on the bottom of a short beam and two are placed on the top of the same beam. This whole apparatus is called a load cell. 
+In the strain sensor we are using in ME 30, there are four strain gauges arranged in a Wheatstone bridge. Two of the resistors are placed on the bottom of a short beam and two are placed on the top of the same beam. This whole apparatus is called a [load cell](https://www.adafruit.com/product/4540). 
 
 ![photo of a load cell](/img/load_cell.jpg)
 Photo credit: Adafruit
