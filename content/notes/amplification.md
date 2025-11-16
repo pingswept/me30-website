@@ -25,22 +25,24 @@ The solution is to combine two classic circuits: a Wheatstone bridge and a diffe
 
 ### **Wheatstone bridge: Using voltage measurements to determine resistance change**
 
-A Wheatstone bridge (invented in 1833 by Samuel H. Christie; Wheatstone just blathered on about it) is a network of four resistors - at least one of which has an unknown resistance value that you'd like to know.  The idea four our strain gauge is to add a second pair of resistors in parallel with the original voltage divider and then measure the voltage difference between the two central nodes. It's like our voltage is a bridge across the middle of the circuit.
-
-The Wheatstone bridge has two major advantages.
-
-1. Resistors change resistance when they heat up, which means that your sensor signal will slowly drift with the temperature in the room, and it gets worse because the current running through the resistors heats them up even more. When comparing the two sides of the bridge, they are both at roughly the same temperature, so the temperature drift is the same on both sides, which means it cancels out in the difference.
-
-2. It is easier to measure small voltages accurately than large voltages. Every op-amp has the unfortunate property that it responds slightly nonlinearly to input voltage. If we just try to amplify a 1.65 V voltage relative to ground ........ acch, not sure how to explain this well yet. This is called the common-mode rejection ratio, or CMRR. The LM324 opamps that we will be using have a CMRR of around 10,000 (80 dB).
+A Wheatstone bridge (invented in 1833 by Samuel H. Christie; Wheatstone just blathered on about it) is a network of four resistors - at least one of which has an unknown resistance value that you'd like to know.  The idea for our strain gauge is to add a second pair of resistors in parallel with the original voltage divider and then measure the voltage difference between the two central nodes. It's like our voltage is a bridge across the middle of the circuit.
 
 In the strain sensor we are using in ME 30, there are four strain gauges arranged in a Wheatstone bridge. Two of the resistors are placed on the bottom of a short beam and two are placed on the top of the same beam. This whole apparatus is called a [load cell](https://www.adafruit.com/product/4540). 
 
 ![photo of a load cell](/img/load_cell.jpg)
 Photo credit: Adafruit
 
-All four strain gauges have the same baseline resistance, R. That's their resistance when not strained. When the load cell is unloaded, all the resistance values equal, so V<sub>L</sub> is equal to V<sub>R</sub>, and the voltage difference across the "bridge" is 0. However, when the beam is bent, all the gauges change in length. Based on their placement on the beam, two of the gauges stretch, and they increase in resistance by delta. The other two gauges compress, and they decrease in resistance by delta. Now V<sub>L</sub> and V<sub>R</sub> differ from each other. That means the "bridge voltage," V<sub>L</sub> - V<sub>R</sub>, will be nonzero. 
+The Wheatstone bridge in our load cell has two major advantages.
+
+1. Because we are comparing two voltages that change in opposite directions, we get twice the signal we would get without a bridge. Having strain gauges in compression and tension simultaneously doubles our signal again, so our signal is 4 times bigger than it would be in the single strain gauge example above.
+
+2. Resistors change resistance when they heat up, which means that your sensor signal will slowly drift with the temperature in the room, and it gets worse because the current running through the resistors heats them up even more. When comparing the two sides of the bridge, they are both at roughly the same temperature, so the temperature drift is the same on both sides, which means it cancels out in the difference.
 
 ![four_gauge_wheatstone.jpg](/img/four_gauge_wheatstone.JPG)
+
+### How the circuit works in detail ###
+
+All four strain gauges have the same baseline resistance, R. That's their resistance when not strained. When the load cell is unloaded, all the resistance values equal, so V<sub>L</sub> is equal to V<sub>R</sub>, and the voltage difference across the "bridge" is 0. However, when the beam is bent, all the gauges change in length. Based on their placement on the beam, two of the gauges stretch, and they increase in resistance by delta. The other two gauges compress, and they decrease in resistance by delta. Now V<sub>L</sub> and V<sub>R</sub> differ from each other. That means the "bridge voltage," V<sub>L</sub> - V<sub>R</sub>, will be nonzero. 
 
 How does that bridge voltage relate to the resistance change (delta) caused by the strain?
 
@@ -71,16 +73,15 @@ V_{bridge} &= \frac{2\Delta}{2R} * V_{source}\\
 \end{aligned}
 {{< /katex >}}
 
+So that's how the circuit will give us a voltage proportional to strain, but we still have a problem, which is that the voltage generated is very, very small.
 
-Strain usually occurs in quantities of millistrain or microstrain, something like 0.0005ε, which is 0.5 millistrain(mε) or 500 microstrain (µε).
+Strain usually occurs in quantities of millistrain or microstrain, something like 0.0005ε, which is 0.5 millistrain(mε) or 500 microstrain (µε). Let's take a piece of metal that experiences a strain of 500µε, or 0.0005ε. With a gauge factor of 2, the change in resistance will be only twice that: 0.001, or 0.1%!
 
-Let's take a piece of metal that experiences a strain of 500µε, or 0.0005ε. With a gauge factor of 2, the change in resistance will be only twice that: 0.001, or 0.1%! 
-
-If the baseline resistance of the gauge is 1000 Ω, its resistance change at 500µε would be only 1 Ω. The bridge voltage produced by that resistance change would be 0.012 V, not easily to detect accurately by our microcontrollers. We need a device that can take a very small bridge voltage and amplify it into a voltage we can measure accurately.
+If the baseline resistance of the gauge is 1000 Ω, its resistance change at 500µε would be only 1 Ω. The bridge voltage produced by that resistance change would be 0.012 V, not easily detected  by our microcontrollers. We need a device that can take a very small bridge voltage and amplify it into a voltage we can measure accurately.
 
 ### **Differential amplifier: Using an op amp with negative feedback to amplify a voltage difference**
 
-To make the signal bigger, we'll use an amplifier. You can buy a strain gauge amplifier like the HX711, but we're going to build one from scratch using a chip called an operational amplifier, or op-amp. 
+To make the signal bigger, we'll build a differential amplifier. You can buy a strain gauge amplifier like the HX711, but we're going to build one from scratch using a chip called an operational amplifier, or op-amp.
 
 ![op amp circuit](/img/difference_op_amp.JPG)
 
