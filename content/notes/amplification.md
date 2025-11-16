@@ -38,7 +38,7 @@ In the strain sensor we are using in ME 30, there are four strain gauges arrange
 ![photo of a load cell](/img/load_cell.jpg)
 Photo credit: Adafruit
 
-All four strain gauges have the same baseline resistance, R (their resistance when not strained). When all the resistance values are the same, V<sub>L</sub> is equal to V<sub>R</sub>, and the voltage difference across the "bridge" is 0. However, when the beam is bent, all the gauges are strained. Based on their placement on the beam, two of the gauges stretch, and they increase in resistance by delta. The other two gauges are compressed, and they decrease in resistance by delta. Now V<sub>L</sub> and V<sub>R</sub> differ from each other. That means the "bridge voltage," V<sub>L</sub> - V<sub>R</sub>, will be nonzero. 
+All four strain gauges have the same baseline resistance, R. That's their resistance when not strained. When the load cell is unloaded, all the resistance values equal, so V<sub>L</sub> is equal to V<sub>R</sub>, and the voltage difference across the "bridge" is 0. However, when the beam is bent, all the gauges are strained. Based on their placement on the beam, two of the gauges stretch, and they increase in resistance by delta. The other two gauges compress, and they decrease in resistance by delta. Now V<sub>L</sub> and V<sub>R</sub> differ from each other. That means the "bridge voltage," V<sub>L</sub> - V<sub>R</sub>, will be nonzero. 
 
 ![four_gauge_wheatstone.jpg](/img/four_gauge_wheatstone.JPG)
 
