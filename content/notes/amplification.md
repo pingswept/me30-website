@@ -8,7 +8,7 @@ Sensors produce real small voltages, so we need to amplify them.
 
 ## Strain gauges ##
 
-A strain gauge is a small wire that changes resistance when it is stretched. The strain gauges we'll use in ME 30 are made of constantan, an alloy of copper and nickel. The constantan is attached in a serpentine shape to a polyimide film. The 14 sections in the serpentine shape means that the wire behaves like 14 resistors in series, each of which increases in resistance by a few ohms when stretched, and decreases in resistance when compressed. 
+A strain gauge is a small wire that changes resistance when it is stretched. The strain gauges we'll use in ME 30 are made of constantan, an alloy of copper and nickel. The constantan is attached in a serpentine shape to a polyimide film. The 14 sections in the serpentine shape means that the wire behaves like 14 resistors in series, each of which increases in resistance when stretched and decreases in resistance when compressed. A typical strain gauge has a total baseline resistance somewhere between 100 and 1000 Ω. That value changes by a few ohms when the wire changes in length.
 
 ![Photo of a strain gauge](/img/strain_gauge.jpg)
 Photo credit: [Pleriche - Own work, CC BY-SA 4.0](https://commons.wikimedia.org/w/index.php?curid=61871859)
@@ -23,9 +23,9 @@ If we put the strain gauge in series with a normal resistor (of the same number 
 
 The solution is to combine two classic circuits: a Wheatstone bridge and a differential amplifier. 
 
-### Wheatstone bridge: Using voltage measurements to determine resistance change
+### **Wheatstone bridge: Using voltage measurements to determine resistance change**
 
-A Wheatstone bridge (invented in 1833 by Samuel H. Christie; Wheatstone just blathered on about it) is a network of four resistors - at least one of which has an unknown resistance value that you'd like to know.  The idea is to add a second pair of resistors in parallel with the original voltage divider and then measure the voltage difference between the two central nodes. It's like our voltage is a bridge across the middle of the circuit.
+A Wheatstone bridge (invented in 1833 by Samuel H. Christie; Wheatstone just blathered on about it) is a network of four resistors - at least one of which has an unknown resistance value that you'd like to know.  The idea four our strain gauge is to add a second pair of resistors in parallel with the original voltage divider and then measure the voltage difference between the two central nodes. It's like our voltage is a bridge across the middle of the circuit.
 
 The Wheatstone bridge has two major advantages.
 
@@ -38,7 +38,7 @@ In the strain sensor we are using in ME 30, there are four strain gauges arrange
 ![photo of a load cell](/img/load_cell.jpg)
 Photo credit: Adafruit
 
-All four strain gauges have the same baseline resistance, R. That's their resistance when not strained. When the load cell is unloaded, all the resistance values equal, so V<sub>L</sub> is equal to V<sub>R</sub>, and the voltage difference across the "bridge" is 0. However, when the beam is bent, all the gauges are strained. Based on their placement on the beam, two of the gauges stretch, and they increase in resistance by delta. The other two gauges compress, and they decrease in resistance by delta. Now V<sub>L</sub> and V<sub>R</sub> differ from each other. That means the "bridge voltage," V<sub>L</sub> - V<sub>R</sub>, will be nonzero. 
+All four strain gauges have the same baseline resistance, R. That's their resistance when not strained. When the load cell is unloaded, all the resistance values equal, so V<sub>L</sub> is equal to V<sub>R</sub>, and the voltage difference across the "bridge" is 0. However, when the beam is bent, all the gauges change in length. Based on their placement on the beam, two of the gauges stretch, and they increase in resistance by delta. The other two gauges compress, and they decrease in resistance by delta. Now V<sub>L</sub> and V<sub>R</sub> differ from each other. That means the "bridge voltage," V<sub>L</sub> - V<sub>R</sub>, will be nonzero. 
 
 ![four_gauge_wheatstone.jpg](/img/four_gauge_wheatstone.JPG)
 
@@ -76,15 +76,15 @@ Strain usually occurs in quantities of millistrain or microstrain, something lik
 
 Let's take a piece of metal that experiences a strain of 500µε, or 0.0005ε. With a gauge factor of 2, the change in resistance will be only twice that: 0.001, or 0.1%! 
 
-If the baseline resistance of the gauge is 1000Ω, its resistance change at 500µε would be only 1Ω. The bridge voltage produced by that resistance change would be 0.012V, not easily to detect accurately by our microcontrollers. We need a device that can take a very small bridge voltage and amplify it into a voltage we can measure accurately.
+If the baseline resistance of the gauge is 1000Ω, its resistance change at 500µε would be only 1Ω. The bridge voltage produced by that resistance change would be 0.012 V, not easily to detect accurately by our microcontrollers. We need a device that can take a very small bridge voltage and amplify it into a voltage we can measure accurately.
 
-### Differential amplifier: Using an op amp with negative feedback to amplify a voltage difference
+### **Differential amplifier: Using an op amp with negative feedback to amplify a voltage difference**
 
 To make the signal bigger, we'll use an amplifier. You can buy a strain gauge amplifier like the HX711, but we're going to build one from scratch using a chip called an operational amplifier, or op-amp. 
 
 ![op amp circuit](/img/difference_op_amp.JPG)
 
-### The golden rules of op amps ##
+### **The golden rules of op amps** 
 
 If you have set up your op amp properly, it will obey these two rules:
 1. No current flows in or out of its inputs, V<sub>1</sub> and V<sub>2</sub>
