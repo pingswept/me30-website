@@ -541,7 +541,7 @@ For example, consider how a disability (e.g., color blindness, other visual impa
 
 ## 33. Raspberry Pi Flask set-up and challenges (Class 21)
 
-Make sure you can complete [Raspberry Pi challenges #7, #8, and #9](http://andnowforelectronics.com/notes/pi-challenges/)
+This [Raspberry Pi basics worksheet](https://tufts.box.com/s/ut5b0xljyjr5t9cuxcayuh16pqeonrq8) will help you get familiar with the pins on your Pi.  After completing the worksheet, make sure you can complete [Raspberry Pi challenges #7, #8, and #9](http://andnowforelectronics.com/notes/pi-challenges/)
 
 ## 34. Amplify a strain gauge (Labs following Class 22)
 
