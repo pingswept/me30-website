@@ -10,8 +10,8 @@ Sensors produce real small voltages, so we need to amplify them.
 
 A strain gauge is a small wire that changes resistance when it is stretched. The strain gauges we'll use in ME 30 are made of constantan, an alloy of copper and nickel. The constantan is attached in a serpentine shape to a polyimide film. The 14 sections in the serpentine shape means that the wire behaves like 14 resistors in series, each of which increases in resistance by a few ohms when stretched, and decreases in resistance when compressed. 
 
-![Photo of a strain gauge](/img/strain_gauge.JPG)
-Photo credit: Pleriche - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=61871859
+![Photo of a strain gauge](/img/strain_gauge.jpg)
+Photo credit: [Pleriche - Own work, CC BY-SA 4.0](https://commons.wikimedia.org/w/index.php?curid=61871859)
 
 A strain gauge's "GF," or gauge factor, is the ratio of fractional change in electrical resistance to the fractional change in length (strain). A GF of 2 is typical for strain gauges made of tiny metal wire, like ours. If we could measure the gauge's resistance change directly, we could use the GF to easily compute the value of the strain.  However, for a sensor circuit to be detectable by a microcontroller (like an Arduino or KB2040), the sensor's output needs to be a voltage value, not a resistance. How can we convert a resistance change into a voltage measurement? Remember voltage dividers?
 
@@ -35,7 +35,8 @@ The Wheatstone bridge has two major advantages.
 
 In the strain sensor we are using in Fall 2025 in ME 30, there are four strain gauges arranged in a Wheatstone bridge. Two of the resistors are placed on the bottom of a short beam and two are placed on the top of the same beam. This whole apparatus is called a load cell. 
 
-![photo of a load cell](/img/load_cell.JPG)
+![photo of a load cell](/img/load_cell.jpg)
+Photo credit: Adafruit
 
 All four strain gauges have the same baseline resistance, R (their resistance when not strained). When all the resistance values are the same, V<sub>L</sub> is equal to V<sub>R</sub>, and the voltage difference across the "bridge" is 0. However, when the beam is bent, all the gauges are strained. Based on their placement on the beam, two of the gauges stretch, and they increase in resistance by delta. The other two gauges are compressed, and they decrease in resistance by delta. Now V<sub>L</sub> and V<sub>R</sub> differ from each other. That means the "bridge voltage," V<sub>L</sub> - V<sub>R</sub>, will be nonzero. 
 
@@ -108,7 +109,7 @@ V_{out} &= \frac{R_{big}}{R_{small}}(V_{L} - V_{R}) = \frac{R_{big}}{R_{small}}V
 \end{aligned}
 {{< /katex >}}
 
-We'll use the LM358 op-amp, which has the pin-out shown below. It includes two op-amps, but we'll just use one of them. 
+We'll use the [LM358 op-amp](https://www.ti.com/lit/gpn/lm358), which has the pin-out shown below. It includes two op-amps, but we'll just use one of them. 
 - The IN1- and IN1+ pins are the points labeled "-" and "+" in the op-amp schematic symbol above. Those are the pins where the strain gauges' Wheatstone bridge outputs come in (through the small resistors).
 - The OUT1 pin is the same as V<sub>out</sub>.
 - V+ and V- are where you connect 12 V and ground.
