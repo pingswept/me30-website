@@ -530,7 +530,7 @@ And here's what the wiring should look like:
 
 See http://andnowforelectronics.com/notes/engineering-ethics-resources/ and worksheet handed out in class.
 
-## 32. Accessible design reflection (Class 20 or 21)
+## 32. Accessible design reflection (Class 21)
 
 Think about what kind of person could play your Project 4 game. 
 For example, consider how a disability (e.g., color blindness, other visual impairment, audio impairment) or a specific personal background (e.g., knowledge of a cultural reference) might influence someone’s opportunity to play or their enjoyment of playing. The goal of this exercise is not to prompt you to persuade us that your game is universally accessible. Instead, we are asking you to conduct an honest analysis of the usability of an engineered system by different potential users. 
@@ -543,13 +543,26 @@ For example, consider how a disability (e.g., color blindness, other visual impa
 
 Make sure you can complete [Raspberry Pi challenges #7, #8, and #9](http://andnowforelectronics.com/notes/pi-challenges/)
 
-## 34. Amplify a strain gauge (Class 22)
+## 34. Amplify a strain gauge (Labs following Class 22)
 
-Add details later
+On a breadboard, build a circuit that amplifies the signal from a load cell. Use the differential amplifier circuit shown on the [Class 22: Amplification](http://andnowforelectronics.com/notes/amplification/) page.
+
+Don't forget to supply the load cell with 12 V (red lead) and ground (black lead). The green and white leads are the left and right outputs of the Wheatstone bridge circuit.
+
+To be able to plug the load cell leads into a breadboard, you'll probably need to solder them to jumper wires or crimp them to header pins. 
+
+Supplies you'll need:
+- Soldering iron + jumper wires   OR  crimper + uncrimped pins
+- 1 kg load cell from Adafruit (provided in class or lab/Nolop)
+- two 500k ohm resistors (provided in lab/Nolop)
+- two 1k ohm resistors (from your kit)
+- LM 358 op amp (provided in lab/Nolop)
+- the differential amplifier circuit diagram shown [here](http://andnowforelectronics.com/notes/amplification/#differential-amplifier-using-an-op-amp-with-negative-feedback-to-amplify-a-voltage-difference)
+  
 
 ## 35. Project 5 planning, Q & A (Class 22 and 23)
 
-(a) Discuss these Project 5 planning questions with your team: https://tufts.box.com/s/hs2supj34cp4mar33w4fsitflc4m4o6c
+(a) Discuss these Project 5 planning questions with your team: https://tufts.box.com/s/hlqcn23zkwx6yiuc023vse852xru5tlf
 
 (b) Use this [shared doc](https://tinyurl.com/ME30questiondoc) to post questions about Project 5.
 
@@ -576,7 +589,7 @@ Suppose the code doesn’t seem to be making the motor behave as predicted.
 
 You decide to troubleshoot the code by monitoring the signal at pin 12 with an oscilloscope.
 
-An oscilloscope is a tool for measuring electrical signals, like a multimeter, but it keeps a record of voltage and current over time. And it displays that record graphically, on a plot of voltage (or current) vs time. It can detect signals at very small time increments, down to milliseconds.
+An oscilloscope is a tool for measuring electrical signals, like a multimeter, but it keeps a record of voltage and current over time. And it displays that record graphically, on a plot of voltage (or current) vs time. It can detect signals at very small time increments, down to milliseconds.  You can explore a virtual version at this [oscilloscope simulator](https://www.pzdsp.com/elab/virtual_oscilloscope.html).
 
 (1) To see the distinct PWM cycles in the oscilloscope window, to what horizontal and vertical scale should you set the window? Let’s say you want to see 5 distinct PWM cycles displayed on the window at any given point in time. What should be the settings for time per horizontal division and volts per vertical division? 
 
