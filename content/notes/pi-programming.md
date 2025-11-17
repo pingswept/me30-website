@@ -4,6 +4,10 @@ draft: false
 ---
 
 ## Raspberry Pi programming
+- - -
+### 1-page summary of basic Raspi commands:
+https://tufts.app.box.com/file/2048172618649
+
 
 ### **What if I want to install more software and write cool programs?**
 
