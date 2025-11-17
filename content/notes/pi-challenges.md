@@ -5,6 +5,8 @@ draft: false
 
 ## Raspberry Pi challenges
 
+1-page summary of basic Raspi commands: https://tufts.app.box.com/file/2048172618649
+
 1. Boot the Pi and log in.
 2. Create a new directory called `fun-stuff`.
 3. Create a new file in `fun-stuff` that is called `poem.txt` and write a poem about ME 30.
