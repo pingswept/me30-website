@@ -5,7 +5,7 @@ draft: false
 
 ## Raspberry Pi programming
 - - -
-### Summary of basic Raspi commands used on this page:
+### Cheat sheet of basic Raspi commands used on this page:
 https://tufts.app.box.com/file/2048172618649
 
 
