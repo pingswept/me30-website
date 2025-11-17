@@ -5,7 +5,7 @@ draft: false
 
 ## Raspberry Pi programming
 - - -
-### 1-page summary of basic Raspi commands:
+### Summary of basic Raspi commands used on this page:
 https://tufts.app.box.com/file/2048172618649
 
 
