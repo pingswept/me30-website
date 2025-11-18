@@ -26,7 +26,9 @@ This is a relatively constrained project compared to the vast open field of P4. 
 * Your robot cannot fly. (We don't have the space to test drones safely, unfortunately.)
 * Note: It would be a good idea to focus on making your robot drive effectively before you worry about any higher level mechanics or control through the internet.
 
-(The payload diagram goes here, but we still need the dimensions.)
+Here's the environment in which your robot will be operating. It will be constructed in Nolop.
+
+![loading docks for your robot](/img/p5-robot-loading-docks.jpg)
 
 ### Payload specifications ###
 
