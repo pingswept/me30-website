@@ -44,7 +44,7 @@ On the due date, your team will test drive the robot through a basic course: dri
 
 ### **Batteries for projects 5 and 6**
 
-For portable power, Nolop has 5 V batteries (for the Raspberry Pis) and 9 V and 11 V batteries (for motors).
+For portable power, Nolop has 5 V batteries (for the Raspberry Pis) and 9 V and 11 V batteries (for motors). For motors, you can also forego the batteries and use an extension cord to your 12 V power adapter.
 
 ![battery safety](/img/11volt_battery_safety.jpg)
 
