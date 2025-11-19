@@ -557,6 +557,7 @@ Supplies you'll need:
 - two 500k ohm resistors (provided in lab/Nolop)
 - two 1k ohm resistors (from your kit)
 - LM 358 op amp (provided in lab/Nolop)
+- Zenier diode to put in parallel with your V_out from the op amp
 - the differential amplifier circuit diagram shown [here](http://andnowforelectronics.com/notes/amplification/#differential-amplifier-using-an-op-amp-with-negative-feedback-to-amplify-a-voltage-difference)
   
 
