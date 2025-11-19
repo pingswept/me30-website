@@ -18,7 +18,7 @@ This is a relatively constrained project compared to the vast open field of P4. 
 * Your robot should be less than 45 cm tall.
 * Your robot should be able to lift a hefty payload, as shown in the diagram below. Your robot only needs to lift it high enough to carry it.
 * Your robot should still be able to maneuver while carrying the payload. Specifically, it should not tip over.
-* This is a tricky requirement: for P6, your robot will need to measure the mass of the payload it is carrying, using a load cell. For P5, you need only to include the load cell in your lifting mechanism; you don't have to connect it yet. (We'll do that in labs next week.)
+* This is a tricky requirement: for P6, your robot will need to measure the mass of the payload it is carrying, using a load cell. For P5, you need only to include the load cell in your lifting mechanism; you don't have to connect it yet. (We'll do that in labs Nov. 19-23.)
 * You should not touch your robot during its adventures. This probably means that your robot should be remote controlled.
 * You should not use an RC car controller. This probably means that your robot should be controlled through wifi from a laptop or phone.
 * Your robot cannot fly. (We don't have the space to test drones safely, unfortunately.)
@@ -33,14 +33,14 @@ Here's the environment in which your robot will be operating. It will be constru
 * Maximum weight: 1 kg +/-10%
 * CAD model of the payload available here: https://cad.onshape.com/documents/dc378c67d38d4fa845a7e22c/w/e9e96efc287cc2ab77fdccee/e/9c0f0d79fea43c7bbd834401?renderMode=0&uiState=6916591057b57914d88f4236
 
-On the due date, your team will test drive the robot through a basic course: drive up to a loading dock, lift the payload, drive to another loading dock, and drop the payload there. If your robot meets the requirements above, it will do fine. The payload and a loading dock will be available in Nolop for testing.
+By the due date, your team should video-record your robot doing a test drive on a basic course set up in Nolop: drive up to a loading dock, place the payload on your arm, and drive to another loading dock. If your robot meets the requirements above, it will do fine. The payload and a loading dock will be available in Nolop for testing.
 
 ### Materials each team will be given ###
 
 * A load cell (actually, one per team member, but you only need one)
 * A steel bar, approximately 12.5 x 3.2 x 460 mm, easily stiff enough to lift the payload, with a little hook in the end
 
-**Project planning resource:** We suggest discussing this [list of P5 planning questions](https://tufts.box.com/s/hs2supj34cp4mar33w4fsitflc4m4o6c) with your team. 
+**Project planning resource:** We suggest discussing this [list of P5 planning questions](https://tufts.box.com/s/hlqcn23zkwx6yiuc023vse852xru5tlf) with your team. 
 
 ### **Batteries for projects 5 and 6**
 
