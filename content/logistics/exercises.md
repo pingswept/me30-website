@@ -557,8 +557,10 @@ Supplies you'll need:
 - two 500k ohm resistors (provided in lab/Nolop)
 - two 1k ohm resistors (from your kit)
 - LM 358 op amp (provided in lab/Nolop)
-- Zenier diode to put in parallel with your V_out from the op amp
+- Zener diode to put in parallel with your V_out from the op amp
 - the differential amplifier circuit diagram shown [here](http://andnowforelectronics.com/notes/amplification/#differential-amplifier-using-an-op-amp-with-negative-feedback-to-amplify-a-voltage-difference)
+
+After you build the circuit, use your multimeter to measure the op amp's output voltage, V_out. Clamp one end of the load cell to a table, and press on the other end. If everything is working correctly, you should see the a voltage somewhere between 1 and 3 V that fluctuates with the load you are applying.
   
 
 ## 35. Project 5 planning, Q & A (Class 22 and 23)
