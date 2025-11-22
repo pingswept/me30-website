@@ -8,7 +8,7 @@ draft: false
 Projects 5 and 6 are, in a sense, one mega-project. In the first part, P5, you and your team build a robot. In the second part, P6, you and your team modify the robot to deliver a payload under specific diabolical constraints.
 
 ## Requirements for project 5
-### Build an intrepid robot that can lift a hefty payload
+### Build an intrepid robot that can carry a hefty payload
 
 **Due date: Tuesday, December 2, 11:59 PM**
 
@@ -16,11 +16,11 @@ This is a relatively constrained project compared to the vast open field of P4. 
 
 * Your robot should fit in a circle 45 cm in diameter.
 * Your robot should be less than 45 cm tall.
-* Your robot should be able to lift a hefty payload, as shown in the diagram below. Your robot only needs to lift it high enough to carry it.
+* Your robot should be able to carry a hefty payload, as shown in the diagram below. By Project 6, your robot will need to be able to lift the payload on its own, high enough to carry it.
 * Your robot should still be able to maneuver while carrying the payload. Specifically, it should not tip over.
-* This is a tricky requirement: for P6, your robot will need to measure the mass of the payload it is carrying, using a load cell. For P5, you need only to include the load cell in your lifting mechanism; you don't have to connect it yet. (We'll do that in labs Nov. 19-23.)
+* This is a tricky requirement: for P6, your robot will need to measure the mass of the payload it is carrying, using a load cell. For P5, you need only to include the load cell in your lifting mechanism; you don't have to connect it yet. (And for P5 it's okay if your lifting mechanism isn't working yet. You can place the payload manually on your robot arm.)
 * You should not touch your robot during its adventures. This probably means that your robot should be remote controlled.
-* You should not use an RC car controller. This probably means that your robot should be controlled through wifi from a laptop or phone.
+* You should not use an RC car controller. This probably means that your robot should be controlled through wifi to your Raspberry Pi from a laptop or phone.
 * Your robot cannot fly. (We don't have the space to test drones safely, unfortunately.)
 * Note: It would be a good idea to focus on making your robot drive effectively before you worry about any higher level mechanics or control through the internet.
 
@@ -38,7 +38,7 @@ By the due date, your team should video-record your robot doing a test drive on 
 ### Materials each team will be given ###
 
 * A load cell (actually, one per team member, but you only need one)
-* A steel bar, approximately 12.5 x 3.2 x 460 mm, easily stiff enough to lift the payload, with a little hook in the end
+* A steel bar, approximately 12.5 x 3.2 x 460 mm, easily stiff enough to carry the payload, with a little hook in the end
 
 **Project planning resource:** We suggest discussing this [list of P5 planning questions](https://tufts.box.com/s/hlqcn23zkwx6yiuc023vse852xru5tlf) with your team. 
 
