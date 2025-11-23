@@ -118,6 +118,7 @@ We'll use the [LM358 op-amp](https://www.ti.com/lit/gpn/lm358), which has the pi
 
 ![LM358 pinout diagram](/img/LM358pinout.JPG)
 
+### **Diagram of the entire circuit** 
 
 ![physical layout of op amp circuit](/img/opamp_physicalcircuit.jpg)
 
