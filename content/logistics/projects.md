@@ -18,7 +18,7 @@ This is a relatively constrained project compared to the vast open field of P4. 
 * Your robot should be less than 45 cm tall.
 * Your robot should be able to carry a hefty payload, as shown in the diagram below. By Project 6, your robot will need to be able to lift the payload on its own, high enough to carry it.
 * Your robot should still be able to maneuver while carrying the payload. Specifically, it should not tip over.
-* This is a tricky requirement: for P6, your robot will need to measure the mass of the payload it is carrying, using a load cell. For P5, you need only to include the load cell in your lifting mechanism; you don't have to connect it yet. (And for P5 it's okay if your lifting mechanism isn't working yet. You can place the payload manually on your robot arm.)
+* This is a tricky requirement: for P6, your robot will need to measure the mass of the payload it is carrying, using a [load cell](http://andnowforelectronics.com/notes/amplification/). For P5, you need only to include the load cell in your lifting mechanism; you don't have to connect it yet. (And for P5 it's okay if your lifting mechanism isn't working yet. You can place the payload manually on your robot arm.)
 * You should not touch your robot during its adventures. This probably means that your robot should be remote controlled.
 * You should not use an RC car controller. This probably means that your robot should be controlled through wifi to your Raspberry Pi from a laptop or phone.
 * Your robot cannot fly. (We don't have the space to test drones safely, unfortunately.)
