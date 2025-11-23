@@ -118,8 +118,9 @@ We'll use the [LM358 op-amp](https://www.ti.com/lit/gpn/lm358), which has the pi
 
 ![LM358 pinout diagram](/img/LM358pinout.JPG)
 
-After you build the circuit, use your multimeter to measure the op amp's output voltage, V_out. Clamp one end of the load cell to a table, and press on the end labeled with the "1 kg" sticker. If everything is working correctly, you should see the voltage somewhere between 70 mV and 3.3 V, fluctuating with the force you are applying to the load cell.
-
-![op amp difference amplifier schematic](/img/opamp_schematic.jpg)
 
 ![physical layout of op amp circuit](/img/opamp_physicalcircuit.jpg)
+
+After you build the circuit, use your multimeter to measure the op amp's output voltage, V_out. Clamp one end of the load cell to a table, and press on the end labeled with the "1 kg" sticker. If everything is working correctly, you should see the voltage somewhere between 70 mV and 3.3 V, fluctuating with the force you are applying to the load cell.  
+
+The reason the output maxes out at 3.3 V, even if you press very forcefully on the load cell, is the Zener diode, which (when wired in the reverse-bias direction, as shown here) shunts off extra voltage beyond 3.3 V.
