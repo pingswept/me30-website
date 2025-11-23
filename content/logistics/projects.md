@@ -37,7 +37,7 @@ By the due date, your team should video-record your robot doing a test drive on 
 
 ### Materials each team will be given ###
 
-* A load cell (actually, one per team member, but you only need one)
+* A load cell (actually, one per team member, but you only need one) (see our [Sensor Amplification](http://andnowforelectronics.com/notes/amplification/) page to learn how to use it)
 * A steel bar, approximately 12.5 x 3.2 x 460 mm, easily stiff enough to carry the payload, with a little hook in the end
 
 **Project planning resource:** We suggest discussing this [list of P5 planning questions](https://tufts.box.com/s/hlqcn23zkwx6yiuc023vse852xru5tlf) with your team. 
