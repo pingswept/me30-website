@@ -117,3 +117,9 @@ We'll use the [LM358 op-amp](https://www.ti.com/lit/gpn/lm358), which has the pi
 - To get the signal from the Adafruit load cell to be detectable within the KB2040's input range of 0 to 3.3 V, we want our amplifier circuit to provide a gain of 500. So use R<sub>big</sub> = 500k Ω and R<sub>big</sub> = 1k Ω.
 
 ![LM358 pinout diagram](/img/LM358pinout.JPG)
+
+After you build the circuit, use your multimeter to measure the op amp's output voltage, V_out. Clamp one end of the load cell to a table, and press on the end labeled with the "1 kg" sticker. If everything is working correctly, you should see the voltage somewhere between 70 mV and 3.3 V, fluctuating with the force you are applying to the load cell.
+
+![op amp difference amplifier schematic](/img/opamp_schematic.jpg)
+
+![physical layout of op amp circuit](/img/opamp_physicalcircuit.jpg)
