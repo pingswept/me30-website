@@ -241,32 +241,27 @@ By default, Flask will listen on port 5000, so type `http://your.rpi.ip.address:
 
 ### **What if I want to make web page buttons that send GET HTTP requests?**
 
-Brought to us by a session with ChatGPT, below is a simple HTML page with JavaScript that includes a button. When the button is pressed, it triggers a GET request to the specified URL (the IP address of a Raspberry Pi, which you should replace with your Pi's IP address).
+Brought to us by a session with some coaching from ChatGPT, below is a simple HTML page with JavaScript that includes 3 buttons. When each button is pressed, it triggers a GET request to the specified URL (the IP address of a Raspberry Pi, which you should replace with your Pi's IP address).
 
-(Here's the prompt we gave to ChatGPT: *Please write a webpage made of HTML and Javascript that has three big buttons that issue GET requests when I press them. The GET requests should be (1) http://10.247.10.22/driveforward, (2) http://10.247.10.22/drivebackward, (3) http://10.247.10.22/stop.*)
+(Here's the prompt we gave to ChatGPT: *Please write a webpage made of HTML and Javascript that has three big buttons that issue GET requests when I press them. The GET requests should be (1) http://10.247.10.22/driveforward, (2) http://10.247.10.22/drivebackward, (3) http://10.247.10.22/stop.*  
+The first code it produced was more complicated than seemed necessary. So we prompted again: *Can you write an even simpler program, that just makes one button to issue a GET request http://10.247.10.22/forward* Then we added two more buttons to the very simple program it wrote.)
 
 ```
 <!DOCTYPE html>
 <html>
 <body>
-<h1>Robot Drive Controls</h1>
 
+<button onclick="fetch('http://10.247.10.22/forward', {method: 'GET', mode: 'no-cors'})">Forward</button>
 
-<button onclick="sendCommand('driveforward')">Drive Forward</button><br><br>
-<button onclick="sendCommand('drivebackward')">Drive Backward</button><br><br>
-<button onclick="sendCommand('stop')">STOP</button>
+<button onclick="fetch('http://10.247.10.22/backward', {method: 'GET', mode: 'no-cors'})">Backward</button>
 
+<button onclick="fetch('http://10.247.10.22/stop', {method: 'GET', mode: 'no-cors'})">Stop</button>
 
-<script>
-function sendCommand(endpoint) {
-fetch('http://10.247.10.22/' + endpoint, { method: 'GET', mode: 'no-cors' });
-}
-</script>
 </body>
 </html>
 ```
 
-Save this code to your laptop as an HTML file, and when you open it in a web browser, you'll see 3 buttons. Clicking each button will trigger a GET request to the specified URL (e.g., `http://10.247.10.22/driveforward`). 
+Save this code to your laptop as an HTML file, and when you open it in a web browser, you'll see 3 buttons. Clicking each button will trigger a GET request to the specified URL (e.g., `http://10.247.10.22/forward`). 
 
 ### **How do I send a GET HTTP request from within a Python script?**
 
