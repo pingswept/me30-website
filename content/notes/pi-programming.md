@@ -251,11 +251,11 @@ The first code it produced was more complicated than seemed necessary. So we pro
 <html>
 <body>
 
-<button onclick="fetch('http://10.247.10.22/forward', {method: 'GET', mode: 'no-cors'})">Forward</button>
+<button onclick="fetch('http://10.247.10.22:5000/forward', {method: 'GET', mode: 'no-cors'})">Forward</button>
 
-<button onclick="fetch('http://10.247.10.22/backward', {method: 'GET', mode: 'no-cors'})">Backward</button>
+<button onclick="fetch('http://10.247.10.22:5000/backward', {method: 'GET', mode: 'no-cors'})">Backward</button>
 
-<button onclick="fetch('http://10.247.10.22/stop', {method: 'GET', mode: 'no-cors'})">Stop</button>
+<button onclick="fetch('http://10.247.10.22:5000/stop', {method: 'GET', mode: 'no-cors'})">Stop</button>
 
 </body>
 </html>
