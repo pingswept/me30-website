@@ -243,57 +243,44 @@ By default, Flask will listen on port 5000, so type `http://your.rpi.ip.address:
 
 Brought to us by a session with ChatGPT, below is a simple HTML page with JavaScript that includes a button. When the button is pressed, it triggers a GET request to the specified URL (the IP address of a Raspberry Pi, which you should replace with your Pi's IP address).
 
-(Here's the prompt we gave to ChatGPT: *Please write a webpage made of HTML and Javascript that has a big button in the middle that issues a GET request to http://10.247.10.22/drivefast when I press the button.*)
+(Here's the prompt we gave to ChatGPT: *Please write a webpage made of HTML and Javascript that has three big buttons that issue GET requests when I press them. The GET requests should be (1) http://10.247.10.22/driveforward, (2) http://10.247.10.22/drivebackward, (3) http://10.247.10.22/stop.*)
 
 ```
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Drive Fast Button</title>
-</head>
+<html>
 <body>
-  <div style="text-align: center; margin-top: 50px;">
-    <button onclick="issueGetRequest()">Drive Fast</button>
-  </div>
-  <script>
-    function issueGetRequest() {
-      // Create a new XMLHttpRequest object
-      var xhr = new XMLHttpRequest();
-      // Define the GET request and the target URL
-      xhr.open("GET", "http://10.247.10.22/drivefast", true);
+<h1>Robot Drive Controls</h1>
 
-      // Set up a callback function to handle the response
-      xhr.onreadystatechange = function() {
-        if (xhr.readyState == 4 && xhr.status == 200) {
-          // You can handle the response here if needed
-          console.log("GET request successful");
-        }
-      };
-      // Send the GET request
-      xhr.send();
-    }
-  </script>
+
+<button onclick="sendCommand('driveforward')">Drive Forward</button><br><br>
+<button onclick="sendCommand('drivebackward')">Drive Backward</button><br><br>
+<button onclick="sendCommand('stop')">STOP</button>
+
+
+<script>
+function sendCommand(endpoint) {
+fetch('http://10.247.10.22/' + endpoint, { method: 'GET', mode: 'no-cors' });
+}
+</script>
 </body>
 </html>
 ```
 
-ChatGPT also tells us: *Save this code in an HTML file, and when you open it in a web browser, you'll see a button labeled "Drive Fast." Clicking this button will trigger a GET request to the specified URL (`http://10.247.10.22/drivefast`). The console will log "GET request successful" if the request is successful. Note that if the target server doesn't allow cross-origin requests, you might need to handle CORS (Cross-Origin Resource Sharing) accordingly.*
+Save this code to your laptop as an HTML file, and when you open it in a web browser, you'll see 3 buttons. Clicking each button will trigger a GET request to the specified URL (e.g., `http://10.247.10.22/driveforward`). 
 
 ### **How do I send a GET HTTP request from within a Python script?**
 
-Let's say you want to use an HTTP request to send a target speed value to another Pi, at IP address 10.123.12.12.  For this example, let's say the target speed value is 50.
+Let's say you want to use an HTTP request to send a target value to another Pi, at IP address 10.123.12.12.  For this example, let's say the target value is 100.
 
 ```python
 import requests
 
-desired_speed = 50
+desired_value = 100
 partner_url = "http://10.123.12.12:5000/"  #don't forget the 5000 for the port at which Flask is listening
 
-r = requests.get(partner_url + "/target/" + str(desired_speed))  #this sends out "http://10.123.12.12:5000/target/50"
+r = requests.get(partner_url + "/target/" + str(desired_value))  #this sends out "http://10.123.12.12:5000/target/100"
 
-# another way to make that same request is r = requests.get(10.123.12.12:5000/target/50)
+# another way to make that same request is r = requests.get(10.123.12.12:5000/target/100)
 
 print(r.text)   # prints whatever response you get from the server (the Pi at 10.123.12.12)
                 # the variable 'r' stores all the information related to the HTTP request that you made
