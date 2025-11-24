@@ -577,6 +577,7 @@ Consider the following Python code, which powers pin 12 on a Raspberry Pi with t
 
 <pre class="code">
 import RPi.GPIO as GPIO
+import time
 GPIO.setmode(GPIO.BOARD)
 GPIO.setup(12, GPIO.OUT)
 
