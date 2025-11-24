@@ -243,8 +243,8 @@ By default, Flask will listen on port 5000, so type `http://your.rpi.ip.address:
 
 Brought to us by a session with some coaching from ChatGPT, below is a simple HTML page with JavaScript that includes 3 buttons. When each button is pressed, it triggers a GET request to the specified URL (the IP address of a Raspberry Pi, which you should replace with your Pi's IP address).
 
-(Here's the prompt we gave to ChatGPT: *Please write a webpage made of HTML and Javascript that has three big buttons that issue GET requests when I press them. The GET requests should be (1) http://10.247.10.22/driveforward, (2) http://10.247.10.22/drivebackward, (3) http://10.247.10.22/stop.*  
-The first code it produced was more complicated than seemed necessary. So we prompted again: *Can you write an even simpler program, that just makes one button to issue a GET request http://10.247.10.22/forward* Then we added two more buttons to the very simple program it wrote.)
+(Here's the prompt we gave to ChatGPT: *Please write a webpage made of HTML and Javascript that has three big buttons that issue GET requests when I press them. The GET requests should be (1) http://10.247.10.22:5000/forward, (2) http://10.247.10.22:5000/backward, (3) http://10.247.10.22:5000/stop.*  
+The first code it produced was more complicated than seemed necessary. So we prompted again: *Can you write an even simpler program, that just makes one button to issue a GET request http://10.247.10.22:5000/forward* Then we added two more buttons to the very simple program it wrote.)
 
 ```
 <!DOCTYPE html>
@@ -261,7 +261,7 @@ The first code it produced was more complicated than seemed necessary. So we pro
 </html>
 ```
 
-Save this code to your laptop as an HTML file, and when you open it in a web browser, you'll see 3 buttons. Clicking each button will trigger a GET request to the specified URL (e.g., `http://10.247.10.22/forward`). 
+Save this code to your laptop as an HTML file, and when you open it in a web browser, you'll see 3 buttons. Clicking each button will trigger a GET request to the specified URL (e.g., `http://10.247.10.22:5000/forward`). 
 
 ### **How do I send a GET HTTP request from within a Python script?**
 
