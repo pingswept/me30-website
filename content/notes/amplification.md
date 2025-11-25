@@ -124,4 +124,4 @@ We'll use the [LM358 op-amp](https://www.ti.com/lit/gpn/lm358), which has the pi
 
 After you build the circuit, use your multimeter to measure the op amp's output voltage, V_out. Clamp one end of the load cell to a table, and press on the end labeled with the "1 kg" sticker. If everything is working correctly, you should see the voltage somewhere between 70 mV and 3.3 V, fluctuating with the force you are applying to the load cell.  
 
-The reason the output maxes out at 3.3 V, even if you press very forcefully on the load cell, is the Zener diode, which (when wired in the reverse-bias direction, as shown here) shunts off extra voltage beyond 3.3 V.
+The reason the output maxes out at 3.3 V, even if you press very forcefully on the load cell, is the [Zener diode](https://www.newark.com/multicomp-pro/1n4728a/zener-diode-1w-3-3v-do-41/dp/90R9416), which (when wired in the reverse-bias direction, as shown here) shunts off extra voltage beyond 3.3 V.
