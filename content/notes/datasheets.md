@@ -22,28 +22,25 @@ To see more about how to draw the circuit schematic symbol for common parts, che
 * [10 uF aluminum electrolytic capacitor](https://search.kemet.com/download/datasheet/ESK106M016AC3AA)
 * [100 uF aluminum electrolytic capacitor](/pdf/capacitor-100uf.pdf)
 
-## LEDs
+## Diodes
 
 * [5 mm LED](/pdf/LED-QBL8XX15C.pdf)
+* [3.3 V Zener diode](https://www.newark.com/multicomp-pro/1n4728a/zener-diode-1w-3-3v-do-41/dp/90R9416)
 
 ## Motors
 
 * [TJZ37RGa DC gearmotor, 12 V, 200 RPM](/img/tjz37rga-motor-specs.jpg)
 * [NEMA 17 stepper motor, 12 V, 200 step](/img/stepper-motor-XY42STH34-0354A.jpg)
 
-## Photoresistors (light sensors)
-
-* [5mm, 100 mW light dependent resistor, #5528](/img/ldr_5mm.pdf)
-
 ## Resistors
 
 * [1/2 W resistor](/pdf/resistor-CFM1JTxxxR.pdf)  
 * [Resistor color code chart](https://cdn.sparkfun.com/assets/learn_tutorials/6/4/Resistors.png)
 
-## Voltage regulators
+## Sensors
 
-* [LD33V/LM1117 voltage regulator, 800 mA, 3.3 V, TO-220 package](/pdf/regulator-LD33V.pdf)
-* [LM7805 voltage regulator, 1.5 A, 5.0 V, TO-220 package](/pdf/regulator-LM7805.pdf)
+* [5mm, 100 mW light dependent resistor, #5528](/img/ldr_5mm.pdf)
+* [1 kg load cell with 4 strain gauges, Adafruit](https://www.adafruit.com/product/4540?srsltid=AfmBOoptBwgtkhSWGCksS3vQSLyR2W-MO2OjZtj9VPUKRKa--LHKVCTK)
 
 ## Transistors
 
@@ -56,9 +53,13 @@ To see more about how to draw the circuit schematic symbol for common parts, che
 * [N-channel IRLB8721 MOSFET, 30 A, 60 V, TO-220 package](/pdf/mosfet-IRLB8721.pdf)
 * [N-channel IRLZ44N MOSFET, 47 A, 55 V, TO-220 package](/pdf/mosfet-IRLZ44N.pdf)
 
-
 ## Trimmer potentiometers (variable resistors)
 
 * [10k trimmer potentiometer](/pdf/potentiometer-ct6.pdf)
+
+## Voltage regulators
+
+* [LD33V/LM1117 voltage regulator, 800 mA, 3.3 V, TO-220 package](/pdf/regulator-LD33V.pdf)
+* [LM7805 voltage regulator, 1.5 A, 5.0 V, TO-220 package](/pdf/regulator-LM7805.pdf)
 
 
