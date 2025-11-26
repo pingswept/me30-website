@@ -61,14 +61,14 @@ Please see the sketch below for details on how to wire the L298N dual H-bridge b
 * See the [Raspberry Pi setup](http://andnowforelectronics.com/notes/pi-setup/) page to learn how to control your Pi via serial cable and the Internet.
 * See the [Raspberry Pi programming](http://andnowforelectronics.com/notes/pi-programming/) page for snippets of Python code to control the pins on your Pi. 
 * See the [servers and clients](http://andnowforelectronics.com/notes/servers/) page to learn how to coax your Pi into sending and receiving data through the Internet.
-* See the [client and server setup](http://andnowforelectronics.com/notes/demo-videos/#client-and-server-setup) demo video that walks through the code for Raspberry Pis as clients and servers (it also shows Arduino code from previous semesters, but you should ignore that)
+* See the [web page buttons](http://andnowforelectronics.com/notes/pi-programming/#what-if-i-want-to-make-web-page-buttons-that-send-get-http-requests) section to see how to make a web page with buttons that send HTTP requests.
 * See the [Internet](http://andnowforelectronics.com/notes/internet/) page to find out how IP addresses work.
 
 ### Team options for projects 5 and 6
 
 Option 1 – Work in a team of 2 or 3 chosen by you
 
-Option 2 – Work in a team of 2 or 3 assigned to you by Kristen and Brandon
+Option 2 – Work in a team of 2 or 3 assigned to you by instructors
 We’ll pool all the people who would like to be assigned a partner and team you up. We might need to make a team of 3 depending on who is available. 
 
 Use [this survey](https://tufts.qualtrics.com/jfe/form/SV_0cAixyzuN8ok4br) to indicate your chosen teaming option (list your teammates or indicate you'd like to be placed on a team).
