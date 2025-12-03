@@ -10,7 +10,7 @@ Projects 5 and 6 are, in a sense, one mega-project. In the first part, P5, you a
 ## Requirements for project 6
 ### With another robot, measure and balance two payloads
 
-**Due date: during the final exam block for your section (see calendar)**
+**Due date: during your choice of the ME 30 final exam blocks (see [Calendar](http://andnowforelectronics.com/logistics/calendar/))**
 
 For the final project of ME 30, your task is to modify your robot so that it can measure the mass of the payload from P5. Once it measures the mass of the payload, it should deliver the payload to a wisely chosen location on a seesaw.
 
