@@ -3,9 +3,38 @@ title: "Projects"
 draft: false
 ---
 
-# Projects 5 and 6: Build an intrepid robot
+# Projects 5 and 6: Build an intrepid robot that cooperates with another robot to balance two payloads
 
 Projects 5 and 6 are, in a sense, one mega-project. In the first part, P5, you and your team build a robot. In the second part, P6, you and your team modify the robot to deliver a payload under specific diabolical constraints.
+
+## Requirements for project 6
+### With another robot, measure and balance two payloads
+
+**Due date: during the final exam block for your section (see calendar)**
+
+For the final project of ME 30, your task is to modify your robot so that it can measure the mass of the payload from P5. Once it measures the mass of the payload, it should deliver the payload to a wisely chosen location on a seesaw.
+
+### The payloads ###
+
+There are 3 different kinds of payloads. From the outside, they all look the same. However, they have masses of 400 g, 700 g, or 1000 g. The payload masses are accurate to within 1%.
+
+(Please do not make distinguishing marks on the payloads; the point is that you are supposed to tell the difference between them using the load cell on your robot's arm.)
+
+### The seesaw ###
+
+The seesaw is marked with measurements showing the distance from the central pivot. Once you know how much your payload weighs, your robot should deliver it to the seesaw. Another team will deliver a payload to the other side of the seesaw at the same time. Once both payloads have been delivered, the stops on the seesaw will be released. If your robots have measured the payloads correctly and placed them prudently such that the torques balance, the seesaw will balance. If one or both of the robots have placed them poorly, or mismeasured the payloads, the seesaw will tilt, dumping the payload into the void, chased only by your sorrows.
+
+### A few more details ###
+
+* The center of the seesaw is off limits. (Otherwise, you could trivially solve the problem by placing both payloads at the center.)
+* The payload you have to balance will be chosen at random.
+* Your robot can work with any other robot. (If your robot works well, please consider running again with a few other robots.)
+* If your robot fails at first, you can try again.
+* You can choose when you want the seesaw stops released, but both stops must be released at the same time.
+* You can reposition your payload if your robot can manage to do that.
+
+# There will be a diagram of the seesaw here real soon. #
+# Also, the actual seesaw will emerge from hiding in Nolop soon too. #
 
 ## Requirements for project 5
 ### Build an intrepid robot that can carry a hefty payload
