@@ -54,10 +54,10 @@ draft: false
 |   24  | 12/1  | How does the internet work?   | P5 work time               | [Internet](/notes/internet/); [Servers and clients](/notes/servers/)              |   |
 |   25  | 12/3  | P6 intro                 | P5 reflection                |          | [P5](/logistics/projects) due Tues. night  |
 |   26  | 12/8  | Career trajectories | P6 Q & A                   |                               |         |
-|       | 12/11 | noon - P6 demo option 1       |                            |             |[P6 showcase, noon](/logistics/projects)|
-|       | 12/12 | 3:30 PM - P6 demo option 2    |                            |             |[P6 showcase, 3:30 PM](/logistics/projects)|
-|       | 12/15 | noon - P6 demo option 3       |                            |             |[P6 showcase, noon](/logistics/projects)|
-|       | 12/16 | 3:30 PM - P6 demo option 4    |                            |             |[P6 showcase, 3:30 PM](/logistics/projects)|
+|       | 12/11 | 12 to 2 PM - P6 demo option 1       |                            |             |[P6 showcase, noon](/logistics/projects)|
+|       | 12/12 | 3:30 to 5:30 PM - P6 demo option 2    |                            |             |[P6 showcase, 3:30 PM](/logistics/projects)|
+|       | 12/15 | 12 to 2 PM - P6 demo option 3       |                            |             |[P6 showcase, noon](/logistics/projects)|
+|       | 12/16 | 3:30 to 5:30 PM - P6 demo option 4    |                            |             |[P6 showcase, 3:30 PM](/logistics/projects)|
 
 ## Lab Calendar
 
