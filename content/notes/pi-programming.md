@@ -349,3 +349,4 @@ if __name__ == '__main__':
       data = ser.readline().decode('utf-8').rstrip()
       print(data)
 ```
+If you get an error that your Pi can't access the port, you may need to change permissions. You can try `sudo adduser pi dialout ` (assuming your username is pi) or directly change permissions with `sudo chmod ug+rw /dev/ttyACM0 `. You'll probably need to log out for changes to take effect. Or you can skip all that and simply run your serial code file with `sudo python3 serial.py ` instead.
