@@ -7,17 +7,26 @@ draft: false
 
 ME 30, Electronics & Controls I
 
-## Office hours (in Nolop)
+## Office hours for Project 6 support (in Nolop)
 
-* Kristen: Fridays 3-5 PM in Nolop through Dec. 5
-* Zosia: Mondays 2:30-4:30 PM in Nolop
+SUNDAY, 12/7
+* Leia - 5-7pm
+* Theo - 7-8pm
+* Kimberly - 8-10pm
+
+MONDAY, 12/8 
+* Zosia - 2:30-4:30pm
+* Katie - 6-7pm
+
+TUESDAY, 12/9
+* Kristen, 12:30-3pm
+* Zosia, 6:30-8pm
+* Paul, 8-10pm
+
+WEDNESDAY, 12/10
+* Kristen, 1:15-2:15pm (and possibly longer)
+
 * Brandon: is usually in Nolop 9 AM to 5 PM, unless he's teaching class or in a meeting, or it's a weekend
-* TA Sibeli Schneider: Thursdays 4-6 PM through Dec. 4 **in Blake**
-* LA Katie Kostak: Mondays 6-7 PM
-* LA Paul Galvan: Tuesdays 8-10 PM
-* LA Kimberly Eng: Sundays 9-10 PM
-
-Please reach out to Kristen, Brandon, or Zosia if you want to make a separate appointment for help.
 
 ## Course description
 
