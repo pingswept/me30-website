@@ -606,7 +606,7 @@ https://www.pzdsp.com/elab/virtual_oscilloscope.html
 
 ## 37. ME 30 career connections and Project 6 planning (Class 26)
 
-We'll use these slides today: https://docs.google.com/presentation/d/1KQUk6XxwHb4ZOj-VtnntzEh-BJyFNbJ3YQ1TYeTOjiQ/edit?usp=sharing
+
 
 
 
