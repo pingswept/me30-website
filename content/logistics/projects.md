@@ -33,9 +33,6 @@ The seesaw is marked with measurements showing the distance from the central piv
 * You can choose when you want the seesaw stops released, but both stops must be released at the same time.
 * You can reposition your payload if your robot can manage to do that.
 
-# There will be a diagram of the seesaw here real soon. #
-# Also, the actual seesaw will emerge from hiding in Nolop soon too. #
-
 ## Requirements for project 5
 ### Build an intrepid robot that can carry a hefty payload
 
