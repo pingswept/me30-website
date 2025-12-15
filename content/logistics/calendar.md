@@ -39,7 +39,7 @@ draft: false
 |   15  | 10/27 | Motor modeling, PWM                | KB2040 challenge #7; P4 planning              |      | [P3 PCB](/logistics/projects/#project-2-build-an-h-bridge-motor-controller)   |
 |   16  | 10/29 | Sensors, state machines intro      | KB2040 challenges, set 2 | [KB2040 challenges](/notes/kb2040-challenges/); [KB2040 programming](/notes/kb2040-programming/) |  |
 |   17  | 11/3  | State machines, Stepper motors     | KB2040 challenges, set 2 | [KB2040 challenges](/notes/kb2040-challenges/); [KB2040 programming](/notes/kb2040-programming/)|  |
-|   18  | 11/5  | Ethical quandaries in engineering  | P4 work                  | |    |
+|   18  | 11/5  | Ethical considerations for lithium batteries  | P4 work                  | |    |
 |   19  | 11/10 | Raspberry Pi intro                 | Booting the Raspberry Pi | [Raspberry Pi programming](/notes/pi-programming/); [Raspberry Pi setup](/notes/pi-setup/)   |      |
 |   20  | 11/12 | P4 demo and reflection     | P4 demo day              |       |   [P4](/logistics/projects)  |
 
@@ -48,7 +48,7 @@ draft: false
 | Class | Date  | Class topics                  | Hands-on                   | What to study | What's due  |
 |:-----:|:-----:|-------------------------------|----------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------|
 |   21  | 11/17 | Raspberry Pi programming      | Pi challenges              | [Raspberry Pi challenges](/notes/pi-challenges/)  |    | 
-|   22  | 11/19 | Sensor amplification          | Amplify a strain gauge     | [I2C sensors](/notes/i2c/); [Sensor amplification](/notes/amplification)      |      |
+|   22  | 11/19 | Sensor amplification; op-amps          | Amplify a strain gauge     | [I2C sensors](/notes/i2c/); [Sensor amplification](/notes/amplification)      |      |
 |   23  | 11/24 | Oscilloscopes                 | Oscilloscope sim; P5 Q & A |       | P5 sensor amp due     |
 |       | 11/26 | NO CLASS                      | (Thanksgiving)             |           |        |
 |   24  | 12/1  | How does the internet work?   | P5 work time               | [Internet](/notes/internet/); [Servers and clients](/notes/servers/)              |   |
