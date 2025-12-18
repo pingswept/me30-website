@@ -326,17 +326,17 @@ If Supervisor can't start Flask for whatever reason, it will write error message
 
 ### **How can I read data from my Pi's serial port?**
 
-One way to transfer data between devices is through a serial port, such as a USB port. This is what you're doing when you plug a KB2040 into your computer - it's talking to your computer through the port. We can do the same with our Raspberry Pi. This may be a useful tool for your Project 6 so your KB2040 can communicate directly with your Pi. On the KB2040 side, all you need is code that serial prints your data. You want to make sure it sends a new line for every new piece of data - luckily, this is the default when using a print command.
+One way to transfer data between devices is through a serial port, such as a USB port. This is what you're doing when you plug a KB2040 into your computer - it's talking to your computer through the port. We can do the same with our Raspberry Pi. This may be a useful tool for your Project 6 so your KB2040 can communicate directly with your Pi. On the KB2040 side, all you need is code that serial prints your data. You want to make sure it sends a new line for every new piece of data. Luckily, this is the default when using a `print` command.
 
-On the Raspberry Pi side, you first must determine what the port is named. Most Pi's give the USB port a name like /dev/ttyAMC0, but some call it /dev/ttyUSB0 or /dev/ttyS0. If you plug in to the second or third USB, you might get something like /dev/ttyAMC3. The command to list these ports is `ls dev/tty* `. Try running it with the KB2040 plugged in, then run it again when unplugged and see which port disappears.
+On the Raspberry Pi side, you first must determine what the port is named. Most Pi's give the USB port a name like `/dev/ttyACM0`, but some call it `/dev/ttyUSB0` or `/dev/ttyS0`. If you plug in to the second or third USB port, you might get something like `/dev/ttyACM3`. The command to list these ports is `ls dev/tty* `. Try running it with the KB2040 plugged in, then run it again when unplugged and see which port disappears.
 
-Once you know the name of the port, you next need to install the library pyserial.
+Once you know the name of the port, you next need to install the library `pyserial`.
 
 ```
 sudo apt-get install python3-serial
 ```
 
-Then, make some code that reads the serial port and prints it. There's a couple ways to do this, one example is below. It initializes a connection to the serial port, defining the port name, baud rate (how many times per second the signal is changing), and timeout (how long it waits for data). Then reset the buffer so you start collecting at the beginning of a data packet, not halfway through. If any data is waiting in the buffer, it will be converted to Unicode so we can understand it and then printed out. The code below uses the port name `/dev/ttyAMC0`, replace it if yours is something different.
+Then, make some code that listens to the serial port and prints what it receives. There are a couple of ways to do this; one example is below. The code initializes a connection to the serial port, defining the port name, baud rate (how many times per second the signal is changing), and timeout (how long it waits for data). Then reset the buffer so you start collecting at the beginning of a data packet, not halfway through. If any data is waiting in the buffer, it will be converted to Unicode so we can understand it and then printed out. The code below uses the port name `/dev/ttyAMC0`. You can replace it if yours is something different.
 
 ```python
 import serial
@@ -349,4 +349,4 @@ if __name__ == '__main__':
       data = ser.readline().decode('utf-8').rstrip()
       print(data)
 ```
-If you get an error that your Pi can't access the port, you may need to change permissions. You can try `sudo adduser pi dialout ` (assuming your username is pi) or directly change permissions with `sudo chmod ug+rw /dev/ttyACM0 `. You'll probably need to log out for changes to take effect. Or you can skip all that and simply run your serial code file with `sudo python3 serial.py ` instead.
+If you get an error that your Pi can't access the port, you may need to change permissions. You can try `sudo adduser pi dialout` (assuming your username is pi) or directly change permissions with `sudo chmod ug+rw /dev/ttyACM0 `. You'll probably need to log out for changes to take effect. Or you can skip all that and simply run your serial code file with `sudo python3 listen.py ` instead. (Do not call your file `serial.py` because that will conflict with the Python serial library.)
