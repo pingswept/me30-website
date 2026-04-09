@@ -7,25 +7,9 @@ draft: false
 
 ME 30, Electronics & Controls I
 
-## Office hours for Project 6 support (in Nolop)
+## Office hours 
 
-SUNDAY, 12/7
-* Leia - 5-7pm
-* Theo - 7-8pm
-* Kimberly - 8-10pm
-
-MONDAY, 12/8 
-* Zosia - 2:30-4:30pm
-* Katie - 6-7pm
-
-TUESDAY, 12/9
-* Kristen, 12:30-3pm
-* Zosia, 6:30-8pm
-* Paul, 8-10pm
-
-WEDNESDAY, 12/10
 * Kristen, 1:15-2:15pm (and possibly longer)
-
 * Brandon: is usually in Nolop 9 AM to 5 PM, unless he's teaching class or in a meeting, or it's a weekend
 
 ## Course description
