@@ -62,21 +62,22 @@ draft: false
 
 ## Lab Calendar
 
-| Lab # | Lab dates   | Lab focus  | 
-|:-----:|:-----------:|----------------------|
-|   1   | 9/10-9/12   | Voltage divider & voltage regulator circuits |
-|   2   | 9/17-9/19   | Learn KiCad |
-|   3   | 9/24-9/26   | Solder your KB2040 pins |
-|   4   | 10/1-10/5   | P0 testing, Control a motor with transistors, P2 help |
-|   5   | 10/8-10/12  | OPTIONAL: Help with KB2040 challenges set 1 |
-|   6   | 10/15-10/19 | H-bridges |
-|   7   | 10/22-10/26 | Solder your P1 PCB, H-bridge PCB help |
-|   8   | 10/29-11/2  | KB2040 challenges set 2 |
-|   9   | 11/5-11/9   | P4 help |
-|   10  | 11/12-11/16 | Raspberry Pi set-up and challenges |
-|   11  | 11/19-11/23 | Sensor amplifier |
-|       | 11/26-11/30 | No labs (Thanksgiving week) |
-|       | 12/3-12/7   | Labs shift to drop-in help sessions open to all |
+| Lab # | Lab dates          | Lab focus  | 
+|:-----:|:------------------:|----------------------|
+|   1   | 9/9-9/11           | Voltage divider & voltage regulator circuits |
+|   2   | 9/16-9/18          | Learn KiCad |
+|   3   | 9/23-9/25          | Solder your KB2040 pins |
+|   4   | 9/30-10/2          | P0 testing, Control a motor with transistors, P2 help |
+|   5   | 10/7-10/9          | OPTIONAL: Help with KB2040 challenges set 1 |
+|   6   | 10/14-10/16        | H-bridges |
+|   7   | 10/21-10/23        | Solder your P1 PCB, H-bridge PCB help |
+|   8   | 10/28-10-30        | KB2040 challenges set 2 |
+|   9   | 11/4-11/6          | P4 help |
+|   10  | 11/10, 11/12-11/13 | Raspberry Pi set-up and challenges |
+|   11  | 11/18-11/20        |                             |
+|       | 11/25-11/27        | No labs (Thanksgiving week) |
+|   12  | 12/2-12/4          | Sensor amplifier |
+|       | 12/9-12/11         | Labs shift to drop-in help sessions open to all |
 
 
 
