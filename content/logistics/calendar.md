@@ -21,15 +21,15 @@ draft: false
 
 | Class | Date  | Class topics                                  | Hands-on                        | What to study                                                            | What's due                                                    |
 |:-----:|:-----:|-----------------------------------------------|---------------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------|
-|   07  | 10/5  | Transistors as switches                       | Make a switch with a BJT        | [Low power/high power](/notes/low-power-high-power/)|[P1 PCB](/logistics/projects/#project-1-build-a-breadboard-power-supply)|        |
-|   08  | 10/7  | Intro to P2 (game v1), DC motors, MOSFETs     | Run a motor with a MOSFET       | [Motors](/notes/motors/) |              |
+|   07  | 9/30  | Transistors as switches                       | Make a switch with a BJT        | [Low power/high power](/notes/low-power-high-power/)|[P1 PCB](/logistics/projects/#project-1-build-a-breadboard-power-supply)|        |
+|   08  | 10/5  | Intro to P2 (game v1), DC motors, MOSFETs     | Run a motor with a MOSFET       | [Motors](/notes/motors/) |              |
+|   09  | 10/7  | Microcontrollers, CircuitPython               | KB2040 set-up                   | [KB2040 hardware](/notes/feather-rp2040-hardware/); [Microcontrollers](/notes/microcontrollers/); Solder pins to your KB2040 and bring to class |  P0 motor hubs in labs    |
 |       | 10/12 | NO CLASS                                      | (Indigenous People's Day)       |  |        |
-|   09  | 10/14 | Microcontrollers, CircuitPython               | KB2040 set-up                   | [KB2040 hardware](/notes/feather-rp2040-hardware/); [Microcontrollers](/notes/microcontrollers/); Solder pins to your KB2040 and bring to class |  P0 motor hubs in labs    |
-|   10  | 10/19 | Digital and analog I/O hardware               | De-bugging challenges; KB2040 challenges set 1  |    [KB2040 programming](/notes/kb2040-programming/); [KB2040 challenges](/notes/kb2040-challenges/)    |   
-|   11  | 10/21 | H-bridges                                     | Start building an H-bridge      | [H-bridge motor driver](/notes/h-bridge/) | [P2 (game v1)](/logistics/projects) due Wed. in class|
-|   12  | 10/26 | Intro to P3, More H-bridge details            | More H-bridge work              | [H-bridge motor driver](/notes/h-bridge/); [Intro and video for P3](/logistics/projects/#project-2-build-an-h-bridge-motor-controller)             | [KB2040 challenge #6](http://andnowforelectronics.com/notes/kb2040-challenges/)      |
-|   13  | 10/28 | Motor electrical power, detailed PCB design   | Motor measurement; Run your H-bridge with your KB2040   |     |[P3 proto](/logistics/projects/#project-2-build-an-h-bridge-motor-controller)|
-|   14  | 11/2  | Intro to P4, Motor mechanical power           | More motor measurement; P1 PCB test  | Solder components to your P1 PCB and bring to class  | Soldered P1 PCB |
+|   10  | 10/14 | Digital and analog I/O hardware               | De-bugging challenges; KB2040 challenges set 1  |    [KB2040 programming](/notes/kb2040-programming/); [KB2040 challenges](/notes/kb2040-challenges/)    |   
+|   11  | 10/19 | H-bridges                                     | Start building an H-bridge      | [H-bridge motor driver](/notes/h-bridge/) | [P2 (game v1)](/logistics/projects) due Wed. in class|
+|   12  | 10/21 | Intro to P3, More H-bridge details            | More H-bridge work              | [H-bridge motor driver](/notes/h-bridge/); [Intro and video for P3](/logistics/projects/#project-2-build-an-h-bridge-motor-controller)             | [KB2040 challenge #6](http://andnowforelectronics.com/notes/kb2040-challenges/)      |
+|   13  | 10/26 | Motor electrical power, detailed PCB design   | Motor measurement; Run your H-bridge with your KB2040   |     |[P3 proto](/logistics/projects/#project-2-build-an-h-bridge-motor-controller)|
+|   14  | 10/28 | Intro to P4, Motor mechanical power           | More motor measurement; P1 PCB test  | Solder components to your P1 PCB and bring to class  | Soldered P1 PCB |
 
 
 ## Phase 3: Microcontrollers and sensors
@@ -54,7 +54,7 @@ draft: false
 |   23  | 12/2  | Oscilloscopes                 | Oscilloscope sim; P5 Q & A |       | P5 sensor amp due     |
 |   24  | 12/7  | How does the internet work?   | P5 work time               | [Internet](/notes/internet/); [Servers and clients](/notes/servers/)              |   |
 |   25  | 12/9  | P6 intro                 | P5 reflection                |          | [P5](/logistics/projects) due Tues. night  |
-|   26  | 12/14  | Career trajectories | P6 Q & A                   |                               |         |
+|   26  | 12/14 | Career trajectories | P6 Q & A                   |                               |         |
 |       | 12/16 | 12 to 2 PM - P6 demo option 1       |                            |             |[P6 showcase, noon](/logistics/projects)|
 |       | 12/17 | 3:30 to 5:30 PM - P6 demo option 2    |                            |             |[P6 showcase, 3:30 PM](/logistics/projects)|
 |       | 12/18 | 12 to 2 PM - P6 demo option 3       |                            |             |[P6 showcase, noon](/logistics/projects)|
@@ -64,9 +64,9 @@ draft: false
 
 | Lab # | Lab dates   | Lab focus  | 
 |:-----:|:-----------:|----------------------|
-|   1   | 9/10-9/14   | Voltage divider & voltage regulator circuits |
-|   2   | 9/17-9/21   | Learn KiCad |
-|   3   | 9/24-9/28   | Solder your KB2040 pins |
+|   1   | 9/10-9/12   | Voltage divider & voltage regulator circuits |
+|   2   | 9/17-9/19   | Learn KiCad |
+|   3   | 9/24-9/26   | Solder your KB2040 pins |
 |   4   | 10/1-10/5   | P0 testing, Control a motor with transistors, P2 help |
 |   5   | 10/8-10/12  | OPTIONAL: Help with KB2040 challenges set 1 |
 |   6   | 10/15-10/19 | H-bridges |
