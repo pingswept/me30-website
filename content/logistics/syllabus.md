@@ -9,8 +9,9 @@ ME 30, Electronics & Controls I
 
 ## Office hours 
 
-* Kristen, 1:15-2:15pm (and possibly longer)
+* Kristen, 2-4pm Fridays in Nolop
 * Brandon: is usually in Nolop 9 AM to 5 PM, unless he's teaching class or in a meeting, or it's a weekend
+* Zosia: TBD
 
 ## Course description
 
@@ -49,13 +50,13 @@ The point of the course is to force students to gain experience with the practic
 
 Morning sections: Kristen Wendell, kristen.wendell@tufts.edu
 
-Afternoon section: Brandon Stafford, brandon.stafford@tufts.edu
+Early afternoon section: Brandon Stafford, brandon.stafford@tufts.edu
 
-Evening section: Zosia Stafford, zosia.stafford@tufts.edu
+Later afternoon section: Zosia Stafford, zosia.stafford@tufts.edu
 
 ## Course credit and time expectations
 
-ME 30 is a 4-SHU course with lab. At Tufts, each SHU equates to 3 hours of student time per week. 4-SHU courses are expected to require an average of 12 student hours per week. Typically, these hours are divided into about 3 hours of class time and 9 hours of lab/homework/study time. For Fall 2025, you can expect to spend roughly 2.5 hours in class sessions, 1 hour in your scheduled lab, 2 hours reading/viewing/studying, and the remaining 7 hours on project work each week.
+ME 30 is a 4-SHU course with lab. At Tufts, each SHU equates to 3 hours of student time per week. 4-SHU courses are expected to require an average of 12 student hours per week. Typically, these hours are divided into about 3 hours of class time and 9 hours of lab/homework/study time. For Fall 2026, you can expect to spend roughly 2.5 hours in class sessions, 1 hour in your scheduled lab, 2 hours reading/viewing/studying, and the remaining 7 hours on project work each week.
 
 ## What to do if you need to miss a class or due date 
 
@@ -94,7 +95,7 @@ Here's how class will work each Monday and Wednesday.
 
 ### Labs
 
-Each ME 30 student is also assigned to a lab group that meets weekly in the Nolop Makerspace under the guidance of a Learning Assistant (LA), each of whom is a successful ME 30 alum. The purpose of these scheduled 1-hour lab times is to give students access to a smaller group of peers and a mentor (your LA) for hands-on support with circuits and code. We've worked hard to balance out the lab size for an LA:student ratio of about 8:1, so please attend lab on the day/time in which you are enrolled. Labs begin on Wednesday, Sep. 10, 2025.
+Each ME 30 student is also assigned to a lab group that meets weekly in the Nolop Makerspace under the guidance of a Learning Assistant (LA), each of whom is a successful ME 30 alum. The purpose of these scheduled 1-hour lab times is to give students access to a smaller group of peers and a mentor (your LA) for hands-on support with circuits and code. We've worked hard to balance out the lab size for an LA:student ratio of about 8:1, so please attend lab on the day/time in which you are enrolled. In the first week of classes, labs (Sep. 11 through Sep. 13, 2026) are for breadboard-novices only -- students who have never worked with breadboards before. Please come if you are new to building circuits in breadboards! Required labs for all students begin on Wednesday, Sep. 17, 2026.
 
 ### Asynchronous elements  
 * 	 **Video mini-lectures** - Created and posted by the instructors. Several on a set of new topics each week.  
@@ -109,38 +110,41 @@ Each ME 30 student is also assigned to a lab group that meets weekly in the Nolo
 
 ## Assignments and grading
 
-Grades will be based  entirely on your project work. There will also be a two short quizzes in which we ask you to troubleshoot a circuit or its code, but they will not count toward your grade.   
-*    Projects (7) - 90% of course grade
-*    In-Class Activities (20) - 10% of course grade  
+Grades will be based mostly on your project work, but you'll also be responsible for some smaller homework assignments and in-class exercises that are designed to help you keep moving along toward project success.    
+*    Projects (5) - 70% of course grade
+*    Homeworks (11) - 20% of course grade
+*    In-Class Exercises (20) - 10% of course grade  
 
-### Projects (90%)
+### Projects (70%)
 
 Here's the gist of this grading scheme: if you *attempt* all project requirements on time, you'll earn at least a C for your project grade. If you also *meet* the requirements for each project, you'll shift up to an A for your project grade. You can calculate the details if you want, but the main message is that you should complete all the projects, and you should do them on time.
 
-Each project will be worth 7 points, and then scaled by the number of weeks allocated to complete the project. (So a project 2 weeks in duration is worth twice as much as a project 1 week in duration.) For projects that have both *prototype* and *final* deadlines, 1 of the 7 points comes from submitting your project prototype on time for the *prototype deadline.* Most of the remaining points (4 or 5, depending on whether there was a prototype deadline) are awarded if you have *attempted* all project requirements - and documented those attempts - by the *final project deadline.* The final 2 remaining points are awarded if your project meets the requirements, like "circuit emits 5 volts" or "motor spins in 2 directions." 
+Each project will be worth 10 points, and then scaled by the number of weeks allocated to complete the project. (So a project 2 weeks in duration is worth twice as much as a project 1 week in duration.) Most of the points are awarded if you have *attempted* all project requirements - and clearly documented and explained those attempts - by the *final project deadline.* The final 2 remaining points are awarded if your project is *functional* in meeting the core electronic requirements, like "circuit emits 5 volts" or "motor spins in 2 directions." 
 
 For group projects with N people per group, you should do roughly 1/N of the work.
 
 **Late Work Penalty**
 
-Each project will have a posted due date and time. If your work is submitted after the posted due date, an automatic late submission deduction of 1 point per day will be applied. However, there is a 48-hour grace period before the penalty kicks in. The grace period means that if a project is 47.9 hours late, no points will be deducted, but once 48 hours have passed, you're already at a 2-point deduction. Beyond 4 days late, the best you will do is half of the points for that project.
+Each project will have a posted due date and time. If your work is submitted after the posted due date, an automatic late submission deduction of 1 point per day will be applied. However, there is a 48-hour grace period before the penalty kicks in. The grace period means that if a project is 47.9 hours late, no points will be deducted, but once 48 hours have passed, you're already at a 2-point deduction. Beyond 5 days late, the best you will do is half of the points for that project.
 
 If you are unable to meet a deadline because you are experiencing serious illness or a family emergency, the policy above will apply unless you communicate with your ME 30 instructor about your illness or emergency BEFORE the deadline. We will work with you to adjust due dates in a way that won’t negatively impact your learning. 
 
 
 | Project # | Project Goal  | Fraction of Course |
 |-----|--------------------------------------------|----|
-|  0. |  Build a motor hub that remains securely attached to your DC motor shaft when heavily loaded.   | 1/15 |
-|  1. |  Build a breadboard power supply that accepts power from a 12 V wall supply and emits 12 V, 5 V, and 3.3 V at the same time. | 2/15 |
+|  1. |  Build a breadboard power supply that accepts power from a 12 V wall supply and emits 12 V, 5 V, and 3.3 V at the same time. | 3/15 |
 |  2. |  Build a very basic motorized game, with a motor that spins in only one direction.   | 2/15 |
 |  3. |  Build an H-bridge motor controller to make a motor spin both ways.   | 3/15 |
 |  4. |  Build a more complex electromechanical game including microcontroller, moving mechanical element, and user input.    | 3/15 |
-|  5. |  Build a an internet-connected, electromechanical device that can traverse an obstacle.    | 2.5/15 |
-|  6. |  Coordinate with other electromechanical devices in an internet-connected system.     | 1.5/15 |
+|  5. |  Build a an internet-connected, electromechanical device that can traverse an obstacle.    | 4/15 |
 
 ![semester timeline](/img/SemesterTimeline.jpg)
 
     
+### Homeworks (20%)
+
+Most weeks, there will be some smaller deliverables that we assign to support you in making progress toward project success. For each homework, Canvas will indicate whether you should upload a photo, video, or other documentation. These submissions are graded for effort and completion, either 0 or 1 point. 
+
 ### Class exercises (10%)
 
 We'll work together on hands-on, [in-class exercises](http://andnowforelectronics.com/logistics/exercises/) during each class period. For each class period, Canvas will indicate the exercise for which you should upload a photo or other documentation. Canvas submissions for in-class exercises are due by the end of the class period. These submissions are graded for effort and completion, either 0 or 1 point.
@@ -151,7 +155,7 @@ We take honesty very seriously. Not only are we required to report violations of
 
 ### Use of generative AI tools like ChatGPT
 
-If you query them with questions about circuit components, Python code for microcontrollers and Raspberry Pis, and other topics related to this course, generative AI tools like ChatGPT, Google Bard, and GitHub Copilot will certainly respond with abundant information. Our policy on their use is as follows:
+If you query them with questions about circuit components, Python code for microcontrollers and Raspberry Pis, and other topics related to this course, generative AI tools like ChatGPT, Claude, Google Bard, and GitHub Copilot will certainly respond with abundant information. Our policy on their use is as follows:
 - If you want to learn electronics well, we don't recommend the use of generative AI tools on ME 30 project tasks. The perceived efficiency they may provide you likely comes at a real cost to your learning. If an AI assistant provides you with CircuitPython code or tells how how to wire a circuit, you may be sacrificing an opportunity to build your own understanding of the structure of the code, the functioning of the circuit, or the community of living, breathing experts on a topic. To study mechanical engineering is to learn what's under the hood of the designed world. Figuring out how to get an AI assistant to give you a design plan is not the same thing as developing mechanical engineering expertise.  
 - However, there will be no penalty to your grade in ME 30 if you choose to use a generative AI tool on an ME 30 task **and you provide attribution to that tool** in your project submission.  **If you use a generative AI tool for an ME 30 project without documenting that you've done so, we will consider that action a violation of academic integrity.**
 
@@ -182,7 +186,7 @@ This course address all 7 student outcomes required by ABET, the accrediting bod
 |  1.	identify, formulate, and solve complex engineering problems by applying principles of engineering, science, and mathematics |  Course video lectures, reading assignments, and class activities involve circuit analysis problems  |
 | 2.	apply engineering design to produce solutions that meet specified needs with consideration of public health, safety, and welfare, as well as global, cultural, social, environmental, and economic factors  |  •	Course revolves around six hands-on circuit design projects that progress in difficulty and in complexity of requirements and constraints  |
 |  3.	communicate effectively with a range of audiences |  Video-recorded and live presentations of projects  |
-|  4.	recognize ethical and professional responsibilities in engineering situations and make informed judgments, which must consider the impact of engineering solutions in global, economic, environmental, and societal contexts | Discussion of safety considerations with high power circuits; Macroethics and discriminatory design addressed in project reflection assignments   |
-|  5.	function effectively on a team whose members together provide leadership, create a collaborative and inclusive environment, establish goals, plan tasks, and meet objectives  | Students work in teams for Projects 5 and 6   |
+|  4.	recognize ethical and professional responsibilities in engineering situations and make informed judgments, which must consider the impact of engineering solutions in global, economic, environmental, and societal contexts | Discussion of safety considerations with high power circuits; Class module on lithium mining; Macroethics and discriminatory design addressed in project reflection assignments   |
+|  5.	function effectively on a team whose members together provide leadership, create a collaborative and inclusive environment, establish goals, plan tasks, and meet objectives  | Students work in teams for Project 5    |
 |  6.	develop and conduct appropriate experimentation, analyze and interpret data, and use engineering judgment to draw conclusions | Frequent opportunities to analyze circuit behavior with digital multimeter; Troubleshooting and debugging of circuits emphasized  |
-| 7.	acquire and apply new knowledge as needed, using appropriate learning strategies  |  Open-ended nature of Projects 4, 5, and 6 requires students to find and apply learning resources applicable to the components and behaviors they wish to incorporate  |
+| 7.	acquire and apply new knowledge as needed, using appropriate learning strategies  |  Open-ended nature of Projects 4 and 5 requires students to find and apply learning resources applicable to the components and behaviors they wish to incorporate  |
