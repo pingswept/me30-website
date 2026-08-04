@@ -26,23 +26,23 @@ draft: false
 |   09  | 10/7  | Microcontrollers, CircuitPython               | KB2040 set-up                   | [KB2040 hardware](/notes/feather-rp2040-hardware/); [Microcontrollers](/notes/microcontrollers/); Solder pins to your KB2040 and bring to class |  P0 motor hubs in labs    |
 |       | 10/12 | NO CLASS                                      | (Indigenous People's Day)       |  |        |
 |   10  | 10/14 | Digital and analog I/O hardware               | De-bugging challenges; KB2040 challenges set 1  |    [KB2040 programming](/notes/kb2040-programming/); [KB2040 challenges](/notes/kb2040-challenges/)    |   
-|   11  | 10/19 | H-bridges                                     | Start building an H-bridge      | [H-bridge motor driver](/notes/h-bridge/) | [P2 (game v1)](/logistics/projects) due Wed. in class|
-|   12  | 10/21 | Intro to P3, More H-bridge details            | More H-bridge work              | [H-bridge motor driver](/notes/h-bridge/); [Intro and video for P3](/logistics/projects/#project-2-build-an-h-bridge-motor-controller)             | [KB2040 challenge #6](http://andnowforelectronics.com/notes/kb2040-challenges/)      |
-|   13  | 10/26 | Motor electrical power, detailed PCB design   | Motor measurement; Run your H-bridge with your KB2040   |     |[P3 proto](/logistics/projects/#project-2-build-an-h-bridge-motor-controller)|
-|   14  | 10/28 | Intro to P4, Motor mechanical power           | More motor measurement; P1 PCB test  | Solder components to your P1 PCB and bring to class  | Soldered P1 PCB |
+|   11  | 10/19 | H-bridges, P3 intro                                     | Start building an H-bridge      | [H-bridge motor driver](/notes/h-bridge/) | [P2 (game v1)](/logistics/projects) due Wed. in class|
+|   12  | 10/21 | More H-bridge details            | More H-bridge work              | [H-bridge motor driver](/notes/h-bridge/); [Intro and video for P3](/logistics/projects/#project-2-build-an-h-bridge-motor-controller)             | [KB2040 challenge #6](http://andnowforelectronics.com/notes/kb2040-challenges/)      |
+|   13  | 10/26 | Motor electrical & mechanical power   | Motor measurement; Run your H-bridge with your KB2040   |     |[P3 proto](/logistics/projects/#project-2-build-an-h-bridge-motor-controller)|
+|   14  | 10/28 | Intro to P4, PWM           | More motor measurement  |   |  |
 
 
 ## Phase 3: Microcontrollers and sensors
 
 | Class | Date  | Class topics                       | Hands-on                 | What to study | What's due  |
 |:-----:|:-----:|------------------------------------|--------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------|
-|   15  | 11/2  | Motor modeling, PWM                | KB2040 challenge #7; P4 planning              |      | [P3 PCB](/logistics/projects/#project-2-build-an-h-bridge-motor-controller)   |
+|   15  | 11/2  | Motor modeling, more PWM                | KB2040 challenge #7; P4 planning              |      | [P3 PCB](/logistics/projects/#project-2-build-an-h-bridge-motor-controller)   |
 |   16  | 11/4  | Sensors, state machines intro      | KB2040 challenges, set 2 | [KB2040 challenges](/notes/kb2040-challenges/); [KB2040 programming](/notes/kb2040-programming/) |  |
 |   17  | 11/9  | State machines, Stepper motors     | KB2040 challenges, set 2 | [KB2040 challenges](/notes/kb2040-challenges/); [KB2040 programming](/notes/kb2040-programming/)|  |
 |   18  | 11/10 | Ethical considerations for lithium batteries  | P4 work                  | |    |
 |       | 11/11 | NO CLASS, but notice Tuesday, 11/10 | (Veteran's Day)          |  |  |
 |   19  | 11/16 | Raspberry Pi intro                 | Booting the Raspberry Pi | [Raspberry Pi programming](/notes/pi-programming/); [Raspberry Pi setup](/notes/pi-setup/)   |      |
-|   20  | 11/18 | P4 demo and reflection     | P4 demo day              |       |   [P4](/logistics/projects)  |
+|   20  | 11/18 | P4 reflection; Intro to P5 Stage 1     | P4 demo day              |       |   [P4](/logistics/projects)  |
 
 ## Phase 4: Driving robots with operating systems
 
@@ -50,11 +50,11 @@ draft: false
 |:-----:|:-----:|-------------------------------|----------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------|
 |   21  | 11/23 | Raspberry Pi programming      | Pi challenges              | [Raspberry Pi challenges](/notes/pi-challenges/)  |    | 
 |       | 11/25 | NO CLASS                      | (Thanksgiving)             |           |        |
-|   22  | 11/30 | Sensor amplification; op-amps          | Amplify a strain gauge     | [I2C sensors](/notes/i2c/); [Sensor amplification](/notes/amplification)      |      |
-|   23  | 12/2  | Oscilloscopes                 | Oscilloscope sim; P5 Q & A |       | P5 sensor amp due     |
+|   22  | 11/30 | Sensor amplification; op-amps          | Amplify a strain gauge; measure with multimeter     | [I2C sensors](/notes/i2c/); [Sensor amplification](/notes/amplification)      |      |
+|   23  | 12/2  | Oscilloscopes;                  | Oscilloscope sim; load cell de-bugging |       | P5 sensor amp due     |
 |   24  | 12/7  | How does the internet work?   | P5 work time               | [Internet](/notes/internet/); [Servers and clients](/notes/servers/)              |   |
-|   25  | 12/9  | P6 intro                 | P5 reflection                |          | [P5](/logistics/projects) due Tues. night  |
-|   26  | 12/14 | Career trajectories | P6 Q & A                   |                               |         |
+|   25  | 12/9  | P5 Stage 2                 | P5 Stage 1 reflection                |          | [P5](/logistics/projects) due Tues. night  |
+|   26  | 12/14 | Career trajectories | P5 Stage 2 Q & A                   |                               |         |
 |       | 12/16 | 12 to 2 PM - P6 demo option 1       |                            |             |[P6 showcase, noon](/logistics/projects)|
 |       | 12/17 | 3:30 to 5:30 PM - P6 demo option 2    |                            |             |[P6 showcase, 3:30 PM](/logistics/projects)|
 |       | 12/18 | 12 to 2 PM - P6 demo option 3       |                            |             |[P6 showcase, noon](/logistics/projects)|
