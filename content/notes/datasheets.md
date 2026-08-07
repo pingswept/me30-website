@@ -34,7 +34,7 @@ To see more about how to draw the circuit schematic symbol for common parts, che
 
 ## Resistors
 
-* [1/2 W resistor](/pdf/resistor-CFM1JTxxxR.pdf)  
+* [1/2 W resistor, 100 ohm through 100K ohm (type CF, size 12)](/pdf/resistor-CFM1JTxxxR.pdf)  
 * [Resistor color code chart](https://cdn.sparkfun.com/assets/learn_tutorials/6/4/Resistors.png)
 
 ## Sensors
