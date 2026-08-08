@@ -3,6 +3,8 @@ languageCode = "en-us"
 title = "Tufts ME 30"
 theme = "book"
 enableGitInfo = true
+[security]
+  allowContent = ['^text/markdown$', '^text/html$']
 [params]
   BookSection = '*'
   BookRepo = 'https://github.com/pingswept/me30-website'
