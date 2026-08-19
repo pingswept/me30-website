@@ -28,32 +28,29 @@ Note: Brandon Stafford and Zosia Stafford are not related to each other. We are 
 ## Learning assistants
 
 {{< columns >}}
-![Sol Brizuela](/img/sol-brizuela.jpg)
-Sol Brizuela
+![Cece Carr](/img/cece-carr.jpg)
+Cece Carr
 <--->
-![Kimberly Eng](/img/kimberly-eng.jpg)
-Kimberly Eng
+![Allison Kinzer](/img/allison-kinzer.jpg)
+Allison Kinzer
 <--->
-![Paul Galvan](/img/paul-galvan.jpg)
-Paul Galvan
+![Delaney McLynch](/img/delaney-mclynch.jpg)
+Delaney McLynch
 <--->
-![Leia Hannes](/img/leia-hannes.jpg)
-Leia Hannes
+![Sara Murillo](/img/sara-murillo.jpg)
+Sara Murillo
 <--->
-![Katie Kostak](/img/katie-kostak.png)
-Katie Kostak
+![Bo Pilarczyk](/img/bo-pilarczyk.jpg)
+Bo Pilarczyk
 <--->
-![Colette Laliberte](/img/colette-laliberte.jpg)
-Colette Laliberte
+![Dylan Rolon](/img/dylan-rolon.jpg)
+Dylan Rolon
 <--->
-![Theo Prince](/img/theo-prince.jpg)
-Theo Prince
+![Rachel Rudin](/img/rachel-rudin.jpg)
+Rachel Rudin
 <--->
-![Cade Smith](/img/cade-smith.jpg)
-Cade Smith
-<--->
-![Rachel Woo](/img/rachel-woo.jpg)
-Rachel Woo
+![Jude Vamenta](/img/jude-vamenta.jpg)
+Jude Vamenta
 <--->
 {{< /columns >}}
 
