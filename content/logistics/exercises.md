@@ -2,7 +2,7 @@
 title: "Exercises"
 draft: false
 ---
-# In-class exercises for Fall 2025
+# In-class exercises for Fall 2026
 
 ## 1: Power an LED with "wall" power (Class 1)
 
@@ -27,8 +27,7 @@ The image below is a circuit diagram representation of what you're building.
 
 ![Wall-powered LED circuit](/img/project0_circuit.png)
 
-
-{{< expand "If you're using a barrel jack instead of a screw terminal adapter, click here for info on the barrel jack" "..." >}}
+{{< expand "If you're using a barrel jack instead of a screw terminal adapter, click here for info" "..." >}}
 
 **The pins on the power jack are weird! More details below.**
 
