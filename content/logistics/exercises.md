@@ -27,11 +27,11 @@ The image below is a circuit diagram representation of what you're building.
 
 ![Wall-powered LED circuit](/img/project0_circuit.png)
 
-{{< expand "If you're using a barrel jack instead of a screw terminal adapter, click here for info" "..." >}}
+**For an extension to this exercise,** re-arrange your circuit so you have one LED that stays on permanently and another that is powered by the button.
 
-**The pins on the power jack are weird! More details below.**
+{{< expand "If you're using a barrel jack instead of a screw terminal adapter, click here for more info" >}}
 
-There's a cryptic diagram in the [datasheet](http://andnowforelectronics.com/notes/datasheets/) for the PJ-102AH power jack, shown below.
+The pins on the power jack are weird! There's a cryptic diagram in the [datasheet](http://andnowforelectronics.com/notes/datasheets/) for the PJ-102AH power jack, shown below.
 
 ![power jack pinout](/img/power-jack-pinout.jpg)
 
@@ -50,7 +50,6 @@ Image credit: E. Schlaepfer and W. Oskay, 2023, Open Circuits, opencircuitsbook.
 
 
 
-**For an extension to this exercise,** re-arrange your circuit so you have one LED that stays on permanently and another that is powered by the button.
 
 
 ## 2. LED circuit details (Class 2)
