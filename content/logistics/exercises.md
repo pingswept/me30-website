@@ -17,7 +17,7 @@ Your goal is to create a circuit on your breadboard that lights up an LED with p
 The components are:
 
 1. DC power supply
-2. One power (barrel) jack
+2. One power-to-screw-terminal adapater
 3. One LED
 4. One resistor (What size? See [these notes](http://andnowforelectronics.com/notes/resistors/#typical-application-current-limiter).)
 5. One pushbutton
@@ -29,27 +29,6 @@ The image below is a circuit diagram representation of what you're building.
 
 
 **For an extension to this exercise,** re-arrange your circuit so you have one LED that stays on permanently and another that is powered by the button.
-
-
-{{< hint danger >}}
-**Important note: the pins on the power jack are weird! More details below.**
-
-There's a cryptic diagram in the [datasheet](http://andnowforelectronics.com/notes/datasheets/) for the PJ-102AH power jack, shown below.
-
-![power jack pinout](/img/power-jack-pinout.jpg)
-
-One part is obvious: the pin in the middle is connected to pin 1.
-
-But what is that little arrow/bump thing with pins 2 and 3?
-
-That's trying to tell you that when the jack is empty (i.e. no plug inserted), pins 2 and 3 are connected together. When you insert the plug, the barrel pushes on the bump at the end of the pin 2 contact, which bends it away from the pin 3 arrow, breaking the connection to pin 3. It's so that you can detect whether there's a plug inserted or not, which can be useful for battery-powered systems. You don't need to implement that feature on your regulator board; you can just use pins 1 and 2.
-
-In the cross-section view of a barrel plug inserted into the jack, you can see how the outer sheath of the plug makes contact with pin 2 and also how the plug breaks the continuity between pin 3 and pin 2.  
-
-![barrel jack cross section](/img/BarrelJackMultipleViews.jpg)
-
-Image credit: E. Schlaepfer and W. Oskay, 2023, Open Circuits, opencircuitsbook.com
-{{< /hint >}}
 
 
 ## 2. LED circuit details (Class 2)
