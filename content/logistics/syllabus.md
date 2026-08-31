@@ -11,7 +11,7 @@ ME 30, Electronics & Controls I
 
 * Kristen, 2-4pm Fridays in Nolop
 * Brandon: is usually in Nolop 9 AM to 5 PM, unless he's teaching class or in a meeting, or it's a weekend
-* Zosia: TBD
+* Zosia: 4:30-6:30pm Mondays in Nolop
 
 ## Course description
 
