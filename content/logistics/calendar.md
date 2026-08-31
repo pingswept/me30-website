@@ -63,7 +63,7 @@ draft: false
 
 | Lab # | Lab dates          | Lab focus  | 
 |:-----:|:------------------:|----------------------|
-|   0   | 9/9-9/11           | Breadboard basics (optional lab for breadboard novices) |
+|   0   | 9/9-9/11           | No lab; Drop-in help sessions for breadboard novices during lab times |
 |   1   | 9/16-9/18          | Voltage divider & voltage regulator circuits |
 |   2   | 9/23-9/25          | Learn KiCad |
 |   3   | 9/30-10/2          | Control a motor with BJT + potentiometer |
