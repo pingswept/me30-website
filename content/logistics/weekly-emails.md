@@ -37,7 +37,10 @@ Your first Canvas deliverable: Upload a video introducing yourself and demonstra
 
 **Where to get hands-on help if you're totally new to electronics:**
 
-ME 30 Learning Assistants will be standing by in NOLOP from 3:00 - 8:30pm on Wed., Thurs., Fri., 9/9 to 9/11. Drop in to get help building the Class #1 circuit!
+ME 30 Learning Assistants will be standing by in NOLOP during the following times in the first week of class. Drop in to get help building the Class #1 circuit or figuring out what all the components are in your kit.
+- Wed., 9/9, 3:00-8:30pm
+- Thu., 9/10, 3:00-8:30pm
+- Fri., 9/11, 10am-12pm, 2:30-4:30pm
 
 **Resources for your learning for Week 1:**
 
