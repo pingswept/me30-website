@@ -81,8 +81,8 @@ If the PCB cost is a hardship, for whatever reason, the Mechanical Engineering d
 
 There are two recommended textbooks for the class. You are not required to buy either, but you are strongly encouraged to consider independent modes of learning as a supplement to the rest of the course. This is a fancy way of saying that when you get stuck on something, try reading a few pages from the books below about the topic. Then think some, work on some of the exercises, and talk to someone about them. Then read again, then more thinking. If you actually read and made sense of even 20% of these two books, you would know a LOT about electronics.
 
-1. [Practical Electronics for Inventors, Fourth Edition, by Paul Scherz and Simon Monk](https://www.amazon.com/Practical-Electronics-Inventors-Fourth-Scherz/dp/1259587541/), $22.49 in print, and also available as a free [e-book from Tisch Library](https://tufts-primo.hosted.exlibrisgroup.com/permalink/f/k87dab/TN_cdi_askewsholts_vlebooks_9781259587559)
-2. [Making Things Move by Dustyn Roberts](https://www.amazon.com/Making-Mechanisms-Inventors-Hobbyists-Artists/dp/0071741674/), $19.79 in print, and also available as a free [e-book from Tisch Library](https://www-accessengineeringlibrary-com.ezproxy.library.tufts.edu/content/book/9780071741675)
+1. [Practical Electronics for Inventors, Fourth Edition, by Paul Scherz and Simon Monk](https://www.amazon.com/Practical-Electronics-Inventors-Fourth-Scherz/dp/1259587541/), $32 in print, and also available as a free [e-book from Tisch Library](https://tufts.primo.exlibrisgroup.com/permalink/01TUN_INST/t9mm61/alma991007326619703851)
+2. [Making Things Move by Dustyn Roberts](https://www.amazon.com/Making-Mechanisms-Inventors-Hobbyists-Artists/dp/0071741674/), $29 in print, and also available as a free [e-book from Tisch Library](https://tufts.primo.exlibrisgroup.com/permalink/01TUN_INST/1fu8t5j/alma991018812025403851)
 
 ## Modes of instruction
 
@@ -95,7 +95,7 @@ Here's how class will work each Monday and Wednesday.
 
 ### Labs
 
-Each ME 30 student is also assigned to a lab group that meets weekly in the Nolop Makerspace under the guidance of a Learning Assistant (LA), each of whom is a successful ME 30 alum. The purpose of these scheduled 1-hour lab times is to give students access to a smaller group of peers and a mentor (your LA) for hands-on support with circuits and code. We've worked hard to balance out the lab size for an LA:student ratio of about 8:1, so please attend lab on the day/time in which you are enrolled. In the first week of classes, labs (Sep. 11 through Sep. 13, 2026) are for breadboard-novices only -- students who have never worked with breadboards before. Please come if you are new to building circuits in breadboards! Required labs for all students begin on Wednesday, Sep. 17, 2026.
+Each ME 30 student is also assigned to a lab group that meets weekly in the Nolop Makerspace under the guidance of a Learning Assistant (LA), each of whom is a successful ME 30 alum. The purpose of these scheduled 1-hour lab times is to give students access to a smaller group of peers and a mentor (your LA) for hands-on support with circuits and code. We've worked hard to balance out the lab size for an LA:student ratio of about 8:1, so please attend lab on the day/time in which you are enrolled. In the first week of classes, labs (Sep. 9 through Sep. 11, 2026) are for breadboard-novices only -- students who have never worked with breadboards before. Please come if you are new to building circuits in breadboards! Required labs for all students begin on Wednesday, Sep. 17, 2026.
 
 ### Asynchronous elements  
 * 	 **Video mini-lectures** - Created and posted by the instructors. Several on a set of new topics each week.  
@@ -112,7 +112,7 @@ Each ME 30 student is also assigned to a lab group that meets weekly in the Nolo
 
 Grades will be based mostly on your project work, but you'll also be responsible for some smaller homework assignments and in-class exercises that are designed to help you keep moving along toward project success.    
 *    Projects (5) - 70% of course grade
-*    Homeworks (11) - 20% of course grade
+*    Homeworks (11) & Quizzes (4) - 20% of course grade
 *    In-Class Exercises (20) - 10% of course grade  
 
 ### Projects (70%)
@@ -141,13 +141,15 @@ If you are unable to meet a deadline because you are experiencing serious illnes
 ![semester timeline](/img/SemesterTimeline.jpg)
 
     
-### Homeworks (20%)
+### Homeworks & Quizzes (20%)
 
 Most weeks, there will be some smaller deliverables that we assign to support you in making progress toward project success. For each homework, Canvas will indicate whether you should upload a photo, video, or other documentation. These submissions are graded for effort and completion, either 0 or 1 point. 
 
+There will also be four 10-minute quizzes on key concepts in the first two-thirds of the semester. These will be administered in class. The lowest quiz grade will be dropped.
+
 ### Class exercises (10%)
 
-We'll work together on hands-on, [in-class exercises](http://andnowforelectronics.com/logistics/exercises/) during each class period. For each class period, Canvas will indicate the exercise for which you should upload a photo or other documentation. Canvas submissions for in-class exercises are due by the end of the class period. These submissions are graded for effort and completion, either 0 or 1 point.
+We'll work together on hands-on, [in-class exercises](http://andnowforelectronics.com/logistics/exercises/) during each class period. For each class period, Canvas will indicate the exercise for which you should upload a photo or other documentation as an "Exit Ticket." Canvas submissions for in-class exercises are due by the end of the class period. These submissions are graded for effort and completion, either 0 or 1 point. Your Class Exercises grade will also include a component for your contributions to the ME 30 learning community over the course of the semester, including your presence in class and lab.
 
 ## Honesty
 
