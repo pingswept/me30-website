@@ -36,7 +36,7 @@ Your first Canvas deliverable: Upload a video introducing yourself and demonstra
 No required labs this first week.  They will begin on Wednesday, 9/16.
 However, there will be drop-in help sessions in NOLOP during Week 1. See below.
 
-**Where to get hands-on help if you're totally new to electronics:**
+**Where to get hands-on help if Class #1 is a bit overwhelming:**
 
 ME 30 Learning Assistants will be standing by in NOLOP during the following times in the first week of class. Drop in to get help building the Class #1 circuit or figuring out what all the components are in your kit.
 - Wed., 9/9, 3:00-8:30pm
