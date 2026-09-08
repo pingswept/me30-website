@@ -20,11 +20,7 @@ The course website is http://andnowforelectronics.com/. It serves as the require
 
 **Electronics kit:**
 
-You'll receive your electronics kit in the first class on 9/8. Bring it back for EVERY class and lab. You'll return it at the end of the semester.
-
-**Labs:**
-
-No required labs this first week.  They will begin on Wednesday, 9/16.
+You'll receive your electronics kit in the first class on 9/9. Bring it back for EVERY class and lab. You'll return it at the end of the semester.
 
 **Things due in Week 1:**
 
@@ -35,13 +31,18 @@ Your first Canvas deliverable: Upload a video introducing yourself and demonstra
 - Explain how current flows from a wall outlet through a simple circuit
 - Start to make sense of voltage, current, resistance, and power, as they relate to a simple LED circuit
 
+**Labs:**
+
+No required labs this first week.  They will begin on Wednesday, 9/16.
+However, there will be drop-in help sessions in NOLOP during Week 1. See below.
+
 **Where to get hands-on help if you're totally new to electronics:**
 
 ME 30 Learning Assistants will be standing by in NOLOP during the following times in the first week of class. Drop in to get help building the Class #1 circuit or figuring out what all the components are in your kit.
 - Wed., 9/9, 3:00-8:30pm
 - Thu., 9/10, 3:00-8:30pm
 - Fri., 9/11, 10am-12pm, 2:30-4:30pm
-
+  
 **Resources for your learning for Week 1:**
 
 In ME 30 we’re aiming to provide a menu of resources to support your electronics learning. We hope you’ll explore and use what works best for you. Some of you may start with the videos we’ve embedded in the website pages; some of you may start by reading a textbook section; some of you may focus on the written website notes; and others may start with broad questions in office hours. Let us know if you’d like help developing a strategy for navigating the different options.
@@ -50,7 +51,7 @@ In ME 30 we’re aiming to provide a menu of resources to support your electroni
 - In-class [exercises](http://andnowforelectronics.com/logistics/exercises/):  Exercise #1 (Power an LED with "wall power") 
 - Website notes & videos on concepts: [Voltage & current](http://andnowforelectronics.com/notes/voltage-and-current/), [Series vs. parallel](http://andnowforelectronics.com/notes/series-vs-parallel/), [Resistors](http://andnowforelectronics.com/notes/resistors/), [LEDs](http://andnowforelectronics.com/notes/leds/)
 - Website notes on skills: [Prototyping](http://andnowforelectronics.com/notes/prototyping/), [Multimeters](http://andnowforelectronics.com/notes/multimeters/)
-- Electric current and Voltage sections (2.2 and 2.3) of Scherz & Monk textbook (which is optional, and available [here](https://tufts-primo.hosted.exlibrisgroup.com/permalink/f/k87dab/TN_cdi_askewsholts_vlebooks_9781259587559) from Tisch Library online)
+- Electric current and Voltage sections (2.2 and 2.3) of Scherz & Monk textbook (available [here](https://tufts.primo.exlibrisgroup.com/permalink/01TUN_INST/t9mm61/alma991007326619703851) from Tisch Library online)
 - Office hours 
 
 NOTE: Many of the website notes pages include mini-lecture videos.
