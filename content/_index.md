@@ -54,7 +54,13 @@ Jude Vamenta
 <--->
 {{< /columns >}}
 
+## Teaching assistants
 
+{{< columns >}}
+![Kira Grossman](/img/kira-grossman.jpg)
+Kira Grossman
+<--->
+{{< /columns >}}
 
 ![project showcase in atrium](/img/atrium-project-showcase-2021-11-16.jpg)
 
