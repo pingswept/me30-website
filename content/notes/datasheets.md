@@ -14,6 +14,7 @@ To see more about how to draw the circuit schematic symbol for common parts, che
 ## Connectors
 
 * [DC power (barrel) jack, 2.1 mm x 5.5 mm](/pdf/power-jack-PJ102AH.pdf)
+* [Screw terminal adapter](https://www.amazon.com/ANLINK-20-Connectors-Terminal-Security/dp/B0C4JJ2HB4?th=1)
 * [Screw terminal, 5mm pitch](/pdf/screw-terminal-691137710002.pdf)
 * [Pushbutton tactile switch, 6mm x 6mm](/pdf/pushbutton-ts02.pdf)
 
