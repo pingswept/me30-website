@@ -13,6 +13,9 @@ ME 30, Electronics & Controls I
 * Brandon: is usually in Nolop 9 AM to 5 PM, unless he's teaching class or in a meeting, or it's a weekend
 * Zosia: 4:30-6:30pm Mondays in Nolop
 
+TA office hours:
+* Yabo: 6:30-8:30pm Mondays in Nolop
+
 ## Course description
 
 A project-based hands-on electronics boot camp focusing on the design and fabrication of electromechanical systems, including DC motors, printed circuit boards, and microcontrollers from the Raspberry Pi family.
