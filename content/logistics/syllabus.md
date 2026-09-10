@@ -14,6 +14,7 @@ ME 30, Electronics & Controls I
 * Zosia: 4:30-6:30pm Mondays in Nolop
 
 TA office hours:
+* Kira Grossman: Mondays and Tuesdays, 3-6 PM, and Thursdays, 10 AM - 1 PM in Nolop
 * Yabo: 6:30-8:30pm Mondays in Nolop
 
 ## Course description
