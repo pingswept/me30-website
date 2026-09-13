@@ -10,7 +10,7 @@ Later this semester, Projects 2 and 4 will require using a motor to actuate some
 
 ### Motor hub ###
 
-Your first task is to design and build a motor hub that meets the following requirements:
+Your first task (HW due Sep. 25) is to design and build a motor hub that meets the following requirements:
 
 *	It fits on and attaches to your DC motor shaft
 *	It stays attached securely enough to handle the amount of torque (load applied to hub) that stalls the motor when it is operating at 12 V
@@ -53,7 +53,7 @@ NOTE: Not all of these examples meet the requirement of a channel or groove for 
 
 ### Motor bracket ###
 
-Your second task is to create a bracket that holds the motor housing in place by meeting the following requirements
+Your second task (HW due Oct. 9) is to create a bracket that holds the motor housing in place by meeting the following requirements
 
 * It prevents the motor housing from rotating with respect to a flat horizontal surface (like a piece of scrap wood, standing in for a future game platform or robot chassis)
 * It accommodates your motor hub (your hub can still be attached and removed from the motor shaft)
