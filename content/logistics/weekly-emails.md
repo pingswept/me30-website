@@ -6,6 +6,35 @@ draft: false
 
 - - -
 
+## Week #2: Sunday, 9/13/26
+
+### Course housekeeping:
+- Remember to bring your pink box to every class and lab session.
+- Check the Calendar page of the course website to see what we're doing in class each day and what to study and do every week.
+- Labs begin this week in Nolop on Wednesday, Sep. 16. Labs are 1 hour. Bring your pink box. 
+
+### Things due in Week 2:
+- Just the in-class activity “Exit Ticket” uploads to Canvas
+
+### Learning goals for Week 2:
+- Describe the difference between a voltage divider circuit and a voltage regulator circuit.
+- Deepen your understanding of voltage, current, resistance, and power, as they relate to voltage divider and voltage regulator circuits.
+- Measure voltage, current, resistance, and continuity with a multimeter.
+
+### What to read and study in Week 2:
+- Website notes on concepts: Resistors, Series vs. parallel, Voltage regulation, Capacitors (includes mini-lecture video)
+- Website notes on skills: Multimeters, Demo video of building a voltage regulator
+- Website description of Project 1 and motor hub HW
+- Resistors section (3.5) of Scherz & Monk textbook (which is optional, and available here from Tisch Library online)
+- Office hours 
+
+### Office hours:
+- Office hours should really be called "times when we sit and wait for you to come build circuits with us"
+- Kristen's office hours this week are Fri. 2-4pm in Nolop
+- Brandon's office hours are whenever he's in Nolop, M-F, 9a-5p 
+- There are TA office hours as well - check the website link above
+
+
 ## Week 1: Tuesday, 9/8/26
 
 We are excited to start ME 30 with you! Welcome to the course. We’ll send an organizational email to the ME 30 class every Sunday evening. But this first week, we're doing it on Tuesday.
