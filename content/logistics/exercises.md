@@ -106,11 +106,24 @@ After you've written down your predictions for V_out, build the circuits and use
 
 ![Voltage dividers](/img/voltage_dividers.jpg)
 
-## 6: Matching schematics to breadboards (Class 3)
+## 6a: Matching schematics to breadboards (Class 3)
 
 Which of these breadboards has the same circuit as the one represented in the schematic?
 
 ![Schematic and breadboards](/img/Breadboard_schematic_matching.jpg)
+
+
+## 6b: Resistor selection warm-up (Class 3)
+
+![Resistor selection exercise](/img/resistor_selection_exercise.jpg)
+
+
+## 6c: Voltage divider reasoning warm-up (Class 3)
+
+![Voltage divider warm-up 1](/img/voltage_divider_warmup1.jpg)
+
+![Voltage divider warm-up 2](/img/voltage_divider_warmup2.jpg)
+
 
 ## 7: Build a voltage regulation circuit (Class 3)
 
