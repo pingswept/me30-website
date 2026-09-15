@@ -120,7 +120,11 @@ Which of these breadboards has the same circuit as the one represented in the sc
 
 ## 6c: Voltage divider reasoning warm-up (Class 3)
 
+Of the voltage divider circuits (a), (b), and (c) below, which will provide the largest V_out? The smallest? Explain conceptually, without doing computations.
+
 ![Voltage divider warm-up 1](/img/voltage_divider_warmup1.jpg)
+
+Of circuits (a) and (b) below, which will provide the larger V_out? Explain conceptually, without doing computations.
 
 ![Voltage divider warm-up 2](/img/voltage_divider_warmup2.jpg)
 
