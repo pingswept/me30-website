@@ -141,7 +141,15 @@ The 4 components are:
 2. One L7805CV voltage regulator
 3. Two capacitors
 
-## 8: Review of voltage and current (Class 3 and 4)
+## 8: Discharge a capacitor and observe the RC time constant (Class 4)
+
+![capacitor discharge circuit](/img/capacitor_discharge.jpg)
+
+1. What sequence of button presses makes the LED flash, and then fade out?
+2. In your kit, you have resistors of size 100, 1K, 10K, and 100K ohms. You also have a 10 microfarad capacitor, and we'll give you a 100 microfarad capacitor for this exercise. What combination of R and C values will produce the slowest rate of fade for the LED (that you can observe)? 
+3. Try to explain why the rate of fade varies with R*C. (We can look at this mathematically as well.)  
+
+## 9: Review of voltage and current (Class 5)
 
 For the circuit below, analyze the following first for when the switch is open, and then for when the switch is closed:
 1. Find sets of labeled points on the circuit where the **current** is the **same**.
@@ -152,14 +160,6 @@ For the circuit below, analyze the following first for when the switch is open, 
 6. Order the points from highest to lowest voltage.
   
 ![Circuits to analyze](/img/Voltage_current_review.jpg)
-
-## 9: Discharge a capacitor and observe the RC time constant (Class 4)
-
-![capacitor discharge circuit](/img/capacitor_discharge.jpg)
-
-1. What sequence of button presses makes the LED flash, and then fade out?
-2. In your kit, you have resistors of size 100, 1K, 10K, and 100K ohms. You also have a 10 microfarad capacitor, and we'll give you a 100 microfarad capacitor for this exercise. What combination of R and C values will produce the slowest rate of fade for the LED (that you can observe)? 
-3. Try to explain why the rate of fade varies with R*C. (We can look at this mathematically as well.)  
 
 ## 10. Control a motor with a BJT (Class 7)
 
