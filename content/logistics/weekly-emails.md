@@ -6,6 +6,35 @@ draft: false
 
 - - -
 
+## Week #3: Sunday, 9/20/26
+
+This is the week that Project 1 work clicks into place, with the introduction of a (free!) circuit board design software called KiCad. We'll use KiCad to translate your temporary breadboard circuits into permanent circuit boards. We ask that you have it installed on your computer by class time on Wednesday, 9/23. If you’re having trouble installing it, please reach out to an LA or instructor.
+
+We’ll also further explore capacitors in class on MOnday.
+
+**Things due in Week 3:**
+- Due Mon., 9/21, 11:59pm, as a photo upload to HW 1 on Canvas: Prototype breadboard for Project 1 - A photo of your 3.3V and 5V voltage regulators, with a multimeter showing voltages
+- Due Fri., 9/25, 11:59pm, as a photo and video upload to HW2 on Canvas: Motor Hub design - A removable hub for your DC motor that has a hole and groove, and doesn't slip off the shaft when maximum torque is applied. Plan wisely - be aware that ~110 students are making this project, so plan ahead if you need to use specific machines
+
+**Learning goals for Week 3:**
+- Deepen your understanding of voltage, current, resistance, and power, as they relate to your Project 1 Breadboard Power Supply circuit (featuring voltage regulators)
+- Build a capacitor charge/discharge circuit and choose resistance and capacitance values to increase its time constant
+- Take a breadboard prototype and turn it into a PCB design using KiCad software
+
+**Course website pages to study in Week 3:**
+- Project 1 description
+- Motor hub description
+- Capacitors
+- Voltage regulation
+- PCB design
+- KiCad demo videos
+
+**Optional reading for Week 3:**
+
+From the Scherz & Monk textbook (available here from Tisch Library online):
+- Section 3.6 “Capacitors” 
+- Section 7.2 “Constructing Circuits” (featuring info on printed circuit board design and construction)
+
 ## Week #2: Sunday, 9/13/26
 
 ### Course housekeeping:
