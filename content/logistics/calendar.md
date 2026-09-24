@@ -66,8 +66,8 @@ draft: false
 |   0   | 9/9-9/11           | No lab; Drop-in help sessions for breadboard novices during lab times |
 |   1   | 9/16-9/18          | Voltage divider & voltage regulator circuits |
 |   2   | 9/23-9/25          | Learn KiCad |
-|   3   | 9/30-10/2          | Control a motor with BJT + potentiometer |
-|   4   | 10/7-10/9          | P2 help |
+|   3   | 9/30-10/2          | Solder header pins to your KB2040|
+|   4   | 10/7-10/9          | Motors and transistors; P2 help |
 |   5   | 10/14-10/16        | KB2040 challenges set 1 |
 |   6   | 10/21-10/23        | H-bridges on breadboards |
 |   7   | 10/28-10-30        | H-bridge PCB help |
