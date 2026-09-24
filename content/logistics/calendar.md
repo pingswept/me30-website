@@ -21,7 +21,7 @@ draft: false
 
 | Class | Date  | Class topics                                  | Hands-on                        | What to study                                                            | What's due                                                    |
 |:-----:|:-----:|-----------------------------------------------|---------------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------|
-|   07  | 9/30  | Transistors as switches                       | Make a switch with a BJT        | [Low power/high power](/notes/low-power-high-power/); [Adafruit soldering guide](https://learn.adafruit.com/adafruit-guide-excellent-soldering/making-a-good-solder-joint) |[P1 PCB](/logistics/projects/#project-1-build-a-breadboard-power-supply)|        |
+|   07  | 9/30  | Transistors as switches                       | Short quiz #2; Make a switch with a BJT        | [Low power/high power](/notes/low-power-high-power/); [Adafruit soldering guide](https://learn.adafruit.com/adafruit-guide-excellent-soldering/making-a-good-solder-joint) |[P1 PCB](/logistics/projects/#project-1-build-a-breadboard-power-supply)|        |
 |   08  | 10/5  | Intro to P2 (game v1), DC motors, MOSFETs     | Run a motor with a MOSFET       | [Motors](/notes/motors/) |              |
 |   09  | 10/7  | Microcontrollers, CircuitPython               | KB2040 set-up                   | [KB2040 hardware](/notes/feather-rp2040-hardware/); [Microcontrollers](/notes/microcontrollers/)  | Solder pins to your KB2040 and bring to class; Motor bracket HW due 10/9    |
 |       | 10/12 | NO CLASS                                      | (Indigenous People's Day)       |  |        |
