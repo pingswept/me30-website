@@ -25,4 +25,20 @@ Capacitors can be used in two main ways: as a small battery and as a filter.
 
 ## The time-dependent behavior of a capacitor acting like a small battery in an R-C circuit
 
+Consider the circuit below. 
+
+![Classic charge-discharge R-C circuit with LED](/img/Capacitor_RC_Schematic.jpg)
+
+Both buttons are initially open. We can charge up the capacitor by pressing only the "charge" button for a moment. The voltage across the capacitor and the current through it will behave as shown in these curves.
+
+![Capacitor charging V-t and I-t curves](/img/Capacitor_Charging_Curves.jpg)
+
+Then, let go of the "charge" button, and press and hold down the "discharge" button. You'd get the following voltage and current dynamics. And the dwindling current would be evident in the fading of the LED.
+
+![Capacitor discharging V-t and I-t curves](/img/Capacitor_Discharging_Curves.jpg)
+
+We can model the discharge rate of the capacitor, which also tells us the fading rate of the LED.  In the math below, we treat the combined resistance of the resistor and LED as just "R."
+
+![Creating and solving the differential equation for an R-C circuit](/img/Capacitor_Discharging_Math.jpg)
+
 
