@@ -164,16 +164,20 @@ When your PCB design is ready, you should [submit it to the fabricator](https://
 For this final submission to Canvas, you will also need to submit evidence that your breadboard H-bridge circuit is functional --  a video that shows it making the motor spin in both directions, controlled by a KB2040.
 
 
-## Project 2: Simple game
-**Build a simple game**
+## Project 2: Gam 
+**Get started building an electromechanical game**
 
-The next project is to use the basic electrical components we've covered in class with some mechanical fabrication to make a game that is at least mildly entertaining. The point here is NOT making the best game ever, but to set some goals for testing out your electromechanical skills. For your circuit for this project, use your breadboard. No PCBs needed.
+The combined aim of Projects 2 and 4 is for you to make an electromechanical game. In Project 2, you will build the body of the game with basic start/stop motor control. In Project 4, you will add sensing and controlling components to complete the full version of the game.
+
+The goal here is not to recreate an existing game but create your own game that does not exist yet. You are strongly encouraged to come up with something wacky and different from any game you've played before.
+
+For your circuit for this project, use your breadboard. No PCBs needed.
 
 This is a solo project, but we'll be brainstorming in groups.
 
-You should bring your game to class on Wednesday, October 8th to share with your brainstorming group.
+You should bring your game to class on Monday, October 19th to share with your brainstorming group.
 
-Due date (for game documentation submission): Wednesday, October 8th, 11:59PM
+Due date (for game documentation submission): Monday, October 19th, 11:59PM
 
 To keep things simple, there are a few required constraints.
 Your game should:
@@ -181,7 +185,7 @@ Your game should:
 * Use at least one transistor from your kit (can be a BJT or MOSFET)
 * Require user interaction of some sort (e.g., pushing a button, pressing a key, interacting with a physical component)
 * Fit inside a cube 20 cm on a side
-* Be fabricated without 3D printing, except for a motor hub if needed (talk to an instructor if you have a particular reason you need to violate this constraint.)
+* Be fabricated without 3D printing, except for components that fit within a cube 3 cm on a side
 
 The point of the constraints is to keep your game simple enough that you can complete it in 1.5 weeks.
 
