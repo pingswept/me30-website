@@ -183,9 +183,9 @@ To keep things simple, there are a few required constraints.
 Your game should:
 * Use the DC gearmotor in your kit
 * Use at least one transistor from your kit (can be a BJT or MOSFET)
-* Require user interaction of some sort (e.g., pushing a button, pressing a key, interacting with a physical component)
+* Require user interaction of some sort (e.g., pushing a button, interacting with a physical component)
 * Fit inside a cube 20 cm on a side
-* Be fabricated without 3D printing, except for components that fit within a cube 3 cm on a side
+* Be fabricated without 3D printing, except for components that fit within a cube 5 cm on a side
 
 The point of the constraints is to keep your game simple enough that you can complete it in 1.5 weeks.
 
