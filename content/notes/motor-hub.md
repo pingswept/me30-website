@@ -55,6 +55,6 @@ NOTE: Not all of these examples meet the requirement of a channel or groove for 
 
 Your second task (HW due Oct. 9) is to create a bracket that holds the motor housing in place by meeting the following requirements
 
-* It prevents the motor housing from rotating with respect to a flat horizontal surface (like a piece of scrap wood, standing in for a future game platform or robot chassis)
+* It prevents the motor housing from rotating with respect to a flat surface (like a piece of scrap wood, standing in for a future game frame or robot chassis)
 * It accommodates your motor hub (your hub can still be attached and removed from the motor shaft)
-* It can be attached and removed from a horizontal surface (the piece of scrap wood) without removing the motor from itself (so don't put mounting bolts underneath the motor where you can't get to them)
+* It can be attached and removed from a flat surface (the piece of scrap wood) without removing the motor from itself (so don't put mounting bolts underneath the motor where you can't get to them)
