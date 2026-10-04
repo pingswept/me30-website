@@ -162,16 +162,20 @@ However, **once you do get your breadboard H-bridge working, take a video that s
 When your PCB design is ready, you should [submit it to the fabricator](https://oshpark.com/), OSH Park. If you focus on compact design, you can keep the cost to around $10. (If this cost is a hardship, please tell your ME 30 instructor or Courtney Russon in the ME office, and we will cover the cost by ordering it for you, no questions asked.) After you order it, take a screenshot of your order confirmation (proof that you submitted your project on time). Also, take  screenshots of your circuit layout and PCB design in KiCad (it would be a good idea to save these screenshots for your portfolio). Upload all your screenshots to Canvas.
 
 For this final submission to Canvas, you will also need to submit evidence that your breadboard H-bridge circuit is functional --  a video that shows it making the motor spin in both directions, controlled by a KB2040.
+-->
 
-
-## Project 2: Gam 
+## Project 2: Gam
 **Get started building an electromechanical game**
 
-The combined aim of Projects 2 and 4 is for you to make an electromechanical game. In Project 2, you will build the body of the game with basic start/stop motor control. In Project 4, you will add sensing and controlling components to complete the full version of the game.
+***Project 2: FU GAM***
 
-The goal here is not to recreate an existing game but create your own game that does not exist yet. You are strongly encouraged to come up with something wacky and different from any game you've played before.
+***Project 4: FUN GAME***
 
-For your circuit for this project, use your breadboard. No PCBs needed.
+The combined aim of Projects 2 and 4 is for you to make an electromechanical game. In Project 2, you will build the body of the game with basic start/stop motor control. In Project 4, you will add sensing and controlling components to complete the full version of the game. Between the two projects, you will learn how to make motors spin bidirectionally and how to control them precisely with a microcontroller.
+
+The goal here is not to recreate an existing game but create your own game that does not exist yet. You are strongly encouraged to come up with something unlike any game you've played before. You should not recreate an existing game, like Skee-Ball or Whac-A-Mole.
+
+For the electronics for this project, use your breadboard. No PCBs needed.
 
 This is a solo project, but we'll be brainstorming in groups.
 
@@ -180,14 +184,15 @@ You should bring your game to class on Monday, October 19th to share with your b
 Due date (for game documentation submission): Monday, October 19th, 11:59PM
 
 To keep things simple, there are a few required constraints.
+
 Your game should:
 * Use the DC gearmotor in your kit
 * Use at least one transistor from your kit (can be a BJT or MOSFET)
 * Require user interaction of some sort (e.g., pushing a button, interacting with a physical component)
-* Fit inside a cube 20 cm on a side
-* Be fabricated without 3D printing, except for components that fit within a cube 5 cm on a side
+* Fit on a table. If your game requires a large structure, talk that over with your professor before you start.
+* Be fabricated _without_ 3D printing, except for components that fit within a cube 5 cm on a side
 
-The point of the constraints is to keep your game simple enough that you can complete it in 1.5 weeks.
+The point of the constraints is to keep your game simple enough that you can complete it in 2 weeks.
 
 In addition to planning to meet these constraints, you should also pick one learning goal for yourself for this project. Open-ended projects offer you an opportunity to bend the curriculum into the direction of your interests or to explore a potential new area of interest.
 
@@ -200,7 +205,7 @@ Here are some example learning goals:
 * Use the laser cutter (which I have never used before).
 * Make at least one part out of steel.
 * Turn a part on a lathe at Bray.
-* Spend at least 1/3 of my effort on the aesthetics of the project. -->
+* Spend at least 1/3 of my effort on the aesthetics of the project.
 
 ## Project 1: Power supply
 **Build a breadboard power supply**
