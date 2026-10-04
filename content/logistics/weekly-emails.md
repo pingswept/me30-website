@@ -6,6 +6,38 @@ draft: false
 
 - - -
 
+## ME 30 Weekly Update #5: Sunday, 10/4/2026
+
+Thanks for your hard work learning KiCad for Project 1. Looking forward to seeing you put those PCBs in action for later projects.
+
+**Course housekeeping:**
+- In labs, one focus has been soldering pins onto your KB2040 microcontroller. Please have your pins soldered onto your KB2040 by class time on Wed., Oct. 7. Any Nolop staff member can help you with soldering any time Nolop is open; just ask!
+- In class on Wed., Oct. 7, you will need your KB2040 microcontroller, a laptop, and a data-sync cable that connects your KB2040 USB-C port with your laptop. We have a few extra USB-C data-sync cables, but if you have one of your own, please bring it. Make sure it can transfer data, not just power.
+Project 2 is now up on the Projects page 
+
+**Labs in Week 5**
+- Labs this week will focus on BJT and MOSFET circuits and planning for Project 2. 
+
+**Things due in Week 5:**
+- Now that you have motor hubs, the next step in preparing to use your motors securely is to create a simple motor bracket. Due Friday night, with details here.
+- See note about about needing a pin-soldered KB2040, laptop, and data cable for class time on Oct. 7
+
+**Learning goals for Week 5:**
+- Explain how to use both BJT and MOSFET transistors to control high power with low power.
+- Build circuits incorporating motors.
+- Gain basic familiarity with microcontroller hardware.
+- Learn to set up the KB2040 microcontroller to run very simple Python code.
+
+**Course website (andnowforelectronics.com) pages to study in Week 5:**
+- Low power/high power (transistors) (includes mini-lecture videos on BJT and MOSFET transistors) 
+- Microcontrollers
+- KB2040 hardware
+
+**Suggested reading for Week 5:**
+- Section 4.3 “Transistors” and Section 13.5 "Interfacing with Microcontrollers” in Practical Electronics for Inventors (Scherz & Monk) (available here from Tisch Library online)
+- Adafruit’s Guide to CircuitPython for KB2040: (https://learn.adafruit.com/adafruit-kb2040/circuitpython)
+
+
 ## ME 30 Weekly Update #4: Sunday, 9/27/26
 
 Hope you are staying dry this weekend! This week is a big transition week in ME 30. In Phase 1 of the course, we focused on fundamental circuits concepts, breadboarding skills, and introductory PCB design. In class on Monday, I’ll talk about the physical construction of printed circuit boards and how to order yours from OSH Park. Then I'll provide time for KiCad questions and troubleshooting. We’ll also review for short quiz #2 (on voltage regulators and very basic capacitor ideas). 
