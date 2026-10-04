@@ -171,7 +171,7 @@ For this final submission to Canvas, you will also need to submit evidence that 
 
 ***Project 4: FUN GAME***
 
-The combined aim of Projects 2 and 4 is for you to make an electromechanical game. In Project 2, you will build the body of the game with basic start/stop motor control. In Project 4, you will add sensing and controlling components to complete the full version of the game. Between the two projects, you will learn how to make motors spin bidirectionally and how to control them precisely with a microcontroller.
+The combined aim of Projects 2 and 4 is for you to make an electromechanical game. In Project 2, you will build the body of the game with basic start/stop motor control. In Project 4, you will add sensing and controlling components to complete the full version of the game. In the weeks between the two projects, you will learn how to make motors spin bidirectionally and how to control them precisely with a microcontroller.
 
 The goal here is not to recreate an existing game but create your own game that does not exist yet. You are strongly encouraged to come up with something unlike any game you've played before. You should not recreate an existing game, like Skee-Ball or Whac-A-Mole.
 
