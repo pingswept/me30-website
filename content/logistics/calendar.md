@@ -26,7 +26,7 @@ draft: false
 |   09  | 10/7  | Microcontrollers, CircuitPython               | KB2040 set-up                   | [KB2040 hardware](/notes/feather-rp2040-hardware/); [Microcontrollers](/notes/microcontrollers/)  | Solder pins to your KB2040 and bring to class; Motor bracket HW due 10/9    |
 |       | 10/12 | NO CLASS                                      | (Indigenous People's Day)       |  |        |
 |   10  | 10/14 | Digital and analog I/O hardware               | De-bugging challenges; KB2040 challenges set 1  |    [KB2040 programming](/notes/kb2040-programming/); [KB2040 challenges](/notes/kb2040-challenges/)    |   
-|   11  | 10/19 | H-bridges, P3 intro                                     | Start building an H-bridge      | [H-bridge motor driver](/notes/h-bridge/) | [P2 (game v1)](/logistics/projects) due Wed. in class|
+|   11  | 10/19 | H-bridges, P3 intro                                     | Start building an H-bridge      | [H-bridge motor driver](/notes/h-bridge/) | [P2 (game v1)](/logistics/projects) due Mon. in class|
 |   12  | 10/21 | More H-bridge details            | More H-bridge work              | [H-bridge motor driver](/notes/h-bridge/); [Intro and video for P3](/logistics/projects/#project-2-build-an-h-bridge-motor-controller)             | [KB2040 challenge #6 HW](http://andnowforelectronics.com/notes/kb2040-challenges/)      |
 |   13  | 10/26 | Motor electrical & mechanical power   | Motor measurement; Run your H-bridge with your KB2040   |     |[P3 proto](/logistics/projects/#project-2-build-an-h-bridge-motor-controller)|
 |   14  | 10/28 | Intro to P4, PWM           | More motor measurement  |   |  |
