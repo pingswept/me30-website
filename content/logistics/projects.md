@@ -183,9 +183,9 @@ You should bring your game to class on Monday, October 19th to share with your b
 
 Due date (for game documentation submission): Monday, October 19th, 11:59PM
 
-To keep things simple, there are a few required constraints.
+**To keep things simple, there are a few required constraints.**
 
-Your game should:
+**Your game should:**
 * Use the DC gearmotor in your kit
 * Use at least one transistor from your kit (can be a BJT or MOSFET)
 * Require user interaction of some sort (e.g., pushing a button, interacting with a physical component)
@@ -206,6 +206,10 @@ Here are some example learning goals:
 * Make at least one part out of steel.
 * Turn a part on a lathe at Bray.
 * Spend at least 1/3 of my effort on the aesthetics of the project.
+
+Some example Project 2 work from previous years:
+
+![Collage of Project 2 games](/img/P2_Examples.jpg)
 
 ## Project 1: Power supply
 **Build a breadboard power supply**
