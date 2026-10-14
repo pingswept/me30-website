@@ -117,7 +117,7 @@ To use these commands, include the command “import board” and “import digi
 
 Here's an example of how you might use commands from the **board** and **digitalio** libraries to set the voltage at pin D4 to 3.3 V (True), then 0 V (False), and repeat.
 
-<pre class="code">
+```python
 import board
 import digitalio
 import time
@@ -130,7 +130,7 @@ while True:
     time.sleep(0.5)
     led.value = False
     time.sleep(0.5)
-</pre>
+```
 
 ### Checking for voltage inputs
 
