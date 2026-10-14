@@ -113,6 +113,8 @@ To use these commands, include the command “import board” and “import digi
     
 **`xyz.value = False`**: another way to set the voltage low (0 V)
 
+### Setting voltage outputs
+
 Here's an example of how you might use commands from the **board** and **digitalio** libraries to set the voltage at pin D4 to 3.3 V (True), then 0 V (False), and repeat.
 
 <pre class="code">
@@ -129,6 +131,8 @@ while True:
     led.value = False
     time.sleep(0.5)
 </pre>
+
+### Checking for voltage inputs
 
 What about using pins as inputs? Here are commands you could use if you wanted to use pin D5 to check whether a resistor and button were plugged into a source of voltage.
 
