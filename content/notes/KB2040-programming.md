@@ -136,7 +136,7 @@ while True:
 
 What about using pins as inputs? Here are commands you could use if you wanted to use pin D5 to check whether a resistor and button were plugged into a source of voltage.
 
-<pre class="code">
+```python
 import board
 import digitalio
 import time
@@ -154,8 +154,7 @@ while True:
     print(input_check.value)
 
     time.sleep(0.1)
-</pre>
-
+```
 
 ## PWMIO library - for motor speed control
 
@@ -182,7 +181,7 @@ A duty cycle of about 6500 corresponds to the voltage being set high for 10% of 
 
 Here is some sample CircuitPython code that uses PWM to run a motor first at full speed, then at half speed, and then at quarter speed. Note that we have to import the pwmio library to run this code, and we have to initiate a pin as a pwmio.PWMOut pin.
 
-<pre class="code">
+```python
 import board
 import pwmio
 import time
@@ -199,7 +198,7 @@ while True:
     time.sleep(3)
     my_control_pin.duty_cycle = 16400
     time.sleep(3)
-</pre>
+```
 
 
 
@@ -209,7 +208,7 @@ while True:
 
 The code below will plot the value of the voltage coming in at analog input pin A0.
 
-<pre class="code">
+```python
 import time
 import analogio
 import board
@@ -219,7 +218,7 @@ inputvoltage = analogio.AnalogIn(board.A0)
 while True:
     print((inputvoltage.value,))
     time.sleep(0.1)
-</pre>
+```
     
 ## Sensors
     
@@ -236,7 +235,7 @@ For distance sensor reading, check out [this page](https://learn.adafruit.com/ul
 For stepper motor control, you'll need the **adafruit_motor library** (and two H-bridges). All CircuitPython libraries for the KB2040 can be downloaded [here](https://circuitpython.org/libraries). Download the entire library bundle to your **laptop,** and then transfer ONLY the libraries you need to your KB2040. 
     
 {{< expand "Click to see some stepper motor code" "..." >}}
-<pre class="code">
+```python
 # SPDX-FileCopyrightText: 2021 ladyada for Adafruit Industries
 # SPDX-License-Identifier: MIT
 
@@ -294,7 +293,7 @@ for step in range(STEPS):  #STEPS dictates how far your motor rotates
 
 motor.release()
 
-</pre>
+```
 {{< /expand >}}
 
 {{< expand "Click to see how to wire a stepper motor to H-bridges" "..." >}}
@@ -313,7 +312,7 @@ This code carries out these two tasks at once:
 
 
 {{< expand "Click to see the state machine code" "..." >}}
-<pre class="code">
+```python
 
 # This purpose of this code is to carry out two tasks at once:
 # 1. Repeatedly flash a green LED, 3 seconds on, 3 seconds off.
@@ -355,7 +354,7 @@ while True:
             led_red.value = False
         if time.monotonic() > next_toggle: # this is like checking that 3-second timer we set above
             state = STATE_TOGGLE
-</pre>
+```
 {{< /expand >}}
 
 
