@@ -59,7 +59,7 @@ Use an H-bridge circuit to make your gearmotor spin clockwise for 5 seconds, the
 
 {{< /expand >}}
 
-
+<!--
 ### Solutions for H-bridge and Set 2
 
 {{< expand "See the schematic diagrams for Set 2" "..." >}}
@@ -89,6 +89,7 @@ Use an H-bridge circuit to make your gearmotor spin clockwise for 5 seconds, the
 ![Code for 11](/img/challenge11py.jpg)
 
 ![Code for H-bridge](/img/challenge-hbridgepy.jpg)
+-->
 
 {{< /expand >}}
 
