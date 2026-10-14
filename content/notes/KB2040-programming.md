@@ -169,9 +169,9 @@ creates a new object called “xyz” that will hold all the information about s
 at whatever KB2040 pin belongs to the PWM object xyz, changes the duty cycle of the PWM voltage to 32000.  For the RP2040 chip on the KB2040, the duty cycle maximum is 65535; max duty cycle means the output is high 100% of the time.
  
 **What is the difference between *frequency* and *duty cycle* in PWM?**
-- Frequency: This CircuitPython parameter refers to the number of motor control cycles (voltage pulse initiations) per second
+- **Frequency**: This CircuitPython parameter refers to the number of motor control cycles (voltage pulse initiations) per second
 Set this to 500 for the KB2040, because its main processing chip can handle outputting that many cycles per second.
-- Duty_cycle: This CircuitPython parameter refers to the duration of time within one motor control cycle at which the voltage is ON or HIGH (i.e., 3.3 V).
+- **Duty_cycle**: This CircuitPython parameter refers to the duration of time within one motor control cycle at which the voltage is ON or HIGH (i.e., 3.3 V).
 
 For the KB2040, a duty cycle value of 65536 corresponds to the voltage being turned on for 100% of the cycle, which means the motor gets 100% of the voltage available to it.
 
@@ -310,8 +310,6 @@ This code carries out these two tasks at once:
 2. constantly check for a button press that sets an input pin HIGH.
 3. flash a *different* LED when the button is pressed.
 
-
-{{< expand "Click to see the state machine code" "..." >}}
 ```python
 
 # This purpose of this code is to carry out two tasks at once:
@@ -355,7 +353,6 @@ while True:
         if time.monotonic() > next_toggle: # this is like checking that 3-second timer we set above
             state = STATE_TOGGLE
 ```
-{{< /expand >}}
 
 
 
