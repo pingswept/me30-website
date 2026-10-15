@@ -211,8 +211,21 @@ You need 5 things:
 
 ![MOSFET circuit](/img/mosfet-controller.jpg)
 
+## 13a. Sizing resistors in transistor circuits (Class 9)
 
-## 13. De-bugging challenges (Class 10)
+What is the current through the "helper" resistor in the BJT-motor circuit?  In the MOSFET-motor circuit?
+
+Why is the resistor in the MOSFET-motor circuit referred to as a "pull-down" resistor?
+
+![BJT and MOSFET with resistors](/img/helper_resistors.jpg)
+
+## 13b. N-channel MOSFET placement (Class 9)
+
+What is the problem with trying to control a motor through an N-channel MOSFET placed on the motor's high-voltage side, as shown below?
+
+![MOSFET circuit with non-working high-side drive](/img/high_side_drive_problem.jpg)
+
+## 13c. De-bugging challenges (Class 10)
 
 Study the three circuits pictured here. Identify the errors preventing them from working: https://tufts.box.com/s/ggy1y8svs4tuulywfwx7mzdyxvlrjcyo
 
@@ -228,13 +241,10 @@ https://tufts.box.com/s/lczswqulqewphbxyku1zpvazp73govzi
 
 ## 15. Project 2 takeaways reflection (Class 11)
 
-(a) What are some problems you encountered along the way of working on your game for Project 2, and what did you learn from them? Let's collectively document those.
-- [9am section](https://docs.google.com/document/d/1UU6AcytbkmLdxBSLcctiW4OjgAi3-AhYWyQGw_gHBQY/edit?usp=sharing)
-- [10:30am section](https://docs.google.com/document/d/11eNHhJi2Pb0U5P9TRKrwgDFwKajFynVkDwMfchMdNEc/edit?usp=sharing)
-- [3pm section](https://docs.google.com/document/d/1WUewNWy1QDab5JxhR-gFhtlAe6kD9OXxnvTb6hcjKTA/edit?usp=sharing)
-- [4:30pm section](https://docs.google.com/document/d/1vtkICXmVOQMKhThoXSFqZUW-rmKqNWhomKPnk9mHlTw/edit?usp=sharing)
+What are some problems you encountered along the way of working on your game for Project 2, and what did you learn from them? Let's collectively document those.
 
-(b) If you're ready to do so, take a moment to fill out the [self-assessment for Project 2](https://tufts.qualtrics.com/jfe/form/SV_7PAFa4Tk6kXRZ1s).
+https://docs.google.com/document/d/1UU6AcytbkmLdxBSLcctiW4OjgAi3-AhYWyQGw_gHBQY/edit?usp=sharing
+
 
 ## 16. Recognizing common errors in KB2040 Challenge #6 (Class 11)
 
