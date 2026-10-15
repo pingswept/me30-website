@@ -53,7 +53,7 @@ draft: false
 |   22  | 11/30 | Sensor amplification; op-amps          | Amplify a strain gauge; measure with multimeter     | [I2C sensors](/notes/i2c/); [Sensor amplification](/notes/amplification)      |      |
 |   23  | 12/2  | Oscilloscopes                  | Oscilloscope sim; load cell de-bugging |       | Load cell FBD HW     |
 |   24  | 12/7  | How does the internet work?   | P5 work time               | [Internet](/notes/internet/); [Servers and clients](/notes/servers/)              | Op amp circuit HW  |
-|   25  | 12/9  | P5 Stage 2                 | P5 Stage 1 reflection                |          | [P5](/logistics/projects) due Tues. night  |
+|   25  | 12/9  | P5 Stage 2                 | P5 Stage 1 reflection                |          | [P5 stage 1](/logistics/projects) due Tues. night  |
 |   26  | 12/14 | Career trajectories | P5 Stage 2 Q & A                   |                               |         |
 |       | 12/16 | 12 to 2 PM - Project demo option 1       |                            |             |[P5 stage 2](/logistics/projects)|
 |       | 12/17 | 12 to 2 PM - Project demo option 2    |                            |             |[P5 stage 2](/logistics/projects)|
