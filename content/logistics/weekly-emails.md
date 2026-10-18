@@ -6,7 +6,27 @@ draft: false
 
 - - -
 
-## ME 30 Weekly Update #5: Sunday, 10/4/2026
+## Week #7: Sunday, 10/18/26
+
+Now that you're familiar with the basics of transistor circuits, we're moving on to using transistors for bi-directional motor control in combination with your KB2040 microcontroller and a very important circuit called the H-bridge.
+
+**Things due in Week 7:** 
+- Bring your Project 2 work to class on Monday, Oct. 19. We’ll devote some class time in table groups to share what you have working and also to provide troubleshooting and finishing-up support. Canvas documentation for Project 2 is due on Monday night, 11:59pm. 
+- If you have not completed Challenge #6 the KB2040 challenges, you should finish that this week and upload a video to Canvas. Ask an LA, instructor, or classmate for help if needed.
+
+**Learning goal for Week 7**
+- Explain how an H-bridge motor controller works.
+
+**Labs this week**
+- The main activity for lab this week is to wire and test a breadboard H-bridge circuit, which we will begin in class on Wednesday, 10/21 and which is the focus of Project 3 (a PCB design project).
+
+**Course website (andnowforelectronics.com) pages to study in Week 7:**
+- [H-bridge motor controller](http://andnowforelectronics.com/notes/h-bridges/)
+- [KB2040 programming](http://andnowforelectronics.com/notes/kb2040-programming/)
+- [KB2040 challenges](http://andnowforelectronics.com/notes/kb2040-challenges/)
+
+
+## Week #5: Sunday, 10/4/2026
 
 Thanks for your hard work learning KiCad for Project 1. Looking forward to seeing you put those PCBs in action for later projects.
 
