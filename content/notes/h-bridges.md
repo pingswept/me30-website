@@ -51,10 +51,11 @@ R<sub>SMALL</sub> is a current-limiting resistor for the BJT. When the BJT is on
 ## Prototyping an H-bridge motor controller circuit  
 
 In your ME 30 kit, you've got everything you need to build an H-bridge circuit on a breadboard. 
-- If you're totally unsure of how to get started, study the three diagrams on this page.
+- For a video of Prof. Wendell testing and debugging an H-bridge systematically, check out this demo: [Testing an H-bridge half](http://andnowforelectronics.com/notes/demo-videos/#testing-an-h-bridge).
+- If you're totally unsure of how to get started, study the three diagrams above on this page.
 - Next, try building ONLY the lower left N-channel corner, and test and make sure that corner works before moving on. Here's an interactive tutorial (created by former ME 30 student and LA Kimberly Eng) on [how to test an N-channel corner](https://tinyurl.com/ME30-HTG) . *Password: WeLoveME30!*
 - Then, try building the upper left P-channel corner. Again, test and make sure it works before building either of the right-side corners.  Use the same [tutorial](https://tinyurl.com/ME30-HTG) for a walk-through of how to test a P-channel corner. *Password: WeLoveME30!*
-- For a video demo of Prof. Wendell testing and debugging an H-bridge systematically, check out [Testing an H-bridge half](http://andnowforelectronics.com/notes/demo-videos/#testing-an-h-bridge).
+
 
 ![Image of H-bridge testing tutorial](/img/Pchannel_test_frog.jpg)
 
