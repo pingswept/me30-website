@@ -334,7 +334,7 @@ General procedure (details left to your group):
 
 Use this [shared doc](https://tinyurl.com/ME30questiondoc) to post questions about the P1 PCB test and about P3 circuit board design.
 
-## 21. Measure a DC gearmotor efficiency (Power Out and Power In) (Class 14)
+## 21a. Measure a DC gearmotor efficiency (Power Out and Power In) (Class 14)
 
 Here are a few basic measurements you can make to understand your DC gearmotor better. The overall goal is to determine the efficiency of the motor by comparing the electrical power that goes into it ("power in") with the mechanical power it delivers ("power out"). 
 
@@ -356,14 +356,15 @@ Put your multimeter in **series** with the motor, and measure the current the mo
 
 Compare "power in" and "power out" to estimate the motor's efficiency. 
 
-
-**Max Motor Power (Electrical)** 
+## 21b. Stall Torque and Max Current (Class 14)
 
 While we're at this, let's also determine the maximum current that the motor draws.
 
-Your motor draws max current when it's working as hard as it can but not able to move its shaft due to the resistance it's encountering. That's called motor stall. 
+Your motor draws max current when it's working as hard as it can but not able to move its shaft due to the resistance it's encountering. That's called motor stall. The torque preventing the motor from moving is called the stall torque.
 
-Use your multimeter to measure the resistance of your motor when not powered - i.e., when not moving.  Divide 12 volts by that resistance to find the max current your motor is capable of drawing.
+Details here about finding stall torque and measuring current and voltage during stall. 
+
+*Another method to estimate max current:* Use your multimeter to measure the resistance of your motor when not powered - i.e., when not moving.  Divide 12 volts by that resistance to find the max current your motor is capable of drawing.
 
 
 ## 22. Motor speed-torque curve (Class 14 or 15)
