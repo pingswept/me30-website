@@ -133,7 +133,7 @@ If you need something not available at Nolop or Bray, please talk to Brandon, Zo
 Documentation due on Canvas by Wednesday, November 12, 11:59 PM
 
 On November 12th, class will consist of us playing each other's games, marveling at our collective ingenuity and resourcefulness, and introducing Project 5. 
-
+-->
 
 ## Project 3: H-bridge
 **Build an H-bridge motor controller**
@@ -151,18 +151,18 @@ Here is a graphical version of those first two bullet points about connectors.
 
 ![P3 connectors](/img/P3-connectors.jpg)
 
-**Due date for prototype: Monday, October 20, 11:59 PM**
+**Due date for breadboard prototype: Monday, October 26, 11:59 PM**
 
 To get started building your prototype H-bridge, review the [Low Power/high power](http://andnowforelectronics.com/notes/low-power-high-power/) and the H-bridge(http://andnowforelectronics.com/notes/h-bridges/) pages, including their mini-lecture videos on BJT and MOSFET transistors. After that, if you're stuck, consult the [H-bridge testing](http://andnowforelectronics.com/notes/demo-videos/#testing-an-h-bridge) demo video.  Note that this video is not intended to give you step-by-step building or testing instructions, but rather to give you a feel for the kind of approach you might take to building and testing this circuit. If your H-bridge prototype isn't working by the deadline for this prototype, don't worry!  Just submit to Canvas a photo of what you have, working or not.  
 
 However, **once you do get your breadboard H-bridge working, take a video that shows it making the motor spin in both directions, controlled by a KB2040. You'll need that video eventually for your P3 final Canvas submission.**
 
-**Due date for functional breadboard H-bridge and PCB submission: Monday, October 27, 11:59 PM**
+**Due date for functional breadboard H-bridge and PCB submission: Monday, November 2, 11:59 PM**
 
 When your PCB design is ready, you should [submit it to the fabricator](https://oshpark.com/), OSH Park. If you focus on compact design, you can keep the cost to around $10. (If this cost is a hardship, please tell your ME 30 instructor or Courtney Russon in the ME office, and we will cover the cost by ordering it for you, no questions asked.) After you order it, take a screenshot of your order confirmation (proof that you submitted your project on time). Also, take  screenshots of your circuit layout and PCB design in KiCad (it would be a good idea to save these screenshots for your portfolio). Upload all your screenshots to Canvas.
 
 For this final submission to Canvas, you will also need to submit evidence that your breadboard H-bridge circuit is functional --  a video that shows it making the motor spin in both directions, controlled by a KB2040.
--->
+
 
 ## Project 2: Gam
 **Get started building an electromechanical game**
