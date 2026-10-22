@@ -38,10 +38,10 @@ draft: false
 |:-----:|:-----:|------------------------------------|--------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------|
 |   15  | 11/2  | Motor modeling; P4 intro                | KB2040 challenge #7; P4 planning              |      | [P3 PCB](/logistics/projects/#project-2-build-an-h-bridge-motor-controller)   |
 |   16  | 11/4  | Sensors, state machines intro      | KB2040 challenges, set 2 | [KB2040 challenges](/notes/kb2040-challenges/); [KB2040 programming](/notes/kb2040-programming/) | P4 learning goal HW due 11/6 |
-|   17  | 11/9  | State machines, Stepper motors     | KB2040 challenges, set 2 | [KB2040 challenges](/notes/kb2040-challenges/); [KB2040 programming](/notes/kb2040-programming/)| KB 2040 challenge #10 HW |
+|   17  | 11/9  | State machines, Stepper motors     | KB2040 challenges, set 2 | [KB2040 challenges](/notes/kb2040-challenges/); [KB2040 programming](/notes/kb2040-programming/)| KB 2040 challenge #11 HW |
 |   18  | 11/10 | Ethical considerations for lithium batteries  | P4 work                  | | Lithium batteries HW due 11/12   |
 |       | 11/11 | NO CLASS, but notice Tuesday, 11/10 | (Veteran's Day)          |  |  |
-|   19  | 11/16 | Raspberry Pi intro                 | Booting the Raspberry Pi | [Raspberry Pi programming](/notes/pi-programming/); [Raspberry Pi setup](/notes/pi-setup/)   |      |
+|   19  | 11/16 | Raspberry Pi intro                 | Short quiz #4 (KB2040/sensors/motors); Booting the Raspberry Pi | [Raspberry Pi programming](/notes/pi-programming/); [Raspberry Pi setup](/notes/pi-setup/)   |      |
 |   20  | 11/18 | P4 reflection; Intro to P5 Stage 1     | P4 demo day              |       |   [P4](/logistics/projects); Pi set-up HW due 11/20  |  
 
 ## Phase 4: Driving robots with operating systems
