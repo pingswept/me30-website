@@ -29,14 +29,14 @@ draft: false
 |   11  | 10/19 | H-bridges, P3 intro                                     | Start building an H-bridge      | [H-bridge motor driver](/notes/h-bridge/) | [P2 (game v1)](/logistics/projects) due Mon. in class|
 |   12  | 10/21 | More H-bridge details            | More H-bridge work              | [H-bridge motor driver](/notes/h-bridge/); [Intro and video for P3](/logistics/projects/#project-2-build-an-h-bridge-motor-controller)             | [KB2040 challenge #6 HW](http://andnowforelectronics.com/notes/kb2040-challenges/)      |
 |   13  | 10/26 |  Project 3 details; H-bridge PCBs  | Run your H-bridge with your KB2040; KiCad work   |     |[P3 proto](/logistics/projects/#project-2-build-an-h-bridge-motor-controller)|
-|   14  | 10/28 | Motor electrical & mechanical power, Intro to P4           | Motor measurement  |   |  |
+|   14  | 10/28 | Motor electrical & mechanical power, PWM           | Motor measurement  |   |  |
 
 
 ## Phase 3: Microcontrollers and sensors
 
 | Class | Date  | Class topics                       | Hands-on                 | What to study | What's due  |
 |:-----:|:-----:|------------------------------------|--------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------|
-|   15  | 11/2  | Motor modeling; PWM                | KB2040 challenge #7; P4 planning              |      | [P3 PCB](/logistics/projects/#project-2-build-an-h-bridge-motor-controller)   |
+|   15  | 11/2  | Motor modeling; P4 intro                | KB2040 challenge #7; P4 planning              |      | [P3 PCB](/logistics/projects/#project-2-build-an-h-bridge-motor-controller)   |
 |   16  | 11/4  | Sensors, state machines intro      | KB2040 challenges, set 2 | [KB2040 challenges](/notes/kb2040-challenges/); [KB2040 programming](/notes/kb2040-programming/) | P4 learning goal HW due 11/6 |
 |   17  | 11/9  | State machines, Stepper motors     | KB2040 challenges, set 2 | [KB2040 challenges](/notes/kb2040-challenges/); [KB2040 programming](/notes/kb2040-programming/)| KB 2040 challenge #10 HW |
 |   18  | 11/10 | Ethical considerations for lithium batteries  | P4 work                  | | Lithium batteries HW due 11/12   |
