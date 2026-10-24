@@ -299,6 +299,7 @@ As you work on this challenge, **be careful not to create a situation where you 
 ![Voltage and current in top left corner of an H-bridge](/img/P-ch_exercise1.jpg)
 {{< /expand >}}
 
+
 Now you add a BJT as a different method for switching on the P-channel MOSFET. Again, you want to test this corner before moving on to other sections of the H-bridge. If the BJT and P-channel MOSFET in this corner are wired correctly, 
 
 1. What should happen to the motor when the control voltage heading toward the BJT base is:
@@ -349,7 +350,7 @@ Here are a few basic measurements you can make to understand your DC gearmotor b
 
 Determine how much mechanical power the motor actually delivers ("power out"). One way to do this is to measure the time it takes to perform a certain amount of work (i.e., to add energy to a system).
 
-1. Use tape and string to hang a water bottle (or other weight) from your motor shaft.
+1. Use a paper clip and string to hang a water bottle (or other weight) from the hub on your motor shaft.
 2. Connect your motor directly to your 12 V DC power supply using alligator clips. 
 3. Measure the time it takes your motor to lift the water bottle (or other weight) a specific distance (you could try something like 0.5 or 1.0 kg of water, lifted up 1 m).
 4. Measure the weight your motor was lifting. Compute the amount of work done in lifting the water.
@@ -367,9 +368,10 @@ Compare "power in" and "power out" to estimate the motor's efficiency.
 
 While we're at this, let's also determine the maximum current that the motor draws.
 
-Your motor draws max current when it's working as hard as it can but not able to move its shaft due to the resistance it's encountering. That's called motor stall. The torque preventing the motor from moving is called the stall torque.
-
-Details here about finding stall torque and measuring current and voltage during stall. 
+- Your motor draws max current when it's working as hard as it can but not able to move its shaft due to the resistance it's encountering. That's called motor stall. The torque preventing the motor from moving is called the stall torque.
+- Use a paper clip and string to hang multiple water bottles from a hub on your motor shaft. Add water until the motor can just barely resist the weight, but can't lift it. Your motor is now exerting its max torque, also called **stall torque**.
+- Determine the stall torque value by multiplying this max load by the moment arm (distance between the motor shaft and the load attachment point).
+- Measure the current and voltage during stall. 
 
 *Another method to estimate max current:* Use your multimeter to measure the resistance of your motor when not powered - i.e., when not moving.  Divide 12 volts by that resistance to find the max current your motor is capable of drawing.
 
