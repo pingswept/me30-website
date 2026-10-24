@@ -295,6 +295,10 @@ As you work on this challenge, **be careful not to create a situation where you 
 
 ![Top left corner of an H-bridge](/img/Hbridge-corner.png)
 
+{{< expand "See the answer" "..." >}}
+![Voltage and current in top left corner of an H-bridge](/img/P-ch_exercise1.jpg)
+{{< /expand >}}
+
 Now you add a BJT as a different method for switching on the P-channel MOSFET. Again, you want to test this corner before moving on to other sections of the H-bridge. If the BJT and P-channel MOSFET in this corner are wired correctly, 
 
 1. What should happen to the motor when the control voltage heading toward the BJT base is:
@@ -304,8 +308,11 @@ Now you add a BJT as a different method for switching on the P-channel MOSFET. A
 
 2. For each of those control voltage states, determine the voltage at the MOSFET's three pins, and sketch the path of any current that flows anywhere in the circuit.
 
-
 ![add BJT to corner of an H-bridge](/img/Hbridge-corner-BJT.jpg)
+
+{{< expand "See the answer" "..." >}}
+![Voltage and current in top left corner of an H-bridge](/img/P-ch_exercise2.jpg)
+{{< /expand >}}
 
 ## 19. H-bridge circuit analysis, part 2 (Class 13)
 
