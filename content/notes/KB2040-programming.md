@@ -155,6 +155,14 @@ while True:
 
     time.sleep(0.1)
 ```
+### Pausing code until input changes
+
+Want your KB2040 to maintain its current state until a specific input change? The `pass` command might work for you in simple scenarios. The following code is an infinite `while` loop that just keeps checking `input_pin.value` until it becomes `True.`
+
+```python
+while not input_pin.value:
+    pass
+```
 
 ## PWMIO library - for motor speed control
 
