@@ -78,7 +78,7 @@ For this course, you will design and order printed circuit boards (PCBs) from [O
 
 Each of the 2 orders will cost around $10. (The price is actually $5 per square inch. If you can make your boards smaller, they will be cheaper, but most of the boards end up being around 2 square inches.) Shipping is free. 
 
-If the PCB cost is a hardship, for whatever reason, the Mechanical Engineering department can cover the costs. Please let one of the instructors or the ME department administrator Courtney Russo (courtney.russo@tufts.edu) know, either in person or via email. 
+If the PCB cost is a hardship, for whatever reason, the Mechanical Engineering department can cover the costs. Please let one of the instructors or the ME department administrator Courtney O'Hara (courtney.ohara@tufts.edu) know, either in person or via email. 
 
 
 ### Textbooks
