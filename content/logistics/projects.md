@@ -159,7 +159,7 @@ However, **once you do get your breadboard H-bridge working, take a video that s
 
 **Due date for functional breadboard H-bridge and PCB submission: Monday, November 2, 11:59 PM**
 
-When your PCB design is ready, you should [submit it to the fabricator](https://oshpark.com/), OSH Park. If you focus on compact design, you can keep the cost to around $10. (If this cost is a hardship, please tell your ME 30 instructor or Courtney Russon in the ME office, and we will cover the cost by ordering it for you, no questions asked.) After you order it, take a screenshot of your order confirmation (proof that you submitted your project on time). Also, take  screenshots of your circuit layout and PCB design in KiCad (it would be a good idea to save these screenshots for your portfolio). Upload all your screenshots to Canvas.
+When your PCB design is ready, you should [submit it to the fabricator](https://oshpark.com/), OSH Park. If you focus on compact design, you can keep the cost to around $10. (If this cost is a hardship, please tell your ME 30 instructor or Courtney O'Hara in the ME office, and we will cover the cost by ordering it for you, no questions asked.) After you order it, take a screenshot of your order confirmation (proof that you submitted your project on time). Also, take  screenshots of your circuit layout and PCB design in KiCad (it would be a good idea to save these screenshots for your portfolio). Upload all your screenshots to Canvas.
 
 For this final submission to Canvas, you will also need to submit evidence that your breadboard H-bridge circuit is functional --  a video that shows it making the motor spin in both directions, controlled by a KB2040.
 
