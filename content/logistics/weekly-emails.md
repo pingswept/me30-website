@@ -6,6 +6,28 @@ draft: false
 
 - - -
 
+## Week #8: Sunday, 10/25/26
+
+This week we'll support H-bridge de-bugging. We’ll also dig into the details of PCB design for more complex circuits (including your H-bridge), and we'll explore motor power and efficiency. View the course Calendar for all upcoming class topics and activities.
+
+**Things due in Week 8:**
+- Breadboard Prototype for Project 3, the H-bridge motor controller, is due tomorrow, Monday, Oct. 26, 11:59pm. The assignment is to upload to Canvas a photo of your breadboard H-bridge circuit (with 4 MOSFETs and 2 BJTs), whether it works or not. 
+- (If it doesn’t work yet, no penalty at this point, so don’t worry. We expect many students will still be de-bugging. However, if it is working, make sure you record a video so you have it to submit with Project 3 final submission next week!
+- Your KiCad PCB design for Project 3 is due next Monday, Nov. 2, 11:59pm.
+
+**Learning goals for Week 8:**
+- Explain how an H-bridge motor controller works.
+- Improve your skills with PCB design strategies and software.
+- Estimate motor power and efficiency using electrical and mechanical measurements
+
+**Course website (andnowforelectronics.com) pages to study in Week 8:**
+- [Project 3 (H-bridge PCB) description](http://andnowforelectronics.com/logistics/projects/)
+- [H-bridge motor controller](http://andnowforelectronics.com/notes/h-bridges/)
+- [Motors](http://andnowforelectronics.com/notes/motors/)
+
+**Optional additional reading for Week 8:**
+- “Chapter 15: Motors” (pgs. 933-945) in Practical Electronics for Inventors (Scherz & Monk) (available [here] from Tisch Library online)
+
 ## Week #7: Sunday, 10/18/26
 
 Now that you're familiar with the basics of transistor circuits, we're moving on to using transistors for bi-directional motor control in combination with your KB2040 microcontroller and a very important circuit called the H-bridge.
