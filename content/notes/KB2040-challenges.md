@@ -29,7 +29,7 @@ Use an H-bridge circuit to make your gearmotor spin clockwise for 5 seconds, the
 10. Use a resistor in series with your photoresistor to make a voltage that changes with light exposure. Use that voltage to control the speed of your gearmotor on pin D6.
 11. Use a pushbutton on pin D5 to control when your motor is on and off, using D6 for motor control.
 
-<!--
+
 ### Solutions for Set 1
 
 {{< expand "See the schematic diagrams for 1 to 6" "..." >}}
@@ -48,19 +48,124 @@ Use an H-bridge circuit to make your gearmotor spin clockwise for 5 seconds, the
 
 {{< expand "See CircuitPython code for 1 to 6" "..." >}}
 
-![Code for 1](/img/challenge1py.jpg)
+```python
+###############################
 
-![Code for 2](/img/challenge2py.jpg)
+#Challenge 1
 
-![Code for 3](/img/challenge3py.jpg)
+import digitalio
+import time
+import board
 
-![Code for 4](/img/challenge4py.jpg)
+led = digitalio.DigitalInOut(board.D5)
+led.direction = digitalio.Direction.OUTPUT
 
-![Code for 6](/img/challenge6py.jpg)
+while True:
+    led.value = True
+    time.sleep(0.25)
+    led.value = False
+    time.sleep(0.25)
+
+###############################
+
+#Challenge 2
+
+import time
+
+while True:
+    print("I, for one, welcome our new insect overlords.")
+    time.sleep(1)
+
+###############################
+
+#Challenge 3
+
+import digitalio
+import time
+import board
+
+pin5 = digitalio.DigitalInOut(board.D5)
+pin5.direction = digitalio.Direction.INPUT
+
+while True:
+    if pin5.value is True:
+        print("HIGH")
+    else:
+        print("LOW")
+    time.sleep(0.01)
+
+###############################
+
+#Challenge 4
+
+import digitalio
+import time
+import board
+
+pin5 = digitalio.DigitalInOut(board.D5)
+pin5.direction = digitalio.Direction.INPUT
+
+pin6 = digitalio.DigitalInOut(board.D6)
+pin6.direction = digitalio.Direction.OUTPUT
+
+while True:
+    if pin5.value is True:
+        pin6.value = True
+    else:
+        pin6.value = False
+    time.sleep(0.01)
+
+#alternate method
+    # pin6.value = pin5.value
+    #time.sleep(0.01)
+
+###############################
+
+#Challenge 6
+
+import digitalio
+import time
+import board
+
+gate = digitalio.DigitalInOut(board.D6)
+gate.direction = digitalio.Direction.OUTPUT
+
+while True:
+    gate.value = True
+    time.sleep(5)
+    gate.value = False
+    time.sleep(5)
+
+###############################
+
+#H-bridge Challenge
+
+import digitalio
+import time
+import board
+
+diagonal1 = digitalio.DigitalInOut(board.D5)
+diagonal1.direction = digitalio.Direction.OUTPUT
+
+diagonal2 = digitalio.DigitalInOut(board.D6)
+diagonal2.direction = digitalio.Direction.OUTPUT
+
+while True:
+    diagonal1.value = False
+    diagonal2.value = True
+    time.sleep(5)
+
+    diagonal2.value = False
+    diagonal1.value = True
+    time.sleep(5)
+
+###############################
+
+```
 
 {{< /expand >}}
 
-
+<!--
 ### Solutions for H-bridge and Set 2
 
 {{< expand "See the schematic diagrams for Set 2" "..." >}}
