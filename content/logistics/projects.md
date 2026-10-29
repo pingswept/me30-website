@@ -127,9 +127,9 @@ Bray also has materials for fabrication, leaning more toward the metal/nuts/bolt
 
 If you need something not available at Nolop or Bray, please talk to Brandon, Zosia, or Kristen as soon as you can.
 
-**Due date for game: Wednesday, November 12, IN CLASS**
+**Due date for game: Wednesday, November 18th, IN CLASS**
 
-Documentation due on Canvas by Wednesday, November 18, 11:59 PM
+Documentation due on Canvas by Wednesday, November 18th, 11:59 PM
 
 On November 18th, class will consist of us playing each other's games, marveling at our collective ingenuity and resourcefulness, and introducing Project 5.
 
