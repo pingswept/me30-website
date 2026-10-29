@@ -100,23 +100,23 @@ We’ll pool all the people who would like to be assigned a partner and team you
 Use [this survey](https://tufts.qualtrics.com/jfe/form/SV_0cAixyzuN8ok4br) to indicate your chosen teaming option (list your teammates or indicate you'd like to be placed on a team).
 
 
-## Project 4: Build an electromechanical game
+## Project 4: Build an electromechanical FUN GAME
 
-Your task is to build a game with the following characteristics:
+Based on your work in project 2, your task is to refine your FU GAM into an actual FUN GAME with the following characteristics:
 
 *   It is controlled by a KB2040 microcontroller.
 *   It uses your H-bridge prototype to drive a motor in at least one direction. (If you need a second H-bridge, you can make another one or use any motor driver that will work.) 
 *   It has some kind of user input, like a button, knob, joystick, sensor, or the like, that talks to the KB2040 microcontroller. (Read the note below about the ME 30 Nolop tab).
 *   It has at least one part that moves, driven by one of the motors in your kit. (You can use both motors if you want. Servo motors are prohibited.)
 *   It is at least sort of fun to play. A blinking LED is not a game.
-*   It includes no 3D printed components whose STL files were downloaded from the internet.
-*   Its major structural components are NOT 3D printed.
+*   It fits on a table. If your game requires a large structure, talk that over with your professor before you start.
+*   It is fabricated _without_ 3D printing, except for components that fit within a cube 5 cm on a side.
 
 ### Personal learning goals ###
 
-As soon as you can manage it, you should formulate and submit to Canvas one or more personal learning goals for the project. Building games is cool, but the real point here is for you to gain skills and experience that help you grow as an engineer. That works best when your heart is in it; this is your chance to follow where your heart leads. (Okay, that's a bit cheesy, but also true.)
+As soon as you can manage it, you should formulate and submit to Canvas one or more personal learning goals for the project as part of Homework #4. Building games is cool, but the real point here is for you to gain skills and experience that help you grow as an engineer. That works best when your heart is in it; this is your chance to follow where your heart leads. (Okay, that's a bit cheesy, but also true.)
 
-**By Wednesday, October 29, 11:59 PM, please describe your learning goal on Canvas.**
+**By Friday, November 6, 11:59 PM, please describe your learning goal on Canvas.**
 
 At the end of the project, one of the reflection questions will ask you whether you met your learning goal.
 
