@@ -98,8 +98,7 @@ Option 2 – Work in a team of 2 or 3 assigned to you by instructors
 We’ll pool all the people who would like to be assigned a partner and team you up. We might need to make a team of 3 depending on who is available. 
 
 Use [this survey](https://tufts.qualtrics.com/jfe/form/SV_0cAixyzuN8ok4br) to indicate your chosen teaming option (list your teammates or indicate you'd like to be placed on a team).
-
-
+-->
 ## Project 4: Build an electromechanical FUN GAME
 
 Based on your work in project 2, your task is to refine your FU GAM into an actual FUN GAME with the following characteristics:
@@ -130,10 +129,9 @@ If you need something not available at Nolop or Bray, please talk to Brandon, Zo
 
 **Due date for game: Wednesday, November 12, IN CLASS**
 
-Documentation due on Canvas by Wednesday, November 12, 11:59 PM
+Documentation due on Canvas by Wednesday, November 18, 11:59 PM
 
-On November 12th, class will consist of us playing each other's games, marveling at our collective ingenuity and resourcefulness, and introducing Project 5. 
--->
+On November 18th, class will consist of us playing each other's games, marveling at our collective ingenuity and resourcefulness, and introducing Project 5.
 
 ## Project 3: H-bridge
 **Build an H-bridge motor controller**
