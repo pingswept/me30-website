@@ -36,8 +36,8 @@ draft: false
 
 | Class | Date  | Class topics                       | Hands-on                 | What to study | What's due  |
 |:-----:|:-----:|------------------------------------|--------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------|
-|   15  | 11/2  | Motor modeling; P4 intro                | KB2040 challenge #7; P4 planning              |      | [P3 PCB](/logistics/projects/#project-2-build-an-h-bridge-motor-controller)   |
-|   16  | 11/4  | Sensors, state machines intro      | KB2040 challenges, set 2 | [KB2040 challenges](/notes/kb2040-challenges/); [KB2040 programming](/notes/kb2040-programming/) | P4 learning goal HW due 11/6 |
+|   15  | 11/2  | Motor modeling; P4 intro                | KB2040 challenge #7               |      | [P3 PCB](/logistics/projects/#project-2-build-an-h-bridge-motor-controller)   |
+|   16  | 11/4  | Sensors, state machines intro      | P4 planning; KB2040 challenges, set 2 | [KB2040 challenges](/notes/kb2040-challenges/); [KB2040 programming](/notes/kb2040-programming/) | P4 learning goal HW due 11/6 |
 |   17  | 11/9  | State machines, Stepper motors     | KB2040 challenges, set 2 | [KB2040 challenges](/notes/kb2040-challenges/); [KB2040 programming](/notes/kb2040-programming/)| KB 2040 challenge #11 HW |
 |   18  | 11/10 | Ethical considerations for lithium batteries  | P4 work                  | | Lithium batteries HW due 11/12   |
 |       | 11/11 | NO CLASS, but notice Tuesday, 11/10 | (Veteran's Day)          |  |  |
