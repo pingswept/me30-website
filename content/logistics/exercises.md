@@ -352,7 +352,7 @@ Determine how much mechanical power the motor actually delivers ("power out"). O
 
 1. Use a paper clip and string to hang a water bottle (or other weight) from the hub on your motor shaft.
 2. Connect your motor directly to your 12 V DC power supply using alligator clips. 
-3. Measure the time it takes your motor to lift the water bottle (or other weight) a specific distance (you could try something like 0.5 or 1.0 kg of water, lifted up 1 m).
+3. Measure the time it takes your motor to lift the water bottle (or other weight) a specific distance (you could try something like 0.5 or 1.0 kg of water, lifted up 1 m). You might take a video of the lift with a stopwatch and multimeter in the frame.
 4. Measure the weight your motor was lifting. Compute the amount of work done in lifting the water.
 5. With the two values of work and time, you can find "power out" - the mechanical power exerted by the motor.
 
