@@ -52,11 +52,25 @@ R<sub>SMALL</sub> is a current-limiting resistor for the BJT. When the BJT is on
 
 In your ME 30 kit, you've got everything you need to build an H-bridge circuit on a breadboard. 
 - If you're totally unsure of how to get started, study the three diagrams above on this page.
-- Check out this video demo of Prof. Wendell [testing and debugging an H-bridge systematically]((http://andnowforelectronics.com/notes/demo-videos/#testing-an-h-bridge)).
+- Check out (below) the video demo of Prof. Wendell testing and debugging an H-bridge systematically (she uses 5 V instead of 3.3 V as the input to the gate and base pins, but you can use 3.3 V).
 - Next, try building ONLY the lower left N-channel corner, and test and make sure that corner works before moving on. Here's an interactive tutorial (created by former ME 30 student and LA Kimberly Eng) on [how to test an N-channel corner](https://tinyurl.com/ME30-HTG) . *Password: WeLoveME30!*
 - Then, try building the upper left P-channel corner. Again, test and make sure it works before building either of the right-side corners. For guidance, use this tutorial on [how to test a P-channel corner](https://tinyurl.com/ME30-HTG) . *Password: WeLoveME30!*
 
 ![Image of H-bridge testing tutorial](/img/Pchannel_test_frog.jpg)
+
+## Testing an H-bridge   
+This video is not intended to provide step-by-step building and testing instructions for an [H-bridge motor controller circuit](http://andnowforelectronics.com/notes/h-bridge/). Instead, its goal is to give you a feel for one kind of systematic approach you could take to circuit construction, testing, and debugging.  It shows only the testing moments, and it proceeds only until half of the H-bridge circuit is complete. **In this video, we use 5V instead of 3.3 V as the "control" voltage to the N-Channel gate and BJT base. You can use 3.3 V and everything will work the same way as shown here.**
+
+Here's what we hope you'll take away from this video:
+* "One MOSFET at a time" is a reasonable approach to H-bridge building and testing.  
+* You can start building an H-bridge by wiring up the "lower left" corner N-channel MOSFET. You can test it by manually hooking up the other side of the motor to 12 V.  
+* Then, you can add the "upper left" corner P-channel MOSFET.  To test it by itself, think about where the other side of the motor needs to be manually connected.  
+* Third, you can join the lower and upper left corners and test out the full left side. How will you deal with the other side of the motor in this testing step?  
+* Not shown in this video, the next step would be to build and test the right side of the H-bridge, mirroring the left side.   
+
+<iframe id="kaltura_player" src="https://cdnapisec.kaltura.com/p/1813261/sp/181326100/embedIframeJs/uiconf_id/26203331/partner_id/1813261?iframeembed=true&playerId=kaltura_player&entry_id=1_qo6kojls&flashvars[streamerType]=auto&amp;flashvars[localizationCode]=en&amp;flashvars[leadWithHTML5]=true&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=1_478m7899" width="736" height="450" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" frameborder="0" title="Kaltura Player"></iframe>
+
+
 
 ## Pathologies and debugging
 
