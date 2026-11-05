@@ -1,17 +1,63 @@
 ---
 title: "Class 16: Sensors"
-draft: true
+draft: false
 ---
-If we're thinking about electricity like it's water flowing in a pipe, then a resistor is like a narrow restriction in a pipe that limits the amount of current that can flow through.
 
-Here's what resistors actually look like in the real world.
+# Digital input
 
-![Different kinds of resistors](/img/resistors.jpg)
+If you indicate in your microcontroller code that a digital pin is functioning as an input, its value will be a logical (binary) variable. The microcontroller will detect the voltage at the pin and label it as either True or False. Voltages above 2 V are interpreted as True, and voltages below 1 V are interpreted as False. In between 1 V and 2 V is a transition state where the pin state can't be guaranteed. 
 
-At the top left, we have 1/4 W, 10k carbon film through-hole resistors. They're probably the most common resistors in the world.
+When you set a pin to be an input, you can also refer to it as a *sink*. When it's set up to be an output, it's a *source* (of current).
 
-At top right, we have a big spool of 1/10 W, 1k surface-mount resistors. They might rival the carbon film resistors at left for the popularity title.
+## Push button for digital input
 
-The big blocky brass thing in the middle is a current shunt, that is, a resistor that has a very low resistance that is precisely calibrated. You run a large current through the rod in the middle, and then you measure the voltage drop with the two wires on either side. If you look carefully at the right hand side of the shunt, you can seea legend stamped into the metal that reads, "50 A 60 mV." This means that when you measure a 60 mV drop across the shunt, 50 A is flowing through it. (Thus, its resistance is 0.060/50 = 0.0012 ohms, or 1.2 milliohms.)
+Here's how you can set up a push button to toggle the value of a digital pin (set up in the code as **INPUT**) between True and False.
 
-In the lower left, we have a power resistor. This is just a resistor encased in a big block of metal so you can run a lot of current through it without melting it. The last line of the legend printed on it says, "50W 0.15Ω," which means that the resistor can dissipate 50 W without burning up. Knowing its power limit and resistance, you can calculate its current and voltage limits: sqrt(50/0.15) = 18 A, and sqrt(50 * 0.15) = 2.7 V.
+![Button input to KB2040](/img/sensor_button.jpg)
+
+If combined with the circuit shown above, this Circuit Python code will print 1 (True) when the button is pressed and 0 (False) when not pressed.
+
+```python
+import digitalio
+import time
+import board
+
+button = digitalio.DigitalInOut(board.D6)
+button.direction = digitalio.Direction.INPUT
+
+while True:
+    print(button.value)
+    time.sleep(0.1)
+```
+
+# Analog input
+
+The analog pins on a microcontroller are able to detect a range of voltages between 0 and 3.3 V and store the pin value as a continuous variable, rather than simply labeling the pin as True or False.
+
+This Circuit Python code will print the value of analog pin A0. The pin values will range from 0 (indicating 0 V detected at the pin) to 65535 (indicating 3.3 V detected at the pin).
+
+```python
+import time
+import board
+import analogio
+
+inputvoltage = analogio.AnalogIn(board.A0)
+
+while True:
+    print((inputvoltage.value,))
+    time.sleep(0.1)
+```
+
+## Potentiometer as a rotation sensor
+
+![Potentiometer input to KB2040](/img/sensor_pot.jpg)
+
+![Potentiometer input to KB2040, cartoon of wiring](/img/sensor_pot_wiring.jpg)
+
+
+## Photoresistor as a light sensor
+
+![Photoresistor input to KB2040](/img/sensor_light.jpg)
+
+
+
