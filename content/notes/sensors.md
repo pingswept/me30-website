@@ -11,7 +11,7 @@ When you set a pin to be an input, you can also refer to it as a *sink*. When it
 
 ## Push button for digital input
 
-Here's how you can set up a push button to toggle the value of a digital pin (set up in the code as **INPUT**) between True and False.
+Here's how you can set up a push button to toggle the value of a digital pin between True and False. The pin must be set up in the code as **INPUT**. 
 
 ![Button input to KB2040](/img/sensor_button.jpg)
 
