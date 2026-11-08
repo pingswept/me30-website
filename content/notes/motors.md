@@ -61,9 +61,13 @@ If you look closely at the rotor below, you can see that the teeth on the left r
 
 **How do I control a stepper motor?**
 
-You need two H-bridges for stepper motor control -- one for each of the coil sets. To learn about how to wire a stepper motor to a pair of H-bridge motor controllers, view [this resource](https://lastminuteengineers.com/stepper-motor-l298n-arduino-tutorial/).
+You need two H-bridges for stepper motor control -- one for each of the coil sets. To learn about how to wire a stepper motor to a pair of H-bridge motor controllers, see the diagram below. For more details, view [this resource](https://lastminuteengineers.com/stepper-motor-l298n-arduino-tutorial/).
 
 Circuit Python code for stepper motor control can be found on the KB2040 programming page, [here.](http://andnowforelectronics.com/notes/kb2040-programming/#stepper-motors)
+
+![stepper motor wired to H-bridges](/img/StepperMotorWiring.jpg)
+
+
 
 ### Hobby servos
 
