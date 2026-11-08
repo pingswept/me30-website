@@ -12,17 +12,17 @@ import board
 import pwmio
 import time
 
-my_control_pin = pwmio.PWMOut(board.D6, frequency=500, duty_cycle=0)
-# creates a new object called “my_control_pin” that will hold all 
+control_pin = pwmio.PWMOut(board.D6, frequency=500, duty_cycle=0)
+# creates a new object called “control_pin” that will hold all 
     # the information about sending out 
     # pulse-width modulation at pin D6
 
 while True:
-    my_control_pin.duty_cycle = 65535
+    control_pin.duty_cycle = 65535
     time.sleep(3)
-    my_control_pin.duty_cycle = 32770
+    control_pin.duty_cycle = 32770
     time.sleep(3)
-    my_control_pin.duty_cycle = 16400
+    control_pin.duty_cycle = 16400
     time.sleep(3)
 ```
 
@@ -38,8 +38,8 @@ while True:
 The plot below depicts three PWM cycles, and **x** represents the duration of each cycle (the inverse of the PWM frequency).  It should be set to 500 for the KB2040.
 
 From top to bottom, the duty cycles shown would spin the motor at approximately: 
-- 50% speed (corresponding to `pin.duty_cycle = 32770` in CircuitPython for the KB2040)
-- 75% speed (corresponding to `pin.duty_cycle = 49151` in CircuitPython for the KB2040)
-- 25% speed (corresponding to `pin.duty_cycle = 16384` in CircuitPython for the KB2040)
+- 50% speed (corresponding to `control_pin.duty_cycle = 32770` in CircuitPython for the KB2040)
+- 75% speed (corresponding to `control_pin.duty_cycle = 49151` in CircuitPython for the KB2040)
+- 25% speed (corresponding to `control_pin.duty_cycle = 16384` in CircuitPython for the KB2040)
 
 ![Plot showing 3 duty cycles](/img/pwm_plot.jpg)
