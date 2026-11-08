@@ -31,14 +31,15 @@ while True:
 
 **Duty_cycle**: This CircuitPython parameter refers to the length of each voltage pulse. It's the duration of time, within each very brief control cycle, at which the voltage is ON or HIGH (i.e., 3.3 V).
 
-For the KB2040, a duty cycle value of 65535 corresponds to the voltage being turned on for 100% of each very short PWM cycle, which means the motor gets 100% of the voltage available to it.
+- For the KB2040, a duty cycle value of 65535 corresponds to the voltage being turned on for 100% of each very short PWM cycle, which means the motor gets 100% of the voltage available to it.
+- Because 50% of 65535 is about 32770, a duty cycle of about 32770 corresponds to the voltage being set high for 50% of the cycle, or the motor getting about 50% of the voltage available to it. The motor will spin at half speed.
+- A duty cycle of about 6550 corresponds to the voltage being set high for 10% of the cycle, or the motor getting about 10% of the voltage available to it.  The motor would spin at 10% speed IF that is enough voltage to overcome its internal friction (you’ll probably find that it’s not enough voltage for the motor to turn at all).
 
-Because 50% of 65536 is about 32770, a duty cycle of about 32770 corresponds to the voltage being set high for 50% of the cycle, or the motor getting about 50% of the voltage available to it. The motor will spin at half speed.
+The plot below depicts three PWM cycles, and **x** represents the duration of each cycle (the inverse of the PWM frequency).  It should be set to 500 for the KB2040.
 
-A duty cycle of about 6550 corresponds to the voltage being set high for 10% of the cycle, or the motor getting about 10% of the voltage available to it.  The motor would spin at 10% speed IF that is enough voltage to overcome its internal friction (you’ll probably find that it’s not enough voltage for the motor to turn at all).
-
-To use PWM to control the speed of a motor, you send the PWM signal to the control pin (gate or base) of a transistor. As shown below, the device that you are controlling (below, a motor) is wired to the main current-conducting path of the transistor.  
-
-![Connecting a PWM pin to a transistor gate and motor](/img/pwm_motor_connection.jpg)
+From top to bottom, the duty cycles shown would spin the motor at approximately: 
+- 50% speed (corresponding to `pin.duty_cycle = 32770` in CircuitPython for the KB2040)
+- 75% speed (corresponding to `pin.duty_cycle = 49151` in CircuitPython for the KB2040)
+- 25% speed (corresponding to `pin.duty_cycle = 16384` in CircuitPython for the KB2040)
 
 ![Plot showing 3 duty cycles](/img/pwm_plot.jpg)
