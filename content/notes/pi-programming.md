@@ -59,7 +59,7 @@ Next, you may want a text editor that runs in your terminal window to write, edi
 * `<tab>`: try to autocomplete the command I am typing
 * `<ctrl>c`: interrupt the command in process
 * `python3 name-of-the-file.py: run a Python script named name-of-the-file.py
-* `sudo shutdown`: turn off the Pi
+* `sudo shutdown now`: turn off the Pi
 
 ### **What about some more obscure commands that could be useful?**
 
