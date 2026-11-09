@@ -436,14 +436,14 @@ Why will this code probably **not work very well** to accomplish the goal stated
 {{< expand "Click to see the code that won't work very well" "..." >}}
 <pre class="code">
 import board
-import digitalio as dio
+import digitalio
 import time
 
-led_1 = dio.DigitalInOut(board.D4)
-led.direction = dio.Direction.OUTPUT
+led_1 = digitalio.DigitalInOut(board.D4)
+led.direction = digitalio.Direction.OUTPUT
 
-led_2 = dio.DigitalInOut(board.D5)
-led_2.direction = dio.Direction.OUTPUT
+led_2 = digitalio.DigitalInOut(board.D5)
+led_2.direction = digitalio.Direction.OUTPUT
     
 button = dio.DigitalInOut(board.D6)
 button.direction = dio.Direction.INPUT
