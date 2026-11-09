@@ -343,7 +343,7 @@ STATE_CHECK_BUTTON = 2 # the values 1 and 2 are not significant
 
 state = STATE_TOGGLE
 next_toggle = 0
-led_1.value = False
+led_green.value = False
 
 while True:
     if state is STATE_TOGGLE:
