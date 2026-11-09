@@ -171,12 +171,6 @@ First, you need to install [Flask](https://pypi.org/project/Flask/) onto your Pi
 **Wait, how do I install Flask?**
 
 ```
-sudo pip3 install flask
-```
-
-or
-
-```
 sudo apt install python3-flask
 ```
 
