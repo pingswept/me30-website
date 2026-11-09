@@ -13,28 +13,28 @@ In class this week, we'll work through strategies for wiring and coding your KB2
 Labs this week will focus on supporting Project 4 and KB2040 Challenges Set 2. 
 Short quiz #4 is Monday, Nov. 16. Project 4 is due next Wednesday, Nov. 18.
  
-Things due in Week 10:
+**Things due in Week 10:**
 - KB2040 Challenge #11 due Nov. 9
 - This week you should be developing a solid plan for your Project 4 game. Before you sink time into structures and moving parts, figure out your circuit and code. Make sure you can get your KB2040 to reliably receive voltage signals from your input(s) and send voltage signals out to your H-bridge(s). Remember that we are not grading you based on how beautiful or sophisticated your game is (though we appreciate those qualities); we are looking for you to meet the posted project requirements.
 - If you have not yet tried out Set 2 of the KB2040 Challenges, aim to do that this week. Solutions (schematics and Circuit Python code) will be posted mid-week.
  
-Learning goal for Week 10:
+**Learning goal for Week 10:**
 - Continue gaining familiarity with motor control, digital and analog input, and CircuitPython programming.
 - Build engineering ethics fluency by exploring the impact of electronic technologies on various stakeholders, including in environmental and societal contexts.
  
-Course website (andnowforelectronics.com) pages to study in Week 10:
-- Project 4 description
-- KB2040 Challenges, Set 2
-- Stepper motors
-- State machine code
+**Course website (andnowforelectronics.com) pages to study in Week 10:**
+- [Project 4 description](http://andnowforelectronics.com/logistics/projects/)
+- [KB2040 Challenges, Set 2](http://andnowforelectronics.com/notes/kb2040-challenges/)
+- [Stepper motors](http://andnowforelectronics.com/notes/motors/#stepper-motors)
+- [State machine code](http://andnowforelectronics.com/notes/kb2040-programming/#state-machine-code)
 
-Resources for Project 4:
-- Where can you find example code for programming KB2040 inputs and outputs?
+**Resources for Project 4:**
+*Where can you find example code for programming KB2040 inputs and outputs?*
 - ME 30 website's KB2040 Programming page: http://andnowforelectronics.com/notes/kb2040-programming/
 - Solutions to KB2040 Challenges Set 1: http://andnowforelectronics.com/notes/kb2040-challenges/
 - Adafruit’s CircuitPython Essentials site: https://learn.adafruit.com/circuitpython-essentials/circuitpython-essentials
 
-- Where can you get ideas on out how to convert the motor shaft’s rotational motion into other useful motion?
+*Where can you get ideas on out how to convert the motor shaft’s rotational motion into other useful motion?*
 - “Chapter 8: Combining Simple Machines for Work and Fun” in Making Things Move (Dustyn Roberts), available online to Tufts students from Tisch Library
 - 507 Mechanical Movements: http://507movements.com/toc.html
 - LEGO Technic Mechanisms (you can take inspiration from these even when not building with LEGO): https://www.hispabrickmagazine.com/pdfs/HBM017_EN/HBM017_EN-52-54.pdf
