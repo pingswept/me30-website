@@ -21,12 +21,8 @@ sudo apt install python3-pip
 Then you can install lots of fun stuff.
 
 ```
-sudo pip install RPi.GPIO
+sudo apt install python3-rpi.gpio
 ```
-
-If you get an error when you try to install GPIO using PIP, try using APT instead: 
-
-`sudo apt install python3-rpi.gpio` 
 
 ### **How do I write, edit, and save pieces of code on my Raspberry Pi?**  
 **nano text editor**
