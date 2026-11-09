@@ -423,9 +423,9 @@ Suppose you want to check for the state of inputs while also running motors, lig
 
 In particular, try to do these three tasks at once:
 
-1. flash an LED ("led_1" in the code), 3 seconds on, 3 seconds off.
+1. toggle an LED ("led_1" in the code) on and off, 3 seconds on, 3 seconds off. Let's say this LED is green.
 2. constantly check for a button press that sets an input pin HIGH.
-3. flash a *different* LED ("led_2" in the code) when the button is pressed.
+3. when the button is pressed, flash a *different* LED ("led_2" in the code; let's say it's red).
 
 ### The naive approach
 
