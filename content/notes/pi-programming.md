@@ -316,7 +316,7 @@ If Supervisor can't start Flask for whatever reason, it will write error message
 
 ### **How can I read data from my Pi's serial port?**
 
-One way to transfer data between devices is through a serial port, such as a USB port. This is what you're doing when you plug a KB2040 into your computer - it's talking to your computer through the port. We can do the same with our Raspberry Pi. This may be a useful tool for your Project 6 so your KB2040 can communicate directly with your Pi. On the KB2040 side, all you need is code that serial prints your data. You want to make sure it sends a new line for every new piece of data. Luckily, this is the default when using a `print` command.
+One way to transfer data between devices is through a serial port, such as a USB port. This is what you're doing when you plug a KB2040 into your computer - it's talking to your computer through the port. We can do the same with our Raspberry Pi. This may be a useful tool for your Project 5 so your KB2040 can communicate directly with your Pi. On the KB2040 side, all you need is code that serial prints your data. You want to make sure it sends a new line for every new piece of data. Luckily, this is the default when using a `print` command.
 
 On the Raspberry Pi side, you first must determine what the port is named. Most Pi's give the USB port a name like `/dev/ttyACM0`, but some call it `/dev/ttyUSB0` or `/dev/ttyS0`. If you plug in to the second or third USB port, you might get something like `/dev/ttyACM3`. The command to list these ports is `ls dev/tty* `. Try running it with the KB2040 plugged in, then run it again when unplugged and see which port disappears.
 
