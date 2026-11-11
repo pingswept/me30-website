@@ -185,6 +185,7 @@ while True:
 
 
 {{< expand "See CircuitPython code for H-bridge and Set 2" "..." >}}
+```python
 ###############################
 
 #H-bridge Challenge
@@ -295,7 +296,7 @@ while True:
     time.sleep(0.1)
 
 ###############################
-
+```
 
 
 
