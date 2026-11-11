@@ -165,7 +165,7 @@ while True:
 
 {{< /expand >}}
 
-<!--
+
 ### Solutions for H-bridge and Set 2
 
 {{< expand "See the schematic diagrams for Set 2" "..." >}}
@@ -185,19 +185,121 @@ while True:
 
 
 {{< expand "See CircuitPython code for H-bridge and Set 2" "..." >}}
+###############################
 
-![Code for 8](/img/challenge8py.jpg)
+#H-bridge Challenge
 
-![Code for 9](/img/challenge9py.jpg)
+import digitalio
+import time
+import board
 
-![Code for 10](/img/challenge10py.jpg)
+diagonal1 = digitalio.DigitalInOut(board.D5)
+diagonal1.direction = digitalio.Direction.OUTPUT
 
-![Code for 11](/img/challenge11py.jpg)
+diagonal2 = digitalio.DigitalInOut(board.D6)
+diagonal2.direction = digitalio.Direction.OUTPUT
 
-![Code for H-bridge](/img/challenge-hbridgepy.jpg)
+while True:
+    diagonal1.value = False
+    diagonal2.value = True
+    time.sleep(5)
+
+    diagonal2.value = False
+    diagonal1.value = True
+    time.sleep(5)
+
+###############################
+
+#Challenge 7
+
+import time
+import board
+import pwmio
+
+gate = pwmio.PWMOut(board.D9, frequency=500, duty_cycle=0)
+
+i = 1
+# declaring a counter variable
+
+while True:
+    while i < 51:
+        gate.duty_cycle = int(65535*(i/50))
+        print(gate.duty_cycle)
+        # int command converts decimal to integer
+        # for PWM on the KB2040, 65535 means 100% pulse width
+        time.sleep(0.1)
+        # choosing 0.1 sec as the duration for each motor speed level
+        # if each speed level lasts for 0.1 sec, we need 50 levels to
+        # last for 5 seconds
+        i = i+1
+        print(i)
+    i = 50
+    while i > 0:
+        gate.duty_cycle = int(65535*(i/50))
+        time.sleep(0.1)
+        i = i-1
+
+###############################
+
+#Challenge 8
+
+import time
+import board
+import analogio
+
+inputvoltage = analogio.AnalogIn(board.A0)
+
+while True:
+    print((inputvoltage.value,))
+    time.sleep(0.1)
+
+###############################
+
+#Challenges 9 & 10
+
+import time
+import board
+import analogio
+import pwmio
+
+gate = pwmio.PWMOut(board.D6, frequency=500, duty_cycle=0)
+
+inputvoltage = analogio.AnalogIn(board.A0)
+MAX_VOLTAGE = 1000
+# this max value determined experimentally
+# by testing input sensor in challenge 8
+
+while True:
+    print((inputvoltage.value,))
+    gate.duty_cycle = int(65535*(inputvoltage.value/MAX_VOLTAGE))
+    # for PWM on the KB2040, 65535 means 100% pulse width
+    time.sleep(0.1)
+
+###############################
+
+#Challenge 11
+
+import digitalio
+import time
+import board
+
+button = digitalio.DigitalInOut(board.D5)
+button.direction = digitalio.Direction.INPUT
+
+gate = digitalio.DigitalInOut(board.D6)
+gate.direction = digitalio.Direction.OUTPUT
+
+while True:
+    print(button.value)
+    gate.value = button.value
+    time.sleep(0.1)
+
+###############################
+
+
 
 
 {{< /expand >}}
--->
+
 
 [^1]: If you're like Kristen and didn't get this cultural reference, here's an explanation: https://knowyourmeme.com/memes/i-for-one-welcome-our-new-insect-overlords
