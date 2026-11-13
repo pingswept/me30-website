@@ -3,10 +3,7 @@ title: "Projects"
 draft: false
 ---
 
-<!--# Projects 5 and 6: Build an intrepid robot that cooperates with another robot to balance two payloads
-
-Projects 5 and 6 are, in a sense, one mega-project. In the first part, P5, you and your team build a robot. In the second part, P6, you and your team modify the robot to deliver a payload under specific diabolical constraints.
-
+<!--
 ## Requirements for project 6
 ### With another robot, measure and balance two payloads
 
@@ -33,18 +30,21 @@ The seesaw is marked with measurements showing the distance from the central piv
 * You can choose when you want the seesaw stops released, but both stops must be released at the same time.
 * You can reposition your payload if your robot can manage to do that.
 
+# Project 5: Build an intrepid gantry robot that can lift a mighty load
+
+Project 5 has 2 stages. In the first stage, you and your team build a robot that can drive along a rail while carrying a payload. In the second stage, you and your team modify the robot to deliver a payload under specific diabolical constraints. You will need to add a weight sensor as well as a means of raising and lowering the payload while the robot travels.
+
 ## Requirements for project 5
 ### Build an intrepid robot that can carry a hefty payload
 
-**Due date: Tuesday, December 2, 11:59 PM**
+**Due date: Tuesday, December 10, 11:59 PM**
 
-This is a relatively constrained project compared to the vast open field of P4. Your task is to build a robot that can drive on level surfaces while carrying a payload, controlled remotely by you.
+This is a relatively constrained project compared to the vast open field of P4. Your task is to build a robot that can drive back and forth along a rail while carrying a payload, controlled remotely by you.
 
-* Your robot should fit in a circle 45 cm in diameter.
-* Your robot should be less than 45 cm tall.
-* Your robot should be able to carry a hefty payload, as shown in the diagram below. By Project 6, your robot will need to be able to lift the payload on its own, high enough to carry it.
-* Your robot should still be able to maneuver while carrying the payload. Specifically, it should not tip over.
-* This is a tricky requirement: for P6, your robot will need to measure the mass of the payload it is carrying, using a [load cell](http://andnowforelectronics.com/notes/amplification/). For P5, you need only to include the load cell in your lifting mechanism; you don't have to connect it yet. (And for P5 it's okay if your lifting mechanism isn't working yet. You can place the payload manually on your robot arm.)
+* Your robot should fit in a cube 50 cm on a side.
+* Your robot should be able to carry a hefty payload, as shown in the diagram below. In the second stage, your robot will need to be able to lift the payload 1.2 m on its own.
+* Your robot should be able to drive along the rail while carrying the payload. Specifically, it should not tip over or fall off the rail.
+* This is a tricky requirement: for **stage 2**, your robot will need to measure the mass of the payload it is carrying, using a [load cell](http://andnowforelectronics.com/notes/amplification/). For **stage 1**, you need only to include the load cell in your lifting mechanism; you don't have to connect it yet. (For stage 1, it's okay if your lifting mechanism isn't working yet. You can attach the payload manually to your robot.)
 * You should not touch your robot during its adventures. This probably means that your robot should be remote controlled.
 * You should not use an RC car controller. This probably means that your robot should be controlled through wifi to your Raspberry Pi from a laptop or phone.
 * Your robot cannot fly. (We don't have the space to test drones safely, unfortunately.)
@@ -52,20 +52,21 @@ This is a relatively constrained project compared to the vast open field of P4. 
 
 Here's the environment in which your robot will be operating. It will be constructed in Nolop.
 
-![loading docks for your robot](/img/p5-robot-loading-docks.jpg)
+![gantry for your robot](/img/p5-gantry.jpg)
+
+![gantry clear zone](/img/gantry-clear-zone.jpg)
 
 ### Payload specifications ###
 
 * Maximum weight: 1 kg +/-10%
-* CAD model of the payload available here: https://cad.onshape.com/documents/dc378c67d38d4fa845a7e22c/w/e9e96efc287cc2ab77fdccee/e/9c0f0d79fea43c7bbd834401?renderMode=0&uiState=6916591057b57914d88f4236
+* CAD model of the payload available here: **add CAD link here**
 
-By the due date, your team should video-record your robot doing a test drive on a basic course set up in Nolop: drive up to a loading dock, place the payload on your arm, and drive to another loading dock. If your robot meets the requirements above, it will do fine. The payload and a loading dock will be available in Nolop for testing.
+By the due date, your team should record your robot doing a test drive on one of the gantries set up in Nolop: approach the payload, attach the payload to your robot, and drive along the gantry at least 1 m. If your robot meets the requirements above, it will do fine. The payload and two identical gantries will be available in Nolop for testing.
 
 ### Materials each team will be given ###
 
 * A load cell (actually, one per team member, but you only need one) (see our [Sensor Amplification](http://andnowforelectronics.com/notes/amplification/) page to learn how to use it)
-* A steel bar, approximately 12.5 x 3.2 x 460 mm, easily stiff enough to carry the payload, with a little hook in the end
-
+* A steel bar, approximately 12.5 x 3.2 x 460 mm, easily stiff enough to carry the payload
 **Project planning resource:** We suggest discussing this [list of P5 planning questions](https://tufts.box.com/s/hlqcn23zkwx6yiuc023vse852xru5tlf) with your team. 
 
 ### **Batteries for projects 5 and 6**
