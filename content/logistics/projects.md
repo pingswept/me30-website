@@ -52,9 +52,9 @@ This is a relatively constrained project compared to the vast open field of P4. 
 
 Here's the environment in which your robot will be operating. It will be constructed in Nolop.
 
-![gantry for your robot](/img/p5-gantry.jpg)
+![gantry for your robot](/img/p5-gantry.png)
 
-![gantry clear zone](/img/gantry-clear-zone.jpg)
+![gantry clear zone](/img/gantry-clear-zone.png)
 
 ### Payload specifications ###
 
