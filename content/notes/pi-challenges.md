@@ -5,7 +5,7 @@ draft: false
 
 ## Raspberry Pi challenges
 
-1-page summary of basic Raspi commands: https://tufts.app.box.com/file/2048172618649
+1-page summary of basic Raspi commands: https://tufts.box.com/s/gn332giosk4yscsczgs6cj2eih8ic9y1
 
 1. Boot the Pi and log in.
 2. Create a new directory called `fun-stuff`.
