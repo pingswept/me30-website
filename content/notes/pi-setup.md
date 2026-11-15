@@ -38,8 +38,7 @@ There are more details about the console cable if you need them in [Adafruit's c
   <li><input type="checkbox"> Set "Storage" to be your microSD card. You can identify it by its size, which is probably 32 GB.
   <li><input type="checkbox"> Click "Next" and then complete the following "Customisation" steps.
   <li><input type="checkbox"> `Choose hostname` --> This can be anything of your choice. </li>
-    <li><input type="checkbox"> `Localisation` --> Washington, D.C./America/New York </li>
-
+  <li><input type="checkbox"> `Localisation` --> Washington, D.C./America/New York </li>
   <li><input type="checkbox"> `Choose username` --> Set the username as <code>pi</code> and set the password to <code>ME30</code>.</li>
   <li><input type="checkbox"> `Choose Wi-Fi` --> Choose "OPEN NETWORK" and set the SSID to "Tufts_Wireless."</li>
   <li><input type="checkbox"> `SSH authentication` --> Enable SSH and "Use password authentication." </li>
