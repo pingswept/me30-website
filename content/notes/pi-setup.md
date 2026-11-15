@@ -48,6 +48,12 @@ There are more details about the console cable if you need them in [Adafruit's c
   <li><input type="checkbox"> Use a text editor to open **config.txt** on the microSD card. Edit it by adding a new last line: <code>enable_uart=1</code>. This is how you enable the Pi to communicate over the serial cable.</li>
 </ul>
 
+
+## What the Imager should look like
+
+![Raspberry Pi Imager OS selection](/img/pi-imager-os-selection.png)
+
+
 ## Setup checklist 2: Connect to your Pi via serial console cable, and find out your Pi's MAC address
 
 ### Mac laptops
@@ -101,51 +107,22 @@ Once you have your Pi connected to the wireless network, you can log into it thr
 - You should be prompted for your Pi's password, and then you should be logged in!  No serial cable necessary!
 - Move on to the [Raspberry Pi programming](http://andnowforelectronics.com/notes/pi-programming/) page to learn how to install Python and run commands.
 
-## Setup for Tufts_Secure
-
-**Not needed if your Pi is already connected to Tufts_Wireless**
-
-Use the Nano text editor (opened within the Terminal window) to edit the file at **/etc/wpa_supplicant/wpa_supplicant.conf.** 
-
-- To open this file in the Nano text editor, type the command <code>sudo nano /etc/wpa_supplicant/wpa_supplicant.conf</code> into the Terminal window where you've logged into your Pi.
-- The <code>sudo</code> part sets you as a "super user" with permission to edit the file. Add the text from the gray box below - with the password inserted - to the wpa_supplicant.conf file.
-- Ask an instructor or LA or friend for the Nolop_IOT password; we try to avoid publishing passwords on the internet.
-- The purpose of the text below is to tell your Raspberry Pi to log into the Tufts_Secure network under the username "Nolop_IOT," which the Tufts IT department created just for class purposes like this one. It is okay for many users to be logged in under this Tufts_Secure account.
-- After you've edited the wpa_supplicant.conf file, when you next boot up your Pi, it should log in to Tufts_Secure and be given an IP address. Type `hostname -I` to print the IP address of your Pi.
-
-### Network settings for Tufts_Secure
-
-```
-network={
-    ssid="Tufts_Secure"
-    key_mgmt=WPA-EAP
-    pairwise=CCMP
-    eap=PEAP
-    identity="Nolop_IOT"
-    password="YOU PUT THE PASSWORD HERE IN QUOTES"
-    phase2="auth=MSCHAPV2"
-}
-```
-
-
-## What the Imager should look like
-
-![Raspberry Pi Imager OS selection](/img/pi-imager-os-selection.png)
-
-## The OS customization options you should pick
-
-Make sure you set the password for the user `pi`. You should probably write it down somewhere else too.
-
-You should also enable SSH, but you could also do that later with the command <code>sudo raspi-config</code>.
-
-![Raspberry Pi Imager options](/img/pi-imager-options.png)
-
 
 ## FAQ
 
 ### **How do I turn off my Pi?**
 
 Type the command `sudo shutdown`
+
+### **What do the pin numbers correspond to?**
+
+All the most recent Pi's share a standard pin format. Below is a handy guide. [This site](https://pinout.xyz/) is also an excellent resource for reference.
+
+![RPi pinout](/img/raspberry-pi-pinout.png)
+
+### **Tutorials from the Raspberry Pi Foundation on using the GPIO pins:**
+
+https://projects.raspberrypi.org/en/projects/physical-computing/1
 
 
 ### **What if I forgot to choose Tufts_Wireless as my network when I imaged my SD card?**
@@ -177,12 +154,34 @@ On Linux it's called `/dev/ttyACM0`, but the number will depend on how many USB 
 
 Use a better text editor, like [Sublime Text](https://www.sublimetext.com/), [Textmate](https://macromates.com/), or [Notepad++](https://notepad-plus-plus.org/). You could also try Wordpad.
 
-### **What do the pin numbers correspond to?**
 
-All the most recent Pi's share a standard pin format. Below is a handy guide. [This site](https://pinout.xyz/) is also an excellent resource for reference.
 
-![RPi pinout](/img/raspberry-pi-pinout.png)
 
-Tutorials from the Raspberry Pi Foundation on using the GPIO pins:
+## Setup for Tufts_Secure
 
-https://projects.raspberrypi.org/en/projects/physical-computing/1
+**Not needed if your Pi is already connected to Tufts_Wireless**
+
+Use the Nano text editor (opened within the Terminal window) to edit the file at **/etc/wpa_supplicant/wpa_supplicant.conf.** 
+
+- To open this file in the Nano text editor, type the command <code>sudo nano /etc/wpa_supplicant/wpa_supplicant.conf</code> into the Terminal window where you've logged into your Pi.
+- The <code>sudo</code> part sets you as a "super user" with permission to edit the file. Add the text from the gray box below - with the password inserted - to the wpa_supplicant.conf file.
+- Ask an instructor or LA or friend for the Nolop_IOT password; we try to avoid publishing passwords on the internet.
+- The purpose of the text below is to tell your Raspberry Pi to log into the Tufts_Secure network under the username "Nolop_IOT," which the Tufts IT department created just for class purposes like this one. It is okay for many users to be logged in under this Tufts_Secure account.
+- After you've edited the wpa_supplicant.conf file, when you next boot up your Pi, it should log in to Tufts_Secure and be given an IP address. Type `hostname -I` to print the IP address of your Pi.
+
+### Network settings for Tufts_Secure
+
+```
+network={
+    ssid="Tufts_Secure"
+    key_mgmt=WPA-EAP
+    pairwise=CCMP
+    eap=PEAP
+    identity="Nolop_IOT"
+    password="YOU PUT THE PASSWORD HERE IN QUOTES"
+    phase2="auth=MSCHAPV2"
+}
+```
+
+
+
