@@ -36,13 +36,16 @@ There are more details about the console cable if you need them in [Adafruit's c
   <li><input type="checkbox"> In the Imager, set "Raspberry Pi Device" to "Raspberry Pi 4".</li>
   <li><input type="checkbox"> Choose the image "Raspberry Pi OS (other)" --> "Raspberry Pi OS Lite (64-bit)"</li>
   <li><input type="checkbox"> Set "Storage" to be your microSD card. You can identify it by its size, which is probably 32 GB.
-  <li><input type="checkbox"> Click "Next" and then "Edit Settings" in the "Use OS Customisation?" pop-up.
-  <li><input type="checkbox"> In the "General" tab, set the username as <code>pi</code> and set the password to <code>ME30</code>.</li>
-  <li><input type="checkbox"> Also in the "General" tab, check the "Configure wireless LAN" box and set the SSID to "Tufts_Wireless."</li>
-  <li><input type="checkbox"> In the "Services" tab, enable SSH. </li>
+  <li><input type="checkbox"> Click "Next" and then complete the following "Customisation" steps.
+  <li><input type="checkbox"> `Choose hostname` --> This can be anything of your choice. </li>
+    <li><input type="checkbox"> `Localisation` --> Washington, D.C./America/New York </li>
+
+  <li><input type="checkbox"> `Choose username` --> Set the username as <code>pi</code> and set the password to <code>ME30</code>.</li>
+  <li><input type="checkbox"> `Choose Wi-Fi` --> Choose "OPEN NETWORK" and set the SSID to "Tufts_Wireless."</li>
+  <li><input type="checkbox"> `SSH authentication` --> Enable SSH and "Use password authentication." </li>
   <li><input type="checkbox"> <b>The moment of truth!</b> Erase the card and write the new OS to the card.</li>
   <li><input type="checkbox"> Eject the SD card and then re-insert it into your laptop.</li>
-  <li><input type="checkbox"> Edit config.txt on the microSD card to include on the last line: <code>enable_uart=1</code></li>
+  <li><input type="checkbox"> Use a text editor to open **config.txt** on the microSD card. Edit it by adding a new last line: <code>enable_uart=1</code>. This is how you enable the Pi to communicate over the serial cable.</li>
 </ul>
 
 ## Setup checklist 2: Connect to your Pi via serial console cable, and find out your Pi's MAC address
@@ -53,8 +56,7 @@ There are more details about the console cable if you need them in [Adafruit's c
   <li><input type="checkbox"> Connect the Pi to your laptop with the console cable</li>
   <li><input type="checkbox"> Put the microSD card in slot of Pi</li>
   <li><input type="checkbox"> Open Applications > Utilities > Terminal (macOS)</li>
-  <li><input type="checkbox"> In Terminal, run <code>ls /dev</code> and find the entry that says <code>tty.usbserial-[some numbers]</code>.</li> 
-  <li><input type="checkbox"> Record the numbers you see after "usbserial." Then run <code>screen /dev/tty.usbserial-[those numbers] 115200</code> </li>
+  <li><input type="checkbox"> Run <code>screen /dev/tty.usbserial-0001 115200</code> </li>
   <li><input type="checkbox"> Connect USB-C power cable. Wait a minute or so for the Pi to boot up</li>
   <li><input type="checkbox"> Log in with the username <code>pi</code> and password you set using the Imager </li>
   <li><input type="checkbox"> To figure out the Pi's MAC address, type the command <code>ifconfig</code>. Be sure you get the MAC for <code>wlan0</code>, not <code>eth0</code>. As shown in the screenshot below, the MAC address is something like <code>e4:5f:01:3b:33:fb</code> and appears after the word <code>ether</code>.</li>
@@ -97,7 +99,7 @@ Once you have your Pi connected to the wireless network, you can log into it thr
 - Open a new terminal window.
 - Type `ssh your_Pi_username@ip_address_of_your_Pi`
 - You should be prompted for your Pi's password, and then you should be logged in!  No serial cable necessary!
-
+- Move on to the [Raspberry Pi programming](http://andnowforelectronics.com/notes/pi-programming/) page to learn how to install Python and run commands.
 
 ## Setup for Tufts_Secure
 
