@@ -60,9 +60,8 @@ There are more details about the console cable if you need them in [Adafruit's c
 <ul style="list-style: none;">
   <li><input type="checkbox"> Connect the Pi to your laptop with the console cable</li>
   <li><input type="checkbox"> Put the microSD card in slot of Pi</li>
-  <li><input type="checkbox"> Power up the Raspberry Pi with the USB C power supply from your kit.</li>
   <li><input type="checkbox"> Open Applications > Utilities > Terminal (macOS)</li>
-  <li><input type="checkbox"> Run <code>screen /dev/tty.usbserial-0001 115200</code> </li>
+  <li><input type="checkbox"> Run <code>screen /dev/tty.usbserial-0001 115200</code> (Nothing will happen until the next step.)</li>
   <li><input type="checkbox"> Connect USB-C power cable. Wait a minute or so for the Pi to boot up</li>
   <li><input type="checkbox"> Log in with the username <code>pi</code> and password you set using the Imager </li>
   <li><input type="checkbox"> To figure out the Pi's MAC address, type the command <code>ifconfig</code>. Be sure you get the MAC for <code>wlan0</code>, not <code>eth0</code>. As shown in the screenshot below, the MAC address is something like <code>e4:5f:01:3b:33:fb</code> and appears after the word <code>ether</code>.</li>
