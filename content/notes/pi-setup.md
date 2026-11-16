@@ -28,7 +28,7 @@ To connect the console cable, look at this diagram.
 
 There are more details about the console cable if you need them in [Adafruit's console cable tutorial](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-5-using-a-console-cable/overview). If you want to go deeper on how console cables and terminals work, try the [Sparkfun tutorial](https://learn.sparkfun.com/tutorials/terminal-basics/all).
 
-## Setup checklist 1: "Image" the OS to the SD card
+## Setup checklist 1: Copy the OS to the SD card
 
 <ul style="list-style: none;">
   <li><input type="checkbox"> Install the Raspberry Pi Imager from <a href="https://www.raspberrypi.com/software/">the Raspberry Pi Software page</a></li>
