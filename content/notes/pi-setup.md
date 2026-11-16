@@ -60,6 +60,7 @@ There are more details about the console cable if you need them in [Adafruit's c
 <ul style="list-style: none;">
   <li><input type="checkbox"> Connect the Pi to your laptop with the console cable</li>
   <li><input type="checkbox"> Put the microSD card in slot of Pi</li>
+  <li><input type="checkbox"> Power up the Raspberry Pi with the USB C power supply from your kit.</li>
   <li><input type="checkbox"> Open Applications > Utilities > Terminal (macOS)</li>
   <li><input type="checkbox"> Run <code>screen /dev/tty.usbserial-0001 115200</code> </li>
   <li><input type="checkbox"> Connect USB-C power cable. Wait a minute or so for the Pi to boot up</li>
