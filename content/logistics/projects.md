@@ -31,19 +31,21 @@ The seesaw is marked with measurements showing the distance from the central piv
 * You can reposition your payload if your robot can manage to do that.
 -->
 
-# Project 5: Build an intrepid gantry robot that can lift a mighty load
+# Project 5: Build an intrepid gantry robot that can lift a hefty payload
 
 Project 5 has 2 stages. In the first stage, you and your team build a robot that can drive along a rail while carrying a payload. In the second stage, you and your team modify the robot to deliver a payload under specific diabolical constraints. For the second stage you will need to add a weight sensor as well as a means of raising and lowering the payload while the robot travels.
 
 ## Requirements for project 5
-### Build an intrepid robot that can carry a hefty payload
 
-**Due date: Tuesday, December 10, 11:59 PM**
+**Stage 1 due date: Tuesday, December 10, 11:59 PM**
+
+**Stage 2 due date: Friday, December 18, 5:00 PM**
 
 This is a relatively constrained project compared to the vast open field of P4. Your task is to build a robot that can drive back and forth along a rail while carrying a payload, controlled remotely by you.
 
 * Your robot should fit in a cube 50 cm on a side.
-* Your robot should be able to carry a hefty payload, as shown in the diagram below. In the second stage, your robot will need to be able to lift the payload 1.2 m on its own.
+* Your robot should be able to carry a hefty payload, as shown in the diagram below. In the second stage, your robot will need to be able to lift and lower the payload 1.2 m on its own.
+* (Your robot will never need to grasp the payload. You can use a simple hook that you attach to the payload by hand. Adding a remote gripper to this would be too complex.)
 * Your robot should be able to drive along the rail while carrying the payload. Specifically, it should not tip over or fall off the rail.
 * This is a tricky requirement: for **stage 2**, your robot will need to measure the mass of the payload it is carrying, using a [load cell](http://andnowforelectronics.com/notes/amplification/). For **stage 1**, you need only to include the load cell in your lifting mechanism; you don't have to connect it yet. (For stage 1, it's okay if your lifting mechanism isn't working yet. You can attach the payload manually to your robot.)
 * You should not touch your robot during its adventures. This probably means that your robot should be remote controlled.
