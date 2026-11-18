@@ -6,6 +6,7 @@ draft: false
 ## Raspberry Pi challenges
 
 1-page summary of basic Raspi commands: https://tufts.box.com/s/gn332giosk4yscsczgs6cj2eih8ic9y1
+Full notes on Raspi progamming: http://andnowforelectronics.com/notes/pi-programming/
 
 1. Boot the Pi and log in.
 2. Create a new directory called `fun-stuff`.
@@ -16,3 +17,4 @@ draft: false
 7. Write a Python 3 script to change the speed of your motor using PWM.
 8. Install Flask and start it running.
 9. Modify your Flask instance so when you request the URL `http://IP_ADDRESS_OF_YOUR_PI:5000/runmotor`, your motor turns on.
+
