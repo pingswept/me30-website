@@ -44,7 +44,7 @@ Project 5 has 2 stages. In the first stage, you and your team build a robot that
 This is a relatively constrained project compared to the vast open field of P4. Your task is to build a robot that can drive back and forth along a rail while carrying a payload, controlled remotely by you.
 
 * Your robot should fit in a cube 50 cm on a side.
-* Your robot should be able to carry a hefty payload, as shown in the diagram below. In the second stage, your robot will need to be able to lift and lower the payload 1.2 m on its own.
+* Your robot should be able to carry a hefty payload (max 1kg), as shown in the diagram below. In the second stage, your robot will need to be able to lift and lower the payload 1.2 m on its own.
 * (Your robot will never need to grasp the payload. You can use a simple hook that you attach to the payload by hand. Adding a remote gripper to this would be too complex.)
 * Your robot should be able to drive along the rail while carrying the payload. Specifically, it should not tip over or fall off the rail.
 * This is a tricky requirement: for **stage 2**, your robot will need to measure the mass of the payload it is carrying, using a [load cell](http://andnowforelectronics.com/notes/amplification/). For **stage 1**, you need only to include the load cell in your lifting mechanism; you don't have to connect it yet. (For stage 1, it's okay if your lifting mechanism isn't working yet. You can attach the payload manually to your robot.)
@@ -74,7 +74,7 @@ By the due date, your team should record your robot doing a test drive on one of
 * A steel bar, approximately 1/8 x 1/2 x 18 inches, easily stiff enough to carry the payload
 * A short piece of aluminum extrusion to make mounting stuff to the end of y9ur steel bar easier
 
-**Project planning resource:** We suggest discussing this [list of P5 planning questions](https://tufts.box.com/s/hlqcn23zkwx6yiuc023vse852xru5tlf) with your team. 
+**Project planning resource:** We suggest discussing this [list of P5 planning questions](https://tufts.box.com/s/5f51nkdrad3bjuqgnf9fsayk131at0b3) with your team. 
 
 ### Batteries
 
