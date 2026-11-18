@@ -70,16 +70,17 @@ By the due date, your team should record your robot doing a test drive on one of
 
 * A load cell (actually, one per team member, but you only need one) (see our [Sensor Amplification](http://andnowforelectronics.com/notes/amplification/) page to learn how to use it)
 * A steel bar, approximately 1/8 x 1/2 x 18 inches, easily stiff enough to carry the payload
+* A short piece of aluminum extrusion to make mounting stuff to the end of y9ur steel bar easier
 
 **Project planning resource:** We suggest discussing this [list of P5 planning questions](https://tufts.box.com/s/hlqcn23zkwx6yiuc023vse852xru5tlf) with your team. 
 
-### **Batteries**
+### Batteries
 
 For portable power, Nolop has 5 V batteries (for the Raspberry Pis) and 9 V and 11 V batteries (for motors). For motors, you can also forego the batteries and use an extension cord to your 12 V power adapter.
 
 ![battery safety](/img/11volt_battery_safety.jpg)
 
-### **H-bridges**
+### H-bridges
 
 The goal is for you to use your Project 3 H-bridge PCBs for your robot motor control. However, as a last resort, if no one on your team can get their P3 PCBs to work, you can find a dual-H-bridge PCB (called an L298N motor driver) in the Nolop store.
 
@@ -87,7 +88,7 @@ Please see the sketch below for details on how to wire the L298N dual H-bridge.
 
 ![L298N wiring](/img/L298_Wiring.jpg)
 
-### **More details**
+### More details
 
 * See the [Raspberry Pi setup](http://andnowforelectronics.com/notes/pi-setup/) page to learn how to control your Pi via serial cable and the Internet.
 * See the [Raspberry Pi programming](http://andnowforelectronics.com/notes/pi-programming/) page for snippets of Python code to control the pins on your Pi. 
