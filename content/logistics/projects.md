@@ -29,10 +29,11 @@ The seesaw is marked with measurements showing the distance from the central piv
 * If your robot fails at first, you can try again.
 * You can choose when you want the seesaw stops released, but both stops must be released at the same time.
 * You can reposition your payload if your robot can manage to do that.
+-->
 
 # Project 5: Build an intrepid gantry robot that can lift a mighty load
 
-Project 5 has 2 stages. In the first stage, you and your team build a robot that can drive along a rail while carrying a payload. In the second stage, you and your team modify the robot to deliver a payload under specific diabolical constraints. You will need to add a weight sensor as well as a means of raising and lowering the payload while the robot travels.
+Project 5 has 2 stages. In the first stage, you and your team build a robot that can drive along a rail while carrying a payload. In the second stage, you and your team modify the robot to deliver a payload under specific diabolical constraints. For the second stage you will need to add a weight sensor as well as a means of raising and lowering the payload while the robot travels.
 
 ## Requirements for project 5
 ### Build an intrepid robot that can carry a hefty payload
@@ -50,40 +51,43 @@ This is a relatively constrained project compared to the vast open field of P4. 
 * Your robot cannot fly. (We don't have the space to test drones safely, unfortunately.)
 * Note: It would be a good idea to focus on making your robot drive effectively before you worry about any higher level mechanics or control through the internet.
 
-Here's the environment in which your robot will be operating. It will be constructed in Nolop.
+Here's the environment in which your robot will be operating. It has been constructed in Nolop.
 
 ![gantry for your robot](/img/p5-gantry.png)
+
+You can slide your robot over the end of the gantry. If you remove the tennis balls to do so, please replace them, so nobody gets gouged.
 
 ![gantry clear zone](/img/gantry-clear-zone.png)
 
 ### Payload specifications ###
 
-* Maximum weight: 1 kg +/-10%
-* CAD model of the payload available here: **add CAD link here**
+* Maximum weight: 1 kg +/-10% (actual payloads measured within 0.2% at current humidity)
+* Dimensions: cylinder, 1 inch in diameter, 18 inches in length
 
-By the due date, your team should record your robot doing a test drive on one of the gantries set up in Nolop: approach the payload, attach the payload to your robot, and drive along the gantry at least 1 m. If your robot meets the requirements above, it will do fine. The payload and two identical gantries will be available in Nolop for testing.
+By the due date, your team should record your robot doing a test drive on one of the gantries set up in Nolop: approach the payload, attach the payload to your robot, and drive along the gantry at least 1 m. If your robot meets the requirements above, it will do fine. The payload and two identical gantries are available in Nolop for testing.
 
 ### Materials each team will be given ###
 
 * A load cell (actually, one per team member, but you only need one) (see our [Sensor Amplification](http://andnowforelectronics.com/notes/amplification/) page to learn how to use it)
-* A steel bar, approximately 12.5 x 3.2 x 460 mm, easily stiff enough to carry the payload
+* A steel bar, approximately 1/8 x 1/2 x 18 inches, easily stiff enough to carry the payload
+
 **Project planning resource:** We suggest discussing this [list of P5 planning questions](https://tufts.box.com/s/hlqcn23zkwx6yiuc023vse852xru5tlf) with your team. 
 
-### **Batteries for projects 5 and 6**
+### **Batteries**
 
 For portable power, Nolop has 5 V batteries (for the Raspberry Pis) and 9 V and 11 V batteries (for motors). For motors, you can also forego the batteries and use an extension cord to your 12 V power adapter.
 
 ![battery safety](/img/11volt_battery_safety.jpg)
 
-### **H-bridges for projects 5 and 6**
+### **H-bridges**
 
 The goal is for you to use your Project 3 H-bridge PCBs for your robot motor control. However, as a last resort, if no one on your team can get their P3 PCBs to work, you can find a dual-H-bridge PCB (called an L298N motor driver) in the Nolop store.
 
-Please see the sketch below for details on how to wire the L298N dual H-bridge board.
+Please see the sketch below for details on how to wire the L298N dual H-bridge.
 
 ![L298N wiring](/img/L298_Wiring.jpg)
 
-### **More details for projects 5 and 6**
+### **More details**
 
 * See the [Raspberry Pi setup](http://andnowforelectronics.com/notes/pi-setup/) page to learn how to control your Pi via serial cable and the Internet.
 * See the [Raspberry Pi programming](http://andnowforelectronics.com/notes/pi-programming/) page for snippets of Python code to control the pins on your Pi. 
@@ -91,7 +95,7 @@ Please see the sketch below for details on how to wire the L298N dual H-bridge b
 * See the [web page buttons](http://andnowforelectronics.com/notes/pi-programming/#what-if-i-want-to-make-web-page-buttons-that-send-get-http-requests) section to see how to make a web page with buttons that send HTTP requests.
 * See the [Internet](http://andnowforelectronics.com/notes/internet/) page to find out how IP addresses work.
 
-### Team options for projects 5 and 6
+### Team options for project 5
 
 Option 1 – Work in a team of 2 or 3 chosen by you
 
@@ -99,7 +103,7 @@ Option 2 – Work in a team of 2 or 3 assigned to you by instructors
 We’ll pool all the people who would like to be assigned a partner and team you up. We might need to make a team of 3 depending on who is available. 
 
 Use [this survey](https://tufts.qualtrics.com/jfe/form/SV_0cAixyzuN8ok4br) to indicate your chosen teaming option (list your teammates or indicate you'd like to be placed on a team).
--->
+
 ## Project 4: Build an electromechanical FUN GAME
 
 Based on your work in project 2, your task is to refine your FU GAM into an actual FUN GAME with the following characteristics:
