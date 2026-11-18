@@ -561,7 +561,7 @@ And here's what the wiring should look like:
 
 See http://andnowforelectronics.com/notes/engineering-ethics-resources/ and worksheet handed out in class.
 
-## 32. Accessible design reflection (Class 21)
+## 32. Accessible design reflection (Class 20)
 
 Think about what kind of person could play your Project 4 game. 
 For example, consider how a disability (e.g., color blindness, other visual impairment, audio impairment) or a specific personal background (e.g., knowledge of a cultural reference) might influence someone’s opportunity to play or their enjoyment of playing. The goal of this exercise is not to prompt you to persuade us that your game is universally accessible. Instead, we are asking you to conduct an honest analysis of the usability of an engineered system by different potential users. 
