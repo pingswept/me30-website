@@ -568,6 +568,7 @@ For example, consider how a disability (e.g., color blindness, other visual impa
 
 - Who couldn’t play your game as fully as most people? 
 - Why?
+- What design changes could make your game more accessible to more people?
 
 
 ## 33. Raspberry Pi Flask set-up and challenges (Class 21)
