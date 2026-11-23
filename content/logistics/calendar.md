@@ -48,11 +48,11 @@ draft: false
 
 | Class | Date  | Class topics                  | Hands-on                   | What to study | What's due  |
 |:-----:|:-----:|-------------------------------|----------------------------|--------------------------------------------------------------------------|---------------------------------------------------------------|
-|   21  | 11/23 | Raspberry Pi programming      | Pi challenges              | [Raspberry Pi challenges](/notes/pi-challenges/)  |    | 
+|   21  | 11/23 | Raspberry Pi programming      | Pi challenges; P5 planning              | [Raspberry Pi challenges](/notes/pi-challenges/)  |    | 
 |       | 11/25 | NO CLASS                      | (Thanksgiving)             |           |        |
-|   22  | 11/30 | Sensor amplification; op-amps          | Amplify a strain gauge; measure with multimeter     | [I2C sensors](/notes/i2c/); [Sensor amplification](/notes/amplification)      |      |
-|   23  | 12/2  | Oscilloscopes                  | Oscilloscope sim; load cell de-bugging |       | Load cell FBD HW     |
-|   24  | 12/7  | How does the internet work?   | P5 work time               | [Internet](/notes/internet/); [Servers and clients](/notes/servers/)              | Op amp circuit HW  |
+|   22  | 11/30 | Sensor amplification; op-amps          | Amplify a strain gauge; measure with multimeter     | [Sensor amplification](/notes/amplification)      |      |
+|   23  | 12/2  | Oscilloscopes                  | Oscilloscope sim; load cell de-bugging |       | P5 Diagrams HW     |
+|   24  | 12/7  | How does the internet work?   | P5 work time               | [Internet](/notes/internet/); [Servers and clients](/notes/servers/)              | Op amp + load cell video HW  |
 |   25  | 12/9  | P5 Stage 2; semester concept review                 | P5 Stage 1 reflection                |          | [P5 stage 1](/logistics/projects) due Tues. night  |
 |   26  | 12/14 | Career trajectories | P5 Stage 2 Q & A                   |                               |         |
 |       | 12/16 | 12 to 2 PM - Project demo option 1       |                            |             |[P5 stage 2](/logistics/projects)|
