@@ -1,5 +1,5 @@
 ---
-title: "Class 18: Resources on Engineering Ethics"
+title: "Class 18: Resources on engineering ethics"
 draft: false
 ---
 # Class Articles on Ethical Issues in Electrical Manufacturing
